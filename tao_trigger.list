@@ -1,0 +1,143 @@
+#FORM2
+
+[÷˜π÷1]
+polar : -1
+life_effect : "300 + (LV / 10) * 20"
+phy_effect       : "50 + (LV / 30) * 10"
+mag_effect       : "50 + (LV / 30) * 10"
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+tao_effect : 15
+speed_effect : 15
+skills : ({ "B3", "B4" })
+tactics : "tactics_zhuguai_1"
+
+[÷˜π÷2]
+polar : -1
+life_effect : "300 + (LV / 10) * 20"
+phy_effect       : "50 + (LV / 30) * 10"
+mag_effect       : "50 + (LV / 30) * 10"
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+tao_effect : 15
+speed_effect : 15
+skills : ({ "D5", "C4" })
+tactics : "tactics_zhuguai_2"
+
+[÷˜π÷3]
+polar : -1
+life_effect : "300 + (LV / 10) * 20"
+phy_effect       : "50 + (LV / 30) * 10"
+mag_effect       : "50 + (LV / 30) * 10"
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+tao_effect : 15
+speed_effect : 15
+skills : ({ "B4", "lipo-qianjun" })
+tactics : "tactics_zhuguai_3"
+
+[∂“¡È]
+icon : 6201
+portrait : 6201
+name : «øµ¡
+polar : 1
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+mag_effect : "20 + (LV / 10) * 5"
+resist_metal : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[’¡È]
+icon : 6201
+portrait : 6201
+name : «øµ¡
+polar : 2
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+mag_effect : "20 + (LV / 10) * 5"
+resist_wood : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[ø≤¡È]
+icon : 6201
+portrait : 6201
+name : «øµ¡
+polar : 3
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+mag_effect : "20 + (LV / 10) * 5"
+resist_water : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[¿Î¡È]
+icon : 6202
+portrait : 6202
+name : «øµ¡
+polar : 4
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+mag_effect : "20 + (LV / 10) * 5"
+resist_fire : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[Ùﬁ¡È]
+icon : 6202
+portrait : 6202
+name : «øµ¡
+polar : 5
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+mag_effect : "20 + (LV / 10) * 5"
+resist_earth : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[∑Ë¡È]
+icon : 6202
+portrait : 6202
+name : «øµ¡
+polar : 0
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+speed_effect : 	-10
+phy_absorb : -50
+tactics : "tactics_physical"
+
+[±¨¡È]
+icon : 6202
+portrait : 6202
+name : «øµ¡
+polar : 0
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+mag_effect : "20 + (LV / 10) * 5"
+speed_effect : 	-10
+counter_attack_rate : 100
+counter_attack : 12
+tactics : "tactics_physical"
+
+[øÒ¡È]
+icon : 6202
+portrait : 6202
+name : «øµ¡
+polar : 0
+life_effect : "50 + (LV / 30) * 60"
+phy_effect : "20 + (LV / 10) * 5"
+mag_effect : "20 + (LV / 10) * 5"
+speed_effect : 	-10
+double_hit_rate : 100
+double_hit : 5
+tactics : "tactics_physical"

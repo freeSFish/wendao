@@ -1,0 +1,154 @@
+#FORM2
+
+[ÁúÍõ]
+name             : ÁúÍõ
+icon             : 6079
+portrait         : 6079
+level            : 124
+polar            : 1
+phy_effect       : 150
+mag_effect       : 100
+speed_effect     : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tao_effect       : 300
+skills           : ({ "B4", "B5", "C5", "lipo-qianjun" })
+
+[Ïº±ø1]
+name             : Ïº±ø
+icon             : 6163
+portrait         : 6163
+name_icons       : ({ "Ïº±ø(6163)", "Ð·½«(6164)" })
+level            : 124
+polar            : -1
+phy_effect       : 100
+mag_effect       : 100
+speed_effect     : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tao_effect       : 200
+skills           : ({ "B2", "B4", "D5" })
+
+[ÁúÌ«×Ó]
+name             : ÁúÌ«×Ó
+icon             : 6251
+portrait         : 6251
+level            : 124
+polar            : 2
+phy_effect       : 150
+mag_effect       : 100
+phy_absorb       : 20
+mag_absorb       : 20
+speed_effect     : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tao_effect       : 300
+skills           : ({ "B4", "B5", "C5", "lipo-qianjun" })
+
+[Ïº±ø2]
+name             : Ïº±ø
+icon             : 6163
+portrait         : 6163
+name_icons       : ({ "Ïº±ø(6163)", "Ð·½«(6164)" })
+level            : 124
+life_effect      : 2000
+polar            : -1
+phy_effect       : 100
+mag_effect       : 100
+speed_effect     : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tao_effect       : 200
+skills           : ({ "B2", "B4", "D5" })
+
+[Ð¡ºüÏÉ]
+name             : Ð¡ºüÏÉ
+icon             : 6175
+portrait         : 6175
+level            : 124
+life_effect      : 4500
+polar            : 2
+phy_effect       : 100
+mag_effect       : 100
+speed_effect     : 50
+resist_forgotten : 30
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 50
+tao_effect       : 300
+skills           : ({ "B2", "B4" })
+
+[÷¼÷ÃÕ½½«]
+name             : ÷¼÷ÃÕ½½«
+icon             : 6148
+portrait         : 6148
+name_icons       : ({ "÷¼÷ÃÕ½½«(6148)", "º¶µØÄ§(6226)" })
+level            : 124
+life_effect      : 3600
+polar            : -1
+phy_effect       : 200
+mag_effect       : 100
+phy_absorb       : 20
+mag_absorb       : 20
+speed_effect     : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tao_effect       : 200
+skills           : ({ "B4", "B5", "D5", "lipo-qianjun" })
+
+[»ÄÄ®Ö®Éñ]
+name             : »ÄÄ®Ö®Éñ
+icon             : 6278
+portrait         : 6278
+level            : 124
+life_effect      : 4600
+polar            : 1
+phy_effect       : 250
+mag_effect       : 200
+phy_absorb       : 50
+mag_absorb       : 50
+speed_effect     : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tao_effect       : 300
+skills           : ({ "B4", "B5", "D5", "lipo-qianjun" })
+
+[°µÒ¹Ä§]
+name             : °µÒ¹Ä§
+icon             : 6228
+portrait         : 6228
+name_icons       : ({ "°µÒ¹Ä§(6228)", "ÊÉÌìÄ§(6229)" })
+level            : 124
+life_effect      : 2800
+polar            : -1
+phy_effect       : 150
+mag_effect       : 100
+phy_absorb       : 0
+mag_absorb       : 0
+speed_effect     : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tao_effect       : 200
+skills           : ({ "B2", "B4" })

@@ -1,0 +1,804 @@
+#FORM2
+
+[¶ñ¹í-1]
+name                : ¶ñ¹í
+icon                : 260006141
+polar               : -1
+life_effect         : 500
+phy_effect          : 120
+mag_effect          : 100
+phy_absorb          : 50
+mag_absorb          : 0
+resist_forgotten    : 0
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_confusion    : 0
+tao_effect          : 0
+modify_formula      : "formula-1"
+egui                : 1
+b_skills            : ({ "B4"})
+b_skill_rate        : ({ 100 })
+tactics             : ({ "phy_attack", "b_mag_attack_ex" })
+tactics_rate        : ({ 50, 50 })
+
+[¶ñ¹í-2]
+name                : ¶ñ¹í
+icon                : 530006129
+polar               : -1
+life_effect         : 500
+phy_effect          : 120
+mag_effect          : 100
+phy_absorb          : 0
+mag_absorb          : 50
+resist_forgotten    : 0
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_confusion    : 0
+tao_effect          : 0
+modify_formula      : "formula-1"
+egui                : 1
+b_skills            : ({ "B4"})
+b_skill_rate        : ({ 100 })
+tactics             : ({ "phy_attack", "b_mag_attack_ex" })
+tactics_rate        : ({ 50, 50 })
+
+[°ÙÄê¹íÍõ]
+name                : °ÙÄê¹íÍõ
+icon                : ({ 580006152, 540006113 })
+polar               : -1
+life_effect         : 800
+phy_effect          : 150
+mag_effect          : 120
+phy_absorb          : 0
+mag_absorb          : 0
+resist_forgotten    : 0
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_confusion    : 0
+tao_effect          : 0
+speed_effect        : 150
+egui                : 1
+b_skills            : ({ "B4"})
+b_skill_rate        : ({ 100 })
+tactics             : ({ "phy_attack", "b_mag_attack_ex" })
+tactics_rate        : ({ 50, 50 })
+
+[Ç§Äê¹íÍõ]
+name                : Ç§Äê¹íÍõ
+icon                : ({ 580006152, 540006113 })
+polar               : -1
+life_effect         : 1500
+phy_effect          : 180
+mag_effect          : 150
+phy_absorb          : 50
+mag_absorb          : 50
+tao_effect          : 100
+speed_effect        : 10
+egui                : 1
+b_skills            : ({ "B4"})
+b_skill_rate        : ({ 100 })
+tactics             : ({ "phy_attack", "b_mag_attack_ex" })
+tactics_rate        : ({ 50, 50 })
+
+[¶ñ¹í-ÍÚ¾ò¹íÎï]
+name                : ¶ñ¹í
+icon                : 260006141
+polar               : -1
+life_effect         : 1200
+phy_effect          : 100
+mag_effect          : 100
+phy_absorb          : -40
+mag_absorb          : -40
+resist_forgotten    : 20
+resist_poison       : 20
+resist_frozen       : 20
+resist_sleep        : 20
+resist_confusion    : 20
+tao_effect          : 100
+modify_formula      : "formula-1"
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 80, 20 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 60, 40 })
+
+[Ä§ÍõÖ®»ê]
+name                : Ä§ÍõÖ®»ê
+icon                : 370006259
+portrait            : 370006259
+polar               : -1
+life_effect         : 10000
+phy_effect          : 350
+mag_effect          : 350
+phy_absorb          : -30
+mag_absorb          : -30
+penetrate_rate      : 100
+penetrate           : 50
+resist_forgotten    : 450
+resist_poison       : 450
+resist_frozen       : 450
+resist_sleep        : 450
+resist_confusion    : 450
+tao_effect          : 500
+speed_effect        : 150
+interface           : ({ "sf_apply_status" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 0, 0, 0, 0, 60, 40 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+artifact            : ({ "fantianyin", 18 })
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+combat_trigger      : "combat_trigger_mowang"
+
+[ÓÄ»ê]
+name                : ÓÄ»ê
+icon                : ({ 370006215, 370006147 })
+polar               : -1
+life_effect         : 2000
+phy_effect          : 300
+mag_effect          : 300
+phy_absorb          : -30
+mag_absorb          : -30
+penetrate_rate      : 80
+penetrate           : 30
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+tao_effect          : 150
+skills              : ({ "B3", "B4" })
+skill_rate          : ({ 50, 50 })
+special_skills      : ({ "ÉñÁúÕÖ", "ÈçÒâÈ¦" })
+special_skill_level : 180
+special_skill_rate  : ({ 50, 50 })
+tactics             : ({ "use_special_skill" })
+tactics_rate        : ({ 100 })
+tactics2            : ({ "phy_attack", "mag_attack" })
+tactics2_rate       : ({ 40, 60 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+interface           : ({ "sf_die" })
+
+[µØÓüÒ¹²æ]
+name                : µØÓüÒ¹²æ
+icon                : 270006277
+portrait            : 270006277
+polar               : -1
+life_effect         : 12000
+phy_effect          : 450
+mag_effect          : 450
+stunt_rate          : 50
+penetrate_rate      : 100
+penetrate           : 50
+resist_forgotten    : 450
+resist_poison       : 450
+resist_frozen       : 450
+resist_sleep        : 450
+resist_confusion    : 450
+tao_effect          : 500
+speed_effect        : 200
+interface           : ({ "sf_apply_status" })
+skills              : ({ "B5", "lipo-qianjun" })
+skill_rate          : ({ 60, 40 })
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+tactics            : ({ "mag_attack" })
+tactics_rate       : ({ 100 })
+special_victim      : ({ "static"})
+special_victim_rate : ({ 100 })
+call_assist         : "Ğ°Áé"
+combat_trigger      : "combat_trigger_yecha"
+
+[Ğ°Áé]
+name                : Ğ°Áé
+icon                : 370006228
+portrait            : 370006228
+polar               : -1
+life_effect         : 2000
+phy_effect          : 350
+mag_effect          : 350
+phy_absorb          : -30
+mag_absorb          : -30
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+tao_effect          : 200
+penetrate_rate      : 50
+penetrate           : 30
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B5" })
+skill_rate          : ({ 100 })
+god_book_skills     : ({ "kuangbao" })
+god_book_level      : ({ 288 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 60, 40 })
+special_victim      : ({ "attack_one_victim", "random"})
+special_victim_rate : ({ 30, 70 })
+interface           : ({ "sf_apply_status", "sf_die" })
+
+[°×¹ÇĞŞÂŞ]
+name                : °×¹ÇĞŞÂŞ
+icon                : 260006280
+portrait            : 260006280
+polar               : -1
+life_effect         : 12000
+phy_effect          : 450
+mag_effect          : 550
+phy_absorb          : -30
+mag_absorb          : -30
+stunt_rate          : 50
+penetrate_rate      : 100
+penetrate           : 50
+accurate            : 200
+resist_forgotten    : 400
+resist_poison       : 400
+resist_frozen       : 400
+resist_sleep        : 400
+resist_confusion    : 400
+tao_effect          : 500
+speed_effect        : 200
+interface           : ({ "sf_apply_status" })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 30, 30, 40 })
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+combat_trigger      : "combat_trigger_xiuluo"
+call_assist         : "µØÓü÷¼÷Ã"
+
+[µØÓü÷¼÷Ã]
+name                : µØÓü÷¼÷Ã
+icon                : 390006148
+portrait            : 390006148
+polar               : -1
+life_effect         : 1500
+phy_effect          : 250
+mag_effect          : 250
+max_phy_effect      : 450
+max_mag_effect      : 450
+penetrate_rate      : 30
+penetrate           : 30
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 70, 30 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 50, 50 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+interface           : ({ "sf_die" })
+
+[¿×È¸Ñı»ê]
+name                : ¿×È¸Ñı»ê
+icon                : 270006287
+portrait            : 270006287
+polar               : -1
+life_effect         : 18000
+phy_effect          : 550
+mag_effect          : 450
+phy_absorb          : -30
+mag_absorb          : -30
+resist_forgotten    : 400
+resist_poison       : 400
+resist_frozen       : 400
+resist_sleep        : 400
+resist_confusion    : 400
+tao_effect          : 500
+stunt_rate          : 50
+penetrate_rate      : 100
+penetrate           : 75
+accurate            : 200
+artifact            : ({ "fantianyin", 18 })
+interface           : ({ "sf_apply_status" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 0, 0, 0, 30, 30, 40 })
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+tactics             : ({ "use_buff" })
+tactics_rate        : ({ 100 })
+d_skills            : ({ "liwan-kuanglan" })
+d_skill_rate        : ({ 100 })
+tactics2            : ({ "mag_attack" })
+tactics2_rate       : ({ 100 })
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+combat_trigger      : "combat_trigger_kongque"
+call_assist         : "µØ¸®ÑıÁé"
+
+[µØ¸®ÑıÁé]
+name                : µØ¸®ÑıÁé
+icon                : 470006151
+portrait            : 470006151
+polar               : -1
+life_effect         : 1500
+phy_effect          : 300
+mag_effect          : 300
+penetrate_rate      : 50
+penetrate           : 30
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 30
+double_hit          : 3
+special_tactics     : ({ "use_revive" })
+skills              : ({ "lipo-qianjun" })
+skill_rate          : ({ 100 })
+b_skills            : ({ "B4", "B5" })
+b_skill_rate        : ({ 70, 30 })
+tactics             : ({ "b_mag_attack" })
+tactics_rate        : ({ 100 })
+tactics2            : ({ "phy_attack", "mag_attack" })
+tactics2_rate       : ({ 60, 40 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+interface           : ({ "sf_receive_damage", "sf_die" })
+
+[Ä§ÍõÖ®»ê-¶Ó³¤½±Àø]
+score : 500
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(50 * 1 * 1)||¹íÁéÖé(30 * 2 * 2)||¹íÁéÖé(10 * 3 * 3)||¹íÁéÖé(5 * 5 * 5)||¹íÁéÖé(5 * 10 * 10)", 1, 10 })
+guiqi : 6000
+bonus$: ({ 0, 0, 100, "ÖĞÊà(20)||Ìì³å(40)||Áé»Û(40)", 1, 1 })
+merit : 30
+fly_item_part : 4250
+
+[Ä§ÍõÖ®»ê-¶ÓÔ±½±Àø]
+score : 300
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 1 * 1)||¹íÁéÖé(10 * 2 * 2)||¹íÁéÖé(10 * 3 * 3)||¹íÁéÖé(5 * 5 * 5)||¹íÁéÖé(5 * 10 * 10)", 1, 10 })
+guiqi : 5000
+bonus$: ({ 0, 0, 100, "Ìì³å(50)||Áé»Û(50)", 1, 1 })
+merit : 20
+fly_item_part : 2125
+
+[µØÓüÒ¹²æ-¶Ó³¤½±Àø]
+score : 1000
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(50 * 2 * 2)||¹íÁéÖé(30 * 3 * 3)||¹íÁéÖé(10 * 5 * 5)||¹íÁéÖé(5 * 10 * 10)||¹íÁéÖé(5 * 20 * 20)", 2, 20 })
+guiqi : 7000
+bonus$: ({ 0, 0, 100, "ÖĞÊà(40)||Ìì³å(30)||Áé»Û(30)", 1, 1 })
+merit : 110
+fly_item_part : 8500
+
+[µØÓüÒ¹²æ-¶ÓÔ±½±Àø]
+score : 800
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 2 * 2)||¹íÁéÖé(10 * 3 * 3)||¹íÁéÖé(10 * 5 * 5)||¹íÁéÖé(5 * 10 * 10)||¹íÁéÖé(5 * 20 * 20)", 2, 20 })
+guiqi : 6000
+bonus$: ({ 0, 0, 100, "ÖĞÊà(20)||Ìì³å(40)||Áé»Û(40)", 1, 1 })
+merit : 100
+fly_item_part : 4250
+
+[°×¹ÇĞŞÂŞ-¶Ó³¤½±Àø]
+score : 1500
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(50 * 4 * 4)||¹íÁéÖé(30 * 5 * 5)||¹íÁéÖé(10 * 8 * 8)||¹íÁéÖé(5 * 10 * 10)||¹íÁéÖé(5 * 20 * 20)", 4, 20 })
+guiqi : 8000
+bonus$: ({ 0, 0, 100, "ÖĞÊà", 1, 1 })
+merit : 240
+fly_item_part : 12750
+
+[°×¹ÇĞŞÂŞ-¶ÓÔ±½±Àø]
+score : 900
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 4 * 4)||¹íÁéÖé(10 * 5 * 5)||¹íÁéÖé(10 * 8 * 8)||¹íÁéÖé(5 * 10 * 10)||¹íÁéÖé(5 * 20 * 20)", 4, 20 })
+guiqi : 7000
+bonus$: ({ 0, 0, 100, "ÖĞÊà", 1, 1 })
+merit : 210
+fly_item_part : 8500
+
+[¿×È¸Ñı»ê-¶Ó³¤½±Àø]
+score : 2000
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(50 * 5 * 5)||¹íÁéÖé(30 * 8 * 8)||¹íÁéÖé(10 * 10 * 10)||¹íÁéÖé(5 * 15 * 15)||¹íÁéÖé(5 * 20 * 20)", 4, 20 })
+guiqi : 10000
+bonus$: ({ 0, 0, 100, "ÖĞÊà", 1, 1 })
+merit : 400
+fly_item_part : 21250
+pet:  ({ "ÓÄÚ¤ÑªÉß", 5 })
+
+[¿×È¸Ñı»ê-¶ÓÔ±½±Àø]
+score : 1200
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 5 * 5)||¹íÁéÖé(10 * 8 * 8)||¹íÁéÖé(10 * 10 * 10)||¹íÁéÖé(5 * 15 * 15)||¹íÁéÖé(5 * 20 * 20)", 4, 20 })
+guiqi : 9000
+bonus$: ({ 0, 0, 100, "ÖĞÊà", 1, 1 })
+merit : 320
+fly_item_part : 17000
+
+[Ä§ÍõÖ®»ê-½±Àø]
+score : 300
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 1 * 1)||¹íÁéÖé(10 * 2 * 2)||¹íÁéÖé(10 * 3 * 3)||¹íÁéÖé(5 * 5 * 5)||¹íÁéÖé(5 * 10 * 10)", 1, 10 })
+guiqi : 5000
+bonus$: ({ 0, 0, 100, "Ìì³å(50)||Áé»Û(50)", 1, 1 })
+merit : 20
+fly_item_part : 2125
+
+[µØÓüÒ¹²æ-½±Àø]
+score : 800
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 2 * 2)||¹íÁéÖé(10 * 3 * 3)||¹íÁéÖé(10 * 5 * 5)||¹íÁéÖé(5 * 10 * 10)||¹íÁéÖé(5 * 20 * 20)", 2, 20 })
+guiqi : 6000
+bonus$: ({ 0, 0, 100, "ÖĞÊà(20)||Ìì³å(40)||Áé»Û(40)", 1, 1 })
+merit : 100
+fly_item_part : 4250
+
+[°×¹ÇĞŞÂŞ-½±Àø]
+score : 900
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 4 * 4)||¹íÁéÖé(10 * 5 * 5)||¹íÁéÖé(10 * 8 * 8)||¹íÁéÖé(5 * 10 * 10)||¹íÁéÖé(5 * 20 * 20)", 4, 20 })
+guiqi : 7000
+bonus$: ({ 0, 0, 100, "ÖĞÊà", 1, 1 })
+merit : 210
+fly_item_part : 8500
+
+[¿×È¸Ñı»ê-½±Àø]
+score : 1200
+bonus$: ({ 0, 0, 100, "¹íÁéÖé(70 * 5 * 5)||¹íÁéÖé(10 * 8 * 8)||¹íÁéÖé(10 * 10 * 10)||¹íÁéÖé(5 * 15 * 15)||¹íÁéÖé(5 * 20 * 20)", 5, 20 })
+guiqi : 9000
+bonus$: ({ 0, 0, 100, "ÖĞÊà", 1, 1 })
+merit : 320
+fly_item_part : 17000
+pet:  ({ "ÓÄÚ¤ÑªÉß", 1 })
+
+[÷ÈÁé]
+name                : ÷ÈÁé
+icon                : 31053
+portrait            : 31053
+polar               : -1
+life_effect         : 7000
+phy_effect          : 200
+mag_effect          : 200
+phy_absorb          : 0
+mag_absorb          : 0
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+tao_effect          : 200
+speed_effect        : 450
+unreal_name         : ÷ÈÁé»ÃÓ°
+artifact            : ({ "fantianyin", 10 })
+interface           : ({ "sf_apply_status" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 0, 0, 0, 18, 42, 16 })
+tactics             : ({ "use_buff" })
+tactics_rate        : ({ 100 })
+d_skills            : ({ "liwan-kuanglan" })
+d_skill_rate        : ({ 100 })
+tactics2            : ({ "phy_attack", "mag_attack" })
+tactics2_rate       : ({ 24, 76 })
+comrade             : ({ "÷Í÷Ë", "÷Î÷È" })
+
+[÷Î÷È]
+name                : ÷Î÷È
+icon                : 370006224
+portrait            : 370006224
+polar               : -1
+life_effect         : 2000
+phy_effect          : 150
+mag_effect          : 150
+phy_absorb          : -60
+mag_absorb          : 20
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+tao_effect          : 100
+special_tactics     : ({ "use_revive" })
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 60, 40 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+interface           : ({ "sf_die" })
+
+[÷Í÷Ë]
+name                : ÷Í÷Ë
+icon                : 270006288
+portrait            : 270006288
+polar               : -1
+life_effect         : 2000
+phy_effect          : 150
+mag_effect          : 150
+phy_absorb          : 20
+mag_absorb          : -60
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+tao_effect          : 100
+special_tactics     : ({ "use_revive" })
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 60, 40 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+interface           : ({ "sf_die" })
+
+[Óüéá]
+name                : Óüéá
+icon                : 31054
+portrait            : 31054
+polar               : -1
+life_effect         : 6700
+phy_effect          : 200
+mag_effect          : 200
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+tao_effect          : 200
+speed_effect        : 350
+unreal_name         : Óüéá»ÃÓ°
+artifact            : ({ "jinjiaojian", 10 })
+interface           : ({ "sf_apply_status" })
+skills              : ({ "lipo-qianjun"})
+skill_rate          : ({ 100 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 70, 30 })
+combat_trigger      : "combat_trigger_yuao"
+comrade             : ({ "ÑªÉ«È®Íõ" })
+
+[ÑªÉ«È®Íõ]
+name                : ÑªÉ«È®Íõ
+icon                : 310006151
+portrait            : 310006151
+polar               : -1
+life_effect         : 2000
+phy_effect          : 100
+mag_effect          : 100
+phy_absorb          : 0
+mag_absorb          : 0
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+tao_effect          : 100
+no_destruct         : 1
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 80, 20 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+interface           : ({ "sf_die" })
+
+[Á¶ÓüÄ§]
+name                : Á¶ÓüÄ§
+icon                : 31052
+portrait            : 31052
+polar               : -1
+life_effect         : 6500
+phy_effect          : 150
+mag_effect          : 150
+phy_absorb          : 0
+mag_absorb          : 0
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+tao_effect          : 200
+speed_effect        : 150
+unreal_name         : Á¶ÓüÄ§»ÃÓ°
+call_assist         : "Á¶ÓüÊ¹Õß"
+artifact            : ({ "hunyuan-jindou", 10 })
+interface           : ({ "sf_apply_status" })
+skills              : ({ "B4" })
+skill_rate          : ({ 100 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+combat_trigger      : "combat_trigger_lianyumo"
+comrade             : ({ "Á¶ÓüÊ¹Õß" })
+
+[Á¶ÓüÊ¹Õß]
+name                : Á¶ÓüÊ¹Õß
+icon                : 370006153
+portrait            : 370006153
+polar               : -1
+life_effect         : 1400
+phy_effect          : 100
+mag_effect          : 100
+phy_absorb          : 0
+mag_absorb          : 0
+double_hit_rate     : 20
+double_hit          : 2
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+tao_effect          : 100
+special_tactics     : ({ "use_revive" })
+skills              : ({ "B4" })
+skill_rate          : ({ 100 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 50, 50 })
+interface           : ({ "sf_die" })
+
+[ÒõÑôÊ¦]
+name                : ÒõÑôÊ¦
+icon                : 31055
+portrait            : 31055
+polar               : -1
+life_effect         : 7500
+phy_effect          : 200
+mag_effect          : 200
+phy_absorb          : 0
+mag_absorb          : 0
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+tao_effect          : 200
+speed_effect        : 150
+unreal_name         : ÒõÑôÊ¦»ÃÓ°
+artifact            : ({ "dinghaizhu", 10 })
+interface           : ({ "sf_apply_status" })
+skills              : ({ "lipo-qianjun", "B4", "B5" })
+skill_rate          : ({ 20, 25, 25 })
+tactics2            : ({ "phy_attack", "mag_attack" })
+tactics2_rate       : ({ 30, 70 })
+combat_trigger      : "combat_trigger_yinyangshi"
+comrade             : ({ "ÑôÊ¦", "ÒõÊ¦" })
+
+[ÒõÊ¦]
+name                : ÒõÊ¦
+icon                : 270006232
+portrait            : 270006232
+polar               : -1
+life_effect         : 2200
+phy_effect          : 150
+mag_effect          : 150
+phy_absorb          : 0
+mag_absorb          : 0
+double_hit_rate     : 20
+double_hit          : 2
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+tao_effect          : 100
+skills              : ({ "lipo-qianjun" })
+skill_rate          : ({ 100 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 70, 30 })
+interface           : ({ "sf_die" })
+
+[ÑôÊ¦]
+name                : ÑôÊ¦
+icon                : 370006232
+portrait            : 370006232
+polar               : -1
+life_effect         : 2200
+phy_effect          : 150
+mag_effect          : 150
+phy_absorb          : 0
+mag_absorb          : 0
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+tao_effect          : 100
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 70, 30 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+interface           : ({ "sf_die" })
+
+[÷ÈÁé»ÃÓ°]
+name                : ÷ÈÁé»ÃÓ°
+icon                : 31053
+portrait            : 31053
+unreal_monster      : 1
+interface           : ({ "sf_summon" })
+tactics             : ({ "use_defense" })
+tactics_rate        : ({ 100 })
+
+[Óüéá»ÃÓ°]
+name                : Óüéá»ÃÓ°
+icon                : 31054
+portrait            : 31054
+unreal_monster      : 1
+interface           : ({ "sf_summon" })
+tactics             : ({ "use_defense" })
+tactics_rate        : ({ 100 })
+
+[Á¶ÓüÄ§»ÃÓ°]
+name                : Á¶ÓüÄ§»ÃÓ°
+icon                : 31052
+portrait            : 31052
+unreal_monster      : 1
+interface           : ({ "sf_summon" })
+tactics             : ({ "use_defense" })
+tactics_rate        : ({ 100 })
+
+[ÒõÑôÊ¦»ÃÓ°]
+name                : ÒõÑôÊ¦»ÃÓ°
+icon                : 31055
+portrait            : 31055
+unreal_monster      : 1
+interface           : ({ "sf_summon" })
+tactics             : ({ "use_defense" })
+tactics_rate        : ({ 100 })
+
+[²¶×½¹í³è¹ÖÎï]
+name                : ²¶×½¹í³è¹ÖÎï
+polar               : -1
+life_effect         : 10
+phy_effect          : 20
+mag_effect          : 50
+tao_effect          : 0
+skills              : ({ "B2", "B4" })
+skill_rate          : ({ 70, 30 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 30, 70 })
+
+[Ñªµ¤»ê]
+name                : Ñªµ¤»ê
+icon                : 6304
+portrait            : 6304
+polar               : -1
+life_effect         : 8500
+phy_effect          : 250
+mag_effect          : 250
+phy_absorb          : 0
+mag_absorb          : 0
+resist_forgotten    : 150
+resist_poison       : 150
+resist_frozen       : 150
+resist_sleep        : 150
+resist_confusion    : 150
+tao_effect          : 250
+speed_effect        : 200
+unreal_name         : Ñªµ¤»ê»ÃÓ°
+artifact            : ({ "hunyuan-jindou", 10 })
+interface           : ({ "sf_apply_status" })
+skills              : ({ "B4" })
+skill_rate          : ({ 100 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+comrade             : ({ "µ¤·û" })
+
+[µ¤·û]
+name                : µ¤·û
+icon                : 6305
+portrait            : 6305
+polar               : -1
+life_effect         : 3000
+phy_effect          : 200
+mag_effect          : 200
+phy_absorb          : 0
+mag_absorb          : 0
+double_hit_rate     : 20
+double_hit          : 2
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+tao_effect          : 200
+skills              : ({ "B4" })
+skill_rate          : ({ 100 })
+special_tactics     : ({ "use_revive" })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 50, 50 })
+
+[Ñªµ¤»ê»ÃÓ°]
+name                : Ñªµ¤»ê»ÃÓ°
+icon                : 6304
+portrait            : 6304
+unreal_monster      : 1
+interface           : ({ "sf_summon" })
+tactics             : ({ "use_defense" })
+tactics_rate        : ({ 100 })

@@ -1,0 +1,370 @@
+#FORM2
+
+[羊头怪]
+icon                : 6215
+portrait            : 6215
+level               : 20
+life_effect         : 4900
+mana_effect         : 4900
+tao_effect          : 20
+speed_effect        : 150
+mag_absorb          : -25
+phy_absorb          : -35
+phy_effect          : 150
+mag_effect          : 150
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "松鼠"
+assist_init_level   : 20
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1, "60% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "helmet & weapon & boot & armor & belt(level = 30 color = GOLDEN)" })
+bonus_item$         : ({ 1, "藏宝图" })
+bonus_item$         : ({ 1, "30% 七周年纪念卡" })
+bonus_item$         : ({ 1, "50% 超级藏宝图" })
+
+[牛头怪]
+icon                : 6214
+portrait            : 6214
+level               : 30
+life_effect         : 4900
+mana_effect         : 4900
+tao_effect          : 20
+speed_effect        : 150
+mag_absorb          : -25
+phy_absorb          : -35
+phy_effect          : 200
+mag_effect          : 200
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "蛇"
+assist_init_level   : 30
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1, "80% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "helmet & weapon & boot & armor & belt(level = 40 color = GOLDEN)" })
+bonus_item$         : ({ 1, "藏宝图" })
+bonus_item$         : ({ 1, "20% 藏宝图" })
+bonus_item$         : ({ 1, "40% 七周年纪念卡" })
+bonus_item$         : ({ 1, "80% 超级藏宝图" })
+
+[百年黑熊精]
+icon                : 6203
+portrait            : 6203
+level               : 40
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+speed_effect        : 150
+mag_absorb          : -20
+phy_absorb          : -30
+phy_effect          : 250
+mag_effect          : 250
+stunt_rate          : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "猴子"
+assist_init_level   : 40
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:200", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1, "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "20% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1, "helmet & weapon & boot & armor & belt(level = 50 color = GOLDEN)" })
+bonus_item$         : ({ 1, "藏宝图" })
+bonus_item$         : ({ 1, "40% 藏宝图" })
+bonus_item$         : ({ 1, "50% 五色灵石", "50% 五色晶石" })
+bonus_item$         : ({ 1, "50% 七周年纪念卡" })
+bonus_item$         : ({ 1, "100% 超级藏宝图" })
+
+[百年狂狮怪]
+icon                : 6209
+portrait            : 6209
+level               : 50
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+mag_absorb          : -25
+phy_absorb          : -35
+speed_effect        : 150
+phy_effect          : 250
+mag_effect          : 250
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "白猿"
+assist_init_level   : 50
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)"  })
+bonus_item$         : ({ 1,  "60% baldric & wrist & necklace(level = 20)"  })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 60 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "藏宝图" })
+bonus_item$         : ({ 1,  "60% 藏宝图" })
+bonus_item$         : ({ 2,  "50% 五色灵石", "50% 五色晶石" })
+bonus_item$         : ({ 1,  "60% 七周年纪念卡" })
+bonus_item$         : ({ 1,  "100% 超级藏宝图" })
+bonus_item$         : ({ 1,  "50% 超级藏宝图" })
+
+[百年刺猬精]
+icon                : 6210
+portrait            : 6210
+level               : 60
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+mag_absorb          : -30
+phy_absorb          : -40
+speed_effect        : 150
+phy_effect          : 250
+mag_effect          : 250
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "狼"
+assist_init_level   : 60
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:300", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "40% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 70 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "藏宝图" })
+bonus_item$         : ({ 1,  "80% 藏宝图" })
+bonus_item$         : ({ 3,  "50% 五色灵石", "50% 五色晶石" })
+bonus_item$         : ({ 1,  "70% 七周年纪念卡" })
+bonus_item$         : ({ 1,  "100% 超级藏宝图" })
+bonus_item$         : ({ 1,  "80% 超级藏宝图" })
+
+[百年猪妖]
+icon                : 6208
+portrait            : 6208
+level               : 70
+life_effect         : 5900
+mana_effect         : 5900
+tao_effect          : 20
+mag_absorb          : -30
+phy_absorb          : -40
+speed_effect        : 150
+phy_effect          : 250
+mag_effect          : 250
+double_hit          : 5
+double_hit_rate     : 40
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_poison       : 75
+resist_repress      : 100
+resist_melt         : 75
+resist_cage         : 75
+resist_lock         : 75
+resist_lost         : 100
+accurate            : 100
+obstacle_rate       : 0
+assist_max_count    : 9
+assist_init_name    : "老虎"
+assist_init_level   : 70
+assist_data         : ({ "tao_effect:-20", "mag_absorb:-40", "phy_absorb:-40", "life_effect:350", "phy_effect:80", "mag_effect:100" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "60% baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 80 color = GOLDEN)" })
+bonus_item$         : ({ 2,  "藏宝图" })
+bonus_item$         : ({ 4,  "50% 五色灵石", "50% 五色晶石" })
+bonus_item$         : ({ 1,  "30% 七周年纪念卡" })
+bonus_item$         : ({ 1,  "七周年纪念卡" })
+bonus_item$         : ({ 2,  "100% 超级藏宝图" })
+
+[百年象精]
+icon                : 6207
+portrait            : 6207
+level               : 80
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 80 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 7)" })
+bonus_item$         : ({ 1,  "40% baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 4,  "50% 五色灵石", "50% 五色晶石" })
+bonus_item$         : ({ 1,  "40% 七周年纪念卡" })
+bonus_item$         : ({ 1,  "七周年纪念卡" })
+bonus_item$         : ({ 2,  "100% 超级藏宝图" })
+bonus_item$         : ({ 1,  "50% 超级藏宝图" })
+
+[百花羞]
+icon                : 6241
+portrait            : 6241
+level               : 90
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "helmet & weapon & boot & armor & belt(level = 90 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 8)"  })
+bonus_item$         : ({ 1,  "60% baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 4,  "50% 五色灵石", "50% 五色晶石" })
+bonus_item$         : ({ 1,  "七周年纪念卡" })
+bonus_item$         : ({ 1,  "50% 七周年纪念卡" })
+bonus_item$         : ({ 2,  "100% 超级藏宝图" })
+bonus_item$         : ({ 1,  "70% 超级藏宝图" })
+
+[牛魔王]
+icon                : 6259
+portrait            : 6259
+level               : 100
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "80% baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 3,  "helmet & weapon & boot & armor & belt(level = 100 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 9)"  })
+bonus_item$         : ({ 4,  "50% 五色灵石", "50% 五色晶石" })
+bonus_item$         : ({ 1,  "七周年纪念卡" })
+bonus_item$         : ({ 1,  "60% 七周年纪念卡" })
+bonus_item$         : ({ 2,  "100% 超级藏宝图" })
+bonus_item$         : ({ 1,  "90% 超级藏宝图" })
+
+[夜叉王]
+icon                : 6277
+portrait            : 6277
+level               : 110
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "20% baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "20% baldric & wrist & necklace(level = 50)" })
+bonus_item$         : ({ 3,  "helmet & weapon & boot & armor & belt(level = 110 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 10)" })
+bonus_item$         : ({ 1,  "7% 超级灵石", "8% 超级晶石" })
+bonus_item$         : ({ 2,  "七周年纪念卡" })
+bonus_item$         : ({ 3,  "100% 超级藏宝图" })
+
+[罗刹王]
+name                : 罗刹王
+icon                : 6278
+portrait            : 6278
+level               : 120
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "60% baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "40% baldric & wrist & necklace(level = 50)" })
+bonus_item$         : ({ 3,  "helmet & weapon & boot & armor & belt(level = 120 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 11)" })
+bonus_item$         : ({ 1,  "7% 超级灵石", "8% 超级晶石" })
+bonus_item$         : ({ 3,  "七周年纪念卡" })
+bonus_item$         : ({ 3,  "100% 超级藏宝图" })
+bonus_item$         : ({ 1,  "80% 超级藏宝图" })
+
+[白骨精]
+name                : 白骨精
+icon                : 6280
+portrait            : 6280
+level               : 130
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "60% baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "80% baldric & wrist & necklace(level = 50)" })
+bonus_item$         : ({ 1,  "20% baldric & wrist & necklace(level = 60)" })
+bonus_item$         : ({ 3,  "helmet & weapon & boot & armor & belt(level = 130 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 12)" })
+bonus_item$         : ({ 1,  "7% 超级灵石", "8% 超级晶石" })
+bonus_item$         : ({ 5,  "七周年纪念卡" })
+bonus_item$         : ({ 4,  "100% 超级藏宝图" })
+
+[孔雀妖姬]
+name                : 孔雀妖姬
+icon                : 6287
+portrait            : 6287
+level               : 140
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 50)" })
+bonus_item$         : ({ 1,  "20% baldric & wrist & necklace(level = 50)" })
+bonus_item$         : ({ 1,  "40% baldric & wrist & necklace(level = 60)" })
+bonus_item$         : ({ 1,  "20% baldric & wrist & necklace(level = 70)" })
+bonus_item$         : ({ 3,  "helmet & weapon & boot & armor & belt(level = 140 no_equip_filter = 0 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 13)" })
+bonus_item$         : ({ 1,  "7% 超级灵石", "8% 超级晶石" })
+bonus_item$         : ({ 6,  "七周年纪念卡" })
+bonus_item$         : ({ 4,  "100% 超级藏宝图" })
+bonus_item$         : ({ 1,  "50% 超级藏宝图" })
+
+[阎摩罗王]
+name                : 阎摩罗王
+icon                : 20051
+portrait            : 20051
+level               : 150
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 50)" })
+bonus_item$         : ({ 1,  "75% baldric & wrist & necklace(level = 60)" })
+bonus_item$         : ({ 1,  "50% baldric & wrist & necklace(level = 70)" })
+bonus_item$         : ({ 3,  "helmet & weapon & boot & armor & belt(level = 150 no_equip_filter = 1 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 14)" })
+bonus_item$         : ({ 1,  "12% 超级灵石", "13% 超级晶石" })
+bonus_item$         : ({ 7,  "七周年纪念卡" })
+bonus_item$         : ({ 5,  "100% 超级藏宝图" })
+
+[金角大仙]
+name                : 金角大仙
+icon                : 6337
+portrait            : 6337
+level               : 160
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 20)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 35)" })
+bonus_item$         : ({ 1,  "baldric & wrist & necklace(level = 50)" })
+bonus_item$         : ({ 1,  "75% baldric & wrist & necklace(level = 60)" })
+bonus_item$         : ({ 1,  "50% baldric & wrist & necklace(level = 70)" })
+bonus_item$         : ({ 3,  "helmet & weapon & boot & armor & belt(level = 160 no_equip_filter = 1 color = GOLDEN)" })
+bonus_item$         : ({ 1,  "炼妖石(level = 15)" })
+bonus_item$         : ({ 1,  "12% 超级灵石", "13% 超级晶石" })
+bonus_item$         : ({ 8,  "七周年纪念卡" })
+bonus_item$         : ({ 6,  "100% 超级藏宝图" })
+

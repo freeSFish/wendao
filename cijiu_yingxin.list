@@ -1,0 +1,32 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-02-02-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(0)", "2011-02-02-16:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "during_task", "end_task" })
+
+[before_task]
+broadcast_start : "start_time(-3600)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "#R辞旧迎新#n活动即将于#RSTART_TIME#n开始，欢迎大家届时前往#Z官道北#Z参加活动，活动中将可获得神奇的#R新春福钱#n哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 1200
+broadcast_end   : "end_time(-1)"
+message         : "#R辞旧迎新#n活动已经开始了，大家赶快前往#Z官道北#Z参加活动吧，活动中将可获得神奇的#R新春福钱#n哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "#R辞旧迎新#n活动已经结束了，这一年来的晦气已经驱逐殆尽，祝大家拥有一个快乐的新年。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[monster]
+monster_names : ({ "瘟神", "败神", "乱神", "晦气", "潮气" })
+monster_icons : ({ 6204, 6205, 6206, 6207, 6208, 6221, 6222 })

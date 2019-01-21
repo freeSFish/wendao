@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time       : "2016-04-15-00:00:00"
+end_time         : "2016-05-08-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#51#R【十年问道】大圣伏魔#n活动正在进行中，有众多妖魔潜进天墉城意欲作乱十周年庆典，大圣正广邀道友共同伏魔卫道，大家快去#P活动大使#P处领取#R【十年问道】大圣伏魔#n任务吧。#50"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#51#R【十年问道】大圣伏魔#n活动正在进行中，有众多妖魔潜进天墉城意欲作乱十周年庆典，大圣正广邀道友共同伏魔卫道，大家快去#P活动大使#P处领取#R【十年问道】大圣伏魔#n任务吧。#50"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【十年问道】大圣伏魔#n活动已经结束了，感谢众道友齐心协力伏魔卫道，保卫十周年庆典期间天墉城的安宁，还有积分未换取奖励的道友快去#P活动大使#P处换取吧！#50"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

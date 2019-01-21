@@ -1,0 +1,275 @@
+#FORM2
+
+[basic_info]
+refresh_time_list : ({ "13:00", "14:00", "15:00", "16:00", "17:00", "19:00", "21:00" })
+prepare_time : 600
+prepare_broadcast_interval : 60
+finish_broadcast_time : 600
+boss_last_time : 7200
+total_assists : 100
+xiaoyao_content$ : "哼！我们的大王就要来了，你们这些人通通别想逃！"
+xiaoyao_content$ : "我们大王是天底下最厉害的，你们不可能赢得了我们大王的！"
+xiaoyao_content$ : "哼！赶紧向我们大王臣服吧！我们大王就要成为中洲大陆的霸主了！"
+xiaoyao_content$ : "哈哈！大王终于要降临这个世界了，我等这一天已经很久了！"
+xiaoyao_content$ : "大王！你终于要来了！大王，我们等你已经等得花儿都谢了！#15"
+xiaoyao_content$ : "大王！你终于要来了，我们很多兄弟都被他们杀了，你要为我们报仇呀！#15"
+
+[xiaoyao_info]
+黑熊精 : 06203
+琵琶精 : 06204
+狐狸精 : 06205
+象精 : 06207
+猪精 : 06208
+狮怪 : 06209
+刺猬怪 : 06210
+
+[refresh_rooms]
+揽仙镇外 : 50
+卧龙坡 : 50
+官道南 : 50
+官道北 : 50
+桃柳林 : 50
+轩辕庙 : 50
+北海沙滩 : 50
+轩辕坟一层 : 50
+十里坡 : 50
+轩辕坟二层 : 50
+五龙山 : 50
+乾元山 : 50
+终南山 : 50
+凤凰山 : 50
+骷髅山 : 50
+轩辕坟三层 : 50
+五龙窟一层 : 50
+五龙窟二层 : 50
+五龙窟三层 : 50
+五龙窟四层 : 50
+蓬莱岛 : 50
+五龙窟五层 : 50
+幽冥涧 : 50
+百花谷一 : 100
+百花谷二 : 100
+百花谷三 : 100
+百花谷四 : 100
+百花谷五 : 100
+百花谷六 : 100
+百花谷七 : 100
+绝人阵 : 100
+东昆仑 : 100
+绝仙阵 : 100
+地绝阵 : 100
+天绝阵 : 100
+奈何桥 : 300
+黄泉路 : 300
+
+[黑熊妖皇]
+name                : 妖皇元神
+polar               : -1
+icon                : 6600
+portrait            : 6600
+life_effect         : "200 * Lv + 2000 + Lv / 150 * 4800"
+phy_effect          : "3 * Lv + 400 + Lv / 150 * 120"
+mag_effect          : "3 * Lv + 300 + Lv / 150 * 100"
+speed_effect        : 300
+tao_effect          : 700
+accurate            : 200
+stunt_rate          : 30
+obstacle_rate       : 0
+penetrate           : 50
+penetrate_rate      : 100
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+artifact            : ({ "hunyuan-jindou", 24, "dinghaizhu", 24 })
+family_skills       : ({ "B4", "C5" })
+special_skills      : ({ "lipo-qianjun", "yaohuang-tiannu" })
+god_book_skills     : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 349 })
+combat_trigger      : "combat_trigger_bear"
+tactics             : "tactics_yaohuang"
+
+[妖皇小弟]
+name                : 妖皇小弟
+polar               : -1
+icon                : 6660
+portrait            : 6660
+life_effect         : "3000 + Lv / 150 * 450"
+phy_effect          : "400 + Lv / 150 * 60"
+mag_effect          : "300 + Lv / 150 * 45"
+speed_effect        : 300
+tao_effect          : 1000
+skills              : ({ "C4", "D4" })
+tactics             : "tactics_yaohuang_xiaodi"
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+
+[天煞狂狮]
+name                : 狂狮元神
+polar               : -1
+icon                : 6601
+portrait            : 6601
+life_effect         : "200 * Lv + Lv / 130 * 2000 + 2000 + Lv / 150 * 5000"
+mag_effect          : "Lv * 3 + Lv / 130 * 100 + 350 + Lv / 150 * 130"
+phy_effect          : "Lv * 3 + Lv / 130 * 100 + 450 + Lv / 150 * 150"
+phy_absorb          : 0
+mag_absorb          : 0
+accurate            : 200
+stunt_rate          : 30
+double_hit          : 3
+double_hit_rate     : 60
+speed_effect        : 300
+tao_effect          : 800
+obstacle_rate       : 0
+penetrate           : 100
+penetrate_rate      : 20
+chase_skill         : "B4"
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+artifact            : ({ "dinghaizhu", 20, "jinjiaojian", 24 })
+family_skills       : ({ "B4", "C5" })
+special_skills      : ({ "lipo-qianjun", "tiansha-kuangfeng" })
+god_book_skills     : ({ "xiuluoshu", "lieyan", "jinglei", "qingmu", "suishi", "potian" })
+god_book_skill_levels : ({ 349, 300, 300, 300, 300, 300 })
+combat_trigger      : "combat_trigger_lion"
+tactics             : "tactics_kuangshi"
+
+[北冥幼狮]
+name                : 北冥幼狮
+polar               : -1
+icon                : 6661
+portrait            : 6661
+life_effect         : "1400 + Lv / 150 * 200"
+phy_effect          : "150 + Lv / 150 * 20"
+mag_effect          : "150 + Lv / 150 * 20"
+speed_effect        : 300
+tao_effect          : 500
+family_skills       : ({ "B5" })
+special_skills      : ({ "lipo-qianjun" })
+tactics             : "tactics_beiming_youshi"
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+
+[幼狮分身]
+name                : 幼狮分身
+polar               : -1
+icon                : 6661
+portrait            : 6661
+life_effect         : 6000
+phy_effect          : 400
+mag_effect          : 300
+speed_effect        : 300
+tao_effect          : 1000
+family_skills       : ({ "D4" })
+special_skills      : ({ "ruyi-quan", "shenlong-zhao", "qiankun-zhao", "siwang-chanmian" })
+tactics             : "tactics_youshi_fenshen"
+
+[灭天血刺]
+name                : 血刺元神
+polar               : -1
+icon                : 6602
+portrait            : 6602
+life_effect         : "180 * Lv +  Lv / 110 * 500 + Lv / 130 * 1500 + Lv / 150 * 3000"
+phy_effect          : "Lv * 2 + Lv / 110 * 150 + Lv / 130 * 150 + 400 + Lv / 150 * 150"
+mag_effect          : "Lv * 2 + Lv / 110 * 150 + Lv / 130 * 150 + 300 + Lv / 150 * 130"
+phy_absorb          : 0
+mag_absorb          : 20
+accurate            : 200
+stunt_rate          : 30
+counter_attack      : 3
+counter_attack_rate : 80
+double_hit          : 3
+double_hit_rate     : 60
+obstacle_rate       : 0
+penetrate           : 100
+penetrate_rate      : 50
+damage_sel_rate     : 50
+damage_sel          : 50
+speed_effect        : "880 + Lv / 10 * 80 - 800"
+tao_effect          : 400
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+artifact            : ({ "hunyuan-jindou", 15, "jinjiaojian", 24, "fantianyin", 15 })
+family_skills       : ({ "B1", "B2", "B3", "B4", "B5", "C5" })
+special_skills      : ({ "cixue-tianxuan", "lipo-qianjun" })
+god_book_skills     : ({ "moyin", "lieyan", "jinglei", "qingmu", "suishi", "potian" })
+god_book_skill_levels : ({ 300, 300, 300, 300, 300, 300 })
+combat_trigger      : "combat_trigger_hedgehog"
+tactics             : "tactics_hedgehog"
+
+[玄天刺猬]
+name                : 玄天刺猬
+polar               : -1
+icon                : 6662
+portrait            : 6662
+life_effect         : 2400
+phy_effect          : 150
+mag_effect          : 150
+speed_effect        : 300
+tao_effect          : 500
+skills              : ({ "B5", "C5" })
+special_skills      : ({ "lipo-qianjun" })
+tactics             : "tactics_xuantian_ciwei"
+
+[血炼魔猪]
+name                : 魔猪元神
+polar               : -1
+icon                : 6603
+portrait            : 6603
+life_effect         : "520 * Lv + Lv / 130 * 3200 + 2400 + Lv / 150 * 8000"
+phy_effect          : "Lv * 2 + Lv / 110 * 150 + Lv / 130 * 150 + 400 + Lv / 150 * 150"
+mag_effect          : "Lv * 2 + Lv / 110 * 150 + Lv / 130 * 150 + 300 + Lv / 150 * 130"
+phy_absorb          : -25
+mag_absorb          : 75
+accurate            : 200
+stunt_rate          : 30
+double_hit          : 3
+double_hit_rate     : 60
+obstacle_rate       : 0
+penetrate           : 100
+penetrate_rate      : 20
+damage_sel_rate     : 50
+damage_sel          : 100
+speed_effect        : 350
+tao_effect          : 550
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+artifact            : ({ "dinghaizhu", 20, "jinjiaojian", 20 })
+special_skills      : ({ "xuelian-diyu", "wanyi-shixin", "lipo-qianjun" })
+family_skills       : ({ "B4"})
+combat_trigger      : "combat_trigger_pig"
+tactics             : "tactics_pig"
+
+[魔猪幼仔]
+name                : 魔猪幼仔
+polar               : -1
+icon                : 6663
+portrait            : 6663
+life_effect         : "130 * Lv + Lv / 130 * 800 + 600 + Lv / 150 * 2000"
+phy_effect          : "Lv * 3 / 2 + Lv / 110 * 150 + Lv / 130 * 150 + 100 + Lv / 150 * 100"
+mag_effect          : "Lv * 3 / 2 + Lv / 110 * 50 + Lv / 130 * 50 + 50 + Lv / 150 * 50"
+phy_absorb          : -25
+mag_absorb          : 75
+damage_sel_rate     : 30
+damage_sel          : 100
+speed_effect        : 350
+tao_effect          : 450
+obstacle_rate       : 0
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+family_skills       : ({ "B5"})
+special_skills      : ({ "tianding-sanhun", "wanyi-shixin" })
+tactics             : "tactics_zhuyouzai"
+
+[小猪猡]
+name                : 小猪猡
+polar               : -1
+icon                : 6663
+portrait            : 6663
+life_effect         : "130 * Lv + Lv / 130 * 800 + 600 + Lv / 150 * 2000"
+phy_effect          : "Lv * 3 / 2 + Lv / 110 * 150 + Lv / 130 * 150 + 100 + Lv / 150 * 100"
+mag_effect          : "Lv * 3 / 2 + Lv / 110 * 50 + Lv / 130 * 50 + 50 + Lv / 150 * 50"
+phy_absorb          : -25
+mag_absorb          : 30
+damage_sel_rate     : 30
+damage_sel          : 100
+counter_attack      : 2
+counter_attack_rate : 30
+speed_effect        : 350
+tao_effect          : 450
+obstacle_rate       : 0
+family_skills       : ({ "B5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+special_skills      : ({ "lipo-qianjun" })
+tactics             : "tactics_xiaozhu"

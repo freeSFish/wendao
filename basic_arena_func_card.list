@@ -1,0 +1,5 @@
+key_name,   no_float, log_action, file_id,                     icon, unit, value, cost_type, prop_scale/max_life, prop_scale/tao
+二成道行卡, 1,        "zhuangb",  "func_card/shengsheng-buxi", 2505, 张,   1000,  "combat",  0,                   20
+五成气血卡, 1,        "zhuangb",  "func_card/tongzhou-gongji", 2506, 张,   1000,  "combat",  50,                  0
+技能精研卡, 1,        "zhuangb",  "func_card/jineng-jingyan",  2508, 张,   10000, "combat",  0,                   0
+

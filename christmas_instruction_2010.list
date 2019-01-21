@@ -1,0 +1,177 @@
+#FORM2
+
+[setting]
+start_time : "2017-12-21-00:00:00"
+end_time   : "2017-12-31-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "end_time(-86400)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "圣诞节就要结束了，#P可怜的小鹿|揽仙镇(307,41)#P即将于#REND_TIME#n离开揽仙镇，请大家及时兑换自己还未领取的奖励，#R活动结束后将无法兑换#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+#---------------------------exchange_fake_equip_item~---------------------------------
+
+[001]
+type : 道具
+name : 金色驯鹿伪装包·头部
+male_icon : 1201
+female_icon : 1212
+equip_type  : "helmet"
+give_num : 1
+
+[002]
+type : 道具
+name : 金色驯鹿伪装包·衣服
+male_icon : 1222
+female_icon : 1233
+equip_type  : "armor"
+give_num : 1
+
+[003]
+type : 道具
+name : 金色驯鹿伪装包·脚部
+male_icon : 1244
+female_icon : 1244
+equip_type  : "boot"
+give_num : 1
+
+[004]
+type : 道具
+name : 金色驯鹿伪装包·武器
+male_icon : 8071
+female_icon : 8071
+equip_type  : "weapon"
+give_num : 1
+
+[005]
+type : 道具
+name : 绿色驯鹿伪装包·头部
+male_icon : 1201
+female_icon : 1212
+equip_type  : "helmet"
+give_num : 1
+
+[006]
+type : 道具
+name : 绿色驯鹿伪装包·衣服
+male_icon : 1222
+female_icon : 1233
+equip_type  : "armor"
+give_num : 1
+
+[007]
+type : 道具
+name : 绿色驯鹿伪装包·脚部
+male_icon : 1244
+female_icon : 1244
+equip_type  : "boot"
+give_num : 1
+
+[008]
+type : 道具
+name : 绿色驯鹿伪装包·武器
+male_icon : 8071
+female_icon : 8071
+equip_type  : "weapon"
+give_num : 1
+
+[009]
+type : 道具
+name : 粉色驯鹿伪装包·头部
+male_icon : 1201
+female_icon : 1212
+equip_type  : "helmet"
+give_num : 1
+
+[010]
+type : 道具
+name : 粉色驯鹿伪装包·衣服
+male_icon : 1222
+female_icon : 1233
+equip_type  : "armor"
+give_num : 1
+
+[011]
+type : 道具
+name : 粉色驯鹿伪装包·脚部
+male_icon : 1244
+female_icon : 1244
+equip_type  : "boot"
+give_num : 1
+
+[012]
+type : 道具
+name : 粉色驯鹿伪装包·武器
+male_icon : 8071
+female_icon : 8071
+equip_type  : "weapon"
+give_num : 1
+
+[013]
+type : 道具
+name : 紫色驯鹿伪装包·头部
+male_icon : 1201
+female_icon : 1212
+equip_type  : "helmet"
+give_num : 1
+
+[014]
+type : 道具
+name : 紫色驯鹿伪装包·衣服
+male_icon : 1222
+female_icon : 1233
+equip_type  : "armor"
+give_num : 1
+
+[015]
+type : 道具
+name : 紫色驯鹿伪装包·脚部
+male_icon : 1244
+female_icon : 1244
+equip_type  : "boot"
+give_num : 1
+
+[016]
+type : 道具
+name : 紫色驯鹿伪装包·武器
+male_icon : 8071
+female_icon : 8071
+equip_type  : "weapon"
+give_num : 1
+
+[017]
+type : 道具
+name : 青色驯鹿伪装包·头部
+male_icon : 1201
+female_icon : 1212
+equip_type  : "helmet"
+give_num : 1
+
+[018]
+type : 道具
+name : 青色驯鹿伪装包·衣服
+male_icon : 1222
+female_icon : 1233
+equip_type  : "armor"
+give_num : 1
+
+[019]
+type : 道具
+name : 青色驯鹿伪装包·脚部
+male_icon : 1244
+female_icon : 1244
+equip_type  : "boot"
+give_num : 1
+
+[020]
+type : 道具
+name : 青色驯鹿伪装包·武器
+male_icon : 8071
+female_icon : 8071
+equip_type  : "weapon"
+give_num : 1

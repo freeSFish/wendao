@@ -1,0 +1,48 @@
+#FORM2
+
+[任务卷轴·萝卜桃子]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P千面怪#P了解有关#R萝卜桃子大收集#n活动相关的信息。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+
+[S0]
+type : "null"
+item : "任务卷轴·萝卜桃子"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+npc : "千面怪"
+content$ : "NPC: 萝卜？桃子？萝卜！桃子！萝卜...桃子..."
+content$ : "ME:打扰了...千面怪，你好。我来想..."
+content$ : "NPC:你喜欢萝卜还是桃子？"
+content$ : "ME:呃...其实我更喜欢香蕉..."
+content$ : "NPC:嗯？香蕉有什么好！你要是对萝卜和桃子感兴趣，可以在每周一的晚上18:00到20:00来找我，参加#R萝卜桃子大收集#n活动。"
+content$ : "NPC:帮我挖萝卜可以得到经验奖励，帮我摘桃子有道行奖励，打败猎人还有机会获得道具的奖励呢。"
+content$ : "ME:谢谢啦，我会来参加的。"
+action : "S2"
+log : "任务目标：找#P千面怪#P了解有关#R萝卜桃子大收集#n活动相关的信息。"
+give_notice: ({ "你领取了卷轴任务，找#P千面怪#P了解有关#R萝卜桃子大收集#n活动相关的信息。:1--1" })
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·萝卜桃子"
+log : "任务目标：参加一次每周一晚上18:00到20:00举行的#R萝卜桃子大收集#n活动，详细情况可以查看#R#H帮助|jingcaihuodong\luobotaozidashouji.htm#H#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 180000"
+
+[SX]
+type : "null"

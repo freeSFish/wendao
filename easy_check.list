@@ -1,0 +1,46 @@
+#FORM2
+
+[common]
+# 公式中能包含的可替换字符
+cal_string : ({ "LEADER_LEVEL", "MAX_LEVEL", "TEAM_NUM" })
+
+# 公式中包含的运算符
+cal_oper : ({ " ", "+", "-", "*", "/", "(", ")", "." })
+
+[bonus]
+# 奖励对象
+oper : ({ "player", "pet", "all" })
+
+# 奖励类型
+bonus_type : ({ "exp", "pot", "tao", "glory", "total_score", "cash", "voucher", "nice", "item", "pet", "guards", "scan_item" })
+
+# 宠物类型
+rank : ({ "野生", "宝宝", "变异", "神兽" })
+
+# 坐骑类型
+mount : ({ "精怪", "御灵" })
+
+# 时间单位
+time_unit : ({ "day", "mon", "year" })
+
+# 扫描物品的条件是与还是或
+scan_operator : ({ "and", "or" })
+
+# 奖励范围
+bonus_affect : ({ "team", "single" })
+
+# 奖励的相性
+polar : ({ POLAR_METAL, POLAR_WOOD, POLAR_WATER, POLAR_FIRE, POLAR_EARTH, POLAR_RANDOM, 0 })
+
+# 奖励的品质
+color : ({ "white", "blue", "golden", "green" })
+
+[combat]
+# 战斗后续动作
+assure_prop : ({ "combat_win", "init_combat", "combat_lost", "combat_draw" })
+
+# 队伍最大人数
+MAX_MEMBER : "5"
+
+# 最大对手数
+MAX_OPPONENT : "10"

@@ -1,0 +1,85 @@
+#FORM2
+
+[task_time]
+start_time : "2011-04-12-00:00:00"
+finish_time : "2011-05-04-23:59:59"
+
+[bonus_item]
+bonus_list : ({ 灵池, 特效仙风散, 特级八卦阴阳令, 飞行符, 火眼金睛, 宠风散, 驯兽诀, 点化丹, 超级仙风散, 血池, 惊妖铃, 急急如律令, 引路蜂 })
+
+[anniversary_pet]
+bonus_list    : ({ 锦辰兔, 紫云兔, 月蓝兔, 赤焰兔, 碧玉兔 })
+day_num       : 5
+rate          : 200
+spe_skill_num : 1
+
+[uncommon_pet]
+bonus_list    : ({ 幻灵熊, 碧玉剑, 逸鹿, 旋风豹, 鸿玉葫芦 })
+day_num       : 10
+rate          : 500
+spe_skill_num : 0
+
+[灵池]
+name   : 灵池
+rate   : 100
+amount : 1
+
+[特效仙风散]
+name   : 特效仙风散
+rate   : 100
+amount : 1
+
+[特级八卦阴阳令]
+name   : 特级八卦阴阳令
+rate   : 100
+amount : 1
+
+[飞行符]
+name   : 飞行符
+rate   : 200
+amount : 1
+
+[火眼金睛]
+name   : 火眼金睛
+rate   : 200
+amount : 1
+
+[宠风散]
+name   : 宠风散
+rate   : 200
+amount : 1
+
+[驯兽诀]
+name   : 驯兽诀
+rate   : 300
+amount : 1
+
+[点化丹]
+name   : 点化丹
+rate   : 100
+amount : 1
+
+[超级仙风散]
+name   : 超级仙风散
+rate   : 300
+amount : 1
+
+[血池]
+name   : 血池
+rate   : 300
+amount : 1
+
+[惊妖铃]
+name   : 惊妖铃
+rate   : 100
+amount : 1
+
+[急急如律令]
+name   : 急急如律令
+rate   : 100
+amount : 1
+
+[引路蜂]
+name   : 引路蜂
+rate   : 100
+amount : 1

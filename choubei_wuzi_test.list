@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-06-12-00:00:00", "EVERY_DAY(4)", 0, "2016-06-15-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(-600)"
+message         : "#R【暑假】筹备物资#n活动开始啦，快去找#P活动大使#P领取任务，为#R重建丝绸之路#n出一份力吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "#R【暑假】筹备物资#n活动圆满结束啦，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

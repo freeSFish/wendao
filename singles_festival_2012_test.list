@@ -1,0 +1,38 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-09-10-07:00:00", "EVERY_MIN(5)", "EVERY_HOUR(1)", "2012-09-10-23:59:59" })
+time_list$ : ({ "2012-09-11-07:00:00", "EVERY_MIN(5)", "EVERY_HOUR(1)", "2012-09-11-23:59:59" })
+
+[duration]
+start : "2012-09-10-07:00:00"
+end : "2012-09-12-23:59:59"
+
+[create_task]
+start : "2012-09-10-07:00:00"
+end : "2012-09-11-23:05:00"
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "start_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-180)"
+interval        : 0
+broadcast_end   : "start_time(-1)"
+message         : "#R【光棍节】激情欢乐#n活动的#R激情欢乐圈#n将在#R三分钟后#n出现在#Z天墉城#Z，请各位道友速去该处等候参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【光棍节】激情欢乐#n活动的#R激情欢乐圈#n已经出现在#Z天墉城#Z，请各位道友速去参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+final_end_time  : "2012-09-11-23:00:00"
+message         : "当前时间段内的#R【光棍节】激情欢乐#n活动已经结束，下个整点请大家及时关注#R系统#n频道，欢迎届时参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

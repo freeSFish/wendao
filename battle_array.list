@@ -1,0 +1,1457 @@
+#FORM2
+
+[ÇàÍÜ¿¨]
+card_name: ÇàÍÜ¿¨
+index: "00000001"
+apply: ({ "def : 2" })
+process: "change_look"
+polar : 3
+
+[ËÉÊó¿¨]
+card_name: ËÉÊó¿¨
+index: "00000002"
+apply: ({ "mag_absorb : -2" })
+process: "change_look"
+polar : 0
+
+[Éß¿¨]
+card_name: Éß¿¨
+index: "00000003"
+apply: ({ "phy_power : 2" })
+process: "change_look"
+polar : 0
+
+[ÍÃ×Ó¿¨]
+card_name: ÍÃ×Ó¿¨
+index: "00000004"
+apply: ({ "max_life : 3" })
+process: "change_look"
+polar : 2
+
+[ºï×Ó¿¨]
+card_name: ºï×Ó¿¨
+index: "00000005"
+apply: ({ "phy_absorb : -5" })
+process: "change_look"
+polar : 0
+
+[É½Ã¨¿¨]
+card_name: É½Ã¨¿¨
+index: "00000006"
+apply: ({ "ignore_all_resist_except : 1" })
+process: "change_look"
+polar : 5
+
+[Ò°¹·¿¨]
+card_name: Ò°¹·¿¨
+index: "00000007"
+apply: ({ "phy_power : 3" })
+process: "change_look"
+polar : 0
+
+[ºüÀê¿¨]
+card_name: ºüÀê¿¨
+index: "00000008"
+apply: ({ "max_mana : 2" })
+process: "change_look"
+polar : 2
+
+[ÌÒ¾«¿¨]
+card_name: ÌÒ¾«¿¨
+index: "00000009"
+apply: ({ "mag_power : 2" })
+process: "change_look"
+polar : 2
+
+[Áø¹í¿¨]
+card_name: Áø¹í¿¨
+index: "00000010"
+apply: ({ "mag_absorb : -3" })
+process: "change_look"
+polar : 2
+
+[°×Ô³¿¨]
+card_name: °×Ô³¿¨
+index: "00000011"
+apply: ({ "speed : -1", "phy_power : 4" })
+process: "change_look"
+polar : 0
+
+[Ó¥¿¨]
+card_name: Ó¥¿¨
+index: "00000012"
+apply: ({ "speed : 2" })
+process: "change_look"
+polar : 1
+
+[º£¹ê¿¨]
+card_name: º£¹ê¿¨
+index: "00000013"
+apply: ({ "def : 5", "speed : -4" })
+process: "change_look"
+polar : 3
+
+[òùòğ¿¨]
+card_name: òùòğ¿¨
+index: "00000014"
+apply: ({ "max_mana : 3" })
+process: "change_look"
+polar : 3
+
+[òş¿¨]
+card_name: òş¿¨
+index: "00000015"
+apply: ({ "mag_power : 3" })
+process: "change_look"
+polar : 4
+
+[ÀÇ¿¨]
+card_name: ÀÇ¿¨
+index: "00000016"
+apply: ({ "max_mana : -2", "phy_absorb : -6" })
+process: "change_look"
+polar : 0
+
+[ÀÏ»¢¿¨]
+card_name: ÀÏ»¢¿¨
+index: "00000017"
+apply: ({ "max_mana : -1", "phy_power : 4" })
+process: "change_look"
+polar : 0
+
+[½©Ê¬¿¨]
+card_name: ½©Ê¬¿¨
+index: "00000018"
+apply: ({ "all_resist_except : 2" })
+process: "change_look"
+polar : 0
+
+[¹í»ğÓ©¿¨]
+card_name: ¹í»ğÓ©¿¨
+index: "00000019"
+apply: ({ "speed : 3", "mag_absorb : 1" })
+process: "change_look"
+polar : 2
+
+[ÎÚÁú¿¨]
+card_name: ÎÚÁú¿¨
+index: "00000020"
+apply: ({ "phy_absorb : 1", "mag_absorb : -4" })
+process: "change_look"
+polar : 5
+
+[»¨Ñı¿¨]
+card_name: »¨Ñı¿¨
+index: "00000021"
+apply: ({ "ignore_all_resist_except : 2" })
+process: "change_look"
+polar : 2
+
+[Ñ×Áú¿¨]
+card_name: Ñ×Áú¿¨
+index: "00000022"
+apply: ({ "mag_power : 4", "mag_absorb : 1" })
+process: "change_look"
+polar : 4
+
+[ÓãÈË¿¨]
+card_name: ÓãÈË¿¨
+index: "00000023"
+apply: ({ "def : 3", "phy_absorb : 1" })
+process: "change_look"
+polar : 3
+
+[±ùÁú¿¨]
+card_name: ±ùÁú¿¨
+index: "00000024"
+apply: ({ "mag_absorb : 2", "ignore_all_resist_except : 3" })
+process: "change_look"
+polar : 3
+
+[µØÁÑÊŞ¿¨]
+card_name: µØÁÑÊŞ¿¨
+index: "00000025"
+apply: ({ "max_mana : 4", "mag_absorb : 1" })
+process: "change_look"
+polar : 5
+
+[ÇàÁú¿¨]
+card_name: ÇàÁú¿¨
+index: "00000026"
+apply: ({ "speed : -1", "mag_power : 4" })
+process: "change_look"
+polar : 2
+
+[½ğÍ·ÍÓ¿¨]
+card_name: ½ğÍ·ÍÓ¿¨
+index: "00000027"
+apply: ({ "phy_power : 4" })
+process: "change_look"
+polar : 0
+
+[¾Şòá¿¨]
+card_name: ¾Şòá¿¨
+index: "00000028"
+apply: ({ "max_life : 8", "max_mana : -5" })
+process: "change_look"
+polar : 4
+
+[Ê¯Ä§¿¨]
+card_name: Ê¯Ä§¿¨
+index: "00000029"
+apply: ({ "speed : -2", "all_resist_except : 3" })
+process: "change_look"
+polar : 0
+
+[»ÆÁú¿¨]
+card_name: »ÆÁú¿¨
+index: "00000030"
+apply: ({ "max_life : -2", "mag_absorb : -5" })
+process: "change_look"
+polar : 1
+
+[»ğÑ»¿¨]
+card_name: »ğÑ»¿¨
+index: "00000031"
+apply: ({ "speed : 4", "phy_absorb : 2" })
+process: "change_look"
+polar : 4
+
+[Çü»ê¿¨]
+card_name: Çü»ê¿¨
+index: "00000032"
+apply: ({ "max_mana : 4" })
+process: "change_look"
+polar : 2
+
+[Ô¹¹í¿¨]
+card_name: Ô¹¹í¿¨
+index: "00000033"
+apply: ({ "def : 3" })
+process: "change_look"
+polar : 3
+
+[·ÛÒÂÏÉ×Ó¿¨]
+card_name: ·ÛÒÂÏÉ×Ó¿¨
+index: "00000034"
+apply: ({ "speed : -2", "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[µç¾«¿¨]
+card_name: µç¾«¿¨
+index: "00000035"
+apply: ({ "max_mana : -5", "speed : 5" })
+process: "change_look"
+polar : 4
+
+[ÇàÒÂÏÉ×Ó¿¨]
+card_name: ÇàÒÂÏÉ×Ó¿¨
+index: "00000036"
+apply: ({ "max_life : 5" })
+process: "change_look"
+polar : 2
+
+[ÓêÊŞ¿¨]
+card_name: ÓêÊŞ¿¨
+index: "00000037"
+apply: ({ "mag_power : 4" })
+process: "change_look"
+polar : 3
+
+[»ÆÒÂÏÉ×Ó¿¨]
+card_name: »ÆÒÂÏÉ×Ó¿¨
+index: "00000038"
+apply: ({ "speed : -2", "mag_absorb : -5" })
+process: "change_look"
+polar : 1
+
+[·ç¹Ö¿¨]
+card_name: ·ç¹Ö¿¨
+index: "00000039"
+apply: ({ "speed : 5", "mag_absorb : 2" })
+process: "change_look"
+polar : 5
+
+[ºìÒÂÏÉ×Ó¿¨]
+card_name: ºìÒÂÏÉ×Ó¿¨
+index: "00000040"
+apply: ({ "max_life : -2", "max_mana : 5" })
+process: "change_look"
+polar : 4
+
+[ºçÑı¿¨]
+card_name: ºçÑı¿¨
+index: "00000041"
+apply: ({ "mag_power : -2", "phy_absorb : -7" })
+process: "change_look"
+polar : 0
+
+[×ÏÒÂÏÉ×Ó¿¨]
+card_name: ×ÏÒÂÏÉ×Ó¿¨
+index: "00000042"
+apply: ({ "mag_power : 4" })
+process: "change_look"
+polar : 5
+
+[Ñ©Å®¿¨]
+card_name: Ñ©Å®¿¨
+index: "00000043"
+apply: ({ "speed : -2", "mag_power : 5" })
+process: "change_look"
+polar : 3
+
+[À¶ÒÂÏÉ×Ó¿¨]
+card_name: À¶ÒÂÏÉ×Ó¿¨
+index: "00000044"
+apply: ({ "max_mana : 5" })
+process: "change_look"
+polar : 3
+
+[ÔÆÊŞ¿¨]
+card_name: ÔÆÊŞ¿¨
+index: "00000045"
+apply: ({ "max_life : 8", "speed : -3" })
+process: "change_look"
+polar : 0
+
+[°×ÒÂÏÉ×Ó¿¨]
+card_name: °×ÒÂÏÉ×Ó¿¨
+index: "00000046"
+apply: ({ "max_mana : -3", "phy_absorb : -8" })
+process: "change_look"
+polar : 0
+
+[À×¹Ö¿¨]
+card_name: À×¹Ö¿¨
+index: "00000047"
+apply: ({ "phy_power : -2", "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[»ğ¹âÊó¿¨]
+card_name: »ğ¹âÊó¿¨
+index: "00000048"
+apply: ({ "speed : 4", "phy_power : -1" })
+process: "change_look"
+polar : 4
+
+[×ÏÑà¿¨]
+card_name: ×ÏÑà¿¨
+index: "00000049"
+apply: ({ "speed : 4" })
+process: "change_look"
+polar : 5
+
+[Ê¯Å£Ñı¿¨]
+card_name: Ê¯Å£Ñı¿¨
+index: "00000050"
+apply: ({ "max_mana : 6", "phy_absorb : 2" })
+process: "change_look"
+polar : 5
+
+[÷¼÷ÃÕ½½«¿¨]
+card_name: ÷¼÷ÃÕ½½«¿¨
+index: "00000051"
+apply: ({ "ignore_all_resist_except : 4" })
+process: "change_look"
+polar : 2
+
+[À¶Ã«¾ŞÊŞ¿¨ ]
+card_name: À¶Ã«¾ŞÊŞ¿¨
+index: "00000052"
+apply: ({ "def : 4" })
+process: "change_look"
+polar : 3
+
+[ó«òë¹Ö¿¨]
+card_name: ó«òë¹Ö¿¨
+index: "00000053"
+apply: ({ "max_mana : -2", "phy_power : 5" })
+process: "change_look"
+polar : 0
+
+[ÈıÍ·¾ŞÈ®¿¨]
+card_name: ÈıÍ·¾ŞÈ®¿¨
+index: "00000054"
+apply: ({ "phy_absorb : -8" })
+process: "change_look"
+polar : 0
+
+[ÊÈÑª¾ŞÈË¿¨]
+card_name: ÊÈÑª¾ŞÈË¿¨
+index: "00000055"
+apply: ({ "mag_power : 5", "phy_absorb : 2" })
+process: "change_look"
+polar : 1
+
+[Á¶Ä§¿¨]
+card_name: Á¶Ä§¿¨
+index: "00000056"
+apply: ({ "mag_power : 5", "mag_absorb : 2" })
+process: "change_look"
+polar : 4
+
+[º®±ù¹Ö¿¨]
+card_name: º®±ù¹Ö¿¨
+index: "00000057"
+apply: ({ "phy_power : -4", "mag_power : 5" })
+process: "change_look"
+polar : 3
+
+[Ïº±ø¿¨]
+card_name: Ïº±ø¿¨
+index: "00000058"
+apply: ({ "mag_absorb : -5" })
+process: "change_look"
+polar : 3
+
+[Ğ·½«¿¨]
+card_name: Ğ·½«¿¨
+index: "00000059"
+apply: ({ "def : -3", "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[±ù¾§ÁúÁÛÊŞ¿¨]
+card_name: ±ù¾§ÁúÁÛÊŞ¿¨
+index: "00000060"
+apply: ({ "max_life : 8", "speed : -2" })
+process: "change_look"
+polar : 3
+
+[½ğ³áğ°¿¨]
+card_name: ½ğ³áğ°¿¨
+index: "00000061"
+apply: ({ "speed : 5", "mag_absorb : 2" })
+process: "change_look"
+polar : 1
+
+[Ñ©ºü¿¨]
+card_name: Ñ©ºü¿¨
+index: "00000062"
+apply: ({ "speed : -2", "mag_power : 5" })
+process: "change_look"
+polar : 2
+
+[½£»ê¿¨]
+card_name: ½£»ê¿¨
+index: "00000063"
+apply: ({ "all_resist_except : 4"})
+process: "change_look"
+polar : 0
+
+[ĞşÎä¿¨]
+card_name: ĞşÎä¿¨
+index: "00000064"
+apply: ({ "max_life : 10" })
+process: "change_look"
+polar : 3
+
+[ÖìÈ¸¿¨]
+card_name: ÖìÈ¸¿¨
+index: "00000065"
+apply: ({ "mag_power : 6" })
+process: "change_look"
+polar : 4
+
+[½®Á¼¿¨]
+card_name: ½®Á¼¿¨
+index: "00000066"
+apply: ({ "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[¶«É½ÉñÁé¿¨]
+card_name: ¶«É½ÉñÁé¿¨
+index: "00000067"
+apply: ({ "def : 6" })
+process: "change_look"
+polar : 3
+
+[¾ÅÎ²ºü¿¨]
+card_name: ¾ÅÎ²ºü¿¨
+index: "00000068"
+apply: ({ "speed : 6" })
+process: "change_look"
+polar : 5
+
+[ÁæÀşÊó¿¨]
+card_name: ÁæÀşÊó¿¨
+index: "00000069"
+apply: ({ "speed : 5" })
+process: "change_look"
+polar : 4
+
+[±¿±¿Å£¿¨]
+card_name: ±¿±¿Å£¿¨
+index: "00000070"
+apply: ({ "phy_absorb : -10" })
+process: "change_look"
+polar : 0
+
+[ÍşÍş»¢¿¨]
+card_name: ÍşÍş»¢¿¨
+index: "00000071"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[ÌøÌøÍÃ¿¨]
+card_name: ÌøÌøÍÃ¿¨
+index: "00000072"
+apply: ({ "max_life : 9" })
+process: "change_look"
+polar : 2
+
+[¿á¿áÁú¿¨]
+card_name: ¿á¿áÁú¿¨
+index: "00000073"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[»¨»¨Éß¿¨]
+card_name: »¨»¨Éß¿¨
+index: "00000074"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[ÁïÁïÂí¿¨]
+card_name: ÁïÁïÂí¿¨
+index: "00000075"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[ßãßãÑò¿¨]
+card_name: ßãßãÑò¿¨
+index: "00000076"
+apply: ({ "all_resist_except : 5" })
+process: "change_look"
+polar : 3
+
+[Ë§Ë§ºï¿¨]
+card_name: Ë§Ë§ºï¿¨
+index: "00000077"
+apply: ({ "phy_absorb : -9" })
+process: "change_look"
+polar : 0
+
+[µ°µ°¼¦¿¨]
+card_name: µ°µ°¼¦¿¨
+index: "00000078"
+apply: ({ "ignore_all_resist_except : 5" })
+process: "change_look"
+polar : 4
+
+[¹Ô¹Ô¹·¿¨]
+card_name: ¹Ô¹Ô¹·¿¨
+index: "00000079"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[ÕĞ²ÆÖí¿¨]
+card_name: ÕĞ²ÆÖí¿¨
+index: "00000080"
+apply: ({ "max_life : 9" })
+process: "change_look"
+polar : 5
+
+[ÕøÊŞ¿¨]
+card_name: ÕøÊŞ¿¨
+index: "00000094"
+apply: ({ "max_mana : -4", "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[µûÏÉ¿¨]
+card_name: µûÏÉ¿¨
+index: "00000095"
+apply: ({ "speed : 6", "phy_power : -5" })
+process: "change_look"
+polar : 4
+
+[°ö¼§¿¨]
+card_name: °ö¼§¿¨
+index: "00000096"
+apply: ({ "max_life : 6" })
+process: "change_look"
+polar : 3
+
+[Ë®Ä§Éñ¿¨]
+card_name: Ë®Ä§Éñ¿¨
+index: "00000097"
+apply: ({ "max_mana : 6" })
+process: "change_look"
+polar : 3
+
+[½ğ¼×Ğ«¿¨]
+card_name: ½ğ¼×Ğ«¿¨
+index: "00000098"
+apply: ({ "max_mana : -2", "speed : 6" })
+process: "change_look"
+polar : 1
+
+[¶·Ä§òá¿¨]
+card_name: ¶·Ä§òá¿¨
+index: "00000099"
+apply: ({ "max_life : 8", "max_mana : -3" })
+process: "change_look"
+polar : 4
+
+[»¯ÉßÊŞ¿¨]
+card_name: »¯ÉßÊŞ¿¨
+index: "00000100"
+apply: ({ "speed : -4", "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[ºüÁé¿¨]
+card_name: ºüÁé¿¨
+index: "00000101"
+apply: ({ "phy_power : -2", "mag_power : 5" })
+process: "change_look"
+polar : 5
+
+[İêÊÕ¿¨]
+card_name: İêÊÕ¿¨
+index: "00000081"
+apply: ({ "mag_power : 6" })
+process: "change_look"
+polar : 1
+
+[¾äÃ¢¿¨]
+card_name: ¾äÃ¢¿¨
+index: "00000082"
+apply: ({ "max_life : 10" })
+process: "change_look"
+polar : 2
+
+[ĞşÚ¤¿¨]
+card_name: ĞşÚ¤¿¨
+index: "00000083"
+apply: ({ "def : 6" })
+process: "change_look"
+polar : 3
+
+[×£ÈÚ¿¨]
+card_name: ×£ÈÚ¿¨
+index: "00000084"
+apply: ({ "speed : 6" })
+process: "change_look"
+polar : 4
+
+[ºóÍÁ¿¨]
+card_name: ºóÍÁ¿¨
+index: "00000085"
+apply: ({ "ignore_all_resist_except : 6" })
+process: "change_look"
+polar : 5
+
+[ÖØÃ÷¿¨]
+card_name: ÖØÃ÷¿¨
+index: "00000086"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[Ò©ÊŞ¿¨]
+card_name: Ò©ÊŞ¿¨
+index: "00000087"
+apply: ({ "max_life : 9" })
+process: "change_look"
+polar : 2
+
+[¹ê±¦¿¨]
+card_name: ¹ê±¦¿¨
+index: "00000088"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[³Ë»Æ¿¨]
+card_name: ³Ë»Æ¿¨
+index: "00000089"
+apply: ({ "speed : 6" })
+process: "change_look"
+polar : 4
+
+[·çÀê¿¨]
+card_name: ·çÀê¿¨
+index: "00000090"
+apply: ({ "all_resist_except : 5" })
+process: "change_look"
+polar : 5
+
+[°×Ôó¿¨]
+card_name: °×Ôó¿¨
+index: "00000091"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[·½Ïà¿¨]
+card_name: ·½Ïà¿¨
+index: "00000092"
+apply: ({ "phy_absorb : -10" })
+process: "change_look"
+polar : 0
+
+[µ±¿µ¿¨]
+card_name: µ±¿µ¿¨
+index: "0000093"
+apply: ({ "mag_absorb : -8" })
+process: "change_look"
+polar : 0
+
+[Ñ©ÇòÍŞÍŞ]
+card_name: Ñ©ÇòÍŞÍŞ
+index: "00000094"
+apply: ({ "max_life : -20" })
+process: "change_look"
+polar : 0
+
+[·ÀÓùĞÍÑ©ÇòÍŞÍŞ]
+card_name: ·ÀÓùĞÍÑ©ÇòÍŞÍŞ
+index: "00000095"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[Îï¹¥ĞÍÑ©ÇòÍŞÍŞ]
+card_name: Îï¹¥ĞÍÑ©ÇòÍŞÍŞ
+index: "00000096"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[·¨¹¥ĞÍÑ©ÇòÍŞÍŞ]
+card_name: ·¨¹¥ĞÍÑ©ÇòÍŞÍŞ
+index: "00000097"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[Ãô½İĞÍÑ©ÇòÍŞÍŞ]
+card_name: Ãô½İĞÍÑ©ÇòÍŞÍŞ
+index: "00000098"
+apply: ({ "ignore_all_resist_except : 5" })
+process: "change_look"
+polar : 4
+
+[õùõ÷¿¨]
+card_name: õùõ÷¿¨
+index: "00000135"
+apply: ({ "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[áùáí¿¨]
+card_name: áùáí¿¨
+index: "00000136"
+apply: ({ "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[÷Ò÷Ñ¿¨]
+card_name: ÷Ò÷Ñ¿¨
+index: "00000137"
+apply: ({ "phy_absorb : -11" })
+process: "change_look"
+polar : 0
+
+[ÇôÅ£¿¨]
+card_name: ÇôÅ£¿¨
+index: "00000138"
+apply: ({ "phy_absorb : -11" })
+process: "change_look"
+polar : 0
+
+[³°·ç¿¨]
+card_name: ³°·ç¿¨
+index: "00000139"
+apply: ({ "mag_power : 6" })
+process: "change_look"
+polar : 1
+
+[ÆÑÀÎ¿¨]
+card_name: ÆÑÀÎ¿¨
+index: "00000140"
+apply: ({ "max_life : 9" })
+process: "change_look"
+polar : 2
+
+[÷¡Óã¿¨]
+card_name: ÷¡Óã¿¨
+index: "00000141"
+apply: ({ "def : 6" })
+process: "change_look"
+polar : 3
+
+[íıíö¿¨]
+card_name: íıíö¿¨
+index: "00000142"
+apply: ({ "all_resist_except : 6" })
+process: "change_look"
+polar : 4
+
+[°ÔÏÂ¿¨]
+card_name: °ÔÏÂ¿¨
+index: "00000143"
+apply: ({ "ignore_all_resist_except : 6" })
+process: "change_look"
+polar : 5
+
+[Îï¹¥Á¬»÷ĞÍÑ©ÈË±äÉí°ü ]
+card_name: Îï¹¥Á¬»÷ĞÍÑ©ÈË±äÉí°ü
+index: "00000144"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[Îï¹¥±ØÉ±ĞÍÑ©ÈË±äÉí°ü ]
+card_name: Îï¹¥±ØÉ±ĞÍÑ©ÈË±äÉí°ü
+index: "00000145"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[·¨¹¥ĞÍÑ©ÈË±äÉí°ü ]
+card_name: ·¨¹¥ĞÍÑ©ÈË±äÉí°ü
+index: "00000146"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[·ÀÓùĞÍÑ©ÈË±äÉí°ü ]
+card_name: ·ÀÓùĞÍÑ©ÈË±äÉí°ü
+index: "00000147"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[Ãô½İĞÍÑ©ÈË±äÉí°ü ]
+card_name: Ãô½İĞÍÑ©ÈË±äÉí°ü
+index: "00000148"
+apply: ({ "ignore_all_resist_except : 5" })
+process: "change_look"
+polar : 4
+
+[ÕòË®¹Ö¿¨]
+card_name: ÕòË®¹Ö¿¨
+index: "00000149"
+apply: ({ "max_life : 8", "max_mana : -2" })
+process: "change_look"
+polar : 3
+
+[ÇïÌÄÏÉ×Ó¿¨]
+card_name: ÇïÌÄÏÉ×Ó¿¨
+index: "00000150"
+apply: ({ "max_life : 4", "mag_power : 5" })
+process: "change_look"
+polar : 2
+
+[³Ù¶ÛĞÍÑ©ÈË±äÉí°ü ]
+card_name: ³Ù¶ÛĞÍÑ©ÈË±äÉí°ü
+index: "00000151"
+apply: ({ "max_life : 8" })
+process: "change_look"
+polar : 4
+
+[·ÉÁ®¿¨]
+card_name: ·ÉÁ®¿¨
+index: "00000152"
+apply: ({ "mag_power : 6" })
+process: "change_look"
+polar : 5
+
+[Ó¢ÕĞ¿¨]
+card_name: Ó¢ÕĞ¿¨
+index: "00000153"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[¹´³Â¿¨]
+card_name: ¹´³Â¿¨
+index: "00000154"
+apply: ({ "mag_power : 6" })
+process: "change_look"
+polar : 1
+
+[ÇîÆæ¿¨]
+card_name: ÇîÆæ¿¨
+index: "00000155"
+apply: ({ "all_resist_except : 6" })
+process: "change_look"
+polar : 5
+
+[ÔÂ¼¾¿¨]
+card_name: ÔÂ¼¾¿¨
+index: "00000158"
+apply: ({ "speed : 5" })
+process: "change_look"
+polar : 4
+
+[ÓñÀ¼¿¨]
+card_name: ÓñÀ¼¿¨
+index: "00000159"
+apply: ({ "phy_absorb : -10" })
+process: "change_look"
+polar : 0
+
+[¾ı×ÓÓÄÀ¼¿¨]
+card_name: ¾ı×ÓÓÄÀ¼¿¨
+index: "00000160"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[¹ğ»¨¿¨]
+card_name: ¹ğ»¨¿¨
+index: "00000161"
+apply: ({ "max_life : 9" })
+process: "change_look"
+polar : 2
+
+[»¨Óñô¢¿¨]
+card_name: »¨Óñô¢¿¨
+index: "00000162"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[Á«»¨¿¨]
+card_name: Á«»¨¿¨
+index: "00000163"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[ÔÂ¼û²İ¿¨]
+card_name: ÔÂ¼û²İ¿¨
+index: "00000164"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[Äµµ¤»¨¿¨]
+card_name: Äµµ¤»¨¿¨
+index: "00000165"
+apply: ({ "all_resist_except : 5" })
+process: "change_look"
+polar : 3
+
+[¶¹Ş¢¿¨]
+card_name: ¶¹Ş¢¿¨
+index: "00000166"
+apply: ({ "phy_absorb : -9" })
+process: "change_look"
+polar : 0
+
+[ºÌÈ¸¿¨]
+card_name: ºÌÈ¸¿¨
+index: "00000167"
+apply: ({ "ignore_all_resist_except : 5" })
+process: "change_look"
+polar : 4
+
+[ê¼»¨¿¨]
+card_name: ê¼»¨¿¨
+index: "00000168"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[ÜÔÀò¿¨]
+card_name: ÜÔÀò¿¨
+index: "00000169"
+apply: ({ "max_life : 9" })
+process: "change_look"
+polar : 5
+
+[Á¶ÓüÑªÄ§¿¨]
+card_name: Á¶ÓüÑªÄ§¿¨
+index: "00000170"
+apply: ({ "def : 3" })
+process: "change_look"
+polar : 3
+
+[Á¶Óü¿ñÄ§¿¨]
+card_name: Á¶Óü¿ñÄ§¿¨
+index: "00000171"
+apply: ({ "phy_power : 4" })
+process: "change_look"
+polar : 0
+
+[Á¶ÓüÁéÄ§¿¨]
+card_name: Á¶ÓüÁéÄ§¿¨
+index: "00000172"
+apply: ({ "mag_power : 4" })
+process: "change_look"
+polar : 5
+
+[Á¶Óü·çÄ§¿¨]
+card_name: Á¶Óü·çÄ§¿¨
+index: "00000173"
+apply: ({ "speed : 4" })
+process: "change_look"
+polar : 4
+
+[Ñªéá¿¨]
+card_name: Ñªéá¿¨
+index: "00000174"
+apply: ({ "def : 3" })
+process: "change_look"
+polar : 3
+
+[Á¦éá¿¨]
+card_name: Á¦éá¿¨
+index: "00000175"
+apply: ({ "phy_power : 5" })
+process: "change_look"
+polar : 0
+
+[Áééá¿¨]
+card_name: Áééá¿¨
+index: "00000176"
+apply: ({ "mag_power : 4" })
+process: "change_look"
+polar : 5
+
+[·çéá¿¨]
+card_name: ·çéá¿¨
+index: "00000177"
+apply: ({ "speed : 4" })
+process: "change_look"
+polar : 4
+
+[Ñª÷È¿¨]
+card_name: Ñª÷È¿¨
+index: "00000178"
+apply: ({ "def : 4" })
+process: "change_look"
+polar : 3
+
+[÷È»ê¿¨]
+card_name: ÷È»ê¿¨
+index: "00000179"
+apply: ({ "phy_power : 5" })
+process: "change_look"
+polar : 0
+
+[÷ÈÁé¿¨]
+card_name: ÷ÈÁé¿¨
+index: "00000180"
+apply: ({ "mag_power : 4" })
+process: "change_look"
+polar : 5
+
+[¹í÷È¿¨]
+card_name: ¹í÷È¿¨
+index: "00000181"
+apply: ({ "speed : 5" })
+process: "change_look"
+polar : 4
+
+[ÒõÑôÑªÊ¦¿¨]
+card_name: ÒõÑôÑªÊ¦¿¨
+index: "00000182"
+apply: ({ "def : 4" })
+process: "change_look"
+polar : 3
+
+[ÒõÑô¿ñÊ¦¿¨]
+card_name: ÒõÑô¿ñÊ¦¿¨
+index: "00000183"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[ÒõÑôÄ§Ê¦¿¨]
+card_name: ÒõÑôÄ§Ê¦¿¨
+index: "00000184"
+apply: ({ "mag_power : 4" })
+process: "change_look"
+polar : 5
+
+[ÒõÑôÆøÊ¦¿¨]
+card_name: ÒõÑôÆøÊ¦¿¨
+index: "00000185"
+apply: ({ "speed : 5" })
+process: "change_look"
+polar : 4
+
+[Õğ÷É¿¨]
+card_name: Õğ÷É¿¨
+index: "00000186"
+apply: ({ "mag_power : 7" })
+process: "change_look"
+polar : 1
+
+[»ìãç¿¨]
+card_name: »ìãç¿¨
+index: "00000187"
+apply: ({ "phy_power : 8" })
+process: "change_look"
+polar : 0
+
+[½µÄ§¿¨]
+card_name: ½µÄ§¿¨
+index: "00000188"
+apply: ({ "max_mana : 8" })
+process: "change_look"
+polar : 2
+
+[³àÌì¿¨]
+card_name: ³àÌì¿¨
+index: "00000189"
+apply: ({ "speed : 7" })
+process: "change_look"
+polar : 4
+
+[µÑÎè¿¨]
+card_name: µÑÎè¿¨
+index: "00000190"
+apply: ({ "all_resist_except : 8" })
+process: "change_look"
+polar : 3
+
+[·òÖî¿¨]
+card_name: ·òÖî¿¨
+index: "00000191"
+apply: ({ "ignore_all_resist_except : 7" })
+process: "change_look"
+polar : 5
+
+[¿ÇÑı¿¨]
+card_name: ¿ÇÑı¿¨
+index: "00000186"
+apply: ({ "max_life : 8", "max_mana : -2" })
+process: "change_look"
+polar : 3
+
+[·ûÁé¿¨]
+card_name: ·ûÁé¿¨
+index: "00000187"
+apply: ({ "max_mana : 2", "mag_power : 5" })
+process: "change_look"
+polar : 2
+
+[ÆåÁé¿¨]
+card_name: ÆåÁé¿¨
+index: "00000188"
+apply: ({ "speed : -4", "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[ÊÌÊéÕß¿¨]
+card_name: ÊÌÊéÕß¿¨
+index: "00000189"
+apply: ({ "phy_power : -2", "mag_power : 5" })
+process: "change_look"
+polar : 5
+
+[ÖÁ×ğÁæÀşÊó¿¨]
+card_name: ÖÁ×ğÁæÀşÊó¿¨
+index: "00000196"
+apply: ({ "speed : 6" })
+process: "change_look"
+polar : 4
+
+[ÖÁ×ğ±¿±¿Å£¿¨]
+card_name: ÖÁ×ğ±¿±¿Å£¿¨
+index: "00000197"
+apply: ({ "phy_absorb : -12" })
+process: "change_look"
+polar : 0
+
+[ÖÁ×ğÍşÍş»¢¿¨]
+card_name: ÖÁ×ğÍşÍş»¢¿¨
+index: "00000198"
+apply: ({ "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[ÖÁ×ğÌøÌøÍÃ¿¨]
+card_name: ÖÁ×ğÌøÌøÍÃ¿¨
+index: "00000199"
+apply: ({ "max_life : 10" })
+process: "change_look"
+polar : 2
+
+[ÖÁ×ğ¿á¿áÁú¿¨]
+card_name: ÖÁ×ğ¿á¿áÁú¿¨
+index: "00000200"
+apply: ({ "mag_power : 6" })
+process: "change_look"
+polar : 1
+
+[ÖÁ×ğ»¨»¨Éß¿¨]
+card_name: ÖÁ×ğ»¨»¨Éß¿¨
+index: "00000201"
+apply: ({ "def : 6" })
+process: "change_look"
+polar : 3
+
+[ÖÁ×ğÁïÁïÂí¿¨]
+card_name: ÖÁ×ğÁïÁïÂí¿¨
+index: "00000202"
+apply: ({ "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[ÖÁ×ğßãßãÑò¿¨]
+card_name: ÖÁ×ğßãßãÑò¿¨
+index: "00000203"
+apply: ({ "all_resist_except : 7" })
+process: "change_look"
+polar : 3
+
+[ÖÁ×ğË§Ë§ºï¿¨]
+card_name: ÖÁ×ğË§Ë§ºï¿¨
+index: "00000204"
+apply: ({ "phy_absorb : -11" })
+process: "change_look"
+polar : 0
+
+[ÖÁ×ğµ°µ°¼¦¿¨]
+card_name: ÖÁ×ğµ°µ°¼¦¿¨
+index: "00000205"
+apply: ({ "ignore_all_resist_except : 7" })
+process: "change_look"
+polar : 4
+
+[ÖÁ×ğ¹Ô¹Ô¹·¿¨]
+card_name: ÖÁ×ğ¹Ô¹Ô¹·¿¨
+index: "00000206"
+apply: ({ "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[ÖÁ×ğÕĞ²ÆÖí¿¨]
+card_name: ÖÁ×ğÕĞ²ÆÖí¿¨
+index: "00000207"
+apply: ({ "max_life : 10" })
+process: "change_look"
+polar : 5
+
+[Ñªµ¤Ğ×»ê¿¨]
+card_name: Ñªµ¤Ğ×»ê¿¨
+index: "00000208"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[Ñªµ¤¿ñ»ê¿¨]
+card_name: Ñªµ¤¿ñ»ê¿¨
+index: "00000209"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[Ñªµ¤Ä§»ê¿¨]
+card_name: Ñªµ¤Ä§»ê¿¨
+index: "00000210"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 5
+
+[Ñªµ¤·ç»ê¿¨]
+card_name: Ñªµ¤·ç»ê¿¨
+index: "00000211"
+apply: ({ "speed : 5" })
+process: "change_look"
+polar : 4
+
+[Å£Í·Óü×ä¿¨]
+card_name: Å£Í·Óü×ä¿¨
+index: "00000212"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[ÂíÃæÂŞÉ²¿¨]
+card_name: ÂíÃæÂŞÉ²¿¨
+index: "00000213"
+apply: ({ "max_life : 8" })
+process: "change_look"
+polar : 2
+
+[·¶ÎŞ¾È¿¨]
+card_name: ·¶ÎŞ¾È¿¨
+index: "00000214"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[Ğ»±Ø°²¿¨]
+card_name: Ğ»±Ø°²¿¨
+index: "00000215"
+apply: ({ "speed : 5" })
+process: "change_look"
+polar : 4
+
+[µØ¸®ÊØÎÀ¿¨]
+card_name: µØ¸®ÊØÎÀ¿¨
+index: "00000216"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 5
+
+[ÑÖÄ¦¿¨]
+card_name: ÑÖÄ¦¿¨
+index: "00000217"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[´óÁ¦ÉñÖí¿¨]
+card_name: ´óÁ¦ÉñÖí¿¨
+index: "00000218"
+apply: ({ "ignore_all_resist_except : 7" })
+process: "change_look"
+polar : 5
+
+[¶À½ÇÏÉ¿¨]
+card_name : ¶À½ÇÏÉ¿¨
+index: "00000219"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[÷è÷ë¿¨]
+card_name : ÷è÷ë¿¨
+index: "00000230"
+apply : ({ "speed : 6" })
+process : "change_look"
+polar : 4
+
+[ÎŸÉß¿¨]
+card_name : ÎŸÉß¿¨
+index: "00000231"
+apply : ({ "def : 6" })
+process : "change_look"
+polar : 3
+
+[ÁùºÏ¿¨]
+card_name : ÁùºÏ¿¨
+index: "00000232"
+apply : ({ "max_life : 10" })
+process : "change_look"
+polar : 2
+
+[Îï¹¥Á¬»÷ĞÍ½Ü¿Ë±äÉí°ü]
+card_name: Îï¹¥Á¬»÷ĞÍ½Ü¿Ë±äÉí°ü
+index: "00000233"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[Îï¹¥±ØÉ±ĞÍ½Ü¿Ë±äÉí°ü]
+card_name: Îï¹¥±ØÉ±ĞÍ½Ü¿Ë±äÉí°ü
+index: "00000234"
+apply: ({ "phy_power : 6" })
+process: "change_look"
+polar : 0
+
+[·¨¹¥ĞÍ½Ü¿Ë±äÉí°ü]
+card_name: ·¨¹¥ĞÍ½Ü¿Ë±äÉí°ü
+index: "00000235"
+apply: ({ "mag_power : 5" })
+process: "change_look"
+polar : 1
+
+[·ÀÓùĞÍ½Ü¿Ë±äÉí°ü]
+card_name: ·ÀÓùĞÍ½Ü¿Ë±äÉí°ü
+index: "00000236"
+apply: ({ "def : 5" })
+process: "change_look"
+polar : 3
+
+[Ãô½İĞÍ½Ü¿Ë±äÉí°ü]
+card_name: Ãô½İĞÍ½Ü¿Ë±äÉí°ü
+index: "00000237"
+apply: ({ "ignore_all_resist_except : 5" })
+process: "change_look"
+polar : 4
+
+[³Ù¶ÛĞÍ½Ü¿Ë±äÉí°ü]
+card_name: ³Ù¶ÛĞÍ½Ü¿Ë±äÉí°ü
+index: "00000238"
+apply: ({ "max_life : 8" })
+process: "change_look"
+polar : 4
+
+[²Ôñ·¿¨]
+card_name: ²Ôñ·¿¨
+index: "00000328"
+apply : ({ "speed : 9" })
+process: "change_look"
+polar : 4
+
+[ÖğÂ¹¿¨]
+card_name: ÖğÂ¹¿¨
+index: "00000329"
+apply : ({ "all_resist_except : 10" })
+process: "change_look"
+polar : 3
+
+[¾ŞÁ¦¿¨]
+card_name: ¾ŞÁ¦¿¨
+index: "00000330"
+apply : ({ "mag_power : 9" })
+process: "change_look"
+polar : 1
+
+[¾Å¶ú¿¨]
+card_name: ¾Å¶ú¿¨
+index: "00000331"
+apply : ({ "phy_power : 7" })
+process: "change_look"
+polar : 0
+
+[ÆëÌì´óÊ¥¿¨]
+card_name: ÆëÌì´óÊ¥¿¨
+index: "00000332"
+apply : ({ "speed : 7" })
+process: "change_look"
+polar : 4
+
+[¶·Õ½Ê¤·ğ¿¨]
+card_name: ¶·Õ½Ê¤·ğ¿¨
+index: "00000333"
+apply : ({ "mag_power : 9" })
+process: "change_look"
+polar : 1
+
+[ÎŞÃû¿¨]
+card_name: ÎŞÃû¿¨
+index: "00000334"
+apply : ({ "ignore_all_resist_except : 9" })
+process: "change_look"
+polar : 5
+
+[¾»Æ¿¿¨]
+card_name: ¾»Æ¿¿¨
+index: "00000335"
+apply : ({ "max_life : 12" })
+process: "change_look"
+polar : 2
+
+[À¥ÂØ¿¨]
+card_name: À¥ÂØ¿¨
+index: "00000336"
+apply : ({ "phy_power : 10" })
+process: "change_look"
+polar : 0
+
+[æÏ¶ğ¿¨]
+card_name: æÏ¶ğ¿¨
+index: "00000337"
+apply : ({ "mag_power : 6" })
+process: "change_look"
+polar : 2

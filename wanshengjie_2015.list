@@ -1,0 +1,35 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2017-10-30-12:00:00", "EVERY_DAY(3)", 0, "2017-11-01-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start", "during_task", "during_mall", "before_end" })
+
+[before_start]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【万圣节】狂欢舞会#n活动开始了，快去#Z天墉城#Z与#Y派对女王#n一起尽情狂舞，变身为#R南瓜头杰克#n形象参加舞会可以获得更丰厚的数值奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【万圣节】狂欢舞会#n活动正在进行中，快去#Z天墉城#Z与#Y派对女王#n一起尽情狂舞，变身为#R南瓜头杰克#n形象参加舞会可以获得更丰厚的数值奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_mall]
+broadcast_start : "start_time"
+interval        : 1200
+broadcast_end   : "end_time(-1)"
+broadcast_func  : "broadcast_during_mall"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "#R【万圣节】狂欢舞会#n活动已经结束了，大家明年再见！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

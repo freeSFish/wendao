@@ -1,0 +1,31 @@
+#FORM2
+
+[setting]
+start_time        : "2016-07-23-00:00:00"
+end_time          : "2016-07-31-23:59:59"
+exchange_end_time : "2016-08-03-23:59:59"
+version           : 1
+
+[broadcast_setting]
+broadcast_list:   ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(+1)"
+message         : "#R【国庆节】中洲赐福#n活动已经开启啦！据说有全新仙元#R斗战圣佛#n、元灵#R齐天大圣#n、神兽#R九耳#n以及变异兽的奖励哦！#R所有玩家#n只要满足一定的条件都可以获得，详情可至#P活动大使#P处或打开#@奖励说明|Open:ZzcfRewardDlg#@界面查询！大家赶紧参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【国庆节】中洲赐福#n活动正在火热地进行中，据说还有全新仙元#R斗战圣佛#n、元灵#R齐天大圣#n、神兽#R九耳#n以及变异兽的奖励哦！详情可至#P活动大使#P处或打开#@奖励说明|Open:ZzcfRewardDlg#@界面查询！大家赶紧来参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+broadcast_func  : "broadcast_end_time"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

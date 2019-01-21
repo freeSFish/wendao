@@ -1,0 +1,230 @@
+#FORM2
+
+#xianjie-shenbu.list
+#Create by yugq Sep/21/2009
+
+#name      : 名称
+#level     : 等级
+#cost_type : 购买所用道具类型
+#need_item : 购买需花费的袖章数量
+
+#["R0000000"]
+#name      : "百灵丹"
+#cost_type : "叛逆军袖章"
+#amount    : 5
+#need_item : 1
+#
+#["R0000001"]
+#name      : "九圣散""
+#cost_type : "叛逆军袖章"
+#amount    : 5
+#need_item : 1
+
+["R0000000"]
+name      : "紫金丹"
+cost_type : "叛逆军袖章"
+amount    : 2
+need_item : 1
+
+["R0000001"]
+name      : "百花酿"
+cost_type : "叛逆军袖章"
+amount    : 2
+need_item : 1
+
+["R0000002"]
+name      : "超级羊头怪卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000003"]
+name      : "超级牛头怪卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000004"]
+name      : "超级黑熊精卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000005"]
+name      : "超级狂狮怪卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000006"]
+name      : "超级刺猬精卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000007"]
+name      : "超级猪妖卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000008"]
+name      : "超级象精卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000009"]
+name      : "超级百花羞卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000010"]
+name      : "超级牛魔王卡"
+cost_type : "叛逆精英袖章"
+amount    : 1
+need_item : 5
+
+["R0000011"]
+name      : "易经洗髓丹"
+gift      : 1
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 1
+
+["R0000012"]
+name      : "如意战斗令"
+gift      : 1
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 1
+
+["R0000013"]
+name      : "驯兽诀""
+gift      : 1
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 1
+
+["R0000014"]
+name      : "强力驱魔香"
+gift      : 1
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 1
+
+["R0000015"]
+name      : "BOSS卡"
+gift      : 1
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 1
+
+["R0000016"]
+name      : "血池"
+gift      : 1
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 1
+
+["R0000017"]
+name      : "灵池"
+gift      : 1
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 3
+
+#["R0000018"]
+#name      : "仙灵石"
+#level     : 1
+#gift      : 1
+#cost_type : "叛逆将领袖章"
+#amount    : 1
+#need_item : 5
+#
+#["R0000019"]
+#name      : "玉晶石"
+#level     : 1
+#gift      : 1
+#cost_type : "叛逆将领袖章"
+#amount    : 1
+#need_item : 2
+
+["R0000020"]
+name      : "混元金斗"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000021"]
+name      : "定海珠"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000022"]
+name      : "阴阳镜"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000023"]
+name      : "番天印"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000024"]
+name      : "金蛟剪"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000025"]
+name      : "九龙神火罩"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000026"]
+name      : "卸甲金葫"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000027"]
+name      : "法文手轮"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 38
+
+["R0000028"]
+name      : "雪魂丝链"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 38
+
+["R0000029"]
+name      : "蟠螭结"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 38
+
+["R0000030"]
+name      : "混沌钟"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000031"]
+name      : "十二品莲台"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30
+
+["R0000032"]
+name      : "七宝妙树"
+cost_type : "叛逆将领袖章"
+amount    : 1
+need_item : 30

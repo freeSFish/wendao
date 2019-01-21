@@ -1,0 +1,60 @@
+#FORM2
+
+# type为"item"表示提交物品，type为"cash"表示扣除金钱
+# item表示需要提交的物品的名称
+# max_times表示最大增加抽奖机会的次数
+# need_num表示每次提交多少个物品才能增加一次抽奖机会
+# 是否能主动增加 0为不可以，1为可以
+# pay_type表示支付金钱或代金券，3(PAY_CASH)表示只扣现金,
+# 2(PAY_ALL_EX)表示先扣代金券再扣现金，目前只支持此2种方式
+#下面的[0]，[1],[2]不得重复，且需要与random_award.h中定义保持一致
+# no_times_limit 表示不需要限制次数，由自己模块负责
+# 可以配置如下格式
+# [0]
+# type : "item"
+# item : "任务卷轴·绑定"
+# max_times : 10
+# need_num : 3
+# can_add : 1
+# [2]
+# type : "cash"
+# pay_type : 3
+# max_times : 10
+# need_num : 3
+# can_add : 1
+
+[1]
+can_add : 0
+
+[2]
+type : "item"
+item : "五周年宠物精魄"
+max_times : 100
+need_num : 1
+can_add : 1
+
+[3]
+type : "item"
+item : "五周年幸运签"
+max_times : 100
+need_num : 1
+can_add : 1
+
+[4]
+no_times_limit : 1
+can_add : 0
+
+[5]
+no_times_limit : 1
+can_add : 0
+
+[6]
+type : "task"
+can_add : 1
+
+[10]
+can_add : 0
+
+[11]
+type : "task"
+can_add : 0

@@ -1,0 +1,111 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-09-21-14:00:00", "EVERY_MIN(35)", "EVERY_DAY(1)" })
+time_list$ : ({ "2009-09-21-20:00:00", "EVERY_MIN(35)", "EVERY_DAY(1)" })
+
+[game_info]
+bonus_item       : "圈圈包"
+maps             : ({ "揽仙镇外", "卧龙坡", "官道南", "官道北", "桃柳林", "北海沙滩" })
+stage_exp_rate   : ({ 20000, 16000, 12000, 8000, 8000, 8000, 8000, 8000, 8000, 8000 })
+stage_pot_rate   : ({ 120, 100, 80, 70 ,60, 50, 40, 30, 20, 15 })
+low_exp_times    : 50
+high_exp_times   : 5
+high_score_times : 5
+lingyz_num       : 1
+
+[before_start]
+time     : 300
+duration : 60
+channel  : CHANNEL_SYSTEM
+content  : "#R圈圈乐#n活动即将在#R%s#n开始，请大家做好准备。"
+
+[start]
+channel : CHANNEL_SYSTEM
+content : "#R圈圈乐#n活动开始啦，大家快到#Z%s#Z踩圈圈吧，踩的最多的人可以获得大奖哦！注意：下线或换线会重新统计数量。"
+
+[after_start]
+time      : 120
+duration  : 120
+last_time : 600
+channel   : CHANNEL_SYSTEM
+content   : "#R圈圈乐#n活动开始啦，大家快到#Z%s#Z踩圈圈吧，踩的最多的人可以获得大奖哦！注意：下线或换线会重新统计数量。"
+
+[refresh_control]
+time     : 300
+duration : 300
+channel  : CHANNEL_SYSTEM
+content  : "最后一波圈圈已经产生了，大家抓住最后的时机，赶快踩吧！5分钟后，将产生本次圈圈乐活动的结果！"
+
+[end]
+channel : CHANNEL_SYSTEM
+content : "#R圈圈乐#n活动结束了，本次本线圈圈乐活动的冠军是#Y%s#n，他踩中了#R%d#n次圈圈；前十名的其他玩家分别是：#Y%s#n，恭喜你们获得奖励！"
+
+[refresh_info]
+福星光效 : 40
+寿星光效 : 5
+禄星光效 : 5
+
+[高经验]
+type : "high_exp"
+rate : 20
+
+[低经验]
+type : "low_exp"
+rate : 100
+
+[高战绩]
+type : "high_score"
+rate : 20
+
+[低战绩]
+type : "low_score"
+rate : 100
+
+[天神护佑]
+type  : "item"
+name  : "天神护佑"
+rate  : 20
+gift  : 1
+rumor : 1
+
+[道具套餐卡]
+type  : "item"
+name  : "道具套餐卡"
+rate  : 3
+gift  : 1
+rumor : 1
+
+[超级女娲石]
+type  : "item"
+name  : "超级女娲石"
+rate  : 7
+gift  : 1
+rumor : 1
+
+[灵引咒]
+type  : "item"
+name  : "灵引咒"
+rate  : 1
+gift  : 1
+rumor : 1
+
+[如意战斗令]
+type  : "item"
+name  : "如意战斗令"
+rate  : 30
+gift  : 1
+rumor : 1
+
+[装备]
+type  : "equipment"
+rate  : 800
+color : ({ "BLUE", "GOLDEN" })
+color_rate : ({ 70, 30 })
+level : ({ -20, -10, 0, 10, 20 })
+min_level : 70
+max_level : 150
+
+[charge_pet]
+name_arr : ({ "溜溜马", "笨笨牛", "伶俐鼠", "威威虎", "乖乖狗", "咩咩羊", "招财猪", "酷酷龙", "帅帅猴", "花花蛇", "跳跳兔", "蛋蛋鸡" })
+num      : 1

@@ -1,0 +1,16 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-06-22-00:00:00", "EVERY_WEEK(1)", 0 })
+time_list$ : ({ "2013-07-20-00:00:00", "EVERY_WEEK(1)", 0 })
+time_list$ : ({ "2013-08-17-00:00:00", "EVERY_WEEK(1)", 0 })
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【暑假】仙女赏花#n活动开始啦，大家快前往#P活动大使#P处领取任务，完成任务后可获得丰厚的奖励哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

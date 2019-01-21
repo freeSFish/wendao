@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time       : "2015-02-09-00:00:00"
+end_time         : "2015-02-11-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "清明节到了，#Z桃柳林#Z春意黯然，大家快去#Z桃柳林#Z踏青，顺便找#P桃柳林守护神#P要些#R驱邪柳条#n，交给#P活动大使#P。完成任务的道友可获得丰厚的数值奖励，同时还有几率获得珍贵道具奖励哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

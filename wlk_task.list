@@ -1,0 +1,217 @@
+#FORM2
+
+[time]
+start_time$           : "2009-11-07-19:00:00"
+start_time$           : "2009-11-08-19:00:00"
+start_time$           : "2009-11-09-19:00:00"
+start_time$           : "2009-11-10-19:00:00"
+start_time$           : "2009-11-11-19:00:00"
+start_time$           : "2009-11-12-19:00:00"
+start_time$           : "2009-11-13-19:00:00"
+duration              : 3600
+interval_bc_to_start  : 300
+bc_start_interval     : 60
+interval_bc_to_finish : 600
+bc_finish_interval    : 60
+
+[config]
+room_list : ({ "五龙窟一层", "五龙窟二层", "五龙窟三层", "五龙窟四层", "五龙窟五层" })
+task_order : ({ "大妖王", "二妖王", "三妖王", "四妖王", "五妖王", "慧锦使者" })
+bonus_item : ({ "百花酿", "紫金丹", "百灵丹", "九圣散", "蓝装备", "金装备", "如意战斗令", "鲜花卡", "水果卡", "BOSS卡", "特效仙风散", "超级黑水晶", "超级绿水晶", "超级女娲石", "灵引咒", "宠物天生技能书" })
+
+[慧锦使者]
+room           : "五龙窟一层"
+icon           : 6053
+pos_x          : 182
+pos_y          : 56
+pos_dir        : SOUTHWEST
+menu_content   : "init_menu_content_hjsz"
+menu_action    : "init_menu_action_hjsz"
+default_menu   : "没想到五妖王竟然会冲破箫薇真人的封印，若不将其击败，定会成为人间祸害。"
+destruct_delay : 1800
+
+[大妖王]
+room         : "五龙窟一层"
+icon         : 6277
+pos_x        : 58
+pos_y        : 135
+pos_dir      : NORTHEAST
+menu_content : "init_menu_content_yw"
+menu_action  : "init_menu_action_yw"
+default_menu : "看什么看，再看我可要怒了！"
+content      : "我被箫薇真人封印了一万年，又被迫与麾下众魔兽一起离开了我们的世界，如今你们竟敢来这里烦我，真是自寻死路，你们这是自寻死路！"
+
+[二妖王]
+room         : "五龙窟二层"
+icon         : 6277
+pos_x        : 105
+pos_y        : 134
+pos_dir      : NORTHWEST
+menu_content : "init_menu_content_yw"
+menu_action  : "init_menu_action_yw"
+default_menu : "看什么看，再看我可要怒了！"
+content      : "想与我一战？你们只会浪费我的时间。没错，我就是神！"
+
+[三妖王]
+room         : "五龙窟三层"
+icon         : 6277
+pos_x        : 200
+pos_y        : 69
+pos_dir      : NORTHEAST
+menu_content : "init_menu_content_yw"
+menu_action  : "init_menu_action_yw"
+default_menu : "看什么看，再看我可要怒了！"
+content      : "你们经历过了许多挑战，但到头来还是白费劲，我会把你们统统消灭！"
+
+[四妖王]
+room         : "五龙窟四层"
+icon         : 6277
+pos_x        : 13
+pos_y        : 85
+pos_dir      : NORTHEAST
+menu_content : "init_menu_content_yw"
+menu_action  : "init_menu_action_yw"
+default_menu : "看什么看，再看我可要怒了！"
+content      : "真的那么渴求一死吗？我很乐意成全你们。"
+
+[五妖王]
+room         : "五龙窟五层"
+icon         : 6277
+pos_x        : 160
+pos_y        : 25
+pos_dir      : SOUTHWEST
+menu_content : "init_menu_content_yw"
+menu_action  : "init_menu_action_yw"
+default_menu : "看什么看，再看我可要怒了！"
+content      : "可笑的凡人，在我五妖王面前灰飞烟灭吧！尘归尘，土归土。"
+
+[百花酿]
+type     : "item"
+name     : "百花酿"
+amount   : 10
+rate     : 10000
+free_bag : 1
+
+[紫金丹]
+type     : "item"
+name     : "紫金丹"
+amount   : 10
+rate     : 10000
+free_bag : 1
+
+[百灵丹]
+type : "item"
+name : "百灵丹"
+amount : 10
+rate : 10000
+free_bag : 1
+
+[九圣散]
+type : "item"
+name : "九圣散"
+amount : 10
+rate : 10000
+free_bag : 1
+
+[蓝装备]
+type : "equip"
+color : "BLUE"
+amount : 1
+level : "玩家等级 / 10 * 10"
+rate : 10000
+free_bag : 1
+
+[金装备]
+type : "equip"
+color : "GOLDEN"
+amount : 1
+level : "玩家等级 / 10 * 10"
+rate : 5000
+free_bag : 1
+
+[如意战斗令]
+type : "item"
+name : "如意战斗令"
+amount : 1
+rate : 3000
+rumor : 1
+free_bag : 1
+
+[鲜花卡]
+type : "item"
+name : "鲜花卡"
+amount : 1
+rate : 3000
+gift : 1
+rumor : 1
+free_bag : 1
+
+[水果卡]
+type : "item"
+name : "水果卡"
+amount : 1
+rate : 3000
+gift : 1
+rumor : 1
+free_bag : 1
+
+[BOSS卡]
+type : "item"
+name : "BOSS卡"
+amount : 1
+rate : 2000
+gift : 1
+rumor : 1
+free_bag : 1
+
+[特效仙风散]
+type : "item"
+name : "特效仙风散"
+amount : 1
+rate : 1000
+gift : 1
+rumor : 1
+free_bag : 1
+
+[超级黑水晶]
+type : "item"
+name : "超级黑水晶"
+amount : 1
+rate : 1000
+gift : 1
+rumor : 1
+free_bag : 1
+
+[超级绿水晶]
+type : "item"
+name : "超级绿水晶"
+amount : 1
+rate : 500
+gift : 1
+rumor : 1
+free_bag : 1
+
+[超级女娲石]
+type : "item"
+name : "超级女娲石"
+amount : 1
+rate : 100
+rumor : 1
+free_bag : 1
+
+[灵引咒]
+type : "item"
+name : "灵引咒"
+amount : 1
+rate : 5
+rumor : 1
+day_give : 1
+free_bag : 1
+
+[宠物天生技能书]
+type : "pet_skill_book"
+amount : 1
+rate : 1
+rumor : 1
+day_give : 1
+free_bag : 1

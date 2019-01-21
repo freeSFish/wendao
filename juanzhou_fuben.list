@@ -1,0 +1,35 @@
+#FORM2
+
+[任务卷轴·副本任务]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P赤灵尊神#P完成一次#R副本任务#n，完成副本任务可以获得道行、武学、经验、装备的奖励。"
+all_children : ({ "S1", "SX" })
+timeout_task : 1
+alias : "副本任务"
+
+[S0]
+type : "null"
+item : "任务卷轴·副本任务"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·副本任务"
+log : "任务目标：找#P赤灵尊神#P完成一次#R副本任务#n，完成副本任务可以获得道行、武学、经验、装备的奖励。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 200000"
+
+[SX]
+type : "null"

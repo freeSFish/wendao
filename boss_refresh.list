@@ -1,0 +1,685 @@
+#FORM2
+
+[map_refresh_limit]
+揽仙镇外 : ({ 50, 150 })
+卧龙坡 : ({ 50, 150 })
+南官道 : ({ 50, 150 })
+北官道 : ({ 50, 150 })
+桃柳林 : ({ 50, 150 })
+轩辕庙 : ({ 100, 200 })
+北海沙滩 : ({ 50, 150 })
+轩辕坟一层 : ({ 50, 150 })
+十里坡 : ({ 100, 200 })
+轩辕坟二层 : ({ 50, 150 })
+五龙山 : ({  50, 150 })
+乾元山 : ({  50, 150 })
+终南山 : ({  50, 150 })
+凤凰山 : ({  50, 150 })
+骷髅山 : ({  50, 150 })
+轩辕坟三层 : ({ 50, 150 })
+五龙窟一层 : ({ 50, 150 })
+五龙窟二层 : ({ 50, 150 })
+五龙窟三层 : ({ 50, 150 })
+五龙窟四层 : ({ 50, 150 })
+蓬莱岛 : ({ 100, 200 })
+五龙窟五层 : ({ 50, 150 })
+幽冥涧 : ({ 50, 150 })
+百花谷一 : ({ 100, 200 })
+百花谷二 : ({ 100, 200 })
+百花谷三 : ({ 100, 200 })
+百花谷四 : ({ 100, 200 })
+百花谷五 : ({ 100, 200 })
+百花谷六 : ({ 100, 200 })
+百花谷七 : ({ 100, 200 })
+绝人阵 : ({ 50, 150 })
+东昆仑 : ({ 50, 150 })
+绝仙阵 : ({ 50, 150 })
+地绝阵 : ({ 50, 150 })
+天绝阵 : ({ 50, 150 })
+海底迷宫 : ({ 100, 200 })
+昆仑云海 : ({ 100, 200 })
+雪域冰原 : ({ 100, 200 })
+迷境花树 : ({ 100, 200 })
+水云间 : ({ 100, 200 })
+热砂荒漠 : ({ 100, 200 })
+方丈岛 : ({ 100, 200 })
+断魂窟 : ({ 100, 200 })
+弑神殿 : ({ 100, 200 })
+灭魔堂 : ({ 100, 200 })
+玉清山巅 : ({ 100, 200 })
+
+[羊头怪]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+coor    :   ({  })
+type    :   怪物
+name    :   羊头怪
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level : 20
+visible_limit_level : 20
+clone_callback$ : ({ "set", "resist_fire",  75 })
+clone_callback$ : ({ "set", "level",  20 })
+clone_callback$ : ({ "set_polar", "POLAR_FIRE" })
+clone_callback$ : ({ "set_full_skill", "xinghuo-liaoyuan" })
+clone_callback$ : ({ "set_full_skill", "yantian-huoyu" })
+clone_callback$ : ({ "set_full_skill", "fengchi-dianche" })
+clone_callback$ : ({ "set_full_skill", "hunqian-mengying" })
+
+[牛头怪]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+coor    :   ({  })
+type    :   怪物
+name    :   牛头怪
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level : 30
+visible_limit_level : 20
+clone_callback$ : ({ "set", "resist_metal", 75 })
+clone_callback$ : ({ "set", "level",  30 })
+clone_callback$ : ({ "set_polar", "POLAR_METAL" })
+clone_callback$ : ({ "set_full_skill", "daoguang-jianying" })
+clone_callback$ : ({ "set_full_skill", "jinhong-guanri" })
+clone_callback$ : ({ "set_full_skill", "ruhu-tianyi" })
+clone_callback$ : ({ "set_full_skill", "rumeng-chuxing" })
+
+[百年黑熊精]
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "wulongshan/wulongshan"
+coor    :   ({ })
+type    :   怪物
+name    :   百年黑熊精
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level : 40
+visible_limit_level : 20
+clone_callback$ : ({ "set_polar", "POLAR_RANDOM" })
+clone_callback$ : ({ "set", "level",  40 })
+clone_callback$ : ({ "set_full_skill", "B3" })
+clone_callback$ : ({ "set_full_skill", "B4" })
+clone_callback$ : ({ "set_full_skill", "D4" })
+clone_callback$ : ({ "set_full_skill", "C4" })
+
+[百年狂狮怪]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+coor    :   ({ })
+type    :   怪物
+name    :   百年狂狮怪
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 45
+level : 50
+visible_limit_level : 20
+clone_callback$ : ({ "set", "resist_metal",     75 })
+clone_callback$ : ({ "set", "level",  50 })
+clone_callback$ : ({ "set_polar", "POLAR_METAL" })
+clone_callback$ : ({ "set_full_skill", "jinhong-guanri" })
+clone_callback$ : ({ "set_full_skill", "liuguang-yicai" })
+#clone_callback$ : ({ "set_full_skill", "ruchi-ruzui" })
+clone_callback$ : ({ "set_full_skill", "ruhu-tianyi" })
+clone_callback$ : ({ "set_full_skill", "rumeng-chuxing" })
+
+[百年刺猬精]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+coor    :   ({ })
+type    :   怪物
+name    :   百年刺猬精
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 55
+level : 60
+visible_limit_level : 20
+clone_callback$ : ({ "set", "resist_wood",  75 })
+clone_callback$ : ({ "set", "level",  60 })
+clone_callback$ : ({ "set_polar", "POLAR_WOOD" })
+clone_callback$ : ({ "set_full_skill", "pangen-cuojie" })
+clone_callback$ : ({ "set_full_skill", "luoying-binfen" })
+#clone_callback$ : ({ "set_full_skill", "heding-hongfen" })
+clone_callback$ : ({ "set_full_skill", "honghua-lvye" })
+clone_callback$ : ({ "set_full_skill", "xiewei-shexian" })
+
+[百年猪妖]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+coor    :   ({ })
+type    :   怪物
+name    :   百年猪妖
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 65
+level : 70
+visible_limit_level : 20
+clone_callback$ : ({ "set", "resist_earth",     75 })
+clone_callback$ : ({ "set", "level",  70 })
+clone_callback$ : ({ "set_polar", "POLAR_EARTH" })
+clone_callback$ : ({ "set_full_skill", "shanbeng-dilie" })
+clone_callback$ : ({ "set_full_skill", "tianta-dixian" })
+#clone_callback$ : ({ "set_full_skill", "liushen-wuzhu" })
+clone_callback$ : ({ "set_full_skill", "bishi-jiuxu" })
+clone_callback$ : ({ "set_full_skill", "dishu-qipo" })
+
+[百年象精]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+coor    :   ({ })
+type    :   怪物
+name    :   百年象精
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 75
+level : 80
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  80 })
+clone_callback$ : ({ "set_team_model", "model6" })
+
+[百花羞]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+coor    :   ({ })
+type    :   怪物
+name    :   百花羞
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 85
+level : 90
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  90 })
+clone_callback$ : ({ "set_team_model", "model5" })
+
+[牛魔王]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+room$   :   "wolongpo/juerenzhen"
+room$   :   "dongkunlun/dongkunlun"
+room$   :   "wolongpo/juexianzhen"
+coor    :   ({ })
+type    :   怪物
+name    :   牛魔王
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 95
+level : 100
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  100 })
+clone_callback$ : ({ "set_team_model", "model4" })
+
+[夜叉王]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+room$   :   "wolongpo/juerenzhen"
+room$   :   "dongkunlun/dongkunlun"
+room$   :   "wolongpo/juexianzhen"
+coor    :   ({ })
+type    :   怪物
+name    :   夜叉王
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 105
+level : 110
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  110 })
+clone_callback$ : ({ "set_team_model", "model3" })
+
+[罗刹王]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+room$   :   "wolongpo/juerenzhen"
+room$   :   "dongkunlun/dongkunlun"
+room$   :   "wolongpo/juexianzhen"
+room$   :   "wolongpo/dijuezhen"
+room$   :   "wolongpo/tianjuezhen"
+coor    :   ({ })
+type    :   怪物
+name    :   罗刹王
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 115
+level : 120
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  120 })
+clone_callback$ : ({ "set_team_model", "model2" })
+
+[白骨精]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+room$   :   "wolongpo/juerenzhen"
+room$   :   "dongkunlun/dongkunlun"
+room$   :   "wolongpo/juexianzhen"
+room$   :   "wolongpo/dijuezhen"
+room$   :   "wolongpo/tianjuezhen"
+coor    :   ({ })
+type    :   怪物
+name    :   白骨精
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 125
+level : 130
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  130 })
+clone_callback$ : ({ "set_team_model", "model1" })
+
+[孔雀妖姬]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+room$   :   "wolongpo/juerenzhen"
+room$   :   "dongkunlun/dongkunlun"
+room$   :   "wolongpo/juexianzhen"
+room$   :   "wolongpo/dijuezhen"
+room$   :   "wolongpo/tianjuezhen"
+room$   :   "haidi-migong/haidi-migong"
+room$   :   "kunlunyunhai/kunlunyunhai"
+room$   :   "xuanzhou/xueyubingyuan"
+room$   :   "jukuzhou/mijinghuashu"
+coor    :   ({ })
+type    :   怪物
+name    :   孔雀妖姬
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 135
+level : 140
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  140 })
+clone_callback$ : ({ "set_team_model", "model7" })
+
+[阎摩罗王]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+room$   :   "wolongpo/juerenzhen"
+room$   :   "dongkunlun/dongkunlun"
+room$   :   "wolongpo/juexianzhen"
+room$   :   "wolongpo/dijuezhen"
+room$   :   "wolongpo/tianjuezhen"
+room$   :   "haidi-migong/haidi-migong"
+room$   :   "kunlunyunhai/kunlunyunhai"
+room$   :   "xuanzhou/xueyubingyuan"
+room$   :   "jukuzhou/mijinghuashu"
+room$   :   "liuzhou/shuiyunjian"
+room$   :   "yanzhou/reshahuangmo"
+room$   :   "fangzhangdao/fangzhangdao"
+room$   :   "duanhunku/duanhunku"
+room$   :   "yunxiaogong/shishendian"
+room$   :   "yunxiaogong/miemotang"
+coor    :   ({ })
+type    :   怪物
+name    :   阎摩罗王
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 145
+level : 150
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  150 })
+clone_callback$ : ({ "set_team_model", "model10" })
+
+[金角大仙]
+room$   :   "lanxianzhenwai/lanxianzhenwai"
+room$   :   "wolongpo/wolongpo"
+room$   :   "guandao/guandaonan"
+room$   :   "guandao/guandaobei"
+room$   :   "taoliulin/taoliulin"
+room$   :   "xuanyuanmiao/xuanyuanmiao"
+room$   :   "beihai-shatan/beihai-shatan"
+room$   :   "xuanyuanmiao/xuanyuanfen-yiceng"
+room$   :   "shilipo/shilipo"
+room$   :   "xuanyuanmiao/xuanyuanfen-erceng"
+room$   :   "wulongshan/wulongshan"
+room$   :   "zhongnanshan/zhongnanshan"
+room$   :   "fenghuangshan/fenghuangshan"
+room$   :   "qianyuanshan/qianyuanshan"
+room$   :   "kuloushan/kuloushan"
+room$   :   "xuanyuanmiao/xuanyuanfen-sanceng"
+room$   :   "wulongshan/wulongku-yiceng"
+room$   :   "wulongshan/wulongku-erceng"
+room$   :   "wulongshan/wulongku-sanceng"
+room$   :   "wulongshan/wulongku-siceng"
+room$   :   "penglaidao/penglaidao"
+room$   :   "wulongshan/wulongku-wuceng"
+room$   :   "youmingjian/youmingjian"
+room$   :   "penglaidao/baihuaguyi"
+room$   :   "penglaidao/baihuaguer"
+room$   :   "penglaidao/baihuagusan"
+room$   :   "penglaidao/baihuagusi"
+room$   :   "penglaidao/baihuaguwu"
+room$   :   "penglaidao/baihuaguliu"
+room$   :   "penglaidao/baihuaguqi"
+room$   :   "wolongpo/juerenzhen"
+room$   :   "dongkunlun/dongkunlun"
+room$   :   "wolongpo/juexianzhen"
+room$   :   "wolongpo/dijuezhen"
+room$   :   "wolongpo/tianjuezhen"
+room$   :   "haidi-migong/haidi-migong"
+room$   :   "kunlunyunhai/kunlunyunhai"
+room$   :   "xuanzhou/xueyubingyuan"
+room$   :   "jukuzhou/mijinghuashu"
+room$   :   "liuzhou/shuiyunjian"
+room$   :   "yanzhou/reshahuangmo"
+room$   :   "fangzhangdao/fangzhangdao"
+room$   :   "duanhunku/duanhunku"
+room$   :   "yunxiaogong/shishendian"
+room$   :   "yunxiaogong/miemotang"
+room$   :   "yuqingshandian/yuqingshandian"
+coor    :   ({ })
+type    :   怪物
+name    :   金角大仙
+amount  :   1
+range   :   50
+select_room     : "BOSS"
+level_limit     : 155
+level : 160
+visible_limit_level : 20
+clone_callback$ : ({ "set", "level",  160 })
+clone_callback$ : ({ "set_team_model", "model14" })
+clone_callback$ : ({ "set", "generate_mode",  "new_monster" })
+clone_callback$ : ({ "set", "combat_trigger", "combat_trigger_model14" })

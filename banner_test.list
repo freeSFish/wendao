@@ -1,0 +1,13 @@
+#FORM2
+
+[system_banner]
+sys_banner_config$ : ({ "2012-01-11-20:00:00", 3, 10, "spring_festival_2012" })
+sys_banner_config$ : ({ "2012-01-11-22:00:00", 3, 10, "spring_festival_2012" })
+sys_banner_config$ : ({ "2012-01-12-00:00:00", 3, 10, "spring_festival_2012" })
+sys_banner_config$ : ({ "2012-01-12-12:00:00", 3, 10, "spring_festival_2012" })
+sys_banner_config$ : ({ "2012-01-12-18:00:00", 3, 10, "spring_festival_2012" })
+
+spring_festival_2012$ : "#Y《问道》#n祝所有玩家：新春快乐！龙年大吉！"
+spring_festival_2012$ : "#Y《问道》#n祝所有玩家：新春快乐！万事如意！"
+spring_festival_2012$ : "#Y《问道》#n祝所有玩家：新春快乐！阖家幸福！"
+spring_festival_2012$ : "#Y《问道》#n祝所有玩家：新春快乐！岁岁安怡！"

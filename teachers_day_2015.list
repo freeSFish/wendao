@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time       : "2015-09-10-00:00:00"
+end_time         : "2015-09-10-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "#Y五系掌门#n派了好多师兄弟、师姐妹来到#R天墉城#n了，想要考验大家的道法修为，如果你做好准备就找他们挑战吧。你的道行的提升是献给师傅最好的教师节礼物！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

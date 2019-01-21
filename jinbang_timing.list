@@ -1,0 +1,159 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2014-06-10-16:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2014-06-16-18:00:00" })
+
+[monster_info]
+秀才 : 30
+举人 : 15
+进士 : 10
+探花 : 1
+榜眼 : 1
+状元 : 1
+
+[place]
+room_list : ({ "天墉城" })
+
+[秀才]
+polar            : -1
+religion         : -1
+name             : "秀才"
+icon             : 20008
+portrait         : 20008
+tao_effect       : 10
+life_effect      : 700
+speed_effect     : 40
+phy_absorb       : -10
+mag_absorb       : -10
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+tactics         : "xiucai_tactics"
+
+[举人]
+polar            : -1
+religion         : -1
+name             : "举人"
+icon             : 20008
+portrait         : 20008
+tao_effect       : 10
+life_effect      : 900
+speed_effect     : 40
+phy_absorb       : -10
+mag_absorb       : -10
+mag_effect       : 50
+phy_effect       : 50
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+tactics         : "juren_tactics"
+
+[进士]
+polar            : -1
+religion         : -1
+name             : "进士"
+icon             : 20008
+portrait         : 20008
+tao_effect       : 10
+life_effect      : 1100
+speed_effect     : 40
+phy_absorb       : -10
+mag_absorb       : -10
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+tactics         : "jinshi_tactics"
+
+[探花]
+polar            : -1
+religion         : -1
+name             : "探花"
+icon             : 20008
+portrait         : 20008
+tao_effect       : 10
+life_effect      : 1300
+speed_effect     : 40
+phy_absorb       : -20
+mag_absorb       : -20
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+tactics         : "tanhua_tactics"
+
+[榜眼]
+polar            : -1
+religion         : -1
+name             : "榜眼"
+icon             : 20008
+portrait         : 20008
+tao_effect       : 10
+life_effect      : 1300
+speed_effect     : 40
+phy_absorb       : -25
+mag_absorb       : -25
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+tactics         : "bangyan_tactics"
+
+[状元]
+polar            : -1
+religion         : -1
+name             : "状元"
+icon             : 20011
+portrait         : 20011
+tao_effect       : 100
+life_effect      : 1300
+speed_effect     : 40
+phy_absorb       : -40
+mag_absorb       : -40
+mag_effect       : 100
+phy_effect       : 100
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 30
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+tactics          : "zhuangyuan_tactics"

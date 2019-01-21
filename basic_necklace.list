@@ -1,0 +1,17 @@
+#名字, file_id,                      no_float,     log_action,    颜色
+key_name, file_id,                     no_float, log_action, color
+幻彩项链, "necklace/huancaixianglian", "wrist",  "zhuangb",  金色
+金碧莲花, "necklace/jinbilianhua",     "wrist",  "zhuangb",  金色
+流光绝影, "necklace/liuguangjueying",  "wrist",  "zhuangb",  金色
+秘魔灵珠, "necklace/mimolingzhu",      "wrist",  "zhuangb",  金色
+青珑挂珠, "necklace/qinglongguazhu",   "wrist",  "zhuangb",  金色
+三才项圈, "necklace/sancaixiangquan",  "wrist",  "zhuangb",  金色
+天机锁链, "necklace/tianjisuolian",    "wrist",  "zhuangb",  金色
+五蕴悯光, "necklace/wuyunminguang",    "wrist",  "zhuangb",  金色
+雪魂丝链, "necklace/xuehunsilian",     "wrist",  "zhuangb",  金色
+紫晶坠子, "necklace/zijingzhuizi",     "wrist",  "zhuangb",  金色
+千彩流光, "necklace/qiancailiuguang",  "wrist",  "zhuangb",  金色
+掠虹宝坠, "necklace/luehongbaozhui",   "wrist",  "zhuangb",  金色
+破军捆灵, "necklace/pojunkunling",     "wrist",  "zhuangb",  金色
+洛神回雪, "necklace/luoshenhuixue",    "wrist",  "zhuangb",  金色
+

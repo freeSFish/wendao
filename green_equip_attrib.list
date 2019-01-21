@@ -1,0 +1,40 @@
+# green_equip_attrib.list
+# Created by Huang Yadan @ 2006-11-29
+# 绿装备可以选用的属性集合
+# 字段、属性名意义与 extra_attrib.list 完全一样
+
+#
+#   不再使用该文件
+#
+
+#以下属性被合并到extra_attrib.list文件中
+# 属性名                          最小等级  最大等级  最小值  标称值  最大值  几率  影响字段
+# super_excluse_metal,               70,       180,       5,     10,      20,    500,
+# super_excluse_wood,                70,       180,       5,     10,      20,    500,
+# super_excluse_water,               70,       180,       5,     10,      20,    500,
+# super_excluse_fire,                70,       180,       5,     10,      20,    500,
+# super_excluse_earth,               70,       180,       5,     10,      20,    500,
+# B_skill_low_cost,                  70,       180,       -10,   -3,      -1,    100,
+# C_skill_low_cost,                  70,       180,       -10,   -3,      -1,    100,
+# D_skill_low_cost,                  70,       180,       -10,   -3,      -1,    100,
+# super_forgotten,                   70,       180,       6,     9,       15,    50,
+# super_poison,                      70,       180,       6,     9,       15,    50,
+# super_frozen,                      70,       180,       6,     9,       15,    50,
+# super_sleep,                       70,       180,       6,     9,       15,    50,
+# super_confusion,                   70,       180,       6,     9,       15,    50,
+# ignore_resist_metal,               70,       180,       5,     8,       15,    500,
+# ignore_resist_wood,                70,       180,       5,     8,       15,    500,
+# ignore_resist_water,               70,       180,       5,     8,       15,    500,
+# ignore_resist_fire,                70,       180,       5,     8,       15,    500,
+# ignore_resist_earth,               70,       180,       5,     8,       15,    500,
+# ignore_resist_forgotten,           70,       180,       5,     8,       15,    500,
+# ignore_resist_poison,              70,       180,       5,     8,       15,    500,
+# ignore_resist_frozen,              70,       180,       5,     8,       15,    500,
+# ignore_resist_sleep,               70,       180,       5,     8,       15,    500,
+# ignore_resist_confusion,           70,       180,       5,     8,       15,    500,
+# enhanced_metal,                    70,       180,       3,     5,       10,    200,
+# enhanced_wood,                     70,       180,       3,     5,       10,    200,
+# enhanced_water,                    70,       180,       3,     5,       10,    200,
+# enhanced_fire,                     70,       180,       3,     5,       10,    200,
+# enhanced_earth,                    70,       180,       3,     5,       10,    200,
+# mag_dodge,                         70,       180,       10,    15,      30,    200,

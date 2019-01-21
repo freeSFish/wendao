@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time       : "2014-05-31-00:00:00"
+end_time         : "2014-06-02-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "端午佳节到，问道好热闹！#44请大家帮忙一起，制作美味的粽子，给节日增添更多的喜庆气氛！#P活动大使#P正在老地方等着你哦~"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+14300)"
+interval        : 14400
+broadcast_end   : "end_time(-14300)"
+message         : "粽子是端午节的节日食品，古称“角黍”，传说是为祭投江的屈原而开始流传的，现在参与制作各种美味的粽子，即可获得节日的祝福和奖励，详情请询问#P活动大使#P！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "佳节已过，情谊永存，端午节活动已经结束了，祝大家永远年轻、永远幸福。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

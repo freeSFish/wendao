@@ -1,0 +1,356 @@
+#FORM2
+
+# 地图名 : 坐标或者npc
+
+[揽仙镇]
+limit_level : 0
+pos_info    : ({ 284, 91 })
+
+[揽仙镇外]
+limit_level : 0
+monster_level : 2-3
+monster_info : 青蛙（2级）;松鼠（3级）
+pos_info    : ({ 18, 150 })
+
+[卧龙坡]
+limit_level : 0
+monster_level : 6-8
+monster_info : 兔子（6级）;蛇（8级）
+pos_info    : ({ 16, 121 })
+
+[官道南]
+limit_level : 0
+monster_level : 10-11
+monster_info : 猴子（10级）;山猫（11级）
+pos_info    : ({ 124, 23 })
+
+[天墉城]
+limit_level : 10
+pos_info    : 车夫@天墉城
+
+[桃柳林]
+limit_level : 10
+monster_level : 17-18
+monster_info : 桃精（17级）;柳鬼（18级）
+pos_info    : ({ 11, 120 })
+
+[风月谷]
+limit_level : 10
+pos_info    : 月老@风月谷
+
+[轩辕庙]
+limit_level : 10
+monster_level : 22-23
+monster_info : 白猿（22级）;鹰（23级）
+pos_info    : 车夫@轩辕庙
+
+[轩辕坟一层]
+limit_level : 10
+monster_level : 27-28
+monster_info : 蝙蝠（28级）;蟒（27级）
+pos_info    : ({ 139, 72 })
+
+[轩辕坟二层]
+limit_level : 10
+monster_level : 32-33
+monster_info : 僵尸（33级）;蟒（32级）
+pos_info    : ({ 184, 64 })
+
+[轩辕坟三层]
+limit_level : 10
+monster_level : 37-38
+monster_info : 鬼火萤（38级）;蟒（37级）
+pos_info    : ({ 181, 83 })
+
+[北海沙滩]
+limit_level : 10
+monster_level : 25-26
+monster_info : 海龟（25级）;鹰（26级）
+pos_info    : ({ 157, 146 })
+
+[五龙山]
+limit_level : 10
+monster_level : 35
+pos_info    : 接引道童@五龙山
+
+[五龙窟一层]
+limit_level : 10
+monster_level : 42
+monster_info : 乌龙（42级）;花妖（42级）
+pos_info    : ({ 278, 66 })
+
+[五龙窟二层]
+limit_level : 10
+monster_level : 45
+monster_info : 炎龙（45级）;鱼人（45级）
+pos_info    : ({ 145, 27 })
+
+[五龙窟三层]
+limit_level : 10
+monster_level : 48
+monster_info : 冰龙（48级）;地裂兽（48级）
+pos_info    : ({ 32, 103 })
+
+[五龙窟四层]
+limit_level : 10
+monster_level : 51
+monster_info : 青龙（51级）;金头陀（51级）
+pos_info    : ({ 187, 75 })
+
+[五龙窟五层]
+limit_level : 10
+monster_level : 54
+monster_info : 黄龙（54级）;火鸦（54级）
+pos_info    : ({ 11, 58 })
+
+[东海渔村]
+limit_level : 10
+pos_info    : 车夫@东海渔村
+
+[十里坡]
+limit_level : 10
+monster_level : 30-32
+monster_info : 狼（30级）;老虎（32级）
+pos_info    : ({ 324, 8 })
+
+[乾元山]
+limit_level : 10
+monster_level : 35
+pos_info    : 接引道童@乾元山
+
+[终南山]
+limit_level : 10
+monster_level : 35
+pos_info    : 接引道童@终南山
+
+[盘虬洞]
+limit_level : 10
+pos_info    : 张真人@盘虬洞
+
+[绝人阵]
+limit_level : 10
+monster_level : 82-83
+monster_info : 石牛妖（82级）;骷髅战将（83级）
+pos_info    : ({ 150, 154 })
+
+[绝仙阵]
+limit_level : 10
+monster_level : 87-88
+monster_info : 蓝毛巨兽（87级）;螳螂怪（88级）
+pos_info    : ({ 147,153 })
+
+[地绝阵]
+limit_level : 10
+monster_level : 92-93
+monster_info : 三头巨犬（92级）;嗜血巨人（93级）
+pos_info    : ({ 27, 154 })
+
+[天绝阵]
+limit_level : 10
+monster_level : 97-98
+monster_info : 炼魔（97级）;寒冰怪（98级）
+pos_info    : ({ 41, 200 })
+
+[凤凰山]
+limit_level : 10
+monster_level : 35
+pos_info    : 接引道童@凤凰山
+
+[骷髅山]
+limit_level : 10
+monster_level : 35
+pos_info    : 接引道童@骷髅山
+
+[幽冥涧]
+limit_level : 10
+monster_level : 57-58
+monster_info : 屈魂（57级）;怨鬼（58级）
+pos_info    : ({ 446, 150 })
+
+[蓬莱岛]
+limit_level : 10
+monster_level : 50-52
+monster_info : 巨蜥（50级）;石魔（52级）
+pos_info    : 蓬莱使者@蓬莱岛
+
+[百花谷一]
+limit_level : 10
+monster_level : 62-63
+monster_info : 粉衣仙子（62级）;电精（63级）
+pos_info    : ({ 7, 135 })
+
+[百花谷二]
+limit_level : 10
+monster_level : 65-66
+monster_info : 青衣仙子（65级）;雨兽（66级）
+pos_info    : ({ 90, 8 })
+
+[百花谷三]
+limit_level : 10
+monster_level : 68-69
+monster_info : 黄衣仙子（68级）;风怪（69级）
+pos_info    : ({ 145, 271 })
+
+[百花谷四]
+limit_level : 10
+monster_level : 71-72
+monster_info : 红衣仙子（71级）;虹妖（72级）
+pos_info    : ({ 13, 9 })
+
+[百花谷五]
+limit_level : 10
+monster_level : 74-75
+monster_info : 紫衣仙子（74级）;雪女（75级）
+pos_info    : ({ 246, 11 })
+
+[百花谷六]
+limit_level : 10
+monster_level : 77-78
+monster_info : 蓝衣仙子（77级）;云兽（78级）
+pos_info    : ({ 213, 58 })
+
+[百花谷七]
+limit_level : 10
+monster_level : 80-81
+monster_info : 白衣仙子（80级）;雷怪（81级）
+pos_info    : ({ 14, 9 })
+
+[东昆仑]
+limit_level : 10
+monster_level : 82-83
+monster_info : 火光鼠（82级）;紫燕（83级）
+pos_info    : ({ 188, 29 })
+
+[碧游宫]
+limit_level : 10
+pos_info    : 传送童子@碧游宫
+
+[大罗宫]
+limit_level : 10
+pos_info    : 传送童子@大罗宫
+
+[雪域冰原]
+limit_level : 10
+monster_level : 112-113
+monster_info : 雪狐（112级）;剑魂（113级）
+pos_info    : ({ 19, 25 })
+
+[热砂荒漠]
+limit_level : 10
+monster_level : 127-128
+monster_info : 金甲蝎（127级）;斗魔蜥（128级）
+pos_info    : ({ 27, 11 })
+
+[迷境花树]
+limit_level : 10
+monster_level : 117-118
+monster_info : 狰兽（117级）;蝶仙（118级）
+pos_info    : ({ 13, 12 })
+
+[七宝林]
+limit_level : 10
+pos_info    : 传送童子@七宝林
+
+[水云间]
+limit_level : 10
+monster_level : 122-123
+monster_info : 蚌姬（122级）;水魔神（123级）
+pos_info    : ({ 11, 9 })
+
+[八德池]
+limit_level : 10
+pos_info    : 传送童子@八德池
+
+[无名小镇]
+limit_level : 10
+pos_info    : 车夫@无名小镇
+
+[官道北]
+limit_level : 0
+monster_level : 13-14
+monster_info : 狐狸（13级）;野狗（14级）
+pos_info    : ({ 14, 9 })
+
+[西昆仑]
+limit_level : 10
+pos_info    : 传送童子@西昆仑
+
+[昆仑云海]
+limit_level : 10
+monster_level : 107-108
+monster_info : 冰晶龙鳞兽（107级）;金翅鸢（108级）
+pos_info    : ({ 231, 190 })
+
+[海底迷宫]
+limit_level : 10
+monster_level : 102-103
+monster_info : 虾兵（102级）;蟹将（103级）
+pos_info    : ({ 43, 35 })
+
+[龙宫]
+limit_level : 10
+pos_info    : 龙宫使者@龙宫
+
+[天上集市]
+limit_level : 10
+pos_info    : 集市传送人@天上集市
+
+[方丈岛]
+limit_level : 10
+monster_level : 132-133
+monster_info : 化蛇兽（132级）;狐灵（133级）
+pos_info    : ({ 322, 293 })
+
+[断魂窟]
+limit_level : 10
+monster_level : 137-138
+monster_info : 镇水怪（137级）;秋棠仙子（138级）
+pos_info    : ({ 97, 104 })
+
+[地府]
+limit_level : 40
+pos_info    : ({ 170, 102 })
+
+[黄泉路]
+limit_level : 40
+pos_info    : ({ 111, 30 })
+
+[奈何桥]
+limit_level : 40
+pos_info    : ({ 33, 92 })
+
+[南天门]
+limit_level : 10
+pos_info    : ({ 60, 130 })
+
+[弑神殿]
+limit_level : 10
+monster_level : 142-143
+monster_info : 壳妖（142级）;符灵（143级）
+pos_info    : ({ 66, 133 })
+
+[灭魔堂]
+limit_level : 10
+monster_level : 147-148
+monster_info : 棋灵（147级）;侍书者（148级）
+pos_info    : ({ 45, 126 })
+
+[云霄宫]
+limit_level : 10
+pos_info    : ({ 82, 158 })
+
+[太极圣境]
+limit_level : 10
+pos_info    : ({ 65, 80 })
+
+[玉清山巅]
+limit_level : 10
+pos_info    : ({ 135, 78 })
+
+[西域古城]
+limit_level : 10
+pos_info    : ({ 17, 94 })
+
+[万佛窟]
+limit_level : 10
+pos_info    : ({ 141, 121 })

@@ -1,0 +1,284 @@
+#FORM2
+
+#index:编号
+#max_times:可触发次数
+#max_level:可触发最大等级
+#client_flag:是否可以通过客户端触发
+#scenario_flag:播放剧本
+
+[批量购买道具指引]
+index : 101
+max_times : 3
+max_level : 100
+client_flag : 1
+type : 1
+
+[分配宠物抗性点指引]
+index : 102
+max_times : 2
+max_level : 80
+type : 1
+
+[批量分配属性点指引]
+index : 103
+max_times : 2
+max_level : 80
+client_flag : 1
+type : 1
+
+[宠物批量喂养指引]
+index : 104
+max_times : 1
+client_flag : 0
+type : 1
+
+[人物法术快捷栏指引]
+index : 105
+max_times : 1
+max_level : 100
+client_flag : 1
+type : 1
+
+[宠物法术快捷栏指引]
+index : 106
+max_times : 1
+max_level : 100
+client_flag : 1
+type : 1
+
+[长按鼠标行走指引]
+index : 107
+max_times : 3
+max_level : 80
+client_flag : 1
+type : 1
+
+[好友批量操作指引]
+index : 108
+max_times : 3
+client_flag : 1
+type : 1
+
+[玩家御灵操作指引]
+index : 109
+max_times : 1
+client_flag : 1
+type : 1
+
+[玩家守护操作指引]
+index : 110
+max_times : 1
+client_flag : 1
+type : 1
+
+[快速补血补蓝指引]
+index : 201
+max_times : 1
+max_level : 100
+client_flag : 1
+type : 2
+
+[遁术成功需骑乘御灵指引]
+index : 202
+max_times : 2
+max_level : 100
+type : 2
+
+[屏蔽玩家功能指引]
+index : 203
+max_times : 3
+client_flag : 1
+type : 2
+
+[驱魔香使用指引]
+index : 204
+max_times : 1
+max_level : 100
+type : 2
+
+[快速拾取物品快捷键]
+index : 205
+max_times : 3
+client_flag : 1
+type : 2
+
+[创建队伍指引]
+index : 206
+max_times : 1
+max_level : 80
+client_flag : 1
+type : 2
+
+[交易平台使用指引]
+index : 207
+max_times : 3
+client_flag : 1
+type : 2
+
+[设置拒绝陌生人消息指引]
+index : 208
+max_times : 1
+client_flag : 1
+type : 2
+
+[设置拒绝组队指引]
+index : 209
+max_times : 1
+client_flag : 1
+type : 2
+
+[新法宝系统指引]
+index : 301
+max_times : 1
+type : 3
+
+[法宝转世系统指引]
+index : 302
+max_times : 1
+type : 3
+
+[奇宝斋系统指引]
+index : 303
+max_times : 1
+client_flag : 1
+type : 3
+
+[坐骑天赋系统指引]
+index : 304
+max_times : 1
+client_flag : 1
+type : 3
+
+[天降神石系统指引]
+index : 305
+max_times : 1
+client_flag : 1
+type : 3
+
+[阵型系统指引]
+index : 306
+max_times : 1
+client_flag : 1
+type : 3
+
+[安全设置指引]
+index : 307
+max_times : 1
+type : 3
+
+[采购指引]
+index : 308
+max_times : 1
+type : 3
+scroll_task : 任务卷轴·采购
+max_level : 29
+min_level : 10
+alias : 采购指引
+client_flag : 1
+
+[摆摊功能指引]
+index : 309
+max_times : 1
+type : 3
+scroll_task : 任务卷轴·摆摊
+max_level : 59
+min_level : 40
+alias : 摆摊功能指引
+client_flag : 1
+
+[钱庄功能指引]
+index : 310
+max_times : 1
+type : 3
+scroll_task : 任务卷轴·钱庄
+max_level : 59
+min_level : 20
+alias : 钱庄功能指引
+
+[力破千钧学习指引]
+index : 311
+max_times : 1
+type : 3
+scroll_task : 任务卷轴·力破千钧
+max_level : 59
+min_level : 20
+alias : 力破千钧学习指引
+client_flag : 1
+
+[帮派任务指引]
+index : 312
+max_times : 1
+type : 3
+scroll_task : 任务卷轴·帮派任务
+max_level : 79
+min_level : 40
+alias : 帮派任务指引
+client_flag : 1
+
+[领取双倍时间指引]
+index : 313
+max_times : 1
+type : 3
+scroll_task : 任务卷轴·领双
+max_level : 99
+min_level : 20
+alias : 领取双倍时间指引
+
+[宠物强化指引]
+index : 314
+max_times : 1
+type : 3
+scroll_task : 任务卷轴·宠物强化
+min_level : 80
+alias : 宠物强化指引
+client_flag : 1
+
+[天神护佑指引]
+index : 315
+type : 1
+max_times : 1
+min_level : 40
+max_level : 100
+
+[灵池效果查看指引]
+index : 316
+type : 1
+max_times : 1
+
+[血池效果查看指引]
+index : 317
+type : 1
+max_times : 1
+
+[风灵丸补充指引]
+index : 318
+max_times : 1
+type : 1
+min_level : 40
+max_level : 100
+
+[超级仙风散购买指引]
+index : 319
+type : 1
+max_times : 1
+min_level : 40
+max_level : 100
+
+[宠物驯养指引]
+index : 320
+type : 3
+max_times : 1
+min_level : 20
+max_level : 59
+
+[宠物寿命指引]
+index : 321
+type : 3
+max_times : 1
+min_level : 50
+
+[【指引】宠物心法]
+index : 322
+type : 3
+max_times : 1
+client_flag : 1

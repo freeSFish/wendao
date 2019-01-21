@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time       : "2015-11-10-00:00:00"
+end_time         : "2015-11-13-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 14400
+broadcast_end   : "end_time(-1)"
+message         : "#R光棍节妖魔#n入侵！大家快到#P活动大使#P处领取任务消灭它们吧。携带异性角色前往诛魔能有几率获得道具奖励，选择#R丰厚奖励#n型则还有机会获得2-5级符文宝石、变异精魄、神兽精魄的奖励！敢不敢试试？"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

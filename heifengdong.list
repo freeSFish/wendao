@@ -1,0 +1,326 @@
+#FORM2
+
+# 有此字段表示是黑风洞产生怪物
+# heifengdong    : 1
+
+# 此字段表示怪物的套装效果
+# suits           : 860801
+
+# 此字段表示怪物拥有的技能
+# skills          : ({ B4, C4 })
+
+# 此字段表示怪物的随机抗性与 resist$ : ({ "resist_metal", "resist_fire" })
+# 配套组合，新成最终抗性
+# resist          : ({ 70, -10 })
+
+# 此字段表示有此怪物参战的战斗共生成几只怪物
+# amount :1
+
+# 此字段表示怪物选择的战斗策略--要跟程序函数命名做一同修改 (xxx表示函数名)
+# tactics : xxx
+
+[当家]
+icon              : ({ 6201, 6202, 6231 })
+portrait          : ({ 6201, 6202, 6231 })
+alias             : "当家"
+life_effect       : 5000
+phy_effect        : 200
+resist_forgotten  : 50
+resist_poison     : 30
+resist_frozen     : 30
+resist_sleep      : 30
+resist_confusion  : 50
+resist            : ({ 70, -10 })
+speed_effect      : -20
+penetrate_rate    : 10
+penetrate         : 50
+tao_effect        : 0
+double_hit_rate   : 50
+double_hit        : 6
+heifengdong       : 1
+amount            : 10
+
+[黑风洞强盗]
+icon              : ({ 6113, 6230 })
+portrait          : ({ 6113, 6230 })
+name              : "黑风洞强盗"
+life_effect       : 700
+phy_effect        : 70
+resist_forgotten  : 30
+resist_poison     : 20
+resist_frozen     : 20
+resist_sleep      : 20
+resist_confusion  : 30
+resist            : ({ 70, -10 })
+heifengdong       : 1
+
+[金光]
+icon              : 6001
+portrait          : 6001
+suits             : 860801
+alias             : "傀儡"
+name              : "金光"
+polar             : 1
+equipment         : 1142
+resist_metal      : 70
+resist_fire       : -10
+life_effect       : 5000
+phy_effect        : 120
+mag_effect        : 120
+resist_forgotten  : 50
+resist_poison     : 30
+resist_frozen     : 30
+resist_sleep      : 30
+resist_confusion  : 50
+skills            : ({ "B4", "B2" })
+mag_action_rate   : 80
+heifengdong       : 1
+amount            : 8
+
+[木岚]
+icon              : 6002
+portrait          : 6002
+suits             : 860802
+alias             : "傀儡"
+name              : "木岚"
+polar             : 2
+equipment         : 1153
+resist_wood       : 70
+resist_metal      : -10
+life_effect       : 5000
+phy_effect        : 120
+mag_effect        : 120
+resist_forgotten  : 50
+resist_poison     : 30
+resist_frozen     : 30
+resist_sleep      : 30
+resist_confusion  : 50
+skills            : ({ "B4", "B2" })
+mag_action_rate   : 80
+heifengdong       : 1
+amount            : 8
+
+[水月]
+icon              : 6003
+portrait          : 6003
+suits             : 860803
+alias             : "傀儡"
+name              : "水月"
+polar             : 3
+equipment         : 1131
+resist_water      : 70
+resist_earth      : -10
+life_effect       : 5000
+phy_effect        : 120
+mag_effect        : 120
+resist_forgotten  : 50
+resist_poison     : 30
+resist_frozen     : 30
+resist_sleep      : 30
+resist_confusion  : 50
+skills            : ({ "B4", "B2" })
+mag_action_rate   : 80
+heifengdong       : 1
+amount            : 8
+
+[火影]
+icon              : 6004
+portrait          : 6004
+suits             : 860804
+alias             : "傀儡"
+name              : "火影"
+polar             : 4
+equipment         : 1109
+resist_fire       : 70
+resist_water      : -10
+life_effect       : 5000
+phy_effect        : 120
+mag_effect        : 120
+resist_forgotten  : 50
+resist_poison     : 30
+resist_frozen     : 30
+resist_sleep      : 30
+resist_confusion  : 50
+skills            : ({ "B4", "B2" })
+mag_action_rate   : 80
+heifengdong       : 1
+amount            : 8
+
+[土宸]
+icon              : 6005
+portrait          : 6005
+suits             : 860805
+alias             : "傀儡"
+name              : "土宸"
+polar             : 5
+equipment         : 1120
+resist_earth      : 70
+resist_wood       : -10
+life_effect       : 5000
+phy_effect        : 120
+mag_effect        : 120
+resist_forgotten  : 50
+resist_poison     : 30
+resist_frozen     : 30
+resist_sleep      : 30
+resist_confusion  : 50
+skills            : ({ "B4", "B2" })
+mag_action_rate   : 80
+heifengdong       : 1
+amount            : 8
+
+[魔煞]
+icon              : 6221
+portrait          : 6221
+name              : "魔煞"
+alias             : "四煞"
+polar             : 4
+resist_fire       : 70
+resist_water      : -10
+life_effect       : 2000
+phy_effect        : 150
+mag_effect        : 120
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 30
+resist_sleep      : 15
+resist_confusion  : 30
+skills            : ({ "B4", "C4" })
+mag_action_rate   : 80
+add_life_percent  : 30
+tactics           : "mosha_tactics"
+recover_life_rate : 40
+sf_die            : 1
+amount            : 5
+heifengdong       : 1
+
+[阴煞]
+icon              : 6229
+portrait          : 6229
+name              : "阴煞"
+alias             : "四煞"
+polar             : 3
+resist_water      : 70
+resist_earth      : -10
+life_effect       : 3500
+phy_effect        : 200
+mag_effect        : 150
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 15
+resist_confusion  : 30
+skills            : ({ "B4", "C4" })
+mag_action_rate   : 80
+add_life_percent  : 50
+tactics           : "yinsha_tactics"
+recover_life_rate : 50
+sf_die            : 1
+amount            : 3
+heifengdong       : 1
+
+#[鬼煞]
+#icon              : 6228
+#portrait          : 6228
+#name              : "鬼煞"
+#alias             : "四煞"
+#polar             : 1
+#resist_metal      : 70
+#resist_fire       : -10
+#life_effect       : 1000
+#phy_effect        : 120
+#mag_effect        : 120
+#resist_forgotten  : 60
+#resist_poison     : 45
+#resist_frozen     : 45
+#resist_sleep      : 30
+#resist_confusion  : 60
+#skills            : ({ "B4", "B2" })
+#sp_skills         : ({ "神龙罩", "如意圈" })
+#mag_action_rate   : 80
+#tactics           : "guisha_tactics"
+#amount            : 10
+#heifengdong       : 1
+
+[恶煞]
+icon              : 6226
+portrait          : 6226
+name              : "恶煞"
+alias             : "四煞"
+polar             : 5
+resist_earth      : 70
+resist_wood       : -10
+life_effect       : 10000
+phy_effect        : 300
+mag_effect        : 250
+all_resist_except : 150
+speed_effect      : 200
+tao_effect        : 40
+double_hit_rate   : 40
+double_hit        : 10
+skills            : ({ "B5" })
+tactics           : "esha_tactics"
+amount            : 1
+heifengdong       : 1
+
+[妖狼王]
+icon              : 6257
+portrait          : 6257
+name              : "妖狼王"
+# 妖狼王是四煞头目
+alias             : "四煞"
+polar             : -1
+life_effect       : 8000
+phy_effect        : 300
+resist_forgotten  : 100
+resist_confusion  : 100
+resist_poison     : 100
+resist_frozen     : 100
+resist_sleep      : 50
+speed_effect      : 100
+double_hit_rate   : 60
+double_hit        : 10
+stunt             : 40
+heifengdong       : 1
+
+[影狼]
+icon              : 6257
+portrait          : 6257
+name              : "影狼"
+polar             : 2
+life_effect       : 8000
+phy_effect        : 200
+mag_effect        : 250
+resist_forgotten  : 100
+resist_confusion  : 100
+resist_poison     : 100
+resist_frozen     : 50
+resist_sleep      : 100
+speed_effect      : -100
+skills            : ({ "B4", "B5" })
+sp_skills         : ({ "如意圈" })
+heifengdong       : 1
+
+[抗性]
+resist$ : ({ "resist_metal", "resist_fire"  })
+resist$ : ({ "resist_wood",  "resist_metal" })
+resist$ : ({ "resist_water", "resist_earth" })
+resist$ : ({ "resist_fire",  "resist_water" })
+resist$ : ({ "resist_earth", "resist_wood"  })
+
+#副本的一些基本信息配置
+#keep_time 副本任务从开放到结束的时间
+[base_config]
+keep_time      : 7200
+kuilei_name    : ({ "金光", "木岚", "水月", "火影", "土宸" })
+dangjia_prefix : ({ "大", "二" })
+sisha_name     : ({ "魔煞", "阴煞", "恶煞" })
+yaolangwang    : "妖狼王"
+timer_inter    : ({ 3600, 1800, 600, 600, 300, 60, 60, 60, 60 })
+exits$         : ({ "黑风洞一层", 139, 99,  1 })
+exits$         : ({ "黑风洞二层", 196, 143, 1 })
+exits$         : ({ "黑风洞三层", 133, 90,  1 })
+exits$         : ({ "妖狼王", 21, 13, 5 })
+exits$         : ({ "魔煞", 24, 91, 5 })
+exits$         : ({ "阴煞", 53, 70, 5 })
+exits$         : ({ "恶煞", 133, 20, 7 })

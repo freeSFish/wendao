@@ -1,0 +1,22 @@
+#FORM2
+
+[setting]
+start_time       : "2015-12-12-00:00:00"
+end_time         : "2015-12-15-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "清明将至，#Z地府(51，103)#Z中的清明亡魂正等待大家的超度，成功将其超度可使其罪报减轻，往生极乐，同时也为自己记一份功德。大家快去超度清明亡魂吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "各位仁人义士的大慈大悲之心由衷的感化了地府中的清明亡魂！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

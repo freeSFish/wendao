@@ -1,0 +1,143 @@
+#FORM2
+
+[牛头]
+name             : 牛头
+icon             : 20056
+portrait         : 20056
+polar            : -1
+level            : 120
+life_effect      : 2000
+mag_effect       : 300
+phy_effect       : 300
+tao_effect       : 200
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+skills           : ({ "B3", "B4", "B5", "D5", "lipo-qianjun" })
+
+[马面]
+name             : 马面
+icon             : 20057
+portrait         : 20057
+polar            : -1
+level            : 120
+life_effect      : 2000
+speed_effect     : 100
+mag_effect       : 300
+phy_effect       : 300
+tao_effect       : 100
+resist_poison    : 40
+resist_frozen    : 40
+resist_sleep     : 40
+resist_confusion : 40
+skills           : ({ "D5", "lipo-qianjun" })
+
+[地府侍卫]
+name             : 地府侍卫
+icon             : 6221
+portrait         : 6221
+polar            : -1
+level            : 120
+life_effect      : 1000
+speed_effect     : 100
+phy_effect       : 150
+mag_effect       : 150
+tao_effect       : 100
+skills           : ({ "B3", "B4" })
+
+[紫衣仙子]
+name             : 紫衣仙子
+icon             : 6137
+portrait         : 6137
+polar            : -1
+level            : 120
+life_effect      : 2600
+mag_effect       : 300
+phy_effect       : 350
+tao_effect       : 200
+resist_poison    : 40
+resist_sleep     : 40
+resist_confusion : 40
+resist_forgotten : 40
+stunt_rate       : 30
+skills           : ({ "B5", "lipo-qianjun" })
+
+[修道魔王]
+name             : 修道魔王
+icon             : 6228
+portrait         : 6228
+polar            : -1
+level            : 120
+resist_frozen    : 70
+resist_poison    : 70
+resist_sleep     : 70
+resist_confusion : 70
+resist_forgotten : 70
+penetrate_rate   : 40
+penetrate        : 60
+skills           : ({ "C5", "D5", "B5", "lipo-qianjun" })
+
+[曹国舅]
+name             : 曹国舅
+icon             : 20011
+portrait         : 20011
+polar            : -1
+level            : 120
+life_effect      : 2500
+mag_effect       : 340
+phy_effect       : 340
+resist_frozen    : 75
+resist_poison    : 75
+resist_sleep     : 75
+resist_confusion : 75
+resist_forgotten : 75
+tao_effect       : 250
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+
+[仙兽]
+name             : 仙兽
+icon             : 6276
+portrait         : 6276
+polar            : -1
+level            : 120
+life_effect      : 1000
+phy_effect       : 300
+mag_effect       : 300
+resist_frozen    : 50
+resist_poison    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_forgotten : 50
+tao_effect       : 150
+skills           : ({ "B4", "B5", "C5" })
+
+[阎罗王]
+name             : 阎罗王
+icon             : 20051
+portrait         : 20051
+polar            : -1
+level            : 120
+life_effect      : 3000
+phy_effect       : 350
+mag_effect       : 300
+tao_effect       : 400
+resist_frozen    : 50
+resist_poison    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_forgotten : 50
+skills           : ({ "C5", "D5" })
+
+[地府守卫]
+name             : 地府守卫
+icon             : 370006248
+portrait         : 370006248
+polar            : -1
+level            : 120
+life_effect      : 1000
+phy_effect       : 300
+mag_effect       : 300
+tao_effect       : 50
+speed_effect     : 50
+skills           : ({ "B3", "B4", "B5", "lipo-qianjun" })

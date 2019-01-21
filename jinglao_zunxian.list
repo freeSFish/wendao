@@ -1,0 +1,16 @@
+#FORM2
+
+[setting]
+start_time : "2013-10-13-00:00:00"
+end_time   : "2013-10-13-23:59:59"
+special_bonus_time : "2013-10-14-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "重阳节到了，快来#P活动大使#P处参加重阳节#R敬老尊贤#n活动吧，给你喜爱的NPC投票，只要投票就可以获得奖励！完成所有轮次#R重阳祈福#n任务才能参与#R敬老尊贤#n活动哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

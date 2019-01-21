@@ -1,0 +1,231 @@
+#FORM2
+
+[time_info]
+start_note_time  : "2012-04-20-12:00:00"
+end_note_time    : "2012-05-03-23:59:00"
+start_bonus_time : "2012-04-20-12:00:00"
+end_bonus_time   : "2012-05-06-23:59:59"
+note_time_desc$  : "2012-04-20至2012-05-03的12：00-22：00"
+note_time_desc$  : "2012-04-20-12：00至2012-05-03-23：59"
+note_time_desc$  : "2012-04-20-12：00至2012-05-03-23：59"
+note_time_desc$  : "2012-04-20-12：00至2012-05-03-23：59"
+note_time_desc$  : "2012-04-20-12：00至2012-05-03-23：59"
+note_time_desc$  : "2012-04-20-12：00至2012-05-06-23：59"
+note_time_desc$  : "2012-04-20-12：00至2012-05-03-23：59"
+
+[broadcast_setting]
+broadcast_list : ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time(21600)"
+interval        : 1200
+cycle           : 86400
+broadcast_end   : "start_time(35000)"
+final_end_time  : "end_time"
+message         : "传说中的#R九曲玲珑笔#n在周年商城上架了，大家赶紧去#P活动大使#P处兑换吧！出售时间为#R18:00-22:00#n，欲购从速。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[001]
+exchange_bonus : 1
+bonus_type : "item"
+name : 清风沐雨装·男
+cost_num : 40
+limit_month : 1
+bag_num : 1
+gender  : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[002]
+exchange_bonus : 1
+bonus_type : "item"
+name : 清风沐雨装·女
+cost_num : 40
+limit_month : 1
+bag_num : 1
+gender  : 2
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[003]
+exchange_bonus : 1
+bonus_type : "item"
+name : 清风沐雨装·男
+cost_num : 80
+limit_month : 3
+bag_num : 1
+gender  : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[004]
+exchange_bonus : 1
+bonus_type : "item"
+name : 清风沐雨装·女
+cost_num : 80
+limit_month : 3
+bag_num : 1
+gender  : 2
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[005]
+exchange_bonus : 1
+bonus_type : "item"
+name : 清风沐雨装·男
+cost_num : 120
+limit_month : 6
+bag_num : 1
+gender  : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[006]
+exchange_bonus : 1
+bonus_type : "item"
+name : 清风沐雨装·女
+cost_num : 120
+limit_month : 6
+bag_num : 1
+gender  : 2
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[007]
+exchange_bonus : 1
+bonus_type : "pet"
+name : 金轩龙
+icon : 31085
+cost_num : 120
+pet_num : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[008]
+exchange_bonus : 1
+bonus_type : "pet"
+name : 紫玉龙
+icon : 31086
+cost_num : 120
+pet_num : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[009]
+exchange_bonus : 1
+bonus_type : "pet"
+name : 蓝溟龙
+icon : 31087
+cost_num : 120
+pet_num : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[010]
+exchange_bonus : 1
+bonus_type : "pet"
+name : 赤灵龙
+icon : 31088
+cost_num : 120
+pet_num : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[011]
+exchange_bonus : 1
+bonus_type : "pet"
+name : 陨魂龙
+icon : 31089
+cost_num : 120
+pet_num : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[012]
+exchange_bonus : 1
+bonus_type : "item"
+name : 烟花筒
+cost_num : 1
+limit_month : 1
+bag_num : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[013]
+exchange_bonus : 1
+bonus_type : "item"
+name : 九曲玲珑笔·金轩龙
+cost_num : 15
+bag_num : 1
+sell_start : 18
+sell_end : 22
+show_start : 18
+show_end : 22
+
+[014]
+exchange_bonus : 1
+bonus_type : "item"
+name : 九曲玲珑笔·紫玉龙
+cost_num : 15
+bag_num : 1
+sell_start : 18
+sell_end : 22
+show_start : 18
+show_end : 22
+
+[015]
+exchange_bonus : 1
+bonus_type : "item"
+name : 九曲玲珑笔·蓝溟龙
+cost_num : 15
+bag_num : 1
+sell_start : 18
+sell_end : 22
+show_start : 18
+show_end : 22
+
+[016]
+exchange_bonus : 1
+bonus_type : "item"
+name : 九曲玲珑笔·赤灵龙
+cost_num : 15
+bag_num : 1
+sell_start : 18
+sell_end : 22
+show_start : 18
+show_end : 22
+
+[017]
+exchange_bonus : 1
+bonus_type : "item"
+name : 九曲玲珑笔·陨魂龙
+cost_num : 15
+bag_num : 1
+sell_start : 18
+sell_end : 22
+show_start : 18
+show_end : 22

@@ -1,0 +1,17 @@
+#FORM2
+
+[time]
+start_time : "2013-04-22-10:00:00"
+end_time   : "2013-05-01-23:59:59"
+
+[broadcast_setting]
+broadcast_list: ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+cycle           : 86400
+broadcast_end   : "start_time(43200)"
+final_end_time  : "end_time"
+message         : "盘古生太极，两仪四象循。封神世界众妖自觉前生无命封神，如今竟将天墉城原貌复原，在那座虚假城池中大胆造次封神，众道友速去#P活动大使#P处传送至#Y虚幻天墉城#n中除魔卫道吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

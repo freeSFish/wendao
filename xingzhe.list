@@ -1,0 +1,21 @@
+#FORM2
+#xingzhe.list
+#Create by xuj Jan/25/2007
+#内测区功能NPC-行者出售的物品列表
+
+#name    : 名称
+#level   : 等级
+#color   : 颜色
+#contrib : 购买需花费的帮贡
+
+[灵引咒]
+name: 灵引咒
+contrib: 3000
+
+[超级女娲石]
+name: 超级女娲石
+contrib: 1500
+
+[幻灵石]
+name: 幻灵石
+contrib: 460

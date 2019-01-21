@@ -1,0 +1,64 @@
+#FORM2
+
+[setting]
+refresh_interval  : 180
+time_to_stop      : 300
+all_monster       : ({ "好奇的冰雪怪", "捣蛋的冰雪怪", "调皮的冰雪怪", "冰雪皇后", "狂暴的冰雪怪" })
+
+[好奇的冰雪怪]
+name              : "好奇的冰雪怪"
+icon              : ({ 31043 })
+life              : 100
+polar             : 3
+catch_rate        : 75
+speed_effect      : 700
+tactics           : "tactics_haoqi"
+msg               : ({ "我爱这雪白的世界。" })
+
+[捣蛋的冰雪怪]
+name              : "捣蛋的冰雪怪"
+icon              : ({ 06162, 06271 })
+polar             : 3
+tao_effect        : -50
+double_hit        : 4
+double_hit_rate   : 30
+tactics           : "tactics_daodan"
+prompt            : "急什么急，等我抢完他们的大雪球再说。"
+
+[调皮的冰雪怪]
+name              : "调皮的冰雪怪"
+icon              : ({ 31043 })
+polar             : 3
+life              : 100
+catch_rate        : 100
+speed_effect      : 700
+tactics           : "tactics_tiaopi"
+msg               : ({ "多可爱的冰雪世界啊！", "已经很久没有人陪我们玩了。", "我迷路了，你能帮我找寻我的女王么？" })
+prompt            : "我正在和别人玩游戏呢，现在没空。"
+
+[冰雪皇后]
+name              : "冰雪皇后"
+icon              : ({ 06173 })
+polar             : 3
+life              : 500
+catch_rate        : 100
+speed_effect      : 700
+tactics           : "tactics_queen"
+msg               : ({ "我就是这个世界的女王。" })
+
+[狂暴的冰雪怪]
+name              : "狂暴的冰雪怪"
+icon              : ({ 06162, 06271 })
+polar             : 3
+life              : 1000
+double_hit        : 6
+double_hit_rate   : 50
+tao_effect        : -50
+speed_effect      : -90
+tactics           : "tactics_kuangbao"
+
+[special_bonus]
+胡萝卜        : "，竟然意外的获得了#R胡萝卜#n，真是好运啊。#3f"
+松果        : "，竟然意外的获得了#R松果#n，真是好运啊。#3f"
+魔法扫帚        : "，竟然意外的获得了#R魔法扫帚#n，真是好运啊。#3f"
+雪球娃娃        : "，竟然意外的获得了#R雪球娃娃#n，这......这不是真的吧。#63f"

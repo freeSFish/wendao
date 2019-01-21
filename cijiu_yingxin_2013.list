@@ -1,0 +1,24 @@
+#FORM2
+
+[config]
+rooms : ({ "东海渔村", "揽仙镇", "无名小镇", "天墉城" })
+icons : ({ 20023, 20026, 20029 })
+start_time : "2012-12-29-00:00:00"
+end_time : "2013-01-03-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【元旦辞旧迎新活动】#n已经开启，大家组队快去#Z揽仙镇#Z、#Z天墉城#Z、#Z东海渔村#Z、#Z无名小镇#Z将丢在街道上的#Y脏乱的石子#n打扫干净，迎接元旦的到来吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+5)"
+message         : "本次#R【元旦辞旧迎新活动】#n圆满结束，感谢大家的参与！#86"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

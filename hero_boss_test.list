@@ -1,0 +1,124 @@
+#FORM2
+
+[»î¶¯Ê±¼ä]
+time_list$ : ({ "2013-06-29-16:30:00", "EVERY_MIN(120)", "EVERY_DAY(7)" })
+time_list$ : ({ "2013-06-30-16:30:00", "EVERY_MIN(120)", "EVERY_DAY(7)" })
+
+[refresh_rooms]
+ÄÎºÎÇÅ : 50
+»ÆÈªÂ· : 50
+
+[¹íÓüÁ¶Ä§]
+name                : ¹íÓüÁ¶Ä§
+polar               : -1
+icon                : 570031052
+portrait            : 570031052
+life_effect         : "Lv * 60 + Lv / 4 * 200"
+phy_effect          : "Lv * 2.1"
+mag_effect          : "Lv * 2.1"
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+mstunt_rate         : 50
+penetrate_rate      : ({ 40, 99 })
+penetrate           : ({ 40, 99 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "500 + Lv / 10 * 30"
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+artifact            : ({ "hunyuan-jindou", 10, "fantianyin", 10 })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+tactics             : "tactics_lianmo"
+
+[¹íÓüÒõÑôÊ¦]
+name                : ¹íÓüÒõÑôÊ¦
+polar               : -1
+icon                : 450031055
+portrait            : 450031055
+life_effect         : "Lv * 60 + Lv / 4 * 200"
+phy_effect          : "Lv * 2.1"
+mag_effect          : "Lv * 2.1"
+mstunt_rate         : 50
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+penetrate_rate      : ({ 40, 99 })
+penetrate           : ({ 40, 99 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "500 + Lv / 10 * 30"
+speed_effect        : "150 + Lv / 10 * 20"
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+artifact            : ({ "yinyangjing", 10 })
+skills              : ({ "liwan-kuanglan", "ruyi-quan", "shenlong-zhao", "siwang-chanmian", "daofa-wubian", "B5" })
+tactics             : "tactics_yingyangshi"
+
+[¹íÓü÷ÈÁé]
+name                : ¹íÓü÷ÈÁé
+polar               : 0
+icon                : 570031053
+portrait            : 570031053
+life_effect         : "(Lv * 60 + Lv / 4 * 200) / 2"
+phy_effect          : "Lv * 2.1 * 1.4"
+mag_effect          : "Lv * 2.1 * 1.4"
+mstunt_rate         : 70
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+penetrate_rate      : ({ 40, 99 })
+penetrate           : ({ 40, 99 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 180
+resist_forgotten    : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+tao_effect          : "500 + Lv / 10 * 30"
+speed_effect        : "50 + Lv / 10 * 10"
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+artifact            : ({ "yinyangjing", 10, "fantianyin", 10 })
+family_skills       : ({ "B1", "B2", "B3", "B4" })
+tactics             : "tactics_meiling"
+
+[µØÓüÑÖÄ§]
+name                : µØÓüÑÖÄ§
+polar               : -1
+icon                : 20051
+portrait            : 20051
+life_effect         : "Lv * 70 + Lv / 4 * 230"
+phy_effect          : "Lv * 2.1"
+mag_effect          : "Lv * 2.1"
+mstunt_rate         : 50
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+penetrate_rate      : ({ 40, 99 })
+penetrate           : ({ 40, 99 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "550 + Lv / 10 * 30"
+speed_effect        : "500 + Lv / 10 * 20"
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+artifact            : ({ "jinjiaojian", 20, "fantianyin", 20, "hunyuan-jindou", 20 })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "youshui-zhishe", "shensheng-zhiguang" })
+family_skills       : ({ "C5" })
+super_boss_skills   : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+tactics             : "tactics_yanmo"
+combat_trigger      : "combat_trigger_yanmo"

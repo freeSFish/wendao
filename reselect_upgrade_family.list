@@ -1,0 +1,24 @@
+#FORM2
+
+[main_monster]
+name         : ({ "ΩÆ¡º", "∂´…Ω…Ò¡È", "–˛Œ‰", "÷Ï»∏", "æ≈Œ≤∫¸" })
+icon         : ({ 06189, 06190, 06191, 06192, 06176 })
+level        : 130
+life_effect  : 39000
+speed_effect : 5000
+mag_effect   : 2500
+tao_effect   : 300
+mag_rate     : 100
+tactics      : "tactics_monster"
+
+[assist_monster]
+name         : " ÿª§ ﬁ"
+icon         : ({ 06283, 06271, 06281, 06284, 06286 })
+level        : 130
+life_effect  : 19000
+speed_effect : 5000
+mag_effect   : 2000
+phy_effect   : 1500
+tao_effect   : 300
+mag_rate     : 70
+tactics      : "tactics_monster"

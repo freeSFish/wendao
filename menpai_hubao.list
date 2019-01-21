@@ -1,0 +1,35 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-06-23-20:00:00", "EVERY_HOUR(2)", "EVERY_DAY(7)", "2017-05-19-22:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task1", "before_start_task", "start_task", "end_task" })
+
+[before_start_task1]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1799)"
+message         : "#R【周活动】护宝大战#n将在#RSTART_TIME#n进行，请大家赶紧去#P门派比武大会申请人#P处进入战场，#R【周活动】护宝大战#n是中洲与妖族之间的一次战斗，同时也是门派之间的一场比赛，希望大家能够为本派争光！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "#R【周活动】护宝大战#n将在#RSTART_TIME#n进行，请大家赶紧去#P门派比武大会申请人#P处进入战场，#R【周活动】护宝大战#n是中洲与妖族之间的一次战斗，同时也是门派之间的一场比赛，希望大家能够为本派争光！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【周活动】护宝大战#n正式开始了，大家努力消灭觊觎我们中洲宝藏的妖族吧！让妖族们知道我们中洲五大门派的厉害！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "#R【周活动】护宝大战#n已经结束了，大家为参战者欢呼吧！#50"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

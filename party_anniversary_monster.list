@@ -1,0 +1,42 @@
+#FORM2
+
+[石头精]
+name     : "石头精"
+icon     : 6142
+portrait : 6142
+
+[花纹蛇]
+name     : "花纹蛇"
+icon     : 6122
+portrait : 6122
+
+[灵睛鼠]
+name     : "灵睛鼠"
+icon     : 6166
+portrait : 6166
+polar    : -1
+skills   : ({ "B1", "B2" })
+
+[捣乱者]
+name     : "捣乱者"
+icon     : 6231
+portrait : 6231
+tao_effect : 0
+polar    : -1
+mag_absorb : 10
+phy_absorb : 10
+speed_effect : 10
+accurate : 100
+skills   : ({ "B3", "B4", "B5", "C4", "D2", "D4" })
+
+[随从]
+name     : "随从"
+icon     : 6230
+portrait : 6230
+tao_effect : 0
+polar    : -1
+mag_absorb : 10
+phy_absorb : 10
+speed_effect : 10
+accurate : 100
+skills   : ({ "B4" })

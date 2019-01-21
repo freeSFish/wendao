@@ -1,0 +1,306 @@
+#FORM2
+
+[刺客]
+name              : "刺客"
+icon              : 6213
+portrait          : 6213
+polar             : -1
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+dodge             : 30
+skills            : ({ "B2", "B4" })
+
+[姜环]
+name              : "姜环"
+icon              : 6243
+portrait          : 6243
+polar             : 1
+resist_fire       : -10
+mag_absorb        : 25
+penetrate_rate    : 5
+penetrate         : 50
+counter_attack_rate : 40
+counter_attack    : 4
+resist_forgotten  : 100
+resist_poison     : 60
+resist_frozen     : 60
+resist_sleep      : 30
+resist_confusion  : 100
+resist_repress    : 100
+resist_melt       : 60
+resist_cage       : 60
+resist_lock       : 30
+resist_lost       : 100
+skills            : ({ "lipo-qianjun", "B3", "B4", "B5", "D3", "D5" })
+
+[刺客1]
+name              : "刺客"
+icon              : 6213
+portrait          : 6213
+polar             : -1
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+dodge             : 30
+skills            : ({ "B2", "B4" })
+
+[方军士兵]
+name              : "方军士兵"
+icon              : 6051
+portrait          : 6051
+polar             : -1
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+counter_attack_rate : 30
+counter_attack    : 4
+skills            : ({ "B2", "B4", "ruyi-quan" })
+
+[方弼]
+name              : "方弼"
+icon              : 6156
+portrait          : 6156
+polar             : 5
+resist_fire       : -10
+mag_absorb        : 25
+penetrate_rate    : 5
+penetrate         : 50
+resist_forgotten  : 100
+resist_poison     : 60
+resist_frozen     : 60
+resist_sleep      : 30
+resist_confusion  : 100
+resist_repress    : 100
+resist_melt       : 60
+resist_cage       : 60
+resist_lock       : 30
+resist_lost       : 100
+skills            : ({ "B3", "B4", "B5", "qiankun-zhao", "lipo-qianjun" })
+
+[方军士兵1]
+name              : "方军士兵"
+icon              : 6051
+portrait          : 6051
+polar             : -1
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+counter_attack_rate : 30
+counter_attack    : 4
+skills            : ({ "B2", "B4", "ruyi-quan" })
+
+[方军死士]
+name              : "方军死士"
+icon              : 6223
+portrait          : 6223
+polar             : 3
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+double_hit_rate   : 30
+counter_attack    : 4
+skills            : ({ "D3", "D5", "lipo-qianjun" })
+
+[方相]
+name              : "方相"
+icon              : 6235
+portrait          : 6235
+polar             : 2
+resist_fire       : -10
+mag_absorb        : 25
+penetrate_rate    : 5
+penetrate         : 50
+resist_forgotten  : 100
+resist_poison     : 60
+resist_frozen     : 60
+resist_sleep      : 30
+resist_confusion  : 100
+resist_repress    : 100
+resist_melt       : 60
+resist_cage       : 60
+resist_lock       : 30
+resist_lost       : 100
+skills            : ({ "B3", "B4", "B5", "C4" })
+
+[方军死士1]
+name              : "方军死士"
+icon              : 6223
+portrait          : 6223
+polar             : 3
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+double_hit_rate   : 30
+counter_attack    : 4
+skills            : ({ "D3", "D5", "lipo-qianjun" })
+
+[朝歌禁军]
+name              : "朝歌禁军"
+icon              : 31123
+portrait          : 31123
+polar             : -1
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+counter_attack_rate : 30
+counter_attack    : 4
+skills            : ({ "B2", "B4", "shenlong-zhao" })
+
+[殷破败]
+name              : "殷破败"
+icon              : 6005
+portrait          : 6005
+polar             : 5
+resist_fire       : -10
+mag_absorb        : 25
+penetrate_rate    : 5
+penetrate         : 50
+resist_forgotten  : 100
+resist_poison     : 60
+resist_frozen     : 60
+resist_sleep      : 30
+resist_confusion  : 100
+resist_repress    : 100
+resist_melt       : 60
+resist_cage       : 60
+resist_lock       : 30
+resist_lost       : 100
+skills            : ({ "B3", "B4", "B5", "C4", "lipo-qianjun" })
+
+[朝歌禁军1]
+name              : "朝歌禁军"
+icon              : 31123
+portrait          : 31123
+polar             : -1
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+counter_attack_rate : 30
+counter_attack    : 4
+skills            : ({ "B2", "B4", "shenlong-zhao" })
+
+[朝歌禁卫]
+name              : "朝歌禁卫"
+icon              : 31116
+portrait          : 31116
+polar             : 4
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+double_hit_rate   : 30
+counter_attack    : 4
+skills            : ({ "D3", "D5", "lipo-qianjun" })
+
+[雷开]
+name              : "雷开"
+icon              : 6236
+portrait          : 6236
+polar             : 4
+resist_fire       : -10
+mag_absorb        : 25
+penetrate_rate    : 5
+penetrate         : 50
+resist_forgotten  : 100
+resist_poison     : 60
+resist_frozen     : 60
+resist_sleep      : 30
+resist_confusion  : 100
+resist_repress    : 100
+resist_melt       : 60
+resist_cage       : 60
+resist_lock       : 30
+resist_lost       : 100
+skills            : ({ "B3", "B4", "B5", "C4" })
+
+[朝歌禁卫1]
+name              : "朝歌禁卫"
+icon              : 31116
+portrait          : 31116
+polar             : 4
+resist_earth      : 10
+resist_forgotten  : 30
+resist_poison     : 15
+resist_frozen     : 15
+resist_sleep      : 10
+resist_confusion  : 30
+resist_repress    : 30
+resist_melt       : 15
+resist_cage       : 15
+resist_lock       : 10
+resist_lost       : 30
+double_hit_rate   : 30
+counter_attack    : 4
+skills            : ({ "D3", "D5", "lipo-qianjun" })

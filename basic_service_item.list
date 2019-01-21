@@ -1,0 +1,9 @@
+#名字       file_id
+key_name,   file_id,                          attrib
+跑环记录卡, "service_item/baohuanjiluka",     0
+杀星卡,     "service_item/shaxingka",         0
+饰物合成卡, "service_item/shiwuhechengka",    0
+降妖伏魔卡, "service_item/xiangyaofumoka",    0
+寻宝卡,     "service_item/xunbaoka",          0
+装备改造卡, "service_item/zhuangbeigaizaoka", 0
+

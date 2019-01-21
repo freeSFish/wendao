@@ -1,0 +1,32 @@
+#FORM2
+
+# common_block_reason.list
+# Created by Hongjs Oct/12/2009
+# 封闭帐号、封闭角色的常用原因，供GM功能使用
+
+# 外挂
+[use_cheater]
+reason$ : 升级异常，涉嫌使用第三方软件
+reason$ : 刷道任务异常，涉嫌使用第三方软件
+reason$ : 跑环任务异常，涉嫌使用第三方软件
+reason$ : 捉宠异常，涉嫌使用第三方软件
+reason$ : 被apex系统检测存在使用外挂记录
+
+# 盗号
+[steal_account]
+reason$ : 涉嫌直接盗号
+reason$ : 涉嫌间接盗号
+reason$ : 玩家反映被盗，主动申请封号
+
+# 发言
+[illegal_comment]
+reason$ : 在游戏中宣传推广员信息
+reason$ : 在游戏中宣传虚假信息
+reason$ : 在游戏中宣传色情网站
+reason$ : 在游戏中刷屏骂人，并且警告无效
+
+# 其它
+[others]
+reason$ : 帐号出现纠纷
+reason$ : 修改帐号资料
+reason$ : 解除电话密保

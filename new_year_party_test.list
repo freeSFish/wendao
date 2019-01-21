@@ -1,0 +1,67 @@
+#FORM2
+
+#start_time 活动开始时间
+#duration_time 活动持续时间
+#monster_num 每层产生的妖魔数量
+
+[setting]
+start_time    : "2009-01-15-16:00:00"
+duration_time : 7200
+broadcast_interval_30 : 86400
+interval_30 : 1800
+interval_5  : 300
+start_interval : 3
+party_interval : 259200
+party_end_time : "2009-01-18-18:00:00"
+
+
+[怪物]
+劫匪   : 1
+劫匪队长   : 1
+劫匪总头目   : 1
+
+[劫匪]
+icon             : 6201
+portrait         : 6201
+polar            : -1
+life_effect      : 500
+phy_effect       : 50
+mag_effect       : 70
+skills           : ({ "B2", "B3" })
+tractics         : "jiefei_tactics"
+new_year_party  : 1
+
+[劫匪队长]
+icon             : 6231
+portrait         : 6231
+polar            : -1
+life_effect      : 1100
+speed_effect     : 30
+phy_effect       : 100
+mag_effect       : 150
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B3", "B4" })
+tractics         : "jiefeiduizhang_tactics"
+new_year_party  : 1
+
+[劫匪总头目]
+icon             : 6245
+portrait         : 6245
+polar            : -1
+life_effect      : 1700
+speed_effect     : 50
+phy_effect       : 100
+mag_effect       : 150
+tao_effect       : 30
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_forgotten : 45
+resist_confusion : 45
+skills           : ({ "B3", "B5" })
+tractics         : "jiefeizongtoumu_tactics"
+new_year_party  : 1

@@ -1,0 +1,5 @@
+key_name,     file_id,              icon, unit, combined, value
+一等实物大奖, "goods_bonus/yiddj",  9370, 份,   0,        500
+特等实物大奖, "goods_bonus/teddj",  9371, 份,   0,        500
+至尊实物大奖, "goods_bonus/zhizdj", 9372, 份,   0,        500
+

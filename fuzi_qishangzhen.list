@@ -1,0 +1,142 @@
+#FORM2
+
+[»ìÂÒµÄ·ÛÒÂÏÉ×Ó]
+name                : »ìÂÒµÄ·ÛÒÂÏÉ×Ó
+icon                : 6139
+portrait            : 6139
+polar               : -1
+life_effect         : 600
+speed_effect        : -100
+phy_effect          : 25
+mag_effect          : 10
+phy_absorb          : 30
+mag_absorb          : 30
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+fuzi_qsz_shadow     : 1
+
+[·è¿ñµÄÌÒÊ÷¾«]
+name                : ·è¿ñµÄÌÒÊ÷¾«
+icon                : 6106
+portrait            : 6106
+polar               : -1
+life_effect         : 350
+speed_effect        : 10
+phy_effect          : 20
+mag_effect          : 20
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+fuzi_qsz_shadow     : 1
+
+[ÌÒÊ÷¾«]
+name                : ÌÒÊ÷¾«
+icon                : 6106
+portrait            : 6106
+polar               : -1
+life_effect         : 150
+speed_effect        : 100
+phy_effect          : 5
+mag_effect          : 5
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+
+[Ú¤Â¹Õæ¾ý]
+name                : Ú¤Â¹Õæ¾ý
+icon                : 6245
+portrait            : 6245
+polar               : -1
+life_effect         : 450
+speed_effect        : 10
+phy_effect          : 25
+mag_effect          : 25
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+fuzi_qsz_shadow     : 1
+
+[ÌÒÊ÷¾«1]
+name                : ÌÒÊ÷¾«
+icon                : 6106
+portrait            : 6106
+polar               : -1
+life_effect         : 200
+speed_effect        : 10
+phy_effect          : 15
+mag_effect          : 15
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+
+[Ú¤Â¹]
+name                : Ú¤Â¹
+icon                : 30001
+portrait            : 30001
+polar               : 1
+life_effect         : 200
+speed_effect        : -100
+phy_effect          : 5
+mag_effect          : 5
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+
+[Ú¤Â¹1]
+name                : Ú¤Â¹
+icon                : 30002
+portrait            : 30002
+polar               : 2
+life_effect         : 200
+speed_effect        : -100
+phy_effect          : 5
+mag_effect          : 5
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+
+[Ú¤Â¹2]
+name                : Ú¤Â¹
+icon                : 30003
+portrait            : 30003
+polar               : 4
+life_effect         : 200
+speed_effect        : -100
+phy_effect          : 5
+mag_effect          : 5
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+
+[Ú¤Â¹3]
+name                : Ú¤Â¹
+icon                : 30004
+portrait            : 30004
+polar               : 5
+life_effect         : 200
+speed_effect        : -100
+phy_effect          : 5
+mag_effect          : 5
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+
+[Ú¤Â¹4]
+name                : Ú¤Â¹
+icon                : 30005
+portrait            : 30005
+polar               : 3
+life_effect         : 200
+speed_effect        : -100
+phy_effect          : 5
+mag_effect          : 5
+skills              : ({ "B2", "D2", "lipo-qianjun" })
+monster_tactics     : "common_tactics_ex"
+
+[Àî¼ÒÈý¹«×Ó]
+name                : Àî¼ÒÈý¹«×Ó
+icon                : 7008
+portrait            : 7008
+polar               : -1
+life_effect         : 2000
+speed_effect        : 100
+phy_effect          : 150
+mag_effect          : 150
+phy_absorb          : 0
+mag_absorb          : 0
+tao_effect          : 50
+skills              : ({ "B4", "D3", "D4" })
+monster_tactics     : "sangongzi_tactics"
+fuzi_qsz_shadow     : 1

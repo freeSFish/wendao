@@ -1,0 +1,95 @@
+#FORM2
+
+#start_time 活动开始时间
+#duration_time 活动持续时间
+#interval_time 两次活动的间隔时间
+#interval_broadcast_in 活动进行中的广播间隔
+#interval_broadcast_end 活动结束前的广播间隔
+#exits_before_start 活动开始前几分钟刷出过图点
+#broadcast_will_stop 离活动结束多长时间开始广播结束消息
+#broadcast_before_start 活动前24小时的广播
+
+[setting]
+start_time    : "2007-10-12-18:00:00"
+duration_time : 7200
+interval_time : 604800
+total_stage   : 1
+interval_broadcast_in : 900
+interval_broadcast_end : ({ 600, 600, 300, 120, 60, 60 })
+exits_before_start : 600
+broadcast_will_stop : 1800
+broadcast_before_start : 86400
+interval_broadcast_before : 3600
+interval_broadcast5 : 300
+broadcast_will_start : 1800
+monster_num : 50
+
+start_time_list$: "2008-07-29-10:00:00"
+start_time_list$: "2008-07-31-14:00:00"
+start_time_list$: "2008-08-05-10:00:00"
+start_time_list$: "2008-08-07-14:00:00"
+start_time_list$: "2008-08-12-10:00:00"
+start_time_list$: "2008-08-14-14:00:00"
+start_time_list$: "2008-08-19-10:00:00"
+start_time_list$: "2008-08-21-14:00:00"
+start_time_list$: "2008-08-26-10:00:00"
+start_time_list$: "2008-08-28-14:00:00"
+
+# 活动开始后产生的过图点
+#exits$ : ({ X坐标, Y坐标, 过图点形状, X坐标, Y坐标, 过图后的朝向})
+exits$ : ({ 151, 203, 8, 338, 222, 0 })
+
+#回天墉城: ({ X坐标, Y坐标 })
+回天墉城: ({ 20, 186})
+
+#去化妆舞会场地: ({ X坐标, Y坐标, 半径 })
+去化妆舞会场地: ({ 125, 175, 5 })
+
+[妖魔]
+幻妖   : 15
+
+[幻妖]
+polar            : -1
+resist_poison    : 10
+resist_frozen    : 25
+resist_sleep     : 25
+resist_forgotten : 40
+resist_confusion : 40
+speed_effect     : 0
+phy_effect       : 80
+mag_effect       : 80
+costume_ball     : 1
+
+[变脸王的宠物]
+伶俐鼠   : 1
+招财猪   : 1
+乖乖狗   : 1
+咩咩羊   : 1
+
+[伶俐鼠]
+icon             : 6179
+portrait         : 6179
+life_effect      : 100
+polar            : 4
+costume_ball     : 1
+
+[招财猪]
+icon             : 6178
+portrait         : 6178
+life_effect      : 100
+polar            : 5
+costume_ball     : 1
+
+[乖乖狗]
+icon             : 6177
+portrait         : 6177
+life_effect      : 100
+polar            : 0
+costume_ball     : 1
+
+[咩咩羊]
+icon             : 6186
+portrait         : 6186
+life_effect      : 100
+polar            : 3
+costume_ball     : 1

@@ -1,0 +1,22 @@
+#FORM2
+
+[config]
+start_time : "2014-08-08-00:00:00"
+end_time   : "2014-08-10-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "魂魄归去无所依，时至中元回人间。昔日子孙隔生死，愿回故里走一圈。一年一度的中元节已经到来，因地藏王特赦，那些无处安身的游魂野鬼今日可回生前的故里探望。如今他们已在#Z天墉城#Z聚集，各位道友可到#P活动大使#P那领取相关任务，帮助这些游魂野鬼实现愿望。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "中元节活动已圆满结束，游魂野鬼们的愿望已达成，欣慰的回到地府。感谢广大道友积极参与。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

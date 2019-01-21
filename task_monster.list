@@ -1,0 +1,413 @@
+#FORM2
+[鸟]
+icon          : 6211
+portrait      : 6211
+polar         : POLAR_METAL
+life_effect   : 500
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 100
+mag_effect    : 160
+phy_rate      : 30
+mag_rate      : 70
+respect_name      : "上仙"
+rude_name         : "死鸟"
+self_respect_name : "本座"
+self_rude_name    : "老妖我"
+skills        : ({ "jinhong-guanri", "liuguang-yicai", "rumeng-chuxing" })
+
+[蟒]
+icon          : 6206
+portrait      : 6206
+polar         : POLAR_FIRE
+life_effect   : 500
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 30
+phy_effect    : 100
+mag_effect    : 120
+phy_rate      : 30
+mag_rate      : 70
+respect_name      : "上仙"
+rude_name         : "臭虫"
+self_respect_name : "本座"
+self_rude_name    : "老妖我"
+skills        : ({ "yantian-huoyu", "jiaojin-lishi", "hunqian-mengying" })
+
+[鱼]
+icon          : 6212
+portrait      : 6212
+polar         : POLAR_WATER
+life_effect   : 500
+mag_absorb    : -10
+phy_absorb    : -10
+speed_effect  : 0
+phy_effect    : 100
+mag_effect    : 120
+phy_rate      : 40
+mag_rate      : 60
+respect_name      : "大仙"
+rude_name         : "死鱼"
+self_respect_name : "小鱼儿我"
+self_rude_name    : "老妖我"
+skills        : ({ "xuanhe-xieshui", "nubo-kuangtao", "jidi-binghan" })
+
+[狐狸]
+icon          : 6205
+portrait      : 6205
+polar         : POLAR_WOOD
+life_effect   : 750
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 100
+mag_effect    : 120
+phy_rate      : 30
+mag_rate      : 70
+respect_name      : "上仙"
+rude_name         : "臭狐狸"
+self_respect_name : "本仙"
+self_rude_name    : "老妖我"
+skills        : ({ "pangen-cuojie", "luoying-binfen", "xiewei-shexian" })
+
+[琵琶]
+icon          : 6204
+portrait      : 6204
+polar         : POLAR_EARTH
+life_effect   : 500
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 160
+mag_effect    : 120
+phy_rate      : 40
+mag_rate      : 60
+respect_name      : "大仙"
+rude_name         : "小丑"
+self_respect_name : "本座"
+self_rude_name    : "老妖我"
+skills        : ({ "shanbeng-dilie", "tianta-dixian", "dishu-qipo" })
+
+[黄怪]
+icon          : 6215
+portrait      : 6215
+polar         : POLAR_METAL
+resist_metal  : 75
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 45
+mag_effect    : 80
+phy_rate      : 20
+mag_rate      : 80
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "daoguang-jianying", "liuguang-yicai" })
+
+[绿鬼]
+icon          : 6215
+portrait      : 6215
+polar         : POLAR_WOOD
+resist_wood   : 75
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 45
+mag_effect    : 80
+phy_rate      : 20
+mag_rate      : 80
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "feiliu-xianshi", "luoying-binfen" })
+
+[蓝精]
+icon          : 6215
+portrait      : 6215
+polar         : POLAR_WATER
+resist_water  : 75
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 45
+mag_effect    : 80
+phy_rate      : 20
+mag_rate      : 80
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "yuhen-yunchou", "nubo-kuangtao" })
+
+[红魔]
+icon          : 6215
+portrait      : 6215
+polar         : POLAR_FIRE
+resist_fire   : 75
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 45
+mag_effect    : 80
+phy_rate      : 20
+mag_rate      : 80
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "xinghuo-liaoyuan", "jiaojin-lishi" })
+
+[紫魅]
+icon          : 6215
+portrait      : 6215
+polar         : POLAR_EARTH
+resist_earth  : 75
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : 0
+phy_effect    : 45
+mag_effect    : 80
+phy_rate      : 20
+mag_rate      : 80
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "tumo-chenmai", "tianta-dixian" })
+
+[疯魑]
+icon          : 6214
+portrait      : 6214
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : -50
+speed_effect  : -10
+phy_effect    : 80
+mag_effect    : 0
+phy_rate      : 100
+mag_rate      : 0
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "tumo-chenmai", "tianta-dixian" })
+
+[狂魍]
+icon          : 6214
+portrait      : 6214
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : -10
+phy_effect    : 40
+mag_effect    : 0
+phy_rate      : 60
+mag_rate      : 0
+double_hit    : 5
+attack_status : "double_hit"
+double_hit_rate   : 100
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "feiliu-xianshi", "luoying-binfen" })
+
+[爆魉]
+icon          : 6214
+portrait      : 6214
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : -10
+phy_effect    : 80
+mag_effect    : 0
+phy_rate      : 100
+mag_rate      : 0
+attack_status : "counter_attack"
+counter_attack      : 12
+counter_attack_rate : 100
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "yuhen-yunchou", "nubo-kuangtao" })
+
+[镜妖]
+icon          : 6214
+portrait      : 6214
+life_effect   : 200
+mana_effect   : 100
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : -10
+phy_effect    : 80
+mag_effect    : 0
+phy_rate      : 100
+mag_rate      : 0
+attack_status : "damage_sel"
+damage_sel    : 100
+damage_sel_rate   : 100
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+skills        : ({ "daoguang-jianying", "liuguang-yicai" })
+
+[玄武]
+level         : 80
+icon          : 6191
+portrait      : 6191
+life_effect   : 500
+mana_effect   : 500
+speed_effect  : -50
+phy_effect    : 200
+mag_effect    : 200
+tao_effect    : 50
+skills        : ({ "yuhen-yunchou", "xuanhe-xieshui", "nubo-kuangtao", "tianhan-didong", "bingdong-sanchi", "jidi-binghan" })
+
+[白虎]
+level         : 85
+icon          : 6189
+portrait      : 6189
+life_effect   : 700
+mana_effect   : 700
+speed_effect  : -50
+phy_effect    : 300
+mag_effect    : 300
+tao_effect    : 50
+skills        : ({ })
+
+[青龙]
+level         : 90
+icon          : 6190
+portrait      : 6190
+life_effect   : 900
+mana_effect   : 900
+speed_effect  : -50
+phy_effect    : 200
+mag_effect    : 200
+tao_effect    : 50
+skills        : ({ "feiliu-xianshi", "pangen-cuojie", "luoying-binfen", "shekou-fengzhen", "heding-hongfen", "xiewei-shexian" })
+
+[朱雀]
+level         : 100
+icon          : 6192
+portrait      : 6192
+life_effect   : 1400
+mana_effect   : 1400
+speed_effect  : -50
+phy_effect    : 200
+mag_effect    : 200
+tao_effect    : 50
+skills        : ({ "xinghuo-liaoyuan", "yantian-huoyu", "jiaojin-lishi", "shenhun-diandao", "hunbu-shoushe", "hunqian-mengying" })
+
+[凶魂]
+icon        : 6140
+portrait    : 6140
+life_effect : 800
+mana_effect : 800
+mag_absorb  : -50
+phy_absorb  : 0
+speed_effect: 20
+phy_effect  : 100
+mag_effect  : 200
+
+[恶鬼]
+icon        : 6141
+portrait    : 6141
+life_effect : 800
+mana_effect : 800
+mag_absorb  : 0
+phy_absorb  : -50
+speed_effect: 20
+phy_effect  : 100
+mag_effect  : 200
+
+[僵尸王]
+icon        : 6113
+portrait    : 6113
+life_effect : 800
+mana_effect : 800
+mag_absorb  : -25
+phy_absorb  : -25
+speed_effect: 20
+phy_effect  : 200
+mag_effect  : 200
+no_skills   : 1
+
+[土匪]
+icon          : 6202
+portrait      : 6202
+life_effect   : 150
+mana_effect   : 150
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : -15
+phy_effect    : 25
+mag_effect    : 20
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+
+[强盗]
+icon          : 6201
+portrait      : 6201
+life_effect   : 150
+mana_effect   : 150
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : -15
+phy_effect    : 25
+mag_effect    : 20
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+
+[喽罗]
+icon          : 6202
+portrait      : 6202
+life_effect   : 50
+mana_effect   : 50
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : -30
+phy_effect    : 20
+mag_effect    : 0
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"
+
+[帮凶]
+icon          : 6201
+portrait      : 6201
+life_effect   : 50
+mana_effect   : 50
+mag_absorb    : 0
+phy_absorb    : 0
+speed_effect  : -30
+phy_effect    : 20
+mag_effect    : 0
+respect_name      : "好汉"
+rude_name         : "恶霸"
+self_respect_name : "在下"
+self_rude_name    : "老子我"

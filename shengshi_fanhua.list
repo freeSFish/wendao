@@ -1,0 +1,31 @@
+#FORM2
+
+[setting]
+start_time        : "2015-09-25-00:00:00"
+end_time          : "2015-10-12-23:59:59"
+exchange_end_time : "2015-10-15-23:59:59"
+version           : 1
+
+[broadcast_setting]
+broadcast_list:   ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(+1)"
+message         : "#R【双节同庆】盛世繁华#n活动已经开启啦，大家赶紧去找#P活动大使#P吧！据说还有仙元、元灵、至尊生肖宠、神兽、变异兽的奖励哦。详情可至#P活动大使#P处查询！大家赶紧参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "大家赶紧去找#P活动大使#P吧！#R【双节同庆】盛世繁华#n活动正在火热地进行中，据说还有仙元、元灵、至尊生肖宠、神兽、变异兽的奖励哦！ 大家赶紧来参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+broadcast_func  : "broadcast_end_time"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

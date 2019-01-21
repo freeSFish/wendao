@@ -1,0 +1,12 @@
+#家具材料名称,    file_id
+key_name,         file_id
+家具毛坯（床）,   "furniture_rough/chuang"
+家具毛坯（画）,   "furniture_rough/tuhua"
+家具毛坯（桌）,   "furniture_rough/zhuo"
+家具毛坯（椅）,   "furniture_rough/yi"
+家具毛坯（帘）,   "furniture_rough/lian"
+家具毛坯（毯）,   "furniture_rough/tan"
+家具毛坯（柜）,   "furniture_rough/gui"
+家具毛坯（屏风）, "furniture_rough/pingfeng"
+家具毛坯（花）,   "furniture_rough/xianhua"
+

@@ -1,0 +1,24 @@
+#FORM2
+
+[setting]
+start_time        : "2014-11-10-00:00:00"
+end_time          : "2014-11-16-23:59:59"
+exchange_end_time : "2014-11-18-23:59:59"
+version           : 2
+
+[broadcast_setting]
+broadcast_list:   ({ "during_task", "during_task1" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "2015年寒假活动寒气来袭，#Y夏总兵#n委托#P活动大使#P在中洲招募勇士参与训练，预防妖魔来袭。快到#P活动大使#P处参加活动，为中洲安全接受总兵大人的训练吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task1]
+broadcast_start : "start_time(0)"
+interval        : 14400
+broadcast_end   : "end_time(-1)"
+broadcast_func  : "broadcast_during_task"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

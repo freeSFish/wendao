@@ -1,0 +1,9 @@
+#名称,    file_id                       升级所需等级,     升级为,     属性
+key_name,   file_id,                      upgrade_level, upgrade_to, attrib
+铁炉,       "artifact/tielu",             5,             铜炉,       "ITEM_CLIENT_NOT_ERASE | ITEM_CAN_MAKE_PILL"
+铜炉,       "artifact/tonglu",            9,             雕花青铜炉, "ITEM_CLIENT_NOT_ERASE | ITEM_CAN_MAKE_PILL"
+雕花青铜炉, "artifact/diaohuaqingtonglu", 13,            仿仙凤纹炉, "ITEM_CLIENT_NOT_ERASE | ITEM_CAN_MAKE_PILL"
+仿仙凤纹炉, "artifact/fangxianfengwenlu", 16,            乌金盘龙炉, "ITEM_CLIENT_NOT_ERASE | ITEM_CAN_MAKE_PILL"
+乌金盘龙炉, "artifact/wujinpanlonglu",    18,            八卦炉,     "ITEM_CLIENT_NOT_ERASE | ITEM_CAN_MAKE_PILL"
+八卦炉,     "artifact/bagualu",           0,             0,          "ITEM_CLIENT_NOT_ERASE | ITEM_CAN_MAKE_PILL"
+

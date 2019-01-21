@@ -1,0 +1,468 @@
+#FORM2
+
+#2011新年许愿活动
+
+#FORM2
+
+[活动时间]
+stage_time_list$ : ({ "2010-12-06-00:00:00", "2010-12-23-23:59:59" })
+time_list$ : ({ "2010-12-06-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })
+
+[game_info]
+task_place : ({ "桃柳林", "风月谷" })
+
+[refresh_info]
+stage_1$ : ({ "好运兽",  30 })
+stage_2$ : ({ "愤怒的威威虎", 10 })
+maps     : ({ "桃柳林", "风月谷" })
+
+[before_start]
+time     : 10800
+channel  : CHANNEL_SYSTEM
+duration : 1200
+content  : "元旦佳节，普天同庆！新年愿望活动期间的每天#R$START_TIME-$END_TIME#n，大家可以到#Z桃柳林#Z、#Z风月谷#Z，抓好运兔、好运虎，得好运，收集幸运星，抽取大礼，还有机会获得高级御灵和生肖兽的奖励哦！"
+
+[start]
+channel  : CHANNEL_SYSTEM
+content : "新年愿望活动期间的每天#R$START_TIME-$END_TIME#n，大家可以到#Z桃柳林#Z、#Z风月谷#Z参加活动，抓好运兔、好运虎，得好运，收集幸运星，抽取大礼，还有机会获得高级御灵和生肖兽的奖励哦！"
+
+[stage_one_refresh]
+time : 120
+duration : 120
+
+[stage_two_refresh]
+time : 300
+duration : 300
+
+[after_start]
+time     : 600
+channel  : CHANNEL_SYSTEM
+duration : 600
+content  : "新年愿望活动正在火热地进行中，大家可以到#Z桃柳林#Z、#Z风月谷#Z参加，抓好运兔、好运虎，得好运，收集幸运星，抽取大礼，还有机会获得高级御灵和生肖兽的奖励哦！"
+
+[second_stage]
+time : 3600
+channel  : CHANNEL_SYSTEM
+content  : "元旦佳节，大批愤怒的威威虎无法镇压住体内的怒气，纷纷前往#Z桃柳林#Z、#Z风月谷#Z妄图进攻城镇，请大家快快前去阻拦！"
+
+[after_second_stage]
+time     : 1
+channel  : CHANNEL_SYSTEM
+duration : 300
+content  : "愤怒的威威虎最怕#R烟花#n和#R爆竹#n，快带上烟花爆竹前往#Z桃柳林#Z、#Z风月谷#Z追击威威虎吧。燃放#R烟花#n后击败威威虎能得到#R经验奖励#n，燃放#R爆竹#n后击败威威虎能得到#R道行奖励#n，燃放#R烟花筒#n更是可以得到珍稀的#R幸运星#n！"
+
+[end]
+channel  : CHANNEL_SYSTEM
+content : "在中洲大陆各仙家侠士的共同努力下，妄图进攻城镇的愤怒的威威虎已经被赶回轩辕庙了。大家可以找#P节日大使#P提交#R幸运星#n，以实现自己的新年愿望。"
+
+[强壮的]
+name             : ({ "强壮的好运虎", "强壮的好运兔" })
+icon             : ({ 6121, 6165})
+portrait         : ({ 6121, 6165})
+polar            : -1
+life_effect      : 1200
+speed_effect     : 0
+phy_effect       : 100
+mag_effect       : 50
+phy_absorb       : 70
+mag_absorb       : -70
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tactics          : "tactics_qiangz_lucky_monster"
+
+[灵巧的]
+name             : ({ "灵巧的好运虎", "灵巧的好运兔" })
+icon             : ({ 6121, 6165})
+portrait         : ({ 6121, 6165})
+polar            : -1
+life_effect      : 1200
+speed_effect     : 0
+phy_effect       : 50
+mag_effect       : 100
+phy_absorb       : -70
+mag_absorb       : 70
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tactics          : "tactics_lingq_lucky_monster"
+
+[敏捷的]
+name             : ({ "敏捷的好运虎", "敏捷的好运兔" })
+icon             : ({ 6121, 6165})
+portrait         : ({ 6121, 6165})
+polar            : 4
+life_effect      : 650
+speed_effect     : 2000
+phy_effect       : 80
+mag_effect       : 100
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "C3" })
+tactics          : "tactics_minj_lucky_monster"
+
+[高兴的]
+name             : ({ "高兴的好运虎", "高兴的好运兔" })
+icon             : ({ 6121, 6165})
+portrait         : ({ 6121, 6165})
+polar            : -1
+life_effect      : 800
+speed_effect     : 50
+phy_effect       : 50
+mag_effect       : 80
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 50
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B4" })
+special_skills   : ({ "ruyi-quan" })
+tactics          : "tactics_gaox_lucky_monster"
+
+[快乐的]
+name             : ({ "快乐的好运虎", "快乐的好运兔" })
+icon             : ({ 6121, 6165})
+portrait         : ({ 6121, 6165})
+polar            : -1
+life_effect      : 800
+speed_effect     : 50
+phy_effect       : 50
+mag_effect       : 80
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 50
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B4" })
+special_skills   : ({ "shenlong-zhao" })
+tactics          : "tactics_kuail_lucky_monster"
+
+[胆小的]
+name             : ({ "胆小的好运虎", "胆小的好运兔" })
+icon             : ({ 6181, 6182 })
+portrait         : ({ 6181, 6182 })
+polar            : 0
+life_effect      : 0
+speed_effect     : -100
+phy_effect       : 0
+mag_effect       : 0
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 0
+resist_confusion : 0
+mag_dodge        : 100
+parry            : 50
+tactics          : "tactics_danx_lucky_monster"
+
+[战斗威威虎]
+# 为了和奖励配置中的威威虎区分
+name             : 威威虎
+icon             : 6181
+portrait         : 6181
+polar            : -1
+life_effect      : 1200
+speed_effect     : 30
+phy_effect       : 150
+mag_effect       : 200
+tao_effect       : 30
+skills           : ({ "B2", "B4" })
+special_skills   : ({ "ruyi-quan", "shenlong-zhao" })
+tactics          : "tactics_tiger"
+
+[迷乱的威威虎]
+icon             : 6181
+portrait         : 6181
+polar            : -1
+life_effect      : 1200
+speed_effect     : 0
+phy_effect       : 150
+mag_effect       : 150
+tao_effect       : 0
+skills           : ({ "B2", "B4" })
+special_skills   : ({ "ruyi-quan", "shenlong-zhao" })
+tactics          : "tactics_mil_tiger"
+
+[愤怒的威威虎]
+icon             : 6181
+portrait         : 6181
+polar            : -1
+life_effect      : 1200
+speed_effect     : 30
+phy_effect       : 200
+mag_effect       : 200
+tao_effect       : 30
+resist_poison    : 0
+resist_frozen    : 10
+resist_sleep     : 10
+resist_forgotten : 30
+resist_confusion : 30
+double_hit       : 3
+double_hit_rate  : 30
+skills           : ({ "B2", "B4" })
+tactics          : "tactics_kuangl_tiger"
+
+[好运虎]
+icon : 6121
+
+[好运兔]
+icon : 6165
+
+##########################奖励配置##############################################
+
+[bonus_set]
+bonus : ({ "北极熊", "无极熊", "岳麓剑", "古鹿", "云豹", "翡翠葫芦", "翠灵剑", "灵鹿", "玉豹", "仙葫芦", "乖乖狗", "招财猪", "伶俐鼠", "笨笨牛", "威威虎", "跳跳兔", "酷酷龙", "花花蛇", "溜溜马", "咩咩羊", "帅帅猴", "蛋蛋鸡", "如意圈秘笈", "乾坤罩秘笈", "神龙罩秘笈", "翻转乾坤秘笈", "神圣之光秘笈", "死亡缠绵秘笈", "游说之舌秘笈", "漫天血舞秘笈", "舍命一击秘笈", "道具套餐卡", "高级法玲珑", "灵引咒", "高级血玲珑", "高级驯兽诀", "天神护佑", "天技召唤卡", "超级黑水晶", "超级归元露", "宠风散", "血池", "超级神兽丹" })
+
+[北极熊]
+rate_base   : 5600000
+max_num     : 66666
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[无极熊]
+rate_base   : 2800000
+max_num     : 66666
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[岳麓剑]
+rate_base   : 1400000
+max_num     : 33333
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[古鹿]
+rate_base   : 1400000
+max_num     : 33333
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[云豹]
+rate_base   : 1400000
+max_num     : 33333
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[翡翠葫芦]
+rate_base   : 1400000
+max_num     : 33333
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[翠灵剑]
+rate_base   : 560000
+max_num     : 13334
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[灵鹿]
+rate_base   : 560000
+max_num     : 13334
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[玉豹]
+rate_base   : 560000
+max_num     : 13334
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[仙葫芦]
+rate_base   : 560000
+max_num     : 13334
+limit_quota : "yuling"
+rumor_msg   : "rumor_1"
+
+[乖乖狗]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[招财猪]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[伶俐鼠]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[笨笨牛]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[威威虎]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[跳跳兔]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[酷酷龙]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[花花蛇]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[溜溜马]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[咩咩羊]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[帅帅猴]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[蛋蛋鸡]
+rate_base   : 11200000
+max_num     : 66666
+limit_quota : "shengxiaoshou"
+rumor_msg   : "rumor_1"
+
+[如意圈秘笈]
+rate_base : 3360000
+max_num   : 66666
+rumor_msg : "rumor_2"
+
+[乾坤罩秘笈]
+rate_base : 2800000
+max_num   : 66666
+rumor_msg : "rumor_2"
+
+[神龙罩秘笈]
+rate_base : 2800000
+max_num   : 20000
+mod_rate  : 1
+rumor_msg : "rumor_2"
+
+[翻转乾坤秘笈]
+rate_base : 1400000
+max_num   : 33333
+rumor_msg : "rumor_2"
+
+[神圣之光秘笈]
+rate_base : 1400000
+max_num   : 33333
+rumor_msg : "rumor_2"
+
+[死亡缠绵秘笈]
+rate_base : 1400000
+max_num   : 33333
+rumor_msg : "rumor_2"
+
+[游说之舌秘笈]
+rate_base : 1400000
+max_num   : 33333
+rumor_msg : "rumor_2"
+
+[漫天血舞秘笈]
+rate_base : 1400000
+max_num   : 33333
+rumor_msg : "rumor_2"
+
+[舍命一击秘笈]
+rate_base : 1400000
+max_num   : 33333
+rumor_msg : "rumor_2"
+
+[道具套餐卡]
+rate_base : 78400
+max_num   : 1867
+rumor_msg : "rumor_2"
+
+[高级法玲珑]
+rate_base : 67200
+max_num   : 1600
+rumor_msg : "rumor_2"
+
+[灵引咒]
+rate_base : 28000
+max_num   : 667
+rumor_msg : "rumor_2"
+
+[高级驯兽诀]
+rate_base : 22400
+max_num   : 534
+rumor_msg : "rumor_2"
+
+[高级血玲珑]
+rate_base : 22400
+max_num   : 534
+rumor_msg : "rumor_2"
+
+[天神护佑]
+rate_base : 14504
+max_num   : 347
+
+[天技召唤卡]
+rate_base : 14504
+max_num   : 347
+
+[超级黑水晶]
+rate_base : 9184
+max_num   : 220
+
+[超级归元露]
+rate_base : 6048
+max_num   : 147
+
+[宠风散]
+rate_base : 6048
+max_num   : 147
+
+[超级神兽丹]
+rate_base : 3024
+max_num   : 74
+
+[血池]
+rate_base : 3024
+max_num   : 74

@@ -1,0 +1,333 @@
+#FORM2
+# 结构：地图：({可挑战最小等级，可挑战最大等级，坐标x，坐标y，等级})
+
+[场景]
+map_name$ : "揽仙镇外"
+map_name$ : "卧龙坡"
+map_name$ : "官道南"
+map_name$ : "官道北"
+map_name$ : "桃柳林"
+map_name$ : "轩辕庙"
+map_name$ : "北海沙滩"
+map_name$ : "轩辕坟一层"
+map_name$ : "十里坡"
+map_name$ : "轩辕坟二层"
+map_name$ : "五龙山"
+map_name$ : "乾元山"
+map_name$ : "终南山"
+map_name$ : "骷髅山"
+map_name$ : "凤凰山"
+map_name$ : "轩辕坟三层"
+map_name$ : "五龙窟一层"
+map_name$ : "五龙窟二层"
+map_name$ : "五龙窟三层"
+map_name$ : "五龙窟四层"
+map_name$ : "蓬莱岛"
+map_name$ : "五龙窟五层"
+map_name$ : "幽冥涧"
+map_name$ : "百花谷一"
+map_name$ : "百花谷二"
+map_name$ : "百花谷三"
+map_name$ : "百花谷四"
+map_name$ : "百花谷五"
+map_name$ : "百花谷六"
+map_name$ : "百花谷七"
+map_name$ : "东昆仑"
+map_name$ : "绝人阵"
+map_name$ : "绝仙阵"
+map_name$ : "地绝阵"
+map_name$ : "天绝阵"
+map_name$ : "海底迷宫"
+map_name$ : "昆仑云海"
+map_name$ : "雪域冰原"
+map_name$ : "迷境花树"
+map_name$ : "水云间"
+map_name$ : "热砂荒漠"
+map_name$ : "方丈岛"
+map_name$ : "断魂窟"
+map_name$ : "弑神殿"
+map_name$ : "灭魔堂"
+map_name$ : "太极圣境"
+map_name$ : "玉清山巅"
+
+[揽仙镇外]
+min_level:1
+max_level:10
+level:3
+coordinate: ({ 27, 147 })
+
+[卧龙坡]
+min_level:1
+max_level:12
+level:8
+coordinate: ({ 15, 103 })
+
+[官道南]
+min_level:1
+max_level:15
+level:11
+coordinate: ({ 138, 180 })
+
+[官道北]
+min_level:4
+max_level:18
+level:14
+coordinate: ({ 89, 52 })
+
+[桃柳林]
+min_level:8
+max_level:22
+level:18
+coordinate: ({ 35, 107 })
+
+[轩辕庙]
+min_level:13
+max_level:27
+level:23
+coordinate: ({ 220, 159 })
+
+[北海沙滩]
+min_level:16
+max_level:30
+level:26
+coordinate: ({ 84, 134 })
+
+[轩辕坟一层]
+min_level:18
+max_level:32
+level: 28
+coordinate: ({ 126, 71 })
+
+[十里坡]
+min_level:22
+max_level:36
+level:32
+coordinate: ({ 304, 10 })
+
+[轩辕坟二层]
+min_level:23
+max_level:37
+level:33
+coordinate: ({ 132, 71 })
+
+[五龙山]
+min_level:25
+max_level:39
+level:35
+coordinate: ({ 142, 53 })
+
+[乾元山]
+min_level:25
+max_level:39
+level:35
+coordinate: ({ 268, 109 })
+
+[终南山]
+min_level:25
+max_level:39
+level:35
+coordinate: ({ 118, 38 })
+
+[骷髅山]
+min_level:25
+max_level:39
+level:35
+coordinate: ({ 66, 95 })
+
+[凤凰山]
+min_level:25
+max_level:39
+level:35
+coordinate: ({ 199, 141 })
+
+[轩辕坟三层]
+min_level:28
+max_level:42
+level:38
+coordinate: ({ 160, 78 })
+
+[五龙窟一层]
+min_level:32
+max_level:46
+level:42
+coordinate: ({ 270, 76 })
+
+[五龙窟二层]
+min_level:35
+max_level:49
+level:45
+coordinate: ({ 162, 45 })
+
+[五龙窟三层]
+min_level:38
+max_level:52
+level : 48
+coordinate: ({ 39, 100 })
+
+[五龙窟四层]
+min_level:41
+max_level:55
+level : 51
+coordinate: ({ 172, 90 })
+
+[蓬莱岛]
+min_level:42
+max_level:56
+level : 52
+coordinate: ({ 253, 308 })
+
+[五龙窟五层]
+min_level:44
+max_level:58
+level : 54
+coordinate: ({ 59, 51 })
+
+[幽冥涧]
+min_level:48
+max_level:62
+level : 58
+coordinate: ({ 441, 144 })
+
+[百花谷一]
+min_level:53
+max_level:67
+level : 63
+coordinate: ({ 28, 135 })
+
+[百花谷二]
+min_level:56
+max_level:70
+level : 66
+coordinate: ({ 93, 19 })
+
+[百花谷三]
+min_level:59
+max_level:73
+level : 69
+coordinate: ({ 156, 271 })
+
+[百花谷四]
+min_level:62
+max_level:76
+level : 72
+coordinate: ({ 37, 23 })
+
+[百花谷五]
+min_level:65
+max_level:79
+level : 75
+coordinate: ({ 240, 25 })
+
+[百花谷六]
+min_level:68
+max_level:82
+level : 78
+coordinate: ({ 196, 62 })
+
+[百花谷七]
+min_level:71
+max_level:85
+level : 81
+coordinate: ({ 39, 13 })
+
+[东昆仑]
+min_level:73
+max_level:87
+level : 83
+coordinate: ({ 199, 38 })
+
+[绝人阵]
+min_level:73
+max_level:87
+level : 83
+coordinate:({ 155, 151 })
+
+[绝仙阵]
+min_level:78
+max_level:92
+level : 88
+coordinate: ({ 140, 150 })
+
+[地绝阵]
+min_level:83
+max_level:97
+level : 93
+coordinate: ({ 42, 157 })
+
+[天绝阵]
+min_level:88
+max_level : 102
+level : 98
+coordinate : ({ 11, 208 })
+
+[海底迷宫]
+min_level : 93
+max_level : 107
+level : 103
+coordinate : ({ 61, 47 })
+
+[昆仑云海]
+min_level:98
+max_level:112
+level : 108
+coordinate: ({ 234, 156 })
+
+[雪域冰原]
+min_level:103
+max_level:117
+level : 113
+coordinate: ({ 30, 35 })
+
+[迷境花树]
+min_level : 108
+max_level : 122
+level : 118
+coordinate: ({ 14, 19 })
+
+[水云间]
+min_level : 113
+max_level : 127
+level : 123
+coordinate: ({ 33, 16 })
+
+[热砂荒漠]
+min_level : 118
+max_level : 132
+level : 128
+coordinate: ({ 36, 23 })
+
+[方丈岛]
+min_level : 123
+max_level : 140
+level : 133
+coordinate:({ 318, 283 })
+
+[断魂窟]
+min_level : 128
+max_level : 149
+level : 138
+coordinate:({ 95, 111 })
+
+[弑神殿]
+min_level : 133
+max_level : 150
+level : 143
+coordinate:({ 51, 108 })
+
+[灭魔堂]
+min_level : 138
+max_level : 159
+level : 148
+coordinate:({ 103, 68 })
+
+[太极圣境]
+min_level : 143
+max_level : 169
+level : 153
+coordinate:({ 83, 87 })
+
+[玉清山巅]
+min_level : 148
+max_level : 169
+level : 158
+coordinate:({ 111, 113 })

@@ -1,0 +1,39 @@
+#FORM2
+
+[ÍÌÌì]
+name                  : "ÍÌÌì"
+icon                  : 6692
+portrait              : 6692
+polar                 : 0
+life_effect           : "(Lv * 200 + Lv / 150 * 4800 + 2000) * 2.0"
+mag_effect            : "(Lv * 3 + Lv / 150 * 100 + 300) * 1.8"
+phy_effect            : "(Lv * 3 + Lv / 150 * 120 + 400) * 1.8"
+accurate              : 300
+stunt_rate            : 100
+double_hit_rate       : 100
+double_hit            : 2
+penetrate_rate        : ({ 50, 109 })
+penetrate             : ({ 50, 109 })
+damage_sel_rate       : ({ 40, 59 })
+damage_sel            : 100
+resist_forgotten      : 300
+resist_poison         : 230
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_repress        : 300
+resist_melt           : 230
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+tao_effect            : "1000 + Lv / 10 * 30"
+speed_effect          : "60 + Lv / 10 * 10"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate", "damage_sel_rate" })
+skills                : ({ "lipo-qianjun", "youshui-zhishe", "shensheng-zhiguang" })
+family_skills         : ({ "B4", "C4", "D4" })
+super_boss_skills     : ({ "tuntian-poyue" })
+artifact              : ({ "hunyuan-jindou", 22, "yinyangjing", 13 })
+equiped_upgrade_artifact : ({ "yinyangjing" })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactics_tuntian"

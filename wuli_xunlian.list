@@ -1,0 +1,104 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-02-08-00:00:00", "EVERY_DAY(8)", 0, "2015-02-15-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 4200
+broadcast_end   : "end_time(-1)"
+message         : "中洲勇士全民皆兵，共御强敌！#Y夏总兵#n大人为了考验中洲道友的武力，特命各将领兵士来到#R天墉城#n考验大家，快去参加#R武力训练#n吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+sender          : ""
+
+[天墉城伍长]
+name                : 天墉城伍长
+polar               : -1
+icon                : 6051
+portrait            : 6051
+life_effect         : "800 + LV / 70 * 100 + LV / 110 * 150 + LV / 130 * 200 + LV / 150 * 250"
+phy_effect          : "50 + LV / 70 * 20 + LV / 110 * 30 + LV / 130 * 40 + LV / 150 * 50"
+mag_effect          : "50 + LV / 70 * 20 + LV / 110 * 30 + LV / 130 * 40 + LV / 150 * 50"
+speed_effect        : "40 + LV / 70 * 20 + LV / 110 * 20 + LV / 130 * 20 + LV / 150 * 20"
+tao_effect          : 100
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+skills              : ({ "B2", "B3", "B4", "lipo-qianjun" })
+tactics             : "tactics_wuzhang"
+default_menu        : "保卫天墉城一方安宁，是我们的天职。想要在妖魔大战中活命吗？那么就来挑战我，磨炼一下自己吧。"
+
+[天墉城兵勇1]
+name                : 天墉城兵勇
+polar               : -1
+icon                : ({ 31116, 31123 })
+portrait            : ({ 31116, 31123 })
+life_effect         : "500 + LV / 70 * 50 + LV / 110 * 100 + LV / 130 * 150 + LV / 150 * 200"
+phy_effect          : "30 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+mag_effect          : "50 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+speed_effect        : "40 + LV / 70 * 10 + LV / 110 * 10 + LV / 130 * 10 + LV / 150 * 10"
+tao_effect          : 50
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+skills              : ({ "B2", "B3", "B4", "lipo-qianjun" })
+tactics             : "tactics_bingyong1"
+
+[天墉城百夫长]
+name                : 天墉城百夫长
+polar               : -1
+icon                : 6050
+portrait            : 6050
+life_effect         : "800 + LV / 70 * 100 + LV / 110 * 150 + LV / 130 * 200 + LV / 150 * 250"
+phy_effect          : "150 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+mag_effect          : "150 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+speed_effect        : "100 + LV / 70 * 10 + LV / 110 * 10 + LV / 130 * 10 + LV / 150 * 10"
+tao_effect          : 50
+phy_absorb          : 25
+mag_absorb          : 25
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+skills              : ({ "B2", "B3", "B4", "B5", "D3", "D5", "lipo-qianjun" })
+tactics             : "tactics_baifuzhang"
+default_menu        : "宝剑锋从磨砺出，梅花香自苦寒来。你想要出人头地、更进一步？那就努力训练吧。"
+
+[天墉城兵勇2]
+name                : 天墉城兵勇
+polar               : -1
+icon                : ({ 31116, 31123 })
+portrait            : ({ 31116, 31123 })
+life_effect         : "500 + LV / 70 * 100 + LV / 110 * 150 + LV / 130 * 200 + LV / 150 * 250"
+phy_effect          : "100 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+mag_effect          : "100 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+tao_effect          : 300
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B2", "B3", "B4", "B5", "lipo-qianjun", "shenlong-zhao", "ruyi-quan" })
+tactics             : "tactics_bingyong2"
+
+[天墉城偏将]
+name                : 天墉城偏将
+polar               : -1
+icon                : 6156
+portrait            : 6156
+life_effect         : "1500 + LV / 70 * 100 + LV / 110 * 150 + LV / 130 * 200 + LV / 150 * 250"
+phy_effect          : "150 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+mag_effect          : "150 + LV / 70 * 10 + LV / 110 * 20 + LV / 130 * 30 + LV / 150 * 40"
+speed_effect        : 400
+tao_effect          : 500
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+skills              : ({ "B2", "B3", "B4", "B5", "C3", "C5", "D3", "D5", "lipo-qianjun" })
+all_yinlingfan      : ({ "tianjiang-xiafan", "sanyuan-guiyi", "nujiao-lianzhan", "jinshen-bumie", "kexue-qishu", "gonggong-mieshi" })
+obstacle_rate       : 0
+tactics             : "tactics_pianjiang"
+default_menu        : "自古正邪不两立，只有不断刻苦的训练，才能彻底的战胜它们，迎接永久的安宁！"
+
+[天墉城兵勇3]
+name                : 天墉城兵勇
+polar               : -1
+icon                : ({ 31116, 31123 })
+portrait            : ({ 31116, 31123 })
+life_effect         : "1800 + LV / 70 * 50 + LV / 110 * 100 + LV / 130 * 150 + LV / 150 * 200"
+phy_effect          : "100 + LV / 70 * 10 + LV / 110 * 10 + LV / 130 * 20 + LV / 150 * 30"
+mag_effect          : "100 + LV / 70 * 10 + LV / 110 * 10 + LV / 130 * 20 + LV / 150 * 30"
+tao_effect          : 400
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B2", "B3", "B4", "B5", "D3", "D5", "lipo-qianjun" })
+tactics             : "tactics_bingyong3"

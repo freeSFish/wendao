@@ -1,0 +1,7 @@
+#key_name,              阵法名称,          阵法编号,
+key_name, name,            no,              
+腾龙阵,   "tenglong-zhen", ZHENFA_TENGLONG
+链魂阵,   "lianhun-zhen",  ZHENFA_LIANHUN
+回生阵,   "huisheng-zhen", ZHENFA_HUISHENG
+怒天阵,   "nutian-zhen",   ZHENFA_NUTIAN
+

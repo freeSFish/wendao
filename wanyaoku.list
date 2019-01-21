@@ -1,0 +1,338 @@
+#FORM2
+
+#start_time 活动开始时间
+#duration_time 活动持续时间
+#interval_time 两次活动的间隔时间
+#total_stage 玩家可以闯的关数
+#interval_broadcast_in 活动进行中的广播间隔
+#interval_broadcast_end 活动结束前的广播间隔
+#exits_before_start 活动开始前几分钟刷出过图点
+#broadcast_will_stop 离活动结束多长时间开始广播结束消息
+#monster_num 每层产生的妖魔数量
+#monster_guard_num 每层产生的妖魔守卫数量
+#sprite_num 每层产生的小妖数量
+#max_exist_num 每层最多可存在几只小妖头目
+#touch_birth_monster 需要死亡多少只小妖才触发产生小妖头目
+#touch_birth_guard 需要死亡多少只小妖头目才触发产生守卫
+
+[活动时间]
+time_list$ : ({ "2012-11-26-10:00:00", "EVERY_MIN(60)", "EVERY_DAY(7)" })
+time_list$ : ({ "2012-11-26-15:00:00", "EVERY_MIN(60)", "EVERY_DAY(7)" })
+
+[setting]
+start_time    : "2011-08-01-14:00:00"
+duration_time : 7200
+interval_time : 604800
+total_stage   : 11
+interval_broadcast_in : 300
+time_broadcast_in : 1200
+interval_broadcast_end : ({ 300, 120, 60, 60 })
+exits_before_start : 300
+broadcast_will_stop : 600
+monster_num : 6
+monster_guard_num : 3
+sprite_num : 50
+max_exist_num : 6
+touch_birth_monster: 6
+touch_birth_guard : 6
+
+start_time_list$ : "2008-07-28-14:00:00"
+start_time_list$ : "2008-07-30-10:00:00"
+start_time_list$ : "2008-08-04-14:00:00"
+start_time_list$ : "2008-08-06-10:00:00"
+start_time_list$ : "2008-08-11-14:00:00"
+start_time_list$ : "2008-08-13-10:00:00"
+start_time_list$ : "2008-08-18-14:00:00"
+start_time_list$ : "2008-08-20-10:00:00"
+start_time_list$ : "2008-08-25-14:00:00"
+start_time_list$ : "2008-08-27-10:00:00"
+
+# 活动开始后产生的过图点
+#exits$ : ({ X坐标, Y坐标, 过图点形状, X坐标, Y坐标, 过图后的朝向})
+exits$ : ({ 236, 180, 8, 284, 177, 0 })
+
+#回十里坡: ({ X坐标, Y坐标 })
+回十里坡: ({ 241, 188})
+
+#去万妖窟: ({ X坐标, Y坐标, 半径 })
+去万妖窟: ({ 158, 99, 5 })
+
+#离开世界移到特定位置 ({ X坐标, Y坐标 })
+离开世界: ({ 241, 188 })
+
+# 妖魔守卫的肖像
+guard_icon : ({ 6203, 6209, 6210, 6208, 6207, 6241, 6259, 6277, 06278, 6280, 6287 })
+
+[妖魔守卫]
+守卫 : 1
+
+[守卫]
+life_effect      : 1000
+polar            : -1
+religion         : -1
+tao_effect       : 50
+resist_metal     : 0
+resist_wood      : 0
+resist_earth     : 0
+resist_water     : 0
+resist_fire      : 0
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_forgotten : 100
+resist_confusion : 100
+speed_effect     : 100
+phy_effect       : 200
+mag_effect       : 250
+mag_action_rate  : 100
+monster_type     : "monster_guard"
+wanyaoku         : 1
+
+[妖魔]
+黑罗刹   : 1
+琵琶精   : 1
+血魔   : 1
+鸟怪     : 1
+蜘蛛精   : 1
+鱼怪     : 1
+蟒精     : 1
+狐狸精   : 1
+
+[黑罗刹]
+icon             : 6214
+portrait         : 6214
+life_effect      : 200
+resist_poison    : 150
+resist_frozen    : 50
+resist_sleep     : 50
+resist_forgotten : 150
+resist_confusion : 0
+resist_repress   : 150
+resist_melt      : 150
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 0
+speed_effect     : 60
+phy_effect       : 150
+mag_effect       : 0
+mag_action_rate  : 30
+stunt_rate       : 30
+wanyaoku         : 1
+
+[琵琶精]
+icon             : 6204
+portrait         : 6204
+life_effect      : 400
+polar            : -1
+religion         : -1
+tao_effect       : 50
+resist_poison    : 50
+resist_frozen    : 10
+resist_sleep     : 10
+resist_forgotten : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 10
+resist_cage      : 10
+resist_lock      : 10
+resist_lost      : 100
+speed_effect     : 40
+phy_effect       : 50
+mag_effect       : 100
+mag_action_rate  : 100
+wanyaoku         : 1
+
+[血魔]
+icon             : 6221
+portrait         : 6221
+polar            : -1
+religion         : -1
+life_effect      : 600
+resist_metal     : 0
+resist_wood      : 0
+resist_earth     : 0
+resist_water     : 0
+resist_fire      : 0
+resist_poison    : 50
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 0
+resist_lock      : 0
+resist_lost      : 50
+speed_effect     : 40
+phy_effect       : 50
+mag_effect       : 100
+mag_action_rate  : 100
+wanyaoku         : 1
+
+[鸟怪]
+icon             : 6211
+portrait         : 6211
+polar            : 1
+religion         : -1
+life_effect      : 400
+resist_fire      : -30
+resist_poison    : 100
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 150
+resist_confusion : 0
+resist_repress   : 150
+resist_melt      : 0
+resist_cage      : 0
+resist_lock      : 0
+resist_lost      : 100
+speed_effect     : 0
+phy_effect       : 100
+mag_effect       : 100
+mag_action_rate  : 100
+wanyaoku         : 1
+
+[蜘蛛精]
+icon             : 6222
+portrait         : 6222
+polar            : 2
+religion         : -1
+life_effect      : 500
+tao_effect       : 30
+resist_metal     : -30
+resist_poison    : 100
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 0
+resist_confusion : 150
+resist_repress   : 0
+resist_melt      : 100
+resist_cage      : 0
+resist_lock      : 0
+resist_lost      : 150
+speed_effect     : 0
+phy_effect       : 50
+mag_effect       : 80
+mag_action_rate  : 100
+wanyaoku         : 1
+
+[鱼怪]
+icon             : 6212
+portrait         : 6212
+polar            : 3
+religion         : -1
+life_effect      : 500
+resist_earth     : -30
+resist_poison    : 0
+resist_frozen    : 150
+resist_sleep     : 100
+resist_forgotten : 0
+resist_confusion : 0
+resist_repress   : 0
+resist_melt      : 0
+resist_cage      : 150
+resist_lock      : 100
+resist_lost      : 0
+speed_effect     : 0
+phy_effect       : 100
+mag_effect       : 80
+mag_action_rate  : 100
+wanyaoku         : 1
+
+[蟒精]
+icon             : 6206
+portrait         : 6206
+polar            : 4
+religion         : -1
+life_effect      : 400
+tao_effect       : 30
+resist_metal     : 50
+resist_wood      : 0
+resist_earth     : 0
+resist_water     : -30
+resist_fire      : 50
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 150
+resist_forgotten : 150
+resist_confusion : 0
+resist_repress   : 150
+resist_melt      : 0
+resist_cage      : 0
+resist_lock      : 150
+resist_lost      : 0
+speed_effect     : 80
+phy_effect       : 100
+mag_effect       : 80
+mag_action_rate  : 100
+wanyaoku         : 1
+
+[狐狸精]
+icon             : 6205
+portrait         : 6205
+polar            : 5
+religion         : -1
+life_effect      : 400
+resist_metal     : 0
+resist_wood      : -30
+resist_earth     : 50
+resist_water     : 50
+resist_fire      : 0
+resist_poison    : 0
+resist_frozen    : 150
+resist_sleep     : 0
+resist_forgotten : 0
+resist_confusion : 150
+resist_repress   : 0
+resist_melt      : 0
+resist_cage      : 150
+resist_lock      : 0
+resist_lost      : 150
+speed_effect     : 20
+phy_effect       : 100
+mag_effect       : 80
+mag_action_rate  : 100
+wanyaoku         : 1
+
+[小妖]
+life_effect      : 400
+phy_effect       : 100
+mag_effect       : 0
+double_hit_rate  : 30
+double_hit       : 5
+wanyaoku         : 1
+
+[特殊技能]
+黑罗刹  : ({ "死亡缠绵" })
+琵琶精  : ({ "漫天血舞" })
+血魔    : ({ "乾坤罩", "如意圈", "神龙罩" })
+守卫    : ({ "乾坤罩", "如意圈", "神龙罩" })
+
+[小妖名字]
+第1层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽" })
+第2层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "怨鬼" })
+第3层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "电精", "怨鬼", "雨兽" })
+第4层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "紫衣仙子", "雪女", "蓝衣仙子", "云兽", "白衣仙子", "雷怪", "海龟", "狼", "老虎", "巨蜥", "石魔", "电精", "怨鬼", "雨兽" })
+第5层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "紫衣仙子", "雪女", "蓝衣仙子", "云兽", "白衣仙子", "雷怪", "海龟", "狼", "老虎", "巨蜥", "石魔", "电精", "怨鬼", "雨兽", "石牛妖", "蓝毛巨兽", "螳螂怪", "嗜血巨人" })
+第6层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "紫衣仙子", "雪女", "蓝衣仙子", "云兽", "白衣仙子", "雷怪", "海龟", "狼", "老虎", "巨蜥", "石魔", "电精", "怨鬼", "雨兽", "石牛妖", "蓝毛巨兽", "螳螂怪", "嗜血巨人", "三头巨犬", "炼魔", "寒冰怪", "骷髅战将", "虾兵", "蟹将" })
+第7层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "紫衣仙子", "雪女", "蓝衣仙子", "云兽", "白衣仙子", "雷怪", "海龟", "狼", "老虎", "巨蜥", "石魔", "电精", "怨鬼", "雨兽", "石牛妖", "蓝毛巨兽", "螳螂怪", "嗜血巨人", "三头巨犬", "炼魔", "寒冰怪", "骷髅战将", "虾兵", "蟹将", "火光鼠", "紫燕" })
+第8层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "紫衣仙子", "雪女", "蓝衣仙子", "云兽", "白衣仙子", "雷怪", "海龟", "狼", "老虎", "巨蜥", "石魔", "电精", "怨鬼", "雨兽", "石牛妖", "蓝毛巨兽", "螳螂怪", "嗜血巨人", "三头巨犬", "炼魔", "寒冰怪", "骷髅战将", "虾兵", "蟹将", "火光鼠", "紫燕", "冰晶龙鳞兽", "金翅鸢" })
+第9层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "紫衣仙子", "雪女", "蓝衣仙子", "云兽", "白衣仙子", "雷怪", "海龟", "狼", "老虎", "巨蜥", "石魔", "电精", "怨鬼", "雨兽", "石牛妖", "蓝毛巨兽", "螳螂怪", "嗜血巨人", "三头巨犬", "炼魔", "寒冰怪", "骷髅战将", "虾兵", "蟹将", "火光鼠", "紫燕", "冰晶龙鳞兽", "金翅鸢", "雪狐", "剑魂" })
+第10层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "柳鬼", "白猿", "鹰", "蝙蝠", "蟒<轩辕坟一层>", "僵尸", "鬼火萤", "乌龙", "花妖", "炎龙", "鱼人", "冰龙", "地裂兽", "青龙", "金头陀", "黄龙", "火鸦", "屈魂", "粉衣仙子", "青衣仙子", "黄衣仙子", "风怪", "红衣仙子", "虹妖", "紫衣仙子", "雪女", "蓝衣仙子", "云兽", "白衣仙子", "雷怪", "海龟", "狼", "老虎", "巨蜥", "石魔", "电精", "怨鬼", "雨兽", "石牛妖", "蓝毛巨兽", "螳螂怪", "嗜血巨人", "三头巨犬", "炼魔", "寒冰怪", "骷髅战将", "虾兵", "蟹将", "火光鼠", "紫燕", "冰晶龙鳞兽", "金翅鸢", "雪狐", "剑魂", "水魔神", "蚌姬", "金甲蝎", "斗魔蜥", "化蛇兽", "狐灵", "秋棠仙子", "镇水怪" })
+第11层: ({ "青蛙", "松鼠", "兔子", "蛇", "猴子", "山猫", "狐狸", "野狗", "桃精", "冰晶龙鳞兽", "金翅鸢", "雪狐", "剑魂", "水魔神", "蚌姬", "金甲蝎", "斗魔蜥", "化蛇兽", "狐灵", "秋棠仙子", "镇水怪" })
+
+[小妖头目刷出位置]
+place$: ({ 203, 125, 15 })
+place$: ({ 205, 73,  15 })
+place$: ({ 109, 73,  15 })
+place$: ({ 105, 130, 15 })
+
+[守卫刷出位置]
+place$: ({ 135, 101, 15 })
+place$: ({ 144, 94,  10 })
+place$: ({ 158, 88,  7  })
+place$: ({ 171, 93,  10 })
+place$: ({ 182, 101, 15 })
+place$: ({ 172, 108, 10 })
+place$: ({ 158, 113, 7  })
+place$: ({ 144, 108, 12 })

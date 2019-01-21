@@ -1,0 +1,4 @@
+key_name,       icon, unit, combined, no_float, log_action, value, sell_value, max_progress, zodiac_type
+十二生肖盘,     8917, 个,   0,        0,        "qit",      500,   500000,     12,           "ZODIAC_TYPE_COMMON"
+至尊十二生肖盘, 8918, 个,   0,        0,        "qit",      500,   1000000,    12,           "ZODIAC_TYPE_ZHIZUN"
+

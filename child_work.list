@@ -1,0 +1,127 @@
+#FORM2
+
+[张老板]
+work_place : 揽仙镇威扬武器店
+work_limit : ({ "physique", 250 })
+work_cost : ({ "mood", 2 })
+work_salary: 17
+work_no : 1
+work_level : 1
+work_title : 铁匠学徒
+
+[段铁心]
+work_place : 天墉城神勇兵器铺
+work_limit : ({ "physique", 2500 })
+work_cost : ({ "mood", 3 })
+work_salary: 24
+work_no : 2
+work_level : 2
+work_title : 初级铁匠
+
+[无名武器店老板]
+work_place : 无名小镇无名武器店
+work_limit : ({ "physique", 7800 })
+work_cost : ({ "mood", 4 })
+work_salary: 32
+work_no : 3
+work_level : 3
+work_title : 中级铁匠
+
+[卜老板]
+work_place : 揽仙镇天锦布庄
+work_limit : ({ "wisdom", 250 })
+work_cost : ({ "food", 2 })
+work_salary: 17
+work_no : 4
+work_level : 1
+work_title : 裁缝学徒
+
+[贾仁和]
+work_place : 天墉城仁和布庄
+work_limit : ({ "wisdom", 2500 })
+work_cost : ({ "food", 3 })
+work_salary: 24
+work_no : 5
+work_level : 2
+work_title : 初级裁缝
+
+[无名布庄老板]
+work_place : 无名小镇无名布庄
+work_limit : ({ "wisdom", 7800 })
+work_cost : ({ "food", 4 })
+work_salary: 32
+work_no : 6
+work_level : 3
+work_title : 中级裁缝
+
+[钱老板]
+work_place : 揽仙镇天下钱庄
+work_limit : ({ "physique", 1500, "wisdom", 300 })
+work_cost : ({ "mood", 2, "food", 1 })
+work_salary: 24
+work_no : 7
+work_level : 1
+work_title : 钱庄学徒
+
+[钱大富]
+work_place : 天墉城富甲钱庄
+work_limit : ({ "physique", 15000, "wisdom", 3000 })
+work_cost : ({ "mood", 3, "food", 1 })
+work_salary: 32
+work_no : 8
+work_level : 2
+work_title : 初级账房
+
+[钱庄老板]
+work_place : 东海渔村钱庄
+work_limit : ({ "physique", 42000, "wisdom", 10000 })
+work_cost : ({ "mood", 4, "food", 2 })
+work_salary: 47
+work_no : 9
+work_level : 3
+work_title : 中级账房
+
+[无名钱庄老板]
+work_place : 无名小镇无名钱庄
+work_limit : ({ "physique", 140000, "wisdom", 30000 })
+work_cost : ({ "mood", 5, "food", 3 })
+work_salary: 64
+work_no : 10
+work_level : 4
+work_title : 高级账房
+
+[王老板]
+work_place : 揽仙镇万全药铺
+work_limit : ({ "physique", 300, "wisdom", 1500 })
+work_cost : ({ "mood", 1, "food", 2 })
+work_salary: 24
+work_no : 11
+work_level : 1
+work_title : 药师学徒
+
+[杜卜思]
+work_place : 天墉城回春堂药铺
+work_limit : ({ "physique", 3000, "wisdom", 15000 })
+work_cost : ({ "mood", 1, "food", 3 })
+work_salary: 32
+work_no : 12
+work_level : 2
+work_title : 初级药师
+
+[药店老板]
+work_place : 东海渔村药店
+work_limit : ({ "physique", 10000, "wisdom", 42000 })
+work_cost : ({ "mood", 2, "food", 4 })
+work_salary: 47
+work_no : 13
+work_level : 3
+work_title : 中级药师
+
+[无名药铺老板]
+work_place : 无名小镇无名药铺
+work_limit : ({ "physique", 30000, "wisdom", 140000 })
+work_cost : ({ "mood", 3, "food", 5 })
+work_salary: 64
+work_no : 14
+work_level : 4
+work_title : 高级药师

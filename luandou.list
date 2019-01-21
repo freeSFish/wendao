@@ -1,0 +1,20 @@
+#FORM2
+
+#start_time 活动开始时间
+#duration_time 活动持续时间
+#interval_time 两次活动的间隔时间
+#total_stage 玩家可以闯的关数
+#interval_broadcast_in 活动进行中的广播间隔
+#interval_broadcast_end 活动结束前的广播间隔
+#exits_before_start 活动开始前几分钟刷出过图点
+[setting]
+pre_time : 60
+cycle_time : 60
+
+#回天墉城: ({ X坐标, Y坐标 })
+回天墉城: ({ 270, 142})
+
+[活动时间]
+time_list$ : ({ "2008-11-07-13:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })
+time_list$ : ({ "2008-11-07-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })
+time_list$ : ({ "2008-11-07-22:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })

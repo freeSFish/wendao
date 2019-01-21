@@ -1,0 +1,48 @@
+#FORM2
+# date_activity.list
+# create by luoyh Feb/22/2009
+# 日领取活动配置
+
+[baiguidi]
+room_name  :  "百鬼地"
+pos_x      :  411
+pos_y      :  143
+dir        :  EAST
+msg        :  "找#Y天心道人(418，140)#n领取#R夜游百鬼地活动#n任务。"
+req_level  : 40
+drama_task : 1
+duration   : 7200
+
+[chongwutaowang]
+room_name  :  "蝴蝶谷"
+pos_x      :  205
+pos_y      :  170
+dir        :  SOUTHEAST
+msg        :  "找#Y百花神女(205，165)#n领取#R仙界宠物大逃亡活动#n任务"
+req_level  : 40
+drama_task : 1
+duration   : 7200
+
+[zhengjiuxunlu]
+msg        :  "前往#R揽仙镇(137，17)#n找#Y驯鹿王#n领取#R拯救驯鹿行动#n任务。"
+req_level  : 40
+drama_task : 0
+duration   : 7200
+
+[qixingzhen]
+msg : "前往#Z天墉城#Z找#P无名剑客#P领取#R七星阵#n任务。"
+req_level  : 60
+drama_task : 0
+duration   : 7200
+
+[tiangangqixing]
+msg : "前往#Z天墉城#Z找#P无名剑客#P领取#R天罡七星阵#n任务。"
+req_level  : 60
+drama_task : 0
+duration   : 3600
+
+[challengestars]
+msg : "完成#R二十八星宿挑战#n任务。"
+req_level  : 60
+drama_task : 0
+duration   : 3600

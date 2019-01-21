@@ -1,0 +1,74 @@
+#FORM2
+#shubaox.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+法宝奖励 : 1000
+
+
+[法宝奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "七宝妙树3","混沌钟1","混元金斗5","阴阳镜2","十二品莲台5","金蛟剪4","定海珠3","番天印1","卸甲金葫4","九龙神火罩4" })
+
+[七宝妙树3]
+name      : 七宝妙树
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 3, "prop/all_polar", 5 })
+
+[定海珠3]
+name      : 定海珠
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 3, "prop/all_polar", 5 })
+
+[金蛟剪4]
+name      : 金蛟剪
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 4, "prop/all_polar", 5 })
+
+[混元金斗5]
+name      : 混元金斗
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 5, "prop/all_polar", 5 })
+
+[阴阳镜2]
+name      : 阴阳镜
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 2, "prop/all_polar", 5 })
+
+[混沌钟1]
+name      : 混沌钟
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 1, "prop/all_polar", 5 })
+
+[十二品莲台5]
+name      : 十二品莲台
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 5, "prop/all_polar", 5 })
+
+[卸甲金葫4]
+name      : 卸甲金葫
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 4, "prop/all_polar", 5 })
+
+[番天印1]
+name      : 番天印
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 1, "prop/all_polar", 5 })
+
+[九龙神火罩4]
+name      : 九龙神火罩
+min_level : 28
+max_level : 28
+attribs      : ({ "item_polar", 4, "prop/all_polar", 5 })

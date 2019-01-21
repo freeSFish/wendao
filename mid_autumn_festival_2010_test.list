@@ -1,0 +1,289 @@
+#FORM2
+
+[活动时间]
+stage_time_list$ : ({ "2011-08-18-18:00:00", "2011-08-20-20:00:00", "2011-08-20-23:59:59" })
+time_list$ : ({ "2011-08-18-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })
+game_end_time : "2011-08-26-00:00:00"
+
+[game_info]
+npc_name : "月宫仙子"
+npc_icon : 6173
+npc_map : "天墉城"
+npc_x : 119
+npc_y : 83
+npc_dir : SOUTHEAST
+bonus_item : "中秋镇妖令"
+bonus_pet : "跳跳兔"
+task_place : ({ "桃柳林", "风月谷" })
+prepare_time : 10800
+
+[refresh_info]
+stage_1$ : ({ "玉兔", 30 })
+stage_1$ : ({ "桂树", 15 })
+stage_2$ : ({ "狂乱的妖兽", 10 })
+maps : ({ "桃柳林", "风月谷" })
+
+[before_start]
+time     : 10800
+channel  : CHANNEL_SYSTEM
+duration : 1200
+content  : "中秋佳节，普天同庆！#R今天#R$START_TIME-$END_TIME#n期间大家可以到#Z桃柳林#Z、#Z风月谷#Z参加中秋活动，赏花赏月、镇妖除魔，还有机会获得#Y$PET#n的奖励哦！找#Z天墉城(240,187)#Z的#P中秋节活动大使|天墉城(240,187)#P可以了解活动的详情。"
+
+[start]
+channel  : CHANNEL_SYSTEM
+content : "中秋节活动开始了！大家可以到#Z桃柳林#Z、#Z风月谷#Z参加中秋活动，赏花赏月、镇妖除魔，还有机会得到珍贵的#Y$PET#n奖励哦！"
+
+[stage_one_refresh]
+time : 120
+duration : 120
+
+[stage_two_refresh]
+time : 300
+duration : 300
+
+[after_start]
+time     : 600
+channel  : CHANNEL_SYSTEM
+duration : 600
+content  : "中秋节活动正在火热地进行中，大家可以到#Z桃柳林#Z、#Z风月谷#Z参加，赏花赏月、镇妖除魔，还有机会得到珍贵的#Y$PET#n奖励哦！"
+
+[second_stage]
+time : 3600
+channel  : CHANNEL_SYSTEM
+content  : "中秋月圆之夜，大批妖兽无法镇压住体内的妖力，纷纷前往#Z桃柳林#Z、#Z风月谷#Z妄图进攻城镇，请大家快快前去阻拦！"
+
+[after_second_stage]
+time     : 1
+channel  : CHANNEL_SYSTEM
+duration : 300
+content  : "妖兽最怕#R烟花#n和#R爆竹#n，快带上烟花爆竹前往#Z桃柳林#Z、#Z风月谷#Z追击妖兽吧。燃放#R烟花#n后击败妖兽能得到#R经验奖励#n，燃放#R爆竹#n后击败妖兽能得到#R道行奖励#n，燃放#R烟花筒#n更是可以得到珍稀的#R中秋镇妖令#n！"
+
+[end]
+channel  : CHANNEL_SYSTEM
+content : "在中洲大陆各仙家侠士的共同努力下，妄图进攻城镇的妖兽已经被赶回轩辕庙了。大家可以找#Z天墉城(240,187)#Z的#P中秋节活动大使|天墉城(240,187)#P提交#R中秋镇妖令#n，以获得月宫的嘉奖。"
+
+[月饼]
+rate  : 200
+name$ : 月饼
+bonus$: ({ 0, 0, 100, 月饼, 1, 1 })
+
+[百灵丹]
+rate  : 200
+name$ : 百灵丹
+bonus$: ({ 0, 0, 100, 百灵丹, 2, 2 })
+
+[九圣散]
+rate  : 200
+name$ : 九圣散
+bonus$: ({ 0, 0, 100, 九圣散, 2, 2 })
+
+[紫金丹]
+rate  : 200
+name$ : 紫金丹
+bonus$: ({ 0, 0, 100, 紫金丹, 2, 2 })
+
+[百花酿]
+rate  : 200
+name$ : 百花酿
+bonus$: ({ 0, 0, 100, 百花酿, 2, 2 })
+
+[圈圈包]
+rate  : 250
+name$ : 圈圈包
+bonus$: ({ 0, 0, 100, 圈圈包, 1, 1 })
+
+[藏宝箱]
+rate  : 200
+name$ : 藏宝箱
+bonus$: ({ 0, 0, 100, 藏宝箱, 1, 1 })
+
+[装备]
+rate  : 250
+req_level : 80
+name$ : 装备
+
+[超级女娲石]
+rate  : 2
+name$ : 超级女娲石
+bonus$: ({ 0, 0, 100, 超级女娲石, 1, 1 })
+rumor : 1
+
+[天技秘笈残片]
+rate  : 1
+name$ : 天技秘笈残片
+bonus$: ({ 0, 0, 100, 天技秘笈残片, 1, 1 })
+rumor : 1
+
+[强壮的玉兔]
+icon             : 6165
+portrait         : 6165
+polar            : -1
+life_effect      : 800
+speed_effect     : 0
+phy_effect       : 100
+mag_effect       : 50
+phy_absorb       : 70
+mag_absorb       : -70
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tactics          : "tactics_qiangz_yutu"
+
+[灵巧的玉兔]
+icon             : 6165
+portrait         : 6165
+polar            : -1
+life_effect      : 800
+speed_effect     : 0
+phy_effect       : 50
+mag_effect       : 100
+phy_absorb       : -70
+mag_absorb       : 70
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tactics          : "tactics_lingq_yutu"
+
+[敏捷的玉兔]
+icon             : 6165
+portrait         : 6165
+polar            : 4
+life_effect      : 300
+speed_effect     : 2000
+phy_effect       : 80
+mag_effect       : 100
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "C3" })
+tactics          : "tactics_minj_yutu"
+
+[高兴的玉兔]
+icon             : 6165
+portrait         : 6165
+polar            : -1
+life_effect      : 400
+speed_effect     : 50
+phy_effect       : 50
+mag_effect       : 80
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 50
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B4" })
+special_skills   : ({ "ruyi-quan" })
+tactics          : "tactics_gaox_yutu"
+
+[快乐的玉兔]
+icon             : 6165
+portrait         : 6165
+polar            : -1
+life_effect      : 400
+speed_effect     : 50
+phy_effect       : 50
+mag_effect       : 80
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 50
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B4" })
+special_skills   : ({ "shenlong-zhao" })
+tactics          : "tactics_kuail_yutu"
+
+[胆小的玉兔]
+icon             : 6182
+portrait         : 6182
+polar            : 0
+life_effect      : 0
+speed_effect     : -100
+phy_effect       : 0
+mag_effect       : 0
+phy_absorb       : 0
+mag_absorb       : 0
+tao_effect       : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 0
+resist_confusion : 0
+mag_dodge        : 100
+parry            : 50
+tactics          : "tactics_danx_yutu"
+
+[妖兽]
+icon             : ({ 6214, 6215 })
+portrait         : ({ 6214, 6215 })
+polar            : -1
+life_effect      : 700
+speed_effect     : 150
+phy_effect       : 150
+mag_effect       : 150
+tao_effect       : 30
+skills           : ({ "B2", "B4" })
+special_skills   : ({ "ruyi-quan", "shenlong-zhao" })
+tactics          : "tactics_yaoshou"
+
+[迷乱的妖兽]
+icon             : ({ 6214, 6215 })
+portrait         : ({ 6214, 6215 })
+polar            : -1
+life_effect      : 500
+speed_effect     : 0
+phy_effect       : 150
+mag_effect       : 150
+tao_effect       : 0
+skills           : ({ "B2", "B4" })
+special_skills   : ({ "ruyi-quan", "shenlong-zhao" })
+tactics          : "tactics_mil_yaoshou"
+
+[狂乱的妖兽]
+icon             : ({ 6214, 6215 })
+portrait         : ({ 6214, 6215 })
+polar            : -1
+life_effect      : 1000
+speed_effect     : 30
+phy_effect       : 200
+mag_effect       : 200
+tao_effect       : 30
+resist_poison    : 0
+resist_frozen    : 10
+resist_sleep     : 10
+resist_forgotten : 30
+resist_confusion : 30
+double_hit       : 3
+double_hit_rate  : 30
+skills           : ({ "B2", "B4" })
+tactics          : "tactics_kuangl_yaoshou"
+
+[玉兔]
+icon : 06165
+
+[赏月的玉兔]
+icon : 06165
+
+[赏花的玉兔]
+icon : 06165
+
+[桂树]
+icon : 06106

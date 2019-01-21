@@ -1,0 +1,116 @@
+#FORM2
+
+#日常：daily，img=10969
+#挑战：challenge，img=10965
+#限时：time_limit，img=11118
+#活动：activity，img=11120
+#促销：promotion，img=11117
+
+#SAMPLE
+#[工资系统]
+#show   : "#H工资系统|mianfeifuli/gongzixitong.htm#H"
+#path   : "#P善财童子#P"
+#reward : "银元宝等"
+#tip    : "该任务不获得活跃值"
+#img    : 10820
+#type   : "time_limit"
+#sort   : "XS10"
+#show_finish_times : 1
+#new_task : 0
+
+[仙人指路]
+show   : "#H仙人指路|xiulianxitong/xianrenzhilu.htm#H"
+path   : "#P柳如烟#P"
+reward : "经验、道行等"
+tip    : "每场战斗胜利可获得#R1#n点活跃值，完成#R二星#n难度则活跃值#R奖励翻倍#n，每天上限#R50#n点（需与队长等级差在15级之内）#r#R建议组队#n"
+img    : 10829
+type   : "daily"
+sort   : "RC01"
+show_finish_times : 1
+
+[十绝阵]
+show   : "#H十绝阵|xiulianxitong/shijuezhen.htm#H"
+path   : "#P玉泉真人#P"
+reward : "经验、道行、金钱、装备等"
+tip    : "每场战斗胜利可获得#R2#n点活跃值，完成#R天罡十绝阵#n则活跃值#R奖励翻倍#n，每天上限#R50#n点（需与队长等级差在15级之内）#r#R建议组队#n"
+img    : 10829
+type   : "daily"
+sort   : "RC03"
+show_finish_times : 1
+
+[寻仙任务]
+show   : "#H寻仙任务|xiulianxitong/xunxianrenwu.htm#H"
+path   : "#P太清真君#P"
+reward : "经验、道行、金钱等"
+tip    : "每场战斗胜利可获得#R2#n点活跃值，完成#R天罡寻仙#n则活跃值#R奖励翻倍#n，每天上限#R50#n点（需与队长等级差在15级之内）#r#R建议组队#n"
+img    : 10829
+type   : "daily"
+sort   : "RC04"
+show_finish_times : 1
+
+[伏魔]
+show   : "伏魔"
+path   : "#P陆压真人#P"
+reward : "道行、潜能、武学、修为值等"
+tip    : "每场战斗胜利可获得#R1#n点活跃值，完成#R二星#n难度则活跃值#R奖励翻倍#n，每天上限#R50#n点#r#R建议组队#n"
+img    : 10969
+type   : "daily"
+sort   : "RC07"
+
+[仙界通缉]
+show   : "仙界通缉"
+path   : "#P玉鉴上人#P"
+reward : "道行、潜能、武学、修为值等"
+tip    : "每场战斗胜利可获得#R1#n点活跃值，完成#R二星#n难度则活跃值#R奖励翻倍#n，每天上限#R50#n点#r#R建议组队#n"
+img    : 10969
+type   : "daily"
+sort   : "RC08"
+
+[飞仙渡邪]
+show   : "飞仙渡邪"
+path   : "#P太玄真君#P"
+reward : "道行、潜能、武学、修为值等"
+tip    : "每场战斗胜利可获得#R1#n点活跃值，完成#R二星#n难度则活跃值#R奖励翻倍#n，每天上限#R50#n点#r#R建议组队#n"
+img    : 10969
+type   : "daily"
+sort   : "RC09"
+
+[助人为乐]
+show   : "#H助人为乐|renwuxitong/meirirenwu/chuandixinyi.htm#H"
+path   : "#P白邦芒#P"
+reward : "经验、道行、潜能等"
+tip    : "完成一星难度可获得#R6#n点活跃值，二星难度可获得#R9#n点活跃值"
+img    : 10821
+type   : "daily"
+sort   : "RC10"
+show_finish_times : 1
+
+[副本任务]
+show   : "#H副本任务|dengjizhiyin/60-69ji/fubenxitong.htm#H"
+path   : "#P赤灵尊神#P"
+reward : "经验、道行、装备、精魄、超级女娲石等"
+tip    : "完成#R1#n次一星难度副本任务或#R1#n次昆仑神镜可获得#R12#n点活跃值，二星难度可获得#R18#n点活跃值#r#R建议组队#n"
+img    : 10832
+type   : "daily"
+sort   : "RC11"
+show_finish_times : 1
+
+[昆仑神镜]
+show   : "#H昆仑神镜|xiulianxitong/kunlunshenjing/shennongchangbaicao.htm#H"
+path   : "#P昆仑镜仙#P"
+reward : "经验、道行、异兽躯干、神农书、变异精魄等"
+tip    : "完成#R1#n次一星难度昆仑神镜或#R1#n次副本任务可获得#R12#n点活跃值，二星难度可获得#R18#n点活跃值#r#R建议组队#n"
+img    : 10832
+type   : "daily"
+sort   : "RC12"
+show_finish_times : 1
+
+[八仙梦境]
+show   : "#H八仙梦境|xiulianxitong/baxianmengjing/lvdongbingmengjing.htm#H"
+path   : "#P蓬莱使者#P"
+reward : "道行、武学、精魄、超级女娲石等"
+tip    : "完成一星难度可获得#R12#n点活跃值，二星难度可获得#R18#n点活跃值"
+img    : 10831
+type   : "daily"
+sort   : "RC15"
+show_finish_times : 1

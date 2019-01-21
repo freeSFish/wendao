@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time       : "2014-12-22-00:00:00"
+end_time         : "2014-12-22-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(-600)"
+message         : "情人节是一个关于爱、浪漫以及玫瑰花、巧克力的节日。值此佳节，月老忙的不可开交，都没时间从#P活动大使#P处把#R玫瑰#n和#R巧克力#n拿到风月谷，各位有情道友可否前去帮忙？"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

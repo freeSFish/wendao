@@ -1,0 +1,8 @@
+#FORM2
+
+[add]
+no_check : ({ "/gs/feature/char/attrib.c", "/gs/inherit/misc/skill.c" })
+
+[safe_add]
+no_check : ({ "/gs/feature/char/attrib.c", "/gs/daemons/userd.c"  })
+/gs/daemons/ecardd.c : ({ "ecard_return_money", "ecard_sell_success", "return_money_to_user" })

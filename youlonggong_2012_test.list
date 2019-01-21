@@ -1,0 +1,35 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-07-02-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2012-07-06-20:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start", "start_task", "during_task", "end_task" })
+
+[before_start]
+broadcast_start : "start_time(-10800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "#RSTART_TIME#n至#REND_TIME#n将开放#R暑期活动之小宝游龙宫#n，欢迎大家到#Z天墉城#Z找#P活动大使#P参加！一起享受夏日游泳的清凉！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R暑期活动之小宝游龙宫#n开始了！欢迎大家到#Z天墉城#Z找#P活动大使#P参加！一起享受夏日游泳的清凉！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(600)"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "#R暑期活动之小宝游龙宫#n正在进行中，还不快来#Z天墉城#Z找#P活动大使#P参加，一起享受夏日游泳的清凉！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "#R暑期活动之小宝游龙宫#n结束了，感谢大家的参与。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

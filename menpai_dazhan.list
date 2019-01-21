@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-02-23-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task1", "before_start_task" })
+
+[before_start_task1]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1799)"
+message         : "#R门派大战#n将在#RSTART_TIME#n进行，请大家赶紧去#P门派比武大会申请人#P处进入战场，战场内只允许同一门派的玩家进行组队，大家快去参加活动为本门派争光吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "#R门派大战#n将在#RSTART_TIME#n进行，请大家赶紧去#P门派比武大会申请人#P处进入战场，战场内只允许同一门派的玩家进行组队，大家快去参加活动为本门派争光吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

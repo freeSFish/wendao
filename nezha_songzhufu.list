@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-01-04-12:00:00", "EVERY_HOUR(10)", "EVERY_DAY(1)", "2016-02-04-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "pre_start_task","during_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-43200)"
+interval        : 3600
+broadcast_end   : "start_time(-600)"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+message         : "寒假到了，小哪吒来送祝福。寒假活动期间每天#R12:00至22:00#n之间，小哪吒将委托#P活动大使#P在每个#R奇数整点#n限量送出#R经验奖励#n，每个#R偶数整点#n限量送出#R道行奖励#n，先到先得送完为止。"
+
+[during_task]
+broadcast_start : "start_time(-600)"
+interval        : 3600
+broadcast_end   : "end_time(-4200)"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+broadcast_func  : "broadcast_befor_per_hour"

@@ -1,0 +1,23 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-10-22-00:00:00", "EVERY_MIN(15)", "EVERY_HOUR(1)", "2011-10-29-23:59:59" })
+
+[npc_time_info]
+npc_start_time : "2011-10-22-00:00:00"
+summon_end_time : "2011-10-29-23:59:59"
+exchange_score_time : "2011-10-30-00:00:00"
+npc_end_time : "2011-10-30-23:59:59"
+
+[poems]
+poems : ({ "移舟泊烟渚日暮客愁新", "野旷天低树江清月近人", "功盖三分国名成八阵图", "江流石不转遗恨失吞吴", "松下问童子言师采药去", "只在此山中云深不知处", "岭外音书绝经冬复立春", "近乡情更怯不敢问来人", "打起黄莺儿莫教枝上啼", "啼时惊妾梦不得到辽西", "北斗七星高哥舒夜带刀", "至今窥牧马不敢过临洮", "孤云将野鹤岂向人间住", "莫买沃洲山时人已知处", "怀君属秋夜散步咏凉天", "空山松子落幽人应未眠", "白日依山尽黄河入海流", "欲穷千里目更上一层楼", "解落三秋叶能开二月花", "过江千尺浪入竹万竿斜" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 300
+broadcast_end   : "start_time(+600)"
+message         : "听闻有#Y黑熊怪#n在#Z天墉城#Z作乱，抢夺孩童的玩具小熊。请各位道友前往主持正义，夺回玩具小熊。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

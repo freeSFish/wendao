@@ -1,0 +1,363 @@
+#FORM2
+
+[ÃÍ»¢-0]
+name             : "ÃÍ»¢"
+icon             : 6121
+portrait         : 6121
+name_icons       : ({ "ÃÍ»¢(6121)", "Ò°ÀÇ(6120)" })
+life_effect      : "300 + LV / 70 * 50 + LV / 130 * 100 + LV / 150 * 200"
+phy_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+mag_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+polar            : -1
+religion         : -1
+speed_effect     : "random(200)"
+skills           : ({ "B2", "B4", "D2" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+monster_tactics  : "tieguaili_menghu_tactics"
+
+[ÃÍ»¢-1]
+name             : "ÃÍ»¢"
+icon             : 6121
+portrait         : 6121
+name_icons       : ({ "ÃÍ»¢(6121)", "Ò°ÀÇ(6120)" })
+life_effect      : "1800 + LV / 70 * 300 + LV / 130 * 600 + LV / 150 * 1200"
+phy_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+polar            : -1
+religion         : -1
+speed_effect     : "random(200)"
+skills           : ({ "B2", "B4", "D2" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+monster_tactics  : "tieguaili_menghu_tactics_ex"
+
+[³óÂª-0]
+name             : "³óÂª",
+icon             : 6226
+portrait         : 6226
+icons            : ({ 6226, 6227, 6228, 6229 })
+polar            : -1
+religion         : -1
+life_effect      : "200 + LV / 70 * 50 + LV / 130 * 250 + LV / 150 * 400"
+phy_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+speed_effect     : "random(500)"
+tao_effect       : 1000
+skills           : ({ "B2", "B4", "B5", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "speed_effect" })
+monster_tactics  : "tieguaili_choulou_tactics"
+
+[³óÂª-1]
+name             : "³óÂª",
+icon             : 6226
+portrait         : 6226
+icons            : ({ 6226, 6227, 6228, 6229 })
+polar            : -1
+religion         : -1
+life_effect      : "200 + LV / 70 * 50 + LV / 130 * 250 + LV / 150 * 400"
+phy_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+speed_effect     : "random(500)"
+tao_effect       : 1000
+skills           : ({ "B2", "B4", "B5", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "speed_effect" })
+monster_tactics  : "tieguaili_choulou_tactics"
+
+[ÃÀÀö-0]
+name             : "ÃÀÀö",
+icon             : 31072
+portrait         : 31072
+icons            : ({ 31072, 31073, 31074, 31075 })
+polar            : -1
+religion         : -1
+life_effect      : "400 + LV / 70 * 50 + LV / 130 * 250 + LV / 150 * 400"
+phy_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+speed_effect     : "random(500)"
+tao_effect       : 1000
+skills           : ({ "B2", "B4", "B5", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+monster_tactics  : "tieguaili_meili_tactics"
+
+[ÃÀÀö-1]
+name             : "ÃÀÀö",
+icon             : 31072
+portrait         : 31072
+icons            : ({ 31072, 31073, 31074, 31075 })
+polar            : -1
+religion         : -1
+life_effect      : "2400 + LV / 70 * 300 + LV / 130 * 1500 + LV / 150 * 2400"
+phy_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+mag_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+speed_effect     : "random(500)"
+tao_effect       : 1000
+skills           : ({ "B2", "B4", "B5", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+monster_tactics  : "tieguaili_meili_tactics"
+
+[ÊÞÑý´óÍõ-0]
+name             : "ÊÞÑý´óÍõ"
+icon             : 6189
+portrait         : 6189
+life_effect      : "700 + LV / 100 * 350 + LV / 130 * 450 + LV / 150 * 450"
+phy_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+polar            : -1
+religion         : -1
+speed_effect     : 300
+tao_effect       : 1000
+skills           : ({ "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect" })
+monster_tactics  : "tieguaili_yaoshou_daiwang_tactics"
+
+[ÊÞÑý´óÍõ-1]
+name             : "ÊÞÑý´óÍõ"
+icon             : 6189
+portrait         : 6189
+life_effect      : "4200 + LV / 100 * 2100 + LV / 130 * 2700 + LV / 150 * 2700"
+phy_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+polar            : -1
+religion         : -1
+speed_effect     : 300
+tao_effect       : 1000
+skills           : ({ "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect" })
+monster_tactics  : "tieguaili_yaoshou_daiwang_tactics_ex"
+
+[Ð¡ÊÞÑý-0]
+name             : "Ð¡ÊÞÑý"
+icon             : 30016
+portrait         : 30016
+polar            : -1
+religion         : -1
+life_effect      : "600 + LV / 100 * 150 + LV / 130 * 200 + LV / 150 * 150"
+mag_effect       : "50 + LV / 70 * 30 + LV / 130 * 30 + LV / 150 * 100"
+speed_effect     : 200
+skills           : ({ "B2", "B4", "B5", "C2", "C4", "C5", "D2", "D4", "D5" })
+modify_attrib    : ({ "life_effect", "mag_effect" })
+monster_tactics  : "tieguaili_xiao_yaoshou_tactics"
+
+[Ð¡ÊÞÑý-1]
+name             : "Ð¡ÊÞÑý"
+icon             : 30016
+portrait         : 30016
+polar            : -1
+religion         : -1
+life_effect      : "3600 + LV / 100 * 900 + LV / 130 * 1200 + LV / 150 * 900"
+mag_effect       : "100 + LV / 70 * 60 + LV / 130 * 60 + LV / 150 * 200"
+speed_effect     : 200
+skills           : ({ "B2", "B4", "B5", "C2", "C4", "C5", "D2", "D4", "D5" })
+modify_attrib    : ({ "life_effect", "mag_effect" })
+monster_tactics  : "tieguaili_xiao_yaoshou_tactics_ex"
+
+[ÀîÄýÑô-0]
+name             : "ÀîÄýÑô"
+icon             : 6244
+portrait         : 6244
+life_effect      : "800 + LV / 100 * 350 + LV / 130 * 450 + LV / 150 * 450"
+phy_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+speed_effect     : "random(1000)"
+tao_effect       : 200
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "C2", "C4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+monster_tactics  : "tieguaili_liningyang_tactics"
+
+[ÀîÄýÑô-1]
+name             : "ÀîÄýÑô"
+icon             : 6244
+portrait         : 6244
+life_effect      : "4800 + LV / 100 * 2100 + LV / 130 * 2700 + LV / 150 * 2700"
+phy_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+mag_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+speed_effect     : "random(1000)"
+tao_effect       : 200
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "C2", "C4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect" })
+monster_tactics  : "tieguaili_liningyang_tactics"
+
+[ÀîËÄNPC-0]
+name             : "ÀîËÄ"
+icon             : 6004
+portrait         : 6004
+life_effect      : 500
+speed_effect     : 99999
+monster_tactics  : "tieguaili_lisi_npc_tactics"
+
+[ÀîËÄNPC-1]
+name             : "ÀîËÄ"
+icon             : 6004
+portrait         : 6004
+life_effect      : 3000
+speed_effect     : 99999
+monster_tactics  : "tieguaili_lisi_npc_tactics"
+
+[ÊÞÑý´óÍõ1-0]
+name             : "ÊÞÑý´óÍõ"
+icon             : 6189
+portrait         : 6189
+life_effect      : "800 + LV / 100 * 350 + LV / 130 * 450 + LV / 150 * 450"
+phy_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+speed_effect     : "random(1000)"
+tao_effect       : 1000
+skills           : ({ "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "speed_effect" })
+monster_tactics  : "tieguaili_yaoshou_daiwang_1_tactics"
+
+[ÊÞÑý´óÍõ1-1]
+name             : "ÊÞÑý´óÍõ"
+icon             : 6189
+portrait         : 6189
+life_effect      : "4800 + LV / 100 * 2100 + LV / 130 * 2700 + LV / 150 * 2700"
+phy_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+speed_effect     : "random(1000)"
+tao_effect       : 1000
+skills           : ({ "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "speed_effect" })
+monster_tactics  : "tieguaili_yaoshou_daiwang_1_tactics_ex"
+
+[ÀîÄýÑôNPC-0]
+name             : "ÀîÄýÑô"
+icon             : 6244
+portrait         : 6244
+life_effect      : 1000
+monster_tactics  : "tieguaili_liningyang_npc_tactics"
+
+[ÀîÄýÑôNPC-1]
+name             : "ÀîÄýÑô"
+icon             : 6244
+portrait         : 6244
+life_effect      : 6000
+monster_tactics  : "tieguaili_liningyang_npc_tactics"
+
+[Æ¯ÁÁµÄºüÀê¾«-0]
+name             : "Æ¯ÁÁµÄºüÀê¾«"
+icon             : 6205
+portrait         : 6205
+life_effect      : "800 + LV / 100 * 350 + LV / 130 * 450 + LV / 150 * 450"
+phy_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+mag_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_chufa_zhandou_tactics"
+
+[Æ¯ÁÁµÄºüÀê¾«-1]
+name             : "Æ¯ÁÁµÄºüÀê¾«"
+icon             : 6205
+portrait         : 6205
+life_effect      : "4800 + LV / 100 * 2100 + LV / 130 * 2700 + LV / 150 * 2700"
+phy_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_chufa_zhandou_tactics"
+
+[Î°°¶ÄÐ×Ó-0]
+name             : "Î°°¶ÄÐ×Ó"
+icon             : 6243
+portrait         : 6243
+life_effect      : "300 + LV / 70 * 50 + LV / 130 * 100 + LV / 150 * 200"
+phy_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+mag_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_chufa_zhandou_tactics"
+
+[Î°°¶ÄÐ×Ó-1]
+name             : "Î°°¶ÄÐ×Ó"
+icon             : 6243
+portrait         : 6243
+life_effect      : "1800 + LV / 70 * 300 + LV / 130 * 600 + LV / 150 * 1200"
+phy_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_chufa_zhandou_tactics"
+
+[Å®Ôô-0]
+name             : "Å®Ôô"
+icon             : 6213
+portrait         : 6213
+life_effect      : "800 + LV / 100 * 350 + LV / 130 * 450 + LV / 150 * 450"
+phy_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+mag_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_chufa_zhandou_tactics"
+
+[Å®Ôô-1]
+name             : "Å®Ôô"
+icon             : 6213
+portrait         : 6213
+life_effect      : "4800 + LV / 100 * 2100 + LV / 130 * 2700 + LV / 150 * 2700"
+phy_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_chufa_zhandou_tactics"
+
+[·ÉÁ®Ó×ÊÞ-0]
+name             : "·ÉÁ®Ó×ÊÞ"
+icon             : 31067
+portrait         : 31067
+life_effect      : "800 + LV / 100 * 350 + LV / 130 * 450 + LV / 150 * 450"
+phy_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 50 + LV / 130 * 50 + LV / 150 * 100"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "B5", "D2", "D4", "D5" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_feilian_tactics"
+
+[·ÉÁ®Ó×ÊÞ-1]
+name             : "·ÉÁ®Ó×ÊÞ"
+icon             : 31067
+portrait         : 31067
+life_effect      : "4800 + LV / 100 * 2100 + LV / 130 * 2700 + LV / 150 * 2700"
+phy_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+mag_effect       : "120 + LV / 70 * 100 + LV / 130 * 100 + LV / 150 * 200"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "B5", "D2", "D4", "D5" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_feilian_tactics_ex"
+
+[Ñý¹Ö°ïÐ×-0]
+name             : "Ñý¹Ö°ïÐ×"
+icon             : 6260
+portrait         : 6260
+icons            : ({ 6260, 6259, 6257, 6241 })
+life_effect      : "450 + LV / 70 * 100 + LV / 130 * 300 + LV / 150 * 400"
+phy_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+mag_effect       : "30 + LV / 70 * 20 + LV / 130 * 20 + LV / 150 * 50"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "B5", "D2", "D4", "D5", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_yaoguai_bangxiong_tactics"
+
+[Ñý¹Ö°ïÐ×-1]
+name             : "Ñý¹Ö°ïÐ×"
+icon             : 6260
+portrait         : 6260
+icons            : ({ 6260, 6259, 6257, 6241 })
+life_effect      : "2100 + LV / 70 * 600 + LV / 130 * 1800 + LV / 150 * 2400"
+phy_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+mag_effect       : "60 + LV / 70 * 40 + LV / 130 * 40 + LV / 150 * 100"
+polar            : -1
+religion         : -1
+skills           : ({ "B2", "B4", "B5", "D2", "D4", "D5", "lipo-qianjun" })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics  : "tieguaili_yaoguai_bangxiong_tactics_ex"

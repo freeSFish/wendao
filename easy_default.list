@@ -1,0 +1,31 @@
+#FORM2
+
+[all_notice]
+# task
+level_limt : "你的等级不符，无法领取该任务。"
+level_limit_team : "队伍中有玩家等级不符合。"
+has_task : "你已经有这个任务了。"
+is_in_team : "你当前在队伍中，无法领取任务。"
+
+#[party]
+not_in_party_time : "活动还没开始呢。"
+
+#[monster]
+monster_is_in_combat : "没看我正忙着呢？一会再来收拾你。"
+monster_not_owner : "你找我有什么事：离开。"
+
+#[bonus]
+carry_full : "你的包裹空位不足，请整理后再来。"
+carry_full_1 : "你的包裹已满，无法获得#R%s#n。"
+pet_full : "你的宠物栏空位不足，请整理后再来。"
+pet_full_1 : "你的宠物数量已经达到最大，无法获得宠物#Y%s#n。"
+get_item_1 : "你获得了#Y%d#n%s#R%s#n。"
+get_pet : "你获得了#Y%s#n。"
+
+#[submit]
+submit_wrong_thing : "这不是我需要的东西。"
+submit_wrong_num : "数量不对，我要的不止这些。"
+submit_is_in_protect : "该物品（宠物）已处于保护状态，不能进行此操作。"
+
+#[rule]
+rule_is_forbided : "你现在无法进行此操作。"

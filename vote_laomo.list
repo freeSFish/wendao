@@ -1,0 +1,14 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-04-29-00:00:00", "EVERY_DAY(4)", 0, "2016-05-02-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "劳动节到了，快来#P活动大使#P处参加#R【劳动节】劳模投票#n活动吧，给你喜爱的劳模投票，只要投票就可以获得奖励！每完成一轮#R【劳动节】争当劳模#n活动就可以活动一张#R劳模选票#n哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

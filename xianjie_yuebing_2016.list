@@ -1,0 +1,22 @@
+#FORM2
+
+[setting]
+start_time       : "2016-09-15-00:00:00"
+end_time         : "2016-09-21-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(-3599)"
+message         : "#R【中秋】仙界月饼#n活动开始啦，大家快去#P嫦娥仙子|天墉城(261,199)#P那里领取任务制作高大上的#R仙界月饼#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【中秋】仙界月饼#n活动圆满结束啦，感谢大家的参与。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

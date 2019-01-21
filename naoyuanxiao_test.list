@@ -1,0 +1,32 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-01-19-16:00:00", "EVERY_MIN(60)", "EVERY_DAY(1)", "2011-01-26-00:00:00" })
+
+[setting]
+start_time : "2011-01-19-16:00:00"
+end_time   : "2011-01-25-19:00:00"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast1", "broadcast2", "broadcast3" })
+
+[broadcast1]
+broadcast_start : "start_time(-3600)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "元宵节到了，大家来煮元宵啦，传说中的#P元宵大仙|天墉城(255,199)#P即将于#RSTART_TIME#n出现在#Z天墉城#Z，大家记得届时找他参加#R煮元宵#n活动哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast2]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "元宵节到了，大家来煮元宵啦，传说中的#P元宵大仙|天墉城(255,199)#P来到了#Z天墉城#Z，大家赶快来找他参加#R煮元宵#n活动啊。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast3]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R煮元宵#n活动结束了，元宵大仙也回家休息啦，祝大家元宵节快乐。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

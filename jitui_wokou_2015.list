@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time : "2017-11-10-00:00:00"
+end_time   : "2017-11-14-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "犯我中华者，虽远必诛！#Z东海渔村#Z和#Z北海沙滩#Z处出现了很多倭寇，快去击败他们吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

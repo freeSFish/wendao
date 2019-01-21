@@ -1,0 +1,35 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-03-26-12:00:00", "EVERY_HOUR(1)", "EVERY_DAY(7)", "2011-07-01-13:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "before_start_task2", "during_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-7200)"
+interval        : 1800
+broadcast_end   : "start_time(-1800)"
+message         : "九州之内，哪一门派才是真正的强者，今日五行争霸之门打开，各位道友可在#RSTART_TIME#n到TASK_OPEN_SERVER找#P百晓通#P进入场内为各自门派一展身手。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task2]
+broadcast_start : "start_time(-1200)"
+interval        : 300
+broadcast_end   : "start_time(-300)"
+message         : "九州之内，哪一门派才是真正的强者，今日五行争霸之门打开，各位道友可在#RSTART_TIME#n到TASK_OPEN_SERVER找#P百晓通#P进入场内为各自门派一展身手。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 300
+broadcast_end   : "end_time(-300)"
+message         : "#R五行争霸#n活动开始了，各位道友赶快去#RTASK_OPEN_SERVER#n的#Z天墉城#Z找#P百晓通#P进入场内一展身手吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 2
+broadcast_end   : "end_time(+1)"
+message         : "今日的#R五行争霸#n已经结束了，各位道友还是暂且回去歇息吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

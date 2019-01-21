@@ -1,0 +1,97 @@
+#FORM2
+
+#biwudahui.list
+#Created by chenyw Oct/30/2006
+#比武大会配置文件
+
+[match_list]
+match$: "60-69"
+match$: "70-79"
+match$: "80-89"
+match$: "90-99"
+match$: "100-109"
+match$: "110-119"
+match$: "120-129"
+match$: "130-139"
+match$: "140-149"
+
+
+#[60-69]
+#level: ({ 60, 69 })                     // 这场比武大会为60-69级玩家
+#broadcast:              1800            // 比武大会开始前30分钟开始广播
+#signup:                 1800             // 有10分钟的报名时间
+#player_minimum:         5               // 最少的参赛人数为5人
+#start_time$:            "周*-16:00:00"  // 比赛开始时间为16点
+#duration:               10800           // 比赛持续时间为3小时
+
+[60-69]
+level: ({ 60, 69 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[70-79]
+level: ({ 70, 79 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[80-89]
+level: ({ 80, 89 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[90-99]
+level: ({ 90, 99 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[100-109]
+level: ({ 100, 109 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[110-119]
+level: ({ 110, 119 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[120-129]
+level: ({ 120, 129 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[130-139]
+level: ({ 130, 139 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600
+
+[140-149]
+level: ({ 140, 149 })
+broadcast:              900
+signup:                 900
+player_minimum:         30
+start_time$:            "周1-18:30:00"
+duration:               3600

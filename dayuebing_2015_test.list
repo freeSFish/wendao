@@ -1,0 +1,30 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-06-29-12:00:00", "EVERY_MIN(17)", "EVERY_DAY(1)", "2015-07-01-23:59:59" })
+time_list$ : ({ "2015-06-29-13:00:00", "EVERY_MIN(17)", "EVERY_DAY(1)", "2015-07-01-23:59:59" })
+time_list$ : ({ "2015-06-29-14:00:00", "EVERY_MIN(17)", "EVERY_DAY(1)", "2015-07-01-23:59:59" })
+time_list$ : ({ "2015-06-29-18:00:00", "EVERY_MIN(17)", "EVERY_DAY(1)", "2015-07-01-23:59:59" })
+time_list$ : ({ "2015-06-29-19:00:00", "EVERY_MIN(17)", "EVERY_DAY(1)", "2015-07-01-23:59:59" })
+time_list$ : ({ "2015-06-29-20:00:00", "EVERY_MIN(17)", "EVERY_DAY(1)", "2015-07-01-23:59:59" })
+
+[time]
+start_time : "2015-06-29-00:00:00"
+end_time : "2015-07-01-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "baoxiang_end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(+1)"
+message         : "欢庆#R反法西斯战争胜利70周年#n，在这喜庆的时节，#YTASK_OPEN_SERVER#n#Z天墉城#Z的红地毯上，一列列方阵队伍正在向大家展示他们的英姿，大家快去观看吧！阅兵结束后的#R10#n分钟内，将刷出#R胜利宝箱#n，供大家分享。"
+channel         : "CHANNEL_SYSTEM"
+
+[baoxiang_end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【守护和平】宝箱送惊喜#n已经结束，感谢各位道友伴我国迎来的反法西斯战争胜利70周年，各位道友尽情享受其中的欢乐吧！"
+channel         : "CHANNEL_SYSTEM"

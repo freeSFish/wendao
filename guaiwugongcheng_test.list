@@ -1,0 +1,365 @@
+#FORM2
+#怪物攻城配置文件（公测区）
+#
+
+[活动时间]
+time_list$ : ({ "2016-03-03-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2016-03-06-20:00:00" })
+
+[活动相关]
+default_duration : 7200
+
+#刷新怪物的间隔
+#活动中怪物刷新广播
+msg_fill_monster: "妖魔大军对#R中洲大陆#n发动了第$ROUND轮的攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+time_fill_monster: 600
+interval_fill_monster: 600
+duration_fill_monster: 6700
+
+#活动开始前广播
+msg_prev_start: "#R为感谢大家对#Y《问道》#R的支持，我们将于#Y今天$ST#R开放怪物攻城活动，欢迎大家参加。"
+time_prev_start: 1800
+interval_prev_start: 180
+
+#活动开始时广播
+msg_start: "大批的妖魔集结在一起，对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+
+#活动中广播
+msg_in_festival: "妖魔大军对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+interval_in_festival: 1200
+time_in_festival: 600
+
+#活动刷新怪物停止时的广播
+msg_stop_fill: "#R妖魔大军已有撤退之意，大家要加油了！#n"
+interval_stop_fill: 600
+
+#活动停止时广播
+msg_stop: "#R妖魔大军已经撤退了！感谢勇士们共同守护中洲大陆。#n"
+
+#活动正常停止时广播
+msg_normal_stop: "#R妖魔大军已经全部被消灭了！感谢勇士们共同守护中洲大陆。#n"
+
+#强制终止战斗的提示
+msg_retreat: "妖魔大军已经撤退了！"
+
+#怪物生成区域
+rooms$: 揽仙镇
+rooms$: 天墉城
+rooms$: 东海渔村
+rooms$: 无名小镇
+rooms$: 云霄宫
+
+[揽仙镇]
+monster_list$: 揽仙镇BOSS
+monster_list$: 揽仙镇上古妖王
+monster_list$: 揽仙镇星星
+monster_list$: 揽仙镇小BOSS
+
+[天墉城]
+monster_list$: 天墉城BOSS
+monster_list$: 天墉城上古妖王
+monster_list$: 天墉城星星
+monster_list$: 天墉城小BOSS
+monster_list$: 天墉城地煞星
+monster_list$: 天墉城超级BOSS
+
+[东海渔村]
+monster_list$: 东海渔村BOSS
+monster_list$: 东海渔村上古妖王
+monster_list$: 东海渔村星星
+monster_list$: 东海渔村小BOSS
+monster_list$: 东海渔村地煞星
+monster_list$: 东海渔村超级BOSS
+
+[无名小镇]
+monster_list$: 无名小镇BOSS
+monster_list$: 无名小镇上古妖王
+monster_list$: 无名小镇星星
+monster_list$: 无名小镇小BOSS
+monster_list$: 无名小镇地煞星
+monster_list$: 无名小镇超级BOSS
+
+[云霄宫]
+monster_list$: 云霄宫BOSS
+monster_list$: 云霄宫上古妖王
+monster_list$: 云霄宫星星
+monster_list$: 云霄宫小BOSS
+monster_list$: 云霄宫地煞星
+monster_list$: 云霄宫超级BOSS
+
+[揽仙镇BOSS]
+num : 1
+name$: 羊头怪
+name$: 牛头怪
+name$: 百年黑熊精
+type: "boss_monster"
+
+[揽仙镇上古妖王]
+name: 上古妖王
+num: 10
+level$: ({ 50, 五龙窟一层 })
+level$: ({ 52, 五龙窟二层 })
+level$: ({ 54, 五龙窟三层 })
+level$: ({ 56, 五龙窟四层 })
+level$: ({ 58, 五龙窟五层 })
+type: "yaowang"
+
+[揽仙镇星星]
+name$:  天魁星
+name$:  天魔星
+name$:  天机星
+name$:  天闲星
+name$:  天勇星
+name$:  天雄星
+name$:  天猛星
+name$:  天威星
+name$:  天英星
+name$:  天贵星
+name$:  天富星
+name$:  天满星
+prefix: 反叛的
+type:   "xing"
+num: 10
+
+[揽仙镇小BOSS]
+num: 25
+type: "shihun"
+level$: 20
+level$: 30
+
+[天墉城BOSS]
+num : 1
+name$: 百年猪妖
+name$: 百年狂狮怪
+name$: 百年刺猬精
+type: "boss_monster"
+
+[天墉城上古妖王]
+name: 上古妖王
+num: 10
+level$: ({ 60, 五龙山 })
+level$: ({ 62, 乾元山 })
+level$: ({ 64, 终南山 })
+level$: ({ 66, 凤凰山 })
+level$: ({ 68, 骷髅山 })
+level$: ({ 70, 十里坡 })
+level$: ({ 72, 幽冥涧 })
+level$: ({ 74, 蓬莱岛 })
+level$: ({ 76, 百花谷一 })
+level$: ({ 78, 百花谷二 })
+type: "yaowang"
+
+[天墉城星星]
+name$: 天孤星
+nmae$: 天伤星
+name$: 天立星
+name$: 天捷星
+name$: 天暗星
+name$: 天祐星
+name$: 天空星
+name$: 天速星
+type:   "xing"
+prefix : "反叛的"
+num: 10
+
+[天墉城地煞星]
+name$: 地魁星
+name$: 地煞星
+name$: 地勇星
+name$: 地杰星
+name$: 地雄星
+name$: 地威星
+name$: 地英星
+type:   "dishaxing"
+prefix : "反叛的"
+num: 10
+
+[天墉城小BOSS]
+num: 25
+type: "shihun"
+level$: 40
+level$: 50
+
+[天墉城超级BOSS]
+type: "super_boss"
+num : 1
+name$ : 黑熊妖皇
+
+[东海渔村BOSS]
+num : 1
+name$: 百年象精
+name$: 百花羞
+name$: 牛魔王
+type: "boss_monster"
+
+[东海渔村上古妖王]
+name: 上古妖王
+num: 10
+level$: ({ 80, 百花谷三 })
+level$: ({ 82, 百花谷四 })
+level$: ({ 84, 百花谷五 })
+level$: ({ 86, 百花谷六 })
+level$: ({ 88, 百花谷七 })
+level$: ({ 90, 绝人阵 })
+level$: ({ 92, 东昆仑 })
+level$: ({ 94, 绝仙阵 })
+level$: ({ 96, 地绝阵 })
+level$: ({ 98, 天绝阵 })
+type: "yaowang"
+
+[东海渔村星星]
+name$: 天异星
+name$: 天杀星
+name$: 天微星
+name$: 天究星
+name$: 天退星
+name$: 天寿星
+name$: 天剑星
+name$: 天平星
+name$: 天罪星
+prefix: 反叛的
+type:   "xing"
+num: 10
+
+[东海渔村地煞星]
+name$: 地奇星
+name$: 地猛星
+name$: 地文星
+name$: 地正星
+name$: 地辟星
+name$: 地阖星
+name$: 地强星
+name$: 地暗星
+name$: 地辅星
+name$: 地会星
+name$: 地佐星
+name$: 地佑星
+name$: 地灵星
+type:   "dishaxing"
+prefix : "反叛的"
+num: 10
+
+[东海渔村小BOSS]
+num: 25
+type: "shihun"
+level$: 60
+level$: 70
+
+[东海渔村超级BOSS]
+type: "super_boss"
+num : 1
+name$ : 天煞狂狮
+
+[无名小镇BOSS]
+num : 1
+name$: 夜叉王
+name$: 罗刹王
+name$: 白骨精
+name$: 孔雀妖姬
+type: "boss_monster"
+
+[无名小镇上古妖王]
+name: 上古妖王
+num: 10
+level$: ({ 103, 海底迷宫 })
+level$: ({ 108, 昆仑云海 })
+level$: ({ 113, 雪域冰原 })
+level$: ({ 118, 迷境花树 })
+level$: ({ 123, 水云间 })
+level$: ({ 128, 热砂荒漠 })
+level$: ({ 133, 方丈岛 })
+level$: ({ 138, 断魂窟 })
+type: "yaowang"
+
+[无名小镇星星]
+name$: 天损星
+name$: 天败星
+name$: 天牢星
+name$: 天慧星
+name$: 天暴星
+name$: 天哭星
+name$: 天巧星
+prefix: 反叛的
+type:   "xing"
+num: 10
+
+[无名小镇地煞星]
+name$: 地兽星
+name$: 地微星
+name$: 地慧星
+name$: 地暴星
+name$: 地默星
+name$: 地猖星
+name$: 地狂星
+name$: 地飞星
+name$: 地走星
+name$: 地巧星
+name$: 地明星
+name$: 地进星
+name$: 地退星
+name$: 地满星
+name$: 地遂星
+type:   "dishaxing"
+prefix : "反叛的"
+num: 10
+
+[无名小镇小BOSS]
+num: 25
+type: "shihun"
+level$: 80
+level$: 90
+level$: 100
+
+[无名小镇超级BOSS]
+type: "super_boss"
+num : 1
+name$ : 灭天血刺
+
+[云霄宫BOSS]
+num : 1
+name$: 阎摩罗王
+name$: 金角大仙
+type: "boss_monster"
+
+[云霄宫上古妖王]
+name: 上古妖王
+num: 10
+level$: ({ 143, 弑神殿 })
+level$: ({ 148, 灭魔堂 })
+level$: ({ 153, 太极圣境 })
+level$: ({ 158, 玉清山巅 })
+type: "yaowang"
+
+[云霄宫星星]
+name$: 天牢星
+name$: 天慧星
+name$: 天暴星
+name$: 天哭星
+name$: 天巧星
+prefix: 反叛的
+type:   "xing"
+num: 10
+
+[云霄宫小BOSS]
+num: 25
+type: "shihun"
+level$: 130
+level$: 140
+level$: 150
+
+[云霄宫地煞星]
+name$: 地周星
+name$: 地隐星
+name$: 地异星
+name$: 地理星
+name$: 地俊星
+name$: 地乐星
+name$: 地捷星
+name$: 地速星
+type:   "dishaxing"
+prefix : "反叛的"
+num: 10
+
+[云霄宫超级BOSS]
+type: "super_boss"
+num : 1
+name$ : 血炼魔猪

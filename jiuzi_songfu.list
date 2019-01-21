@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time       : "2015-04-10-00:00:00"
+end_time         : "2015-05-03-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【九周年】九子送福#n活动开始了，#R龙之九子#n降临天墉城，九子们调皮的躲在天墉城居民当中，找到他们并与之游戏即可获得九子的祝福奖励，快去#Y天墉城#n参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【九周年】九子送福#n活动正在进行中，#R龙之九子#n降临天墉城，九子们调皮的躲在天墉城居民当中，找到他们并与之游戏即可获得九子的祝福奖励，快去#Y天墉城#n参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【九周年】九子送福#n活动已经结束了，感谢大家的热情参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

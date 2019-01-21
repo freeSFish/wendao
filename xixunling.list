@@ -1,0 +1,25 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-07-10-15:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2015-07-12-16:00:00" })
+
+[setting]
+menu_start_time : "2015-07-10-00:00:00"
+menu_end_time   : "2015-07-12-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-100)"
+message         : "#R西巡令#n活动即将开启，请大家在今日#RSTART_FORMAT_HOUR_MIN#n至#REND_FORMAT_HOUR_MIN#n期间至#P活动大使#P处报名参加活动吧！(活动双倍、三倍、全局双倍均无效)"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(100)"
+message         : "#R西巡令#n活动已圆满结束，感谢大家的热情参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

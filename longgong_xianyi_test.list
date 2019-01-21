@@ -1,0 +1,11 @@
+#FORM2
+
+[broadcast_setting]
+broadcast_list : ({ "end_task" })
+
+[end_task]
+broadcast_start : "end_time(-10800)"
+interval        : 1200
+broadcast_end   : "end_time(-10)"
+message         : "#R龙宫献艺#n火热进行中，#R龙王#n很满意道友们的表现，将在22:00给排在#R献艺榜#n上表现出色的玩家赏赐大奖，赶快抓紧时间去#P龟丞相#P处参与挑战吧。"
+channel         : "CHANNEL_SYSTEM"

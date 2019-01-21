@@ -1,0 +1,49 @@
+#FORM2
+
+# party_stage_task.list
+# Created by Huang Yadan @ 2007-3-29
+# 帮派名人堂任务的配置文件
+#
+
+[传出目的地]
+room : 天墉城
+x    : 362
+y    : 223
+dir  : SOUTHWEST
+
+[提示]
+未过关   : 本次挑战结束，贵帮一个关卡都没有通过。
+落榜     : 本次挑战结束，贵帮只通过了#R$COUNT#n个关卡的考验，名落孙山。
+再次落榜 : 本次挑战结束，贵帮只通过了#R$COUNT#n个关卡的考验，当前排名不变。
+进榜     : 本次挑战结束，贵帮共通过#R$COUNT#n个关卡的考验，花费时间#R$COST_TIME#n，名列帮派名人堂第#R$ORDER#n名，获得了#R$CHENHAO#n的称号！
+晋级     : 本次挑战结束，贵帮共通过#R$COUNT#n个关卡的考验，花费时间#R$COST_TIME#n，晋级至第#R$ORDER#n名！
+落后     : 本次挑战结束，贵帮只通过了#R$COUNT#n个关卡的考验，花费时间#R$COST_TIME#n，当前排名不变。
+保持     : 本次挑战结束，贵帮只通过了#R$COUNT#n个关卡的考验，花费时间#R$COST_TIME#n，当前排名不变。
+立雕像   : 诸位为帮派立下汗马功劳，特立雕像以为后来者榜样！
+保持01   : 本次挑战结束，贵帮通过了#R$COUNT#n个关卡的考验，花费时间#R$COST_TIME#n，当前排名不变。
+进榜01   : 本次挑战结束，贵帮共通过#R$COUNT#n个关卡的考验，花费时间#R$COST_TIME#n，名列帮派名人堂第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号！
+晋级01   : 本次挑战结束，贵帮共通过#R$COUNT#n个关卡的考验，花费时间#R$COST_TIME#n，晋级至第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号！
+
+[提示通关]
+落榜     : 本次挑战结束，贵帮通过了所有关卡的考验，可惜花费时间过多（#R$COST_TIME#n），名落孙山。
+再次落榜 : 本次挑战结束，贵帮通过了所有关卡的考验，可惜花费时间过多（#R$COST_TIME#n），当前排名不变。
+进榜     : 本次挑战结束，贵帮通过了所有关卡的考验，花费时间#R$COST_TIME#n，名列帮派名人堂排行榜第#R$ORDER#n名，获得了#R$CHENHAO#n的称号！
+晋级     : 本次挑战结束，贵帮通过了所有关卡的考验，花费时间#R$COST_TIME#n，晋级至第#R$ORDER#n名！
+落后     : 本次挑战结束，贵帮通过了所有关卡的考验，花费时间#R$COST_TIME#n，当前排名不变。
+保持     : 本次挑战结束，贵帮通过了所有关卡的考验，花费时间#R$COST_TIME#n，当前排名不变。
+立雕像   : 诸位为帮派立下汗马功劳，特立雕像以为后来者榜样！
+保持01   : 本次挑战结束，贵帮通过了所有关卡的考验，花费时间#R$COST_TIME#n，当前排名不变。
+进榜01   : 本次挑战结束，贵帮通过了所有关卡的考验，花费时间#R$COST_TIME#n，名列帮派名人堂排行榜第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号！
+晋级01   : 本次挑战结束，贵帮通过了所有关卡的考验，花费时间#R$COST_TIME#n，晋级至第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号！
+
+[广播]
+进榜 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功，在#R$COST_TIME#n内通过了#R$COUNT#n个关卡，名列帮派名人堂排行榜第#R$ORDER#n名，获得了#R$CHENHAO#n的称号，真是可喜可贺啊！"
+晋级 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功，在#R$COST_TIME#n内通过了#R$COUNT#n个关卡，晋级至帮派名人堂排行榜第#R$ORDER#n名，真是可喜可贺啊！"
+进榜01 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功，在#R$COST_TIME#n内通过了#R$COUNT#n个关卡，名列帮派名人堂排行榜第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号，真是可喜可贺啊！"
+晋级01 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功，在#R$COST_TIME#n内通过了#R$COUNT#n个关卡，晋级至帮派名人堂排行榜第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号，真是可喜可贺啊！"
+
+[广播通关]
+进榜 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功，在#R$COST_TIME#n内通过了所有关卡，名列帮派名人堂排行榜第#R$ORDER#n名，获得了#R$CHENHAO#n的称号，真是可喜可贺啊！"
+晋级 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功,在#R$COST_TIME#n内通过了所有关卡，晋级至帮派名人堂排行榜第#R$ORDER#n名，真是可喜可贺啊！"
+进榜01 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功，在#R$COST_TIME#n内通过了所有关卡，名列帮派名人堂排行榜第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号，真是可喜可贺啊！"
+晋级01 : "#Y$PARTY#n的$NAMES挑战帮派名人堂成功,在#R$COST_TIME#n内通过了所有关卡，晋级至帮派名人堂排行榜第#R$ORDER#n名，夺得了#R$CHENHAO#n的称号，真是可喜可贺啊！"

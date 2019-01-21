@@ -1,0 +1,12 @@
+#名称         file_id,                                   颜色,      等级,     upgrade_script
+key_name,   file_id,                                color, level, upgrade_script
+袖珍绿水晶, "pocket_upgrade/xiuzhen-lvshuijing",    金色,  0,     0
+袖珍圣水晶, "pocket_upgrade/xiuzhen-shengshuijing", 金色,  0,     0
+袖珍黑水晶, "pocket_upgrade/xiuzhen-heishuijing",   金色,  0,     0
+袖珍黄水晶, "pocket_upgrade/xiuzhen-huangshuijing", 金色,  0,     0
+袖珍粉水晶, "pocket_upgrade/xiuzhen-fenshuijing",   金色,  0,     0
+袖珍天换石, "pocket_upgrade/xiuzhen-tianhuanshi",   金色,  0,     0
+袖珍灵石,   "pocket_upgrade/xiuzhen-lingshi",       金色,  0,     0
+袖珍晶石,   "pocket_upgrade/xiuzhen-jingshi",       金色,  0,     0
+袖珍封印石, "pocket_upgrade/xiuzhen-fengyinshi",    金色,  0,     0
+

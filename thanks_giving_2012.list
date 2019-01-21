@@ -1,0 +1,36 @@
+#FORM2
+
+[time]
+start_time : "2012-11-22-00:00:00"
+end_time   : "2012-11-25-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "before_end_task", "end_task", "during_task_ex" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "感恩节活动已经开始了，大家可以到#Z天墉城#Z的#P活动大使#P那里了解感恩节活动。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-600)"
+interval        : 60
+broadcast_end   : "end_time(-1)"
+message         : "本次感恩节活动即将结束，感谢大家的参与。祝大家快乐游戏，快乐生活！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "此次感恩节活动圆满结束了，感谢大家的参与。祝大家快乐游戏，快乐生活！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task_ex]
+broadcast_start : "start_time(+7200)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "#R【感恩节】感恩相庆#n活动正在进行中，快去找#P活动大使#P领取#R感恩卡#n并将#R感恩卡#n赠送给你的朋友吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

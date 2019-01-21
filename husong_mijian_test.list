@@ -1,0 +1,132 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-12-17-00:00:00", "EVERY_DAY(4)", 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time(+1200)"
+interval        : 1200
+broadcast_end   : "end_time(-1200)"
+message         : "#R【寒假】护送密件#n活动正在进行中，大家快去#P天墉城守卫#P处领取任务，帮助#Y天墉城#n的士兵们护送密件，完成后可获得丰厚的数值奖励更有机会获得商城道具大奖。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[入侵者]
+name                  : "入侵者"
+icon                  : 31116
+portrait              : 31116
+polar                 : -1
+religion              : -1
+life_effect           : 4500
+mag_effect            : 10
+phy_effect            : 10
+phy_absorb            : 25
+resist_forgotten      : 60
+resist_poison         : 20
+resist_frozen         : 20
+resist_sleep          : 20
+resist_confusion      : 60
+resist_repress        : 60
+resist_melt           : 60
+resist_cage           : 60
+resist_lock           : 60
+resist_lost           : 60
+skills                : ({ "B2", "B4" })
+tactics               : "tactics_ruqinzhe"
+
+[潜伏者]
+name                  : "潜伏者"
+icon                  : ({ 31053, 31054, 6139 })
+portrait              : ({ 31053, 31054, 6139 })
+polar                 : -1
+religion              : -1
+life_effect           : "800 + Lv / 70 * 50 + Lv / 100 * 100 + Lv / 120 * 150 + Lv / 130 * 150 + Lv / 150 * 200"
+mag_effect            : "25 + Lv / 70 * 10 + Lv / 100 * 15 + Lv / 120 * 20 + Lv / 130 * 50 + Lv / 150 * 50"
+phy_effect            : "25 + Lv / 70 * 10 + Lv / 100 * 15 + Lv / 120 * 20 + Lv / 130 * 50 + Lv / 150 * 50"
+phy_absorb            : 20
+resist_forgotten      : 150
+resist_poison         : 150
+resist_frozen         : 150
+resist_sleep          : 150
+resist_confusion      : 150
+resist_repress        : 150
+resist_melt           : 150
+resist_cage           : 150
+resist_lock           : 150
+resist_lost           : 150
+tao_effect            : 500
+speed_effect          : 50
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "speed_effect" })
+skills                : ({ "lipo-qianjun", "B3", "B4", "B5" })
+tactics               : "tactics_qianfuzhe"
+
+[掠夺者]
+name                  : "掠夺者"
+icon                  : ({ 6213, 6231 })
+portrait              : ({ 6213, 6231 })
+polar                 : -1
+religion              : -1
+life_effect           : "500 + Lv / 130 * 50 + Lv / 140 * 120 + Lv / 150 * 200"
+mag_effect            : "20 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 140 * 40 + Lv / 150 * 50"
+phy_effect            : "20 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 140 * 40 + Lv / 150 * 50"
+phy_absorb            : 10
+mag_absorb            : 10
+resist_forgotten      : 45
+resist_poison         : 45
+resist_frozen         : 45
+resist_sleep          : 45
+resist_confusion      : 45
+resist_repress        : 45
+resist_melt           : 45
+resist_cage           : 45
+resist_lock           : 45
+resist_lost           : 45
+tao_effect            : 100
+speed_effect          : 30
+stunt_rate            : 20
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect" })
+skills                : ({ "lipo-qianjun", "B2", "B3", "B4", "B5" })
+tactics               : "tactics_lueduozhe"
+
+[终结者]
+name                  : 终结者
+polar                 : -1
+religion              : -1
+icon                  : 6603
+portrait              : 6603
+life_effect           : "500 + Lv / 130 * 50 + Lv / 140 * 120 + Lv / 150 * 200"
+phy_effect            : "20 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 140 * 40 + Lv / 150 * 50"
+mag_effect            : "20 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 140 * 40 + Lv / 150 * 50"
+accurate              : 200
+stunt_rate            : 30
+obstacle_rate         : 0
+penetrate             : 40
+penetrate_rate        : 70
+speed_effect          : 200
+tao_effect            : 200
+use_super_boss_skill  : 1
+modify_attrib         : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib         : ({ "speed_effect" })
+skills                : ({ "lipo-qianjun", "xuelian-diyu", "B4", "C5" })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 300 })
+tactics               : "tactics_zhongjiezhe"
+
+[终结者同伙]
+name                  : 终结者同伙
+polar                 : -1
+religion              : -1
+icon                  : 6663
+portrait              : 6663
+life_effect           : "300 + Lv / 130 * 50 + Lv / 140 * 120 + Lv / 150 * 200"
+phy_effect            : "15 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 140 * 40 + Lv / 150 * 50"
+mag_effect            : "15 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 140 * 40 + Lv / 150 * 50"
+speed_effect          : 10
+tao_effect            : 15
+modify_attrib         : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib         : ({ "speed_effect", "tao_effect" })
+skills                : ({ "C4", "D4" })
+tactics               : "tactics_zhongjiezhe_tonghuo"

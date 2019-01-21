@@ -1,0 +1,187 @@
+#FORM2
+
+[1]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "蓝晶石", 1, 1 })
+
+[2]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "黄晶石", 1, 1 })
+
+[3]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "红晶石", 1, 1 })
+
+[4]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "紫晶石", 1, 1 })
+
+[5]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "绿晶石", 1, 1 })
+
+[6]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "绿灵石", 1, 1 })
+
+[7]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "黄灵石", 1, 1 })
+
+[8]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "蓝灵石", 1, 1 })
+
+[9]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "红灵石", 1, 1 })
+
+[10]
+type:1
+cs_exchange_point:1
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "紫灵石", 1, 1 })
+
+[11]
+type:1
+cs_exchange_point:2
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "碧桃", 20, 20 })
+
+[12]
+type:1
+cs_exchange_point:2
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "莲蓬子", 20, 20 })
+
+[13]
+type:1
+cs_exchange_point:2
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "天神降临卷轴", 1, 1 })
+
+[14]
+type:1
+cs_exchange_point:2
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "乐于助人卷轴", 1, 1 })
+
+[15]
+type:1
+cs_exchange_point:4
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "九圣散", 20, 20 })
+
+[16]
+type:1
+cs_exchange_point:5
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "易筋改气卷轴", 1, 1 })
+
+[17]
+type:1
+cs_exchange_point:5
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "吉人天相卷轴", 1, 1 })
+
+[18]
+type:1
+cs_exchange_point:10
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "内丹", 1, 1, "内丹一" })
+
+[19]
+type:1
+cs_exchange_point:10
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "灵芝仙草", 1, 1 })
+
+[20]
+type:1
+cs_exchange_point:150
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "九转仙灵露", 1, 1 })
+
+[21]
+type:1
+cs_exchange_point:120
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "神木丸", 1, 1 })
+
+[22]
+type:1
+cs_exchange_point:120
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "潜金散", 1, 1 })
+
+[23]
+type:1
+cs_exchange_point:120
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "柔水丹", 1, 1 })
+
+[24]
+type:1
+cs_exchange_point:120
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "烈火散", 1, 1 })
+
+[25]
+type:1
+cs_exchange_point:120
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "三土丸", 1, 1 })
+
+[26]
+type:1
+cs_exchange_point:300
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "超级女娲石", 1, 1 })
+
+[27]
+type:1
+cs_exchange_point:300
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "如意战斗令", 1, 1 })
+
+[28]
+type:1
+cs_exchange_point:50
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "祥云丹", 1, 1 })
+
+[29]
+type:1
+cs_exchange_point:300
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "天技秘籍残片", 1, 1 })
+
+[30]
+type:1
+cs_exchange_point:500
+free_bag:   ({ 1 })
+bonus$:  ({ 0, 0, 100, "灵引咒", 1, 1 })
+
+############################################################
+
+[内丹一]
+level$: 12
+quality$: 特等

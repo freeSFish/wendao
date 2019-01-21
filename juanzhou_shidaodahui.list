@@ -1,0 +1,46 @@
+#FORM2
+
+[任务卷轴·试道大会]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+desc : "任务卷轴给予的指引任务，完成相应目标后可以获得奖励。"
+log : "任务目标：找#P试道大会申请人#P了解有关#R试道大会#n相关的信息。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+alias : "试道大会"
+
+[S0]
+type : "null"
+item : "任务卷轴·试道大会"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+npc : "试道大会申请人"
+content$ : "NPC: 这位道友请留步！看你骨骼惊奇，乃是万中无一的修道奇才。"
+content$ : "NPC:贫道这里每周四晚上的20:00-22:30都会举办天下闻名的#R试道大会#n。"
+content$ : "NPC:凡是有志于成为试道王者的修道者均可参加，而且参与大会还能获得大量经验道行奖励，更有助于你的修行呢！"
+content$ : "ME:.....多谢指点！"
+action : "S2"
+log : "任务目标：找#P试道大会申请人#P了解有关#R试道大会#n相关的信息。"
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·试道大会"
+log : "任务目标：参加一次每周四晚上20:00到22:30举行的#R试道大会#n活动，详细情况可以查看#R#H帮助|biwujingji\shidaodahui.htm#H#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 300000"
+
+[SX]
+type : "null"

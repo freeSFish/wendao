@@ -1,0 +1,216 @@
+#FORM2
+
+[揽仙镇]
+task_npc : 1
+npc$ : 多闻道人
+npc$ : 渺渺道人
+npc$ : 黄仨儿
+npc$ : 赵老板
+npc$ : 小二哥
+npc$ : 张老板
+npc$ : 王老板
+npc$ : 贾老板
+npc$ : 钱老板
+npc$ : 卜老板
+npc$ : 莲花姑娘
+npc$ : 乐善施
+npc$ : 清净散人
+npc$ : 问道活动大使
+npc$ : 一叶知秋
+npc$ : 幸运大使
+npc$ : 安全大使
+npc$ : 驯鹿王
+npc$ : 蝶仙
+npc$ : 黄学究
+npc$ : 门派指引人
+npc$ : 学子
+
+[天墉城]
+task_npc : 1
+npc$ : 天机老人
+npc$ : 门派使者
+npc$ : 帮派使者
+npc$ : 夏总兵
+npc$ : 通灵道人
+npc$ : 集市传送人
+npc$ : 商会会长
+npc$ : 拍卖师
+npc$ : 白邦芒
+npc$ : 试道大会申请人
+npc$ : 武斗者
+npc$ : 门派比武大会申请人
+npc$ : 白发老人
+npc$ : 竞技申请人
+npc$ : 守护天神
+npc$ : 达闻散人
+npc$ : 民房总管
+npc$ : 文曲星
+npc$ : 杨镖头
+npc$ : 节日大使
+npc$ : 赤灵尊神
+npc$ : 钱大富
+npc$ : 杜卜思
+npc$ : 段铁心
+npc$ : 贾仁和
+npc$ : 管神工
+npc$ : 驭剑仙
+npc$ : 厉巧手
+npc$ : 精精儿
+npc$ : 晶晶儿
+npc$ : 厉北七
+npc$ : 灵虚真人
+npc$ : 千面怪
+npc$ : 无名剑客
+npc$ : 帮派管理员
+npc$ : 攻城战管理员
+npc$ : 辛仁皑
+npc$ : 南极仙翁
+npc$ : 夜行人
+npc$ : 屠娇娇
+npc$ : 董老头
+npc$ : 点卡寄售商
+npc$ : 游方术士
+npc$ : 清风道人
+npc$ : 神算子
+npc$ : 大胡子
+npc$ : 无极散人
+npc$ : 问道引路人
+npc$ : 念心道人
+npc$ : 普华天尊
+npc$ : 缤纷大使
+npc$ : 妙手道人
+npc$ : 积分大使
+npc$ : 冯喜来
+npc$ : 店小二
+npc$ : 宁彩神
+npc$ : 张司徒
+npc$ : 贾师爷
+npc$ : 售房吏
+npc$ : 状元王中王
+npc$ : 百晓通
+npc$ : 北斗星使
+npc$ : 鬼道子
+npc$ : 生肖使者
+npc$ : 林老汉
+npc$ : 茅山道士
+npc$ : 蒙面
+npc$ : 红娘
+npc$ : 五行竞猜使
+npc$ : 逍遥仙
+npc$ : 合服投票管理员
+npc$ : 重返问道大使
+npc$ : 玄天令活动大使
+npc$ : 元宝商人
+npc$ : 问卷调查专员
+npc$ : 青木道人
+npc$ : 战场接引人
+npc$ : 白眉真人
+npc$ : 兑兑乐
+npc$ : 天下第一帮使者
+npc$ : 李总兵
+
+[东海渔村]
+task_npc : 1
+npc$ : 药店老板
+npc$ : 钱庄老板
+npc$ : 客栈老板
+npc$ : 宋辛哲
+npc$ : 柳如尘
+npc$ : 玉真子
+npc$ : 天玄老人
+
+[无名小镇]
+task_npc : 1
+npc$ : 南华真人
+npc$ : 玉鉴上人
+npc$ : 无名钱庄老板
+npc$ : 无名客栈老板
+npc$ : 无名客栈小二
+npc$ : 无名杂货店老板
+npc$ : 无名药铺老板
+npc$ : 无名布庄老板
+npc$ : 鲁工匠
+npc$ : 无名武器店老板
+npc$ : 善财童子
+npc$ : 玉泉真人
+npc$ : 清微真人
+
+[风月谷]
+task_npc : 1
+npc$ : 苏苏
+npc$ : 白素
+npc$ : 朱雀
+npc$ : 月老
+
+[超级仙风散]
+rate : 100
+name : 超级仙风散
+
+[驯兽诀]
+rate : 100
+name : 驯兽诀
+
+[血池]
+rate : 100
+name : 血池
+
+[超级八卦阴阳令]
+rate : 100
+name : 超级八卦阴阳令
+
+[烟花筒]
+rate : 100
+name : 烟花筒
+
+[超级神兽丹]
+rate : 100
+name : 超级神兽丹
+
+[BOSS卡]
+rate : 100
+name : "BOSS卡"
+
+[离线摆摊卡]
+rate : 100
+name : 离线摆摊卡
+
+[鲜花卡]
+rate : 200
+name : 鲜花卡
+
+[水果卡]
+rate : 200
+name : 水果卡
+
+[特级八卦阴阳令]
+rate : 25
+name : 特级八卦阴阳令
+
+[自动摆摊卡]
+rate : 50
+name : 自动摆摊卡
+
+[喇叭]
+rate : 50
+name : 喇叭
+
+[特效仙风散]
+rate : 25
+name : 特效仙风散
+
+[灵池]
+rate : 25
+name : 灵池
+
+[点化丹]
+rate : 25
+name : 点化丹
+
+[超级归元露]
+rate : 50
+name : 超级归元露
+
+[火眼金睛]
+rate : 50
+name : 火眼金睛
+

@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-06-06-00:00:00", "EVERY_DAY(8)", "EVERY_WEEK(0)", "2015-06-13-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【双节同庆】玉兔捣乱#n活动开始了！中秋节期间，调皮的玉兔们下凡到天墉城捣乱，大家快去阻止他们吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【双节同庆】玉兔捣乱#n活动到此结束，感谢大家的积极参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

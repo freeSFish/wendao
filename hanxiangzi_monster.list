@@ -1,0 +1,101 @@
+#FORM2
+
+[千年红魔]
+name             : "千年红魔",
+icon             : 6221,
+portrait         : 6221,
+polar            : -1,
+religion         : -1,
+skills           : ({ "C4", "B4" })
+
+[千年蛛精]
+name             : "千年蛛精",
+icon             : 6222,
+portrait         : 6222,
+polar            : -1,
+religion         : -1,
+skills           : ({ "lipo-qianjun" }),
+
+[万年鬼王]
+name             : "万年鬼王",
+icon             : 6226,
+portrait         : 6226,
+polar            : -1,
+religion         : -1,
+penetrate        : 30,
+penetrate_rate   : 30,
+skills           : ({ "lipo-qianjun", "D5", "B4" }),
+
+[竹灵]
+name             : "竹灵",
+icon             : 7008,
+portrait         : 7008,
+polar            : 2,
+tao_effect       : 10000,
+skills           : ({ "D5", "B4", "C5" })
+skill_level      : 160,
+
+[竹灵心魔]
+name             : "竹灵心魔",
+icon             : 7008,
+portrait         : 7008,
+polar            : 2,
+double_hit_rate  : 30,
+double_hit       : 5,
+resist_forgotten : 100,
+resist_poison    : 50,
+resist_frozen    : 50,
+resist_sleep     : 50,
+resist_confusion : 100,
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+phy_absorb       : 10,
+mag_absorb       : 30,
+skills           : ({ "B2", "B4", "lipo-qianjun" })
+
+[终极心魔]
+name             : "终极心魔",
+icon             : 7009,
+portrait         : 7009,
+polar            : 2,
+double_hit_rate  : 30,
+double_hit       : 5,
+resist_forgotten : 100,
+resist_poison    : 50,
+resist_frozen    : 50,
+resist_sleep     : 50,
+resist_confusion : 100,
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+skills           : ({ "C5", "B5", "lipo-qianjun" })
+
+[东海龙王]
+name             : "东海龙王",
+icon             : 6079,
+portrait         : 6079,
+polar            : 3,
+religion         : -1,
+double_hit_rate  : 30,
+double_hit       : 5,
+penetrate        : 30,
+penetrate_rate   : 30,
+resist_forgotten : 100,
+resist_poison    : 100,
+resist_frozen    : 100,
+resist_sleep     : 100,
+resist_confusion : 100,
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+artifact         : ({ "fantianyin" }),
+skills           : ({ "B1", "B2", "B3", "B4", "lipo-qianjun" })
+sp_skills        : ({ "神龙罩", "如意圈" })
+special_skills   : ({ "shenlong-zhao", "ruyi-quan" })

@@ -1,0 +1,47 @@
+#FORM2
+
+[任务卷轴·结婚]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P红娘#P了解有关#R结婚系统#n相关的知识。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+alias : "结婚"
+
+[S0]
+type : "null"
+item : "任务卷轴·结婚"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+type_ex : "task_finish"
+modf_state : "S2"
+npc : "红娘"
+content$ : "NPC:一个人在这世界中闯荡，是否有时会感到孤单寂寞呢？"
+content$ : "NPC:如果你遇到了自己的意中人，在双方的等级都达到40级，并且亲密度达到5000后，就可以一起到我这里来登记。"
+content$ : "NPC:喜结连理后，你们双宿双飞、莲开并蒂，共同行走于江湖，多么让人羡慕啊。"
+content$ : "ME:嗯..."
+action : "S2"
+log : "任务目标：找#P红娘#P了解有关#R结婚系统#n相关的知识。"
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·结婚"
+bonus : "bonus1"
+log : "任务目标：在问道世界里找到自己的意中人并结婚，相关内容可以查看#R#H帮助|jiaoyouhudong\jiehun.htm#H#n。"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 300000"
+
+[SX]
+type : "null"

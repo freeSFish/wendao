@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time       : "2016-10-07-00:00:00"
+end_time         : "2016-10-09-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(+100)"
+message         : "#Y重阳节#n来啦！#Y寿星公#n带着他的仙兽来到#Z天墉城#Z，只要完成和仙兽的切磋就能获得奖励哟，快去与它们切磋吧。"
+channel         : "CHANNEL_RUMOR | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#Y重阳节#n来啦！#Y寿星公#n带着他的仙兽来到#Z天墉城#Z，只要完成和仙兽的切磋就能获得奖励哟，快去与它们切磋吧。"
+channel         : "CHANNEL_RUMOR | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(+86400)"
+broadcast_func  : "broadcast_end_task"
+channel         : "CHANNEL_RUMOR | CHANNEL_NO_BROADCAST"

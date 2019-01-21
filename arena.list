@@ -1,0 +1,266 @@
+#FORM2
+
+[001]
+name : 百花酿
+score : 1000
+give_num : 1
+free_bag : 1
+
+[002]
+name : 紫金丹
+score : 1000
+give_num : 1
+free_bag : 1
+
+[003]
+name : 九圣散
+score : 1000
+give_num : 1
+free_bag : 1
+
+[004]
+name : 莲蓬子
+score : 1000
+give_num : 1
+free_bag : 1
+
+[005]
+name : 碧桃
+score : 1000
+give_num : 1
+free_bag : 1
+
+[006]
+name : 易经洗髓便捷卡
+score : 100
+give_num : 1
+free_bag : 1
+
+[008]
+name : 兽魂便捷卡
+score : 100
+give_num : 1
+free_bag : 1
+
+[009]
+name : 鲜花卡
+score : 5000
+give_num : 1
+free_bag : 1
+
+[010]
+name : 水果卡
+score : 5000
+give_num : 1
+free_bag : 1
+
+[011]
+name : 血池
+score : 10800
+give_num : 1
+free_bag : 1
+
+[012]
+name : 灵池
+score : 32800
+give_num : 1
+free_bag : 1
+
+[013]
+name : 宠风散
+score : 21600
+give_num : 1
+free_bag : 1
+
+[014]
+name : 超级仙风散
+score : 10800
+give_num : 1
+free_bag : 1
+
+[015]
+name : 特效仙风散
+score : 32800
+give_num : 1
+free_bag : 1
+
+[016]
+name : 惊妖铃
+score : 32800
+give_num : 1
+free_bag : 1
+
+[017]
+name : 急急如律令
+score : 32800
+give_num : 1
+free_bag : 1
+
+[018]
+name : 飞行符
+score : 21600
+give_num : 1
+free_bag : 1
+
+[019]
+name : 引路蜂
+score : 32800
+give_num : 1
+free_bag : 1
+
+[020]
+name : 如意战斗令
+score : 32800
+give_num : 1
+free_bag : 1
+
+[021]
+name : 高级驯兽诀
+score : 80000
+give_num : 1
+free_bag : 1
+
+[022]
+name : 高级血玲珑
+score : 80000
+give_num : 1
+free_bag : 1
+
+[023]
+name : 高级法玲珑
+score : 240000
+give_num : 1
+free_bag : 1
+
+[024]
+name : 超级黑水晶
+score : 32800
+give_num : 1
+free_bag : 1
+
+[025]
+name : 绿水晶
+score : 51800
+give_num : 1
+free_bag : 1
+
+[026]
+name : 粉水晶
+score : 32800
+give_num : 1
+free_bag : 1
+
+[027]
+name : 黄水晶
+score : 41800
+give_num : 1
+free_bag : 1
+
+[028]
+name : 天换石
+score : 32800
+give_num : 1
+free_bag : 1
+
+[029]
+name : 混沌玉
+score : 51800
+give_num : 1
+free_bag : 1
+
+[030]
+name : 封印石
+score : 32800
+give_num : 1
+free_bag : 1
+
+[031]
+name : 超级灵石
+score : 39800
+give_num : 1
+free_bag : 1
+
+[032]
+name : 超级晶石
+score : 10800
+give_num : 1
+free_bag : 1
+
+[033]
+name : 娃娃装备合成石
+score : 10800
+give_num : 1
+free_bag : 1
+
+[034]
+name : 超级粉水晶
+score : 280000
+give_num : 1
+free_bag : 1
+
+[035]
+name : 雪人变身包
+score : 21600
+durability : 0
+give_num : 1
+free_bag : 1
+
+[036]
+name : 九曲玲珑笔·果果
+score : 21600
+give_num : 1
+free_bag : 1
+
+[037]
+name : 九曲玲珑笔·夜行人
+score : 21600
+give_num : 1
+free_bag : 1
+
+[038]
+name : 九曲玲珑笔·剑客
+score : 21600
+give_num : 1
+free_bag : 1
+
+[039]
+name : 九曲玲珑笔·火凤
+score : 21600
+give_num : 1
+free_bag : 1
+
+[040]
+name : 九曲玲珑笔·青牛
+score : 21600
+give_num : 1
+free_bag : 1
+
+[041]
+name : 九曲玲珑笔·锦辰兔
+score : 21600
+give_num : 1
+free_bag : 1
+
+[042]
+name : 九曲玲珑笔·紫云兔
+score : 21600
+give_num : 1
+free_bag : 1
+
+[043]
+name : 九曲玲珑笔·月蓝兔
+score : 21600
+give_num : 1
+free_bag : 1
+
+[044]
+name : 九曲玲珑笔·赤焰兔
+score : 21600
+give_num : 1
+free_bag : 1
+
+[045]
+name : 九曲玲珑笔·碧玉兔
+score : 21600
+give_num : 1
+free_bag : 1

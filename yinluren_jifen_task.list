@@ -1,0 +1,418 @@
+#FORM2
+
+[001]
+type : 道具
+name : 百灵丹
+score : 15
+give_num : 20
+nosale_item : 1
+free_bag : 1
+
+[002]
+type : 道具
+name : 九圣散
+score : 15
+give_num : 20
+nosale_item : 1
+free_bag : 1
+
+[003]
+type : 道具
+name : 紫金丹
+score : 15
+give_num : 20
+nosale_item : 1
+free_bag : 1
+
+[004]
+type : 道具
+name : 百花酿
+score : 15
+give_num : 20
+nosale_item : 1
+free_bag : 1
+
+[005]
+type : 道具
+name : 超级八卦阴阳令
+score : 150
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[006]
+type : 道具
+name : 兽魂散
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[007]
+type : 道具
+name : 兽灵散
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[008]
+type : 道具
+name : 五行合缘露
+score : 150
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[009]
+type : 道具
+name : 易经洗髓丹
+score : 150
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[010]
+type : 道具
+name : 仙魔散
+score : 150
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[011]
+type : 道具
+name : 潜金散
+score : 1500
+give_num : 1
+gift_item : 1
+free_bag : 1
+rumor     : 1
+
+[012]
+type : 道具
+name : 神木丸
+score : 1500
+give_num : 1
+gift_item : 1
+free_bag : 1
+rumor     : 1
+
+[013]
+type : 道具
+name : 柔水丹
+score : 1500
+give_num : 1
+gift_item : 1
+free_bag : 1
+rumor     : 1
+
+[014]
+type : 道具
+name : 烈火散
+score : 1500
+give_num : 1
+gift_item : 1
+free_bag : 1
+rumor     : 1
+
+[015]
+type : 道具
+name : 三土丸
+score : 1500
+give_num : 1
+gift_item : 1
+free_bag : 1
+rumor    : 1
+
+[016]
+type : 道具
+name : 超级羊头怪卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[017]
+type : 道具
+name : 超级牛头怪卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[018]
+type : 道具
+name : 超级黑熊精卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[019]
+type : 道具
+name : 超级狂狮怪卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[020]
+type : 道具
+name : 超级刺猬精卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[021]
+type : 道具
+name : 超级猪妖卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[022]
+type : 道具
+name : 超级象精卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[023]
+type : 道具
+name : 超级百花羞卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[024]
+type : 道具
+name : 超级牛魔王卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[025]
+type : 道具
+name : 超级夜叉王卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[026]
+type : 道具
+name : 超级罗刹王卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[027]
+type : 道具
+name : 超级白骨精卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[028]
+type : 道具
+name : 超级孔雀妖姬卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[029]
+type : 道具
+name : 超级阎摩罗王卡
+score : 45
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[030]
+type : 道具
+name : 道具套餐卡·体验
+score : 1000
+give_num : 1
+gift_item : 1
+free_bag : 1
+rumor     : 1
+
+[031]
+type : 道具
+name : 雪人变身包
+score : 270
+durability : 0
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[032]
+type : 道具
+name : 九曲玲珑笔·果果
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[033]
+type : 道具
+name : 九曲玲珑笔·夜行人
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[034]
+type : 道具
+name : 九曲玲珑笔·剑客
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[035]
+type : 道具
+name : 九曲玲珑笔·火凤
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[036]
+type : 道具
+name : 九曲玲珑笔·青牛
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[037]
+type : 道具
+name : 九曲玲珑笔·锦辰兔
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[038]
+type : 道具
+name : 九曲玲珑笔·紫云兔
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[039]
+type : 道具
+name : 九曲玲珑笔·月蓝兔
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[040]
+type : 道具
+name : 九曲玲珑笔·赤焰兔
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[041]
+type : 道具
+name : 九曲玲珑笔·碧玉兔
+score : 270
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+#---------------------------随机道具生成---------------------------------
+[随机道具1]
+type : 随机道具
+rate : 20000
+bonus$: ({ 0, 0, 100, "材料", 2, 10, "炎石1" })
+
+[炎石1]
+name$: 炎石
+color$: 金色
+min_level: 7
+max_level: 12
+
+[随机道具2]
+type : 随机道具
+rate : 20000
+bonus$: ({ 0, 0, 100, "材料", 2, 10, "水铜2" })
+
+[水铜2]
+name$: 水铜
+color$: 金色
+min_level: 7
+max_level: 12
+
+[随机道具3]
+type : 随机道具
+rate : 20000
+bonus$: ({ 0, 0, 100, "材料", 2, 10, "麟木3" })
+
+[麟木3]
+name$: 麟木
+color$: 金色
+min_level: 7
+max_level: 12
+
+[随机道具4]
+type : 随机道具
+rate : 20000
+bonus$: ({ 0, 0, 100, "材料", 2, 10, "精铁4" })
+
+[精铁4]
+name$: 精铁
+color$: 金色
+min_level: 7
+max_level: 12
+
+[随机道具5]
+type : 随机道具
+rate : 20000
+bonus$: ({ 0, 0, 100, "材料", 2, 10, "玄石5" })
+
+[玄石5]
+name$: 玄石
+color$: 金色
+min_level: 7
+max_level: 12
+
+[随机道具6]
+type : 随机道具
+rate : 40000
+bonus$: ({ 0, 0, 100, "内丹", 1, 1, "内丹6" })
+
+[内丹6]
+level$: 5
+level$: 16
+quality$ : 特等
+
+[随机道具7]
+type      : 随机道具
+rate      : 3
+bonus$    : ({ 0, 0, 100, "道具套餐卡#赠品", 1, 1 })
+quota     : ({ "yinluren/item/", "月", 3 })
+rumor     : 1
+instead   : 随机道具1
+
+[随机道具8]
+type      : 随机道具
+rate      : 1
+bonus$    : ({ 0, 0, 100, "高级道具套餐卡#赠品", 1, 1 })
+quota     : ({ "yiluren/item/", "月", 1 })
+rumor     : 1
+instead   : 随机道具2

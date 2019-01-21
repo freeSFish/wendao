@@ -1,0 +1,382 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-03-15-13:00:00", "EVERY_MIN(30)", "EVERY_DAY(1)" })
+time_list$ : ({ "2011-03-15-19:00:00", "EVERY_MIN(30)", "EVERY_DAY(1)" })
+
+[蓝药]
+rate : 40
+bonus_index : 1
+type  : "recover"
+name  : ({ "灵芽草", "紫椹", "葫芦枣", "拐儿枣", "补气丹", "云香精", "八珍汤", "陈桑酒" })
+
+[红药]
+rate : 40
+bonus_index : 1
+type  : "recover"
+name  : ({ "兰芝草", "地云草", "七叶莲", "七色花", "青花菇", "六月雪", "蜂王蜜", "人参" })
+
+[蓝装备]
+rate  : 5
+bonus_index : 1
+type  : "equipment"
+name$ : 蓝装备
+color : "BLUE"
+
+[五色灵石]
+rate  : 5
+bonus_index : 1
+type  : "item"
+name$ : 五色灵石
+bonus$: ({ 0, 0, 100, 五色灵石, 2, 2 })
+
+[五色晶石]
+rate  : 5
+bonus_index : 1
+type  : "item"
+name$ : 五色晶石
+bonus$: ({ 0, 0, 100, 五色晶石, 2, 2 })
+
+[兰芝草]
+name$ : 兰芝草
+bonus$: ({ 0, 0, 100, 兰芝草, 5, 5 })
+
+[地云草]
+name$ : 地云草
+bonus$: ({ 0, 0, 100, 地云草, 5, 5 })
+
+[七叶莲]
+name$ : 七叶莲
+bonus$: ({ 0, 0, 100, 七叶莲, 5, 5 })
+
+[七色花]
+name$ : 七色花
+bonus$: ({ 0, 0, 100, 七色花, 5, 5 })
+
+[青花菇]
+name$ : 青花菇
+bonus$: ({ 0, 0, 100, 青花菇, 5, 5 })
+
+[六月雪]
+name$ : 六月雪
+bonus$: ({ 0, 0, 100, 六月雪, 5, 5 })
+
+[蜂王蜜]
+name$ : 蜂王蜜
+bonus$: ({ 0, 0, 100, 蜂王蜜, 5, 5 })
+
+[人参]
+name$ : 人参
+bonus$: ({ 0, 0, 100, 人参, 5, 5 })
+
+[灵芽草]
+name$ : 灵芽草
+bonus$: ({ 0, 0, 100, 灵芽草, 5, 5 })
+
+[紫椹]
+name$ : 紫椹
+bonus$: ({ 0, 0, 100, 紫椹, 5, 5 })
+
+[葫芦枣]
+name$ : 葫芦枣
+bonus$: ({ 0, 0, 100, 葫芦枣, 5, 5 })
+
+[拐儿枣]
+name$ : 拐儿枣
+bonus$: ({ 0, 0, 100, 拐儿枣, 5, 5 })
+
+[补气丹]
+name$ : 补气丹
+bonus$: ({ 0, 0, 100, 补气丹, 5, 5 })
+
+[云香精]
+name$ : 云香精
+bonus$: ({ 0, 0, 100, 云香精, 5, 5 })
+
+[八珍汤]
+name$ : 八珍汤
+bonus$: ({ 0, 0, 100, 八珍汤, 5, 5 })
+
+[陈桑酒]
+name$ : 陈桑酒
+bonus$: ({ 0, 0, 100, 陈桑酒, 5, 5 })
+
+[BOSS卡（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : "BOSS卡（赠品）"
+bonus$: ({ 0, 0, 100, "BOSS卡#赠品", 1, 1 })
+rumor : 1
+
+#[材料箱（赠品）]
+#rate  : 60
+#bonus_index : 2
+#type  : "item"
+#name$ : 材料箱（赠品）
+#bonus$: ({ 0, 0, 100, 材料箱#赠品, 1, 1 })
+#rumor : 1
+
+[超级仙风散（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 超级仙风散（赠品）
+bonus$: ({ 0, 0, 100, 超级仙风散#赠品, 1, 1 })
+rumor : 1
+
+[特效仙风散（赠品）]
+rate  : 10
+bonus_index : 2
+type  : "item"
+name$ : 特效仙风散（赠品）
+bonus$: ({ 0, 0, 100, 特效仙风散#赠品, 1, 1 })
+rumor : 1
+
+#[聚灵石（赠品）]
+#rate  : 3
+#bonus_index : 2
+#type  : "item"
+#name$ : 聚灵石（赠品）
+#bonus$: ({ 0, 0, 100, 聚灵石#赠品, 1, 1 })
+#rumor : 1
+
+#[点化丹（赠品）]
+#rate  : 10
+#bonus_index : 2
+#type  : "item"
+#name$ : 点化丹（赠品）
+#bonus$: ({ 0, 0, 100, 点化丹#赠品, 1, 1 })
+#rumor : 1
+
+[超级八卦阴阳令（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 超级八卦阴阳令（赠品）
+bonus$: ({ 0, 0, 100, 超级八卦阴阳令#赠品, 1, 1 })
+rumor : 1
+
+#[超级藏宝图（赠品）]
+#rate  : 30
+#bonus_index : 2
+#type  : "item"
+#name$ : 超级藏宝图（赠品）
+#bonus$: ({ 0, 0, 100, 超级藏宝图#赠品, 1, 1 })
+#rumor : 1
+#
+#[超级黑水晶（赠品）]
+#rate  : 10
+#bonus_index : 2
+#type  : "item"
+#name$ : 超级黑水晶（赠品）
+#bonus$: ({ 0, 0, 100, 超级黑水晶#赠品, 1, 1 })
+#rumor : 1
+#
+#[粉水晶（赠品）]
+#rate  : 10
+#bonus_index : 2
+#type  : "item"
+#name$ : 粉水晶（赠品）
+#bonus$: ({ 0, 0, 100, 粉水晶#赠品, 1, 1 })
+#rumor : 1
+#
+#[绿水晶（赠品）]
+#rate  : 6
+#bonus_index : 2
+#type  : "item"
+#name$ : 绿水晶（赠品）
+#bonus$: ({ 0, 0, 100, 绿水晶#赠品, 1, 1 })
+#rumor : 1
+#
+#[天换石（赠品）]
+#rate  : 10
+#bonus_index : 2
+#type  : "item"
+#name$ : 天换石（赠品）
+#bonus$: ({ 0, 0, 100, 天换石#赠品, 1, 1 })
+#rumor : 1
+#
+#[黄水晶（赠品）]
+#rate  : 10
+#bonus_index : 2
+#type  : "item"
+#name$ : 黄水晶（赠品）
+#bonus$: ({ 0, 0, 100, 黄水晶#赠品, 1, 1 })
+#rumor : 1
+#
+#[混沌玉（赠品）]
+#rate  : 6
+#bonus_index : 2
+#type  : "item"
+#name$ : 混沌玉（赠品）
+#bonus$: ({ 0, 0, 100, 混沌玉#赠品, 1, 1 })
+#rumor : 1
+#
+#[封印石（赠品）]
+#rate  : 10
+#bonus_index : 2
+#type  : "item"
+#name$ : 封印石（赠品）
+#bonus$: ({ 0, 0, 100, 封印石#赠品, 1, 1 })
+#rumor : 1
+
+[超级神兽丹（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 超级神兽丹（赠品）
+bonus$: ({ 0, 0, 100, 超级神兽丹#赠品, 1, 1 })
+rumor : 1
+
+[易经洗髓丹（赠品）]
+rate  : 15
+bonus_index : 2
+type  : "item"
+name$ : 易经洗髓丹（赠品）
+bonus$: ({ 0, 0, 100, 易经洗髓丹#赠品, 1, 1 })
+rumor : 1
+
+[五行合缘露（赠品）]
+rate  : 15
+bonus_index : 2
+type  : "item"
+name$ : 五行合缘露（赠品）
+bonus$: ({ 0, 0, 100, 五行合缘露#赠品, 1, 1 })
+rumor : 1
+
+[道具套餐体验卡（赠品）]
+rate  : 10
+bonus_index : 2
+type  : "item"
+name$ : 道具套餐体验卡（赠品）
+bonus$: ({ 0, 0, 100, 道具套餐体验卡#赠品, 1, 1 })
+rumor : 1
+
+[定时烟花（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 定时烟花（赠品）
+bonus$: ({ 0, 0, 100, 定时烟花#赠品, 1, 1 })
+rumor : 1
+
+[法玲珑（赠品）]
+rate  : 5
+bonus_index : 2
+type  : "item"
+name$ : 法玲珑（赠品）
+bonus$: ({ 0, 0, 100, 法玲珑#赠品, 1, 1 })
+rumor : 1
+
+#[风灵丸（赠品）]
+#rate  : 7
+#bonus_index : 2
+#type  : "item"
+#name$ : 风灵丸（赠品）
+#bonus$: ({ 0, 0, 100, 风灵丸#赠品, 1, 1 })
+#rumor : 1
+
+[火眼金睛（赠品）]
+rate  : 15
+bonus_index : 2
+type  : "item"
+name$ : 火眼金睛（赠品）
+bonus$: ({ 0, 0, 100, 火眼金睛#赠品, 1, 1 })
+rumor : 1
+
+[老酒（赠品）]
+rate  : 60
+bonus_index : 2
+type  : "item"
+name$ : 老酒（赠品）
+bonus$: ({ 0, 0, 100, 老酒#赠品, 1, 1 })
+rumor : 1
+
+[自动摆摊卡（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 自动摆摊卡（赠品）
+bonus$: ({ 0, 0, 100, 自动摆摊卡#赠品, 1, 1 })
+rumor : 1
+
+[水果卡（赠品）]
+rate  : 60
+bonus_index : 2
+type  : "item"
+name$ : 水果卡（赠品）
+bonus$: ({ 0, 0, 100, 水果卡#赠品, 1, 1 })
+rumor : 1
+
+[无量心经（赠品）]
+rate  : 15
+bonus_index : 2
+type  : "item"
+name$ : 无量心经（赠品）
+bonus$: ({ 0, 0, 100, 无量心经#赠品, 1, 1 })
+rumor : 1
+
+[鲜花卡（赠品）]
+rate  : 60
+bonus_index : 2
+type  : "item"
+name$ : 鲜花卡（赠品）
+bonus$: ({ 0, 0, 100, 鲜花卡#赠品, 1, 1 })
+rumor : 1
+
+[血玲珑（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 血玲珑（赠品）
+bonus$: ({ 0, 0, 100, 血玲珑#赠品, 1, 1 })
+rumor : 1
+
+[驯兽诀（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 驯兽诀（赠品）
+bonus$: ({ 0, 0, 100, 驯兽诀#赠品, 1, 1 })
+rumor : 1
+
+[烟花筒（赠品）]
+rate  : 60
+bonus_index : 2
+type  : "item"
+name$ : 烟花筒（赠品）
+bonus$: ({ 0, 0, 100, 烟花筒#赠品, 1, 1 })
+rumor : 1
+
+[元气丹（赠品）]
+rate  : 30
+bonus_index : 2
+type  : "item"
+name$ : 元气丹（赠品）
+bonus$: ({ 0, 0, 100, 元气丹#赠品, 1, 1 })
+rumor : 1
+
+[金蝉脱壳（赠品）]
+rate  : 6
+bonus_index : 2
+type  : "item"
+name$ : 金蝉脱壳（赠品）
+bonus$: ({ 0, 0, 100, 金蝉脱壳#赠品, 1, 1 })
+rumor : 1
+
+[天神护佑（赠品）]
+rate  : 6
+bonus_index : 2
+type  : "item"
+name$ : 天神护佑（赠品）
+bonus$: ({ 0, 0, 100, 天神护佑#赠品, 1, 1 })
+rumor : 1
+
+[守护]
+rate  : 1
+bonus_index : 2
+type  : "guard"
+name$ : 守护
+bonus$: ({ 0, 0, 100, 守护, 1, 1 })
+rumor : 1

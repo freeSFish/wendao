@@ -1,0 +1,229 @@
+#FORM2
+
+[time]
+start_time : "2016-09-13-00:00:00"
+half_time : "2016-10-12-23:59:59"
+end_time : "2016-10-12-23:59:59"
+apprentice_bonus_start_time : "2016-09-13-00:00:00"
+apprentice_bonus_finish_time : "2016-10-12-23:59:59"
+xunxian_start_time : "2015-04-14-00:00:00"
+xunxian_end_time : "2015-07-10-23:59:59"
+
+[bonus_item]
+vip_tags : ({ "vip0", "vip1", "vip2", "vip3" })
+
+[limit_item]
+bonus$  : ({ 0, 0, 100, "梦荷#赠品", 1, 1 })
+limit$ : ({ "time_limit", "now", 604800 })
+
+[vip0]
+space_num : 4
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "特级八卦阴阳令#赠品", 1, 1 })
+
+[vip1]
+space_num : 6
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "特级八卦阴阳令#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+
+[vip2]
+space_num : 8
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "特级八卦阴阳令#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "宠风散#赠品", 2, 2 })
+
+[vip3]
+space_num : 10
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "特级八卦阴阳令#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "特效仙风散#赠品", 2, 2 })
+bonus$  : ({ 0, 0, 100, "宠风散#赠品", 2, 2 })
+
+[vip0limit]
+space_num : 2
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+
+[vip1limit]
+space_num : 4
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+
+[vip2limit]
+space_num : 6
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "宠风散#赠品", 2, 2 })
+
+[vip3limit]
+space_num : 8
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+bonus$  : ({ 0, 0, 100, "特效仙风散#赠品", 2, 2 })
+bonus$  : ({ 0, 0, 100, "宠风散#赠品", 2, 2 })
+
+[metal_weapon]
+prop  : ({ "prop/phy_power", "prop/mag_power", "prop/stunt_rate", "prop/metal" })
+prop2 : ({ "prop2/double_hit_rate" })
+prop3 : ({ "prop3/enhanced_" })
+prop4 : ({ "prop4/phy_power", "prop4/mag_power" })
+
+[metal_boot]
+prop  : ({ "prop/speed", "prop/dex", "prop/con" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/mag_dodge" })
+prop4 : ({ "prop4/dex" })
+
+[metal_armor]
+prop  : ({ "prop/def", "prop/wiz", "prop/max_life" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/release_forgotten" })
+prop4 : ({ "prop4/all_resist_except" })
+
+[metal_helmet]
+prop  : ({ "prop/wiz", "prop/max_life", "prop/def" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[metal_belt]
+prop  : ({ "prop/dex", "prop/con", "prop/base_dodge" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[wood_weapon]
+prop  : ({ "prop/phy_power", "prop/mag_power", "prop/stunt_rate", "prop/wood" })
+prop2 : ({ "prop2/double_hit_rate" })
+prop3 : ({ "prop3/enhanced_" })
+prop4 : ({ "prop4/phy_power", "prop4/mag_power" })
+
+[wood_boot]
+prop  : ({ "prop/speed", "prop/dex", "prop/con" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/mag_dodge" })
+prop4 : ({ "prop4/dex" })
+
+[wood_armor]
+prop  : ({ "prop/def", "prop/con", "prop/max_life" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/release_poison" })
+prop4 : ({ "prop4/all_resist_except" })
+
+[wood_helmet]
+prop  : ({ "prop/wiz", "prop/max_life", "prop/def" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[wood_belt]
+prop  : ({ "prop/dex", "prop/con", "prop/base_dodge" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[water_weapon]
+prop  : ({ "prop/phy_power", "prop/mag_power", "prop/stunt_rate", "prop/water" })
+prop2 : ({ "prop2/double_hit_rate" })
+prop3 : ({ "prop3/enhanced_" })
+prop4 : ({ "prop4/phy_power", "prop4/mag_power" })
+
+[water_boot]
+prop  : ({ "prop/speed", "prop/dex", "prop/con" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/mag_dodge" })
+prop4 : ({ "prop4/dex" })
+
+[water_armor]
+prop  : ({ "prop/def", "prop/con", "prop/max_life" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/release_frozen" })
+prop4 : ({ "prop4/all_resist_except" })
+
+[water_helmet]
+prop  : ({ "prop/wiz", "prop/max_life", "prop/def" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[water_belt]
+prop  : ({ "prop/dex", "prop/con", "prop/base_dodge" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[fire_weapon]
+prop  : ({ "prop/phy_power", "prop/mag_power", "prop/stunt_rate", "prop/fire" })
+prop2 : ({ "prop2/double_hit_rate" })
+prop3 : ({ "prop3/enhanced_" })
+prop4 : ({ "prop4/phy_power", "prop4/mag_power" })
+
+[fire_boot]
+prop  : ({ "prop/speed", "prop/dex", "prop/con" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/mag_dodge" })
+prop4 : ({ "prop4/dex" })
+
+[fire_armor]
+prop  : ({ "prop/def", "prop/wiz", "prop/max_life" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/release_sleep" })
+prop4 : ({ "prop4/all_resist_except" })
+
+[fire_helmet]
+prop  : ({ "prop/dex", "prop/max_life", "prop/def" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[fire_belt]
+prop  : ({ "prop/dex", "prop/con", "prop/base_dodge" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[earth_weapon]
+prop  : ({ "prop/phy_power", "prop/mag_power", "prop/stunt_rate", "prop/earth" })
+prop2 : ({ "prop2/double_hit_rate" })
+prop3 : ({ "prop3/enhanced_" })
+prop4 : ({ "prop4/phy_power", "prop4/mag_power" })
+
+[earth_boot]
+prop  : ({ "prop/speed", "prop/dex", "prop/con" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/mag_dodge" })
+prop4 : ({ "prop4/dex" })
+
+[earth_armor]
+prop  : ({ "prop/def", "prop/str", "prop/max_life" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/release_confusion" })
+prop4 : ({ "prop4/all_resist_except" })
+
+[earth_helmet]
+prop  : ({ "prop/str", "prop/max_life", "prop/def" })
+prop2 : ({ "prop2/all_attrib" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })
+
+[earth_belt]
+prop  : ({ "prop/dex", "prop/con", "prop/base_dodge" })
+prop2 : ({ "prop2/def" })
+prop3 : ({ "prop3/B_skill_low_cost" })
+prop4 : ({ "prop4/con" })

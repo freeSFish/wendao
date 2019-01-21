@@ -1,0 +1,139 @@
+#FORM2
+
+[龙太子]
+name                : 龙太子
+icon                : 6124
+portrait            : 6124
+polar               : -1
+life_effect         : 350
+phy_effect          : 10
+mag_effect          : 10
+speed_effect        : -30
+skills              : ({ "B2" })
+monster_tactics     : "common_tactics_ex"
+
+[虾兵]
+name                : 虾兵
+icon                : 6163
+portrait            : 6163
+polar               : -1
+life_effect         : 200
+phy_effect          : 10
+mag_effect          : 10
+speed_effect        : -30
+skills              : ({ "B2" })
+monster_tactics     : "common_tactics_ex"
+
+[李家三公子]
+name                : 李家三公子
+icon                : 7008
+portrait            : 7008
+polar               : 2
+life_effect         : 1000
+phy_effect          : 150
+mag_effect          : 80
+tao_effect          : 50
+speed_effect        : 100
+phy_absorb          : 0
+mag_absorb          : 0
+skills              : ({ "B2", "D2" })
+monster_tactics     : "sangongzi_tactics"
+
+[五行金使]
+name                : 五行金使
+icon                : 30006
+portrait            : 30006
+polar               : 1
+life_effect         : 20
+phy_effect          : -50
+mag_effect          : -50
+speed_effect        : -100
+skills              : ({ "B2" })
+monster_tactics     : "lingshi_tactics"
+
+[五行木使]
+name                : 五行木使
+icon                : 30009
+portrait            : 30009
+polar               : 2
+life_effect         : 20
+phy_effect          : -50
+mag_effect          : -50
+speed_effect        : -100
+skills              : ({ "B2" })
+monster_tactics     : "lingshi_tactics"
+
+[五行水使]
+name                : 五行水使
+icon                : 30007
+portrait            : 30007
+polar               : 3
+life_effect         : 20
+phy_effect          : -50
+mag_effect          : -50
+speed_effect        : -100
+skills              : ({ "B2" })
+monster_tactics     : "lingshi_tactics"
+
+[五行火使]
+name                : 五行火使
+icon                : 30008
+portrait            : 30008
+polar               : 4
+life_effect         : 20
+phy_effect          : -50
+mag_effect          : -50
+speed_effect        : -100
+skills              : ({ "B2" })
+monster_tactics     : "lingshi_tactics"
+
+[五行土使]
+name                : 五行土使
+icon                : 30010
+portrait            : 30010
+polar               : 5
+life_effect         : 20
+phy_effect          : -50
+mag_effect          : -50
+speed_effect        : -100
+skills              : ({ "B2" })
+monster_tactics     : "lingshi_tactics"
+
+[龙太子2]
+name                : 龙太子
+icon                : 6025
+portrait            : 6025
+polar               : -1
+life_effect         : 350
+phy_effect          : 15
+mag_effect          : 15
+speed_effect        : -100
+skills              : ({ "B2" })
+monster_tactics     : "common_tactics_ex"
+
+[虾兵2]
+name                : 虾兵
+icon                : 6163
+portrait            : 6163
+polar               : -1
+life_effect         : 150
+phy_effect          : 10
+mag_effect          : 10
+speed_effect        : -200
+skills              : ({ "D2", "lipo-qianjun" })
+monster_tactics     : "xiabing_tactics"
+
+[李家三公子2]
+name                : 李家三公子
+icon                : 7008
+portrait            : 7008
+polar               : 3
+life_effect         : 1500
+phy_effect          : 150
+mag_effect          : 100
+tao_effect          : 50
+speed_effect        : 100
+phy_absorb          : 0
+mag_absorb          : 0
+skills              : ({ "B2", "D2" })
+monster_tactics     : "sangongzi_tactics_ex"

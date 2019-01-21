@@ -1,0 +1,130 @@
+#FORM2
+#jiujind.list
+#create by caijz 09/18/2206
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+装备奖励 : 1000
+装备奖励2 : 1000
+
+
+[装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蕴雷枪" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "神魔幻影刀" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "拂兰指" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阴阳八卦拳套" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "轩辕剑" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "无相断魂戟" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "乾坤扇" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "震天弓" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "破天锤" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "青光碎灵斧" })
+
+[蕴雷枪]
+name      : 蕴雷枪
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_metal",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[神魔幻影刀]
+name      : 神魔幻影刀
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_metal",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[拂兰指]
+name      : 拂兰指
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_wood",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[阴阳八卦拳套]
+name      : 阴阳八卦拳套
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_wood",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[轩辕剑]
+name      : 轩辕剑
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_water",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[无相断魂戟]
+name      : 无相断魂戟
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_water",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[乾坤扇]
+name      : 乾坤扇
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_fire",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[震天弓]
+name      : 震天弓
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_fire",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[破天锤]
+name      : 破天锤
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_earth",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[青光碎灵斧]
+name      : 青光碎灵斧
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 2000, "prop/mag_power", 2000, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 2000, "prop4/mag_power", 2000, "prop3/enhanced_earth",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/all_attrib", 24,"prop_rebuild/phy_power", 7428,"prop_rebuild/mag_power", 7428,"suit_level", 90,"suit_name", 90级金系套装})
+
+[装备奖励2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "蟠龙冠" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金霞冠" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金缕衣" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天蚕衣" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凤舞圈" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "天行履" })
+
+[蟠龙冠]
+name      : 蟠龙冠
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_attrib", 18, "prop/wiz", 22, "prop/dex", 22, "prop2/all_attrib", 18,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 22, "prop3/B_skill_low_cost",-10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/def", 2640,"suit_level", 90,"suit_name", 90级金系套装})
+
+[金霞冠]
+name      : 金霞冠
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_attrib", 18, "prop/wiz", 22, "prop/dex", 22, "prop2/all_attrib", 18,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 22, "prop3/B_skill_low_cost",-10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/def", 2640,"suit_level", 90,"suit_name", 90级金系套装})
+
+[金缕衣]
+name      : 金缕衣
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_attrib", 18, "prop/wiz", 22, "prop/dex", 22, "prop2/all_attrib", 18,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 22, "prop3/all_resist_except",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/def", 2640,"suit_level", 90,"suit_name", 90级金系套装})
+
+[天蚕衣]
+name      : 天蚕衣
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_attrib", 18, "prop/wiz", 22, "prop/dex", 22, "prop2/all_attrib", 18,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 22, "prop3/all_resist_except",15,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/def", 2640,"suit_level", 90,"suit_name", 90级金系套装})
+
+[凤舞圈]
+name      : 凤舞圈
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_attrib", 18, "prop/wiz", 22, "prop/dex", 22, "prop2/all_attrib", 18,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 22, "prop3/C_skill_low_cost",-10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/def", 2640,"suit_level", 90,"suit_name", 90级金系套装})
+
+[天行履]
+name      : 天行履
+min_level : 90
+max_level : 90
+attribs      : ({ "prop/all_attrib", 18, "prop/wiz", 22, "prop/dex", 22, "prop2/all_attrib", 18,"prop2_color",1, "prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 22, "prop3/D_skill_low_cost",-10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 537,"prop_rebuild/def", 2640,"suit_level", 90,"suit_name", 90级金系套装})
+
+

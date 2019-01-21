@@ -1,0 +1,515 @@
+#FORM2
+
+[appellation_effect_desc]
+中洲霸主 : 所有相性5增加
+中洲第一帮副帮主 : 所有相性4增加
+中洲第一帮长老 : 所有相性3增加
+中洲第一帮护法 : 所有相性3增加
+中洲第一帮堂主 : 所有相性2增加
+中洲第一帮精英 : 所有相性2增加
+中洲第一帮帮众 : 所有相性1增加
+吴胖子亲戚之神龙护体  : 所有相性5增加
+
+[金系掌门]
+type : "family"
+ignore_resist_metal     : 20
+ignore_resist_forgotten : 20
+ignore_resist_repress   : 20
+
+[木系掌门]
+type : "family"
+ignore_resist_wood   : 20
+ignore_resist_poison : 20
+ignore_resist_melt   : 20
+
+[水系掌门]
+type : "family"
+ignore_resist_water  : 20
+ignore_resist_frozen : 20
+ignore_resist_cage   : 20
+
+[火系掌门]
+type : "family"
+ignore_resist_fire  : 20
+ignore_resist_sleep : 20
+ignore_resist_lock  : 20
+
+[土系掌门]
+type : "family"
+ignore_resist_earth     : 20
+ignore_resist_confusion : 20
+ignore_resist_lost      : 20
+
+[新入道途]
+type : 门派挑战
+max_life : 270
+max_mana : 135
+def      : -45
+
+[小具法力]
+type : "门派挑战"
+max_life : 480
+max_mana : 240
+def      : -80
+
+[初领妙道]
+type : "门派挑战"
+max_life : 750
+max_mana : 375
+def      : -125
+
+[略通道行]
+type : "门派挑战"
+max_life : 1080
+max_mana : 540
+def      : -180
+
+[渐入佳境]
+type : "门派挑战"
+max_life : 1470
+max_mana : 735
+def      : -245
+
+[元神初具]
+type : "门派挑战"
+max_life : 1920
+max_mana : 960
+def      : -320
+
+[道心稳固]
+type : "门派挑战"
+max_life : 2430
+max_mana : 1215
+def      : -405
+
+[道高德隆]
+type : "门派挑战"
+max_life : 3000
+max_mana : 1500
+def      : -500
+
+[妙领天机]
+type : "门派挑战"
+max_life : 3630
+max_mana : 1815
+def      : -605
+
+[脱胎换骨]
+type : "门派挑战"
+max_life : 4320
+max_mana : 2160
+def      : -720
+
+[霞举飞升]
+type : "门派挑战"
+max_life : 5070
+max_mana : 2535
+def      : -845
+
+[道满根归]
+type : "门派挑战"
+max_life : 5880
+max_mana : 2940
+def      : -980
+
+[不堕轮回]
+type : "门派挑战"
+max_life : 6750
+max_mana : 3375
+def      : -1125
+
+[已证大道]
+type : "门派挑战"
+max_life : 7680
+max_mana : 3840
+def      : -1280
+
+[反璞归真]
+type : "门派挑战"
+max_life : 8670
+max_mana : 4335
+def      : -1445
+
+[法力无边]
+type : "门派挑战"
+max_life : 9720
+max_mana : 4860
+def      : -1620
+
+[天人合一]
+type : "门派挑战"
+max_life : 10830
+max_mana : 5415
+def      : -1805
+
+[初出江湖]
+type : "herod"
+mag_power : 83
+phy_power : 83
+def       : 250
+speed     : -50
+
+[颇具潜力]
+type : "herod"
+mag_power : 120
+phy_power : 120
+def       : 360
+speed     : -60
+
+[初显锋芒]
+type : "herod"
+mag_power : 163
+phy_power : 163
+def       : 490
+speed     : -70
+
+[小有名气]
+type : "herod"
+mag_power : 213
+phy_power : 213
+def       : 640
+speed     : -80
+
+[声名鹊起]
+type : "herod"
+mag_power : 270
+phy_power : 270
+def       : 810
+speed     : -90
+
+[锋芒毕露]
+type : "herod"
+mag_power : 333
+phy_power : 333
+def       : 1000
+speed     : -100
+
+[声名显赫]
+type : "herod"
+mag_power : 403
+phy_power : 403
+def       : 1210
+speed     : -110
+
+[如雷贯耳]
+type : "herod"
+mag_power : 480
+phy_power : 480
+def       : 1440
+speed     : -120
+
+[威风八面]
+type : "herod"
+mag_power : 563
+phy_power : 563
+def       : 1690
+speed     : -130
+
+[德高望重]
+type : "herod"
+mag_power : 653
+phy_power : 653
+def       : 1960
+speed     : -140
+
+[威镇九州]
+type : "herod"
+mag_power : 750
+phy_power : 750
+def       : 2250
+speed     : -150
+
+[常胜将军]
+type : "herod"
+mag_power : 853
+phy_power : 853
+def       : 2560
+speed     : -160
+
+[战无不胜]
+type : "herod"
+mag_power : 963
+phy_power : 963
+def       : 2890
+speed     : -170
+
+[万人景仰]
+type : "herod"
+mag_power : 1080
+phy_power : 1080
+def       : 3240
+speed     : -180
+
+[江湖游侠]
+type : "仙魔录"
+def : 90
+mag_power : -30
+phy_power : -30
+
+[智贤羽士]
+type : "仙魔录"
+def : 160
+mag_power : -53
+phy_power : -53
+
+
+[屠龙法师]
+type : "仙魔录"
+def : 360
+mag_power : -83
+phy_power : -83
+
+[辟邪仙师]
+type : "仙魔录"
+def  : 490
+mag_power : -120
+phy_power : -120
+
+[九灵散人]
+type : "仙魔录"
+def  : 640
+mag_power : -163
+phy_power : -163
+
+[伏魔真人]
+type : "仙魔录"
+def  : 810
+mag_power : -213
+phy_power : -213
+
+[天道圣者]
+type : "仙魔录"
+def  : 1000
+mag_power : -270
+phy_power : -270
+
+[妙应真君]
+type : "仙魔录"
+def  : 1210
+mag_power : -333
+phy_power : -333
+
+[金身尊者]
+type : "仙魔录"
+def  : 1440
+mag_power : -403
+phy_power : -403
+
+[无量天尊]
+type : "仙魔录"
+def  : 1690
+mag_power : -480
+phy_power : -480
+
+[结拜]
+type : "brother"
+D_skill_low_cost :  10
+C_skill_low_cost :  -10
+
+[夫妻]
+type : "marry"
+D_skill_low_cost :  -10
+C_skill_low_cost :  10
+
+[飞升]
+type : "upgrade"
+prop_scale/mag_power : -10
+prop_scale/phy_power : -10
+B_skill_low_cost :  -10
+J_skill_low_cost :  -10
+
+[萝卜将军]
+type : "萝卜桃子大收集萝卜将军"
+no_update : 1
+
+[桃子勇士]
+type : "萝卜桃子大收集桃子勇士"
+no_update : 1
+
+[帮主]
+type : "party"
+no_update : 1
+
+[副帮主]
+type : "party"
+no_update : 1
+
+[青龙长老]
+type : "party"
+no_update : 1
+
+[白虎长老]
+type : "party"
+no_update : 1
+
+[朱雀长老]
+type : "party"
+no_update : 1
+
+[玄武长老]
+type : "party"
+no_update : 1
+
+[德馨堂主]
+type : "party"
+no_update : 1
+
+[素侠堂主]
+type : "party"
+no_update : 1
+
+[暗龙堂主]
+type : "party"
+no_update : 1
+
+[虎威堂主]
+type : "party"
+no_update : 1
+
+[紫云堂主]
+type : "party"
+no_update : 1
+
+[听雪堂主]
+type : "party"
+no_update : 1
+
+[梦溪堂主]
+type : "party"
+no_update : 1
+
+[玄风堂主]
+type : "party"
+no_update : 1
+
+[远雷护法]
+type : "party"
+no_update : 1
+
+[尖峰护法]
+type : "party"
+no_update : 1
+
+[夜伏护法]
+type : "party"
+no_update : 1
+
+[云海护法]
+type : "party"
+no_update : 1
+
+[苍兰护法]
+type : "party"
+no_update : 1
+
+[帮派精英]
+type : "party"
+no_update : 1
+
+[帮众]
+type : "party"
+no_update : 1
+
+[帮派功臣]
+type : "party_contributor"
+no_update : 1
+
+[跨服帮派争霸赛冠军帮帮主]
+type : "cs_partywar"
+all_polar : 5
+
+[跨服帮派争霸赛冠军帮副帮主]
+type : "cs_partywar"
+all_polar : 4
+
+[跨服帮派争霸赛冠军帮长老]
+type : "cs_partywar"
+all_polar : 3
+
+[跨服帮派争霸赛冠军帮护法]
+type : "cs_partywar"
+all_polar : 3
+
+[跨服帮派争霸赛冠军帮堂主]
+type : "cs_partywar"
+all_polar : 2
+
+[跨服帮派争霸赛冠军帮精英]
+type : "cs_partywar"
+all_polar : 2
+
+[跨服帮派争霸赛冠军帮帮众]
+type : "cs_partywar"
+all_polar : 1
+
+[跨服帮派争霸赛冠军]
+type : "cs_partywar"
+all_polar : 5
+all_attrib : 20
+
+[寿星称号]
+type : "char_birthday"
+no_update : 1
+
+[火眼金睛]
+type : "huoyan_jinjing"
+mag_power : 653
+phy_power : 653
+def       : 1960
+
+[中洲霸主]
+type : "cs_citywar"
+all_polar : 5
+
+[中洲第一帮副帮主]
+type : "cs_citywar"
+all_polar : 4
+
+[中洲第一帮长老]
+type : "cs_citywar"
+all_polar : 3
+
+[中洲第一帮护法]
+type : "cs_citywar"
+all_polar : 3
+
+[中洲第一帮堂主]
+type : "cs_citywar"
+all_polar : 2
+
+[中洲第一帮精英]
+type : "cs_citywar"
+all_polar : 2
+
+[中洲第一帮帮众]
+type : "cs_citywar"
+all_polar : 1
+
+[跨服帮派争霸赛亚军帮帮主]
+type : "cs_partywar"
+all_polar : 4
+
+[跨服帮派争霸赛亚军帮副帮主]
+type : "cs_partywar"
+all_polar : 3
+
+[跨服帮派争霸赛亚军帮长老]
+type : "cs_partywar"
+all_polar : 2
+
+[跨服帮派争霸赛亚军帮护法]
+type : "cs_partywar"
+all_polar : 2
+
+[跨服帮派争霸赛亚军帮堂主]
+type : "cs_partywar"
+all_polar : 1
+
+[跨服帮派争霸赛亚军帮精英]
+type : "cs_partywar"
+all_polar : 1
+
+[吴胖子亲戚之神龙护体]
+type : "cs_partywar"
+all_polar : 5
+

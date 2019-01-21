@@ -1,0 +1,136 @@
+#FORM2
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2014-06-26-00:00:00", "EVERY_DAY(13)", 0 })
+time_list$ : ({ "2014-07-31-00:00:00", "EVERY_DAY(11)", 0 })
+
+[broadcast_setting]
+broadcast_list:   ({ "during_task" })
+
+[during_task]
+broadcast_start   : "start_time"
+interval          : 3600
+broadcast_end     : "end_time(-1)"
+message           : "#R【暑假】封神追捕#n活动开始了，#P活动大使#P将在每个整点发布封神追捕任务，各位道友赶快去领取任务消灭妖魔吧。"
+channel           : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[小怪主怪]
+alias             : 小怪主怪
+name              : ({ "捣乱的妖怪", "邪恶的小妖", "残忍的魔王" })
+polar             : -1
+religion          : -1
+life_effect       : "1000 + LV / 70 * 200 + LV / 100 * 200 + LV / 120 * 200 + LV / 130 * 200 + LV / 150 * 300"
+phy_effect        : "35 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 30"
+mag_effect        : "35 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 30"
+speed_effect      : 100
+tao_effect        : "10 + LV / 70 * 15 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 35"
+resist_poison     : 35
+resist_frozen     : 35
+resist_sleep      : 35
+resist_forgotten  : 35
+resist_confusion  : 35
+resist_repress    : 35
+resist_melt       : 35
+resist_cage       : 35
+resist_lock       : 35
+resist_lost       : 35
+skills            : ({ "B4", "lipo-qianjun" })
+level_skills      : ({ 100, "C3", "C5", 100, "D3", "D5" })
+random_attrib     : ({ "speed_effect" })
+modify_attrib     : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics           : "tactics_common"
+
+[小怪1]
+alias             : 小怪1
+name              : ({ "捣乱的妖怪", "邪恶的小妖", "残忍的魔王" })
+icon              : ({ 6211, 6212, 6213, 6214 })
+polar             : -1
+religion          : -1
+life_effect       : "800 + LV / 70 * 200 + LV / 100 * 200 + LV / 120 * 200 + LV / 130 * 200 + LV / 150 * 300"
+phy_effect        : "20 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 50"
+mag_effect        : "20 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 50"
+speed_effect      : 30
+tao_effect        : "10 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 30"
+resist_poison     : 35
+resist_frozen     : 35
+resist_sleep      : 35
+resist_forgotten  : 35
+resist_confusion  : 35
+resist_repress    : 35
+resist_melt       : 35
+resist_cage       : 35
+resist_lock       : 35
+resist_lost       : 35
+accurate          : 100
+mstunt_rate       : 50
+penetrate_rate    : 40
+penetrate         : 50
+skills            : ({ "B2", "B4" })
+level_skills      : ({ 100, "B3", "B5" })
+random_attrib     : ({ "speed_effect" })
+modify_attrib     : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics           : "tactics_common"
+
+[小怪2]
+alias             : 小怪2
+name              : ({ "捣乱的妖怪", "邪恶的小妖", "残忍的魔王" })
+icon              : ({ 6211, 6212, 6213, 6214 })
+polar             : -1
+religion          : -1
+life_effect       : "900 + LV / 70 * 200 + LV / 100 * 200 + LV / 120 * 200 + LV / 130 * 200 + LV / 150 * 300"
+phy_effect        : "45 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 30"
+mag_effect        : "45 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 30"
+speed_effect      : 70
+tao_effect        : "10 + LV / 70 * 10 + LV / 100 * 20 + LV / 130 * 25 + LV / 150 * 30"
+stunt_rate        : 50
+penetrate_rate    : 40
+penetrate         : 50
+skills            : ({ "lipo-qianjun" })
+random_attrib     : ({ "speed_effect" })
+modify_attrib     : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics           : "tactics_common"
+
+[妖魔大王]
+name              : 妖魔大王
+icon              : 20051
+portrait          : 20051
+polar             : -1
+religion          : -1
+life_effect       : "5000 + LV / 70 * 200 + LV / 100 * 300 + LV / 130 * 800 + LV / 150 * 500"
+phy_effect        : 300
+mag_effect        : 300
+tao_effect        : "100 + LV / 100 * 80 + LV / 130 * 80 + LV / 140 * 80 + LV / 150 * 80"
+speed_effect      : "200 + LV / 100 * 30 + LV / 130 * 30 + LV / 140 * 30 + LV / 150 * 30"
+phy_absorb        : "-1 * LV * 15 / 100"
+penetrate_rate    : "LV * 3 / 10"
+penetrate         : "LV * 3 / 10"
+skills            : ({ "B4", "lipo-qianjun" })
+level_skills      : ({ 100, "C3", "C5", 100, "B3", "B5" })
+artifact          : ({ "jiulong-shenhuozhao", 24 })
+no_obstruct       : 1
+modify_attrib     : ({ "life_effect", "speed_effect", "tao_effect", "phy_absorb", "penetrate_rate", "penetrate", "all_resist_except", "ignore_all_resist_except" })
+tactics           : "tactics_yaomo_dawang"
+all_resist_except : "LV * 9 / 10"
+ignore_all_resist_except : "LV * 9 / 10"
+
+[魔王精英]
+name              : 魔王精英
+icon              : ({ 6660, 6661, 6662, 6663 })
+polar             : -1
+religion          : -1
+life_effect       : "1200 + LV / 70 * 100 + LV / 100 * 200 + LV / 130 * 300 + LV / 150 * 200"
+phy_effect        : 200
+mag_effect        : 200
+tao_effect        : "40 + LV / 100 * 5 + LV / 130 * 10 + LV / 140 * 15 + LV / 150 * 20"
+speed_effect      : 100
+phy_absorb        : "-1 * LV * 5 / 100"
+penetrate_rate    : 20
+penetrate         : 30
+all_resist_except : 50
+skills            : ({ "B4", "lipo-qianjun" })
+level_skills      : ({ 100, "D3", "D5", 100, "B3", "B5" })
+artifact          : ({ "hunyuan-jindou", 12 })
+random_attrib     : ({ "speed_effect", "all_resist_except" })
+modify_attrib     : ({ "life_effect", "tao_effect", "phy_absorb" })
+tactics           : "tactics_mowang_jingying"

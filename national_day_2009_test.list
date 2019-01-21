@@ -1,0 +1,272 @@
+#FORM2
+
+[活动时间]
+stage_time_list$ : ({ "2009-09-24-20:00:00", "2009-09-30-22:00:00", "2009-10-01-22:00:00" })
+time_list$ : ({ "2009-09-24-20:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })
+
+[game_info]
+bonus_item     : "荣誉勋章"
+prepare_time   : 10800
+need_item      : "BOSS卡"
+npc_huangdi    : ({ "黄帝", 6061, "天墉城", 72, 35, SOUTHWEST })
+npc_shenjiang$ : ({ "黄帝神将头领", "6223|6224", "北海沙滩", 81, 108, SOUTHEAST })
+npc_shenjiang$ : ({ "黄帝神将头领", "6223|6224", "风月谷", 78, 122, SOUTHEAST })
+npc_shenjiang$ : ({ "黄帝神将头领", "6223|6224", "十里坡", 149, 178, SOUTHEAST })
+
+[monster_info]
+北海沙滩 : ({ 蚩尤魔军, 90 })
+十里坡 : ({ 蚩尤魔军, 90 })
+风月谷 : ({ 蚩尤魔军, 90 })
+
+[before_start]
+time     : 1200
+channel  : CHANNEL_SYSTEM
+duration : 1200
+content  : "国庆佳节，普天同庆！获悉#Y魔神蚩尤#n集结#Y蚩尤魔军#n即将来袭中洲大陆，#Y黄帝#n特邀中洲大陆的广大英雄豪杰在#R%s#n协助其抵御#Y蚩尤魔军#n的入侵。若在战役中表现出众，上缴足够多的#R荣誉勋章#n则有机会获得#Y黄帝#n送出的%s。"
+
+[start]
+channel  : CHANNEL_SYSTEM
+content  : "#Y蚩尤魔军#n已经入侵#Z北海沙滩（81，108）#Z、#Z十里坡（149，178）#Z和#Z风月谷（78，122）#Z，请中洲大陆的广大英雄豪杰协助#P黄帝|天墉城（72，35）#P抵御#Y蚩尤魔军#n的入侵。"
+
+[after_start]
+time     : 600
+channel  : CHANNEL_SYSTEM
+duration : 600
+content  : "#Y蚩尤魔军#n正在入侵#Z北海沙滩（81，108）#Z、#Z十里坡（149，178）#Z和#Z风月谷（78，122）#Z，请中洲大陆的广大英雄豪杰协助#P黄帝|天墉城（72，35）#P抵御#Y蚩尤魔军#n的入侵。"
+
+[after_end]
+time     : 3100
+channel  : CHANNEL_SYSTEM
+duration : 600
+content  : "在广大英雄豪杰的协助下，#Y蚩尤魔军#n暂时撤退了，中洲大陆再一次恢复了往日的平静。为了犒赏广大英雄豪杰，#P黄帝|天墉城（72，35）#P正在#Z天墉城（72，35）#Z为大家论功行赏，请大家迅速前往！"
+
+[stop_refresh]
+time     : 300
+channel  : CHANNEL_SYSTEM
+content  : "在广大英雄豪杰的协助下，#Y蚩尤魔军#n的攻势开始减退。"
+
+[stop_submit]
+time     : 3600
+channel  : CHANNEL_SYSTEM
+content_match_end : "经过#R%d#n天的激战，大家总共上缴了#R%d#n枚#R荣誉勋章#n，当前犒赏物资为%s。其中#Y%s#n 暂时领先，明日他们五人将以#Y黄帝大将#n的身份协助诸位一同抵御#Y蚩尤魔军#n的入侵。"
+content_stage_end : "经过#R%d#n天的激战，#Y蚩尤魔军#n已经彻底被赶出中洲大陆，大家在此期间总共上缴了#R%d#n枚#R荣誉勋章#n。%s。请获得犒赏的人员在一日之内前往#P黄帝|天墉城（72，35）#P 处领取犒赏。感谢各位的鼎力协助，中洲大陆必将繁荣昌盛！"
+
+[stage_bonus]
+1 : ({ "#R道具套餐卡#n", "#R道具套餐卡#n", "#R超级女娲石#n", "#R超级女娲石#n", "#R超级女娲石#n" })
+2 : ({ "#R高级道具套餐卡#n", "#R高级道具套餐卡#n", "#R道具套餐卡#n", "#R道具套餐卡#n", "#R超级女娲石#n" })
+3 : ({ "#R如意圈秘笈#n", "#R乾坤罩秘笈#n", "#R高级道具套餐卡#n", "#R高级道具套餐卡#n", "#R道具套餐卡#n" })
+4 : ({ "#Y嘲风#n", "#R如意圈秘笈#n", "#R乾坤罩秘笈#n", "#R高级道具套餐卡#n", "#R高级道具套餐卡#n" })
+
+[纯阳正气丹]
+rate  : 25000
+name$ : 纯阳正气丹
+bonus$: ({ 0, 0, 100, 纯阳正气丹, 20, 20 })
+
+[道藏金丹]
+rate  : 25000
+name$ : 道藏金丹
+bonus$: ({ 0, 0, 100, 道藏金丹, 20, 20 })
+
+[蓝装备]
+rate  : 35000
+name$ : 蓝装备
+color : "BLUE"
+
+[金装备]
+rate  : 15000
+name$ : 金装备
+color : "GOLDEN"
+
+[天神护佑（赠品）]
+rate  : 2000
+name$ : 天神护佑（赠品）
+bonus$: ({ 0, 0, 100, 天神护佑#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[离线摆摊卡（赠品）]
+rate  : 2000
+name$ : 离线摆摊卡（赠品）
+bonus$: ({ 0, 0, 100, 离线摆摊卡#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[火眼金睛（赠品）]
+rate  : 2000
+name$ : 火眼金睛（赠品）
+bonus$: ({ 0, 0, 100, 火眼金睛#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[金蝉脱壳（赠品）]
+rate  : 2000
+name$ : 金蝉脱壳（赠品）
+bonus$: ({ 0, 0, 100, 金蝉脱壳#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[仙灵卡（赠品）]
+rate  : 2000
+name$ : 仙灵卡（赠品）
+bonus$: ({ 0, 0, 100, 仙灵卡#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[驯兽诀（赠品）]
+rate  : 2000
+name$ : 驯兽诀（赠品）
+bonus$: ({ 0, 0, 100, 驯兽诀#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[特效仙风散（赠品）]
+rate  : 1000
+name$ : 特效仙风散（赠品）
+bonus$: ({ 0, 0, 100, 特效仙风散#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[宠风散（赠品）]
+rate  : 1000
+name$ : 宠风散（赠品）
+bonus$: ({ 0, 0, 100, 宠风散#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[惊妖铃（赠品）]
+rate  : 1000
+name$ : 惊妖铃（赠品）
+bonus$: ({ 0, 0, 100, 惊妖铃#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[急急如律令（赠品）]
+rate  : 1000
+name$ : 急急如律令（赠品）
+bonus$: ({ 0, 0, 100, 急急如律令#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[引路蜂（赠品）]
+rate  : 1000
+name$ : 引路蜂（赠品）
+bonus$: ({ 0, 0, 100, 引路蜂#赠品, 1, 1 })
+rumor : 1
+log_to_db:  1
+
+[超级女娲石]
+rate  : 50
+name$ : 超级女娲石
+bonus$: ({ 0, 0, 100, 超级女娲石, 1, 1 })
+rumor : 1
+log_to_db:  1
+type   :   "item"
+
+[#R超级女娲石#n]
+name$ : 超级女娲石
+type  : "item"
+
+[#R道具套餐卡#n]
+name$ : 道具套餐卡
+type  : "item"
+
+[#R高级道具套餐卡#n]
+name$ : 高级道具套餐卡
+type  : "item"
+
+[#R灵引咒#n]
+name$ : 灵引咒
+type  : "item"
+
+[#R神龙罩秘笈#n]
+name$ : 神龙罩秘笈
+type  : "item"
+
+[#R乾坤罩秘笈#n]
+name$ : 乾坤罩秘笈
+type  : "item"
+
+[#R如意圈秘笈#n]
+name$ : 如意圈秘笈
+type  : "item"
+
+[#Y笨笨牛#n]
+name$ : 笨笨牛0
+type  : "pet"
+
+[#Y嘲风#n]
+name$ : 嘲风0
+type  : "pet"
+
+[蚩尤魔军]
+icon             : ({ 6272, 6140, 6141, 6148, 6151 })
+portrait         : ({ 6272, 6140, 6141, 6148, 6151 })
+polar            : -1
+no_capture       : 1
+life_effect      : 300
+speed_effect     : 30
+phy_effect       : 80
+mag_effect       : 60
+tao_effect       : 0
+resist_poison    : 25
+resist_frozen    : 25
+resist_sleep     : 25
+resist_forgotten : 25
+resist_confusion : 25
+skills           : ({ "B3", "B4", "B5" })
+tactics          : "mojun_tactics"
+
+[投诚的蚩尤魔军]
+icon             : ({ 6272, 6140, 6141, 6148, 6151 })
+portrait         : ({ 6272, 6140, 6141, 6148, 6151 })
+polar            : -1
+speed_effect     : 500
+tactics          : "toucheng_mojun_tactics"
+
+[蚩尤精锐魔军]
+icon             : 6259
+portrait         : 6259
+polar            : -1
+no_capture       : 1
+life_effect      : 600
+speed_effect     : 40
+phy_effect       : 100
+mag_effect       : 80
+tao_effect       : 30
+resist_poison    : 25
+resist_frozen    : 25
+resist_sleep     : 25
+resist_forgotten : 25
+resist_confusion : 25
+skills           : ({ "B3", "B4", "B5" })
+tactics          : "jingying_tactics"
+
+[魔神蚩尤]
+icon             : 6277
+portrait         : 6277
+polar            : -1
+no_capture       : 1
+life_effect      : 5000
+speed_effect     : 50
+phy_effect       : 400
+mag_effect       : 350
+stunt_rate       : 30
+tao_effect       : 1000
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_forgotten : 300
+resist_confusion : 300
+artifact         : ({ -1, 18 })
+skills           : ({ "B3", "B4", "B5", "C5" })
+tactics          : "chiyou_tactics"
+
+[黄帝大将]
+polar            : -1
+no_capture       : 1
+life_effect      : 150
+speed_effect     : -30
+phy_effect       : 150
+mag_effect       : 150
+skills           : ({ "B3", "B4", "B5" })
+tactics          : "dajiang_tactics"

@@ -1,0 +1,61 @@
+#FORM2
+#shenmi_dali_test.list
+
+# [奖励项目]
+# req_level : 需要的等级
+# weight    : 抽取时此奖励的权重
+# bonus_rate: 此数值奖励的系数
+# percentage: 是否需要进行百分比操作
+
+[角色经验1]
+bonus_type: "exp"
+req_level : ({ 1, 180 })
+weight    : 2500
+type      : 普通
+
+[角色道行1]
+bonus_type: "tao"
+req_level : ({ 1, 180 })
+weight    : 2500
+type      : 普通
+
+[角色潜能1]
+bonus_type: "pot"
+req_level : ({ 1, 180 })
+weight    : 2500
+type      : 普通
+
+[角色经验3]
+bonus_type: "exp"
+req_level : ({ 10, 180 })
+weight    : 1000
+type      : 普通
+rate      : 3
+
+[角色道行3]
+bonus_type: "tao"
+req_level : ({ 10, 180 })
+weight    : 1000
+type      : 普通
+rate      : 3
+
+[角色潜能3]
+bonus_type: "pot"
+req_level : ({ 10, 180 })
+weight    : 1000
+type      : 普通
+rate      : 3
+
+[角色经验10]
+bonus_type: "exp"
+req_level : ({ 40, 180 })
+weight    : 300
+type      : 大奖
+rate      : 10
+
+[角色道行10]
+bonus_type: "tao"
+req_level : ({ 40, 180 })
+weight    : 300
+type      : 大奖
+rate      : 10

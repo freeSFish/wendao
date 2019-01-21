@@ -1,0 +1,340 @@
+#FORM2
+
+# zays_wedding_list_ex表示套餐选项组别中的位数
+
+[basic_info]
+limit_wedding_list : ({ 1, 2, 3, 4, 5, 6 })
+zays_wedding_list : ({ 2, 7, 9, 10, 11, 13, 14, 15, 16, 17, 22 })
+zays_wedding_list_ex : ({ 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 })
+jszh_wedding_list : ({ 2, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 21, 22, 23 })
+jszh_wedding_list_ex : ({ 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 })
+first_finish_line_index : 78
+second_finish_line_index : 78
+
+[move_effect_info]
+second-0 : 月老祠许愿
+second-9 : 三心聚合
+second-14 : 三心聚合
+second-21 : 三心聚合
+second-56 : 桃园意境
+
+[npc_icon_info]
+花轿 : 42104
+宝马42101 : 42105
+宝马42201 : 42205
+宝马42301 : 42305
+銮舆式花车42101 : 42103
+銮舆式花车42201 : 42203
+銮舆式花车42301 : 42303
+象驮銮舆花车42101 : 42111
+象驮銮舆花车42201 : 42211
+象驮銮舆花车42301 : 42311
+丫鬟 : 42401
+喇叭手 : 42402
+敲锣手 : 42405
+护牌手 : 42404
+疆良护卫 : 6189
+玄武护卫 : 6191
+东山神灵护卫 : 6190
+朱雀护卫 : 6192
+九尾狐护卫 : 6176
+
+[龙凤呈祥礼服]
+price     : 3000
+type      : "item"
+sub_type  : "dress"
+unique_no : 1
+sort_no   : 1
+item_name : "龙凤呈祥服·MARRY"
+show_type : 1
+show_icon : 42101
+
+[爵卞玄端礼服]
+price     : 3000
+type      : "item"
+sub_type  : "dress"
+unique_no : 1
+sort_no   : 2
+item_name : "爵卞玄端服·MARRY"
+show_type : 1
+show_icon : 42201
+
+[纯衣绛袡礼服]
+price     : 3000
+type      : "item"
+sub_type  : "dress"
+unique_no : 1
+sort_no   : 3
+item_name : "纯衣绛袡服·MARRY"
+show_type : 1
+show_icon : 42301
+
+[4人抬花轿]
+price     : 3000
+type      : "npc"
+unique_no : 2
+sort_no   : 4
+show_type : 1
+show_icon : 42104
+
+[銮舆式花车]
+price     : 4000
+type      : "npc"
+unique_no : 2
+sort_no   : 5
+show_type : 1
+show_icon : 42103
+
+[象驮銮舆花车]
+price     : 5000
+type      : "npc"
+unique_no : 2
+sort_no   : 6
+show_type : 1
+show_icon : 42111
+
+[1名丫鬟散花/钱]
+price     : 2000
+type      : "npc"
+sub_type  : "slavey"
+unique_no : 3
+sort_no   : 7
+show_type : 1
+show_icon : 42401
+
+[2名丫鬟散花/钱]
+price     : 4000
+type      : "npc"
+sub_type  : "slavey"
+unique_no : 3
+sort_no   : 8
+show_type : 1
+show_icon : 42401
+
+[背景音乐]
+price     : 1000
+type      : "music"
+unique_no : 4
+sort_no   : 9
+show_type : 2
+show_icon : 7884
+
+[喇叭手]
+price     : 500
+type      : "npc"
+sub_type  : "chuizou"
+unique_no : 5
+sort_no   : 10
+show_type : 1
+show_icon : 42402
+
+[敲锣手]
+price     : 500
+type      : "npc"
+sub_type  : "chuizou"
+unique_no : 6
+sort_no   : 11
+show_type : 1
+show_icon : 42405
+
+[九尾狐护卫8名]
+price     : 20000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 12
+show_type : 1
+show_icon : 6176
+
+[朱雀护卫8名]
+price     : 20000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 13
+show_type : 1
+show_icon : 6192
+
+[疆良护卫8名]
+price     : 20000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 14
+show_type : 1
+show_icon : 6189
+
+[玄武护卫8名]
+price     : 20000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 15
+show_type : 1
+show_icon : 6191
+
+[东山护卫8名]
+price     : 20000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 16
+show_type : 1
+show_icon : 6190
+
+[九尾护卫4名]
+price     : 10000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 17
+show_type : 1
+show_icon : 6176
+
+[朱雀护卫4名]
+price     : 10000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 18
+show_type : 1
+show_icon : 6192
+
+[疆良护卫4名]
+price     : 10000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 19
+show_type : 1
+show_icon : 6189
+
+[玄武护卫4名]
+price     : 10000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 20
+show_type : 1
+show_icon : 6191
+
+[东山神灵护卫4名]
+price     : 10000
+type      : "npc"
+sub_type  : "guard"
+unique_no : 7
+sort_no   : 21
+show_type : 1
+show_icon : 6190
+
+[2名护牌手]
+price     : 1000
+type      : "npc"
+sub_type  : "hupai"
+unique_no : 12
+sort_no   : 22
+show_type : 1
+show_icon : 42404
+
+[鸾凤宝玉]
+price     : 3000
+type      : "item"
+unique_no : 8
+sort_no   : 23
+show_type : 2
+show_icon : 7889
+
+[月老祠许愿]
+price     : 1000
+type      : "light"
+unique_no : 9
+sort_no   : 24
+effect_no : 8263
+show_type : 2
+show_icon : 7887
+
+[桃园意境]
+price     : 1000
+type      : "light"
+unique_no : 10
+sort_no   : 25
+effect_no : 8264
+show_type : 2
+show_icon : 7886
+
+[三心聚合]
+price     : 1000
+type      : "light"
+unique_no : 11
+sort_no   : 26
+effect_no : 8265
+show_type : 2
+show_icon : 7885
+
+[夫妻拜拜]
+price     : 4000
+type      : "action"
+unique_no : 13
+sort_no   : 27
+action_tick : 30000
+show_type : 1
+show_icon : 42101
+
+[夫妻交杯]
+price     : 4000
+type      : "action"
+unique_no : 14
+sort_no   : 28
+action_tick : 18000
+show_type : 1
+show_icon : 42101
+
+[夫妻亲亲]
+price     : 4000
+type      : "action"
+unique_no : 15
+sort_no   : 29
+action_tick : 18000
+show_type : 1
+show_icon : 42101
+
+[夫妻抱抱]
+price     : 4000
+type      : "action"
+unique_no : 16
+sort_no   : 30
+action_tick : 18000
+show_type : 1
+show_icon : 42101
+
+[30天洞房特效果]
+price     : 20000
+type      : "house"
+unique_no : 17
+sort_no   : 31
+show_type : 2
+show_icon : 7888
+
+[夫妻同心光效]
+price     : 1000
+type      : "light"
+unique_no : 21
+sort_no   : 37
+show_type : 2
+show_icon : 7887
+
+[特殊烟花效果]
+price     : 2000
+type      : "light"
+unique_no : 22
+sort_no   : 38
+show_type : 2
+show_icon : 7886
+
+[全服烟花效果]
+price     : 20000
+type      : "light"
+unique_no : 23
+sort_no   : 39
+show_type : 2
+show_icon : 7885

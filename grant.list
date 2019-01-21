@@ -1,0 +1,286 @@
+# grant.list
+# Created by llch 4/24/2006
+# 特殊操作的权限限制列表
+# '#'符号是注释符号
+
+#权限说明：
+#GD > GC > GB > GA3 > GA2 > GA1 > GA
+
+$GA = ADMINISTRATOR
+$GA1= OBSERVER
+$GA2= CUSTOMER_SERVICE_1
+$GA3= CUSTOMER_SERVICE_2
+$GB = BEHOLDER
+$GC = CONTROLLER
+$GC1 = CONTROLLER_1
+$GD = DEBUGGER
+
+#G1/G2/... GN特权组
+$G1 = GM_GROUP1
+$G2 = GM_GROUP2
+$G3 = GM_GROUP3
+$G4 = GM_GROUP4
+$G5 = GM_GROUP5
+$G6 = GM_GROUP6
+$G7 = GM_GROUP7
+$G8 = GM_GROUP8
+$G9 = GM_GROUP9
+
+#操作                                       能够使用该操作的权限列表
+###############################################################
+#                        玩家查询                             #
+###############################################################
+#本服查询
+admin_request_player_list                               (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_request_player_list_本地图查询                    (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#根据指定属性查询玩家
+admin_query_player_名称查询                            (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+admin_query_player_属性查询                           (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_query_player_IP查询                          (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_query_player_禁言查询                         (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_query_player_mac查询                         (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_query_account                                     (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        属性查看                             #
+###############################################################
+#查看角色属性
+admin_view                                  (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#查询角色技能
+admin_query_skill                           (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#查询角色GID
+admin_query_gid                             (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+###############################################################
+#                        GM管理                               #
+###############################################################
+
+#配额管理
+admin_channel_quota                         (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#警告玩家
+admin_warn_player                           (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#角色频道信息
+admin_query_channel_info                    (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#禁言
+admin_shut_channel                          (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#cabin_channel
+admin_cabin_channel                         (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#强踢下线
+admin_kickoff                               (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#关入监狱
+admin_throw_in_jail                        (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#封闭帐号
+admin_block_account                         (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#限制交易帐号
+admin_temp_block_account                    (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#获取常用的封闭帐号、封闭角色的原因
+admin_get_common_block_reason               (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#封闭角色
+admin_block_user                           (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#限制角色
+admin_restrict_char                        (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#关入天牢
+admin_throw_in_jail_ex                      (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        特殊操作                             #
+###############################################################
+#监听屏幕
+admin_sniff_at                              (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#传近目标
+admin_transport                             (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#中止战斗
+admin_halt_combat                           (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#抓至身边
+admin_summon                                (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#查看客户端进程
+admin_query_player_process                  (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        NPC查询                              #
+###############################################################
+
+#查询NPC/怪物
+admin_query_npc_地图查询                    (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_query_npc_名称查询                    (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_query_npc_全部列出                   (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_query_npc_当前查询                   (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        地图查询                             #
+###############################################################
+#列出所有地图
+admin_request_map_list                      (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#查询地图
+admin_query_map                             (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        服务器查询                           #
+###############################################################
+#列出本区组的所有服务器
+admin_request_server_list                   (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        GM查询                               #
+###############################################################
+#列出所有在线GM
+admin_request_online_gm_list                (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        系统功能                             #
+###############################################################
+#系统公告
+admin_time_broadcast                        (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#全服喊话
+admin_broadcast                            (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#公告操作
+admin_oper_sys_broadcast                   (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#登录公告操作
+admin_oper_login_notification               (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#玩家登录
+admin_permit_login                          (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#本地服务器重启
+admin_reboot                               (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#全区服务器重启（GS、CCS）
+admin_reboot_dist_server                    (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#节日活动
+admin_set_festival_bonus_time               (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#任务脚本操作
+admin_oper_script                           (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#充值奖励
+admin_oper_card_bonus                      (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#重置掌门
+admin_oper_master                          (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#查看录像名单
+admin_oper_record_list                      (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#操作录像名单
+admin_oper_record                           (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#全局奖励信息
+admin_oper_global_bonus_查询                (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+admin_oper_global_bonus_设置                (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+#查询系统当前时间
+admin_request_current_time                  (GB), (GC), (GC1), (GA1), (GA2), (GA3), (G4) , (GD), (G3)
+
+###############################################################
+#                        自身状态                             #
+###############################################################
+#GM隐身
+admin_shadow_self                           (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+###############################################################
+#                        其他                                 #
+###############################################################
+#随机、定点移动到指定地图
+admin_teleport                               (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#更改角色名字
+admin_change_name                            (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#清除任务
+admin_clean_task                             (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#复制物品
+admin_clone_item                             (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#复制装备
+admin_clone_equip                           (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#复制宠物
+admin_clone_pet                             (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+admin_clone_mount                            (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+admin_clone_upgrade_stone                    (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#复制角色数据
+admin_copy_data                              (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#节日设定
+admin_oper_festival                         (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#模仿即时游戏的某些操作
+admin_play                                   (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#修改角色属性
+admin_set_attrib                             (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#设置角色技能
+admin_set_skill                              (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#设置战斗触发器
+admin_set_trigger                            (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#查看怪物属性
+admin_view_monster                           (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#摧毁道具、怪物、NPC
+admin_destroy_object                         (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#火炬活动设置
+admin_set_torch                              (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#查看当前版本号
+admin_query_version                          (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#通过角色名称查询角色所属帐号
+admin_query_name_to_account                  (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#复制娃娃
+admin_clone_child                            (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#查询玩家IP、MAC
+admin_query_net_info                         (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#触发老君查岗
+admin_cheater_detect                         (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+#移动、还原NPC
+admin_move_npc                               (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+admin_revert_npc                             (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+# 外挂分析
+admin_doubt_info                            (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#查看IPS
+admin_view_ips                              (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#查看MACS
+admin_view_macs                             (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#查看被举报次数
+admin_query_report_info                      (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)
+
+#截屏
+admin_print_screen                           (GA), (GB), (GC), (GC1), (G1), (G2), (GA1), (GA2), (GA3), (G3), (G4), (GD)

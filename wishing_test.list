@@ -1,0 +1,432 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-01-04-00:00:00", "EVERY_DAY(8)", "EVERY_WEEK(0)", "2016-01-11-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "start_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 7200
+broadcast_end   : "end_time(-60)"
+message         : "许愿树降临#Z天墉城#Z，大家有何心愿都可以前往#P许愿树#P处许愿。你也可通过#url下载问道小秘书{http://bbs.asktao.com/xms/}#t来参与许愿活动哟。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+60)"
+message         : "许愿活动结束了，有多余许愿豆的玩家可以在#P许愿树#P处兑换成金钱。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[bonus_set]
+4 : ({ "至尊太极熊", "至尊巨骨刺", "至尊玉蝶鱼", "至尊盘古猿", "太极熊", "盘古猿", "慕炎狮", "北极熊", "如意圈秘笈", "乾坤罩秘笈", "神龙罩秘笈", "无极熊", "翻转乾坤秘笈", "神圣之光秘笈", "死亡缠绵秘笈", "游说之舌秘笈", "漫天血舞秘笈", "舍命一击秘笈", "玉蹄", "玉蝶鱼", "雅尘狐", "五彩神牛", "岳麓剑", "古鹿", "云豹", "翡翠葫芦", "翠灵剑", "灵鹿", "玉豹", "变异精魄", "神兽精魄", "元灵精魄", "仙葫芦", "改头换面卡", "高级道具套餐卡", "灵引咒", "道具套餐卡" })
+3 : ({ "高级灵池", "超级粉水晶", "高级法玲珑", "超级天书", "中级灵池", "中级法玲珑", "超级绿水晶", "超级圣水晶", "聚灵石", "潜金散", "神木丸", "柔水丹", "烈火散", "三土丸", "超级女娲石", "雪人变身包", "高级血池", "高级血玲珑", "高级驯兽诀" })
+2 : ({ "法玲珑", "天神护佑", "金蝉脱壳", "绿水晶", "圣水晶", "混沌玉", "羽化丹", "天技召唤卡", "宠物成长丹", "黄水晶", "中级血池", "中级血玲珑", "超级灵石", "急急如律令", "灵池", "粉水晶", "天换石", "超级黑水晶", "神木鼎", "惊妖铃", "引路蜂", "特效仙风散", "封印石", "点化丹", "特级八卦阴阳令", "如意战斗令", "幻境石", "心法宝典" })
+1 : ({ "超级归元露", "飞行符", "仙灵卡", "血玲珑", "无量心经", "宠风散", "纸鸢", "果仁糖葫芦", "超级仙风散", "血池", "超级晶石", "超级神兽丹", "符文宝箱" })
+
+[至尊太极熊]
+rate_base  : 6000000
+bonus_type : "mount"
+rate_limit : 1
+
+[至尊巨骨刺]
+rate_base  : 6000000
+bonus_type : "mount"
+rate_limit : 1
+
+[至尊玉蝶鱼]
+rate_base  : 6000000
+bonus_type : "mount"
+rate_limit : 1
+
+[至尊盘古猿]
+rate_base  : 6000000
+bonus_type : "mount"
+rate_limit : 1
+
+[太极熊]
+rate_base  : 1500000
+bonus_type : "mount"
+rate_limit : 1
+
+[盘古猿]
+rate_base  : 600000
+bonus_type : "mount"
+rate_limit : 1
+
+[慕炎狮]
+rate_base  : 600000
+bonus_type : "mount"
+rate_limit : 1
+
+[北极熊]
+rate_base  : 600000
+bonus_type : "mount"
+rate_limit : 1
+
+[如意圈秘笈]
+rate_base  : 60000
+bonus_type : "item"
+
+[乾坤罩秘笈]
+rate_base  : 60000
+bonus_type : "item"
+
+[神龙罩秘笈]
+rate_base  : 60000
+bonus_type : "item"
+
+[无极熊]
+rate_base  : 300000
+bonus_type : "mount"
+
+[翻转乾坤秘笈]
+rate_base  : 24000
+bonus_type : "item"
+
+[神圣之光秘笈]
+rate_base  : 60000
+bonus_type : "item"
+
+[死亡缠绵秘笈]
+rate_base  : 24000
+bonus_type : "item"
+
+[游说之舌秘笈]
+rate_base  : 60000
+bonus_type : "item"
+
+[漫天血舞秘笈]
+rate_base  : 24000
+bonus_type : "item"
+
+[舍命一击秘笈]
+rate_base  : 60000
+bonus_type : "item"
+
+[玉蹄]
+rate_base  : 210000
+bonus_type : "mount"
+rate_limit : 1
+
+[玉蝶鱼]
+rate_base  : 210000
+bonus_type : "mount"
+rate_limit : 1
+
+[雅尘狐]
+rate_base  : 210000
+bonus_type : "mount"
+rate_limit : 1
+
+[五彩神牛]
+rate_base  : 210000
+bonus_type : "mount"
+rate_limit : 1
+
+[岳麓剑]
+rate_base  : 150000
+bonus_type : "mount"
+rate_limit : 1
+
+[古鹿]
+rate_base  : 150000
+bonus_type : "mount"
+rate_limit : 1
+
+[云豹]
+rate_base  : 150000
+bonus_type : "mount"
+rate_limit : 1
+
+[翡翠葫芦]
+rate_base  : 150000
+bonus_type : "mount"
+rate_limit : 1
+
+[翠灵剑]
+rate_base  : 60000
+bonus_type : "mount"
+
+[灵鹿]
+rate_base  : 60000
+bonus_type : "mount"
+
+[玉豹]
+rate_base  : 60000
+bonus_type : "mount"
+
+[变异精魄]
+rate_base  : 90000
+bonus_type : "item"
+
+[神兽精魄]
+rate_base  : 180000
+bonus_type : "item"
+
+[元灵精魄]
+rate_base  : 600000
+bonus_type : "item"
+rate_limit : 1
+
+[仙葫芦]
+rate_base  : 60000
+bonus_type : "mount"
+
+[改头换面卡]
+rate_base  : 26400
+bonus_type : "item"
+
+[高级道具套餐卡]
+rate_base  : 24000
+bonus_type : "item"
+
+[灵引咒]
+rate_base  : 15000
+bonus_type : "item"
+
+[道具套餐卡]
+rate_base  : 8400
+bonus_type : "item"
+
+[高级灵池]
+rate_base  : 7200
+bonus_type : "item"
+
+[超级粉水晶]
+rate_base  : 8400
+bonus_type : "item"
+
+[高级法玲珑]
+rate_base  : 7200
+bonus_type : "item"
+
+[超级天书]
+rate_base  : 5400
+bonus_type : "item"
+
+[中级灵池]
+rate_base  : 4200
+bonus_type : "item"
+
+[中级法玲珑]
+rate_base  : 4200
+bonus_type : "item"
+
+[超级绿水晶]
+rate_base  : 3000
+bonus_type : "item"
+
+[超级圣水晶]
+rate_base  : 3000
+bonus_type : "item"
+
+[聚灵石]
+rate_base  : 3000
+bonus_type : "item"
+
+[潜金散]
+rate_base  : 3000
+bonus_type : "item"
+
+[神木丸]
+rate_base  : 3000
+bonus_type : "item"
+
+[柔水丹]
+rate_base  : 3000
+bonus_type : "item"
+
+[烈火散]
+rate_base  : 3000
+bonus_type : "item"
+
+[三土丸]
+rate_base  : 3000
+bonus_type : "item"
+
+[雪人变身包]
+rate_base  : 3000
+bonus_type : "item"
+
+[高级血池]
+rate_base  : 2400
+bonus_type : "item"
+
+[高级血玲珑]
+rate_base  : 2400
+bonus_type : "item"
+
+[高级驯兽诀]
+rate_base  : 2400
+bonus_type : "item"
+
+[法玲珑]
+rate_base  : 1854
+bonus_type : "item"
+
+[天神护佑]
+rate_base  : 1554
+bonus_type : "item"
+
+[金蝉脱壳]
+rate_base  : 1554
+bonus_type : "item"
+
+[绿水晶]
+rate_base  : 1554
+bonus_type : "item"
+
+[圣水晶]
+rate_base  : 1554
+bonus_type : "item"
+
+[混沌玉]
+rate_base  : 1554
+bonus_type : "item"
+
+[羽化丹]
+rate_base  : 1554
+bonus_type : "item"
+
+[天技召唤卡]
+rate_base  : 1554
+bonus_type : "item"
+
+[宠物成长丹]
+rate_base  : 1554
+bonus_type : "item"
+
+[超级女娲石]
+rate_base  : 3000
+bonus_type : "item"
+
+[黄水晶]
+rate_base  : 1254
+bonus_type : "item"
+
+[中级血池]
+rate_base  : 1254
+bonus_type : "item"
+
+[中级血玲珑]
+rate_base  : 1254
+bonus_type : "item"
+
+[超级灵石]
+rate_base  : 1194
+bonus_type : "item"
+
+[急急如律令]
+rate_base  : 984
+bonus_type : "item"
+
+[灵池]
+rate_base  : 984
+bonus_type : "item"
+
+[粉水晶]
+rate_base  : 984
+bonus_type : "item"
+
+[天换石]
+rate_base  : 984
+bonus_type : "item"
+
+[超级黑水晶]
+rate_base  : 984
+bonus_type : "item"
+
+[神木鼎]
+rate_base  : 984
+bonus_type : "item"
+
+[惊妖铃]
+rate_base  : 984
+bonus_type : "item"
+
+[引路蜂]
+rate_base  : 984
+bonus_type : "item"
+
+[特效仙风散]
+rate_base  : 984
+bonus_type : "item"
+
+[封印石]
+rate_base  : 984
+bonus_type : "item"
+
+[点化丹]
+rate_base  : 984
+bonus_type : "item"
+
+[特级八卦阴阳令]
+rate_base  : 984
+bonus_type : "item"
+
+[如意战斗令]
+rate_base  : 984
+bonus_type : "item"
+
+[幻境石]
+rate_base  : 984
+bonus_type : "item"
+
+[心法宝典]
+rate_base  : 984
+bonus_type : "item"
+
+[超级归元露]
+rate_base  : 648
+bonus_type : "item"
+
+[飞行符]
+rate_base  : 648
+bonus_type : "item"
+
+[仙灵卡]
+rate_base  : 648
+bonus_type : "item"
+
+[血玲珑]
+rate_base  : 648
+bonus_type : "item"
+
+[无量心经]
+rate_base  : 648
+bonus_type : "item"
+
+[宠风散]
+rate_base  : 648
+bonus_type : "item"
+
+[纸鸢]
+rate_base  : 648
+bonus_type : "item"
+
+[果仁糖葫芦]
+rate_base  : 648
+bonus_type : "item"
+
+[超级仙风散]
+rate_base  : 324
+bonus_type : "item"
+
+[血池]
+rate_base  : 324
+bonus_type : "item"
+
+[超级晶石]
+rate_base  : 324
+bonus_type : "item"
+
+[超级神兽丹]
+rate_base  : 324
+bonus_type : "item"
+
+[符文宝箱]
+rate_base  : 324
+bonus_type : "item"

@@ -1,0 +1,170 @@
+#FORM2
+#¹ÖÎï·¨ÊõÁĞ±í
+
+[ÌÒ¾«]
+skills : ({ "zhaiye-feihua" })
+
+[Áø¹í]
+skills : ({ "zhaiye-feihua" })
+
+[Ó¥]
+skills : ({ "jinguang-zhaxian" })
+
+[òùòğ]
+skills : ({ "dishui-chuanshi" })
+
+[òş]
+skills : ({ "juhuo-fentian" })
+
+[òş<ĞùÔ¯·ØÒ»²ã>]
+skills : ({ "juhuo-fentian" })
+
+[òş<ĞùÔ¯·Ø¶ş²ã>]
+skills : ({ "juhuo-fentian" })
+
+[¹í»ğÓ©]
+skills : ({ "zhaiye-feihua" })
+
+[òş<ĞùÔ¯·ØÈı²ã>]
+skills : ({ "juhuo-fentian" })
+
+[ÎÚÁú]
+skills : ({ "luotu-feiyan",        "tumo-chenmai" })
+
+[»¨Ñı]
+skills : ({ "zhaiye-feihua",       "feiliu-xianshi" })
+
+[Ñ×Áú]
+skills : ({ "juhuo-fentian",       "xinghuo-liaoyuan" })
+
+[ÓãÈË]
+skills : ({ "dishui-chuanshi",     "yuhen-yunchou" })
+
+[±ùÁú]
+skills : ({ "dishui-chuanshi",     "yuhen-yunchou" })
+
+[µØÁÑÊŞ]
+skills : ({ "luotu-feiyan",        "tumo-chenmai" })
+
+[ÇàÁú]
+skills : ({ "zhaiye-feihua",       "feiliu-xianshi" })
+
+[»ÆÁú]
+skills : ({ "jinguang-zhaxian",    "daoguang-jianying" })
+
+[»ğÑ»]
+skills : ({ "juhuo-fentian",       "xinghuo-liaoyuan" })
+
+[Çü»ê]
+skills : ({ "zhaiye-feihua",       "feiliu-xianshi" })
+
+[Ô¹¹í]
+skills : ({ "dishui-chuanshi",     "yuhen-yunchou" })
+
+[ÇàÒÂÏÉ×Ó]
+skills : ({ "feiliu-xianshi",      "luoying-binfen" })
+
+[·ç¹Ö]
+skills : ({ "tumo-chenmai",        "tianta-dixian" })
+
+[»ÆÒÂÏÉ×Ó]
+skills : ({ "daoguang-jianying",   "liuguang-yicai" })
+
+[ÓêÊŞ]
+skills : ({ "yuhen-yunchou",       "nubo-kuangtao" })
+
+[ºìÒÂÏÉ×Ó]
+skills : ({ "xinghuo-liaoyuan",    "jiaojin-lishi" })
+
+[À×¹Ö]
+skills : ({ "daoguang-jianying",   "liuguang-yicai" })
+
+[×ÏÒÂÏÉ×Ó]
+skills : ({ "tumo-chenmai",        "tianta-dixian" })
+
+[µç¾«]
+skills : ({ "xinghuo-liaoyuan",    "jiaojin-lishi" })
+
+[À¶ÒÂÏÉ×Ó]
+skills : ({ "yuhen-yunchou",       "nubo-kuangtao" })
+
+[Ñ©Å®]
+skills : ({ "yuhen-yunchou",       "nubo-kuangtao" })
+
+[Ê¯Å£Ñı]
+skills : ({ "tumo-chenmai",        "tianta-dixian" })
+
+[÷¼÷ÃÕ½½«]
+skills : ({ "feiliu-xianshi",      "luoying-binfen" })
+
+[À¶Ã«¾ŞÊŞ]
+skills : ({ "yuhen-yunchou",       "nubo-kuangtao" })
+
+[ÊÈÑª¾ŞÈË]
+skills : ({ "daoguang-jianying",       "liuguang-yicai" })
+
+[Á¶Ä§]
+skills : ({ "xinghuo-liaoyuan",       "jiaojin-lishi" })
+
+[º®±ù¹Ö]
+skills : ({ "yuhen-yunchou",       "nubo-kuangtao" })
+
+[Ïº±ø]
+skills : ({ "yuhen-yunchou",       "nubo-kuangtao" })
+
+[º£¹ê]
+skills : ({ "dishui-chuanshi" })
+
+[Ó¥<±±º£É³Ì²>]
+skills : ({ "jinguang-zhaxian" })
+
+[¾Şòá]
+skills : ({ "juhuo-fentian",       "xinghuo-liaoyuan" })
+
+[»ğ¹âÊó]
+skills : ({ "xinghuo-liaoyuan", "jiaojin-lishi" })
+
+[×ÏÑà]
+skills : ({ "tumo-chenmai", "tianta-dixian" })
+
+[±ù¾§ÁúÁÛÊŞ]
+skills : ({ "yuhen-yunchou", "nubo-kuangtao" })
+
+[½ğ³áğ°]
+skills : ({ "daoguang-jianying", "liuguang-yicai" })
+
+[Ñ©ºü]
+skills : ({ "feiliu-xianshi",      "luoying-binfen" })
+
+[µûÏÉ]
+skills : ({ "xinghuo-liaoyuan",     "jiaojin-lishi" })
+
+[°ö¼§]
+skills : ({ "yuhen-yunchou",     "nubo-kuangtao" })
+
+[Ë®Ä§Éñ]
+skills : ({ "yuhen-yunchou",     "nubo-kuangtao" })
+
+[½ğ¼×Ğ«]
+skills : ({ "daoguang-jianying", "liuguang-yicai" })
+
+[¶·Ä§òá]
+skills : ({ "xinghuo-liaoyuan",     "jiaojin-lishi" })
+
+[ºüÁé]
+skills : ({ "tumo-chenmai", "tianta-dixian" })
+
+[ÕòË®¹Ö]
+skills : ({ "yuhen-yunchou", "nubo-kuangtao" })
+
+[ÇïÌÄÏÉ×Ó]
+skills : ({ "feiliu-xianshi", "luoying-binfen" })
+
+[¿ÇÑı]
+skills : ({ "yuhen-yunchou", "nubo-kuangtao" })
+
+[·ûÁé]
+skills : ({ "feiliu-xianshi", "luoying-binfen" })
+
+[ÊÌÊéÕß]
+skills : ({ "tumo-chenmai", "tianta-dixian" })

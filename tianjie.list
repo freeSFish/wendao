@@ -1,0 +1,2617 @@
+#FORM2
+
+[level]
+tianjie1 : 134
+tianjie2 : 139
+tianjie3 : 144
+tianjie4 : 149
+tianjie5 : 154
+tianjie6 : 159
+tianjie7 : 164
+tianjie8 : 169
+tianjie9 : 174
+tianjie10 : 179
+
+[bonus]
+# leve, exp, title
+tianjie1 : ({ 130, 13000000, "Ò»½ÙÉ¢ÏÉ", 16 })
+tianjie2 : ({ 130, 19000000, "¶þ½ÙÉ¢ÏÉ", 16 })
+tianjie3 : ({ 140, 25000000, "Èý½ÙÉ¢ÏÉ", 16 })
+tianjie4 : ({ 140, 33000000, "ËÄ½ÙÉ¢ÏÉ", 16 })
+tianjie5 : ({ 150, 41000000, "Îå½ÙÉ¢ÏÉ", 16 })
+tianjie6 : ({ 150, 50000000, "Áù½ÙÉ¢ÏÉ", 16 })
+tianjie7 : ({ 160, 60000000, "Æß½ÙÉ¢ÏÉ", 16 })
+tianjie8 : ({ 170, 71000000, "°Ë½ÙÉ¢ÏÉ", 16 })
+tianjie9 : ({ 170, 84000000, "¾Å½ÙÉ¢ÏÉ", 16 })
+tianjie10 : ({ 180, 97000000, "Ê®½ÙÉ¢ÏÉ", 16 })
+
+[monsters]
+tianjie1 : ({ "Ô³ºï³¤ÀÏ", "Ô³ºï¾«Ó¢", "Ð¡ºï1", "Áú¹¬Ê¹Õß", "Áú¹¬»¤ÎÀ", "Í¨±ÛÔ³ºï3", "Í¨±ÛÔ³ºï4", "Ð¡ºï4", "Àë»ð", "Ðþ±ù", "Í¨±ÛÔ³ºï6", "Ð¡ºï6" })
+tianjie2 : ({ "Ñ¦¶¨", "ÀîÔ¾2", "¶à±¦µÀÈË", "ÆÆ¼×Éñ±ø", "Ò¹ÐÐÈË", "ÀîÔ¾5" })
+tianjie3 : ({ "¶¾Î×Áé", "¶¾½©Ê¬", "Ò©µêÀÏ°åµÄÁéÉí", "²ÉÒ©Í¯×Ó", "²ÊÒÀ", "µûÅ®", "°×º×ÏÉÍ¯", "º³µØÐ×ÊÞ", "ÎÞÃûµØÉñ", "ÎÞÃûÊ¯ÊÞ" })
+tianjie4 : ({ "ÉñÃØÉÙÄê", "½£»ê", "Ê¯Ù¸ÎÀ±ø", "±ùµñÎÀ±ø", "÷¼÷ÃÉ½É½Áé", "É½Éñ", "É½Áé" })
+tianjie5 : ({ "ÌÒÊ÷¾«", "ÁøÊ÷¾«", "ºÚÉ½Ä§×ð", "Ê§¿ØµÄÁø¹í", "Ê§¿ØµÄÌÒ¾«" })
+tianjie6 : ({ "ÏôÉý", "Ñ±ÊÞ1", "²Ü±¦", "Ñ±ÊÞ2", "ÐÄÄ§¾üÍ³Áì", "ÐÄÄ§÷¼÷Ã±ø", "ÐÄÄ§Í»»÷¶Ó", "ÑÝÎä", "ÐÄÄ§¾üÍ³Áì1", "±©Å­µÄÑÝÎä"})
+tianjie7 : ({ "½Ù·ËºúººÉ½", "½Ù·Ë", "µûÒÀ", "Ñ©Å®", "±ùÁé", "º®±ùÊÞ", "ÊÉ»êÄ§", "±»¿ØÖÆµÄÒõ»ê", "·ÉÉýÏÉ¹Ù" })
+tianjie8 : ({ "Ð¡Ã×", "ÑªÄ§¾ü½«Áì", "ÑªÄ§Ê¿±ø", "÷Í÷ÈÑªÄ§", "±»¿ØÖÆµÄÁéÊÞ", "÷Í÷ÈÑªÄ§1", "Ê§¿ØµÄÇîÆæ", "ÁÒÑæÊÞ", "Ã×À¼ÏÉ×Ó" })
+tianjie9 : ({ "ÓðÒíÏÉ", "Ë®ÁéÍ¯×Ó", "ò¿÷ËÓ°Ä§", "ò¿÷ËÓ°Ä§1", "À§»óÖ®Ó°", "ò¿÷ËÓ°Ä§2", "¿ñ±©Ö®Ó°" })
+tianjie10 : ({ "Â½Àë", "»ÃÓ°", "ÑæÖÐÏÉÂÞÐû3", "Ñ×Ä§", "ÑæÖÐÏÉÂÞÐû4", "ÑæÁé", "ÅÑÄæµÄÉ¢ÏÉ", "Éê·ü»¢5", "Éê·ü»¢Ö®Ó°", "ÎÞµÐµÄÉê·ü»¢", "Éê·ü»¢7", "±ªÁé" })
+
+###############monsters of tianjie3###############################
+[¶¾Î×Áé]
+polar            : 2
+religion         : -1
+name             : "¶¾Î×Áé"
+icon             : 6140
+portrait         : 6140
+life_effect      : 4000
+speed_effect     : 500
+mag_effect       : 300
+phy_effect       : 250
+tao_effect       : 300
+stunt_rate       : 50
+resist_forgotten : 100
+resist_poison    : 150
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 150
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 100
+sub              : 0
+amount           : 1
+#level            : 144
+skills           : ({ "B5", "C5", "D5" })
+tractics         : "duwuling_tactics"
+register_if      : ({ "sf_die", "sf_tianjie3_duwuling_die" })
+tianjie          : 3
+
+[¶¾½©Ê¬]
+name             : "¶¾½©Ê¬"
+icon             : 6113
+portrait         : 6113
+life_effect      : 1200
+speed_effect     : 300
+phy_effect       : 200
+tao_effect       : 200
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 100
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 100
+sub              : 1
+main_monster     : "¶¾Î×Áé"
+amount           : 9
+#level            : 144
+tractics         : "duwulingxiaoguai_tactics"
+register_if      : ({ "sf_die", "sf_tianjie3_dujiangshi_die" })
+tianjie          : 3
+
+[Ò©µêÀÏ°åµÄÁéÉí]
+polar            : 4
+religion         : -1
+name             : "Ò©µêÀÏ°åµÄÁéÉí"
+icon             : 06272
+portrait         : 06272
+life_effect      : 3000
+speed_effect     : 500
+tao_effect       : 400
+resist_forgotten : 150
+resist_poison    : 150
+resist_frozen    : 150
+resist_sleep     : 150
+resist_confusion : 150
+resist_repress   : 150
+resist_melt      : 150
+resist_cage      : 150
+resist_lock      : 150
+resist_lost      : 150
+sub              : 0
+amount           : 1
+#level            : 144
+tractics         : "yaodianlaoban_tactics"
+tianjie          : 3
+
+[²ÉÒ©Í¯×Ó]
+polar            : 3
+religion         : -1
+name             : "²ÉÒ©Í¯×Ó"
+icon             : 6027
+portrait         : 6027
+life_effect      : 2000
+speed_effect     : 250
+mag_effect       : 250
+tao_effect       : 200
+resist_forgotten : 80
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 80
+resist_repress   : 80
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 80
+sub              : 1
+main_monster     : "Ò©µêÀÏ°åµÄÁéÉí"
+amount           : 9
+#level            : 144
+skills           : ({ "B4", "B5" })
+tractics         : "caiyaotongzi_tactics"
+register_if      : ({ "sf_die", "sf_caiyaotongzi_die" })
+tianjie          : 3
+
+[²ÊÒÀ]
+polar            : 4
+religion         : -1
+name             : "²ÊÒÀ"
+icon             : 6275
+portrait         : 6275
+life_effect      : 2900
+speed_effect     : 350
+mag_effect       : 250
+tao_effect       : 250
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+mag_absorb       : -50
+sub              : 0
+amount           : 1
+#level            : 144
+skills           : ({ "B4", "B5" })
+tractics         : "tianjie3_caiyi_tactics"
+tianjie          : 3
+
+[µûÅ®]
+polar            : 4
+religion         : -1
+name             : "µûÅ®"
+icon             : 6275
+portrait         : 6275
+life_effect      : 2900
+speed_effect     : 350
+mag_effect       : 250
+tao_effect       : 250
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+mag_absorb       : -50
+sub              : 0
+amount           : 1
+#level            : 144
+skills           : ({ "B4", "B5" })
+tractics         : "tianjie3_dienv_tactics"
+tianjie          : 3
+
+[°×º×ÏÉÍ¯]
+polar            : 2
+religion         : -1
+name             : "°×º×ÏÉÍ¯"
+icon             : 6026
+portrait         : 6026
+life_effect      : 3000
+speed_effect     : 350
+mag_effect       : 300
+phy_effect       : 250
+tao_effect       : 250
+counter_attack_rate : 50
+counter_attack   : 5
+stunt_rate       : 50
+resist_forgotten : 500
+resist_poison    : 500
+resist_frozen    : 500
+resist_sleep     : 500
+resist_confusion : 500
+resist_repress   : 500
+resist_melt      : 500
+resist_cage      : 500
+resist_lock      : 500
+resist_lost      : 500
+sub              : 0
+amount           : 5
+#level            : 144
+skills           : ({ "B5", "D4" })
+tractics         : "baihexiantong_tactics"
+tianjie          : 3
+
+[º³µØÐ×ÊÞ]
+polar            : 5
+religion         : -1
+name             : "º³µØÐ×ÊÞ"
+icon             : 6226
+portrait         : 6226
+life_effect      : 2000
+speed_effect     : 300
+phy_effect       : 300
+tao_effect       : 300
+double_hit_rate  : 50
+double_hit       : 4
+stunt_rate       : 50
+resist_forgotten : 50
+resist_poison    : 200
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 200
+resist_repress   : 50
+resist_melt      : 200
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 200
+sub              : 0
+amount           : 10
+#level            : 144
+tractics         : "handixiongshou_tactics"
+register_if      : ({ "sf_receive_damage", "sf_handi_receive_damage" })
+tianjie          : 3
+
+[ÎÞÃûµØÉñ]
+polar            : 5
+religion         : -1
+name             : "ÎÞÃûµØÉñ"
+icon             : 6236
+portrait         : 6236
+life_effect      : 3900
+speed_effect     : 350
+phy_effect       : 300
+tao_effect       : 350
+stunt_rate       : 100
+resist_forgotten : 100
+resist_poison    : 200
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 200
+resist_repress   : 100
+resist_melt      : 200
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 200
+sub              : 0
+amount           : 1
+#level            : 144
+skills           : ({ "C5" })
+tractics         : "wumingdishen_tactics"
+register_if      : ({ "sf_receive_damage", "sf_dishen_receive_damage" })
+tianjie          : 3
+
+[ÎÞÃûÊ¯ÊÞ]
+name             : "ÎÞÃûÊ¯ÊÞ"
+icon             : 6142
+portrait         : 6142
+life_effect      : 900
+speed_effect     : 300
+phy_effect       : 180
+tao_effect       : 200
+stunt_rate       : 50
+resist_forgotten : 75
+resist_poison    : 200
+resist_frozen    : 75
+resist_sleep     : 75
+resist_confusion : 200
+resist_repress   : 75
+resist_melt      : 200
+resist_cage      : 75
+resist_lock      : 75
+resist_lost      : 200
+sub              : 1
+main_monster     : "ÎÞÃûµØÉñ"
+amount           : 9
+#level            : 144
+tractics         : "wumingshishou_tactics"
+tianjie          : 3
+
+###############monsters of tianjie4###############################
+[ÉñÃØÉÙÄê]
+polar            : 3
+religion         : 1
+name             : "ÉñÃØÉÙÄê"
+icon             : 7003
+portrait         : 7003
+life_effect      : 4500
+speed_effect     : 550
+mag_effect       : 300
+phy_effect       : 250
+tao_effect       : 400
+resist_forgotten : 100
+resist_poison    : 50
+resist_frozen    : 150
+resist_sleep     : 50
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 50
+resist_cage      : 150
+resist_lock      : 50
+resist_lost      : 100
+sub              : 0
+amount           : 1
+#level            : 149
+skills           : ({ "B5", "D5", "lipo-qianjun" })
+tractics         : "shenmishaonian_tactics"
+tianjie          : 4
+
+[½£»ê]
+name             : "½£»ê"
+icon             : 6272
+portrait         : 6272
+life_effect      : 2000
+speed_effect     : 350
+phy_effect       : 300
+tao_effect       : 200
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 1
+main_monster     : "ÉñÃØÉÙÄê"
+amount           : 9
+#level            : 149
+skills           : ({ "lipo-qianjun" })
+tractics         : "tianjie4_jianhun_tactics"
+tianjie          : 4
+
+[Ê¯Ù¸ÎÀ±ø]
+polar            : 5
+religion         : -1
+name             : "Ê¯Ù¸ÎÀ±ø"
+icon             : 6255
+portrait         : 6255
+life_effect      : 3000
+speed_effect     : 500
+mag_effect       : 200
+phy_effect       : 250
+tao_effect       : 400
+stunt_rate       : 30
+resist_forgotten : 150
+resist_frozen    : 100
+resist_confusion : 150
+resist_repress   : 150
+resist_cage      : 100
+resist_lost      : 150
+sub              : 0
+amount           : 10
+#level            : 149
+skills           : ({ "B5", "C5", "lipo-qianjun" })
+tractics         : "shiyongweibing_tactics"
+tianjie          : 4
+
+[±ùµñÎÀ±ø]
+polar            : 3
+religion         : -1
+name             : "±ùµñÎÀ±ø"
+icon             : 6246
+portrait         : 6246
+life_effect      : 2500
+speed_effect     : 250
+mag_effect       : 250
+phy_effect       : 200
+tao_effect       : 200
+damage_sel_rate  : 100
+damage_sel       : 100
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 150
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 150
+resist_lock      : 50
+resist_lost      : 50
+sub              : 0
+amount           : 10
+#level            : 149
+skills           : ({ "B5", "C4", "lipo-qianjun" })
+tractics         : "bingdiaoweibing_tactics"
+tianjie          : 4
+
+[÷¼÷ÃÉ½É½Áé]
+name             : "÷¼÷ÃÉ½É½Áé"
+icon             : 6214
+portrait         : 6214
+life_effect      : 3500
+speed_effect     : 400
+phy_effect       : 300
+tao_effect       : 300
+double_hit_rate  : 80
+double_hit       : 5
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 0
+amount           : 10
+#level            : 149
+tractics         : "kuloushanshanling_tactic"
+skills           : ({ "lipo-qianjun" })
+register_if      : ({ "sf_die", "sf_tianjie4_die" })
+tianjie          : 4
+
+[É½Éñ]
+polar            : 5
+religion         : -1
+name             : "É½Éñ"
+icon             : 6236
+portrait         : 6236
+life_effect      : 5000
+speed_effect     : 500
+mag_effect       : 300
+phy_effect       : 350
+tao_effect       : 500
+stunt_rate       : 50
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 150
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 150
+sub              : 0
+amount           : 1
+#level            : 149
+skills           : ({ "B5", "C5", "lipo-qianjun" })
+tractics         : "shanshen_tactics"
+register_if      : ({ "sf_die", "sf_tianjie4_die" })
+tianjie          : 4
+
+[É½Áé]
+name             : "É½Áé"
+icon             : 6214
+portrait         : 6214
+life_effect      : 2900
+speed_effect     : 300
+phy_effect       : 300
+tao_effect       : 300
+double_hit_rate  : 80
+double_hit       : 5
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 1
+main_monster     : "É½Éñ"
+amount           : 9
+#level            : 149
+tractics         : "shanling_tactics"
+skills           : ({ "lipo-qianjun" })
+register_if      : ({ "sf_die", "sf_tianjie4_die" })
+tianjie          : 4
+
+###############monsters of tianjie5###############################
+[ÌÒÊ÷¾«]
+polar            : 2
+religion         : -1
+name             : "ÌÒÊ÷¾«"
+icon             : 6106
+portrait         : 6106
+life_effect      : 3000
+speed_effect     : 300
+mag_effect       : 300
+phy_effect       : 250
+tao_effect       : 500
+counter_attack_rate : 50
+counter_attack   : 5
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 0
+amount           : 10
+#level            : 154
+skills           : ({ "B4", "B5", "C4", "D5" })
+tractics         : "taoshujing_tactics"
+register_if      : ({ "sf_skill_success_rate", "sf_skill_success" })
+tianjie          : 5
+
+[ÁøÊ÷¾«]
+polar            : 2
+religion         : -1
+name             : "ÁøÊ÷¾«"
+icon             : 6107
+portrait         : 6107
+life_effect      : 3000
+speed_effect     : 300
+mag_effect       : 300
+phy_effect       : 250
+tao_effect       : 500
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 0
+amount           : 10
+#level            : 154
+skills           : ({ "B4", "B5", "C4", "D5", "lipo-qianjun" })
+tractics         : "liushujing_tactics"
+register_if      : ({ "sf_skill_success_rate", "sf_skill_success" })
+tianjie          : 5
+
+[ºÚÉ½Ä§×ð]
+polar            : 5
+religion         : -1
+name             : "ºÚÉ½Ä§×ð"
+icon             : 6258
+portrait         : 6258
+life_effect      : 5000
+speed_effect     : 450
+mag_effect       : 250
+phy_effect       : 300
+tao_effect       : 600
+double_hit_rate  : 50
+double_hit       : 5
+resist_poison    : 150
+resist_frozen    : 150
+resist_forgotten : 150
+resist_sleep     : 150
+resist_confusion : 150
+resist_repress   : 150
+resist_melt      : 150
+resist_cage      : 150
+resist_lock      : 150
+resist_lost      : 150
+sub              : 0
+amount           : 1
+sub_amount       : 9
+#level            : 154
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+tractics         : "heishanmodao_tactics"
+tianjie          : 1
+
+[Ê§¿ØµÄÁø¹í]
+polar            : -1
+religion         : -1
+name             : "Ê§¿ØµÄÁø¹í"
+icon             : 6107
+portrait         : 6107
+life_effect      : 2500
+speed_effect     : 200
+mag_effect       : 200
+phy_effect       : 180
+tao_effect       : 400
+sub              : 1
+main_monster     : "ºÚÉ½Ä§×ð"
+#level            : 154
+skills           : ({ "B5" })
+tractics         : "shikongdeliugui_tactics"
+tianjie          : 5
+
+[Ê§¿ØµÄÌÒ¾«]
+polar            : -1
+religion         : -1
+name             : "Ê§¿ØµÄÌÒ¾«"
+icon             : 6106
+portrait         : 6106
+life_effect      : 2500
+speed_effect     : 150
+mag_effect       : 200
+phy_effect       : 180
+tao_effect       : 400
+sub              : 1
+main_monster     : "ºÚÉ½Ä§×ð"
+#level            : 154
+skills           : ({ "B5" })
+tractics         : "shikongdetaojing_tactics"
+tianjie          : 1
+
+###############monsters of tianjie6###############################
+[ÏôÉý]
+polar            : 4
+religion         : -1
+name             : "ÏôÉý"
+icon             : 6235
+portrait         : 6235
+life_effect      : 5000
+speed_effect     : 300
+mag_effect       : 250
+phy_effect       : 300
+tao_effect       : 600
+double_hit_rate  : 30
+double_hit       : 5
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 159
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+tractics         : "xiaosheng_tactics"
+tianjie          : 6
+
+[Ñ±ÊÞ1]
+polar            : 4
+religion         : -1
+name             : "Ñ±ÊÞ"
+icon             : 6132
+portrait         : 6132
+life_effect      : 2500
+speed_effect     : 50
+mag_effect       : 180
+phy_effect       : 200
+tao_effect       : 400
+double_hit_rate  : 30
+double_hit       : 5
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 1
+amount           : 9
+main_monster     : "ÏôÉý"
+#level            : 159
+skills           : ({ "B4", "B5" })
+tractics         : "xunshou1_tactics"
+tianjie          : 6
+
+[²Ü±¦]
+polar            : 1
+religion         : -1
+name             : "²Ü±¦"
+icon             : 6232
+portrait         : 6232
+life_effect      : 5000
+speed_effect     : 300
+mag_effect       : 250
+phy_effect       : 300
+tao_effect       : 600
+double_hit_rate  : 30
+double_hit       : 5
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 159
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+tractics         : "caobao_tactics"
+tianjie          : 6
+
+[Ñ±ÊÞ2]
+polar            : 1
+religion         : -1
+name             : "Ñ±ÊÞ"
+icon             : 6171
+portrait         : 6171
+life_effect      : 2500
+speed_effect     : 50
+mag_effect       : 180
+phy_effect       : 200
+tao_effect       : 400
+double_hit_rate  : 30
+double_hit       : 5
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 1
+main_monster     : "²Ü±¦"
+amount           : 9
+#level            : 159
+skills           : ({ "B4", "B5" })
+tractics         : "xunshou2_tactics"
+tianjie          : 6
+
+[ÐÄÄ§¾üÍ³Áì]
+polar            : -1
+religion         : -1
+name             : "ÐÄÄ§¾üÍ³Áì"
+icon             : 6228
+portrait         : 6228
+life_effect      : 8000
+speed_effect     : 300
+mag_effect       : 180
+phy_effect       : 180
+tao_effect       : 600
+double_hit_rate  : 30
+double_hit       : 4
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 159
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+tractics         : "xinmojuntongling_tactics"
+register_if      : ({ "sf_die", "sf_xinmojuntongling_die" })
+tianjie          : 6
+
+[ÐÄÄ§÷¼÷Ã±ø]
+polar            : -1
+religion         : -1
+name             : "ÐÄÄ§÷¼÷Ã±ø"
+icon             : 6148
+portrait         : 6148
+life_effect      : 4000
+speed_effect     : 200
+mag_effect       : 140
+phy_effect       : 160
+tao_effect       : 50
+double_hit_rate  : 30
+double_hit       : 4
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 1
+main_monster     : "ÐÄÄ§¾üÍ³Áì"
+amount           : 9
+#level            : 159
+skills           : ({ "B4", "B5" })
+tractics         : "xinmokuloubing_tactics"
+tianjie          : 6
+
+[ÐÄÄ§Í»»÷¶Ó]
+polar            : -1
+religion         : -1
+name             : "ÐÄÄ§Í»»÷¶Ó"
+icon             : 6228
+portrait         : 6228
+life_effect      : 2500
+speed_effect     : 300
+mag_effect       : 180
+phy_effect       : 200
+tao_effect       : 400
+double_hit_rate  : 30
+double_hit       : 4
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 10
+#level            : 159
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+tractics         : "xinmotujidui_tactics"
+tianjie          : 6
+
+[ÑÝÎä]
+polar            : 5
+religion         : -1
+name             : "ÑÝÎä"
+icon             : 6239
+portrait         : 6239
+life_effect      : 6500
+speed_effect     : 500
+mag_effect       : 250
+phy_effect       : 300
+tao_effect       : 700
+mag_absorb       : -100
+phy_absorb       : -100
+double_hit_rate  : 30
+double_hit       : 5
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 159
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+tractics         : "yanwu_tactics"
+tianjie          : 6
+
+[ÐÄÄ§¾üÍ³Áì1]
+polar            : -1
+religion         : -1
+name             : "ÐÄÄ§¾üÍ³Áì"
+icon             : 6228
+portrait         : 6228
+life_effect      : 5000
+speed_effect     : 300
+mag_effect       : 200
+phy_effect       : 220
+tao_effect       : 600
+double_hit_rate  : 30
+double_hit       : 5
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 1
+main_monster     : "ÑÝÎä"
+amount           : 4
+#level            : 159
+skills           : ({ "B4", "B5", "C4", "C5", "D5", "lipo-qianjun" })
+tractics         : "xinmojuntongling1_tactics"
+register_if      : ({ "sf_die", "sf_xinmojuntongling1_die" })
+tianjie          : 6
+
+[±©Å­µÄÑÝÎä]
+polar            : -1
+religion         : -1
+name             : "±©Å­µÄÑÝÎä"
+icon             : 6239
+portrait         : 6239
+life_effect      : 6500
+speed_effect     : 500
+mag_effect       : 300
+phy_effect       : 350
+tao_effect       : 700
+stunt_rate       : 100
+#double_hit       : 5
+penetrate        : 40
+penetrate_rate   : 40
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 159
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+tractics         : "baonudeyanwu_tactics"
+tianjie          : 6
+artifact         : ({ "dinghaizhu", 18 })
+
+###############monsters of tianjie7###############################
+[½Ù·ËºúººÉ½]
+polar            : 4
+religion         : -1
+name             : "½Ù·ËºúººÉ½"
+icon             : 6230
+portrait         : 6230
+life_effect      : 5000
+speed_effect     : 350
+mag_effect       : 250
+phy_effect       : 300
+tao_effect       : 700
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 164
+skills           : ({ "B4", "B5" })
+tractics         : "jiefeihuhanshan_tactics"
+tianjie          : 7
+
+[½Ù·Ë]
+polar            : 4
+religion         : -1
+name             : "½Ù·Ë"
+icon             : 6201
+portrait         : 6201
+life_effect      : 2500
+speed_effect     : 250
+mag_effect       : 200
+phy_effect       : 250
+tao_effect       : 500
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+sub              : 1
+amount           : 9
+main_monster     : "½Ù·ËºúººÉ½"
+#level            : 164
+skills           : ({ "B4" })
+tractics         : "jiefei_tactics"
+tianjie          : 7
+
+[µûÒÀ]
+polar            : 2
+religion         : -1
+name             : "µûÒÀ"
+icon             : 6241
+portrait         : 6241
+life_effect      : 8000
+speed_effect     : 350
+mag_effect       : 300
+phy_effect       : 350
+tao_effect       : 1200
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 164
+skills           : ({ "B5", "C5" })
+tractics         : "dieyi_tactics"
+tianjie          : 7
+
+[Ñ©Å®]
+polar            : -1
+religion         : -1
+name             : "Ñ©Å®"
+icon             : 6173
+portrait         : 6173
+life_effect      : 4000
+speed_effect     : 250
+mag_effect       : 200
+phy_effect       : 250
+tao_effect       : 500
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+sub              : 1
+main_monster     : "µûÒÀ"
+amount           : 9
+#level            : 164
+skills           : ({ "B4" })
+tractics         : "xuenv_tactics"
+tianjie          : 7
+
+[±ùÁé]
+polar            : 3
+religion         : -1
+name             : "±ùÁé"
+icon             : 6154
+portrait         : 6154
+life_effect      : 8000
+speed_effect     : 350
+mag_effect       : 300
+phy_effect       : 350
+tao_effect       : 1200
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 164
+skills           : ({ "B5", "C5" })
+tractics         : "bingling_tactics"
+tianjie          : 7
+
+[º®±ùÊÞ]
+polar            : -1
+religion         : -1
+name             : "º®±ùÊÞ"
+icon             : 6151
+portrait         : 6151
+life_effect      : 4000
+speed_effect     : 250
+mag_effect       : 200
+phy_effect       : 250
+tao_effect       : 500
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+sub              : 1
+main_monster     : "±ùÁé"
+amount           : 9
+#level            : 164
+skills           : ({ "B4" })
+tractics         : "hanbingshou_tactics"
+tianjie          : 7
+
+[ÊÉ»êÄ§]
+polar            : 1
+religion         : -1
+name             : "ÊÉ»êÄ§"
+icon             : 6272
+portrait         : 6272
+life_effect      : 8000
+speed_effect     : 350
+mag_effect       : 300
+phy_effect       : 350
+tao_effect       : 1200
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 164
+skills           : ({ "B4", "B5", "C5" })
+tractics         : "shihunmo_tactics"
+tianjie          : 7
+
+[±»¿ØÖÆµÄÒõ»ê]
+polar            : -1
+religion         : -1
+name             : "±»¿ØÖÆµÄÒõ»ê"
+icon             : 6140
+portrait         : 6140
+life_effect      : 4000
+speed_effect     : 250
+mag_effect       : 200
+phy_effect       : 250
+tao_effect       : 500
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+sub              : 1
+main_monster     : "ÊÉ»êÄ§"
+amount           : 9
+#level            : 164
+skills           : ({ "B4" })
+tractics         : "beikongzhideyinhun_tactics"
+tianjie          : 7
+
+[·ÉÉýÏÉ¹Ù]
+polar            : 4
+religion         : -1
+name             : "·ÉÉýÏÉ¹Ù"
+icon             : 6235
+portrait         : 6235
+life_effect      : 8000
+speed_effect     : 500
+mag_effect       : 300
+phy_effect       : 350
+tao_effect       : 1500
+stunt_rate       : 100
+resist_forgotten : 200
+resist_poison    : 200
+resist_frozen    : 200
+resist_sleep     : 200
+resist_confusion : 200
+resist_repress   : 200
+resist_melt      : 200
+resist_cage      : 200
+resist_lock      : 200
+resist_lost      : 200
+sub              : 0
+amount           : 5
+#level            : 164
+skills           : ({ "B4", "B5" })
+tractics         : "feishengxianguan_tactics"
+register_if      : ({ "sf_die", "sf_feishengxianguan_die" })
+tianjie          : 7
+
+###############monsters of tianjie8###############################
+[Ê§¿ØµÄÇîÆæ]
+polar            : 4
+religion         : -1
+name             : "Ê§¿ØµÄÇîÆæ"
+icon             : 6172
+portrait         : 6172
+life_effect      : 2000
+speed_effect     : 100
+mag_effect       : 300
+phy_effect       : 50
+tao_effect       : 100
+resist_forgotten : 300
+resist_frozen    : 300
+resist_sleep     : 75
+resist_confusion : 75
+resist_repress   : 300
+resist_cage      : 300
+resist_lock      : 75
+resist_lost      : 75
+sub              : 0
+amount           : 10
+#level            : 169
+skills           : ({ "B5" })
+tractics         : "shikongdeqiongqi_tactics"
+tianjie          : 8
+
+[ÁÒÑæÊÞ]
+name             : "ÁÒÑæÊÞ"
+icon             : 6260
+portrait         : 6260
+life_effect      : 2000
+speed_effect     : 100
+mag_effect       : 250
+phy_effect       : 100
+tao_effect       : 100
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+sub              : 0
+amount           : 10
+#level            : 164
+tractics         : "lieyanshou_tactics"
+register_if      : ({ "sf_action_translate", "sf_action_translate" })
+tianjie          : 8
+
+[Ã×À¼ÏÉ×Ó]
+polar            : 2
+religion         : 1
+name             : "Ã×À¼ÏÉ×Ó"
+icon             : 6002
+portrait         : 6002
+life_effect      : 8000
+speed_effect     : 100
+mag_effect       : 300
+phy_effect       : 300
+phy_absorb       : -100
+tao_effect       : 200
+stunt_rate       : 30
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 169
+skills           : ({ "B4", "B5", "C4" })
+tractics         : "milanxianzi_tactics"
+register_if      : ({ "sf_die", "sf_tianjie8_die" })
+tianjie          : 8
+
+[Ð¡Ã×]
+polar            : 4
+religion         : -1
+name             : "Ð¡Ã×"
+icon             : 6172
+portrait         : 6172
+life_effect      : 8000
+speed_effect     : 100
+mag_effect       : 300
+phy_effect       : 300
+mag_absorb       : -100
+tao_effect       : 200
+stunt_rate       : 30
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 1
+main_monster     : "Ã×À¼ÏÉ×Ó"
+amount           : 1
+#level            : 169
+skills           : ({ "B4", "B5", "D5" })
+tractics         : "xiaomi_tactics"
+register_if      : ({ "sf_die", "sf_tianjie8_die" })
+tianjie          : 8
+
+[ÑªÄ§¾ü½«Áì]
+polar            : -1
+religion         : -1
+name             : "ÑªÄ§¾ü½«Áì"
+icon             : 6228
+portrait         : 6228
+life_effect      : 2780
+speed_effect     : 100
+mag_effect       : 100
+phy_effect       : 150
+tao_effect       : 100
+double_hit_rate  : 30
+double_hit       : 4
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 169
+skills           : ({ "B4", "B5" })
+tractics         : "xuemojunjiangling_tactics"
+tianjie          : 8
+
+[ÑªÄ§Ê¿±ø]
+polar            : -1
+religion         : -1
+name             : "ÑªÄ§Ê¿±ø"
+icon             : 6148
+portrait         : 6148
+life_effect      : 1000
+speed_effect     : 50
+mag_effect       : 100
+phy_effect       : 150
+tao_effect       : 50
+double_hit_rate  : 30
+double_hit       : 4
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+sub              : 1
+main_monster     : "ÑªÄ§¾ü½«Áì"
+amount           : 9
+#level            : 159
+skills           : ({ "B4" })
+tractics         : "xuemoshibing_tactics"
+tianjie          : 8
+
+[÷Í÷ÈÑªÄ§]
+polar            : 4
+religion         : -1
+name             : "÷Í÷ÈÑªÄ§"
+icon             : 6248
+portrait         : 6248
+life_effect      : 8000
+speed_effect     : 100
+mag_effect       : 350
+phy_effect       : 300
+tao_effect       : 1000
+double_hit_rate  : 40
+double_hit       : 5
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 169
+skills           : ({ "B4", "B5" })
+tractics         : "mangmeixuemo_tactics"
+tianjie          : 8
+
+[±»¿ØÖÆµÄÁéÊÞ]
+polar            : -1
+religion         : -1
+name             : "±»¿ØÖÆµÄÁéÊÞ"
+icon             : 6172
+portrait         : 6172
+life_effect      : 2500
+speed_effect     : 100
+mag_effect       : 200
+phy_effect       : 150
+tao_effect       : 1000
+stunt_rate       : 30
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 1
+main_monster     : "÷Í÷ÈÑªÄ§"
+amount           : 9
+#level            : 169
+skills           : ({ "B4" })
+tractics         : "beikongzhidelingshou_tactics"
+tianjie          : 8
+
+[÷Í÷ÈÑªÄ§1]
+polar            : 4
+religion         : -1
+name             : "÷Í÷ÈÑªÄ§"
+icon             : 6248
+portrait         : 6248
+life_effect      : 8000
+speed_effect     : 100
+mag_effect       : 350
+phy_effect       : 300
+tao_effect       : 1000
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+#level            : 169
+skills           : ({ "B4", "B5" })
+tractics         : "mangmeixuemo1_tactics"
+tianjie          : 8
+
+###############monsters of tianjie9###############################
+[ÓðÒíÏÉ]
+polar            : 1
+religion         : -1
+name             : "ÓðÒíÏÉ"
+icon             : 6211
+portrait         : 6211
+life_effect      : 5000
+speed_effect     : 100
+mag_effect       : 300
+phy_effect       : 300
+tao_effect       : 200
+stunt_rate       : 30
+resist_forgotten : 75
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_confusion : 75
+resist_repress   : 75
+resist_melt      : 75
+resist_cage      : 75
+resist_lock      : 75
+resist_lost      : 75
+sub              : 0
+amount           : 10
+level            : 174
+skills           : ({ "B3", "B4", "B5" })
+tractics         : "yuyixian_tactics"
+register_if      : ({ "sf_die", "sf_tianjie9_die", "sf_receive_damage", "sf_receive_damage" })
+tianjie          : 9
+
+[Ë®ÁéÍ¯×Ó]
+polar            : 3
+religion         : -1
+name             : "Ë®ÁéÍ¯×Ó"
+icon             : 6027
+portrait         : 6027
+life_effect      : 5000
+speed_effect     : 100
+mag_effect       : 300
+phy_effect       : 300
+tao_effect       : 150
+mag_absorb       : -25
+phy_absorb       : -25
+double_hit_rate  : 40
+double_hit       : 5
+resist_forgotten : 75
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_confusion : 75
+resist_repress   : 75
+resist_melt      : 75
+resist_cage      : 75
+resist_lock      : 75
+resist_lost      : 75
+sub              : 0
+amount           : 10
+level            : 174
+skills           : ({ "B4", "B5", "C4" })
+tractics         : "shuilingtongzi_tactics"
+tianjie          : 9
+
+[ò¿÷ËÓ°Ä§]
+polar            : 5
+religion         : -1
+name             : "ò¿÷ËÓ°Ä§"
+icon             : 6272
+portrait         : 6272
+life_effect      : 10000
+speed_effect     : 500
+mag_effect       : 500
+phy_effect       : 500
+tao_effect       : 400
+phy_absorb       : -100
+double_hit_rate  : 40
+double_hit       : 8
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+level            : 174
+skills           : ({ "B4", "B5", "C3" })
+tractics         : "chiliangyingmo_tactics"
+tianjie          : 9
+
+[ò¿÷ËÓ°Ä§1]
+polar            : 5
+religion         : -1
+name             : "ò¿÷ËÓ°Ä§"
+icon             : 6272
+portrait         : 6272
+life_effect      : 10000
+speed_effect     : 500
+mag_effect       : 500
+phy_effect       : 500
+tao_effect       : 400
+phy_absorb       : -100
+double_hit_rate  : 40
+double_hit       : 8
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+level            : 174
+skills           : ({ "B4", "B5", "C3" })
+tractics         : "chiliangyingmo1_tactics"
+tianjie          : 9
+
+[À§»óÖ®Ó°]
+polar            : -1
+religion         : -1
+name             : "À§»óÖ®Ó°"
+icon             : 6140
+portrait         : 6140
+life_effect      : 1000
+speed_effect     : -100
+mag_effect       : 350
+phy_effect       : 350
+tao_effect       : 100
+mag_absorb       : -100
+counter_attack_rate  : 50
+counter_attack   : 5
+resist_forgotten : 75
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_confusion : 75
+resist_repress   : 75
+resist_melt      : 75
+resist_cage      : 75
+resist_lock      : 75
+resist_lost      : 75
+sub              : 1
+main_monster     : "ò¿÷ËÓ°Ä§1"
+amount           : 9
+level            : 174
+skills           : ({ "B1", "B2", "B3", "B4", "B5" })
+tractics         : "kunhuozhiying_tactics"
+tianjie          : 9
+
+[ò¿÷ËÓ°Ä§2]
+polar            : 5
+religion         : -1
+name             : "ò¿÷ËÓ°Ä§"
+icon             : 6272
+portrait         : 6272
+life_effect      : 10000
+speed_effect     : 500
+mag_effect       : 500
+phy_effect       : 500
+tao_effect       : 400
+phy_absorb       : -100
+double_hit_rate  : 40
+double_hit       : 8
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+resist_repress   : 300
+resist_melt      : 300
+resist_cage      : 300
+resist_lock      : 300
+resist_lost      : 300
+sub              : 0
+amount           : 1
+level            : 174
+skills           : ({ "B4", "B5", "C3" })
+tractics         : "chiliangyingmo_tactics"
+tianjie          : 9
+
+[¿ñ±©Ö®Ó°]
+polar            : -1
+religion         : -1
+name             : "¿ñ±©Ö®Ó°"
+icon             : 6153
+portrait         : 6153
+life_effect      : 1000
+speed_effect     : -100
+mag_effect       : 250
+phy_effect       : 300
+tao_effect       : 100
+mag_absorb       : -100
+resist_forgotten : 75
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_confusion : 75
+resist_repress   : 75
+resist_melt      : 75
+resist_cage      : 75
+resist_lock      : 75
+resist_lost      : 75
+sub              : 1
+main_monster     : "ò¿÷ËÓ°Ä§2"
+amount           : 9
+level            : 174
+skills           : ({ "B1", "B2", "B3", "B4", "B5" })
+tractics         : "kuangbaozhiying_tactics"
+tianjie          : 9
+artifact         : ({ "fantianyin", 18 })
+
+###############monsters of tianjie1###############################
+[Ô³ºï³¤ÀÏ]
+icon                : 6108
+portrait            : 6108
+name                : "Ô³ºï³¤ÀÏ"
+polar               : 3
+religion            : -1
+phy_effect          : 100
+mag_effect          : 250
+tao_effect          : 300
+skills              : ({ "B5", "D5" })
+life_effect         : 2000
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+sub                 : 0
+amount              : 1
+#level               : 134
+register_if         : ({ "sf_die", "sf_die_yuanhou" })
+tractics            : "tactics_yuanhou_zhanglao"
+tianjie             : 1
+
+[Áú¹¬Ê¹Õß]
+icon                : 6163
+portrait            : 6163
+name                : "Áú¹¬Ê¹Õß"
+life_effect         : 3000
+speed_effect        : 100
+mag_effect          : 250
+tao_effect          : 200
+resist_metal        : 50
+resist_wood         : 50
+resist_fire         : 50
+resist_water        : 100
+resist_earth        : 50
+resist_forgotten    : 150
+resist_frozen       : 150
+resist_confusion    : 150
+resist_repress      : 150
+resist_melt         : 150
+resist_cage         : 150
+resist_lock         : 150
+resist_lost         : 150
+skills              : ({ "B4", "B5" })
+polar               : 3
+religion            : -1
+tractics            : "tactics_longgong_shizhe"
+tianjie             : 1
+#level               : 134
+amount              : 1
+sub                 : 0
+
+[Í¨±ÛÔ³ºï3]
+name                :    "Í¨±ÛÔ³ºï"
+icon                :     6108
+portrait            :     6108
+polar               :     4
+religion            :     -1
+life_effect         :     5900
+speed_effect        :     500
+mag_effect          :     300
+phy_effect          :     200
+tao_effect          :     150
+damage_sel_rate     :     100
+damage_sel          :     100
+stunt_rate          :     100
+penetrate           :     100
+resist_forgotten    :     300
+resist_poison       :     150
+resist_frozen       :     150
+resist_sleep        :     150
+resist_confusion    :     300
+resist_repress      :     300
+resist_melt         :     300
+resist_cage         :     300
+resist_lock         :     300
+resist_lost         :     300
+mag_absorb          :     0
+phy_absorb          :     50
+skills              :     ({ "B5" })
+tractics            :   "tactics_tongbi_yuanhou_3"
+#unused_special_skill :  1
+register_if         :   ({ "sf_die", "sf_die_tongbi_yuanhou3" })
+tianjie             :   1
+#level               :   134
+amount              :   1
+sub                 :   0
+
+[Í¨±ÛÔ³ºï4]
+name                :    "Í¨±ÛÔ³ºï"
+icon                :     6108
+portrait            :     6108
+polar               :     4
+religion            :     -1
+life_effect         :     9900
+speed_effect        :     1000
+mag_effect          :     1000
+phy_effect          :     1000
+tao_effect          :     1000
+resist_forgotten    :     150
+resist_poison       :     150
+resist_frozen       :     150
+resist_sleep        :     150
+resist_confusion    :     150
+resist_repress      :     150
+resist_melt         :     150
+resist_cage         :     150
+resist_lock         :     150
+resist_lost         :     150
+mag_absorb          :     -100
+phy_absorb          :     -100
+skills              :     ({ "B5" })
+tractics            :   "tactics_tongbi_yuanhou_4"
+tianjie             :   1
+#level               :   134
+amount              :   1
+sub                 :   0
+
+[Àë»ð]
+name                :     "Àë»ð"
+icon                :     6153
+portrait            :     6153
+polar               :     4
+religion            :     -1
+life_effect         :     3000
+speed_effect        :     500
+mag_effect          :     200
+phy_effect          :     100
+tao_effect          :     300
+resist_forgotten    :     150
+resist_poison       :     150
+resist_frozen       :     150
+resist_sleep        :     150
+resist_confusion    :     150
+resist_repress      :     150
+resist_melt         :     150
+resist_cage         :     150
+resist_lock         :     150
+resist_lost         :     150
+skills              :     ({ "B5", "C5" })
+tractics            :   "tactics_lihuo"
+tianjie             :   1
+#level               :   134
+amount              :   1
+sub                 :   0
+
+[Í¨±ÛÔ³ºï6]
+name                :    "Í¨±ÛÔ³ºï"
+icon                :     6108
+portrait            :     6108
+polar               :     4
+religion            :     -1
+life_effect         :     3900
+speed_effect        :     500
+mag_effect          :     250
+phy_effect          :     150
+tao_effect          :     300
+damage_sel_rate     :     100
+damage_sel          :     100
+stunt_rate          :     100
+penetrate           :     100
+resist_forgotten    :     150
+resist_poison       :     150
+resist_frozen       :     150
+resist_sleep        :     150
+resist_confusion    :     150
+resist_repress      :     150
+resist_melt         :     150
+resist_cage         :     150
+resist_lock         :     150
+resist_lost         :     150
+skills              :     ({ "B4", "B5" })
+tractics            :   "tactics_tongbi_yuanhou_6"
+#unused_special_skill : 1
+tianjie             :   1
+#level               :   134
+amount              :   1
+sub                 :   0
+
+[Ô³ºï¾«Ó¢]
+name                :   "Ô³ºï¾«Ó¢"
+icon                :   6108
+portrait            :   6108
+polar               :   4
+religion            :   -1
+mag_effect          :   100
+phy_effect          :   100
+speed_effect        :   200
+life_effect         :   1200
+tao_effect          :   150
+skills              :   ({ "B4" })
+resist_forgotten    :   100
+resist_poison       :   100
+resist_frozen       :   100
+resist_sleep        :   100
+resist_confusion    :   100
+resist_repress      :   100
+resist_melt         :   100
+resist_cage         :   100
+resist_lock         :   100
+resist_lost         :   100
+amount              :   2
+register_if         :   ({ "sf_die", "sf_die_yuanhou" })
+tractics            :   "tactics_yuanhou_jingying"
+main_monster        :   "Ô³ºï³¤ÀÏ"
+tianjie             :   1
+#level               :   134
+sub                 :   1
+
+[Ð¡ºï1]
+name                :   "Ð¡ºï"
+icon                :   6103
+portrait            :   6103
+life_effect         :   600
+speed_effect        :   100
+phy_effect          :   150
+tao_effect          :   50
+stunt_rate          :   30
+resist_forgotten    :   150
+resist_poison       :   150
+resist_frozen       :   150
+resist_sleep        :   150
+resist_confusion    :   150
+resist_repress      :   150
+resist_melt         :   150
+resist_cage         :   150
+resist_lock         :   150
+resist_lost         :   150
+amount              :   7
+register_if         :   ({ "sf_die", "sf_die_yuanhou" })
+tractics            :   "tactics_xiaohou_1"
+main_monster        :   "Ô³ºï³¤ÀÏ"
+tianjie             :   1
+#level               :   134
+sub                 :   1
+
+[Áú¹¬»¤ÎÀ]
+name                :   "Áú¹¬»¤ÎÀ"
+icon                :   6164
+portrait            :   6164
+life_effect         :   1000
+speed_effect        :   50
+phy_effect          :   200
+tao_effect          :   50
+double_hit          :   3
+double_hit_rate     :   30
+counter_attack_rate :   100
+counter_attack      :   3
+resist_forgotten    :   100
+resist_frozen       :   100
+resist_confusion    :   100
+resist_repress      :   100
+resist_melt         :   100
+resist_cage         :   100
+resist_lock         :   100
+resist_lost         :   100
+amount              :   9
+accurate            :   50
+tractics            :   "tactics_longgong_huwei"
+main_monster        :   "Áú¹¬Ê¹Õß"
+tianjie             :   1
+#level               :   134
+sub                 :   1
+
+[Ð¡ºï4]
+amount              :     9
+name                :    "Ð¡ºï"
+icon                :     6103
+portrait            :     6103
+polar               :     3
+religion            :     -1
+life_effect         :     9900
+speed_effect        :     900
+mag_effect          :     1000
+phy_effect          :     1000
+tao_effect          :     1000
+resist_forgotten    :     150
+resist_poison       :     150
+resist_frozen       :     150
+resist_sleep        :     150
+resist_confusion    :     150
+resist_repress      :     150
+resist_melt         :     150
+resist_cage         :     150
+resist_lock         :     150
+resist_lost         :     150
+mag_absorb          :     -100
+phy_absorb          :     -100
+skills              :     ({ "B5" })
+tractics            :   "tactics_xiaohou_4"
+main_monster        :   "Í¨±ÛÔ³ºï4"
+tianjie             :   1
+#level               :   134
+sub                 :   1
+
+[Ðþ±ù]
+name                :    "Ðþ±ù"
+icon                :     6154
+portrait            :     6154
+amount              :     2
+polar               :     3
+religion            :     -1
+life_effect         :     2000
+speed_effect        :     400
+mag_effect          :     150
+tao_effect          :     300
+resist_forgotten    :     150
+resist_poison       :     150
+resist_frozen       :     150
+resist_sleep        :     150
+resist_confusion    :     150
+resist_repress      :     150
+resist_melt         :     150
+resist_cage         :     150
+resist_lock         :     150
+resist_lost         :     150
+skills              :     ({ "B4", "B5" })
+tractics            :   "tactics_xuanbing"
+main_monster        :   "Àë»ð"
+tianjie             :   1
+#level               :   134
+sub                 :   1
+
+[Ð¡ºï6]
+amount              :    9
+name                :    "Ð¡ºï"
+portrait            :   6103
+icon                :     6103
+life_effect         :     800
+speed_effect        :     100
+phy_effect          :     150
+tao_effect          :     50
+double_hit_rate     :     50
+double_hit          :     3
+resist_forgotten    :     150
+resist_poison       :     150
+resist_frozen       :     150
+resist_sleep        :     150
+resist_confusion    :     150
+resist_repress      :     150
+resist_melt         :     150
+resist_cage         :     150
+resist_lock         :     150
+resist_lost         :     150
+tractics            :   "tactics_xiaohou_6"
+main_monster        :   "Í¨±ÛÔ³ºï6"
+tianjie             :   1
+#level               :   134
+sub                 :   1
+
+#################monsters of tianjie2###########################
+[Ñ¦¶¨]
+amount              : 1
+name                : "Ñ¦¶¨"
+icon                : 6252
+portrait            : 6252
+polar               : 2
+religion            : -1
+speed_effect        : 200
+mag_effect          : 300
+phy_effect          : 150
+tao_effect          : 300
+damage_sel_rate     : 50
+damage_sel          : 100
+resist_wood         : 50
+resist_poison       : 150
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 150
+resist_melt         : 150
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 150
+phy_absorb          : -50
+skills              : ({ "B5", "C5", "D4" })
+tractics            : "tactics_xueding"
+skill_success       : 1
+combat_trigger      : "combat_trigger_normal"
+tianjie             : 2
+sub                 : 0
+#level               : 139
+
+[ÀîÔ¾2]
+amount              : 1
+name                : "ÀîÔ¾"
+icon                : 6245
+portrait            : 6245
+polar               : 5
+religion            : -1
+speed_effect        : 200
+mag_effect          : 150
+phy_effect          : 300
+tao_effect          : 400
+stunt_rate          : 50
+resist_earth        : 50
+resist_forgotten    : 150
+resist_sleep        : 100
+resist_confusion    : 150
+resist_repress      : 150
+resist_lock         : 100
+resist_lost         : 150
+skills              : ({ "B5", "C5" })
+combat_trigger      : "combat_trigger_liyue_2"
+tractics            : "tactics_liyue_2"
+skill_success       : 1
+tianjie             : 2
+sub                 : 0
+#level               : 139
+
+[¶à±¦µÀÈË]
+amount              : 1
+name                : "±©Å­µÄ¶à±¦µÀÈË"
+icon                : 6273
+portrait            : 6273
+polar               : 1
+religion            : -1
+life_effect         : 2900
+speed_effect        : 150
+mag_effect          : 200
+phy_effect          : 100
+tao_effect          : 250
+resist_earth        : 50
+resist_forgotten    : 150
+resist_sleep        : 100
+resist_confusion    : 150
+resist_repress      : 150
+resist_lock         : 100
+resist_lost         : 150
+skills              : ({ "B5", "C5" })
+tractics            : "tactics_duobao_daoren"
+combat_trigger      : "combat_trigger_normal"
+tianjie             : 2
+sub                 : 0
+#level               : 139
+
+[ÆÆ¼×Éñ±ø]
+amount              : 9
+name                : "ÆÆ¼×Éñ±ø"
+icon                : 6223
+portrait            : 6223
+polar               : 3
+religion            : -1
+life_effect         : 900
+speed_effect        : 150
+phy_effect          : 150
+tao_effect          : 100
+penetrate           : 100
+resist_forgotten    : 150
+resist_frozen       : 150
+resist_confusion    : 150
+resist_repress      : 150
+resist_cage         : 150
+resist_lost         : 150
+phy_absorb          : -50
+tractics            : "tactics_pojia_shenbing"
+combat_trigger      : "combat_trigger_normal"
+tianjie             : 2
+main_monster        : "¶à±¦µÀÈË"
+#level               : 139
+sub                 : 1
+
+[Ò¹ÐÐÈË]
+amount              : 10
+name                : "Ò¹ÐÐÈË"
+icon                : 6213
+portrait            : 6213
+life_effect         : 1500
+speed_effect        : 100
+phy_effect          : 150
+tao_effect          : 200
+counter_attack_rate : 50
+counter_attack      : 5
+stunt_rate          : 50
+resist_earth        : 50
+resist_forgotten    : 150
+resist_frozen       : 50
+resist_confusion    : 150
+resist_repress      : 150
+resist_cage         : 50
+resist_lost         : 150
+tractics            : "tactics_yexingren"
+skill_success       : 1
+combat_trigger      : "combat_trigger_normal"
+tianjie             : 2
+#level               : 139
+sub                 : 0
+
+[ÀîÔ¾5]
+amount              : 3
+name                : "ÀîÔ¾"
+icon                : 6245
+portrait            : 6245
+polar               : 5
+religion            : -1
+life_effect         : 2900
+speed_effect        : 250
+mag_effect          : 150
+phy_effect          : 300
+tao_effect          : 400
+stunt_rate          : 50
+resist_earth        : 50
+resist_forgotten    : 150
+resist_sleep        : 100
+resist_confusion    : 150
+resist_repress      : 150
+resist_lock         : 100
+resist_lost         : 150
+skills              : ({ "B4", "B5", "C5" })
+tractics            : "tactics_liyue_5"
+combat_trigger      : "combat_trigger_normal"
+tianjie             : 2
+#level               : 139
+sub                 : 0
+
+################monsters of tianjie10####################
+
+[Â½Àë]
+amount              :   1
+name                :   "Â½Àë"
+portrait            :   6245
+icon                :   6245
+level               :   179
+polar               :   5
+religion            :   -1
+life_effect         :   5000
+speed_effect        :   200
+phy_effect          :   500
+mag_effect          :   400
+stunt_rate          :   100
+tao_effect          :   1000
+resist_forgotten    :   300
+resist_poison       :   300
+resist_frozen       :   300
+resist_sleep        :   300
+resist_confusion    :   300
+resist_repress      :   300
+resist_melt         :   300
+resist_cage         :   300
+resist_lock         :   300
+resist_lost         :   300
+skills              :   ({ "B5" })
+tractics            :   "tactics_luli"
+register_if         :   ({ "sf_die", "sf_die_luli" })
+tianjie             :   10
+sub                 :   0
+
+
+[»ÃÓ°]
+amount              :   9
+name                :   "»ÃÓ°"
+portrait            :   6272
+icon                :   6272
+level               :   179
+polar               :   -1
+religion            :   -1
+life_effect         :   1000
+speed_effect        :   -50
+phy_effect          :   200
+mag_effect          :   150
+tao_effect          :   200
+resist_forgotten    :   100
+resist_poison       :   100
+resist_frozen       :   100
+resist_sleep        :   100
+resist_confusion    :   100
+resist_repress      :   100
+resist_melt         :   100
+resist_cage         :   100
+resist_lock         :   100
+resist_lost         :   100
+skills              :   ({ "B4" })
+tractics            :   "tactics_huanying"
+tianjie             :   10
+sub                 :   1
+main_monster        :   "Â½Àë"
+
+
+[ÅÑÄæµÄÉ¢ÏÉ]
+amount              :   10
+name                :   "ÅÑÄæµÄÉ¢ÏÉ"
+portrait            :   6231
+icon                :   6231
+level               :   179
+polar               :   -1
+religion            :   -1
+life_effect         :   5000
+speed_effect        :   200
+phy_effect          :   300
+mag_effect          :   300
+stunt_rate          :   30
+tao_effect          :   200
+resist_forgotten    :   100
+resist_poison       :   100
+resist_frozen       :   100
+resist_sleep        :   100
+resist_confusion    :   100
+resist_repress      :   100
+resist_melt         :   100
+resist_cage         :   100
+resist_lock         :   100
+resist_lost         :   100
+skills              :   ({ "B4", "B5" })
+tractics            :   "tactics_panni_sanxian"
+tianjie             :   10
+sub                 :   0
+
+[ÑæÖÐÏÉÂÞÐû3]
+amount              :   1
+name                :   "ÑæÖÐÏÉÂÞÐû"
+portrait            :   6235
+icon                :   6235
+level               :   179
+polar               :   4
+religion            :   -1
+life_effect         :   8000
+speed_effect        :   5000
+phy_effect          :   300
+mag_effect          :   300
+stunt_rate          :   100
+tao_effect          :   1000
+resist_forgotten    :   300
+resist_poison       :   300
+resist_frozen       :   300
+resist_sleep        :   300
+resist_confusion    :   300
+resist_repress      :   300
+resist_melt         :   300
+resist_cage         :   300
+resist_lock         :   300
+resist_lost         :   300
+skills              :   ({ "B4", "B5" })
+tractics            :   "tactics_luoxuan_3"
+tianjie             :   10
+sub                 :   0
+
+[Ñ×Ä§]
+amount              :   9
+name                :   "Ñ×Ä§"
+portrait            :   6153
+icon                :   6153
+level               :   179
+polar               :   4
+religion            :   -1
+life_effect         :   100
+speed_effect        :   -100
+phy_effect          :   400
+mag_effect          :   300
+tao_effect          :   100
+resist_forgotten    :   300
+resist_poison       :   300
+resist_frozen       :   300
+resist_sleep        :   300
+resist_confusion    :   300
+resist_repress      :   300
+resist_melt         :   300
+resist_cage         :   300
+resist_lock         :   300
+resist_lost         :   300
+skills              :   ({ "B5" })
+tractics            :   "tactics_yanmo"
+tianjie             :   10
+sub                 :   1
+main_monster        : "ÑæÖÐÏÉÂÞÐû3"
+
+[ÑæÖÐÏÉÂÞÐû4]
+amount              :   1
+name                :   "ÑæÖÐÏÉÂÞÐû"
+portrait            :   6235
+icon                :   6235
+level               :   179
+polar               :   4
+religion            :   -1
+life_effect         :   8000
+speed_effect        :   5000
+phy_effect          :   300
+mag_effect          :   300
+stunt_rate          :   100
+tao_effect          :   1000
+resist_forgotten    :   300
+resist_poison       :   300
+resist_frozen       :   300
+resist_sleep        :   300
+resist_confusion    :   300
+resist_repress      :   300
+resist_melt         :   300
+resist_cage         :   300
+resist_lock         :   300
+resist_lost         :   300
+skills              :   ({ "B4", "B5" })
+tractics            :   "tactics_luoxuan_4"
+tianjie             :   10
+sub                 :   0
+
+[ÑæÁé]
+amount              :   9
+name                :   "ÑæÁé"
+portrait            :   6153
+icon                :   6153
+level               :   179
+polar               :   4
+religion            :   -1
+life_effect         :   100
+speed_effect        :   -100
+phy_effect          :   400
+mag_effect          :   300
+tao_effect          :   100
+resist_forgotten    :   300
+resist_poison       :   300
+resist_frozen       :   300
+resist_sleep        :   300
+resist_confusion    :   300
+resist_repress      :   300
+resist_melt         :   300
+resist_cage         :   300
+resist_lock         :   300
+resist_lost         :   300
+tractics            :   "tactics_yanling"
+tianjie             :   10
+sub                 :   1
+main_monster        : "ÑæÖÐÏÉÂÞÐû4"
+
+[Éê·ü»¢5]
+amount              :   1
+name                :   "Éê·ü»¢"
+portrait            :   6244
+icon                :   6244
+level               :   179
+polar               :   1
+religion            :   -1
+life_effect         :   8000
+speed_effect        :   200
+phy_effect          :   400
+mag_effect          :   400
+phy_absorb          :   -100
+tao_effect          :   5000
+resist_forgotten    :   500
+resist_poison       :   500
+resist_frozen       :   500
+resist_sleep        :   500
+resist_confusion    :   500
+resist_repress      :   500
+resist_melt         :   500
+resist_cage         :   500
+resist_lock         :   500
+resist_lost         :   500
+skills              :   ({ "B5" })
+tractics            :   "tactics_shen_fuhu_5"
+tianjie             :   10
+sub                 :   0
+
+[Éê·ü»¢Ö®Ó°]
+amount              :   1
+name                :   "Éê·ü»¢Ö®Ó°"
+portrait            :   6244
+icon                :   6244
+level               :   179
+polar               :   1
+religion            :   -1
+life_effect         :   8000
+speed_effect        :   2000
+phy_effect          :   400
+mag_effect          :   400
+mag_absorb          :   -100
+tao_effect          :   300
+resist_forgotten    :   500
+resist_poison       :   500
+resist_frozen       :   500
+resist_sleep        :   500
+resist_confusion    :   500
+resist_repress      :   500
+resist_melt         :   500
+resist_cage         :   500
+resist_lock         :   500
+resist_lost         :   500
+skills              :   ({ "C5" })
+tractics            :   "tactics_shenfh_zhiying_5"
+tianjie             :   10
+sub                 :   1
+main_monster        :   "Éê·ü»¢5"
+
+[ÎÞµÐµÄÉê·ü»¢]
+amount              :   1
+name                :   "ÎÞµÐµÄÉê·ü»¢"
+portrait            :   6244
+icon                :   6244
+level               :   179
+polar               :   1
+religion            :   -1
+life_effect         :   8000
+speed_effect        :   -100
+phy_effect          :   8000
+mag_effect          :   8000
+phy_absorb          :   -100
+mag_absorb          :   -100
+stunt_rate          :   100
+tao_effect          :   5000
+resist_forgotten    :   500
+resist_poison       :   500
+resist_frozen       :   500
+resist_sleep        :   500
+resist_confusion    :   500
+resist_repress      :   500
+resist_melt         :   500
+resist_cage         :   500
+resist_lock         :   500
+resist_lost         :   500
+skills              :   ({ "B5" })
+tractics            :   "tactics_wudi_shen_fuhu"
+tianjie             :   10
+sub                 :   0
+
+[Éê·ü»¢7]
+amount              :   1
+name                :   "Éê·ü»¢"
+portrait            :   6244
+icon                :   6244
+level               :   179
+polar               :   1
+religion            :   -1
+life_effect         :   8000
+speed_effect        :   2000
+phy_effect          :   500
+mag_effect          :   500
+stunt_rate          :   100
+tao_effect          :   5000
+resist_forgotten    :   500
+resist_poison       :   500
+resist_frozen       :   500
+resist_sleep        :   500
+resist_confusion    :   500
+resist_repress      :   500
+resist_melt         :   500
+resist_cage         :   500
+resist_lock         :   500
+resist_lost         :   500
+skills              :   ({ "B5" })
+tractics            :   "tactics_shen_fuhu_7"
+tianjie             :   10
+sub                 :   0
+
+[±ªÁé]
+amount              :   0
+name                :   "±ªÁé"
+portrait            :   30016
+icon                :   30016
+level               :   179
+polar               :   -1
+religion            :   -1
+life_effect         :   3000
+speed_effect        :   1000
+phy_effect          :   200
+mag_effect          :   200
+tao_effect          :   200
+resist_forgotten    :   100
+resist_poison       :   100
+resist_frozen       :   100
+resist_sleep        :   100
+resist_confusion    :   100
+resist_repress      :   100
+resist_melt         :   100
+resist_cage         :   100
+resist_lock         :   100
+resist_lost         :   100
+skills              :   ({ "B4" })
+tractics            :   "tactics_baoling"
+tianjie             :   10
+sub                 :   1
+main_monster        :   "Éê·ü»¢7"

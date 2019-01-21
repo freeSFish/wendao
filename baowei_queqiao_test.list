@@ -1,0 +1,54 @@
+#FORM2
+
+[setting]
+start_monster_time    : "2013-05-23-10:00:00"
+end_monster_time      : "2013-05-23-19:19:59"
+start_fire_party_time : "2013-05-23-19:30:00"
+end_fire_party_time   : "2013-05-23-19:32:59"
+start_map_effect_time : "2013-05-23-00:00:00"
+end_map_effect_time   : "2013-05-23-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1", "broadcast_2", "broadcast_3", "broadcast_4", "broadcast_5", "broadcast_6" })
+
+[broadcast_1]
+broadcast_start : "start_time(-600)"
+interval        : 120
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_before_task"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_2]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【七夕节】#n#Y不好了！！！出大事了！！！#n#Q131#Z天墉城#Z已经聚集了大量的#Y天兵#n与#Y天将#n，各位道友速来速来啊~~~"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_3]
+broadcast_start : "start_time(+1800)"
+interval        : 1800
+broadcast_end   : "end_time(-782)"
+message         : "#R【七夕节】#n正所谓路见不平，拔刀相助#Q131。道友们在#Z天墉城#Z和#Y天兵#n与#Y天将#n打得是不可开交，还请其他道友速速支援啊！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_4]
+broadcast_start : "end_time(-780)"
+interval        : 0
+broadcast_end   : "end_time(-779)"
+message         : "#R【七夕节】#n太好了！在大家的共同努力下，#Z天墉城#Z的#Y天兵#n与#Y天将#n已全部退去，#Y牛郎#n与#Y织女#n终于得以相会#Q149。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_5]
+broadcast_start : "end_time(-780)"
+interval        : 60
+broadcast_end   : "end_time(-181)"
+broadcast_func  : "broadcast_fire_party_time"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_6]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(10)"
+message         : "#R七夕节活动#n圆满落下帷幕，感谢大家的热情参与，各位道友我们来年再续！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,242 @@
+#FORM2
+
+#shidaodahui.list
+#Created by llch 8/3/2006
+#试道大会配置文件
+
+[传送坐标]
+#回天墉城: ({ X坐标, Y坐标 })
+回天墉城: ({ 223, 131 })
+
+#去试道场: ({ X坐标, Y坐标, 半径 })
+去试道场: ({ 101, 76, 15  })
+
+[match_list]
+match$: "60-69"
+match$: "70-79"
+match$: "80-89"
+match$: "90-99"
+match$: "100-109"
+match$: "110-119"
+match$: "120-129"
+match$: "130-139"
+match$: "140-149"
+match$: "150-159"
+match$: "160-169"
+
+#[XX]: XX为比赛分组
+#broadcast:             比赛开始广播到开始报名的间隔时间（秒）
+#signup:                比赛开始报名到比赛开始的间隔时间（秒）
+#monster_rate:          怪物数量对参赛人数的比率（基于100）
+#initial_monster_rate:  初始怪物数量对参赛人数的比率（基于100）
+#stage1_player_minimum: 挑战元魔最少人数
+#stage2_player_minimum: 颠峰对决最少人数
+#start_time:            比赛开始时间
+#stage1_duration:       挑战元魔活动持续时间
+#stage2_duration:       颠峰对决活动持续时间
+#stage2_init_score:     颠峰对决初始化积分
+#protect_time:          保护时间
+#broadcast_change_state:第二阶段开始前广播时间
+#broadcast_stop:        比赛结束前广播到比赛结束的间隔时间（秒）
+#title:                 获得比赛胜利后的头衔
+#new_dist_coin_bonus:   新区前三名银元宝奖励
+#level:                 指定比赛要求的玩家级别范围
+
+[60-69]
+level: ({ 60, 69 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[70-79]
+level: ({ 70, 79 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+
+[80-89]
+level: ({ 80, 89 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[90-99]
+level: ({ 90, 99 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[100-109]
+level: ({ 100, 109 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[110-119]
+level: ({ 110, 119 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[120-129]
+level: ({ 120, 129 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[130-139]
+level: ({ 130, 139 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[140-149]
+level: ({ 140, 149 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[150-159]
+level: ({ 150, 159 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者
+
+[160-169]
+level: ({ 160, 169 })
+broadcast:              1800
+signup:                 600
+monster_rate:           200
+initial_monster_rate:   50
+stage1_player_minimum:  5
+stage2_player_minimum:  0
+start_time$:            "周4-20:00:00"
+stage1_duration:        1800
+stage2_duration:        7200
+stage2_init_score:      4
+protect_time:           10
+broadcast_change_state: 300
+broadcast_stop:         600
+new_dist_coin_bonus:    ({ 30000, 20000, 10000 })
+title:                  试道王者

@@ -1,0 +1,125 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-10-31-14:00:00", 3600, 86400, "2015-11-03-23:59:00" })
+time_list$ : ({ "2015-10-31-20:00:00", 3600, 86400, "2015-11-03-23:59:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "during_task", "pre_end_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-600)"
+interval        : 60
+broadcast_end   : "start_time(-10)"
+broadcast_func  : "broadcast_pre_start_task"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "start_time(+2401)"
+message         : "传说中的#R幻兽试炼#n已经开启，通过试炼即可获得大量奖励，时间有限，赶紧打开#@幻兽秘卷|Open:HsslMapDlg#@向幻兽发起挑战吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[pre_end_task]
+broadcast_start : "end_time(-600)"
+interval        : 60
+broadcast_end   : "end_time(-10)"
+broadcast_func  : "broadcast_pre_end_task"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "本次#R幻兽试炼#n已经结束，没有来得及通过试炼的道友请把握好下次机会！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[stage_boss_list]
+boss_list$ : ({ "百年象精" })
+boss_list$ : ({ "百花羞" })
+boss_list$ : ({ "牛魔王" })
+boss_list$ : ({ "夜叉王" })
+boss_list$ : ({ "黑熊妖皇", "血炼魔猪" })
+boss_list$ : ({ "罗刹王" })
+boss_list$ : ({ "白骨精" })
+boss_list$ : ({ "孔雀妖姬" })
+boss_list$ : ({ "阎摩罗王" })
+boss_list$ : ({ "天煞狂狮", "灭天血刺" })
+boss_list$ : ({ "冰麟" })
+boss_list$ : ({ "金睛" })
+boss_list$ : ({ "神牛" })
+boss_list$ : ({ "玄凤" })
+boss_list$ : ({ "噬地", "吞天" })
+
+[百年象精]
+icon     : 6207
+template : "common_boss"
+
+[百花羞]
+icon     : 6241
+template : "common_boss"
+
+[牛魔王]
+icon     : 6259
+template : "common_boss"
+
+[夜叉王]
+icon     : 6277
+template : "common_boss"
+
+[黑熊妖皇]
+icon     : 6600
+template : "super_boss"
+
+[血炼魔猪]
+icon     : 6603
+template : "super_boss"
+
+[罗刹王]
+icon     : 6278
+template : "common_boss"
+
+[白骨精]
+icon     : 6280
+template : "common_boss"
+
+[孔雀妖姬]
+icon     : 6287
+template : "common_boss"
+
+[阎摩罗王]
+icon     : 20051
+template : "common_boss"
+
+[天煞狂狮]
+icon     : 6601
+template : "super_boss"
+
+[灭天血刺]
+icon     : 6602
+template : "super_boss"
+
+[玄凤]
+icon     : 6158
+template : "yishou_boss"
+
+[神牛]
+icon     : 30510
+template : "yishou_boss"
+
+[金睛]
+icon     : 6225
+template : "yishou_boss"
+
+[冰麟]
+icon     : 6162
+template : "yishou_boss"
+
+[噬地]
+icon     : 6697
+template : "god_boss"
+
+[吞天]
+icon     : 6694
+template : "god_boss"

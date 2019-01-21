@@ -1,0 +1,62 @@
+ #FORM2
+
+[活动时间]
+time_list$ : ({ "2016-02-05-00:00:00", "EVERY_DAY(24)", 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-60)"
+message         : "值此新年之际，#Y颛顼#n给全中洲玩家送福啦！快去#P活动大使#P处领取任务给中洲各地的药铺送去福缘，使中洲百姓免于病痛吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[龙族主怪]
+polar                 : -1
+religion              : -1
+life_effect           : "500 + LV / 100 * 350 + LV / 130 * 250 + LV / 140 * 350 + LV / 150 * 150"
+mag_effect            : "20 + LV / 70 * 40 + LV / 100 * 20 + LV / 130 * 20 + LV / 140 * 20 + LV / 150 * 20"
+phy_effect            : "20 + LV / 70 * 40 + LV / 100 * 20 + LV / 130 * 20 + LV / 140 * 20 + LV / 150 * 20"
+phy_absorb            : 20
+mag_absorb            : 20
+tao_effect            : "100 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50 + LV / 150 * 50"
+speed_effect          : 150
+skills                : ({ "B1", "B2", "B3", "B4", "B5", "D4", "D5" })
+artifact              : ({ "fantianyin", 20 })
+modify_attribs        : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics               : "tactics_longzu"
+
+[龙族小怪]
+polar                 : -1
+religion              : -1
+life_effect           : "500 + LV / 100 * 350 + LV / 130 * 250 + LV / 140 * 350 + LV / 150 * 150"
+mag_effect            : "20 + LV / 70 * 40 + LV / 100 * 20 + LV / 130 * 20 + LV / 140 * 20 + LV / 150 * 20"
+phy_effect            : "20 + LV / 70 * 40 + LV / 100 * 20 + LV / 130 * 20 + LV / 140 * 20 + LV / 150 * 20"
+phy_absorb            : 20
+mag_absorb            : 20
+tao_effect            : "100 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50 + LV / 150 * 50"
+speed_effect          : 150
+skills                : ({ "B2", "B3", "B4", "B5", "lipo-qianjun" })
+yinlingfan_skill      : ({ "kexue-qishu", "STD" })
+artifact              : ({ "fantianyin", 20 })
+modify_attribs        : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics               : "tactics_longzu_xiaoguai"
+
+[玄武主怪]
+name                  : "玄武"
+icon                  : 6191
+portrait              : 6191
+polar                 : -1
+religion              : -1
+life_effect           : 9999
+phy_absorb            : -100
+mag_absorb            : -100
+tao_effect            : 5000
+tactics               : "tactics_xuanwu"
+
+[玄武小怪]
+polar                 : -1
+religion              : -1
+tactics               : "tactics_xuanwu_xiaoguai"

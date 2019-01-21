@@ -1,0 +1,39 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-06-21-12:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-06-26-14:00:00" })
+time_list$ : ({ "2011-06-27-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2011-09-02-22:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "随着一声巨响，龙宫深处出现了一道裂缝，神秘的地府通道现世了。有大量恶鬼从地府中逃窜出来，正在#Z东海渔村#Z处作恶，请大家前往协助保卫村民。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#R鬼门初开#n活动正在进行中，请大家前往#Z东海渔村#Z，铲除从地府中逃窜出的#R恶鬼#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "经过大家的努力，在#Z东海渔村#Z作恶的恶鬼暂时得到了控制。但地府通道已经打开，会有更多的恶鬼逃窜出来，如何能避免这场人间界的浩劫呢？请关注明天的活动#R封印之法#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start]
+time     : 1800
+content  : "东海动荡，封闭千年的神秘地府即将重现人间，人间界又会掀起怎样的风雨呢？鬼门初开活动将于#R%d#n分钟后开启，请大家做好准备。"
+duration : 600
+
+[before_end]
+time     : 900
+content  : "#R鬼门初开#n活动将于#R%d#n分钟后结束，请大家努力顶住恶鬼的最后一波攻击。"
+duration : 300

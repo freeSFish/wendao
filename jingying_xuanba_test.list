@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-10-30-00:00:00", "EVERY_DAY(3)", 0, "2015-11-01-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(+1)"
+message         : "#R【超神之战】精英选拔#n活动开始了，#Z天墉城#Z出现一批批#Y恐怖恶魔#n，快将其击杀成为万众瞩目的英雄吧！在#P活动大使#P处购买#R超神符咒卡#n，变身为四种超级大BOSS的形象，同时拥有其特殊技能。快来尽情的虐杀#Y恐怖恶魔#n吧，可以获得更加丰厚的奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#Y恐怖恶魔#n已被驱赶出城镇，本次#R【超神之战】精英选拔#n活动完满结束，谢谢大家的配合参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

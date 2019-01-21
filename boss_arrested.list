@@ -1,0 +1,212 @@
+#FORM2
+
+# start_type活动的开启方式，
+# 1表示以setting1这种有规律的方式配置
+# 2表示以setting2做随意的时间的配置
+# setting1-start_time开启时间以超过整点的秒数计
+# setting1-duration_time活动的持续时间
+# setting1-interval_time两次活动开启的间隔时间
+# setting2-maf_time本次的开启时间和持续时间
+
+[type]
+setting_type : 1
+
+[setting1]
+start_time    : 1800
+duration_time : 600
+interval_time : 3600
+
+[setting2]
+maf_time$ : ({ "2009-04-03-12:30:00", 600 })
+maf_time$ : ({ "2009-04-03-18:30:00", 600 })
+maf_time$ : ({ "2009-04-25-20:30:00", 600 })
+
+[monster]
+icon : ({ "6249", "6245", "6244" })
+
+#法攻型怪物
+[6249-0]
+name              : 仙界叛逆
+portrait          : 6249
+polar             : -1
+religion          : -1
+speed_effect      : 30
+tao_effect        : 10
+phy_effect        : 150
+mag_effect        : 200
+phy_absorb        : 100
+all_resist_except : 45
+skills            : ({ "B2", "B4" })
+
+[6249-1]
+name              : 仙界叛逆
+portrait          : 6249
+polar             : -1
+religion          : -1
+speed_effect      : 60
+tao_effect        : 200
+phy_effect        : 600
+mag_effect        : 800
+phy_absorb        : 100
+all_resist_except : 90
+skills            : ({ "B2", "B4" })
+
+#物攻型怪物
+[6245-0]
+name              : 仙界叛逆
+portrait          : 6245
+polar             : -1
+religion          : -1
+speed_effect      : 30
+tao_effect        : 10
+phy_effect        : 200
+mag_effect        : 150
+mag_absorb        : 100
+all_resist_except : 45
+stunt_rate        : 50
+accurate          : 100
+
+[6245-1]
+name              : 仙界叛逆
+portrait          : 6245
+polar             : -1
+religion          : -1
+speed_effect      : 60
+tao_effect        : 200
+phy_effect        : 800
+mag_effect        : 600
+mag_absorb        : 100
+all_resist_except : 90
+stunt_rate        : 50
+accurate          : 100
+
+#障碍型怪物
+[6244-0]
+name              : 仙界叛逆
+portrait          : 6244
+polar             : -1
+religion          : -1
+speed_effect      : 60
+tao_effect        : 50
+phy_effect        : 150
+mag_effect        : 150
+all_resist_except : 75
+skills            : ({ "C4", "B4" })
+
+[6244-1]
+name              : 仙界叛逆
+portrait          : 6244
+polar             : -1
+religion          : -1
+speed_effect      : 120
+tao_effect        : 450
+phy_effect        : 600
+mag_effect        : 600
+all_resist_except : 100
+skills            : ({ "C4", "B4" })
+
+#物品奖励
+[item_bonus]
+stone        : 40
+medicine     : 40
+charge_item  : 20
+
+#妖石奖励
+[stone]
+枯月流魂$ : ({ "枯月流魂" })
+冰落残阳$ : ({ "冰落残阳" })
+凝香幻彩$ : ({ "凝香幻彩" })
+炫影霜星$ : ({ "炫影霜星" })
+风寂云清$ : ({ "风寂云清" })
+
+[枯月流魂]
+weight    : 10
+amount    : 1
+level_min : 4
+level_max : 7
+
+[冰落残阳]
+weight    : 10
+amount    : 1
+level_min : 4
+level_max : 7
+
+[凝香幻彩]
+weight    : 10
+amount    : 1
+level_min : 4
+level_max : 7
+
+[炫影霜星]
+weight    : 10
+amount    : 1
+level_min : 4
+level_max : 7
+
+[风寂云清]
+weight    : 10
+amount    : 1
+level_min : 4
+level_max : 7
+
+#药品奖励
+[medicine]
+百灵丹$ : ({ "百灵丹" })
+九圣散$ : ({ "九圣散" })
+
+[百灵丹]
+weight : 50
+amount : 5
+
+[九圣散]
+weight : 50
+amount : 5
+
+
+#收费道具
+[charge_item]
+特效仙风散$  : ({ "特效仙风散" })
+超级仙风散$  : ({ "超级仙风散" })
+引路蜂$  : ({ "引路蜂" })
+急急如律令$  : ({ "急急如律令"})
+飞行符$  : ({ "飞行符" })
+宠风散$  : ({ "宠风散" })
+金蝉脱壳$  : ({ "金蝉脱壳" })
+天神护佑$  : ({ "天神护佑" })
+驯兽诀$  : ({ "驯兽诀" })
+
+[特效仙风散]
+weight : 10
+amount : 1
+
+[超级仙风散]
+weight : 10
+amount : 1
+
+[引路蜂]
+weight : 10
+amount : 1
+
+[急急如律令]
+weight : 10
+amount : 1
+
+[飞行符]
+weight : 10
+amount : 1
+
+[宠风散]
+weight : 10
+amount : 1
+
+[金蝉脱壳]
+weight : 10
+amount : 1
+
+[天神护佑]
+weight : 10
+amount : 1
+
+[驯兽诀]
+weight : 10
+amount : 1

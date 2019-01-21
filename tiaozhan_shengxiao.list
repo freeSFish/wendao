@@ -1,0 +1,43 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-09-11-19:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2012-09-11-15:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_start_task", "start_task", "during_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1799)"
+message         : "#R【周活动】生肖挑战#n即将于#YSTART_TIME#n开始，任务在#Z天墉城#Z的#P生肖使者#P处发布，届时所有40级及以上的玩家都可以找#P生肖使者#P参加活动。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-299)"
+message         : "#R【周活动】生肖挑战#n即将于#YSTART_TIME#n开始，任务在#Z天墉城#Z的#P生肖使者#P处发布，届时所有40级及以上的玩家都可以找#P生肖使者#P参加活动。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【周活动】生肖挑战#n开始了！所有40级及以上的玩家都可以到天墉城找#P生肖使者#P领取任务，挑战任务指定的生肖即可获得奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(600)"
+interval        : 600
+broadcast_end   : "end_time(-599)"
+message         : "[#Y生肖使者#n]#R【周活动】生肖挑战#n火热进行中！你还没参加？快到天墉城找我#P生肖使者#P参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【周活动】生肖挑战#n结束了，欢迎大家在下周同一时间继续参与本活动！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

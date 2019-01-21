@@ -1,0 +1,61 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2014-04-14-00:00:00", "EVERY_DAY(20)", "EVERY_WEEK(0)", "2014-05-03-23:59:59" })
+
+[劫匪]
+name             : 劫匪
+icon             : 6201
+portrait         : 6201
+polar            : 1
+religion         : -1
+life_effect      : "900 + LV / 70 * 100 + LV / 100 * 150 + LV / 130 * 250 + LV / 150 * 100"
+phy_effect       : "30 + LV / 70 * 40 + LV / 100 * 30 + LV / 130 * 40 + LV / 150 * 40"
+mag_effect       : "30 + LV / 70 * 40 + LV / 100 * 30 + LV / 130 * 40 + LV / 150 * 40"
+penetrate_rate   : 30
+penetrate        : 50
+speed_effect     : 0
+tao_effect       : "50 + (LV - 70) / 30 * 50"
+stunt_rate       : 50
+skills           : ({ "B3", "B4", "lipo-qianjun" })
+random_attrib    : ({ "speed_effect", 50 })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics          : "tactics_monster_jiefei"
+
+[无赖]
+name             : 无赖
+icon             : 6231
+portrait         : 6231
+polar            : 2
+religion         : -1
+life_effect      : "900 + LV / 70 * 100 + LV / 100 * 150 + LV / 130 * 250 + LV / 150 * 100"
+phy_effect       : "30 + LV / 70 * 40 + LV / 100 * 30 + LV / 130 * 40 + LV / 150 * 40"
+mag_effect       : "30 + LV / 70 * 40 + LV / 100 * 30 + LV / 130 * 40 + LV / 150 * 40"
+penetrate_rate   : 30
+penetrate        : 50
+speed_effect     : 0
+tao_effect       : 0
+stunt_rate       : 50
+skills           : ({ "B3", "B4", "lipo-qianjun", "C4" })
+random_attrib    : ({ "speed_effect", 50 })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+tactics          : "tactics_monster_wulai"
+
+[神将]
+name             : 神将
+icon             : ({ 21016, 22020 })
+polar            : 3
+religion         : -1
+life_effect      : "900 + LV / 70 * 100 + LV / 100 * 150 + LV / 130 * 250 + LV / 150 * 100"
+phy_effect       : "30 + LV / 70 * 40 + LV / 100 * 30 + LV / 130 * 40 + LV / 150 * 40"
+mag_effect       : "30 + LV / 70 * 40 + LV / 100 * 30 + LV / 130 * 40 + LV / 150 * 40"
+penetrate_rate   : 30
+penetrate        : 50
+speed_effect     : 0
+tao_effect       : 0
+double_hit_rate  : 50
+double_hit       : 3
+skills           : ({ "B3", "B4", "lipo-qianjun" })
+random_attrib    : ({ "speed_effect", 50, "tao_effect", 100 })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+tactics          : "tactics_monster_shenjiang"

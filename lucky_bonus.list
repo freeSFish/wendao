@@ -1,0 +1,156 @@
+#FORM2
+
+[角色经验1]
+bonus_type : "exp"
+bonus_name : "角色经验1"
+req_level  : ({ 1, 180 })
+rate       : 6000
+default_bonus : 1
+bonus_rate : 1
+bonus_icon : 10877
+
+[角色道行1]
+bonus_type : "tao"
+bonus_name : "角色道行1"
+req_level  : ({ 1, 180 })
+rate       : 6000
+bonus_rate : 1
+bonus_icon : 10883
+
+[角色潜能1]
+bonus_type : "pot"
+bonus_name : "角色潜能1"
+req_level  : ({ 1, 180 })
+rate       : 5500
+bonus_rate : 1
+bonus_icon : 10889
+
+[角色经验3]
+bonus_type : "exp"
+bonus_name : "角色经验3"
+req_level  : ({ 10, 180 })
+rate       : 3000
+bonus_rate : 3
+bonus_icon : 10879
+
+[角色道行3]
+bonus_type : "tao"
+bonus_name : "角色道行3"
+req_level  : ({ 10, 180 })
+rate       : 3000
+bonus_rate : 3
+bonus_icon : 10885
+
+[角色潜能3]
+bonus_type : "pot"
+bonus_name : "角色潜能3"
+req_level  : ({ 10, 180 })
+rate       : 2500
+bonus_rate : 3
+bonus_icon : 10891
+
+[角色经验10]
+bonus_type : "exp"
+bonus_name : "角色经验10"
+req_level  : ({ 40, 180 })
+rate       : 2000
+bonus_rate : 10
+bonus_icon : 10881
+
+[角色道行10]
+bonus_type : "tao"
+bonus_name : "角色道行10"
+req_level  : ({ 40, 180 })
+rate       : 1500
+bonus_rate : 10
+bonus_icon : 10887
+
+[超级仙风散]
+bonus_type : "item"
+bonus_name : "超级仙风散"
+rate       : 40
+bonus_icon : 10893
+
+[血池]
+bonus_type : "item"
+bonus_name : "血池"
+rate       : 40
+bonus_icon : 10893
+
+[驯兽诀]
+bonus_type : "item"
+bonus_name : "驯兽诀"
+rate       : 40
+bonus_icon : 10893
+
+[烟花筒]
+bonus_type : "item"
+bonus_name : "烟花筒"
+rate       : 40
+bonus_icon : 10893
+
+[飞行符]
+bonus_type : "item"
+bonus_name : "飞行符"
+rate       : 20
+bonus_icon : 10895
+
+[血玲珑]
+bonus_type : "item"
+bonus_name : "血玲珑"
+rate       : 20
+bonus_icon : 10895
+
+[特级八卦阴阳令]
+bonus_type : "item"
+bonus_name : "特级八卦阴阳令"
+rate       : 15
+rumor_flag : 2
+bonus_icon : 10897
+
+[特效仙风散]
+bonus_type : "item"
+bonus_name : "特效仙风散"
+rate       : 15
+rumor_flag : 2
+bonus_icon : 10897
+
+[灵池]
+bonus_type : "item"
+bonus_name : "灵池"
+rate       : 15
+rumor_flag : 2
+bonus_icon : 10897
+
+[法玲珑]
+bonus_type : "item"
+bonus_name : "法玲珑"
+rate       : 10
+rumor_flag : 2
+bonus_icon : 10899
+
+[道具套餐卡]
+bonus_type : "item"
+bonus_name : "道具套餐卡"
+rate       : 1
+rumor_flag : 2
+quato_num  : 1
+bonus_icon : 10901
+
+[变异精魄]
+bonus_type : "item"
+bonus_name : "变异精魄"
+rate       : 1
+rumor_flag : 2
+quato_num  : 1
+bonus_icon : 10905
+no_gift    : 1
+
+[神兽精魄]
+bonus_type : "item"
+bonus_name : "神兽精魄"
+rate       : 1
+rumor_flag : 2
+quato_num  : 1
+bonus_icon : 10907
+no_gift    : 1

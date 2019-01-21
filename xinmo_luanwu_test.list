@@ -1,0 +1,32 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-02-15-15:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "-1" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "during_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-7200)"
+interval        : 1200
+broadcast_end   : "start_time(-60)"
+message         : "#R群魔乱舞#n活动将于#RSTART_TIME#n开启，60级以上玩家参与该活动将获得丰厚的经验、道行、潜能、宠物武学奖励，更有机会获得各种#R商城道具#n奖励，届时请去#Z天墉城#Z找#P神算子#P参加。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 1200
+broadcast_end   : "end_time(-60)"
+message         : "#R群魔乱舞#n活动正在进行中，众多道友正在场内与心魔激烈对抗，大家快去找#Z天墉城#Z的#P神算子#P参加吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+60)"
+message         : "由于大家奋勇对抗心魔，魔王之力已经渐渐衰弱，心魔之门也逐渐关闭了。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[心魔]
+name            : "心魔"
+monster_menu    : ({ "menu_xinmo_content", "menu_xinmo_action" })

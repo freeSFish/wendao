@@ -1,0 +1,7 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-08-31-00:00:00", "EVERY_DAY(7)", 0 })
+
+[default]
+all_ticket_num: 100000

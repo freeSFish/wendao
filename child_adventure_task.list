@@ -1,0 +1,34 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-10-14-00:00:00", "EVERY_MIN(30)", "EVERY_HOUR(1)", "2011-10-21-23:59:00" })
+
+[time_info]
+start_time : "2011-10-14-00:00:00"
+end_time   : "2011-10-21-23:59:00"
+
+[npcs_info]
+亲子活动大使 : ({ 20007, "天墉城", 240, 187, 5 })
+帆帆 : ({ 7010, "揽仙镇", 207, 149, 6 })
+华华 : ({ 7012, "东海渔村", 79, 22, 6 })
+俊俊 : ({ 7014, "无名小镇", 15, 79, 5 })
+婷婷 : ({ 7011, "揽仙镇", 203, 63, 5 })
+晶晶 : ({ 7013, "东海渔村", 208, 162, 7 })
+慧慧 : ({ 7015, "无名小镇", 94, 183, 5 })
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "start_task" })
+
+[before_task]
+broadcast_start : "start_time(-600)"
+interval        : 120
+broadcast_end   : "start_time(-60)"
+message         : "娃娃冒险活动将于#RSTART_TIME#n在#Z天墉城#Z开启，请大家做好准备一起去进行大冒险吧。#R活动时间:10月14日-10月21日每个整点#n"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 60
+broadcast_end   : "start_time(+300)"
+message         : "娃娃冒险活动已经开始了，大家快去#P亲子活动大使|天墉城（240，187）#P那里参加娃娃冒险活动吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

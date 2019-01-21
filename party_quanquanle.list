@@ -1,0 +1,38 @@
+#FORM2
+
+[time_info]
+duration : 1500
+
+[game_info]
+bonus_item       : "藏宝箱"
+stage_exp_rate   : ({ 15000, 14000, 13000, 8000, 8000, 8000, 8000, 8000, 8000, 8000 })
+stage_pot_rate   : ({ 120, 100, 80, 70 ,60, 50, 40, 30, 20, 15 })
+stage_contrib    : ({ 500, 400, 300, 200 ,100, 100, 100, 100, 100, 100 })
+
+[before_start]
+duration : 60
+channel  : CHANNEL_PARTY
+content  : "#R圈圈乐#n活动即将在#R%s#n于#R%s帮派总坛#n开启，请大家做好准备。"
+
+[start]
+channel : CHANNEL_PARTY
+content : "#R圈圈乐#n活动开始啦，大家快到#R%s#n的#Z帮派总坛(17,158)#Z踩圈圈吧，踩的最多的人可以获得大奖哦！注意：下线或换线会重新统计数量。"
+
+[after_start]
+time      : 120
+duration  : 120
+last_time : 600
+channel   : CHANNEL_PARTY
+content   : "#R圈圈乐#n活动开始啦，大家快到#R%s#n的#Z帮派总坛(17,158)#Z踩圈圈吧，踩的最多的人可以获得大奖哦！注意：下线或换线会重新统计数量。"
+
+[refresh_control]
+time     : 300
+duration : 300
+channel  : CHANNEL_PARTY
+content  : "最后一波圈圈已经产生了，大家抓住最后的时机，赶快踩吧！5分钟后，将产生本次圈圈乐活动的结果！"
+
+[end]
+channel : CHANNEL_PARTY
+none    : "#R圈圈乐#n活动结束了，本次活动本帮没有玩家参加。"
+full    : "#R圈圈乐#n活动结束了，本次活动的冠军是#Y%s#n，成绩是#R%d#n个圈圈，前十名的其他玩家分别是：#Y%s#n，恭喜你们获得奖励！"
+lack    : "#R圈圈乐#n活动结束了，取得名次的玩家为：#Y%s#n，大家表示祝贺！"

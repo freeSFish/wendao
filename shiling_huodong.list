@@ -1,0 +1,24 @@
+#FORM2
+
+#Pos 客户端显示的顺序
+#Show 活动名称
+#Path 寻路信息
+#Reward 奖励内容
+#Time 内测区活动时间表
+#PublicTime 公测区活动时间表
+#TaskDes 任务介绍
+#TaskLimit 限制
+#TaskTime 具体时间
+#TaskReward 奖励
+
+#[祝福问道]
+#Pos  : 0
+#Show : "#G祝福问道#n"
+#Path : "#P五周年庆典大使|天墉城(240,186)#P"
+#Reward : "五周年纪念宠等"
+#Time : "#G2011.04.01-2011.04.06#n"
+#PublicTime : "#G2011.04.12-2011.05.04#n"
+#TaskDes : "#Y任务介绍:#n去找天墉城的#Y五周年庆典大使#n处领取#R祝福问道#n任务，完成任务即可进行抽奖一次。"
+#TaskLimit : "#Y限制:#n1天1次"
+#TaskTime : "#Y具体时间:#n00:00-23:59"
+#TaskReward : "#Y奖励:#n五周年纪念宠物，稀有骑宠，五周年幸运签、宠物精魄及商城道具等"

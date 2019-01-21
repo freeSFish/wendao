@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-01-10-17:30:00", "EVERY_HOUR(2)", 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "end_task", "during_task" })
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R服务器补偿活动#n已经结束，感谢各位道友的理解和支持！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 60
+broadcast_end   : "end_time(-30)"
+message         : "#R服务器补偿活动#n已经开启，鸿钧老祖的服务器补偿大礼已送上，大家快去TASK_OPEN_SERVER#Z天墉城#Z开启#R补偿宝箱#n吧，此次大礼将在#REND_TIME#n准时送完。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

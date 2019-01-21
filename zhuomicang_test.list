@@ -1,0 +1,44 @@
+#FORM2
+#monsters--monster name : monster num
+#place--room list : the rooms where monster placed
+#data time--the task time info
+#before_game--start time of the broadcast before task begin
+#before_interval--the frequence of the broadcast before task begin
+#duration_game--start time of the broadcast during task process
+#duration_interval--the frequence of the broadcast during task process
+#duration--the task duration
+#odd--the date is odd number
+#even--the date is even number
+#pet_bonus--pet name list
+
+[»î¶¯Ê±¼ä]
+time_list$ : ({ "2010-01-21-18:30:00", "EVERY_HOUR(1)", "EVERY_DAY(1)" })
+
+[data_time]
+before_game : 300
+before_interval : 60
+duration_game : 600
+duration_interval : 600
+
+[monsters]
+ÁæÀşÊó : 1
+±¿±¿Å£ : 1
+ÍşÍş»¢ : 1
+ÌøÌøÍÃ : 1
+¿á¿áÁú : 1
+»¨»¨Éß : 1
+ÁïÁïÂí : 1
+ßãßãÑò : 1
+Ë§Ë§ºï : 1
+µ°µ°¼¦ : 1
+¹Ô¹Ô¹· : 1
+ÕĞ²ÆÖí : 1
+
+
+[place]
+room_list$ : ({ "¶«º£Óæ´å", 5 })
+room_list$ : ({ "À¿ÏÉÕò", 9 })
+
+[bonus]
+pet_bonus : ({ "ÁæÀşÊó", "±¿±¿Å£", "ÍşÍş»¢", "ÌøÌøÍÃ", "¿á¿áÁú", "»¨»¨Éß", "ÁïÁïÂí", "ßãßãÑò", "Ë§Ë§ºï", "µ°µ°¼¦", "¹Ô¹Ô¹·", "ÕĞ²ÆÖí" })
+bonus_card : ({ "³¬¼¶ÁæÀşÊó¿¨", "³¬¼¶±¿±¿Å£¿¨", "³¬¼¶ÍşÍş»¢¿¨", "³¬¼¶ÌøÌøÍÃ¿¨", "³¬¼¶¿á¿áÁú¿¨", "³¬¼¶»¨»¨Éß¿¨", "³¬¼¶ÁïÁïÂí¿¨", "³¬¼¶ßãßãÑò¿¨", "³¬¼¶Ë§Ë§ºï¿¨", "³¬¼¶µ°µ°¼¦¿¨", "³¬¼¶¹Ô¹Ô¹·¿¨", "³¬¼¶ÕĞ²ÆÖí¿¨" })

@@ -1,0 +1,19 @@
+#name,                 file_id,                                 颜色
+key_name,     file_id,                                  color
+银镯,         "child_equip/yinzhuo",                    蓝色
+祥云手镯,     "child_equip/xiangyun-shouzhuo",          蓝色
+心铃手镯,     "child_equip/xinling-shouzhuo",           蓝色
+镶金银镯,     "child_equip/xiangjing-yinzhuo",          蓝色
+双铃嵌玉银镯, "child_equip/shuangling-xiangyu-yinzhuo", 蓝色
+玉镯,         "child_equip/yuzhuo",                     蓝色
+翡翠手镯,     "child_equip/feicui-shouzhuo",            蓝色
+红玉手镯,     "child_equip/hongyu-shouzhuo",            蓝色
+琉璃手镯,     "child_equip/liuli-shouzhuo",             蓝色
+镶金玉镯,     "child_equip/xiangjin-yuzhuo",            蓝色
+金铃手镯,     "child_equip/jinling-shouzhuo",           蓝色
+双翼金镯,     "child_equip/shuangyi-jinzhuo",           蓝色
+宝玉金镯,     "child_equip/baoyu-jinzhuo",              蓝色
+红宝炫铃镯,   "child_equip/hongbao-xuanlingzhuo",       蓝色
+幻影手镯,     "child_equip/huanying-shouzhuo",          蓝色
+寒玉手镯,     "child_equip/hanyu-shouzhuo",             蓝色
+

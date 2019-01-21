@@ -1,0 +1,9 @@
+#FORM2
+
+[time_info]
+stage_start_time : "2012-07-27-12:00:00"
+stage_end_time : "2012-08-13-23:59:59"
+stage_end_time_ex : "2012-08-15-23:59:59"
+day_guess_start_time : "2012-07-28-07:00:00"
+day_guess_end_time : "2012-08-12-07:00:00"
+final_guess_end_time : "2012-08-05-23:59:59"

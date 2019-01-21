@@ -1,0 +1,21 @@
+#FORM2
+
+# child_appellation.list
+# Created by hongjs Dec/10/2010
+# 娃娃称谓配置表
+
+[历险小兵]
+type : "exp"
+req_level : 20
+req_fight_score : 900
+effect : 5
+time_limit : 2592000
+desc : "使娃娃在每次历险中获得的经验增加5%\n称谓有效期30天"
+
+[勤奋班长]
+type : "exp"
+req_level : 20
+req_fight_score : 1800
+effect : 10
+time_limit : 2592000
+desc : "使娃娃在每次历险中获得的经验增加10%\n称谓有效期30天"

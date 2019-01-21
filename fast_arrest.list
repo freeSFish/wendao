@@ -1,0 +1,132 @@
+#FORM2
+#monsters--monster name : monster num
+#place--room list : the rooms where monster placed
+#data time--the task time info
+#before_game--start time of the broadcast before task begin
+#before_interval--the frequence of the broadcast before task begin
+#duration_game--start time of the broadcast during task process
+#duration_interval--the frequence of the broadcast during task process
+#duration--the task duration
+#odd--the date is odd number
+#even--the date is even number
+#pet_bonus--pet name list
+
+[活动时间]
+time_list$ : ({ "2010-05-12-21:30:00", "EVERY_MIN(60)", "EVERY_DAY(1)", "2010-05-25-22:30:00" })
+
+[data_time]
+before_game : 300
+before_interval : 60
+duration_game : 600
+duration_interval : 600
+duration : 3600
+game_after : 300
+
+
+[剑无名0]
+polar            : -1
+name             : "剑无名"
+icon             : 6231
+portrait         : 6231
+life_effect      : 150
+mana_effect      : 150
+speed_effect     : -15
+mag_effect       : 20
+phy_effect       : 20
+accurate         : 50
+skills           : ({ "B1", 16, "B2", 16 })
+tractics         : "jianwuming0_tactics"
+
+[剑无名跟班0]
+polar            : -1
+name             : "剑无名跟班"
+icon             : 6231
+portrait         : 6231
+life_effect      : 50
+mana_effect      : 50
+speed_effect     : -30
+mag_effect       : 20
+phy_effect       : 20
+skills           : ({ "B1", 16, "B2", 16 })
+tractics         : "jianwuminggengban0_tactics"
+
+[剑无名1]
+polar            : -1
+name             : "剑无名"
+icon             : 6231
+portrait         : 6231
+life_effect      : 200
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B3", 16, "B4", 16 })
+tractics         : "jianwuming1_tactics"
+
+[剑无名跟班1]
+polar            : -1
+name             : "剑无名跟班"
+icon             : 6231
+portrait         : 6231
+life_effect      : 150
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B2", 16, "B4", 16 })
+tractics         : "jianwuminggengban1_tactics"
+
+[剑无名2]
+polar            : -1
+name             : "剑无名"
+icon             : 6231
+portrait         : 6231
+life_effect      : 300
+speed_effect     : 30
+mag_effect       : 50
+phy_effect       : 50
+accurate         : 100
+skills           : ({ "B3", 16, "B4", 16, "B5", 16, "C4", 16, "D2", 16, "D4", 16 })
+tractics         : "jianwuming2_tactics"
+
+[剑无名跟班2]
+polar            : -1
+name             : "剑无名跟班"
+icon             : 6231
+portrait         : 6231
+life_effect      : 200
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B4", 16 })
+tractics         : "jianwuminggengban2_tactics"
+
+[剑无名3]
+polar            : -1
+name             : "剑无名"
+icon             : 6231
+portrait         : 6231
+life_effect      : 400
+speed_effect     : 40
+mag_effect       : 100
+phy_effect       : 100
+mag_absorb       : 0
+phy_absorb       : 50
+resist_forgotten : 60
+resist_poison    : 60
+resist_frozen    : 60
+resist_sleep     : 60
+resist_confusion : 0
+accurate         : 100
+skills           : ({ "B4", 16, "B5", 16, "D4", 16, "D5", 16 })
+tractics         : "jianwuming3_tactics"
+
+[剑无名跟班3]
+polar            : -1
+name             : "剑无名跟班"
+icon             : 6231
+portrait         : 6231
+life_effect      : 350
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B4", 16 })
+tractics         : "jianwuminggengban3_tactics"

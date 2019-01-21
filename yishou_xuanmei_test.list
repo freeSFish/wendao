@@ -1,0 +1,34 @@
+#FORM2
+
+[config]
+start_time : "2013-06-03-00:00:00"
+end_time : "2013-06-09-23:59:00"
+
+[npcs]
+火光鼠 : ({ 6143, 243, 199, NORTHEAST, 0 })
+狰兽 : ({ 6276, 248, 202, NORTHEAST, 1 })
+蝶仙 : ({  6275, 253, 205, NORTHEAST, 2 })
+金翅鸢 : ({ 6146, 258, 208, NORTHEAST, 3 })
+北极熊 : ({ 30021, 263, 211, NORTHEAST, 4 })
+雨兽 : ({ 6170, 258, 192, SOUTHWEST, 5 })
+紫燕 : ({ 6144, 263, 195, SOUTHWEST, 6 })
+三头巨犬 : ({ 6151, 268, 198, SOUTHWEST, 7 })
+冰晶龙鳞兽 : ({ 6162, 273, 201, SOUTHWEST, 8 })
+盘古猿 : ({ 30528, 278, 204, SOUTHWEST, 9 })
+
+[broadcast_setting]
+broadcast_list: ({ "broadcast_start", "broadcast_during" })
+
+[broadcast_start]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "暑假到来了，七仙女之一的大仙女来到来中洲大陆，她希望带一只中洲异兽前往天宫陪伴左右，特举办异兽选美大赛，大家积极参与#R暑假活动#n即可获得选票，将获得的选票投给异兽可获得大量的数值奖励，还有机会获得商城道具和变异宠物，赶快来参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_during]
+broadcast_start : "start_time(1200)"
+interval        : 1200
+broadcast_end   : "end_time(-1)"
+message         : "暑假到来了，大家在参加暑假活动过程中获得的#R异兽选票#n可提交给#Z天墉城(259,203)#Z参与选美的异兽，可以获得丰厚的数值奖励，还有机会获得变异宠物大奖哦，大家赶快行动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

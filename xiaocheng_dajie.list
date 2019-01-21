@@ -1,0 +1,136 @@
+#FORM2
+
+[土地神]
+name                : 土地神
+icon                : 6047
+portrait            : 6047
+polar               : -1
+religion            : -1
+level               : 128
+life_effect         : 4000
+phy_absorb          : -100
+mag_absorb          : -100
+no_obstruct         : 1
+tactics             : "tactics_tudishen"
+
+[土地护卫]
+name                : 土地护卫
+icon                : ({ 6223, 6224 })
+polar               : -1
+religion            : -1
+level               : 128
+life_effect         : 2800
+phy_effect          : 250
+mag_effect          : 150
+skills              : ({ "B4", "B5", "lipo-qianjun", "D5" })
+tactics             : "tactics_tudi_huwei"
+
+[三足乌]
+name                : 三足乌
+icon                : 6130
+portrait            : 6130
+polar               : -1
+religion            : -1
+level               : 128
+life_effect         : 4000
+phy_absorb          : -10
+mag_absorb          : -10
+phy_effect          : 250
+mag_effect          : 150
+speed_effect        : 1000
+tao_effect          : 500
+tao_effect_ex       : 500
+random_attrib       : ({ "speed_effect", "tao_effect" })
+skills              : ({ "B4", "B5", "C4", "C5", "D4", "D5", "lipo-qianjun" })
+tactics             : "tactics_common"
+
+[三足乌2]
+name                : 三足乌
+icon                : 6130
+portrait            : 6130
+polar               : -1
+religion            : -1
+level               : 128
+life                : 10000
+max_life            : 10000
+speed_effect        : 9999
+tactics             : "tactics_null"
+
+[后羿]
+name                : 后羿
+icon                : 840704
+portrait            : 840704
+polar               : -1
+religion            : -1
+level               : 180
+life_effect         : 9999
+phy_absorb          : -50
+mag_absorb          : -50
+mag_effect          : 500
+no_obstruct         : 1
+skills              : ({ "B4", "B5" })
+tactics             : "tactics_houyi"
+
+[凤翅灵兽]
+name                : 凤翅灵兽
+icon                : 31040
+portrait            : 31040
+polar               : -1
+religion            : -1
+level               : 180
+life_effect         : 9999
+phy_absorb          : -100
+mag_absorb          : -100
+mag_effect          : 400
+no_obstruct         : 1
+skills              : ({ "shenlong-zhao", "ruyi-quan" })
+tactics             : "tactics_fengchi_lingshou_1"
+
+[受惊的野兽]
+name                : 受惊的野兽
+icon                : ({ 31035, 31036, 31037, 31038, 31039, 31040 })
+polar               : -1
+religion            : -1
+level               : 128
+life_effect         : 4000
+phy_effect          : 250
+mag_effect          : 150
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5" })
+tactics             : "tactics_common"
+
+[凤翅族人]
+name                : 凤翅族人
+icon                : ({ 851204, 841204 })
+polar               : -1
+religion            : -1
+level               : 128
+life_effect         : 4000
+phy_effect          : 250
+mag_effect          : 150
+skills              : ({ "B4", "B5", "C5" })
+tactics             : "tactics_common"
+
+[凤翅灵兽2]
+name                : 凤翅灵兽
+icon                : ({ 31039, 31040 })
+polar               : 0
+religion            : -1
+level               : 128
+life_effect         : 2500
+speed_effect        : 500
+skills              : ({ "shenlong-zhao", "ruyi-quan" })
+tactics             : "tactics_fengchi_lingshou_2"
+
+[后羿2]
+name                : 后羿
+icon                : 840704
+portrait            : 840704
+polar               : -1
+religion            : -1
+level               : 180
+life_effect         : 3000
+phy_absorb          : -10
+mag_absorb          : -10
+mag_effect          : 400
+skills              : ({ "B4", "B5" })
+tactics             : "tactics_common"

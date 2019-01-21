@@ -1,0 +1,257 @@
+#FORM2
+
+[»î¶¯Ê±¼ä]
+start_time : "2011-04-12-00:00"
+end_time : "2011-05-04-23:59"
+
+[wishing]
+wishing_items : ({ "½õ³½ÍÃ", "×ÏÔÆÍÃ", "ÔÂÀ¶ÍÃ", "³àÑæÍÃ", "±ÌÓñÍÃ", "ºèÓñºùÂ«", "Ğı·ç±ª", "»ÃÁéĞÜ", "±ÌÓñ½£", "ÒİÂ¹", "ÁæÀşÊó", "±¿±¿Å£", "ÍşÍş»¢", "ÌøÌøÍÃ", "¿á¿áÁú", "»¨»¨Éß", "ÁïÁïÂí", "ßãßãÑò", "Ë§Ë§ºï", "µ°µ°¼¦", "¹Ô¹Ô¹·", "ÕĞ²ÆÖí", "´äÁé½£", "Ì«¼«ĞÜ", "³àÑæºùÂ«", "Ñª³Ø", "Áé³Ø", "ÌØĞ§ÏÉ·çÉ¢", "¹ûÈÊÌÇºùÂ«", "Ö½ğ°", "Ò×¾­Ï´Ëèµ¤", "µã»¯µ¤", "³¬¼¶¹éÔªÂ¶", "ÌØ¼¶°ËØÔÒõÑôÁî" })
+
+[config_list]
+task_npcs : ({ "»ÆØí¶ù", "¼ÖÈÊºÍ", "ÑîïÚÍ·", "ÏÄ×Ü±ø", "°×·¢ÀÏÈË", "¶ÎÌúĞÄ" })
+icons     : ({ 6252, 6250, 6203, 6232 });
+need_rolls : ({ "¡°ÎÊ¡±×Ö¾íÖá", "¡°µÀ¡±×Ö¾íÖá", "¡°ÖÜ¡±×Ö¾íÖá", "¡°Äê¡±×Ö¾íÖá", "¡°Çì¡±×Ö¾íÖá", "¡°µä¡±×Ö¾íÖá" })
+
+[»ÆØí¶ù]
+¡°ÎÊ¡±×Ö¾íÖá : 1
+
+[¼ÖÈÊºÍ]
+¡°µÀ¡±×Ö¾íÖá : 1
+ºïÍ·Ë¿ : 5
+
+[ÑîïÚÍ·]
+¡°ÖÜ¡±×Ö¾íÖá : 1
+
+[ÏÄ×Ü±ø]
+¡°Äê¡±×Ö¾íÖá : 1
+Ñª½¬¹û : 5
+
+[°×·¢ÀÏÈË]
+¡°Çì¡±×Ö¾íÖá : 1
+
+[¶ÎÌúĞÄ]
+¡°µä¡±×Ö¾íÖá : 1
+
+[½õ³½ÍÃ]
+rate         : 700
+limit_number : 5
+every_day    : 1
+rank         : "±¦±¦"
+skill_num    : 1
+type         : 1
+
+[×ÏÔÆÍÃ]
+rate         : 700
+limit_number : 5
+every_day    : 1
+rank         : "±¦±¦"
+skill_num    : 1
+type         : 1
+
+[ÔÂÀ¶ÍÃ]
+rate         : 700
+limit_number : 5
+every_day    : 1
+rank         : "±¦±¦"
+skill_num    : 1
+type         : 1
+
+[³àÑæÍÃ]
+rate         : 700
+limit_number : 5
+every_day    : 1
+rank         : "±¦±¦"
+skill_num    : 1
+type         : 1
+
+[±ÌÓñÍÃ]
+rate         : 700
+limit_number : 5
+every_day    : 1
+rank         : "±¦±¦"
+skill_num    : 1
+type         : 1
+
+[ºèÓñºùÂ«]
+rate         : 1700
+limit_number : 10
+every_day    : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 2
+
+[Ğı·ç±ª]
+rate         : 1700
+limit_number : 10
+every_day    : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 2
+
+[»ÃÁéĞÜ]
+rate         : 1700
+limit_number : 10
+every_day    : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 2
+
+[±ÌÓñ½£]
+rate         : 1700
+limit_number : 10
+every_day    : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 2
+
+[ÒİÂ¹]
+rate         : 1700
+limit_number : 10
+every_day    : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 2
+
+[ÁæÀşÊó]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[±¿±¿Å£]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[ÍşÍş»¢]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[ÌøÌøÍÃ]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[¿á¿áÁú]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[»¨»¨Éß]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[ÁïÁïÂí]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[ßãßãÑò]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[Ë§Ë§ºï]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[µ°µ°¼¦]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[¹Ô¹Ô¹·]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[ÕĞ²ÆÖí]
+rate         : 300
+limit_number : 2
+rank         : "±äÒì"
+skill_num    : 1
+type         : 3
+
+[´äÁé½£]
+rate         : 1200
+limit_number : 5
+every_day    : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 4
+
+[Ì«¼«ĞÜ]
+rate         : 69
+limit_number : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 5
+
+[³àÑæºùÂ«]
+rate         : 3500
+limit_number : 8
+every_day    : 1
+rank         : "±¦±¦"
+mount        : "ÓùÁé"
+type         : 6
+
+
+[Ñª³Ø]
+rate         : 321000
+is_item      : 1
+
+[Áé³Ø]
+rate         : 105700
+is_item      : 1
+
+[ÌØĞ§ÏÉ·çÉ¢]
+rate         : 105700
+is_item      : 1
+
+[¹ûÈÊÌÇºùÂ«]
+rate         : 160500
+is_item      : 1
+
+[Ö½ğ°]
+rate         : 160500
+is_item      : 1
+
+[Ò×¾­Ï´Ëèµ¤]
+rate         : 160500
+is_item      : 1
+
+[µã»¯µ¤]
+rate         : 105700
+is_item      : 1
+
+[³¬¼¶¹éÔªÂ¶]
+rate         : 160500
+is_item      : 1
+
+[ÌØ¼¶°ËØÔÒõÑôÁî]
+rate         : 105700
+is_item      : 1

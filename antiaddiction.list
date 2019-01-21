@@ -1,0 +1,79 @@
+#FORM2
+
+#experience
+[exp]
+type$: "liangongqu"
+type$: "shimen"
+type$: "xiuxing"
+type$: "menpaishilian"
+type$: "xunxian"
+type$: "hidden_boss"
+type$: "kaixzjz"
+type$: "wlk_task"
+
+#tao
+[tao]
+type$: "xiuxing"
+type$: "menpaishilian"
+type$: "chubao"
+type$: "xiangyao"
+type$: "fumo"
+type$: "xunxian"
+type$: "xianjie_tongji"
+type$: "jiszb"
+type$: "wlk_task"
+
+#potential
+[pot]
+type$: "chubao"
+type$: "xiangyao"
+type$: "fumo"
+type$: "xianjie_tongji"
+
+#cash
+[cash]
+type$: "liangongqu"
+type$: "shimen"
+type$: "chubao"
+type$: "xiangyao"
+type$: "fumo"
+type$: "30huan"
+type$: "60huan"
+type$: "90huan"
+type$: "shouchong"
+type$: "cailiao"
+type$: "xianjie_tongji"
+type$: "kaixzjz"
+
+#martial
+[martial]
+type$: "xiuxing"
+type$: "menpaishilian"
+type$: "chubao"
+type$: "xiangyao"
+type$: "fumo"
+type$: "xunxian"
+type$: "xianjie_tongji"
+type$: "jiszb"
+type$: "wlk_task"
+
+#success rate
+[chance]
+type$: "liangongqu_wupin"
+type$: "liangongqu_touling"
+type$: "chubao"
+type$: "xiangyao"
+type$: "fumo"
+type$: "cailiao"
+type$: "30huan"
+type$: "60huan"
+type$: "90huan"
+type$: "shimen"
+type$: "xiuxing"
+type$: "xianjie_tongji"
+
+[full_chance]
+type$: "liangongqu_wupin"
+type$: "30huan"
+type$: "60huan"
+type$: "90huan"

@@ -1,0 +1,41 @@
+#FORM2
+#FORM2
+
+[北辰河腹地]
+event_list : "beichenhe_fudi.list"
+
+[青峰山]
+event_list : "qingfengshan.list"
+
+[万兽峡谷]
+event_list : "wanshou_xiagu.list"
+
+[云梦泽]
+event_list : "yunmengze.list"
+
+[桃源古镇]
+event_list : "taoyuan_guzhen.list"
+
+[远古平原]
+event_list : "yuangu_pingyuan.list"
+
+[迷雾森林]
+event_list : "miwu_sengling.list"
+
+[沧海之岛]
+event_list : "canghai_zhidao.list"
+
+[死亡沼泽]
+event_list : "siwang_zhaoze.list"
+
+[荒奇戈壁]
+event_list : "huangqi_gebi.list"
+
+[云中岛]
+event_list : "yunzhongdao.list"
+
+[古之幻境]
+event_list : "guzhi_huanjing.list"
+
+[成长任务]
+event_list : "chengzhang_renwu.list"

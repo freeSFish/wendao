@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time : "2013-10-13-00:00:00"
+end_time   : "2013-10-13-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "重阳节，农历九月初九，“九九”谐音是“久久”，有长久之意，人们常在此节期间祈福与推行敬老活动。众道友可以前去#P活动大使#P处参与#R重阳祈福#n活动，还可以获得大量奖励哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

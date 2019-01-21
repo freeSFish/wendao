@@ -1,0 +1,43 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2014-11-26-00:00:00", "EVERY_DAY(4)", 0, "2014-11-29-23:59:59" })
+
+[造反火鸡1]
+name                : 造反火鸡
+polar               : -1
+religion            : -1
+icon                : 31033
+portrait            : 31033
+life_effect         : "500 + LV / 100 * 350 + LV / 130 * 250 + LV / 140 * 350 + LV / 150 * 150"
+phy_effect          : "70 + LV / 100 * 20 + LV / 130 * 30 + LV / 140 * 50"
+mag_effect          : "70 + LV / 100 * 20 + LV / 130 * 30 + LV / 140 * 50"
+tao_effect          : "400 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50 + LV / 150 * 50"
+level_skills_ex     : ({ 60, "B4", 100, "B5" })
+skills              : ({ "B3", "D3", "D4", "D5" })
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics             : "tactics_zaofan_huoji1"
+
+[造反火鸡2]
+name                : 造反火鸡
+polar               : -1
+religion            : -1
+icon                : 31033
+portrait            : 31033
+life_effect         : "500 + LV / 100 * 350 + LV / 130 * 250 + LV / 140 * 350 + LV / 150 * 150"
+phy_effect          : "70 + LV / 100 * 20 + LV / 130 * 30 + LV / 140 * 50"
+mag_effect          : "70 + LV / 100 * 20 + LV / 130 * 30 + LV / 140 * 50"
+tao_effect          : "200 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50 + LV / 150 * 50"
+level_skills_ex     : ({ 60, "B4", 100, "B5" })
+skills              : ({ "B3", "C3", "C4", "C5" })
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics             : "tactics_zaofan_huoji2"
+
+[美味的火鸡]
+name                : 美味的火鸡
+polar               : -1
+religion            : -1
+icon                : 6188
+portrait            : 6188
+life_effect         : 1000
+tactics             : "tactics_meiwei_huoji"

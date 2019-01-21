@@ -1,0 +1,92 @@
+#FORM2
+#task_stat.list
+#Created by hongjs Mar/31/2011
+
+[tiangjdr]
+no : "1"
+name : 天降大任
+npc : 青木道人
+req_level : 30
+factor_30_45 : "1.5"
+factor_45_60 : "2.0"
+factor_60_75 : "2.5"
+factor_75_INF : "3.0"
+
+#[xianjcwdtw]
+#no : "2"
+#name : 仙界宠物大逃亡
+#req_level : 40
+#factor_30_45 : "0.8"
+#factor_45_60 : "0.9"
+#factor_60_75 : "1.0"
+#factor_75_INF : "1.2"
+#
+#[yeybgd]
+#no : "3"
+#name : 夜游百鬼地
+#req_level : 40
+#factor_30_45 : "1.0"
+#factor_45_60 : "1.1"
+#factor_60_75 : "1.3"
+#factor_75_INF : "1.5"
+#
+#[yongcwyk]
+#no : "4"
+#name : 勇闯万妖窟
+#req_level : 40,
+#factor_30_45 : "1.5"
+#factor_45_60 : "2.0"
+#factor_60_75 : "2.5"
+#factor_75_INF : "3.0"
+
+[bazt]
+no : "5"
+name : 八阵图
+npc : 清微真人
+req_level : 60
+factor_30_45 : "0.8"
+factor_45_60 : "0.9"
+factor_60_75 : "1.0"
+factor_75_INF : "1.2"
+
+[zhurwl]
+no : "6"
+name : "助人为乐"
+npc : "白邦芒"
+req_level : 40
+no_tip : 1
+
+[dungeon]
+no : "7"
+name : "副本"
+npc : "赤灵尊神"
+req_level : 60
+no_tip : 1
+
+[baxmj]
+no : "8"
+name : "八仙梦境"
+npc : "蓬莱使者"
+req_level : 60
+no_tip : 1
+
+[xiux]
+no : "9"
+name : "修行任务"
+npc : "柳如尘"
+req_level : 60
+no_tip : 1
+
+[shijz]
+no : "10"
+name : "十绝阵"
+npc : "玉泉真人"
+req_level : 100
+no_tip : 1
+
+[xunx]
+no : "11"
+name : "寻仙任务"
+npc : "太清真君"
+req_level : 140
+no_tip : 1

@@ -1,0 +1,28 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-10-31-20:00:00", "EVERY_HOUR(2)", 0, "2011-10-31-22:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start", "during_task", "before_end" })
+
+[before_start]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "今天是万圣节前夜，大家准备好了要一起狂欢了吗？万圣节化妆舞会将于#R20:00#n在#Z天墉城#Z开启，请大家做好准备。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#R万圣节化装舞会#n活动正在进行中，请大家前往#Z天墉城#Z，一起狂欢吧。（当前变身形象与怪物形象相同可获得额外奖励加成）"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end]
+broadcast_start : "end_time(-900)"
+interval        : 300
+broadcast_end   : "end_time(-1)"
+message         : "#R万圣节化装舞会#n活动将于#R22:00#n结束，请大家抓紧时间，将剩余的怪物一网打尽。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

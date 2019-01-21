@@ -1,0 +1,163 @@
+#FORM2
+
+#仓库设置
+
+[store_list]
+store$: "normal_store"
+store$: "party_pet_store"
+store$: "party_item_store"
+store$: "marry_store"
+store$: "single_house_store"
+store$: "insider_store"
+###############
+store$: "normal_store_1"
+store$: "normal_store_2"
+store$: "normal_store_3"
+store$: "normal_store_4"
+store$: "normal_store_5"
+store$: "normal_store_6"
+
+[normal_store]
+name : 普通仓库
+start_pos  : 201
+store_size : 80
+save_path  : "store"
+save_name  : "GID"
+save_branch : ""
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11016"
+
+[party_pet_store]
+name : 帮派宠物仓库
+start_pos   : 301
+store_size  : 10
+save_path   : "store"
+save_name   : "GID"
+save_branch : "party_pet"
+item_type   : "pet"
+verify_iid    : 1
+save_or_not   : 1
+iid_duplicated : "11018"
+
+[party_item_store]
+name : 帮派物资仓库
+start_pos : 401
+store_size : 40
+save_path  : "store"
+save_name  : "GID"
+save_branch : "party_item"
+verify_iid    : 1
+save_or_not   : 1
+iid_duplicated : "11019"
+
+[marry_store]
+name : 夫妻仓库
+start_pos : 601
+store_size : 40
+save_path  : "store"
+save_name  : "MARRIAGE_GID"
+save_branch : ""
+
+[single_house_store]
+name : 单身房屋仓库
+start_pos   : 701
+store_size  : 40
+save_path   : "store"
+save_name   : "GID"
+save_branch : "single_house"
+verify_iid  : 1
+save_or_not : 1
+iid_duplicated : "11021"
+
+[insider_store]
+name : 会员仓库
+start_pos  : 2001
+store_size : 80
+save_path  : "store"
+save_name  : "GID"
+save_branch : "insider"
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11022"
+
+###############################
+# 玩家可以选购的储物箱系列配置#
+###############################
+[normal_store_1]
+name : 储物箱1
+dbase_path : "bought_store/normal_store_1"
+alias_name_path : "bought_store/name_1"
+start_pos  : 1001
+store_size : 40
+save_path  : "store"
+save_name  : "GID"
+save_branch : "1"
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11016"
+
+[normal_store_2]
+name : 储物箱2
+dbase_path : "bought_store/normal_store_2"
+alias_name_path : "bought_store/name_2"
+start_pos  : 1201
+store_size : 40
+save_path  : "store"
+save_name  : "GID"
+save_branch : "2"
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11016"
+
+[normal_store_3]
+name : 储物箱3
+dbase_path : "bought_store/normal_store_3"
+alias_name_path : "bought_store/name_3"
+start_pos  : 1301
+store_size : 40
+save_path  : "store"
+save_name  : "GID"
+save_branch : "3"
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11016"
+
+[normal_store_4]
+name : 储物箱4
+dbase_path : "bought_store/normal_store_4"
+alias_name_path : "bought_store/name_4"
+start_pos  : 1401
+store_size : 40
+save_path  : "store"
+save_name  : "GID"
+save_branch : "4"
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11016"
+
+[normal_store_5]
+name : 储物箱5
+dbase_path : "bought_store/normal_store_5"
+alias_name_path : "bought_store/name_5"
+start_pos  : 1501
+store_size : 40
+save_path  : "store"
+save_name  : "GID"
+save_branch : "5"
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11016"
+
+[normal_store_6]
+name : 储物箱6
+dbase_path : "bought_store/normal_store_6"
+alias_name_path : "bought_store/name_6"
+start_pos  : 1601
+store_size : 40
+save_path  : "store"
+save_name  : "GID"
+save_branch : "6"
+save_or_not   : 1
+verify_iid    : 1
+iid_duplicated : "11016"

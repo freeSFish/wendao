@@ -1,0 +1,245 @@
+#FORM2
+
+[modify_attribs]
+attrib$ : "speed_effect"
+attrib$ : "phy_effect"
+attrib$ : "mag_effect"
+attrib$ : "all_resist_except"
+attrib$ : "damage_sel_rate"
+attrib$ : "counter_attack_rate"
+attrib$ : "double_hit_rate"
+attrib$ : "phy_absorb"
+attrib$ : "mag_absorb"
+attrib$ : "mag_dodge"
+attrib$ : "life_effect"
+attrib$ : "tao_effect"
+
+[铁拐李]
+name              : 铁拐李
+icon              : 20004
+portrait          : 20004
+polar             : POLAR_EARTH
+life_effect       : 1200
+speed_effect      : "MON_LEVEL"
+phy_effect        : "(MON_LEVEL + 150) * FACTOR"
+mag_effect        : "(MON_LEVEL + 100) * FACTOR"
+phy_absorb        : 0
+tao_effect        : 300
+penetrate_rate    : 50
+penetrate         : 70
+resist_earth      : 100
+all_resist_except : "75 * FACTOR"
+skills            : ({ "B4", "B5" })
+monster_tactics   : "tactics_tieguaili"
+
+[汉钟离]
+name              : 汉钟离
+icon              : 20005
+portrait          : 20005
+polar             : POLAR_FIRE
+life_effect       : 1500
+speed_effect      : "MON_LEVEL * 1.2"
+phy_effect        : "(MON_LEVEL + 100) * FACTOR"
+mag_effect        : "(MON_LEVEL + 100) * FACTOR"
+penetrate_rate    : 50
+penetrate         : 70
+phy_absorb        : 0
+tao_effect        : 200
+all_resist_except : "75 * FACTOR"
+skills            : ({ "B4" })
+skill_range       : ({ "B4", 5 })
+monster_tactics   : "tactics_hanzhongli"
+artifact          : ({ "hunyuan-jindou", 18 })
+
+[吕洞宾]
+name              : 吕洞宾
+icon              : 20006
+portrait          : 20006
+polar             : POLAR_METAL
+life_effect       : 1500
+speed_effect      : "MON_LEVEL"
+penetrate_rate    : 50
+penetrate         : 70
+phy_effect        : "(MON_LEVEL + 150) * FACTOR"
+mag_effect        : "(MON_LEVEL + 150) * FACTOR"
+phy_absorb        : 0
+tao_effect        : 200
+resist_metal      : 100
+all_resist_except : "75 * FACTOR"
+skills            : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics   : "tactics_lvdongbin"
+artifact          : ({ "hunyuan-jindou", 18 })
+
+[蓝采和]
+name              : 蓝采和
+icon              : 20007
+portrait          : 20007
+polar             : POLAR_WATER
+life_effect       : 1500
+speed_effect      : "MON_LEVEL"
+phy_effect        : "(MON_LEVEL + 150) * FACTOR"
+mag_effect        : "(MON_LEVEL + 100) * FACTOR"
+phy_absorb        : -20
+mag_absorb        : -20
+tao_effect        : 200
+penetrate_rate    : 50
+penetrate         : 70
+resist_water      : 100
+all_resist_except : "75 * FACTOR"
+skills            : ({ "B1", "B2", "B3", "B4", "B5" })
+monster_tactics   : "tactics_lancaihe"
+artifact          : ({ "fantianyin", 18 })
+
+[韩湘子]
+name              : 韩湘子
+icon              : 20008
+portrait          : 20008
+polar             : POLAR_WOOD
+life_effect       : 1800
+speed_effect      : "MON_LEVEL"
+penetrate_rate    : 50
+penetrate         : 70
+phy_effect        : "(MON_LEVEL + 150) * FACTOR"
+mag_effect        : "(MON_LEVEL + 150) * FACTOR"
+phy_absorb        : 0
+tao_effect        : 200
+resist_wood       : 100
+all_resist_except : "75 * FACTOR"
+skills            : ({ "B4", "B5" })
+monster_tactics   : "tactics_hanxiangzi"
+
+[张果老]
+name              : 张果老
+icon              : 20009
+portrait          : 20009
+polar             : POLAR_FIRE
+life_effect       : 1500
+speed_effect      : "MON_LEVEL * 1.2"
+phy_effect        : "(MON_LEVEL + 100) * FACTOR"
+mag_effect        : "(MON_LEVEL + 150) * FACTOR"
+penetrate_rate    : 50
+penetrate         : 70
+phy_absorb        : 0
+tao_effect        : 200
+resist_fire       : 100
+all_resist_except : "75 * FACTOR"
+skills            : ({ "B4", "B5", "D5" })
+monster_tactics   : "tactics_zhangguolao"
+artifact          : ({ "jinjiaojian", 18 })
+skill_range       : ({ "D5", 10 })
+
+[何仙姑]
+name               : 何仙姑
+icon               : 20010
+portrait           : 20010
+polar              : POLAR_WOOD
+life_effect        : 1800
+speed_effect       : "MON_LEVEL"
+phy_effect         : "(MON_LEVEL + 100) * FACTOR"
+mag_effect         : "(MON_LEVEL + 150) * FACTOR"
+penetrate_rate     : 50
+penetrate          : 70
+phy_absorb         : 0
+tao_effect         : 200
+all_resist_except  : "75 * FACTOR"
+skills             : ({ "C5", "D5" })
+monster_tactics    : "tactics_hexiangu"
+skill_range        : ({ "D5", 10 })
+skill_success_rate : ({ "C5", 100 })
+
+[曹国舅]
+name              : 曹国舅
+icon              : 20011
+portrait          : 20011
+polar             : POLAR_FIRE
+life_effect       : 1200
+speed_effect      : "MON_LEVEL * 1.2"
+phy_effect        : "(MON_LEVEL + 150) * FACTOR"
+mag_effect        : "(MON_LEVEL + 150) * FACTOR"
+penetrate_rate    : 50
+penetrate         : 70
+tao_effect        : 200
+all_resist_except : "75 * FACTOR"
+skills            : ({ "B4", "B5" })
+monster_tactics   : "tactics_caoguojiu"
+artifact          : ({ "yinyangjing", 18 })
+
+[神将]
+icon             : 20078
+portrait         : 20078
+life_effect      : "1500 + MON_LEVEL * 5.6"
+phy_effect       : "(150 + ROUND * 6) * FACTOR"
+mag_effect       : "(150 + ROUND * 6) * FACTOR"
+phy_absorb       : 30
+mag_absorb       : 30
+tao_effect       : "MON_LEVEL"
+penetrate_rate   : 50
+penetrate        : 70
+speed_effect     : "MON_LEVEL"
+all_resist_except : "(ROUND * 3 + MON_LEVEL / 5) * FACTOR"
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+
+[random_template]
+template$ : "template1"
+template$ : "template2"
+template$ : "template3"
+template$ : "template4"
+template$ : "template5"
+template$ : "template6"
+template$ : "template7"
+template$ : "template8"
+template$ : "template9"
+template$ : "template10"
+
+[template1]
+god_book_skills : ({ "kuangbao", 1 })
+monster_tactics : "tactics_phy"
+name            : 狂暴神将
+
+[template2]
+god_book_skills : ({ "moyin", 1 })
+monster_tactics : "tactics_phy"
+name            : 魔引神将
+
+[template3]
+damage_sel_rate : "30 + 30 * RANDOM_3"
+damage_sel      : 100
+monster_tactics : "tactics_magic"
+name            : 反震神将
+
+[template4]
+counter_attack_rate : "30 + 30 * RANDOM_3"
+counter_attack      : 12
+monster_tactics     : "tactics_magic"
+name                : 反击神将
+
+[template5]
+double_hit_rate : "30 + 30 * RANDOM_3"
+double_hit      : 10
+monster_tactics : "tactics_template5"
+name            : 连击神将
+
+[template6]
+phy_absorb      : "-1 * (30 + 30 * RANDOM_3)"
+monster_tactics : "tactics_magic"
+name            : 吸收神将
+
+[template7]
+mag_absorb      : "-1 * (30 + 30 * RANDOM_3)"
+monster_tactics : "tactics_magic"
+name            : 抗法神将
+
+[template8]
+god_book_skills : ({ "potian", "yunti", 2 })
+monster_tactics : "tactics_template5"
+name            : 破天神将
+
+[template9]
+god_book_skills : ({ "jinglei", "qingmu", "hanbing", "lieyan", "suishi", 1 })
+monster_tactics : "tactics_phy"
+name            : 五行神将
+
+[template10]
+mag_dodge       : "30 + 30 * RANDOM_3"
+monster_tactics : "tactics_template10"
+name            : 躲闪神将

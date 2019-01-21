@@ -1,0 +1,17 @@
+#FORM2
+
+[setting]
+start_time        : "2016-09-06-00:00:00"
+end_time          : "2016-09-09-23:59:59"
+exchange_end_time : "2016-09-11-23:59:59"
+version           : 2
+
+[broadcast_setting]
+broadcast_list:   ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "积分许愿#n活动开始了，活动时间内在#@积分许愿|Open:PointsWishingDlg#@界面中用#R100银元宝#n可以兑换#R1点许愿积分#n和#R85不可交易银元宝#n，或者在游戏中每消费#R100银元宝#n也可以获得#R许愿积分#n，获得许愿积分后可打开#@积分许愿|Open:PointsWishingDlg#@选择各种珍贵道具和宠物与全服道友一起许愿。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

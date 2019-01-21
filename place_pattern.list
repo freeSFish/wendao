@@ -1,0 +1,37 @@
+#FORM2
+
+#[条形码]:  括号中为条形码
+#name         道具名
+#animate_no:  动画编号
+#coin:        元宝价格
+#icon:        icon
+#desc：       道具描述(更新时可配置)
+
+[P001]
+name       : "心形玫瑰"
+coin       : 1
+icon       : 9198
+
+[P002]
+name       : "浪漫烟花"
+animate_no : 8254
+coin       : 1
+icon       : 9199
+
+[P003]
+name       : "绽放的百合"
+animate_no : 8252
+coin       : 2
+icon       : 9200
+
+[P004]
+name       : "绽放的玫瑰"
+animate_no : 8251
+coin       : 2
+icon       : 9201
+
+[P005]
+name       : "发光蜡烛"
+animate_no : 8253
+coin       : 1
+icon       : 9202

@@ -1,0 +1,199 @@
+#FORM2
+
+[保卫城镇]
+time_list$ : ({ "2011-01-01-19:00:00", "EVERY_MIN(60)", "EVERY_DAY(1)", "2011-01-18-20:00:00" })
+
+[all_bonus]
+bonus_names : ({ "超级仙风散", "驯兽诀", "血池", "超级八卦阴阳令", "烟花筒", "超级神兽丹", "BOSS卡", "离线摆摊卡", "鲜花卡", "水果卡", "特级八卦阴阳令", "自动摆摊卡", "喇叭", "特效仙风散", "灵池", "点化丹", "超级归元露", "火眼金睛" })
+
+[超级仙风散]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "超级仙风散#赠品", 1, 1 })
+
+[驯兽诀]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+
+[血池]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+
+[超级八卦阴阳令]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "超级八卦阴阳令#赠品", 1, 1 })
+
+[烟花筒]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "烟花筒#赠品", 1, 1 })
+
+[超级神兽丹]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "超级神兽丹#赠品", 1, 1 })
+
+[BOSS卡]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "BOSS卡#赠品", 1, 1 })
+
+[离线摆摊卡]
+rate   : 100
+bonus$ : ({ 0, 0, 100, "离线摆摊卡#赠品", 1, 1 })
+
+[鲜花卡]
+rate   : 200
+bonus$ : ({ 0, 0, 100, "鲜花卡#赠品", 1, 1 })
+
+[水果卡]
+rate   : 200
+bonus$ : ({ 0, 0, 100, "水果卡#赠品", 1, 1 })
+
+[特级八卦阴阳令]
+rate   : 25
+bonus$ : ({ 0, 0, 100, "特级八卦阴阳令#赠品", 1, 1 })
+
+[自动摆摊卡]
+rate   : 50
+bonus$ : ({ 0, 0, 100, "自动摆摊卡#赠品", 1, 1 })
+
+[喇叭]
+rate   : 50
+bonus$ : ({ 0, 0, 100, "喇叭#赠品", 1, 1 })
+
+[特效仙风散]
+rate   : 25
+bonus$ : ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+
+[灵池]
+rate   : 25
+bonus$ : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+
+[点化丹]
+rate   : 25
+bonus$ : ({ 0, 0, 100, "点化丹#赠品", 1, 1 })
+
+[超级归元露]
+rate   : 50
+bonus$ : ({ 0, 0, 100, "超级归元露#赠品", 1, 1 })
+
+[火眼金睛]
+rate   : 50
+bonus$ : ({ 0, 0, 100, "火眼金睛#赠品", 1, 1 })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "start_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-3600)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "#R今天START_TIME#n将有大批的妖魔集结在一起，从#Z官道北#Z和#Z官道南#Z分别向#Z天墉城#Z和#Z揽仙镇#Z发起进攻，请侠义之士迅速赶到#R三线#n、#R四线#n的#Z官道北#Z、#Z官道南#Z击杀年兽，保卫城镇。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "妖魔大军开始向#Z天墉城#Z和#Z揽仙镇#Z进发，请侠义之士迅速赶到#R三线#n、#R四线#n的#Z官道北#Z、#Z官道南#Z击杀年兽，保卫城镇。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[小怪]
+icon             : 6214
+portrait         : 6214
+random_icon      : ({ 6214, 6215, 6226, 6227, 6228, 6229, 6239, 6277, 6278 })
+polar            : -1
+no_capture       : 1
+phy_absorb       : 0
+mag_absorb       : 0
+phy_effect       : 90
+mag_effect       : 100
+speed_effect     : 50
+tao_effect       : 50
+skills           : ({ "B3", "B4", "B5", "C4" })
+tactics          : "tiny_monster_tactics"
+monster_menu     : ({ "menu_content", "menu_action" })
+phy_rate         : 40
+
+[终极BOSS小怪]
+icon             : 6214
+portrait         : 6214
+level            : 100
+random_icon      : ({ 6214, 6215, 6226, 6227, 6228, 6229, 6239, 6277, 6278 })
+polar            : -1
+life_effect      : 1500
+no_capture       : 1
+phy_absorb       : -20
+mag_absorb       : -20
+phy_effect       : 300
+mag_effect       : 200
+speed_effect     : 300
+penetrate_rate   : 80
+penetrate        : 30
+skills           : ({ "B3", "B4", "B5", "lipo-qianjun", "C5" })
+special_skills   : ({ "神龙罩", "如意圈" })
+tactics          : "super_boss_monster_tactics"
+monster_menu     : ({ "menu_content", "menu_action" })
+phy_rate         : 40
+
+[小BOSS小怪]
+icon             : 6258
+portrait         : 6258
+random_icon      : ({ 6214, 6215, 6226, 6227, 6228, 6229, 6239, 6277, 6278 })
+polar            : -1
+no_capture       : 1
+phy_absorb       : 0
+mag_absorb       : 0
+phy_effect       : 120
+mag_effect       : 100
+speed_effect     : 50
+tao_effect       : 50
+skills           : ({ "B2", "B4" })
+tactics          : "common_boss_monster_tactics"
+monster_menu     : ({ "menu_content", "menu_action" })
+special_skills   : ({ "神龙罩", "如意圈" })
+phy_rate         : 80
+
+[妖魔总头领]
+icon             : 6259
+portrait         : 6259
+name             : "妖魔总头领"
+level            : 100
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 100
+penetrate        : 50
+accurate         : 200
+stunt_rate       : 50
+polar            : -1
+no_capture       : 1
+phy_absorb       : 10
+mag_absorb       : 10
+phy_effect       : 450
+mag_effect       : 350
+speed_effect     : 150
+tao_effect       : 500
+skills           : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5" })
+tactics          : "super_boss_tactics"
+monster_menu     : ({ "menu_content", "menu_action" })
+artifact         : ({ "fantianyin", 18 })
+sf_artifact_skill   : ({ "sf_artifact_skill" })
+
+[妖魔头领]
+icon              : 6260
+portrait          : 6260
+name              : "妖魔头领"
+double_hit_rate   : 30
+double_hit        : 5
+polar             : -1
+no_capture        : 1
+phy_absorb        : 0
+mag_absorb        : 0
+phy_effect        : 150
+mag_effect        : 180
+speed_effect      : 100
+tao_effect        : 100
+skills            : ({ "B1", "B2", "B3", "B4" })
+tactics           : "common_boss_tactics"
+sf_receive_damage : ({ "sf_receive_damage" })
+monster_menu      : ({ "menu_content", "menu_action" })

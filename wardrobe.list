@@ -1,0 +1,17 @@
+#FORM2
+
+#ÒÂ³÷ÉèÖÃ
+
+#[wardrobe_list]
+#wardrobe$: "wardrobe_store"
+#
+#[wardrobe_store]
+#name : ÒÂ³÷
+#start_pos  : 1501
+#wardrobe_size : 240
+#save_path  : "store"
+#save_name  : "GID"
+#save_branch : "wardrobe"
+#save_or_not   : 1
+#verify_iid    : 1
+#iid_duplicated : "11016"

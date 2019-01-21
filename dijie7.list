@@ -1,0 +1,117 @@
+#FORM2
+
+[ÎÞ×Ö]
+name                : ÎÞ×Ö
+icon                : 6143
+portrait            : 6143
+level               : 114
+life_effect         : 3500
+phy_effect          : 300
+phy_absorb          : -100
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+speed_effect        : 100
+double_hit_rate     : 50%
+double_hit          : 10
+comrades            : ({ "ÎÞºÅ" })
+monster_num         : 1
+special_skills      : ({ "ÉñÁúÕÖ" })
+special_skills_level: 180
+sf_die              : "sf_die"
+sf_receive_damage   : "sf_receive_damage_wuziwuhao"
+combat_trigger      : "combat_trigger_wuzi"
+tactics_monster     : "tactics_wuzi"
+
+[ÎÞºÅ]
+name                : ÎÞºÅ
+icon                : 6143
+portrait            : 6143
+level               : 114
+polar               : 4
+religion            : -1
+life_effect         : 3500
+mag_effect          : 250
+mag_absorb          : -100
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+speed_effect        : 0
+skills              : ({ "B4", "B5" })
+special_skills      : ({ "ÈçÒâÈ¦" })
+special_skills_level: 180
+sf_die              : "sf_die"
+sf_receive_damage   : "sf_receive_damage_wuziwuhao"
+tactics_monster     : "tactics_wuhao"
+
+[Ðþ»Ã¹Ö]
+name                : Ðþ»Ã¹Ö
+icon                : 6049
+portrait            : 6049
+level               : 114
+polar               : -1
+religion            : -1
+life_effect         : 3000
+mag_effect          : 120
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+monster_num         : 9
+comrades            : ({ "Ðþ»Ã¹Ö" })
+skills              : ({ "B2", "B4", "B5" })
+special_skills      : ({ "Ç¬À¤ÕÖ" })
+special_skills_level: 1
+combat_trigger      : "combat_trigger_xuanhuanguai"
+sf_die              : "sf_die_xuanhuanguai"
+sf_receive_damage   : "sf_receive_damage_xuanhuanguai"
+tactics_monster     : "tactics_xuanhuanguai"
+
+[³¬¼¶Ðþ»Ã¹Ö]
+name                : Ðþ»Ã¹Ö
+icon                : 6049
+portrait            : 6049
+level               : 114
+polar               : -1
+religion            : -1
+life_effect         : 5000
+speed_effect        : 5000
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+monster_num         : 9
+comrades            : ({ "³¬¼¶Ðþ»Ã¹Ö" })
+skills              : ({ "B4" })
+specify_skills      : ({ "rumeng-chuxing" })
+specify_skills_level: 180
+combat_trigger      : "combat_trigger_xuanhuanguai"
+tactics_monster     : "tactics_xuanhuanguai_advance"
+sf_action_translate : "sf_action_translate"
+sf_skill_success    : "sf_skill_success"

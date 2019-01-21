@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-09-30-00:00:00", "EVERY_DAY(10)", 0, "2016-10-09-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(+1)"
+message         : "#R【国庆节】鬼怪出没#n活动已经开始啦！各位道友赶快到#P活动大使#P处报名参加，一展身手吧！活动不止能够获得数值奖励，更有#R商城道具#n奖励，表现出色的道友还能获得#R神兽精魄#n、#R变异精魄#n哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【国庆节】鬼怪出没#n活动已经开始啦！各位道友赶快到#P活动大使#P处报名参加，一展身手吧！活动不止能够获得数值奖励，更有#R商城道具#n奖励，表现出色的道友还能获得#R神兽精魄#n、#R变异精魄#n哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

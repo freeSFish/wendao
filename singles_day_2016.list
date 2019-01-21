@@ -1,0 +1,19 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-11-11-12:11:00", "EVERY_MIN(19)", "EVERY_HOUR(1)", "2016-11-11-23:59:59" })
+time_list$ : ({ "2016-11-12-12:11:00", "EVERY_MIN(19)", "EVERY_HOUR(1)", "2016-11-12-23:59:59" })
+time_list$ : ({ "2016-11-13-12:11:00", "EVERY_MIN(19)", "EVERY_HOUR(1)", "2016-11-13-23:59:59" })
+start_time       : "2016-11-11-00:00:00"
+end_time         : "2016-11-13-23:59:59"
+end_bonus_time   : "2016-11-14-23:59:59"
+
+[broadcast_setting]
+broadcast_list   :   ({ "before_task" })
+
+[before_task]
+broadcast_start : "start_time(-660)"
+interval        : 60
+broadcast_end   : "start_time(-60)"
+broadcast_func  : "broadcast_dur_game"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

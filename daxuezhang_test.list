@@ -1,0 +1,22 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2010-12-16-14:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2011-01-06-23:00:00" })
+time_list$ : ({ "2010-12-18-17:30:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2011-01-06-23:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "during_task" })
+
+[before_task]
+broadcast_start : "start_time(-1800)"
+interval        : 300
+broadcast_end   : "start_time(-60)"
+message         : "广大道友们，在这寒冷的冬季，让我们搓搓手背，活动下筋骨，一起来打雪仗吧!今天#RSTART_FORMAT_HOUR_MIN#n至#REND_FORMAT_HOUR_MIN#n的雪战冰原活动热情等候你的参与，快拿锄头到#Z天墉城#Z的#P李总兵#P处报名参战吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "广大道友们，在这寒冷的冬季，让我们搓搓手背，活动下筋骨，一起来打雪仗吧!今天#RSTART_FORMAT_HOUR_MIN#n至#REND_FORMAT_HOUR_MIN#n的雪战冰原活动热情等候你的参与，快拿锄头到#Z天墉城#Z的#P李总兵#P处报名参战吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,23 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-10-08-00:00:00", "EVERY_MIN(15)", "EVERY_HOUR(1)", "2011-10-10-23:59:59" })
+
+[npc_time_info]
+npc_start_time : "2011-10-08-00:00:00"
+summon_end_time : "2011-10-10-23:59:59"
+exchange_score_time : "2011-10-11-00:00:00"
+npc_end_time : "2011-10-11-23:59:59"
+
+[poems]
+poems : ({ "床前明月光疑似地上霜", "举头望明月低头思故乡", "春眠不觉晓处处闻啼鸟", "夜来风雨声花落知多少", "美人卷珠帘深坐蹙蛾眉", "但见泪痕湿不知心恨谁" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 300
+broadcast_end   : "start_time(+600)"
+message         : "听闻有#Y黑熊怪#n在#Z天墉城#Z作乱，抢夺孩童的玩具小熊。请各位道友前往主持正义，夺回玩具小熊。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

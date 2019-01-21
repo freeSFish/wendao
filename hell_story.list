@@ -1,0 +1,155 @@
+#FORM2
+
+[活动时间]
+# 开放时间为每周一18：00- 20：00
+time_list$ : ({ "2012-09-03-19:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2012-09-03-15:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_start_task", "start_task", "during_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1799)"
+message         : "#R【周活动】地府总动员#n即将开始，地府的#P阎罗王#P即将发布#R【周活动】地府总动员#n任务，40级以上的玩家都可以找#P阎罗王#P领取任务。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "#R【周活动】地府总动员#n即将开始，地府的#P阎罗王#P即将发布#R【周活动】地府总动员#n任务，40级以上的玩家都可以找#P阎罗王#P领取任务。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【周活动】地府总动员#n活动开始了！#Z黄泉路#Z、#Z奈何桥#Z、#Z地府#Z出现了很多的#R鬼魂#n准备攻占地府，大家去找#P阎罗王#P领取#R【周活动】地府总动员#n任务！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+300)"
+interval        : 300
+broadcast_end   : "end_time(-200)"
+message         : "地府深处危难之中，请各位40级以上的有志之士速来#P阎罗王#P处领取#R【周活动】地府总动员#n任务！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "#R【周活动】地府总动员#n活动结束了，在各位勇士的帮助下地府恢复了平静！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[恶鬼]
+name                : 恶鬼
+polar               : -1
+icon                : ({ 260006141, 530006129 })
+life_effect         : "800 + LV / 70 * 200 + LV / 100 * 200 + LV / 120 * 300 + LV / 130 * 400 + LV / 150 * 300"
+phy_effect          : "120 + LV / 150 * 16"
+mag_effect          : "120 + LV / 150 * 16"
+speed_effect        : 50
+skills              : ({ "B4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+special_skills      : ({ "神龙罩", "如意圈" })
+special_skill_level : 180
+monster_tactics     : "monster_egui_tactics"
+
+[冤魂]
+name                : 冤魂
+polar               : -1
+religion            : -1
+icon                : 6258
+portrait            : 6258
+phy_effect          : "120 + (N - 1) * 8 + LV / 150 * 16"
+mag_effect          : "120 + (N - 1) * 8 + LV / 150 * 16"
+speed_effect        : 50
+modify_attrib       : ({ "phy_effect", "mag_effect" })
+skills              : ({ "B2", "B4" })
+monster_tactics     : "monster_yuanhun_tactics"
+
+[冤鬼]
+name                : 冤鬼
+polar               : -1
+religion            : -1
+icon                : 6227
+portrait            : 6227
+phy_effect          : "120 + LV / 100 * 80 + LV / 130 * 40 + (N - 1) * 12 + LV / 150 * 32"
+mag_effect          : "120 + LV / 100 * 80 + LV / 130 * 40 + (N - 1) * 8 + LV / 150 * 32"
+speed_effect        : 50
+modify_attrib       : ({ "phy_effect", "mag_effect" })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "monster_yuangui_tactics"
+
+[疑魂]
+name                : 疑魂
+polar               : -1
+religion            : -1
+icon                : 6239
+portrait            : 6239
+life_effect         : "600 + LV / 70 * 100 + LV / 100 * 200 + LV / 120 * 300 + LV / 130 * 800 + LV / 150 * 300"
+phy_effect          : "200 + LV / 150 * 30"
+mag_effect          : "200 + LV / 150 * 30"
+speed_effect        : 30
+tao_effect          : 30
+resist_forgotten    : 30
+resist_frozen       : 10
+resist_sleep        : 10
+resist_confusion    : 30
+resist_repress      : 30
+resist_cage         : 10
+resist_lock         : 10
+resist_lost         : 30
+double_hit_rate     : 30
+double_hit          : 3
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B2", "B4" })
+monster_tactics     : "monster_common_tactics"
+
+[游魂]
+name                : 游魂
+polar               : -1
+religion            : -1
+icon                : 6228
+portrait            : 6228
+life_effect         : "800 + LV / 70 * 200 + LV / 100 * 200 + LV / 120 * 300 + LV / 130 * 400 + LV / 150 * 300"
+phy_effect          : "160 + LV / 150 * 24"
+mag_effect          : "160 + LV / 150 * 24"
+speed_effect        : 30
+tao_effect          : 30
+resist_forgotten    : 30
+resist_frozen       : 10
+resist_sleep        : 10
+resist_confusion    : 30
+resist_repress      : 30
+resist_cage         : 10
+resist_lock         : 10
+resist_lost         : 30
+double_hit_rate     : 30
+double_hit          : 3
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B2", "B4" })
+monster_tactics     : "monster_common_tactics"
+
+[孤魂]
+name                : 孤魂
+polar               : -1
+religion            : -1
+icon                : 6221
+portrait            : 6221
+life_effect         : "800 + LV / 70 * 100 + LV / 100 * 200 + LV / 120 * 300 + LV / 130 * 300"
+phy_effect          : 120
+mag_effect          : 120
+speed_effect        : 30
+tao_effect          : 30
+resist_forgotten    : 30
+resist_frozen       : 10
+resist_sleep        : 10
+resist_confusion    : 30
+double_hit_rate     : 30
+double_hit          : 3
+modify_attrib       : ({ "life_effect" })
+skills              : ({ "B2" })
+monster_tactics     : "monster_guhun_tactics"

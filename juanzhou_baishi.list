@@ -1,0 +1,48 @@
+#FORM2
+
+[任务卷轴·拜师]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P辛仁皑#P了解有关#R师徒系统#n相关的知识。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+alias : "拜师"
+
+[S0]
+type : "null"
+item : "任务卷轴·拜师"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+type_ex : "task_finish"
+modf_state : "S2"
+npc : "辛仁皑"
+content$ : "NPC:行走世间，有一位师父指点帮助，是大大有益于修炼的。"
+content$ : "ME:前辈所言极是！"
+content$ : "NPC:这位小道友，你若是想找一个师父，可以在我这里进行登记，也可以从我这里的师父登记表中查找自己中意的师父。"
+content$ : "NPC:有了师父后，不但可以让师父帮助自己完成任务度过难关，每10级还可以到我这里领取师徒的资助呢。"
+content$ : "ME:原来有这么多好处，我现在就想找一个师父了！"
+action : "S2"
+log : "任务目标：找#P辛仁皑#P了解有关#R师徒系统#n相关的知识。"
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·拜师"
+log : "任务目标：在问道世界里拜一位师父，详细信息可以查看#R#H帮助|jiaoyouhudong\shituxitong.htm#H#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 500"
+
+[SX]
+type : "null"

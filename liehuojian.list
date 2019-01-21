@@ -1,0 +1,350 @@
+#FORM2
+
+[setting]
+keep_time        : 7200
+timer_inter      : ({ 3600, 1800, 600, 600, 300, 60, 60, 60, 60 })
+call_monster     : 54
+…œπ≈¿◊π÷$      : ({ 11, 64 })
+…œπ≈¿◊π÷$      : ({ 11, 75 })
+…œπ≈¿◊π÷$      : ({ 23, 65 })
+…œπ≈¿◊π÷$      : ({ 32, 70 })
+…œπ≈¿◊π÷$      : ({ 37, 77 })
+…œπ≈‘∆ ﬁ$      : ({ 28, 11 })
+…œπ≈‘∆ ﬁ$      : ({ 36, 8 })
+…œπ≈‘∆ ﬁ$      : ({ 46, 8 })
+…œπ≈‘∆ ﬁ$      : ({ 52, 16})
+…œπ≈‘∆ ﬁ$      : ({ 30, 25})
+…œπ≈”Í ﬁ$      : ({ 136, 14 })
+…œπ≈”Í ﬁ$      : ({ 150, 17 })
+…œπ≈”Í ﬁ$      : ({ 157, 25 })
+…œπ≈”Í ﬁ$      : ({ 131, 17 })
+…œπ≈”Í ﬁ$      : ({ 147, 35 })
+…œπ≈∑Áπ÷$      : ({ 160, 83 })
+…œπ≈∑Áπ÷$      : ({ 154, 74 })
+…œπ≈∑Áπ÷$      : ({ 143, 74 })
+…œπ≈∑Áπ÷$      : ({ 135, 84 })
+…œπ≈∑Áπ÷$      : ({ 138, 94 })
+≥‡—Ê ﬁ$      : ({ 67, 55 })
+≥‡—Ê ﬁ$      : ({ 76, 47 })
+≥‡—Ê ﬁ$      : ({ 100, 47 })
+≥‡—Ê ﬁ$      : ({ 110, 55 })
+
+[…œπ≈¿◊π÷_0]
+icon             : 6171
+portrait         : 6171
+name             : …œπ≈¿◊π÷
+polar            : 1
+resist_metal     : 70
+resist_fire      : -10
+life_effect      : 1000
+phy_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_absorb       : 25
+speed_effect     : 1000
+resist_forgotten : 30
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 30
+resist_confusion : 60
+resist_repress   : 60
+resist_melt      : 60
+resist_cage      : 60
+resist_lock      : 60
+resist_lost      : 60
+skills           : ({ "B4", "B5" })
+sp_skills        : ({ "…Ò¡˙’÷", "»Á“‚»¶" })
+tactics_monster  : "tactics_leiguai"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[…œπ≈¿◊π÷_1]
+icon             : 6171
+portrait         : 6171
+name             : …œπ≈¿◊π÷
+polar            : 1
+resist_metal     : 70
+resist_fire      : -10
+life_effect      : 6000
+phy_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+mag_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+mag_absorb       : 25
+speed_effect     : 1000
+resist_forgotten : 60
+resist_poison    : 90
+resist_frozen    : 90
+resist_sleep     : 60
+resist_confusion : 90
+resist_repress   : 90
+resist_melt      : 90
+resist_cage      : 90
+resist_lock      : 90
+resist_lost      : 90
+skills           : ({ "B4", "B5" })
+sp_skills        : ({ "…Ò¡˙’÷", "»Á“‚»¶" })
+tactics_monster  : "tactics_leiguai"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[…œπ≈‘∆ ﬁ_0]
+icon             : 6174
+portrait         : 6174
+name             : …œπ≈‘∆ ﬁ
+polar            : 2
+resist_wood      : 70
+resist_metal     : -10
+life_effect      : 1000
+phy_effect       : "40 + LV / 80 * 10 + LV / 100 * 10 + LV / 130 * 20"
+mag_effect       : "40 + LV / 80 * 10 + LV / 100 * 10 + LV / 130 * 20"
+mag_absorb       : 25
+tao_effect       : 200
+skills           : ({ "B2", "B4" })
+sp_skills        : ({ "”ŒÀµ÷Æ…‡" })
+tactics_monster  : "tactics_yunshou"
+combat_num       : 5
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[…œπ≈‘∆ ﬁ_1]
+icon             : 6174
+portrait         : 6174
+name             : …œπ≈‘∆ ﬁ
+polar            : 2
+resist_wood      : 70
+resist_metal     : -10
+life_effect      : 6000
+phy_effect       : "160 + LV / 80 * 40 + LV / 100 * 40 + LV / 130 * 80"
+mag_effect       : "160 + LV / 80 * 40 + LV / 100 * 40 + LV / 130 * 80"
+mag_absorb       : 25
+tao_effect       : 400
+skills           : ({ "B2", "B4" })
+sp_skills        : ({ "”ŒÀµ÷Æ…‡" })
+tactics_monster  : "tactics_yunshou"
+combat_num       : 5
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[…œπ≈”Í ﬁ_0]
+icon             : 6170
+portrait         : 6170
+name             : …œπ≈”Í ﬁ
+polar            : 3
+resist_water     : 70
+resist_earth     : -10
+life_effect      : 1500
+phy_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_absorb       : 25
+tao_effect       : 200
+skills           : ({ "B4" })
+sp_skills        : ({ "¬˛ÃÏ—™ŒË" })
+tactics_monster  : "tactics_yushou"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[…œπ≈”Í ﬁ_1]
+icon             : 6170
+portrait         : 6170
+name             : …œπ≈”Í ﬁ
+polar            : 3
+resist_water     : 70
+resist_earth     : -10
+life_effect      : 6500
+phy_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+mag_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+mag_absorb       : 25
+tao_effect       : 400
+skills           : ({ "B4" })
+sp_skills        : ({ "¬˛ÃÏ—™ŒË" })
+tactics_monster  : "tactics_yushou"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[…œπ≈∑Áπ÷_0]
+icon             : 6169
+portrait         : 6169
+name             : …œπ≈∑Áπ÷
+polar            : 5
+resist_earth     : 70
+resist_wood      : -10
+life_effect      : 1000
+phy_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_absorb       : 25
+resist_forgotten : 40
+resist_poison    : 20
+resist_frozen    : 40
+resist_sleep     : 20
+resist_confusion : 20
+resist_repress   : 40
+resist_melt      : 40
+resist_cage      : 40
+resist_lock      : 40
+resist_lost      : 40
+skills           : ({ "B4" })
+sp_skills        : ({ "À¿Õˆ≤¯√‡" })
+tactics_monster  : "tactics_fengguai"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[…œπ≈∑Áπ÷_1]
+icon             : 6169
+portrait         : 6169
+name             : …œπ≈∑Áπ÷
+polar            : 5
+resist_earth     : 70
+resist_wood      : -10
+life_effect      : 6000
+phy_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+mag_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+mag_absorb       : 25
+all_resist_except: 80
+skills           : ({ "B4" })
+sp_skills        : ({ "À¿Õˆ≤¯√‡" })
+tactics_monster  : "tactics_fengguai"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_normal"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[«ßƒÍ”Ò Ø≈˝≈√æ´_0]
+icon             : 6204
+portrait         : 6204
+name             : «ßƒÍ”Ò Ø≈˝≈√æ´
+polar            : 5
+resist_water     : 70
+resist_earth     : -10
+life_effect      : 4500
+phy_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_effect       : "60 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 30"
+mag_absorb       : 25
+resist_forgotten : 60
+resist_poison    : 20
+resist_frozen    : 20
+resist_sleep     : 20
+resist_confusion : 60
+resist_repress   : 60
+resist_melt      : 60
+resist_cage      : 60
+resist_lock      : 60
+resist_lost      : 60
+skills           : ({ "B2", "B4" })
+tactics_monster  : "tactics_pipajing"
+combat_num       : 10
+monster_menu     : ({ "menu_content_pipajing", "menu_action" })
+combat_trigger   : "combat_trigger_pipajing"
+create_combat_team : "create_combat_team_pipajing"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[«ßƒÍ”Ò Ø≈˝≈√æ´_1]
+icon             : 6204
+portrait         : 6204
+name             : «ßƒÍ”Ò Ø≈˝≈√æ´
+polar            : 5
+resist_water     : 70
+resist_earth     : -10
+life_effect      : 27000
+phy_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+mag_effect       : "240 + LV / 80 * 40 + LV / 100 * 80 + LV / 130 * 120"
+tao_effect       : 200
+mag_absorb       : 25
+all_resist_except: 100
+skills           : ({ "B2", "B4" })
+tactics_monster  : "tactics_pipajing"
+combat_num       : 10
+monster_menu     : ({ "menu_content_pipajing", "menu_action" })
+combat_trigger   : "combat_trigger_pipajing"
+create_combat_team : "create_combat_team_pipajing"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[≥‡—Ê ﬁ_0]
+icon             : 6260
+portrait         : 6260
+name             : ≥‡—Ê ﬁ
+polar            : 4
+resist_fire      : 70
+resist_water     : -10
+life_effect      : 6000
+phy_effect       : "150 + LV / 80 * 50 + LV / 100 * 50 + LV / 130 * 150"
+mag_effect       : "130 + LV / 80 * 30 + LV / 100 * 50 + LV / 130 * 90"
+speed_effect     : 150
+mag_absorb       : 25
+penetrate_rate   : 5
+penetrate        : 50
+resist_forgotten : 100
+resist_poison    : 60
+resist_frozen    : 60
+resist_sleep     : 30
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 100
+resist_lock      : 100
+resist_lost      : 100
+skills           : ({ "B4", "B5", "D5" })
+tactics_monster  : "tactics_chiyanshou"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_chiyanshou"
+create_combat_team : "create_combat_team_chiyanshou"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[≥‡—Ê ﬁ_1]
+icon             : 6260
+portrait         : 6260
+name             : ≥‡—Ê ﬁ
+polar            : 4
+resist_fire      : 70
+resist_water     : -10
+life_effect      : 27000
+phy_effect       : "290 + LV / 80 * 70 + LV / 100 * 70 + LV / 130 * 70"
+mag_effect       : "250 + LV / 80 * 50 + LV / 100 * 70 + LV / 130 * 30"
+speed_effect     : 450
+mag_absorb       : 25
+penetrate_rate   : 20
+penetrate        : 50
+all_resist_except: 100
+skills           : ({ "B4", "B5", "D5" })
+tactics_monster  : "tactics_chiyanshou"
+combat_num       : 10
+monster_menu     : ({ "menu_content_normal", "menu_action" })
+combat_trigger   : "combat_trigger_chiyanshou"
+create_combat_team : "create_combat_team_chiyanshou"
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[≥‡—Ê ﬁ–°π÷_0]
+icon             : ({ 6102, 6125, 6168, 6116, 6118, 6130, 6153 })
+name             : ({ "ª…ﬂ", "≥‡ƒø”„»À", "ª∫¸", "ªÚ", "≥‡¡˙", "ªƒÒ", "¡∂ƒß" })
+polar            : 4
+resist_fire      : 70
+resist_water     : -10
+life_effect      : 700
+phy_effect       : "70 + LV / 80 * 10 + LV / 100 * 30 + LV / 130 * 40"
+mag_effect       : "70 + LV / 80 * 10 + LV / 100 * 10 + LV / 130 * 30"
+mag_absorb       : 25
+skills           : ({ "B4", "B4" })
+modify_attribs   : ({ "phy_effect", "mag_effect" })
+
+[≥‡—Ê ﬁ–°π÷_1]
+icon             : ({ 6102, 6125, 6168, 6116, 6118, 6130, 6153 })
+name             : ({ "ª…ﬂ", "≥‡ƒø”„»À", "ª∫¸", "ªÚ", "≥‡¡˙", "ªƒÒ", "¡∂ƒß" })
+polar            : 4
+resist_fire      : 70
+resist_water     : -10
+life_effect      : 1400
+phy_effect       : "200 + LV / 80 * 20 + LV / 100 * 60 + LV / 130 * 20"
+mag_effect       : "160 + LV / 80 * 10 + LV / 100 * 20 + LV / 130 * 10"
+mag_absorb       : 25
+skills           : ({ "B4", "B4" })
+modify_attribs   : ({ "phy_effect", "mag_effect" })

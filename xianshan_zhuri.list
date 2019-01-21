@@ -1,0 +1,132 @@
+#FORM2
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2010-07-19-00:00:00", "EVERY_MIN(10)", "EVERY_HOUR(1)", "2010-08-31-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "pre_start_task_1", "start_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "炎炎夏日，东皇九子又跑来下界捣乱，各位有识之士速去本门师尊处听候指示，诛灭东皇邪魔。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[pre_start_task_1]
+broadcast_start : "start_time(-2400)"
+interval        : 1200
+broadcast_end   : "start_time(-1)"
+message         : "仙山逐日活动正在进行中，全天整点至整点过10分开放，请各位有识之士速去本门师尊处听候指示。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+# ------------ task_infos --------------
+
+[东皇爪牙]
+icon : ({ 06153, 06136, 31044 })
+monster : ({ "东皇军师", "东皇打手", "东皇妖师" })
+
+[三足金乌]
+icon  : 06130
+rumor : 1
+monster : 金乌分身
+
+[东皇分身]
+icon : 06235
+rumor: 1
+monster : 东皇分身1
+
+[task_infos]
+maps           : ({ "五龙山", "终南山", "凤凰山", "乾元山", "骷髅山" })
+common_monsters : ({ "东皇军师", "东皇打手", "东皇妖师" })
+
+# ------------- monster_attrib ---------
+
+[东皇军师]
+name             : 东皇军师
+icon             : 06153
+portrait         : 06153
+polar            : -1
+life_effect      : "1100 + 玩家人数 * 200"
+speed_effect     : 30
+tao_effect       : 10
+phy_effect       : 150
+mag_effect       : 200
+phy_absorb       : 100
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_forgotten : 45
+resist_confusion : 45
+skills           : ({ "B2", "B4" })
+
+[东皇打手]
+name             : 东皇打手
+icon             : 06136
+portrait         : 06136
+polar            : -1
+life_effect      : "1100 + 玩家人数 * 200"
+speed_effect     : 30
+tao_effect       : 10
+phy_effect       : 200
+mag_effect       : 150
+mag_absorb       : 100
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_forgotten : 45
+resist_confusion : 45
+stunt_rate       : 50
+accurate         : 100
+
+[东皇妖师]
+name             : 东皇妖师
+icon             : 31044
+portrait         : 31044
+polar            : -1
+life_effect      : "500 + 玩家人数 * 200"
+speed_effect     : 60
+tao_effect       : 50
+phy_effect       : 150
+mag_effect       : 150
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+skills           : ({ "C4", "B4" })
+
+[金乌分身]
+name             : 金乌分身
+icon             : 06130
+portrait         : 06130
+polar            : -1
+life_effect      : "2500 + 玩家人数 * 1000"
+speed_effect     : 100
+tao_effect       : 100
+phy_effect       : 250
+mag_effect       : 250
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+skills           : ({ "C4", "B4", "lipo-qianjun" })
+
+[东皇分身1]
+name             : 东皇分身
+icon             : 06235
+portrait         : 06235
+polar            : -1
+life_effect      : "4000 + 玩家人数 * 1600"
+speed_effect     : 100
+tao_effect       : 200
+phy_effect       : 300
+mag_effect       : 300
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+skills           : ({ "C4", "B4", "lipo-qianjun" })

@@ -1,0 +1,325 @@
+#FORM2
+
+# recommended 表示推荐类型, 配置为正数表示是被推荐人，否则为推荐人
+# char_level 升到什么等级的奖励
+# rate 表示抽取几率
+# bonus$ 奖励配置
+# bonus_container 表示包含二级奖励的抽取
+# bonus_key 二级奖励特有，表示为该一级奖励的下属
+# quota 奖励配额({ 记录路径, 记录周期, 配额数 })
+# instead 配额满后的替代奖励
+# instead_rumor 替代奖励的谣言
+# new_dist_rumor_limit 新区前10天不发送谣言
+
+#-----------------------------被推荐人奖励配置50级别-----------------------------------
+[rd001]
+recommended : 1
+char_level  : 50
+rate    : 45000
+bonus$  : ({ 0, 0, 100, "经验", 50000, 50000 })
+
+[rd002]
+recommended : 1
+char_level  : 50
+rate    : 5000
+bonus$  : ({ 0, 0, 100, "经验", 200000, 200000 })
+rumor   : "#Y%s#n努力将等级提升到了50级，由于填写了引路人信息，因此获得到了#R200000点经验#n。"
+
+[rd003]
+recommended : 1
+char_level  : 50
+rate    : 45000
+bonus$  : ({ 0, 0, 100, "代金券", 500000, 500000 })
+
+[rd004]
+recommended : 1
+char_level  : 50
+rate    : 5000
+bonus$  : ({ 0, 0, 100, "代金券", 2000000, 2000000 })
+rumor   : "#Y%s#n努力将等级提升到了50级，由于填写了引路人信息，因此获得了#cFF00FF2,000,000#n文代金券。"
+
+[rd005]
+bonus_container : "道具"
+recommended : 1
+char_level  : 50
+rate    : 5000
+rumor   : "#Y%s#n努力将等级提升到了50级，由于填写了引路人信息，因此得到了#R%s#n。"
+
+[rd006]
+bonus_container : "乖乖狗"
+recommended : 1
+char_level  : 50
+rate    : 1
+
+[rd007]
+bonus_key : "道具"
+rate    : 2500
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+
+[rd008]
+bonus_key : "道具"
+rate    : 2500
+bonus$  : ({ 0, 0, 100, "超级仙风散#赠品", 1, 1 })
+
+[rd009]
+bonus_key : "道具"
+rate    : 1000
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+
+[rd010]
+bonus_key : "道具"
+rate    : 1000
+bonus$  : ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+
+[rd011]
+bonus_key : "道具"
+rate    : 500
+bonus$  : ({ 0, 0, 100, "经营许可证#赠品", 1, 1 })
+
+[rd012]
+bonus_key : "道具"
+rate    : 500
+bonus$  : ({ 0, 0, 100, "金蝉脱壳#赠品", 1, 1 })
+
+[rd013]
+bonus_key : "道具"
+rate    : 500
+bonus$  : ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+
+[rd014]
+bonus_key : "道具"
+rate    : 500
+bonus$  : ({ 0, 0, 100, "法玲珑#赠品", 1, 1 })
+
+[rd015]
+bonus_key : "道具"
+rate    : 150
+bonus$  : ({ 0, 0, 100, "高级血池#赠品", 1, 1 })
+
+[rd021]
+bonus_key : "道具"
+rate    : 50
+bonus$  : ({ 0, 0, 100, "惊妖铃#赠品", 1, 1 })
+
+[rd022]
+bonus_key : "道具"
+rate    : 50
+bonus$  : ({ 0, 0, 100, "急急如律令#赠品", 1, 1 })
+
+[rd023]
+bonus_key : "道具"
+rate    : 50
+bonus$  : ({ 0, 0, 100, "高级灵池#赠品", 1, 1 })
+
+[rd024]
+bonus_key : "道具"
+rate    : 50
+bonus$  : ({ 0, 0, 100, "飞行符#赠品", 1, 1 })
+
+[rd025]
+bonus_key : "道具"
+rate      : 50
+bonus$    : ({ 0, 0, 100, "引路蜂#赠品", 1, 1 })
+
+[rd026]
+bonus_key : "道具"
+rate      : 10
+bonus$    : ({ 0, 0, 100, "道具套餐卡·体验#赠品", 1, 1 })
+quota     : ({ "rec/item/", "月", 10 })
+instead   : "rd010"
+
+[rd027]
+bonus_key : "乖乖狗"
+rate      : 70
+bonus$    : ({ 0, 0, 100, "宠物", 1, 1, "乖乖狗0"})
+quota     : ({ "rec/pet/", "月", 1 })
+instead   : "rd010"
+instead_rumor : "#Y%s#n努力将等级提升到了50级，由于填写了引路人信息，因此得到了#R%s#n。"
+
+[rd028]
+bonus_key : "乖乖狗"
+rate      : 20
+bonus$    : ({ 0, 0, 100, "宠物", 1, 1, "乖乖狗1"})
+quota     : ({ "rec/pet/", "月", 1 })
+instead   : "rd010"
+instead_rumor : "#Y%s#n努力将等级提升到了50级，由于填写了引路人信息，因此得到了#R%s#n。"
+
+[rd029]
+bonus_key : "乖乖狗"
+rate      : 10
+bonus$    : ({ 0, 0, 100, "宠物", 1, 1, "乖乖狗2"})
+quota     : ({ "rec/pet/", "月", 1 })
+instead   : "rd010"
+instead_rumor : "#Y%s#n努力将等级提升到了50级，由于填写了引路人信息，因此得到了#R%s#n。"
+
+[乖乖狗0]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_rumor : "#Y$PLAYER#n努力将等级提升到了50级，由于填写了引路人信息，因此得到了#Y$EX_PET#n。"
+
+[乖乖狗1]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 神圣之光, 1, 乾坤罩, 1 })
+channel_rumor : "#Y$PLAYER#n努力将等级提升到了50级，由于填写了引路人信息，因此得到了#Y$EX_PET#n。"
+
+[乖乖狗2]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 神圣之光, 1, 乾坤罩, 1 })
+channel_rumor : "#Y$PLAYER#n努力将等级提升到了50级，由于填写了引路人信息，因此得到了#Y$EX_PET#n。"
+
+#---------------------------推荐人奖励配置50级别---------------------------------
+[rd030]
+bonus_container : "道具"
+char_level  : 50
+rate    : 100000
+rumor : "由于积极推荐其他玩家进入#R《问道》#n，#Y%s#n获得了#R《问道》#n送出的#R%s#n，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[rd0301]
+char_level  : 50
+rate    : 200000
+bonus$  : ({ 0, 0, 100, "经验", 500000, 500000 })
+
+[rd0302]
+char_level  : 50
+rate    : 200000
+bonus$  : ({ 0, 0, 100, "道行", 10000, 10000, "", "削减" })
+
+#---------------------------推荐人奖励配置75级别---------------------------------
+[rd031]
+bonus_container : "道具"
+char_level  : 75
+rate    : 100000
+rumor : "由于积极推荐其他玩家进入#R《问道》#n，#Y%s#n获得了#R《问道》#n送出的#R%s#n，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[rd0311]
+char_level  : 75
+rate    : 200000
+bonus$  : ({ 0, 0, 100, "经验", 750000, 750000 })
+
+[rd0312]
+char_level  : 75
+rate    : 200000
+bonus$  : ({ 0, 0, 100, "道行", 15000, 15000, "", "削减" })
+
+#---------------------------推荐人奖励配置100级别---------------------------------
+[rd032]
+bonus_container : "道具"
+char_level  : 100
+rate    : 100000
+rumor : "由于积极推荐其他玩家进入#R《问道》#n，#Y%s#n获得了#R《问道》#n送出的#R%s#n，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[rd033]
+bonus_container : "招财猪"
+char_level  : 100
+rate    : 12
+new_dist_rumor_limit : 1
+
+[rd034]
+bonus_key : "招财猪"
+rate      : 70
+bonus$    : ({ 0, 0, 100, "宠物", 1, 1, "招财猪0"})
+quota     : ({ "rec/pet/", "月", 1 })
+instead   : "rd010"
+instead_rumor : "由于积极推荐其他玩家进入#R《问道》#n，#Y%s#n获得了#R《问道》#n送出的#R%s#n，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[rd035]
+bonus_key : "招财猪"
+rate      : 20
+bonus$    : ({ 0, 0, 100, "宠物", 1, 1, "招财猪1"})
+quota     : ({ "rec/pet/", "月", 1 })
+instead   : "rd010"
+instead_rumor : "由于积极推荐其他玩家进入#R《问道》#n，#Y%s#n获得了#R《问道》#n送出的#R%s#n，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[rd036]
+bonus_key : "招财猪"
+rate      : 10
+bonus$    : ({ 0, 0, 100, "宠物", 1, 1, "招财猪2"})
+quota     : ({ "rec/pet/", "月", 1 })
+instead   : "rd010"
+instead_rumor : "由于积极推荐其他玩家进入#R《问道》#n，#Y%s#n获得了#R《问道》#n送出的#R%s#n，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[rd037]
+char_level  : 100
+rate    : 200000
+bonus$  : ({ 0, 0, 100, "经验", 1000000, 1000000 })
+
+[rd038]
+char_level  : 100
+rate    : 200000
+bonus$  : ({ 0, 0, 100, "道行", 20000, 20000, "", "削减" })
+
+[招财猪0]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_rumor : "由于积极推荐其他玩家进入《问道》，#Y$PLAYER#n获得了《问道》送出的#Y$EX_PET#n的奖励，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[招财猪1]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 舍命一击, 1, 如意圈, 1 })
+channel_rumor : "由于积极推荐其他玩家进入《问道》，#Y$PLAYER#n获得了《问道》送出的#Y$EX_PET#n的奖励，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1
+
+[招财猪2]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 舍命一击, 1, 如意圈, 1 })
+channel_rumor : "由于积极推荐其他玩家进入《问道》，#Y$PLAYER#n获得了《问道》送出的#Y$EX_PET#n的奖励，希望大家也要积极推荐，还有更丰厚的大奖等着你哟！更多详情请咨询#P问道引路人#P！#71"
+new_dist_rumor_limit : 1

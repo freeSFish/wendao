@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time : "2015-06-06-00:00:00"
+end_time   : "2015-06-13-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "值此花好月圆、举国同庆之际，天墉城居民们纷纷带上祈福物品前往风月谷摆设香案，向善良的嫦娥祈求吉祥平安。可恶的#Y蓬蒙恶人#n在半道上想强占祈福物品，道友们是否愿意帮助居民们在#P活动大使#P处运送祈福物品呢？"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,8 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-08-26-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "-1", "min_level(1)|max_level(129)" })
+time_list$ : ({ "2008-12-12-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2008-12-13-14:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2008-12-13-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "-1", "min_level(1)|max_level(129)" })
+time_list$ : ({ "2008-12-14-14:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "-1", "min_level(1)|max_level(99)" })

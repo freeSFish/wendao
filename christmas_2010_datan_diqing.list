@@ -1,0 +1,49 @@
+#FORM2
+
+[打探敌情]
+time_list$ : ({ "2010-12-10-17:00:00", "EVERY_HOUR(7)", "EVERY_DAY(1)", "2010-12-28-23:59:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "during_launch_task", "during_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-1800)"
+interval        : 300
+broadcast_end   : "start_time(-300)"
+message         : "打探敌情活动即将于#R17:00#n开启，趁着夜色来临，我们一起去#Z风月谷#Z强盗们的老巢打探一下虚实，查探被抢走的礼物和驯鹿被藏在哪儿了吧，据说能找到不少珍贵的宝贝哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_launch_task]
+broadcast_start : "start_time"
+interval        : 60
+broadcast_end   : "start_time(+600)"
+message         : "趁着夜色来临，我们一起去#Z风月谷#Z强盗们的老巢打探一下虚实，查探被抢走的礼物和驯鹿被藏在哪儿了吧，据说能找到不少珍贵的宝贝哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+660)"
+interval        : 1800
+broadcast_end   : "end_time(-60)"
+message         : "趁着夜色来临，我们一起去#Z风月谷#Z强盗们的老巢打探一下虚实，查探被抢走的礼物和驯鹿被藏在哪儿了吧，据说能找到不少珍贵的宝贝哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 2
+broadcast_end   : "end_time(+1)"
+message         : "今天的#R打探敌情#n已经结束，强盗们已经回到老巢，大家还是暂避风头，等明日再来吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[被惊动的强盗]
+rand_name        : ({ 被惊动的强盗, 被惊动的恶霸, 被惊动的土匪 })
+icon             : 6201
+portrait         : ({ 30001, 30002, 30003, 30004, 30005 })
+random_icon      : ({ 6201, 6202 })
+polar            : -1
+no_capture       : 1
+phy_effect       : 90
+mag_effect       : 120
+speed_effect     : 20
+tao_effect       : 10
+skills           : ({ "B3", "B4", "B5", "C4" })
+tactics          : "datan_diqing_tactics"

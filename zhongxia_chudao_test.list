@@ -1,0 +1,93 @@
+#FORM2
+
+#仲夏除盗
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2010-07-18-12:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2010-08-31-24:00:00" })
+time_list$ : ({ "2010-07-23-12:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2010-08-31-24:00:00" })
+
+[setting]
+map_info: ({ "官道南", "官道北" })
+monster_info$: ({ "纳凉的仙子", 30 })
+monster_info$: ({ "捣乱的强盗", 30 })
+纳凉的仙子 : ({ 06173, 06275 })
+捣乱的强盗 : ({ 06201, 06202 })
+
+[broadcast_setting]
+broadcast_list:   ({ "pre_start_task", "during_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-7200)"
+interval        : 1200
+broadcast_end   : "start_time(-1200)"
+message         : "#R仲夏除盗#n活动将于#RSTART_TIME#n开启，届时请到#Z官道南#Z、#Z官道北#Z参加。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-600)"
+message         : "#R仲夏除盗#n活动已经开启，大家赶快到#Z官道南#Z、#Z官道北#Z击退捣乱的强盗，保护纳凉的仙子吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "捣乱的强盗们已经被大家击退了，仙子们又可以安心乘凉了。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[仙子]
+name: "仙子"
+icon: 06173
+mag_absorb: -100
+mag_effect: -99
+speed_effect: 100
+null_rate: 100
+monster_tactics: "template_monster"
+
+[仙子1]
+name: "仙子"
+icon: 06173
+mag_absorb: -100
+mag_effect: -99
+speed_effect: 100
+tao_effect: 5000
+null_rate: 100
+monster_tactics: "template_monster"
+
+[仙子2]
+name: "仙子"
+icon: 06173
+mag_effect: -99
+speed_effect: 500
+null_rate: 100
+monster_tactics: "template_monster"
+
+[被绑架的仙子]
+name: "被绑架的仙子"
+icon: 06173
+life: 100
+max_life: 100
+speed_effect: 500
+null_rate: 100
+monster_tactics: "template_monster"
+
+[捣乱的强盗]
+name: "捣乱的强盗"
+life_effect: 500
+phy_effect: 80
+mag_effect: 80
+speed_effect: 40
+tao_effect: 50
+resist_forgotten: 25
+resist_poison   : 25
+resist_frozen   : 25
+resist_sleep    : 25
+resist_confusion: 25
+stunt_rate: 30
+mag_rate: 50
+b4_rate: 60
+skills: ({ "B3", "B4", "B5" })
+monster_tactics: "template_monster"

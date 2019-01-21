@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-10-21-12:00:00", "EVERY_HOUR(6)", "EVERY_DAY(1)", "2015-10-23-18:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-100)"
+message         : "昨日登高罢，今朝再举觞。请大家在今日#RSTART_FORMAT_HOUR_MIN#n至#REND_FORMAT_HOUR_MIN#n期间，快来跟随#P祭天使者|天墉城(227，134)#P一起来祈福吧！(活动双倍、三倍、全局双倍均无效)"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(100)"
+message         : "#R【重阳节】祭天祈福#n活动已圆满结束，祝大家重阳节愉快！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,105 @@
+#FORM2
+#yuancho.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+元灵奖励 : 500
+
+
+
+[元灵奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "夫诸", "笛舞", "赤天", "降魔", "混沌", "震魃", "大力神猪", "齐天大圣"})
+
+[赤天]
+name$: ({ 赤天,赤天 })
+rank$: 元灵
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[笛舞]
+name$: ({ 笛舞,笛舞 })
+rank$: 元灵
+level: 1
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[降魔]
+name$: ({ 降魔,降魔 })
+rank$: 元灵
+level: 1
+life_effect: ({ 90, 90 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[混沌]
+name$: ({ 混沌,混沌 })
+rank$: 元灵
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -25, -25 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ 110, 110 })
+mag_effect: ({ -50, -50 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[夫诸]
+name$: ({ 夫诸,夫诸 })
+rank$: 元灵
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[震魃]
+name$: ({ 震魃,震魃 })
+rank$: 元灵
+level: 1
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[齐天大圣]
+name$: ({ 齐天大圣,齐天大圣 })
+rank$: 元灵
+level: 1
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[大力神猪]
+name$: ({ 大力神猪,大力神猪 })
+rank$: 元灵
+level: 1
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#$PLAYER#n打开#锦囊#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+

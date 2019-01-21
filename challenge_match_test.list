@@ -1,0 +1,63 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-02-09-18:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "-1" })
+
+[match_standard]
+60  : ({ "0.1", 2009, 1708, 347, 1693 })
+70  : ({ "0.2", 2702, 2133, 422, 2116 })
+80  : ({ "0.4", 2732, 2175, 446, 1901 })
+90  : ({ "0.6", 3370, 2463, 524, 2023 })
+100 : ({ "0.7", 4801, 3310, 618, 2626 })
+110 : ({ "0.8", 6189, 3618, 650, 3108 })
+120 : ({ "1.1", 7127, 5348, 844, 4085 })
+130 : ({ "2.1", 13457, 14328, 1312, 8590 })
+140 : ({ "3.1", 19458, 21584, 1689, 11175 })
+150 : ({ "4.1", 36970, 34534, 2364, 22350 })
+160 : ({ "5.1", 55455, 51801, 3546, 33525 })
+
+[all_pos]
+1$ : ({ 350, 199 }),
+1$ : ({ 346, 197 }),
+1$ : ({ 342, 195 }),
+1$ : ({ 354, 197 }),
+1$ : ({ 358, 195 }),
+2$ : ({ 370, 189 }),
+2$ : ({ 366, 187 }),
+2$ : ({ 362, 185 }),
+2$ : ({ 374, 187 }),
+2$ : ({ 378, 185 }),
+
+[match_level_map]
+80-89   : 80
+90-99   : 90
+100-109 : 100
+110-119 : 110
+120-129 : 120
+130-139 : 130
+140-149 : 140
+150-169 : 150
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "start_task", "end_task" })
+
+[before_task]
+broadcast_start : "start_time(-600)"
+interval        : 120
+broadcast_end   : "start_time(-1)"
+message         : "#R擂台小霸王#n即将开始，#P擂台管理人#P在天墉城设下擂台，各等级段在相应线路参加，将选出天墉城最强队伍。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R擂台小霸王#n开始了，请各参赛队到各自对应的线路，找#P擂台管理人#P参加。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "本次#R擂台小霸王#n活动结束，稍适歇息，请各位道友下周再战。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

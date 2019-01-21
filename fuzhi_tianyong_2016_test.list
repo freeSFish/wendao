@@ -1,0 +1,14 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-12-07-00:00:00", "EVERY_DAY(7)", 0, "2015-12-13-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-100)"
+message         : "值此新年之际，#Y颛顼#n给全中洲玩家送福啦！活动期间只要你在指定的系统中获得经验和道行，#Y颛顼#n将额外赠送你勤奋奖励，快去完成它们，努力获得额外奖励吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

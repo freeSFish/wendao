@@ -1,0 +1,30 @@
+#FORM2
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率，结束时间
+time_list$ : ({ "2011-01-10-14:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2011-02-01-23:59:59" })
+time_list$ : ({ "2011-01-12-17:30:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2011-02-01-23:59:59" })
+time_list$ : ({ "2011-01-14-14:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2011-02-01-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "during_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-1800)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "广大道友们，在这寒冷的冬天，海面都结冰了，让我们去砸开冰层，一起钓鱼吧！#RSTART_FORMAT_HOUR_MIN#n至#REND_FORMAT_HOUR_MIN#n的冰上钓鱼大赛活动热情等候你的参与，快准备好鱼竿到#Z北海沙滩#Z的#P冰垂钓人|北海沙滩(100,34)#P那里参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "广大道友们，在这寒冷的冬天，海面都结冰了，让我们去砸开冰层，一起钓鱼吧！#RSTART_FORMAT_HOUR_MIN#n至#REND_FORMAT_HOUR_MIN#n的冰上钓鱼大赛活动热情等候你的参与，快准备好鱼竿到#Z北海沙滩#Z的#P冰垂钓人|北海沙滩(100,34)#P那里参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[npc]
+name            : 冰垂钓人
+map             : 北海沙滩
+icon            : 6044
+pos             : ({ 100, 34 })

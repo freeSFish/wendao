@@ -1,0 +1,7 @@
+#名称     file_id                    move_on_script
+key_name,       file_id,               move_on_script
+福星光效,       "carpet/fu",           "carpet/fu"
+禄星光效,       "carpet/lu",           "carpet/lu"
+寿星光效,       "carpet/shou",         "carpet/shou"
+城战目的地光效, "carpet/city_war_des", 0
+

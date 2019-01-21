@@ -1,0 +1,35 @@
+#FORM2
+
+[任务卷轴·炼丹]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：使用炼丹炉炼制一颗#R三清丸#n，所需材料为2颗7级内丹和1颗6级内丹，炼化药品配方可以查看#R#H帮助|lianhuaxitong\lianhuawupinpf.htm#H#n。"
+all_children : ({ "S1", "SX" })
+timeout_task : 1
+alias : "炼丹"
+
+[S0]
+type : "null"
+item : "任务卷轴·炼丹"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·炼丹"
+log : "任务目标：使用炼丹炉炼制一颗#R三清丸#n，所需材料为2颗7级内丹和1颗6级内丹，炼化药品配方可以查看#R#H帮助|lianhuaxitong\lianhuawupinpf.htm#H#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 100000"
+
+[SX]
+type : "null"

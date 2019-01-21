@@ -1,0 +1,340 @@
+#FORM2
+
+[setting]
+start_time : "2012-01-21-00:00:00"
+end_time : "2012-01-28-18:59:59"
+npc_list : ({ "牡丹花", "桂花", "昙花", "茉莉", "君子幽兰", "豆蔻", "莲花", "月季", "玉兰", "花玉簪", "禾雀", "月见草" })
+
+[bonus]
+bonus_item_arr : ({ "包子", "拨浪鼓", "血池", "超级仙风散", "超级八卦阴阳令", "果仁糖葫芦", "纸鸢", "特级八卦阴阳令", "喇叭", "超级黑水晶", "特效仙风散", "灵池", "神木鼎", "中级血池", "中级灵池", "道具套餐卡" })
+bonus_rate_arr : ({ 13500, 13500, 8500, 8500, 8500, 10000, 10000, 4500, 4500, 4500, 4500, 4500, 4500, 3500, 2000, 1000 })
+
+[npc_info]
+牡丹花 : ({ 31081, "法术攻击", "天墉城", 228, 134, SOUTHEAST, "你好，我是牡丹花，代表着富贵与圆满。"})
+桂花 : ({ 31077, "物理攻击", "天墉城", 133, 87, SOUTHEAST, "你好，我是桂花，代表着友好与吉祥。" })
+昙花 : ({ 31072, "障碍法术", "天墉城", 63, 54, SOUTHEAST, "你好，我是昙花，代表着刹那的美丽，瞬间的永恒。" })
+茉莉 : ({ 31073, "法术连击", "桃柳林", 68, 110, SOUTHWEST, "你好，我是茉莉，代表着和蔼可亲。" })
+君子幽兰 : ({ 31076, "物理连击", "桃柳林", 38, 18, SOUTHEAST, "你好，我是君子幽兰，代表着洁白的爱。" })
+豆蔻 : ({ 31082, "法术伤害吸收", "桃柳林", 182, 7, SOUTHWEST, "你好，我是豆蔻，代表着别离与伤感。" })
+莲花 : ({ 31079, "物理伤害吸收", "轩辕庙", 98, 222, SOUTHWEST, "你好，我是莲花，代表着信仰。" })
+月季 : ({ 31074, "辅助技能", "轩辕庙", 246, 189, SOUTHWEST, "你好，我是月季，代表着美好的未来。" })
+玉兰 : ({ 31075, "恢复技能", "轩辕庙", 292, 24, SOUTHEAST, "你好，我是玉兰，代表着高尚与纯洁。" })
+花玉簪 : ({ 31078, "物理暴击", "北海沙滩", 119, 139, SOUTHEAST, "你好，我是花玉簪，代表着恬静与宽和。" })
+禾雀 : ({ 31083, "各类宠物天技", "北海沙滩", 53, 92, SOUTHEAST, "你好，我是禾雀，代表着欢乐与幸福。" })
+月见草 : ({ 31080, "闪避", "北海沙滩", 87, 43, SOUTHEAST, "你好，我是月见草，代表着代表不屈与自由的心。" })
+
+[牡丹花]
+name             : "牡丹花"
+polar            : -1
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : 100
+mag_effect       : "100 + (LV - 40) / 35 * 45"
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "mag_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "B2", "B4", "B3", "D3" })
+h_m_skills       : ({ "B2", "B4", "B5", "D5" })
+tactics          : "tactics_magic_attack"
+
+[桂花]
+name             : "桂花"
+polar            : 0
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : 100
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "lipo-qianjun" })
+h_m_skills       : ({ "lipo-qianjun" })
+tactics          : "tactics_magic_attack"
+
+[昙花]
+name             : "昙花"
+polar            : -1
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : "100 + (LV - 40) / 35 * 45"
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "B2", "B4", "C4" })
+h_m_skills       : ({ "B2", "B4", "C4" })
+tactics          : "tactics_tanhua"
+
+[茉莉]
+name             : "茉莉"
+polar            : -1
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : 100
+mag_effect       : "100 + (LV - 40) / 35 * 45"
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "mag_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "B1", "B2", "B4", "B3", "D3" })
+h_m_skills       : ({ "B1", "B2", "B3", "B4", "B5", "D5" })
+artifact         : ({ "fantianyin", 18 })
+god_book_skills  : ({ "xiuluoshu" })
+tactics          : "tactics_moli"
+
+[君子幽兰]
+name             : "君子幽兰"
+polar            : 0
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : 100
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+double_hit_rate  : 80
+double_hit       : 12
+l_m_skills       : ({ "lipo-qianjun" })
+h_m_skills       : ({ "lipo-qianjun" })
+tactics          : "tactics_magic_attack"
+
+[豆蔻]
+name             : "豆蔻"
+polar            : -1
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_absorb       : 150
+mag_absorb       : -300
+phy_effect       : 100
+mag_effect       : "100 + (LV - 40) / 35 * 45"
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "mag_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "B2", "B4", "B3", "D3" })
+h_m_skills       : ({ "B2", "B4", "B5", "D5" })
+tactics          : "tactics_magic_attack"
+
+[莲花]
+name             : "莲花"
+polar            : 0
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_absorb       : -300
+mag_absorb       : 150
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : 100
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+double_hit_rate  : 50
+double_hit       : 5
+l_m_skills       : ({ "lipo-qianjun" })
+h_m_skills       : ({ "lipo-qianjun" })
+tactics          : "tactics_magic_attack"
+
+[月季]
+name             : "月季"
+polar            : -1
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : "100 + (LV - 40) / 35 * 45"
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "B2", "B4", "B3", "D3" })
+h_m_skills       : ({ "B2", "B4", "B5", "D5" })
+tactics          : "tactics_yueji"
+
+[玉兰]
+name             : "玉兰"
+polar            : 2
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_absorb       : 20
+mag_absorb       : 20
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : "100 + (LV - 40) / 35 * 45"
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+double_hit_rate  : 50
+double_hit       : 5
+l_m_skills       : ({ "lipo-qianjun", "D3" })
+h_m_skills       : ({ "lipo-qianjun", "D5" })
+tactics          : "tactics_yulan"
+
+[花玉簪]
+name             : "花玉簪"
+polar            : 0
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : 100
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+double_hit_rate  : 50
+double_hit       : 5
+l_m_skills       : ({ "lipo-qianjun" })
+h_m_skills       : ({ "lipo-qianjun" })
+artifact         : ({ "hunyuan-jindou", 18 })
+tactics          : "tactics_magic_attack"
+
+[禾雀]
+name             : "禾雀"
+polar            : -1
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_absorb       : 20
+mag_absorb       : 20
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : "100 + (LV - 40) / 35 * 45"
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+stunt_rate       : 50
+double_hit_rate  : 50
+double_hit       : 5
+l_m_skills       : ({ "lipo-qianjun" })
+h_m_skills       : ({ "lipo-qianjun" })
+special_skills   : ({ "ruyi-quan", "shenlong-zhao", "qiankun-zhao" })
+tactics          : "tactics_heque"
+
+[月见草]
+name             : "月见草"
+polar            : 5
+life_effect      : "3000 + (LV - 70) / 30 * 400"
+phy_effect       : "100 + (LV - 40) / 35 * 45"
+mag_effect       : 100
+tao_effect       : "LV * 5"
+modify_attrib    : ({ "life_effect", "phy_effect", "tao_effect" })
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+penetrate_rate   : 75
+penetrate        : 50
+accurate         : 100
+l_m_skills       : ({ "B2", "B4", "B3", "D3" })
+h_m_skills       : ({ "B2", "B4", "B5", "D5" })
+tactics          : "tactics_yuejiancao"
+
+[仙宠]
+name             : "仙宠"
+icon             : 6146
+portrait         : 6146
+polar            : -1
+life_effect      : "1200 + (LV - 70) / 30 * 300"
+modify_attrib    : ({ "life_effect" })
+phy_effect       : 200
+mag_effect       : 200
+speed_effect     : 30
+tao_effect       : 130
+resist_forgotten : 45
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_confusion : 45
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "B2", "B4", "B3", "lipo-qianjun" })
+h_m_skills       : ({ "B2", "B4", "B5", "lipo-qianjun" })
+tactics          : "tactics_xianchong"
+
+[仙兽]
+name             : "仙兽"
+icon             : 6162
+portrait         : 6162
+polar            : -1
+life_effect      : "1200 + (LV - 70) / 30 * 300"
+modify_attrib    : ({ "life_effect"})
+phy_effect       : 200
+mag_effect       : 200
+speed_effect     : 30
+tao_effect       : 130
+resist_forgotten : 45
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_confusion : 45
+accurate         : 100
+stunt_rate       : 50
+l_m_skills       : ({ "B2", "B4", "B3", "lipo-qianjun" })
+h_m_skills       : ({ "B2", "B4", "B5", "lipo-qianjun" })
+tactics          : "tactics_xianshou"

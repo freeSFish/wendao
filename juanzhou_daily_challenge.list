@@ -1,0 +1,36 @@
+#FORM2
+
+[任务卷轴·帮派日常挑战]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+desc : "任务卷轴给予的指引任务，完成相应目标后可以获得奖励。"
+log : "任务目标：找#P帮派总管#P领取一次#R帮派日常挑战#n并将其完成，完成帮派日常挑战可以获得帮贡、道行、武学的奖励。"
+all_children : ({ "S1", "SX" })
+timeout_task : 1
+alias : "帮派任务"
+
+[S0]
+type : "null"
+item : "任务卷轴·帮派日常挑战"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·帮派日常挑战"
+log : "任务目标：找#P帮派总管#P领取一次#R帮派日常挑战#n并将其完成，完成帮派日常挑战可以获得帮贡、道行、武学的奖励。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_tao" })
+
+[get_bonus_tao]
+type : "bonus"
+oper : "all"
+bonus_type : "tao"
+num : "1 * 3000"
+pet_num : "1 * 3200"
+
+[SX]
+type : "null"

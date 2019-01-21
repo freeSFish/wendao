@@ -1,0 +1,71 @@
+#FORM2
+
+#130级以下（不包括130级）放在天墉城的官府，其他的放入总督衙门，房间在代码中设置
+
+[NPC称谓]
+50  : 初出江湖
+60  : 颇具潜力
+70  : 初显锋芒
+80  : 小有名气
+90  : 声名鹊起
+100 : 锋芒毕露
+110 : 声名显赫
+120 : 如雷贯耳
+130 : 威风八面
+140 : 德高望重
+150 : 威镇九州
+160 : 常胜将军
+170 : 战无不胜
+180 : 万人景仰
+
+[人物初始属性]
+name         : "英雄会评判员"
+life_effect  : 300
+phy_effect   : 50
+phy_absorb   : -20
+mag_effect   : 80
+mag_absorb   : -20
+speed_effect : 50
+tao_effect   : 20
+accurate     : 100
+
+[宠物初始属性]
+life_effect  : 300
+phy_effect   : 40
+mag_effect   : 60
+speed_effect : 20
+
+[宠物固定属性]
+phy_absorb   : -20
+mag_absorb   : -20
+
+[NPC坐标]
+初出江湖(男) : ({ 352, 56, SOUTHEAST })
+颇具潜力(男) : ({ 357, 54, SOUTHEAST })
+初显锋芒(男) : ({ 362, 51, SOUTHEAST })
+小有名气(男) : ({ 367, 49, SOUTHEAST })
+声名鹊起(男) : ({ 372, 46, SOUTHEAST })
+锋芒毕露(男) : ({ 377, 44, SOUTHEAST })
+声名显赫(男) : ({ 382, 41, SOUTHEAST })
+如雷贯耳(男) : ({ 387, 38, SOUTHEAST })
+威风八面(男) : ({ 26, 55, SOUTHEAST })
+德高望重(男) : ({ 32, 51, SOUTHEAST })
+威镇九州(男) : ({ 37, 48, SOUTHEAST })
+常胜将军(男) : ({ 43, 44, SOUTHEAST })
+战无不胜(男) : ({ 49, 41, SOUTHEAST })
+万人景仰(男) : ({ 56, 38, SOUTHEAST })
+
+初出江湖(女) : ({ 374, 68, NORTHWEST })
+颇具潜力(女) : ({ 379, 66, NORTHWEST })
+初显锋芒(女) : ({ 384, 63, NORTHWEST })
+小有名气(女) : ({ 389, 61, NORTHWEST })
+声名鹊起(女) : ({ 394, 58, NORTHWEST })
+锋芒毕露(女) : ({ 399, 56, NORTHWEST })
+声名显赫(女) : ({ 404, 53, NORTHWEST })
+如雷贯耳(女) : ({ 409, 51, NORTHWEST })
+威风八面(女) : ({ 48, 65, NORTHWEST })
+德高望重(女) : ({ 54, 61, NORTHWEST })
+威镇九州(女) : ({ 60, 57, NORTHWEST })
+常胜将军(女) : ({ 67, 54, NORTHWEST })
+战无不胜(女) : ({ 74, 51, NORTHWEST })
+万人景仰(女) : ({ 79, 48, NORTHWEST })

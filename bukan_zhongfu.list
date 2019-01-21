@@ -1,0 +1,167 @@
+#FORM2
+
+[天将]
+name                : 天将
+icon                : ({ 20078, 20079 })
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 4500
+phy_effect          : 220
+mag_effect          : 150
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+tactics             : "tactics_common"
+
+[花神]
+name                : 花神
+icon                : 6233
+portrait            : 6233
+polar               : 2
+religion            : -1
+level               : 133
+life_effect         : 4500
+phy_effect          : 220
+mag_effect          : 150
+damage_sel          : 50
+damage_sel_rate     : 100
+no_obstruct         : 1
+skills              : ({ "B4", "B5", "lipo-qianjun", "D4" })
+tactics             : "tactics_huashen"
+
+[花神随从]
+name                : 花神随从
+icon                : 6307
+portrait            : 6307
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 3000
+phy_effect          : 160
+mag_effect          : 80
+tao_effect          : 500
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+god_book_skills     : ({ "kuangbao" })
+god_book_level      : ({ 288 })
+tactics             : "tactics_common"
+
+[玄武]
+name                : 玄武
+icon                : 6191
+portrait            : 6191
+polar               : 3
+religion            : -1
+level               : 133
+life_effect         : 8000
+phy_effect          : 240
+mag_effect          : 120
+no_obstruct         : 1
+be_damaged          : 1
+skills              : ({ "B4", "B5", "lipo-qianjun", "D4" })
+tactics             : "tactics_xuanwu"
+
+[玄龟]
+name                : 玄龟
+icon                : 6126
+portrait            : 6126
+polar               : 3
+religion            : -1
+level               : 133
+life_effect         : 4000
+phy_effect          : 160
+mag_effect          : 80
+skills              : ({ "siwang-chanmian", "mantian-xuewu" })
+tactics             : "tactics_xuangui"
+
+[化蛇兽王]
+name                : 化蛇兽王
+icon                : 6285
+portrait            : 6285
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 4000
+phy_effect          : 240
+mag_effect          : 120
+skills              : ({ "lipo-qianjun" })
+artifact            : ({ "hunyuan-jindou", 18 })
+tactics             : "tactics_common"
+
+[狐灵]
+name                : 狐灵
+icon                : 6286
+portrait            : 6286
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 2500
+phy_effect          : 200
+mag_effect          : 100
+skills              : ({ "B4", "B5", "D5" })
+tactics             : "tactics_huling"
+
+[冥府牛头1]
+name                : 冥府牛头
+alias               : 冥府牛头1
+icon                : 20056
+portrait            : 20056
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 4000
+phy_effect          : 200
+mag_effect          : 100
+no_obstruct         : 1
+no_disappear        : 1
+cob_tip             : "你居然敢阻冥府办差，你真是不想活了。"
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+tactics             : "tactics_common"
+
+[冥府牛头2]
+name                : 冥府牛头
+alias               : 冥府牛头2
+icon                : 20056
+portrait            : 20056
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 5000
+phy_effect          : 300
+mag_effect          : 150
+no_obstruct         : 1
+no_disappear        : 1
+cob_tip             : "老马，别跟他客气，揍死。"
+skills              : ({ "lipo-qianjun" })
+artifact            : ({ "hunyuan-jindou", 16 })
+tactics             : "tactics_common"
+
+[冥府马面]
+name                : 冥府马面
+icon                : 20057
+portrait            : 20057
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 5000
+phy_effect          : 300
+mag_effect          : 150
+no_obstruct         : 1
+no_disappear        : 1
+sub_monster         : 1
+cob_tip             : "牛哥，这小样功夫不赖啊。"
+skills              : ({ "B1", "B2", "B3", "B4", "B5" })
+artifact            : ({ "fantianyin", 16 })
+tactics             : "tactics_common"
+
+[冥府小鬼]
+name                : 冥府小鬼
+icon                : ({ 6140, 6141 })
+polar               : -1
+religion            : -1
+level               : 133
+life_effect         : 3000
+phy_effect          : 160
+mag_effect          : 80
+speed_effect        : 800
+skills              : ({ "lipo-qianjun", "B5" })
+artifact            : ({ "fantianyin", 16 })
+tactics             : "tactics_mingfu_xiaogui"

@@ -1,0 +1,44 @@
+#FORM2
+
+[time]
+start_time : "2012-03-19-12:00:00"
+end_time   : "2012-03-25-23:59:59"
+
+[broadcast_setting]
+broadcast_list: ({ "broadcast_1", "broadcast_2", "broadcast_3", "broadcast_4" })
+
+[broadcast_1]
+broadcast_start : "start_time(-900)"
+interval        : 0
+cycle           : 86400
+broadcast_end   : "start_time"
+final_end_time  : "end_time"
+message         : "在这六周年的喜庆之日，妖族竟然发动了大规模入侵，预计#R15#n分钟之后，将会到达#Z桃柳林#Z和#Z官道北#Z，是可忍孰不可忍，大家一起去除魔卫道吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_2]
+broadcast_start : "start_time(-600)"
+interval        : 0
+cycle           : 86400
+broadcast_end   : "start_time"
+final_end_time  : "end_time"
+message         : "在这六周年的喜庆之日，妖族竟然发动了大规模入侵，预计#R10#n分钟之后，将会到达#Z桃柳林#Z和#Z官道北#Z，是可忍孰不可忍，大家一起去除魔卫道吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_3]
+broadcast_start : "start_time(-300)"
+interval        : 0
+cycle           : 86400
+broadcast_end   : "start_time"
+final_end_time  : "end_time"
+message         : "在这六周年的喜庆之日，妖族竟然发动了大规模入侵，预计#R5#n分钟之后，将会到达#Z桃柳林#Z和#Z官道北#Z，是可忍孰不可忍，大家一起去除魔卫道吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_4]
+broadcast_start : "start_time"
+interval        : 3600
+cycle           : 86400
+broadcast_end   : "start_time(36000)"
+final_end_time  : "end_time"
+message         : "在这六周年的喜庆之日，妖族竟然发动了大规模入侵，是可忍孰不可忍，中州的道友们，赶紧前往#Z桃柳林#Z和#Z官道北#Z除妖卫道吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

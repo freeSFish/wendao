@@ -1,0 +1,32 @@
+#FORM2
+
+[time_info]
+start_time : "2012-03-19-00:00:00"
+end_time : "2012-03-21-23:59:00"
+
+[活动时间]
+time_list$ : ({ "2012-03-19-19:00:00", "EVERY_MIN(30)", "EVERY_DAY(1)", "2012-03-21-19:40:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "before_end_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【劳动大联欢】#n活动已经在#P活动大使#P处开启，快去领取任务道具吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-300)"
+interval        : 60
+broadcast_end   : "end_time(-1)"
+message         : "#R【劳动大联欢】#n活动即将结束，请大家抓紧时间完成任务啦!"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "本次#R【劳动大联欢】#n活动圆满结束，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

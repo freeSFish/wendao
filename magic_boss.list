@@ -1,0 +1,287 @@
+#FORM2
+
+#sort_level表示怪物所属的级别born_place表示怪物的生成地点
+
+[天魁星]
+level       : 30
+sort_level  : 1
+born_place  : ({ "lanxianzhenwai", "wolongpo" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_2 })
+skill_rate  : ({ 100 })
+
+[天魔星]
+level      : 35
+sort_level : 2
+born_place : ({ "guandaonan", "guandaobei", "taoliulin" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_2 })
+skill_rate  : ({ 100 })
+
+[天机星]
+level      : 40
+sort_level : 3
+born_place : ({ "xuanyuanmiao" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_2 })
+skill_rate  : ({ 100 })
+
+[天闲星]
+level      : 45
+sort_level : 4
+born_place : ({ "xuanyuanfen-yiceng", "xuanyuanfen-erceng", "xuanyuanfen-sanceng" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_2 })
+skill_rate  : ({ 100 })
+
+[天勇星]
+level      : 50
+limitlevel : 45
+sort_level : 5
+born_place : ({ "beihai-shatan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_2 })
+skill_rate  : ({ 70, 30 })
+
+[天雄星]
+level      : 55
+limitlevel : 50
+sort_level : 6
+born_place : ({ "wulongshan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_2 })
+skill_rate  : ({ 70, 30 })
+
+[天猛星]
+level      : 60
+limitlevel : 55
+sort_level : 7
+born_place : ({ "shilipo" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 70, 30 })
+
+[天威星]
+level      : 64
+limitlevel : 58
+sort_level : 8
+born_place : ({ "qianyuanshan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 70, 30 })
+
+[天英星]
+level      : 68
+limitlevel : 61
+sort_level : 9
+born_place : ({ "zhongnanshan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 70, 30 })
+
+[天贵星]
+level      : 72
+limitlevel : 64
+sort_level : 10
+born_place : ({ "fenghuangshan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 70, 30 })
+
+[天富星]
+level      : 76
+limitlevel : 67
+sort_level : 11
+born_place : ({ "kuloushan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 70, 30 })
+
+[天满星]
+level      : 80
+limitlevel : 70
+sort_level : 12
+born_place : ({ "fengyuegu" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 60, 25, 15 })
+
+[天孤星]
+level      : 84
+limitlevel : 73
+sort_level : 13
+born_place : ({ "wulongku-yiceng", "wulongku-erceng" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 60, 25, 15 })
+
+[天伤星]
+level      : 88
+limitlevel : 76
+sort_level : 14
+born_place : ({ "wulongku-erceng", "wulongku-sanceng" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 60, 25, 15 })
+
+[天立星]
+level      : 92
+limitlevel : 79
+sort_level : 15
+born_place : ({ "wulongku-sanceng", "wulongku-siceng" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 60, 25, 15 })
+
+[天捷星]
+level      : 96
+limitlevel : 82
+sort_level : 16
+born_place : ({ "wulongku-siceng", "wulongku-wuceng" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 60, 25, 15 })
+
+[天暗星]
+level      : 100
+limitlevel : 85
+sort_level : 17
+born_place : ({ "penglaidao", "youmingjian" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天祐星]
+level      : 103
+limitlevel : 88
+sort_level : 18
+born_place : ({ "youmingjian", "baihuaguyi" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天空星]
+level      : 106
+limitlevel : 91
+sort_level : 19
+born_place : ({ "baihuaguyi", "baihuaguer" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天速星]
+level      : 109
+limitlevel : 94
+sort_level : 20
+born_place : ({ "baihuaguer", "baihuagusan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天异星]
+level      : 112
+limitlevel : 97
+sort_level : 21
+born_place : ({ "baihuagusan", "baihuagusi" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天杀星]
+level      : 115
+limitlevel : 100
+sort_level : 22
+born_place : ({ "baihuagusi", "baihuaguwu" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天微星]
+level      : 118
+limitlevel : 103
+sort_level : 23
+born_place : ({ "baihuaguwu", "baihuaguliu" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天究星]
+level      : 121
+limitlevel : 106
+sort_level : 24
+born_place : ({ "baihuaguliu", "baihuaguqi" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天退星]
+level      : 124
+limitlevel : 109
+sort_level : 25
+born_place : ({ "baihuaguqi", "juerenzhen" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天寿星]
+level      : 127
+limitlevel : 112
+sort_level : 26
+born_place : ({ "juerenzhen", "juexianzhen" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 30, 30, 25, 15 })
+
+[天剑星]
+level      : 130
+limitlevel : 115
+sort_level : 27
+born_place : ({ "juexianzhen", "haidi-migong", "kunlunyunhai" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 10, 30, 35, 15, 10 })
+
+[天平星]
+level      : 133
+limitlevel : 117
+sort_level : 28
+born_place : ({ "haidi-migong", "kunlunyunhai", "xueyubingyuan" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天罪星]
+level      : 136
+limitlevel : 119
+sort_level : 29
+born_place : ({ "kunlunyunhai", "xueyubingyuan", "mijinghuashu" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天损星]
+level      : 139
+limitlevel : 121
+sort_level : 30
+born_place : ({ "xueyubingyuan", "mijinghuashu", "shuiyunjian" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天败星]
+level      : 142
+limitlevel : 123
+sort_level : 31
+born_place : ({ "xueyubingyuan", "mijinghuashu", "shuiyunjian", "reshahuangmo" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天牢星]
+level      : 145
+limitlevel : 125
+sort_level : 32
+born_place : ({ "xueyubingyuan", "mijinghuashu", "shuiyunjian", "reshahuangmo", "fangzhangdao" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天慧星]
+level      : 148
+limitlevel : 127
+sort_level : 33
+born_place : ({ "xueyubingyuan", "mijinghuashu", "shuiyunjian", "reshahuangmo", "fangzhangdao" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天暴星]
+level      : 150
+limitlevel : 129
+sort_level : 34
+born_place : ({ "xueyubingyuan", "mijinghuashu", "shuiyunjian", "reshahuangmo", "fangzhangdao", "shishendian", "miemotang" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天哭星]
+level      : 152
+limitlevel : 131
+sort_level : 35
+born_place : ({ "mijinghuashu", "shuiyunjian", "reshahuangmo", "fangzhangdao", "duanhunku", "shishendian", "miemotang" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })
+
+[天巧星]
+level      : 154
+limitlevel : 133
+sort_level : 36
+born_place : ({ "mijinghuashu", "shuiyunjian", "reshahuangmo", "fangzhangdao", "duanhunku", "shishendian", "miemotang" })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 30, 35, 20, 15 })

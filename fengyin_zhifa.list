@@ -1,0 +1,44 @@
+#FORM2
+
+#封印之法
+
+[活动时间]
+time_list$ : ({ "2011-07-05-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2011-09-02-22:00:00" })
+
+[broadcast_setting]
+broadcast_list:   ({ "pre_start_task", "start_task", "during_task", "pre_end_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "昨日地府通道现世后，大量恶鬼窜到人间界。为了消灭恶鬼，保卫人间界的和平，请向#P天机老人#P请教#R封印之法#n。活动将于#RSTART_TIME#n在#RTASK_OPEN_SERVER#n开启。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time"
+message         : "#R封印之法#n活动开启了，请向#P天机老人#P请教#R封印之法#n，以对付危害人间的恶鬼。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#R封印之法#n活动正在进行中，请向#P天机老人#P请教#R封印之法#n，以对付危害人间的恶鬼。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[pre_end_task]
+broadcast_start : "end_time(-900)"
+interval        : 300
+broadcast_end   : "end_time(-1)"
+message         : "#R封印之法#n活动将于#REND_TIME#n结束，请大家加快脚步，尽快完成拜访。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "本次#R封印之法#n活动已经结束，有不少修真者已经习得#R封印之法#n，做好了保卫人间的准备。恶鬼们将发起怎样的反击呢？请关注明天的活动#R慧眼识鬼#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

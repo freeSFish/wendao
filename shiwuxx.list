@@ -1,0 +1,35 @@
+#FORM2
+#shiwuxx.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+所相5首饰 : 1000
+
+[所相5首饰]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "闭月双环" , "天机锁链" , "七龙珠" })
+
+
+[闭月双环]
+name      : 闭月双环
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 5 })
+
+
+[天机锁链]
+name      : 天机锁链
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 5 })
+
+
+[七龙珠]
+name      : 七龙珠
+min_level : 80
+max_level : 80
+attribs      : ({ "prop2/all_polar", 5 })
+

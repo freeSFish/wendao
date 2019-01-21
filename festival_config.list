@@ -1,0 +1,25 @@
+#FORM2
+# festival_config.list
+# Created by tangy  9/11/2006
+
+[活动时间]
+time_list$ : ({ "2009-08-26-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2008-12-12-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2008-12-13-14:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2008-12-13-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2008-12-14-14:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+
+[默认]
+bonus$ : 空
+
+[中秋节活动]
+bonus$ : 豆沙月饼
+bonus$ : 莲蓉月饼
+bonus$ : 百果月饼
+default_rate : 4
+
+[天降宝盒活动]
+bonus$ : 招财进宝
+bonus$ : 吉祥如意
+bonus$ : 金玉满堂
+default_rate : 4

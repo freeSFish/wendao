@@ -1,0 +1,371 @@
+#FORM2
+
+#统计动画播放时间
+#stricken: 决定被技能打击后，是否后仰
+#
+
+[金光乍现]
+stricken: 1
+
+[刀光剑影]
+stricken: 1
+
+[金虹贯日]
+stricken: 1
+
+[流光异彩]
+stricken: 1
+
+[逆天残刃]
+stricken: 1
+
+[流连忘返]
+stricken: 1
+
+[得意忘形]
+stricken: 1
+
+[如痴如醉]
+stricken: 1
+
+[如梦初醒]
+stricken: 1
+
+[恍若隔世]
+stricken: 1
+
+[摘叶飞花]
+stricken: 1
+
+[飞柳仙矢]
+stricken: 1
+
+[盘根错节]
+stricken: 1
+
+[落英缤纷]
+stricken: 1
+
+[鬼舞枯藤]
+stricken: 1
+
+[见血封喉]
+stricken: 1
+
+[蛇口蜂针]
+stricken: 1
+
+[鹤顶红粉]
+stricken: 1
+
+[蝎尾蛇涎]
+stricken: 1
+
+[万蚁噬心]
+stricken: 1
+
+[滴水穿石]
+stricken: 1
+
+[雨恨云愁]
+stricken: 1
+
+[悬河泻水]
+stricken: 1
+
+[怒波狂涛]
+stricken: 1
+
+[搅海翻江]
+stricken: 1
+
+[举火焚天]
+stricken: 1
+
+[星火燎原]
+stricken: 1
+
+[焰天火雨]
+stricken: 1
+
+[焦金砾石]
+stricken: 1
+
+[炼狱火海]
+stricken: 1
+
+[落土飞岩]
+stricken: 1
+
+[土没尘埋]
+stricken: 1
+
+[山崩地裂]
+stricken: 1
+
+[天塌地陷]
+stricken: 1
+
+[石破天惊]
+stricken: 1
+
+[有心无力]
+stricken: 1
+
+[顾此失彼]
+stricken: 1
+
+[六神无主]
+stricken: 1
+
+[地束七魄]
+stricken: 1
+
+[天定三魂]
+stricken: 1
+
+[翻转乾坤]
+stricken: 1
+
+[游说之舌]
+stricken: 1
+
+[漫天血舞]
+stricken: 1
+
+[舍命一击]
+stricken: 1
+
+[妖皇天怒]
+stricken: 1
+
+[天煞狂风]
+stricken: 1
+
+[刺血天旋]
+stricken: 1
+
+[血炼地狱]
+stricken: 1
+
+[水流花谢]
+stricken: 1
+
+[积水成渊]
+stricken: 1
+
+[风起水涌]
+stricken: 1
+
+[雪窑冰天]
+stricken: 1
+
+[蛟龙得水]
+stricken: 1
+
+[土崩瓦解]
+stricken: 1
+
+[尘土飞扬]
+stricken: 1
+
+[扬砾飞沙]
+stricken: 1
+
+[地动山摇]
+stricken: 1
+
+[千岩万壑]
+stricken: 1
+
+[惊惶失措]
+stricken: 1
+
+[染神乱志]
+stricken: 1
+
+[神魂飘荡]
+stricken: 1
+
+[神摇意夺]
+stricken: 1
+
+[惊神破胆]
+stricken: 1
+
+[花舞叶飞]
+stricken: 1
+
+[扬花飞柳]
+stricken: 1
+
+[秋风扫叶]
+stricken: 1
+
+[一叶菩提]
+stricken: 1
+
+[天女散花]
+stricken: 1
+
+[芒刺在背]
+stricken: 1
+
+[物腐虫生]
+stricken: 1
+
+[毒入骨髓]
+stricken: 1
+
+[九死一生]
+stricken: 1
+
+[遮天蔽日]
+stricken: 1
+
+[单刀直入]
+stricken: 1
+
+[锐不可挡]
+stricken: 1
+
+[千刀万刃]
+stricken: 1
+
+[锋芒毕露]
+stricken: 1
+
+[万道金光]
+stricken: 1
+
+[不知所措]
+stricken: 1
+
+[胆颤心惊]
+stricken: 1
+
+[惊魂未定]
+stricken: 1
+
+[镇魂锁心]
+stricken: 1
+
+[夺神摄魄]
+stricken: 1
+
+[魔尊震怒]
+stricken: 1
+
+[力破千钧]
+stricken: 1
+
+[冰魂雪魄]
+stricken: 1
+
+[共工灭世]
+stricken: 1
+
+[邪灵附体]
+stricken: 1
+
+[缓兵之计]
+stricken: 1
+
+[束手就擒]
+stricken: 1
+
+[闻风丧胆]
+stricken: 1
+
+[哀痛欲绝]
+stricken: 1
+
+[珠联璧合]
+stricken: 1
+
+[雷霆千钧]
+stricken: 1
+
+[驽箭离弦]
+stricken: 1
+
+[一箭双雕]
+stricken: 1
+
+[箭不虚发]
+stricken: 1
+
+[星飞云散]
+stricken: 1
+
+[万箭穿心]
+stricken: 1
+
+[心锁神封]
+stricken: 1
+
+[重垣迭锁]
+stricken: 1
+
+[如封似闭]
+stricken: 1
+
+[困灵锁心]
+stricken: 1
+
+[云迷雾锁]
+stricken: 1
+
+[吞天破月]
+stricken: 1
+
+[噬吞乾坤]
+stricken: 1
+
+[打狗棒法]
+stricken: 1
+
+[狂犬乱咬]
+stricken: 1
+
+[偷天换日]
+stricken: 1
+
+[大道无常]
+stricken: 1
+
+[天旋地转]
+stricken: 1
+
+[神圣驱散]
+stricken: 1
+
+[玉石俱焚]
+stricken: 1
+
+[醉酒迷雾]
+stricken: 1
+
+[回音之击]
+stricken: 1
+
+[法力虚空]
+stricken: 1
+
+[灵魂隔断]
+stricken: 1
+
+[天道归一]
+stricken: 1
+
+[嗜血狂魔]
+stricken: 1
+
+[血脉之力]
+stricken: 1
+
+[灵魂吞噬]
+stricken: 1
+
+[七十二变]
+stricken: 1

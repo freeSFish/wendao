@@ -1,0 +1,8 @@
+key_name,         file_id,             name,             icon, unit, level, value, rune_base_attrib
+符文宝石·羊脂玉, "runic_diamond/yzy", 符文宝石·羊脂玉, 8868, 块,   1,     500,   "phy_power"
+符文宝石·蓝玉髓, "runic_diamond/lys", 符文宝石·蓝玉髓, 8869, 块,   1,     500,   "max_life"
+符文宝石·红玛瑙, "runic_diamond/lmn", 符文宝石·红玛瑙, 8870, 块,   1,     500,   "def"
+符文宝石·黄龙石, "runic_diamond/hls", 符文宝石·黄龙石, 8871, 块,   1,     500,   "base_dodge"
+符文宝石·祖母绿, "runic_diamond/zml", 符文宝石·祖母绿, 8872, 块,   1,     500,   "speed"
+符文宝石·紫袍玉, "runic_diamond/zpy", 符文宝石·紫袍玉, 8873, 块,   1,     500,   "mag_power"
+

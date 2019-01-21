@@ -1,0 +1,46 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-08-24-14:00:00", "EVERY_MIN(120)", "EVERY_DAY(7)" })
+time_list$ : ({ "2016-09-05-14:00:00", "EVERY_MIN(120)", 0 })
+
+[basic_info]
+prepare_time : 1200
+stage_1_interval : 1800
+stage_2_interval : 5400
+stage_1_broadcast_interval : 300
+before_game_broadcast : ({ 15, 10, 5, 1 })
+
+[洞府魔尊]
+name                : 洞府魔尊
+polar               : -1
+religion            : -1
+icon                : 20145
+portrait            : 20145
+life_effect         : 20000
+obstacle_rate       : 0
+phy_effect          : "150 + LV / 100 * 50 + LV / 130 * 50"
+mag_effect          : "150 + LV / 100 * 50 + LV / 130 * 50"
+speed_effect        : "150 + LV / 100 * 60 + LV / 130 * 60"
+tao_effect          : "150 + LV / 100 * 100 + LV / 130 * 150"
+penetrate           : "LV / 2"
+penetrate_rate      : "LV / 2"
+modify_attribs      : ({ "phy_effect", "mag_effect", "speed_effect", "tao_effect", "penetrate", "penetrate_rate" })
+artifact            : ({ "hunyuan-jindou", 24, "fantianyin", 24, "yinyangjing", 24, "jinjiaojian", 24, "jiulong-shenhuozhao", 24, "dinghaizhu", 24 })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "C5", "D5", "lipo-qianjun" })
+tactics             : "tactics_mozun"
+
+[洞府守卫]
+name                : 洞府守卫
+polar               : -1
+religion            : -1
+icon                : 6255
+portrait            : 6255
+life_effect         : "600 + LV / 70 * 100 + LV / 100 * 100  + LV / 130 * 100"
+phy_effect          : "30 + LV / 70 * 40 + LV / 100 * 30  + LV / 130 * 40"
+mag_effect          : "30 + LV / 70 * 40 + LV / 100 * 30  + LV / 130 * 40"
+speed_effect        : 80
+tao_effect          : 100
+modify_attribs      : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B3", "B5", "D3", "D5", "lipo-qianjun" })
+tactics             : "tactics_shouwei"

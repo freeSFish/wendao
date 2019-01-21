@@ -1,0 +1,28 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-07-09-00:00:00", 431940, 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【双节庆】桂仙考验#n活动已经开启啦！大家赶紧去找#P活动大使#P参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "大家赶紧去找#P活动大使#P参加#R【双节庆】桂仙考验#n活动吧！奖励丰富哦！心动不如行动！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "#R【双节庆】桂仙考验#n活动结束了，桂花仙子已经返回了天庭！希望大家能够将双节庆的欢快心情继续延续下去！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

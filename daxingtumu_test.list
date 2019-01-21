@@ -1,0 +1,85 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-12-12-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2009-12-13-18:00:00" })
+
+[time]
+#活动开始前广播的默认时间间隔
+broadcast_interval : 180
+
+#活动中检查守护NPC和刷新怪物的时间间隔
+check_interval : 300
+
+#扣除血量的时间间隔(分钟)
+cost_guard_life_interval : 30
+
+#start_time_list$ : "2009-05-01-16:00:00"
+#start_time_list$ : "2009-05-02-16:00:00"
+#start_time_list$ : "2009-05-03-16:00:00"
+
+[item_from_npc]
+#活动物品获得
+石怪 : ({ "上等石块", "上等石材" })
+木精 : ({ "上等木板", "上等木料" })
+
+[item_to_npc]
+#活动物品提交
+上等石块 : ({ 守护石像, "exp" })
+上等石材 : ({ 守护石像, "exp" })
+上等木板 : ({ 守护图腾, "tao" })
+上等木料 : ({ 守护图腾, "tao" })
+
+[npc_life]
+#守护NPC初时血量
+init_guard_npc_life : 100
+
+#守护NPC的最大血量
+max_guard_npc_life : 1000
+
+#守护NPC的最小血量
+min_guard_npc_life : 0
+
+#守护NPC每次减少的血量
+cost_life_point : 30
+
+#守护NPC每次增加的血量基数
+add_life_point_rate : 1
+
+[back_pos]
+back_x : 400
+back_y : 171
+
+[monster_list]
+monster$: ({ 石怪, 6220, 6220 })
+monster$: ({ 木精, 6219, 6219 })
+
+[monster_attrib]
+tao_effect          : 0
+resist_forgotten    : 60
+resist_poison       : 40
+resist_frozen       : 40
+resist_sleep        : 40
+resist_confusion    : 60
+phy_absorb          : 0
+mag_absorb          : 0
+phy_effect          : 60
+mag_effect          : 80
+speed_effect        : 40
+double_hit_rate     : 40
+double_hit          : 8
+counter_attack_rate : 30
+counter_attack      : 12
+
+[monster_polar]
+polar$: POLAR_METAL
+polar$: POLAR_WOOD
+polar$: POLAR_WATER
+polar$: POLAR_FIRE
+polar$: POLAR_EARTH
+
+[monster_num]
+#本批能产生的怪物最大数量
+max_group_num : 120
+
+#当前最大能产生的最大数量
+max_cur_num   : 20

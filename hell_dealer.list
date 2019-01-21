@@ -1,0 +1,32 @@
+#FORM2
+
+[goods_info]
+goods_list : ({ 灵气丹, 高级灵气丹, 黄金锄头, 鬼宠丹, 神幻魔图 })
+
+#[光明咒]
+#guilingzhu : 5
+#merit      : 0
+#
+#[高级光明咒]
+#guilingzhu : 6
+#merit      : 100
+
+[灵气丹]
+guilingzhu : 2
+merit      : 0
+
+[高级灵气丹]
+guilingzhu : 4
+merit      : 20
+
+[黄金锄头]
+guilingzhu : 1
+merit      : 0
+
+[鬼宠丹]
+guilingzhu : 4
+merit      : 0
+
+[神幻魔图]
+guilingzhu : 1
+merit      : 0

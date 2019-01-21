@@ -1,0 +1,552 @@
+#FORM2
+
+[monster_list]
+monster$ : 地魁星
+monster$ : 地煞星
+monster$ : 地勇星
+monster$ : 地杰星
+monster$ : 地雄星
+monster$ : 地威星
+monster$ : 地英星
+monster$ : 地奇星
+monster$ : 地猛星
+monster$ : 地文星
+monster$ : 地正星
+monster$ : 地辟星
+monster$ : 地阖星
+monster$ : 地强星
+monster$ : 地暗星
+monster$ : 地辅星
+monster$ : 地会星
+monster$ : 地佐星
+monster$ : 地佑星
+monster$ : 地灵星
+monster$ : 地兽星
+monster$ : 地微星
+monster$ : 地慧星
+monster$ : 地暴星
+monster$ : 地默星
+monster$ : 地猖星
+monster$ : 地狂星
+monster$ : 地飞星
+monster$ : 地走星
+monster$ : 地巧星
+monster$ : 地明星
+monster$ : 地进星
+monster$ : 地退星
+monster$ : 地满星
+monster$ : 地遂星
+monster$ : 地周星
+monster$ : 地隐星
+monster$ : 地异星
+monster$ : 地理星
+monster$ : 地俊星
+monster$ : 地乐星
+monster$ : 地捷星
+monster$ : 地速星
+
+[地魁星]
+level       : 60
+limitlevel  : 55
+sort_level  : 1
+room        : ({ 乾元山, 终南山, 凤凰山, 骷髅山, 五龙山 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 0, 0, 70, 30 })
+
+[地煞星]
+level       : 63
+limitlevel  : 58
+sort_level  : 2
+room        : ({ 乾元山, 终南山, 凤凰山, 骷髅山, 五龙山 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 0, 0, 70, 30 })
+
+[地勇星]
+level       : 66
+limitlevel  : 61
+sort_level  : 3
+room        : ({ 乾元山, 终南山, 凤凰山, 骷髅山, 五龙山 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 0, 0, 70, 30 })
+
+[地杰星]
+level       : 69
+limitlevel  : 64
+sort_level  : 4
+room        : ({ 乾元山, 终南山, 凤凰山, 骷髅山, 五龙山 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 0, 0, 70, 30 })
+
+[地雄星]
+level       : 72
+limitlevel  : 67
+sort_level  : 5
+room        : ({ 乾元山, 终南山, 凤凰山, 骷髅山, 五龙山 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4 })
+skill_rate  : ({ 0, 0, 70, 30 })
+
+[地威星]
+level       : 75
+limitlevel  : 70
+sort_level  : 6
+room        : ({ 风月谷, 十里坡 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 60, 25, 15 })
+
+[地英星]
+level       : 78
+limitlevel  : 73
+sort_level  : 7
+room        : ({ 五龙窟一层, 五龙窟二层 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 60, 25, 15 })
+
+[地奇星]
+level       : 81
+limitlevel  : 76
+sort_level  : 8
+room        : ({ 五龙窟二层, 五龙窟三层 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 60, 25, 15 })
+
+[地猛星]
+level       : 84
+limitlevel  : 79
+sort_level  : 9
+room        : ({ 五龙窟三层, 五龙窟四层 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 60, 25, 15 })
+
+[地文星]
+level       : 87
+limitlevel  : 82
+sort_level  : 10
+room        : ({ 五龙窟四层, 五龙窟五层 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 60, 25, 15 })
+
+[地正星]
+level       : 90
+limitlevel  : 85
+sort_level  : 11
+room        : ({ 蓬莱岛, 幽冥涧 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地辟星]
+level       : 93
+limitlevel  : 88
+sort_level  : 12
+room        : ({ 幽冥涧, 百花谷一 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地阖星]
+level       : 96
+limitlevel  : 91
+sort_level  : 13
+room        : ({ 百花谷一, 百花谷二 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地强星]
+level       : 99
+limitlevel  : 94
+sort_level  : 14
+room        : ({ 百花谷二, 百花谷三 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地暗星]
+level       : 102
+limitlevel  : 97
+sort_level  : 15
+room        : ({ 百花谷三, 百花谷四 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地辅星]
+level       : 105
+limitlevel  : 100
+sort_level  : 16
+room        : ({ 百花谷四, 百花谷五 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地会星]
+level       : 108
+limitlevel  : 103
+sort_level  : 17
+room        : ({ 百花谷五, 百花谷六 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地佐星]
+level       : 111
+limitlevel  : 106
+sort_level  : 18
+room        : ({ 百花谷六, 百花谷七 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地佑星]
+level       : 114
+limitlevel  : 109
+sort_level  : 19
+room        : ({ 百花谷七, 绝人阵 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地灵星]
+level       : 117
+limitlevel  : 112
+sort_level  : 20
+room        : ({ 绝人阵, 绝仙阵 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 30, 30, 25, 15 })
+
+[地兽星]
+level       : 120
+limitlevel  : 115
+sort_level  : 21
+room        : ({ 绝仙阵, 海底迷宫, 昆仑云海 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_3 })
+skill_rate  : ({ 0, 0, 10, 30, 35, 15, 10 })
+
+[地微星]
+level       : 122
+limitlevel  : 117
+sort_level  : 22
+room        : ({ 海底迷宫, 昆仑云海, 雪域冰原 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地慧星]
+level       : 124
+limitlevel  : 119
+sort_level  : 23
+room        : ({ 昆仑云海, 雪域冰原, 迷境花树 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地暴星]
+level       : 126
+limitlevel  : 121
+sort_level  : 24
+room        : ({ 雪域冰原, 迷境花树, 水云间 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地默星]
+level       : 128
+limitlevel  : 123
+sort_level  : 25
+room        : ({ 雪域冰原, 迷境花树, 水云间, 热砂荒漠 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地猖星]
+level       : 130
+limitlevel  : 125
+sort_level  : 26
+room        : ({ 雪域冰原, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地狂星]
+level       : 132
+limitlevel  : 127
+sort_level  : 27
+room        : ({ 雪域冰原, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地飞星]
+level       : 134
+limitlevel  : 129
+sort_level  : 28
+room        : ({ 雪域冰原, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地走星]
+level       : 136
+limitlevel  : 131
+sort_level  : 29
+room        : ({ 断魂窟, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地巧星]
+level       : 138
+limitlevel  : 133
+sort_level  : 30
+room        : ({ 断魂窟, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地明星]
+level       : 140
+limitlevel  : 135
+sort_level  : 31
+room        : ({ 断魂窟, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地进星]
+level       : 142
+limitlevel  : 137
+sort_level  : 32
+room        : ({ 断魂窟, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地退星]
+level       : 144
+limitlevel  : 139
+sort_level  : 33
+room        : ({ 断魂窟, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地满星]
+level       : 146
+limitlevel  : 141
+sort_level  : 34
+room        : ({ 断魂窟, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地遂星]
+level       : 148
+limitlevel  : 143
+sort_level  : 35
+room        : ({ 断魂窟, 迷境花树, 水云间, 热砂荒漠, 方丈岛 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地周星]
+level       : 150
+limitlevel  : 145
+sort_level  : 36
+room        : ({ 热砂荒漠, 方丈岛, 断魂窟, 弑神殿, 灭魔堂 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地隐星]
+level       : 152
+limitlevel  : 147
+sort_level  : 37
+room        : ({ 热砂荒漠, 方丈岛, 断魂窟, 弑神殿, 灭魔堂 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地异星]
+level       : 154
+limitlevel  : 149
+sort_level  : 38
+room        : ({ 热砂荒漠, 方丈岛, 断魂窟, 弑神殿, 灭魔堂 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地理星]
+level       : 156
+limitlevel  : 151
+sort_level  : 39
+room        : ({ 热砂荒漠, 方丈岛, 断魂窟, 弑神殿, 灭魔堂 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地俊星]
+level       : 158
+limitlevel  : 153
+sort_level  : 40
+room        : ({ 热砂荒漠, 方丈岛, 断魂窟, 弑神殿, 灭魔堂 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地乐星]
+level       : 160
+limitlevel  : 155
+sort_level  : 41
+room        : ({ 弑神殿, 灭魔堂, 玉清山巅, 太极圣境 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地捷星]
+level       : 162
+limitlevel  : 157
+sort_level  : 42
+room        : ({ 弑神殿, 灭魔堂, 玉清山巅, 太极圣境 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[地速星]
+level       : 164
+limitlevel  : 159
+sort_level  : 43
+room        : ({ 弑神殿, 灭魔堂, 玉清山巅, 太极圣境 })
+skill_class : ({ SKILL_SUBCLASS_B, SKILL_LADDER_1, SKILL_SUBCLASS_B, SKILL_LADDER_2, SKILL_SUBCLASS_B, SKILL_LADDER_3, SKILL_SUBCLASS_B, SKILL_LADDER_4, SKILL_SUBCLASS_B, SKILL_LADDER_5, SKILL_SUBCLASS_C, SKILL_LADDER_4, SKILL_SUBCLASS_D, SKILL_LADDER_5 })
+skill_rate  : ({ 0, 0, 0, 30, 35, 20, 15 })
+
+[common_attrib_0]
+resist_forgotten    : 50
+resist_poison       : 45
+resist_frozen       : 45
+resist_sleep        : 40
+resist_confusion    : 50
+resist_repress      : 50
+resist_lock         : 40
+resist_cage         : 45
+resist_melt         : 45
+resist_lost         : 50
+god_book_skills     : ({ "kuangbao", "xiuluoshu" })
+
+[common_attrib_1]
+resist_forgotten    : 100
+resist_poison       : 90
+resist_frozen       : 90
+resist_sleep        : 80
+resist_confusion    : 100
+resist_repress      : 100
+resist_lock         : 80
+resist_cage         : 90
+resist_melt         : 90
+resist_lost         : 100
+god_book_skills     : ({ "kuangbao", "xiuluoshu" })
+
+[金相性_敏捷型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+artifact            : ({ "yinyangjing" })
+
+[金相性_攻击型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+phy_effect          : 100
+artifact            : ({ "fantianyin" })
+
+[金相性_血牛型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+speed_effect        : 0
+artifact            : ({ "dinghaizhu" })
+
+[木相性_敏捷型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 200
+phy_absorb          : -20
+mag_absorb          : -10
+artifact            : ({ "yinyangjing" })
+
+[木相性_攻击型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 200
+phy_absorb          : -20
+mag_absorb          : -10
+phy_effect          : 120
+artifact            : ({ "fantianyin" })
+
+[木相性_血牛型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 200
+phy_absorb          : -20
+mag_absorb          : -10
+speed_effect        : 0
+artifact            : ({ "dinghaizhu" })
+
+[水相性_敏捷型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -40
+mag_absorb          : -20
+artifact            : ({ "yinyangjing" })
+
+[水相性_血牛型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -40
+mag_absorb          : -20
+speed_effect        : 0
+artifact            : ({ "dinghaizhu" })
+
+[水相性_防御型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+speed_effect        : 0
+artifact            : ({ "jiulong-shenhuozhao" })
+
+[火相性_敏捷型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+artifact            : ({ "yinyangjing" })
+
+[火相性_攻击型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+phy_effect          : 100
+artifact            : ({ "fantianyin" })
+
+[火相性_血牛型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+speed_effect        : 50
+artifact            : ({ "dinghaizhu" })
+
+[土相性_敏捷型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+double_hit_rate     : 30
+double_hit          : 5
+stunt_rate          : 30
+artifact            : ({ "hunyuan-jindou" })
+
+[土相性_攻击型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+speed_effect        : 0
+mag_effect          : 120
+double_hit          : 5
+artifact            : ({ "jinjiaojian" })
+tactics_use_lipo    : 1
+
+[土相性_血牛型]
+penetrate           : 60
+penetrate_rate      : 10
+mana_effect         : 100
+phy_absorb          : -20
+mag_absorb          : -10
+double_hit_rate     : 30
+double_hit          : 5
+stunt_rate          : 30
+artifact            : ({ "hunyuan-jindou" })

@@ -1,0 +1,259 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-09-06-14:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+
+#奖励
+[奖励权重]
+bonus_stage: ({ 200000 , "exp", 100000, "tao", 200000, "pot", 0, "score", 0, "glory", 0, "nice", 0, "voucher", 0, "灵引咒", 100, "道具套餐卡", 1, "生肖兽", 1, "神兽" })
+
+[exp]
+bonus$       : ({ 0, 0, 100, "经验", "玩家等级 * 玩家等级 * 30", "玩家等级 * 玩家等级 * 30" })
+bonus_type   : "nomal"
+msg          : "经验"
+level_limit : ({10, 180})
+
+[tao]
+bonus$       : ({ 0, 0, 100, "道行", "玩家等级 * 30", "玩家等级 * 30", 0, "削减" })
+bonus_type   : "nomal"
+msg          : "道行"
+level_limit : ({10, 180})
+
+[pot]
+bonus$  : ({ 0, 0, 100, "潜能", "玩家等级 * 玩家等级 * 100", "玩家等级 * 玩家等级 * 100" })
+bonus_type   : "nomal"
+msg          : "潜能"
+level_limit : ({10, 180})
+
+[score]
+bonus$  : ({ 0, 0, 100, "战绩", "玩家等级 * 30", "玩家等级 * 30" })
+bonus_type   : "nomal"
+msg          : "战绩"
+level_limit : ({60, 180})
+
+[glory]
+bonus$  : ({ 0, 0, 100, "荣誉值", "玩家等级 * 9", "玩家等级 * 9" })
+bonus_type   : "nomal"
+msg          : "荣誉值"
+level_limit : ({60, 180})
+
+[nice]
+bonus$  : ({ 0, 0, 100, "好心值", "玩家等级 * 6 / 10", "玩家等级 * 6 / 10" })
+bonus_type   : "nomal"
+msg          : "好心值"
+level_limit : ({10, 180})
+
+[voucher]
+bonus$  : ({ 0, 0, 100, "代金券", "玩家等级 * 玩家等级 * 100", "玩家等级 * 玩家等级 * 100" })
+bonus_type   : "nomal"
+msg          : "代金券"
+level_limit : ({10, 180})
+
+[灵引咒]
+bonus$       : ({ 0, 0, 100, "灵引咒", 1, 1 })
+free_bag     : ({ 1 })
+msg          : "#R1#n个灵引咒"
+bonus_type   : "junior"
+level_limit : ({100, 180})
+
+[道具套餐卡]
+bonus$       : ({ 0, 0, 100, "道具套餐卡#赠品", 1, 1 })
+free_bag     : ({ 1 })
+msg          : "#R1#n个道具套餐卡"
+bonus_type   : "junior"
+level_limit : ({100, 180})
+
+[宠物技能书]
+bonus$       : ({ 0, 0, 100, "翻转乾坤秘笈(1)||神圣之光秘笈(1)||死亡缠绵秘笈(1)||游说之舌秘笈(1)||漫天血舞秘笈(1)||舍命一击秘笈(1)||乾坤罩秘笈 (1)||神龙罩秘笈(1)||如意圈秘笈(1)||十万火急秘笈(1)||天生神力秘笈(1)||鞭长莫及秘笈(1)||拔苗助长秘笈(1)||防微杜渐秘笈(1)", 1, 1 })
+free_bag     : ({ 1 })
+msg          : "#R1#n本宠物技能书"
+bonus_type   : "junior"
+level_limit : ({100, 180})
+
+[生肖兽]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "伶俐鼠", "笨笨牛", "威威虎", "跳跳兔", "酷酷龙", "花花蛇", "溜溜马", "咩咩羊", "帅帅猴", "蛋蛋鸡", "乖乖狗", "招财猪" })
+free_pet     : ({ 1 })
+msg          : "#R1#n只生肖宠"
+bonus_type   : "super"
+level_limit : ({100, 180})
+num_limit    : 1
+bonus_date  : ({ "2009-09-27-00:00:00", "2009-09-28-00:00:00"})
+
+[伶俐鼠]
+name$ : ({ 伶俐鼠, 伶俐鼠 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+
+[笨笨牛]
+name$ : ({ 笨笨牛, 笨笨牛 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+
+[威威虎]
+name$ : ({ 威威虎, 威威虎 })
+rank$: 变异
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+
+[跳跳兔]
+name$ : ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+
+[酷酷龙]
+name$ : ({ 酷酷龙, 酷酷龙 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+
+[花花蛇]
+name$ : ({ 花花蛇, 花花蛇 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+
+[溜溜马]
+name$ : ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+
+[咩咩羊]
+name$ : ({ 咩咩羊, 咩咩羊 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+
+[帅帅猴]
+name$ : ({ 帅帅猴, 帅帅猴 })
+rank$: 变异
+level: 1
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+
+[蛋蛋鸡]
+name$ : ({ 蛋蛋鸡, 蛋蛋鸡 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+
+[乖乖狗]
+name$ : ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+
+[招财猪]
+name$ : ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+
+[神兽]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "朱雀", "玄武", "东山神灵", "疆良", "九尾狐" })
+free_pet     : ({ 1 })
+msg          : "#R1#n只神兽"
+bonus_type   : "super"
+level_limit  : ({100, 180})
+num_limit    : 1
+bonus_date   : ({ "2009-09-27-00:00:00", "2009-09-28-00:00:00"})
+
+[朱雀]
+name$: ({ 朱雀, 朱雀 })
+rank$: 神兽
+level: 1
+life_effect: ({ 55, 55 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+
+[玄武]
+name$: ({ 玄武, 玄武 })
+rank$: 神兽
+level: 1
+life_effect: ({ 80, 80 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 30, 30 })
+
+[东山神灵]
+name$: ({ 东山神灵, 东山神灵 })
+rank$: 神兽
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+
+[疆良]
+name$: ({ 疆良, 疆良 })
+rank$: 神兽
+level: 1
+life_effect: ({ 55, 55 })
+mana_effect: ({ -35, -35 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -40, -40 })
+
+[九尾狐]
+name$: ({ 九尾狐, 九尾狐 })
+rank$: 神兽
+level: 1
+life_effect: ({ 55, 55 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 35, 35 })

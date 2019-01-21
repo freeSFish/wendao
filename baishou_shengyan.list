@@ -1,0 +1,74 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-09-05-19:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2012-09-05-15:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_start_task", "start_task", "during_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1799)"
+message         : "#R【周活动】百兽盛宴#n即将于#RSTART_TIME#n开始，活动在天墉城的#P千面怪#P处举行，所有等级达到40级的玩家都可以找#P千面怪#P参加活动"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "#R【周活动】百兽盛宴#n即将于#RSTART_TIME#n开始，活动在天墉城的#P千面怪#P处举行，所有等级达到40级的玩家都可以找#P千面怪#P参加活动"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【周活动】百兽盛宴#n开始了！所有等级达到40级的玩家都可以到天墉城找#P千面怪#P参加活动！在活动中消灭比自己低阶的怪物会获得积分，随着积分的变化形象也会发生变化，活动结束时形象越高级可获得的奖励越多，快来参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+600)"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "#R【周活动】百兽盛宴#n火热进行中！你还没参加？快到天墉城找我#P千面怪#P参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "#R【周活动】百兽盛宴#n结束了，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[common_monster]
+polar               : -1
+life_effect         : "500 + Lv / 100 * 100 + Lv / 130 * 150 + Lv / 150 * 100 + App * 180"
+phy_effect          : "50 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 150 * 15 + App * 20"
+mag_effect          : "50 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 150 * 15 + App * 20"
+penetrate_rate      : 30
+penetrate           : 50
+tao_effect          : "App * 30"
+speed_effect        : "App * 10"
+all_resist_polar    : 20
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "speed_effect" })
+skills              : ({ "B3" })
+special_skills      : ({ "力破千钧" })
+monster_tactics     : "monster_common_tactics"
+
+[威威虎]
+polar               : -1
+life_effect         : "2000 + Lv / 100 * 150 + Lv / 130 * 200 + Lv / 150 * 350"
+phy_effect          : "200 + Lv / 100 * 30 + Lv / 130 * 50 + Lv / 150 * 40"
+mag_effect          : "200 + Lv / 100 * 30 + Lv / 130 * 50 + Lv / 150 * 40"
+penetrate_rate      : 30
+penetrate           : 50
+tao_effect          : 250
+speed_effect        : 150
+all_resist_polar    : 20
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib       : ({ "speed_effect" })
+skills              : ({ "B3", "C3" })
+special_skills      : ({ "力破千钧" })
+monster_tactics     : "monster_weiweihu_tactics"

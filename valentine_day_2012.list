@@ -1,0 +1,30 @@
+#FORM2
+
+[time]
+start_time    : "2012-02-14-00:00:00"
+task_end_time : "2012-02-14-23:59:59"
+end_time      : "2012-02-15-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "start_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-172800)"
+interval        : 3600
+broadcast_end   : "start_time(-1)"
+message         : "#R【甜蜜情人节】#n活动将于#RSTART_TIME#n在#P活动大使#P处开启。活动#R双人组队#n即可参加，#R异性组队#n可获得#R双倍#n魅力值，即可在#P活动大使#P处兑奖，魅力值排名第一的玩家必定获得#Y两天技玉兰#n，请大家届时参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【甜蜜情人节】#n活动已在#P活动大使#P处开启，大家把羞涩转换为尽情欢乐吧。活动#R双人组队#n即可参加，期间#R异性组队#n可获得#R双倍#n魅力值，在#P活动大使#P处兑奖，魅力值排名第一的玩家必定获得#Y两天技玉兰#n！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "本次#R【甜蜜情人节】#n活动圆满结束，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

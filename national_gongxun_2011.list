@@ -1,0 +1,96 @@
+#FORM2
+
+[setting]
+start_time : "2011-09-27-00:00:00"
+end_time   : "2011-10-08-00:00:00"
+
+[001]
+rate : 30
+type : "pet"
+quate: 1
+name : 玄武
+
+[002]
+rate : 100
+type : "item"
+name : 道具套餐卡
+
+[003]
+rate : 120
+type : "item"
+name : 高级法玲珑
+
+[004]
+rate : 150
+type : "item"
+name : 超级绿水晶
+
+[005]
+rate : 200
+type : "item"
+name : 高级血玲珑
+
+[006]
+rate : 250
+type : "item"
+name : 法玲珑
+
+[007]
+rate : 500
+type : "item"
+name : 特效仙风散
+
+[008]
+rate : 500
+type : "item"
+name : 特级八卦阴阳令
+
+[009]
+rate : 500
+type : "item"
+name : 惊妖铃
+
+[010]
+rate : 500
+type : "item"
+name : 急急如律令
+
+[011]
+rate : 500
+type : "item"
+name : 喇叭
+
+[012]
+rate : 1000
+type : "item"
+name : 宠风散
+
+[014]
+rate : 3000
+type : "item"
+name : 血玲珑
+
+[015]
+rate : 3000
+type : "item"
+name : 超级八卦阴阳令
+
+[016]
+rate : 3000
+type : "item"
+name : 超级仙风散
+
+[017]
+rate : 3000
+type : "item"
+name : 超级神兽丹
+
+[018]
+rate : 3000
+type : "item"
+name : 离线摆摊卡
+
+[019]
+rate : 3000
+type : "item"
+name : 驯兽诀

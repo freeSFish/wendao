@@ -1,0 +1,29 @@
+#FORM2
+
+[time]
+start_time : "2012-03-19-12:00:00"
+end_time   : "2012-03-25-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "end_task", "during_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "六周年之际，龙之九子前来贺喜，在#Z天墉城(257,199)#Z，迎接天下人的挑战，大家还等什么，据说挑战成功者将能够获得丰厚的奖励。#50"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "六周年庆典已经结束了，龙之九子离开了天墉城，庆典虽然结束了，但是希望大家能够将周年庆的激情继续延续下去！#0"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3600)"
+interval        : 3600
+broadcast_end   : "end_time(-3599)"
+message         : "六周年之际，龙之九子前来贺喜，在#Z天墉城(257,199)#Z，迎接天下人的挑战，大家还等什么，据说挑战成功者将能够获得丰厚的奖励。#50"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

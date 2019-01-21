@@ -1,0 +1,48 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-09-19-00:00:00", "EVERY_DAY(4)", 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【中秋节】玉兔送礼#n活动开始了，大家快去#Z天墉城#Z的#P活动大使#P处参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【中秋节】玉兔送礼#n活动正在进行中，大家快去#Z天墉城#Z的#P活动大使#P处参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "#R【中秋节】玉兔送礼#n活动已经结束了，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[bonus_info]
+包子 : 20000
+拨浪鼓 : 20000
+果仁糖葫芦 : 3000
+纸鸢 : 3000
+锦囊    : 20000
+丹药盒    : 20000
+烟花筒    : 15000
+超级藏宝图 : 15000
+工匠宝箱 : 15000
+宠风散 : 3000
+超级归元露   : 3000
+超级黑水晶   : 1200
+特效仙风散   : 1200
+炼魂丹 : 1200
+装备共鸣石 : 1200
+天神护佑 : 600
+宠物成长丹  : 600
+道具套餐卡  : 100

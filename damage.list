@@ -1,0 +1,9 @@
+# 此文件不是由 IMPORT_D 管理的，而是由 DAMAGE_D 管理的
+# 目前类别：CHAR、NPC、PET、MONSTER、MASTER
+# 格式：TYPE_A - MAG - TYPE_V = scale 或
+#       TYPE_A - PHY - TYPE_V = scale
+# 表示 A 类型攻击 B 类型 的伤害系数是 scale，scale 可以为小数
+# 这里没有表达的类型伤害值为 1
+
+CHAR - MAG - CHAR = 1
+PET  - PHY - NPC  = 1

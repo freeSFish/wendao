@@ -1,0 +1,29 @@
+#FORM2
+
+[time]
+start_time : "2012-07-02-00:00:00"
+end_time   : "2012-07-06-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 30
+broadcast_end   : "start_time(+10)"
+message         : "暑假到来了，夏总兵侄子小宝来天墉城做客了，小宝胃口极大，大家快去帮忙#P活动大使#P给小宝找吃的吧，此活动有大量的经验奖励，还有机会获得商城道具，你还等什么？赶快来参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1200)"
+interval        : 1200
+broadcast_end   : "end_time(-10)"
+message         : "暑假到来了，大家快去#Z北海沙滩#Z给胃口极大的小宝找吃的，请大家找到后交给#P活动大使#P吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 30
+broadcast_end   : "end_time(+10)"
+message         : "本次暑假活动小宝大胃王活动圆满结束，请关注暑假期间的其他活动！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

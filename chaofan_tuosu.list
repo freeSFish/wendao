@@ -1,0 +1,21 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2014-09-26-00:00:00", "EVERY_DAY(17)", 0, "2014-10-12-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "broadcast_1", "broadcast_2" })
+
+[broadcast_1]
+broadcast_start : "start_time(0)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "俗话说，爱美是女子的天性，一套好看的衣服无疑是每个女子都想要的礼物。小师妹们对国庆节期待已久，众道友可以乘此佳节让她们#R换装#n，满足下可爱的她们，大家可找#P活动大使#P了解详情。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_2]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "国庆节已经结束，#R【国庆节】超凡脱俗#n活动也随之关闭，感谢众道友的参与，可爱的小师妹们是否还可以变成其他形象，敬请期待！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

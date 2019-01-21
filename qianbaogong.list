@@ -1,0 +1,447 @@
+#FORM2
+
+[八卦·乾灵_0]
+name                : 乾灵
+polar               : POLAR_METAL
+icon                : 20006
+portrait            : 20006
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 60
+tao_effect          : "Lv / 100 * 65 + Lv / 110 * 65 + Lv / 130 * 65 + Lv / 140 * 65"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "5 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R乾为天，属金#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_qianling"
+
+[八卦·乾灵_1]
+name                : 乾灵
+polar               : POLAR_METAL
+icon                : 20006
+portrait            : 20006
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 60 })
+tao_effect          : "Lv / 100 * 260 + Lv / 110 * 260 + Lv / 130 * 260 + Lv / 140 * 260"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R乾为天，属金#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_qianling"
+
+[八卦·坤灵_0]
+name                : 坤灵
+polar               : POLAR_WOOD
+icon                : 20005
+portrait            : 20005
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 300
+tao_effect          : "Lv / 100 * 55 + Lv / 110 * 55 + Lv / 130 * 55 + Lv / 140 * 55"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "坤为地，原为土，我在此处#R属木#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_kunling"
+
+[八卦·坤灵_1]
+name                : 坤灵
+polar               : POLAR_WOOD
+icon                : 20005
+portrait            : 20005
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 300 })
+tao_effect          : "Lv / 100 * 220 + Lv / 110 * 220 + Lv / 130 * 220 + Lv / 140 * 220"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "坤为地，原为土，我在此处#R属木#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_kunling"
+
+[八卦·震灵_0]
+name                : 震灵
+polar               : POLAR_METAL
+icon                : 20004
+portrait            : 20004
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 60
+tao_effect          : "Lv / 100 * 55 + Lv / 110 * 55 + Lv / 130 * 55 + Lv / 140 * 55"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "5 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "震为雷，原为木，我在此处#R属金#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_zhenling"
+
+[八卦·震灵_1]
+name                : 震灵
+polar               : POLAR_METAL
+icon                : 20004
+portrait            : 20004
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 60 })
+tao_effect          : "Lv / 100 * 220 + Lv / 110 * 220 + Lv / 130 * 220 + Lv / 140 * 220"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "震为雷，原为木，我在此处#R属金#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_zhenling"
+
+[八卦·艮灵_0]
+name                : 艮灵
+polar               : POLAR_EARTH
+icon                : 20008
+portrait            : 20008
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 350
+tao_effect          : "Lv / 100 * 55 + Lv / 110 * 55 + Lv / 130 * 55 + Lv / 140 * 55"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "5 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R艮为山，属土#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_genling"
+
+[八卦·艮灵_1]
+name                : 艮灵
+polar               : POLAR_EARTH
+icon                : 20008
+portrait            : 20008
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 350 })
+tao_effect          : "Lv / 100 * 220 + Lv / 110 * 220 + Lv / 130 * 220 + Lv / 140 * 220"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R艮为山，属土#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_genling"
+
+[八卦·离灵_0]
+name                : 离灵
+polar               : POLAR_FIRE
+icon                : 20007
+portrait            : 20007
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 350
+tao_effect          : "Lv / 100 * 55 + Lv / 110 * 55 + Lv / 130 * 55 + Lv / 140 * 55"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "5 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R离为火，属火#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_liling"
+
+[八卦·离灵_1]
+name                : 离灵
+polar               : POLAR_FIRE
+icon                : 20007
+portrait            : 20007
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 350 })
+tao_effect          : "Lv / 100 * 220 + Lv / 110 * 220 + Lv / 130 * 220 + Lv / 140 * 220"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R离为火，属火#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_liling"
+
+[八卦·坎灵_0]
+name                : 坎灵
+polar               : POLAR_WATER
+icon                : 20009
+portrait            : 20009
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 350
+tao_effect          : "Lv / 100 * 55 + Lv / 110 * 55 + Lv / 130 * 55 + Lv / 140 * 55"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "5 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R坎为水，属水#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_kanling"
+
+[八卦·坎灵_1]
+name                : 坎灵
+polar               : POLAR_WATER
+icon                : 20009
+portrait            : 20009
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 350 })
+tao_effect          : "Lv / 100 * 220 + Lv / 110 * 220 + Lv / 130 * 220 + Lv / 140 * 220"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R坎为水，属水#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_kanling"
+
+[八卦·兑灵_0]
+name                : 兑灵
+polar               : POLAR_WATER
+icon                : 20011
+portrait            : 20011
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 150
+tao_effect          : "Lv / 100 * 55 + Lv / 110 * 55 + Lv / 130 * 55 + Lv / 140 * 55"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "5 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R兑为泽，属水#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_duiling"
+
+[八卦·兑灵_1]
+name                : 兑灵
+polar               : POLAR_WATER
+icon                : 20011
+portrait            : 20011
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 150 })
+tao_effect          : "Lv / 100 * 220 + Lv / 110 * 220 + Lv / 130 * 220 + Lv / 140 * 220"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "C3", "C5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R兑为泽，属水#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_duiling"
+
+[八卦·巽灵_0]
+name                : 巽灵
+polar               : POLAR_WOOD
+icon                : 20010
+portrait            : 20010
+life_effect         : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+mag_effect          : "70 + Lv / 70 * 10 + Lv / 100 * 10  + Lv / 110 * 20  + Lv / 130 * 20  + Lv / 150 * 15"
+speed_effect        : 150
+tao_effect          : "Lv / 100 * 55 + Lv / 110 * 55 + Lv / 130 * 55 + Lv / 140 * 55"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "5 * Cr"
+stunt_rate          : 20
+penetrate           : 20
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R巽为风，属木#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_xunling"
+
+[八卦·巽灵_1]
+name                : 巽灵
+polar               : POLAR_WOOD
+icon                : 20010
+portrait            : 20010
+life_effect         : "6400 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+mag_effect          : "420 + Lv / 70 * 60 + Lv / 100 * 60  + Lv / 110 * 120  + Lv / 130 * 120  + Lv / 150 * 90"
+speed_effect        : ({ 100, 150 })
+tao_effect          : "Lv / 100 * 220 + Lv / 110 * 220 + Lv / 130 * 220 + Lv / 140 * 220"
+mag_absorb          : 20
+phy_absorb          : -20
+all_resist_except   : "10 * Cr"
+stunt_rate          : 40
+penetrate           : 40
+penetrate_rate      : 40
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "all_resist_except" })
+random_attrib       : ({ "speed_effect" })
+combat_tip          : "#R巽为风，属木#n。攻克我们要熟知相生相克之理，切记！"
+tactics             : "tactics_xunling"
+
+[叱灵上人_0]
+name                : 叱灵上人
+polar               : -1
+icon                : 6304
+portrait            : 6304
+life_effect         : 100
+phy_effect          : 400
+mag_effect          : 300
+speed_effect        : 150
+tao_effect          : "30 * Cr"
+mag_absorb          : -100
+phy_absorb          : -100
+resist_forgotten    : "10 * Cr"
+resist_poison       : "6 * Cr"
+resist_frozen       : "6 * Cr"
+resist_sleep        : "3 * Cr"
+resist_confusion    : "10 * Cr"
+penetrate           : 50
+penetrate_rate      : 5
+not_die             : 1
+skills              : ({ "lipo-qianjun", "qiankun-zhao", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "tao_effect", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion" })
+random_attrib       : ({ "speed_effect" })
+tactics             : "tactics_shangren"
+
+[叱灵上人_1]
+name                : 叱灵上人
+polar               : -1
+icon                : 6304
+portrait            : 6304
+life_effect         : 100
+phy_effect          : 1200
+mag_effect          : 900
+speed_effect        : ({ 100, 150 })
+tao_effect          : "90 * Cr"
+mag_absorb          : -100
+phy_absorb          : -100
+resist_forgotten    : "20 * Cr"
+resist_poison       : "12 * Cr"
+resist_frozen       : "12 * Cr"
+resist_sleep        : "6 * Cr"
+resist_confusion    : "20 * Cr"
+penetrate           : 50
+penetrate_rate      : 20
+not_die             : 1
+skills              : ({ "lipo-qianjun", "qiankun-zhao", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "tao_effect", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion" })
+random_attrib       : ({ "speed_effect" })
+tactics             : "tactics_shangren"
+
+[叱灵护卫_0]
+name                : 叱灵护卫
+polar               : -1
+icon                : 6154
+portrait            : 6154
+life_effect         : "600 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect          : 400
+mag_effect          : 300
+speed_effect        : 150
+tao_effect          : "30 * Cr"
+resist_forgotten    : "10 * Cr"
+resist_poison       : "6 * Cr"
+resist_frozen       : "6 * Cr"
+resist_sleep        : "3 * Cr"
+resist_confusion    : "10 * Cr"
+penetrate           : 50
+penetrate_rate      : 5
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "tao_effect", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion" })
+random_attrib       : ({ "speed_effect" })
+tactics             : "tactics_huwei"
+
+[叱灵护卫_1]
+name                : 叱灵护卫
+polar               : -1
+icon                : 6154
+portrait            : 6154
+life_effect         : "4800 + Lv / 70 * 800 + Lv / 100 * 1200 + Lv / 110 * 2000 + Lv / 130 * 3200 + Lv / 150 * 2160"
+phy_effect          : 1200
+mag_effect          : 900
+speed_effect        : ({ 100, 150 })
+tao_effect          : "90 * Cr"
+resist_forgotten    : "20 * Cr"
+resist_poison       : "12 * Cr"
+resist_frozen       : "12 * Cr"
+resist_sleep        : "6 * Cr"
+resist_confusion    : "20 * Cr"
+penetrate           : 50
+penetrate_rate      : 20
+skills              : ({ "lipo-qianjun", "B2", "B3", "B4", "B5", "D3", "D5" })
+modify_attrib       : ({ "life_effect", "tao_effect", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion" })
+random_attrib       : ({ "speed_effect" })
+tactics             : "tactics_huwei"

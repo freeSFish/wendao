@@ -1,0 +1,368 @@
+#FORM2
+
+[setting]
+task_first_duration : 7200
+task_second_duration : 7200
+
+[ĞÇ¾ıÅÅÃû]
+0   :   ÌìÊàĞÇ¾ı
+1   :   Ììè¯ĞÇ¾ı
+2   :   ÌìçáĞÇ¾ı
+3   :   ÌìÈ¨ĞÇ¾ı
+4   :   ÓñºâĞÇ¾ı
+5   :   ¿ªÑôĞÇ¾ı
+6   :   Ò¡¹âĞÇ¾ı
+
+[monster]
+monster$    :   ÌìÊàĞÇ¾ı
+monster$    :   Ììè¯ĞÇ¾ı
+monster$    :   ÌìçáĞÇ¾ı
+monster$    :   ÌìÈ¨ĞÇ¾ı
+monster$    :   ÓñºâĞÇ¾ı
+monster$    :   ¿ªÑôĞÇ¾ı
+monster$    :   Ò¡¹âĞÇ¾ı
+pet$        :   ½®Á¼
+pet$        :   ĞşÎä
+pet$        :   ÖìÈ¸
+pet$        :   ¶«É½ÉñÁé
+
+[Ò¡¹âĞÇ¾ı]
+name                : Ò¡¹âĞÇ¾ı
+polar               :   -1
+religion            :   -1
+life_effect         :   -40
+speed_effect        :   "S * 5 + 200"
+mag_effect          :   "S * 10 + 300"
+phy_effect          :   "S * 10 + 300"
+tao_effect          :   0
+accurate            :   100
+stunt_rate          :   30
+double_hit_rate     :   0
+double_hit          :   0
+damage_sel_rate     :   0
+damage_sel          :   0
+penetrate_rate      :   "S * 5"
+penetrate           :   50
+resist_metal        :   "S * 2"
+resist_wood         :   "S * 2"
+resist_water        :   "S * 2"
+resist_fire         :   "S * 2"
+resist_earth        :   "S * 2"
+resist_forgotten    :   "S * 1 + 10"
+resist_poison       :   "S * 1"
+resist_frozen       :   "S * 1"
+resist_sleep        :   "S * 1"
+resist_confusion    :   "S * 1 + 10"
+resist_repress      :   "S * 1 + 10"
+resist_melt         :   "S * 1"
+resist_cage         :   "S * 1"
+resist_lock         :   "S * 1"
+resist_lost         :   "S * 1 + 10"
+phy_absorb          :   -20
+mag_absorb          :   0
+danger_state        :   20
+obstacles_rate      :   70
+mag_statics_rate    :   50
+phy_statics_rate    :   50
+
+[¿ªÑôĞÇ¾ı]
+name                :   ¿ªÑôĞÇ¾ı
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 50"
+speed_effect        :   0
+mag_effect          :   "S * 10 + 300"
+phy_effect          :   "S * 10"
+tao_effect          :   150
+stunt_rate          :   0
+double_hit_rate     :   0
+double_hit          :   0
+damage_sel_rate     :   0
+damage_sel          :   0
+penetrate_rate      :   "S * 5"
+penetrate           :   100
+resist_metal        :   "S * 3"
+resist_wood         :   "S * 3"
+resist_water        :   "S * 3"
+resist_fire         :   "S * 3"
+resist_earth        :   "S * 3"
+resist_forgotten    :   "S * 1 + 10"
+resist_poison       :   "S * 1"
+resist_frozen       :   "S * 1"
+resist_sleep        :   "S * 1"
+resist_confusion    :   "S * 1 + 10"
+resist_repress      :   "S * 1 + 10"
+resist_melt         :   "S * 1"
+resist_cage         :   "S * 1"
+resist_lock         :   "S * 1"
+resist_lost         :   "S * 1 + 10"
+phy_absorb          :   0
+mag_absorb          :   0
+danger_state        :   30
+obstacles_rate      :   10
+mag_statics_rate    :   100
+phy_statics_rate    :   0
+
+[ÓñºâĞÇ¾ı]
+name                :   ÓñºâĞÇ¾ı
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 300"
+speed_effect        :   "S * 5"
+mag_effect          :   "S * 10 + 150"
+phy_effect          :   "S * 10 + 100"
+tao_effect          :   250
+stunt_rate          :   0
+double_hit_rate     :   30
+double_hit          :   3
+damage_sel_rate     :   0
+damage_sel          :   0
+penetrate_rate      :   0
+penetrate           :   0
+resist_metal        :   "S * 5"
+resist_wood         :   "S * 5"
+resist_water        :   "S * 5"
+resist_fire         :   "S * 5"
+resist_earth        :   "S * 5"
+resist_forgotten    :   "S * 1 + 10"
+resist_poison       :   "S * 1"
+resist_frozen       :   "S * 1"
+resist_sleep        :   "S * 1"
+resist_confusion    :   "S * 1 + 10"
+resist_repress      :   "S * 1 + 10"
+resist_melt         :   "S * 1"
+resist_cage         :   "S * 1"
+resist_lock         :   "S * 1"
+resist_lost         :   "S * 1 + 10"
+phy_absorb          :   0
+mag_absorb          :   0
+danger_state        :   30
+obstacles_rate      :   0
+mag_statics_rate    :   70
+phy_statics_rate    :   30
+
+[ÌìÈ¨ĞÇ¾ı]
+name                :   ÌìÈ¨ĞÇ¾ı
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 50"
+speed_effect        :   -20
+mag_effect          :   "S * 10"
+phy_effect          :   "S * 10 + 350"
+tao_effect          :   50
+accurate            :   200
+stunt_rate          :   30
+double_hit_rate     :   0
+double_hit          :   0
+damage_sel_rate     :   0
+damage_sel          :   0
+penetrate_rate      :   0
+penetrate           :   0
+resist_metal        :   "S * 1"
+resist_wood         :   "S * 1"
+resist_water        :   "S * 1"
+resist_fire         :   "S * 1"
+resist_earth        :   "S * 1"
+resist_forgotten    :   "S * 1 + 10"
+resist_poison       :   "S * 1"
+resist_frozen       :   "S * 1"
+resist_sleep        :   "S * 1"
+resist_confusion    :   "S * 1 + 10"
+resist_repress      :   "S * 1 + 10"
+resist_melt         :   "S * 1"
+resist_cage         :   "S * 1"
+resist_lock         :   "S * 1"
+resist_lost         :   "S * 1 + 10"
+phy_absorb          :   -20
+mag_absorb          :   0
+danger_state        :   30
+obstacles_rate      :   0
+mag_statics_rate    :   0
+phy_statics_rate    :   100
+
+[ÌìçáĞÇ¾ı]
+name                :   ÌìçáĞÇ¾ı
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 300"
+speed_effect        :   "S * 5"
+mag_effect          :   "S * 10 + 100"
+phy_effect          :   "S * 10 + 150"
+tao_effect          :   200
+accurate            :   150
+stunt_rate          :   0
+double_hit_rate     :   30
+double_hit          :   3
+damage_sel_rate     :   "S * 5"
+damage_sel          :   50
+penetrate_rate      :   0
+penetrate           :   0
+resist_metal        :   0
+resist_wood         :   0
+resist_water        :   0
+resist_fire         :   0
+resist_earth        :   0
+resist_forgotten    :   "S * 1 + 10"
+resist_poison       :   "S * 1"
+resist_frozen       :   "S * 1"
+resist_sleep        :   "S * 1"
+resist_confusion    :   "S * 1 + 10"
+resist_repress      :   "S * 1 + 10"
+resist_melt         :   "S * 1"
+resist_cage         :   "S * 1"
+resist_lock         :   "S * 1"
+resist_lost         :   "S * 1 + 10"
+phy_absorb          :   -50
+mag_absorb          :   50
+danger_state        :   30
+obstacles_rate      :   0
+mag_statics_rate    :   30
+phy_statics_rate    :   70
+
+[Ììè¯ĞÇ¾ı]
+name                :   Ììè¯ĞÇ¾ı
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 100"
+speed_effect        :   "S * 5"
+mag_effect          :   "S * 10 + 150"
+phy_effect          :   "S * 10 + 150"
+tao_effect          :   0
+accurate            :   100
+stunt_rate          :   0
+double_hit_rate     :   30
+double_hit          :   3
+damage_sel_rate     :   "S * 5"
+damage_sel          :   50
+penetrate_rate      :   0
+penetrate           :   0
+resist_metal        :   "S * 2"
+resist_wood         :   "S * 2"
+resist_water        :   "S * 2"
+resist_fire         :   "S * 2"
+resist_earth        :   "S * 2"
+resist_forgotten    :   "S * 1 + 10"
+resist_poison       :   "S * 1"
+resist_frozen       :   "S * 1"
+resist_sleep        :   "S * 1"
+resist_confusion    :   "S * 1 + 10"
+resist_repress      :   "S * 1 + 10"
+resist_melt         :   "S * 1"
+resist_cage         :   "S * 1"
+resist_lock         :   "S * 1"
+resist_lost         :   "S * 1 + 10"
+phy_absorb          :   0
+mag_absorb          :   10
+danger_state        :   20
+obstacles_rate      :   100
+mag_statics_rate    :   50
+phy_statics_rate    :   50
+
+[ÌìÊàĞÇ¾ı]
+name                :   ÌìÊàĞÇ¾ı
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 150"
+speed_effect        :   "S * 5 + 50"
+mag_effect          :   "S * 10 + 150"
+phy_effect          :   "S * 10 + 150"
+tao_effect          :   100
+accurate            :   100
+stunt_rate          :   30
+double_hit_rate     :   0
+double_hit          :   0
+damage_sel_rate     :   0
+damage_sel          :   0
+penetrate_rate      :   0
+penetrate           :   0
+resist_metal        :   "S * 3"
+resist_wood         :   "S * 3"
+resist_water        :   "S * 3"
+resist_fire         :   "S * 3"
+resist_earth        :   "S * 3"
+resist_forgotten    :   "S * 1 + 10"
+resist_poison       :   "S * 1"
+resist_frozen       :   "S * 1"
+resist_sleep        :   "S * 1"
+resist_confusion    :   "S * 1 + 10"
+resist_repress      :   "S * 1 + 10"
+resist_melt         :   "S * 1"
+resist_cage         :   "S * 1"
+resist_lock         :   "S * 1"
+resist_lost         :   "S * 1 + 10"
+phy_absorb          :   -20
+mag_absorb          :   0
+danger_state        :   20
+obstacles_rate      :   40
+mag_statics_rate    :   50
+phy_statics_rate    :   50
+
+[½®Á¼]
+name                :   ½®Á¼
+icon                :   6189
+life_effect         :   "S * 10 + 250"
+speed_effect        :   0
+mag_effect          :   0
+phy_effect          :   "S * 10 + 250"
+phy_absorb          :   -30
+tao_effect          :   "RND(400)"
+penetrate           :   0
+danger_state        :   20
+god_book_skills     :   ({ "kuangbao" })
+special_skills      :   ({ "ÈçÒâÈ¦" })
+mag_statics_rate    :   0
+phy_statics_rate    :   100
+
+[ĞşÎä]
+name                :   ĞşÎä
+icon                :   6191
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 500"
+speed_effect        :   -40
+mag_effect          :   "S * 10 + 100"
+phy_effect          :   "S * 10 + 50"
+tao_effect          :   "100 + RND(100)"
+penetrate           :   0
+danger_state        :   30
+god_book_skills     :   ({ "nuji" })
+special_skills      :   ({ "ÉñÁúÕÖ" })
+skills              :   ({ "B2", "B4" })
+mag_statics_rate    :   70
+phy_statics_rate    :   30
+
+[ÖìÈ¸]
+name                :   ÖìÈ¸
+icon                :   6192
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 250"
+speed_effect        :   "S * 5 + 150"
+mag_effect          :   "S * 10 + 150"
+phy_effect          :   "S * 10"
+tao_effect          :   "50 + RND(200)"
+penetrate           :   0
+danger_state        :   20
+god_book_skills     :   ({ "xiangmozhan" })
+special_skills      :   ({ "ÈçÒâÈ¦" })
+skills              :   ({ "B2", "B4" })
+mag_statics_rate    :   70
+phy_statics_rate    :   30
+
+[¶«É½ÉñÁé]
+name                :   ¶«É½ÉñÁé
+icon                :   6190
+polar               :   -1
+religion            :   -1
+life_effect         :   "S * 10 + 350"
+speed_effect        :   "S * 5"
+mag_effect          :   "S * 10 + 200"
+phy_effect          :   "S * 10"
+tao_effect          :   "50 + RND(150)"
+penetrate           :   0
+danger_state        :   20
+god_book_skills     :   ({ "xiuluoshu" })
+special_skills      :   ({ "ÉñÁúÕÖ" })
+skills              :   ({ "B2", "B4" })
+mag_statics_rate    :   100
+phy_statics_rate    :   0

@@ -1,0 +1,43 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-09-13-19:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2012-09-13-15:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_start_task", "start_task", "during_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1799)"
+message         : "#R【周活动】门派历练#n即将于#RSTART_TIME#n开始，活动在天墉城的#P活动大使#P处举行，所有等级达到#R40级#n的玩家均可以参加该历练。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-299)"
+message         : "#R【周活动】门派历练#n即将于#RSTART_TIME#n开始，活动在天墉城的#P活动大使#P处举行，所有等级达到#R40级#n的玩家均可以参加该历练。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【周活动】门派历练#n已经开始了，所有等级达到#R40级#n的玩家都可以到天墉城的#P活动大使#P处参加活动！机会不容错过！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(600)"
+interval        : 600
+broadcast_end   : "end_time(-599)"
+message         : "#R【周活动】门派历练#n正在进行中，大家赶紧到天墉城的#P活动大使#P处参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【周活动】门派历练#n已经结束了，感谢大家的积极参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,31 @@
+#FORM2
+
+[monster_list]
+monster$ : "黑煞真君"
+monster$ : "真武真君"
+monster$ : "天猷真君"
+monster$ : "天蓬真君"
+
+[黑煞真君]
+level       : 150
+limitlevel  : 150
+sort_level  : 1
+room        : ({ "方丈岛", "断魂窟", "弑神殿", "灭魔堂" })
+
+[真武真君]
+level       : 150
+limitlevel  : 150
+sort_level  : 2
+room        : ({ "方丈岛", "断魂窟", "弑神殿", "灭魔堂" })
+
+[天猷真君]
+level       : 155
+limitlevel  : 155
+sort_level  : 3
+room        : ({ "方丈岛", "断魂窟", "弑神殿", "灭魔堂" })
+
+[天蓬真君]
+level       : 155
+limitlevel  : 155
+sort_level  : 4
+room        : ({ "方丈岛", "断魂窟", "弑神殿", "灭魔堂" })

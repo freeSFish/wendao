@@ -1,0 +1,191 @@
+#FORM2
+
+[∆ﬂ–«…ÒΩ´]
+polar               : -1
+religion            : -1
+icon                : 6223
+portrait            : 6223
+life_effect         : 1200
+phy_effect          : 50
+mag_absorb          : 100
+speed_effect        : -10
+resist_poison       : 30
+resist_frozen       : 30
+resist_sleep        : 30
+resist_forgotten    : 30
+resist_confusion    : 30
+resist_repress      : 30
+resist_melt         : 30
+resist_cage         : 30
+resist_lock         : 30
+resist_lost         : 30
+tactics             : "tactics_physics"
+
+[∆ﬂ–«…ÒπŸ]
+polar               : -1
+religion            : -1
+icon                : 6224
+portrait            : 6224
+life_effect         : 1200
+mag_effect          : 50
+phy_absorb          : 100
+speed_effect        : -10
+resist_poison       : 30
+resist_frozen       : 30
+resist_sleep        : 30
+resist_forgotten    : 30
+resist_confusion    : 30
+resist_repress      : 30
+resist_melt         : 30
+resist_cage         : 30
+resist_lock         : 30
+resist_lost         : 30
+skills              : ({ "B2", "B4" })
+tactics             : "tactics_magic"
+
+[∆ﬂ–« ÿª§’ﬂ]
+polar               : -1
+religion            : -1
+icon                : 6272
+portrait            : 6272
+life_effect         : 1500
+mag_effect          : 50
+phy_absorb          : 20
+mag_absorb          : 20
+speed_effect        : 40
+tao_effect          : 150
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_forgotten    : 50
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 50
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 50
+skills              : ({ "B3", "D3", "B4" })
+tactics             : "tactics_qixing_shouhu"
+
+[∆ﬂ–«’Û—€]
+polar               : -1
+religion            : -1
+icon                : 31028
+portrait            : 31028
+life_effect         : 600
+speed_effect        : 60
+phy_effect          : 60
+mag_effect          : 60
+phy_absorb          : 40
+mag_absorb          : 40
+tao_effect          : 200
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+skills              : ({ "B3", "B4", "C3" })
+tactics             : "tactics_qixing_zhenyan"
+
+[ÃÏÓ∏∆ﬂ–«…ÒΩ´]
+polar               : -1
+religion            : -1
+icon                : 6223
+portrait            : 6223
+life_effect         : 1800
+phy_effect          : 50
+mag_absorb          : 50
+speed_effect        : 40
+tao_effect          : 200
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_forgotten    : 50
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 50
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 50
+stunt_rate          : 70
+counter_attack_rate : 70
+#counter_attack      : 12
+tactics             : "tactics_physics"
+
+[ÃÏÓ∏∆ﬂ–«…ÒπŸ]
+polar               : -1
+religion            : -1
+icon                : 6224
+portrait            : 6224
+life_effect         : 1800
+mag_effect          : 50
+phy_absorb          : 75
+speed_effect        : 0
+tao_effect          : 200
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_forgotten    : 50
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 50
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 50
+skills              : ({ "B4" })
+tactics             : "tactics_magic"
+
+[ÃÏÓ∏∆ﬂ–« ÿª§’ﬂ]
+polar               : -1
+religion            : -1
+icon                : 6272
+portrait            : 6272
+life_effect         : 2800
+phy_effect          : 200
+mag_effect          : 250
+phy_absorb          : -10
+mag_absorb          : -10
+speed_effect        : 0
+tao_effect          : 350
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+skills              : ({ "B4", "B5", "C4" })
+tactics             : "tactics_tiangang_shouhu"
+
+[ÃÏÓ∏∆ﬂ–«’Û—€]
+polar               : -1
+religion            : -1
+icon                : 31028
+portrait            : 31028
+life_effect         : 600
+speed_effect        : 0
+phy_effect          : 60
+mag_effect          : 60
+phy_absorb          : 10
+mag_absorb          : 10
+tao_effect          : 350
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_forgotten    : 100
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+skills              : ({ "B4", "B5", "C4" })
+tactics             : "tactics_tiangang_zhenyan"

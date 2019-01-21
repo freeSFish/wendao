@@ -1,0 +1,1610 @@
+#FORM2
+
+[001]
+name: ¾«Ìú
+level: 6
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 150
+
+[002]
+name: Ë®Í­
+level: 6
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 150
+
+[003]
+name: ÷ëÄ¾
+level: 6
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 150
+
+[004]
+name: ĞşÊ¯
+level: 6
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 150
+
+[005]
+name: Ñ×Ê¯
+level: 6
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 150
+
+[006]
+name: ¾«Ìú
+level: 7
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 200
+
+[007]
+name: Ë®Í­
+level: 7
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 200
+
+[008]
+name: ÷ëÄ¾
+level: 7
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 200
+
+[009]
+name: ĞşÊ¯
+level: 7
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 200
+
+[010]
+name: Ñ×Ê¯
+level: 7
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 200
+
+[011]
+name: ¾«Ìú
+level: 8
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[012]
+name: Ë®Í­
+level: 8
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[013]
+name: ÷ëÄ¾
+level: 8
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[014]
+name: ĞşÊ¯
+level: 8
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[015]
+name: Ñ×Ê¯
+level: 8
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[016]
+name: ¾«Ìú
+level: 9
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[017]
+name: Ë®Í­
+level: 9
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[018]
+name: ÷ëÄ¾
+level: 9
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[019]
+name: ĞşÊ¯
+level: 9
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[020]
+name: Ñ×Ê¯
+level: 9
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 250
+
+[021]
+name: ¾«Ìú
+level: 10
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 300
+
+[022]
+name: Ë®Í­
+level: 10
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 300
+
+[023]
+name: ÷ëÄ¾
+level: 10
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 300
+
+[024]
+name: ĞşÊ¯
+level: 10
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 300
+
+[025]
+name: Ñ×Ê¯
+level: 10
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 300
+
+[026]
+name: ¾«Ìú
+level: 11
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[027]
+name: Ë®Í­
+level: 11
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[028]
+name: ÷ëÄ¾
+level: 11
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[029]
+name: ĞşÊ¯
+level: 11
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[030]
+name: Ñ×Ê¯
+level: 11
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[031]
+name: ¾«Ìú
+level: 12
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[032]
+name: Ë®Í­
+level: 12
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[033]
+name: ÷ëÄ¾
+level: 12
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[034]
+name: ĞşÊ¯
+level: 12
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[035]
+name: Ñ×Ê¯
+level: 12
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 350
+
+[036]
+name: ¾«Ìú
+level: 13
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 400
+
+[037]
+name: Ë®Í­
+level: 13
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 400
+
+[038]
+name: ÷ëÄ¾
+level: 13
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 400
+
+[039]
+name: ĞşÊ¯
+level: 13
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 400
+
+[040]
+name: Ñ×Ê¯
+level: 13
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 400
+
+[041]
+name: ¾«Ìú
+level: 14
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 450
+
+[042]
+name: Ë®Í­
+level: 14
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 450
+
+[043]
+name: ÷ëÄ¾
+level: 14
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 450
+
+[044]
+name: ĞşÊ¯
+level: 14
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 450
+
+[045]
+name: Ñ×Ê¯
+level: 14
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 450
+
+[046]
+name : ±©ÓêÀæ»¨Ç¹
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[047]
+name : ÓÄÚ¤¹í×¦
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[048]
+name : ×·»ê½£
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[049]
+name : Á÷ÔÆÉÈ
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[050]
+name : »Î½ğ´¸
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[051]
+name : âÒ¶¡½âÅ£µ¶
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[052]
+name : ÌúÉÈÁ¬»·È­Ì×
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[053]
+name : Çà»¨ÎŞË«êª
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[054]
+name : »ğÑæ¹­
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[055]
+name : ôä´äË«ÈĞ
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[056]
+name : ÔÆÁúÇ¹
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[057]
+name : ÊÉ»êÄ§×¦
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[058]
+name : ¾ÅÀè½£
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[059]
+name : ±ÎÈÕÉÈ
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[060]
+name : º³µØ´¸
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[061]
+name : ±ùÑ©²ĞÔÂµ¶
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[062]
+name : ´Ì¹ÇĞşÚ¤È­Ì×
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[063]
+name : Ğ°Áé¾ø¹³
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[064]
+name : ÎŞÓ°¹­
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[065]
+name : ĞşÚ¤º®±ù¸«
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[066]
+name : ÔÌÀ×Ç¹
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[067]
+name : ·÷À¼Ö¸
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[068]
+name : ĞùÔ¯½£
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[069]
+name : Ç¬À¤ÉÈ
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[070]
+name : ÆÆÌì´¸
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[071]
+name : ÉñÄ§»ÃÓ°µ¶
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[072]
+name : ÒõÑô°ËØÔÈ­Ì×
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[073]
+name : ÎŞÏà¶Ï»êêª
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[074]
+name : ÕğÌì¹­
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[075]
+name : Çà¹âËéÁé¸«
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[076]
+name : ·ç»ğÓÎÁúÇ¹
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[077]
+name : ÌäÑª×¦
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[078]
+name : ÒÒÄ¾Éñ½£
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[079]
+name : Îå²ÊÉñÑæÉÈ
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[080]
+name : ¼Ó³ÖèÆ
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[081]
+name : Ç¬À¤ÈÕÔÂµ¶
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[082]
+name : ÕÚÌì½µÄ§È­Ì×
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[083]
+name : Â¾ÏÉË«¹³
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[084]
+name : ÁúÉà¶Ï»ê¹­
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[085]
+name : ¹í÷È²ĞÓ°¸«
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[086]
+name : ¾Å×ª½ğ¸ÕÈĞ
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[087]
+name : ÆßÇÉÁáçç×¦
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[088]
+name : ×ÏÇàĞşÄ§½£
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[089]
+name : Àë»ğÆßôáÉÈ
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[090]
+name : Á¶Óü÷è÷ëèÆ
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[091]
+name : ³ÁºçÁ¬Õ¶µ¶
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[092]
+name : ¹í²Ø¾ªºèÈ­Ì×
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[093]
+name : ÍÀÄ§×··çêª
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[094]
+name : ×·»êÊÈÆÇ¹­
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[095]
+name : ÁÒÑæ·ïÍ·¸«
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[096]
+name : »ìÔªÕ¶Áúêª
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[097]
+name : Õò»êÉãÌì´Ì
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[098]
+name : ·âÉñÖïÏÉ½£
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[099]
+name : ³àÏöÁÒÑæÉÈ
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[100]
+name : ·çÀ×ÈçÒâèÆ
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[101]
+name : ÒøÁúËøÔÂµ¶
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[102]
+name : ¹ÂĞÇÁ÷»êÈ­Ì×
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[103]
+name : ÊŞÁéÍÌÈÕ¹³
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[104]
+name : ĞùÔ¯·ÉÓğ¹­
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[105]
+name : À¶±¦Ğı·ç¸«
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[106]
+name : ³àÑÛÉñÁúÇ¹
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[107]
+name : ºìç±»ğ¶¾×¦
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[108]
+name : ¾ÅÌìĞşÚ¤½£
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[109]
+name : ºìÔÆ»ğÏ¼ÉÈ
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[110]
+name : Ğş»ÆÆÆ¼á´¸
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[111]
+name : ÈıÃç¾ÅŞ¼µ¶
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[112]
+name : Õğ±ÛÂŞÉ²È­Ì×
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[113]
+name : òÔÁú·­Ììêª
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[114]
+name : ÂäÈÕ±ÕÔÂ¹­
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[115]
+name : ·ÉÁúÆÆÌì¸«
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[116]
+name : ¾ÅÌìÏéÔÆêª
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[117]
+name : ¾ÅÓÄ·üÄ§×¦
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[118]
+name : ³à÷Ê¶İÁú½£
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[119]
+name : ìÚÑæÍ¨ÁéÉÈ
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[120]
+name : ĞşÌì»ğÁú´¸
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[121]
+name : ºé»Ä²ÔÁúµ¶
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[122]
+name : ÁÒÑæÖ®ĞÄÈ­Ì×
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[123]
+name : ¹íÉñÁÒË«¹³
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[124]
+name : Á÷ÔÂ·ÉĞÇ¹­
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[125]
+name : ÁÒÑæÍÀÄ§¸«
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[126]
+name : ³à·âÏÀµ¨êª
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[127]
+name : ´Ì¹Ç×·»ê×¦
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[128]
+name : ¾ÛÁéÉñ·ç½£
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[129]
+name : ½µÄ§ÖïÓîÉÈ
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[130]
+name : ËÄº£ÕòÌì´¸
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[131]
+name : ·ïÎèÃÎ÷Êµ¶
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[132]
+name : ÎåÁéµ¥·ûÈ­Ì×
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[133]
+name : º®±ùÏİµØêª
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[134]
+name : òÔÁúĞşÌú¹­
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[135]
+name : Â¾¹í¼ÀÌì¸«
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[136]
+name : Ç¬À¤¹Ú
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[137]
+name : ÓãÎ²¹Ú
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[138]
+name : Áú¹Ú
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[139]
+name : ·ï¹Ú
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[140]
+name : ó´Áú¹Ú
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[141]
+name : ½ğÏ¼¹Ú
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[142]
+name : ¾ÅÏöÁÒÑæ¹Ú
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[143]
+name : ĞÇÒ«¹Ú
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[144]
+name : Áè²¨Ï¼¹Ú
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[145]
+name : ÆßĞÇ±¦¹Ú
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[146]
+name : ÌìÁé±¦¹Ú
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[147]
+name : °×ÓñĞÇ¹Ú
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[148]
+name : ¾Å²ÊÁáÖé¹Ú
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[149]
+name : Ë«ÒíÁéèÉ¹Ú
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[150]
+name : ³àğ½ôáÓğ¹Ú
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[151]
+name : İ¼÷ë±¦¹Ú
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[152]
+name : ½ğÒíÁú¹Ú
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[153]
+name : °ËØÔÒÂ
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[154]
+name : ºüÆ¤°À
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[155]
+name : Á¬»·¼×
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[156]
+name : òÔÆ¤°À
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[157]
+name : ½ğÂÆÒÂ
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[158]
+name : Ìì²ÏÒÂ
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[159]
+name : ÌìÒÂ
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[160]
+name : ÄŞÉÑÓğÒÂ
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[161]
+name : å«Óî·¨ÅÛ
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[162]
+name : ĞÇ¾§·¨ÒÂ
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[163]
+name : ÖîÌì·¨ÅÛ
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[164]
+name : Éñğ°·ïôÃ
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[165]
+name : ÌìĞşÕæÉñ¼×
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[166]
+name : ÍòÏ¼ÄŞÂŞÉÑ
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[167]
+name : ³à½ğÅÍÁú¼×
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[168]
+name : ĞşÅ®ç­ç¯ÒÂ
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[169]
+name : ·ïÒíÇáôÃ
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[170]
+name : ×Ï½ğÉñ·ç¼×
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[171]
+name : ¼²·çÂÄ
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[172]
+name : ÎŞÓ°Ñ¥
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[173]
+name : ÌìĞĞÂÄ
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[174]
+name : Ì¤ÔÆÑ¥
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[175]
+name : Óù·çÂÄ
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[176]
+name : ¾ûÌìÂÄ
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[177]
+name : À×»¡ÉÁ
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[178]
+name : ¾ªºçÕ½Ñ¥
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[179]
+name : É·Ó°ÂÄ
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[180]
+name: ¾«Ìú
+level: 15
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 500
+
+[181]
+name: Ë®Í­
+level: 15
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 500
+
+[182]
+name: ÷ëÄ¾
+level: 15
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 500
+
+[183]
+name: ĞşÊ¯
+level: 15
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 500
+
+[184]
+name: Ñ×Ê¯
+level: 15
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 500
+
+[185]
+name : ´óÒ¶½ğÈ¦
+type : 2
+cost : 150
+limit_num : 10
+give_num : 1
+
+[186]
+name : ·ÉÁúÈ¦
+type : 2
+cost : 200
+limit_num : 10
+give_num : 1
+
+[187]
+name : ·ïÎèÈ¦
+type : 2
+cost : 250
+limit_num : 10
+give_num : 1
+
+[188]
+name : °Ë±¦Ò¶È¦
+type : 2
+cost : 300
+limit_num : 10
+give_num : 1
+
+[189]
+name : ÓãÆ¤±¦¼×È¦
+type : 2
+cost : 350
+limit_num : 10
+give_num : 1
+
+[190]
+name : ÆßĞÇ¶î×Ó´ø
+type : 2
+cost : 400
+limit_num : 10
+give_num : 1
+
+[191]
+name : Èı²æÅÌÖéÈ¦
+type : 2
+cost : 450
+limit_num : 10
+give_num : 1
+
+[192]
+name : ×Ï½ğ°Ë²æ´ø
+type : 2
+cost : 500
+limit_num : 10
+give_num : 1
+
+[193]
+name : ¾ÅÍÌ°ËÕ§´ø
+type : 2
+cost : 550
+limit_num : 10
+give_num : 1
+
+[194]
+name: ¾«Ìú
+level: 16
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 550
+
+[195]
+name: Ë®Í­
+level: 16
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 550
+
+[196]
+name: ÷ëÄ¾
+level: 16
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 550
+
+[197]
+name: ĞşÊ¯
+level: 16
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 550
+
+[198]
+name: Ñ×Ê¯
+level: 16
+color : ½ğÉ«
+type : 1
+limit_num : 100
+give_num : 1
+cost: 550
+
+[199]
+name : Ìì´Íºè¸£Ç¹
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[200]
+name : ³àÄ¿×¶ĞÄ×¦
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[201]
+name : ÒĞÌìĞşËª½£
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[202]
+name : ÓÄÚ¤ÌìÊ¹ÉÈ
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[203]
+name : ¾ÅÌìÁ¶Óü´¸
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[204]
+name : ÍÀÁúĞıÓÄµ¶
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[205]
+name : É·ÏÉ·âÄ§È­Ì×
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[206]
+name : ĞşÓÄ·ïÎèêª
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[207]
+name : Ğ°ÁúÃğÊÀ¹­
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[208]
+name : ºÚ°µ»ğ·ï¸«
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[209]
+name : ÓñÇåÏÉ¹Ú
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[210]
+name : Ì«ÇåĞş¹Ú
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[211]
+name : ÑÌÂŞ×ÏÇáç¯
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[212]
+name : Îå·½ÒøÁúîø
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[213]
+name : ¾ÅÌì»ÃÓ°
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+
+[214]
+name : ±¼Òİ¾ø³¾Ñ¥
+type : 2
+cost : 600
+limit_num : 10
+give_num : 1
+

@@ -1,0 +1,5 @@
+#名称
+key_name, name, file_id, bonus_goods
+#兔子（特殊怪）,      兔子,  "tuzi",    "medicine/zhixuecao"
+#松鼠（特殊怪）,      松鼠,  "songshu", "medicine/yiyecao"
+

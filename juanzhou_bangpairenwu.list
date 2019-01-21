@@ -1,0 +1,34 @@
+#FORM2
+
+[任务卷轴·帮派任务]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P帮派总管#P完成一次#R帮派任务#n，完成帮派任务可以获得帮贡、道行、武学、金钱的奖励。"
+all_children : ({ "S1", "SX" })
+timeout_task : 1
+
+[S0]
+type : "null"
+item : "任务卷轴·帮派任务"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·帮派任务"
+log : "任务目标：找#P帮派总管#P完成一次#R帮派任务#n，完成帮派任务可以获得帮贡、道行、武学、金钱的奖励。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 120000"
+
+[SX]
+type : "null"

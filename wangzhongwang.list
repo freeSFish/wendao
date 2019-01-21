@@ -1,0 +1,229 @@
+#FORM2
+
+[001]
+name: 紫气鸿蒙
+num : 1
+price: 2080000
+
+[003]
+name: 特效仙风散
+num : 1
+price: 3280000
+
+[004]
+name: 超级仙风散
+num : 1
+price: 1080000
+
+[005]
+name: 宠风散
+num : 1
+price: 2160000
+
+[006]
+name: 特级八卦阴阳令
+num : 1
+price: 3280000
+
+[007]
+name: 惊妖铃
+num : 1
+price: 3280000
+
+[008]
+name: 急急如律令
+num : 1
+price: 3280000
+
+[010]
+name: 火眼金睛
+num : 1
+price: 2160000
+
+[011]
+name: 神木鼎
+num : 1
+price: 3280000
+
+[012]
+name: 老酒
+num : 1
+price: 500000
+
+[013]
+name: 自动摆摊卡
+num : 1
+price: 2160000
+
+[014]
+name: 强力驱魔香
+num : 1
+price: 1080000
+
+[015]
+name: 天神护佑
+num : 1
+price: 5180000
+
+[017]
+name: 飞行符
+num : 1
+price: 2160000
+
+[018]
+name: 风灵丸
+num : 1
+price: 4180000
+
+[019]
+name: 如意战斗令
+num : 1
+price: 2160000
+
+[020]
+name: 幻灵石
+num : 1
+price: 2160000
+
+[021]
+name: 幻境石
+num : 1
+price: 2160000
+
+[022]
+name: 天星石
+num : 1
+price: 7770000
+
+[023]
+name: 灵引咒
+num : 1
+price: 3240000
+
+[025]
+name: 超级女娲石
+num : 1
+price: 1500000
+
+[026]
+name: 炼魂丹
+num : 1
+price: 3280000
+
+[027]
+name: 宠物成长丹
+num : 1
+price: 5180000
+
+[028]
+name: 八卦神符
+num : 1
+price: 3280000
+
+[029]
+name: 天道神符
+num : 1
+price: 15000000
+
+[030]
+name: "混沌玉"
+num : 1
+price : 5180000
+
+[031]
+name: "符文宝石·羊脂玉"
+num : 1
+level : 2
+price : 3280000
+
+[032]
+name: "符文宝石·蓝玉髓"
+num : 1
+level : 2
+price : 3280000
+
+[033]
+name: "符文宝石·红玛瑙"
+num : 1
+level : 2
+price : 3280000
+
+[034]
+name: "符文宝石·黄龙石"
+num : 1
+level : 2
+price : 3280000
+
+[035]
+name: "符文宝石·祖母绿"
+num : 1
+level : 2
+price : 3280000
+
+[036]
+name: "符文宝石·紫袍玉"
+num : 1
+level : 2
+price : 3280000
+
+[037]
+name: "符文宝箱"
+num : 1
+price : 1080000
+
+[038]
+name: "水果卡"
+num : 1
+price : 500000
+
+[039]
+name: "鲜花卡"
+num : 1
+price : 500000
+
+[040]
+name: "心法宝典"
+num : 1
+price : 3280000
+
+[041]
+name: "材料箱"
+num : 1
+price : 500000
+
+[042]
+name: "五雷令"
+num : 1
+price : 3280000
+
+[043]
+name: "超级天书"
+num : 1
+price : 18000000
+
+[044]
+name : "修为丹"
+num : 1
+price : 3280000
+
+[045]
+name : "武器改造令"
+num : 1
+rebuild_level : 5
+price : 230000000
+
+[046]
+name : "防具改造令"
+num : 1
+rebuild_level : 5
+price : 90000000
+
+[047]
+name : "气象石"
+num : 1
+price : 10000000
+
+[048]
+name : "绫罗幻形镜"
+num : 1
+price : 20000000

@@ -1,0 +1,150 @@
+#FORM2
+
+[task_time]
+start_time : "2012-11-22-00:00:00"
+end_time   : "2012-11-25-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "感恩奖券活动正在火热进行中，活动时间#RSTART_TIME#n至#REND_TIME#n，各级奖品丰厚，特等奖为#R五行之神系列神兽#n，机不可失时不再来，大家快到#Z天墉城(212,187)#Z找#Y奖券大使#n购买奖券吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[无]
+name  : 无
+rate  : 6000
+bonus_rank : 5
+
+[包子]
+name  : 包子
+rate  : 14000
+bonus_rank : 4
+
+[拨浪鼓]
+name  : 拨浪鼓
+rate  : 14000
+bonus_rank : 4
+
+[超级仙风散]
+name  : 超级仙风散
+rate  : 14000
+bonus_rank : 4
+
+[超级归元露]
+name  : 超级归元露
+rate  : 1100
+bonus_rank : 4
+
+[超级黑水晶]
+name  : 超级黑水晶
+rate  : 1100
+bonus_rank : 4
+
+[特效仙风散]
+name  : 特效仙风散
+rate  : 1100
+bonus_rank : 4
+
+[特级八卦阴阳令]
+name  : 特级八卦阴阳令
+rate  : 1100
+bonus_rank : 4
+
+[九转仙灵露]
+name  : 九转仙灵露
+rate  : 700
+bonus_rank : 3
+
+[潜金散]
+name  : 潜金散
+rate  : 140
+bonus_rank : 3
+
+[神木丸]
+name  : 神木丸
+rate  : 140
+bonus_rank : 3
+
+[柔水丹]
+name  : 柔水丹
+rate  : 140
+bonus_rank : 3
+
+[烈火散]
+name  : 烈火散
+rate  : 140
+bonus_rank : 3
+
+[三土丸]
+name  : 三土丸
+rate  : 140
+bonus_rank : 3
+
+[超级女娲石]
+name  : 超级女娲石
+rate  : 700
+bonus_rank : 3
+
+[道具套餐卡]
+name  : 道具套餐卡
+rate  : 1000
+bonus_rank : 2
+
+[改头换面卡]
+name  : 改头换面卡
+rate  : 50
+bonus_rank : 2
+
+[花玉簪]
+name  : 花玉簪
+rate  : 1
+bonus_rank : 1
+bonus_type : "pet"
+charge_pet : 1
+special_skill : 0
+
+[桂花]
+name  : 桂花
+rate  : 1
+bonus_rank : 1
+bonus_type : "pet"
+charge_pet : 1
+special_skill : 0
+
+[莲花]
+name  : 莲花
+rate  : 1
+bonus_rank : 1
+bonus_type : "pet"
+charge_pet : 1
+special_skill : 0
+
+[月季]
+name  : 月季
+rate  : 1
+bonus_rank : 1
+bonus_type : "pet"
+charge_pet : 1
+special_skill : 0
+
+[茉莉]
+name  : 茉莉
+rate  : 1
+bonus_rank : 1
+bonus_type : "pet"
+charge_pet : 1
+special_skill : 0
+
+[神兽]
+name  : ({ 蓐收, 句芒, 玄冥, 祝融, 后土 })
+rate  : 1
+bonus_rank : 0
+max_num    : 3
+limit_no   : "01"
+bonus_type : "pet"
+charge_pet : 1
+special_skill : 0

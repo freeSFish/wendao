@@ -1,0 +1,196 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-01-14-18:00:00", "EVERY_HOUR(5)", "EVERY_DAY(1)", "2013-01-18-23:00:00" })
+
+[menu_time]
+start : "2013-01-14-00:00:00"
+end   : "2013-01-18-23:59:59"
+
+[end_duration]
+time : "2013-01-18-23:00:00"
+
+[lantern_pos]
+pos$ : ({ "天墉城",  67,  109, SOUTHEAST })
+pos$ : ({ "天墉城",  73,  105, SOUTHEAST })
+pos$ : ({ "天墉城",  213, 226, SOUTHEAST })
+pos$ : ({ "天墉城",  219, 222, SOUTHEAST })
+pos$ : ({ "天墉城",  288, 181, SOUTHEAST })
+pos$ : ({ "天墉城",  293, 178, SOUTHEAST })
+pos$ : ({ "天墉城",  255, 97,  SOUTHWEST })
+pos$ : ({ "天墉城",  260, 100, SOUTHWEST })
+pos$ : ({ "天墉城",  253, 237, SOUTHWEST })
+pos$ : ({ "天墉城",  258, 239, SOUTHWEST })
+pos$ : ({ "天墉城",  286, 254, SOUTHWEST })
+pos$ : ({ "天墉城",  291, 256, SOUTHWEST })
+pos$ : ({ "天墉城",  302, 158, SOUTHEAST })
+pos$ : ({ "天墉城",  307, 156, SOUTHEAST })
+pos$ : ({ "天墉城",  334, 73,  SOUTHWEST })
+pos$ : ({ "天墉城",  340, 76,  SOUTHWEST })
+pos$ : ({ "天墉城",  239, 100, SOUTHEAST })
+pos$ : ({ "天墉城",  242, 99,  SOUTHEAST })
+pos$ : ({ "天墉城",  224, 102, SOUTHWEST })
+pos$ : ({ "天墉城",  229, 104, SOUTHWEST })
+pos$ : ({ "天墉城",  131, 133, SOUTHWEST })
+pos$ : ({ "天墉城",  137, 136, SOUTHWEST })
+pos$ : ({ "天墉城",  30,  88,  SOUTHEAST })
+pos$ : ({ "天墉城",  35,  86,  SOUTHEAST })
+pos$ : ({ "天墉城",  63,  219, SOUTHEAST })
+pos$ : ({ "天墉城",  73,  215, SOUTHEAST })
+pos$ : ({ "天墉城",  111, 229, SOUTHWEST })
+pos$ : ({ "天墉城",  120, 233, SOUTHWEST })
+pos$ : ({ "天墉城",  258, 37,  SOUTHWEST })
+pos$ : ({ "天墉城",  268, 42,  SOUTHWEST })
+pos$ : ({ "揽仙镇", 221, 97,  SOUTHWEST })
+pos$ : ({ "揽仙镇", 225, 99,  SOUTHWEST })
+pos$ : ({ "揽仙镇", 252, 122, SOUTHWEST })
+pos$ : ({ "揽仙镇", 257, 125, SOUTHWEST })
+pos$ : ({ "揽仙镇", 323, 78,  SOUTHWEST })
+pos$ : ({ "揽仙镇", 332, 82,  SOUTHWEST })
+pos$ : ({ "揽仙镇", 191, 184, SOUTHEAST })
+pos$ : ({ "揽仙镇", 195, 182, SOUTHEAST })
+pos$ : ({ "揽仙镇", 157, 158, SOUTHWEST })
+pos$ : ({ "揽仙镇", 160, 159, SOUTHWEST })
+pos$ : ({ "揽仙镇", 116, 124, SOUTHWEST })
+pos$ : ({ "揽仙镇", 120, 126, SOUTHWEST })
+pos$ : ({ "揽仙镇", 171, 117, SOUTHWEST })
+pos$ : ({ "揽仙镇", 175, 119, SOUTHWEST })
+pos$ : ({ "揽仙镇", 137, 61,  SOUTHEAST })
+pos$ : ({ "揽仙镇", 146, 56,  SOUTHEAST })
+pos$ : ({ "揽仙镇", 254, 44,  SOUTHWEST })
+pos$ : ({ "揽仙镇", 259, 47,  SOUTHWEST })
+pos$ : ({ "东海渔村", 111, 50,  SOUTHWEST })
+pos$ : ({ "东海渔村", 108, 48,  SOUTHWEST })
+pos$ : ({ "东海渔村", 23,  95,  SOUTHEAST })
+pos$ : ({ "东海渔村", 28,  92,  SOUTHEAST })
+pos$ : ({ "东海渔村", 35,  163, SOUTHEAST })
+pos$ : ({ "东海渔村", 39,  161, SOUTHEAST })
+pos$ : ({ "东海渔村", 92,  195, SOUTHEAST })
+pos$ : ({ "东海渔村", 96,  194, SOUTHEAST })
+pos$ : ({ "东海渔村", 151, 177, SOUTHWEST })
+pos$ : ({ "东海渔村", 155, 179, SOUTHWEST })
+pos$ : ({ "东海渔村", 173, 140, SOUTHWEST })
+pos$ : ({ "东海渔村", 180, 144, SOUTHWEST })
+pos$ : ({ "东海渔村", 136, 100, SOUTHWEST })
+pos$ : ({ "东海渔村", 133, 98,  SOUTHWEST })
+pos$ : ({ "东海渔村", 198, 76,  SOUTHWEST })
+pos$ : ({ "东海渔村", 206, 80,  SOUTHWEST })
+pos$ : ({ "东海渔村", 174, 21,  SOUTHWEST })
+pos$ : ({ "东海渔村", 167, 17,  SOUTHWEST })
+pos$ : ({ "无名小镇", 118, 31,  SOUTHWEST })
+pos$ : ({ "无名小镇", 113, 28,  SOUTHWEST })
+pos$ : ({ "无名小镇", 67,  27,  SOUTHEAST })
+pos$ : ({ "无名小镇", 62,  29,  SOUTHEAST })
+pos$ : ({ "无名小镇", 139, 64,  SOUTHWEST })
+pos$ : ({ "无名小镇", 144, 66,  SOUTHWEST })
+pos$ : ({ "无名小镇", 134, 97,  SOUTHWEST })
+pos$ : ({ "无名小镇", 142, 100, SOUTHWEST })
+pos$ : ({ "无名小镇", 139, 139, SOUTHWEST })
+pos$ : ({ "无名小镇", 147, 143, SOUTHWEST })
+pos$ : ({ "无名小镇", 104, 122, SOUTHEAST })
+pos$ : ({ "无名小镇", 111, 120, SOUTHEAST })
+pos$ : ({ "无名小镇", 126, 164, SOUTHWEST })
+pos$ : ({ "无名小镇", 133, 168, SOUTHWEST })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "start_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【迎新年】万家灯火#n活动开始了，大家快去#P活动大使#P处领取点亮灯笼的任务吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【迎新年】万家灯火#n活动正在火热进行中，大家快去#P活动大使#P处领取任务，把各地的灯笼都点亮起来吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【迎新年】万家灯火#n活动结束啦，在大家的共同努力下各地的灯笼都被点亮了！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[主怪1]
+random_icons      : ({ 6205, 6204 })
+name              : 带头小妖
+phy_absorb        : 20
+mag_absorb        : 20
+speed_effect      : 3000
+tao_effect        : 350
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+penetrate_rate    : 40
+penetrate         : 50
+low_l_sk          : ({ "B2", "B4", "B3", "D3" })
+hig_l_sk          : ({ "B2", "B4", "B5", "D5" })
+
+[主怪2]
+random_icons      : ({ 6257, 6259 })
+name              : 带头小妖
+phy_absorb        : 20
+mag_absorb        : 20
+speed_effect      : 3000
+tao_effect        : 350
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+penetrate_rate    : 40
+penetrate         : 50
+low_l_sk          : ({ "lipo-qianjun", "D3" })
+hig_l_sk          : ({ "lipo-qianjun", "D5" })
+
+[捣乱小妖]
+random_icons      : ({ 6175, 6174 })
+name              : 捣乱小妖
+phy_absorb        : 20
+mag_absorb        : 20
+phy_effect        : 100
+mag_effect        : 80
+speed_effect      : 30
+tao_effect        : 100
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+penetrate_rate    : 40
+penetrate         : 50
+low_l_sk          : ({ "B2", "B4", "B3", "lipo-qianjun" })
+hig_l_sk          : ({ "B2", "B4", "B5", "lipo-qianjun" })
+
+[浑水摸鱼的小贼]
+name              : 浑水摸鱼的小贼
+icon              : 6213
+portrait          : 6213
+phy_absorb        : 100
+mag_absorb        : 100
+phy_effect        : 400
+mag_effect        : 400
+speed_effect      : 30
+tao_effect        : 1500
+resist_forgotten  : 75
+resist_poison     : 75
+resist_frozen     : 75
+resist_sleep      : 75
+resist_confusion  : 75
+accurate          : 100
+stunt_rate        : 50
+low_l_sk          : ({ "C4", "B3", "lipo-qianjun" })
+hig_l_sk          : ({ "C4", "B5", "lipo-qianjun" })

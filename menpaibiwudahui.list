@@ -1,0 +1,97 @@
+#FORM2
+
+[setting]
+back : ({ 374, 158 })
+go   : ({ 101, 76, 15  })
+
+[match_list]
+match$: 金系
+match$: 木系
+match$: 水系
+match$: 火系
+match$: 土系
+
+[family_name]
+金系 : 五龙山云霄洞
+木系 : 终南山玉柱洞
+水系 : 凤凰山斗阙宫
+火系 : 乾元山金光洞
+土系 : 骷髅山白骨洞
+
+#broadcast:             比赛开始广播到开始报名的间隔时间（秒）
+#signup:                比赛开始报名到比赛开始的间隔时间（秒）
+#monster_rate:          怪物数量对参赛人数的比率（基于100）
+#initial_monster_rate:  初始怪物数量对参赛人数的比率（基于100）
+#player_minimum:        参赛的最小人数
+#start_time:            比赛开始时间
+#duration:              比赛的持续时间（秒）
+#broadcast_stop:        比赛结束前广播到比赛结束的间隔时间（秒）
+#title:                 获得比赛胜利后的头衔
+#step_rate:             走动遇怪系数（基于100）
+
+[金系]
+family                  : 五龙山云霄洞
+broadcast               : 1800
+signup                  : 600
+monster_rate            : 200
+initial_monster_rate    : 25
+player_minimum          : 20
+start_time$             : "周6-19:30:00"
+duration                : 10800
+broadcast_stop          : 600
+title                   : 金系王者
+step_rate               : 50
+
+
+
+[木系]
+family                  : 终南山玉柱洞
+broadcast               : 1800
+signup                  : 600
+monster_rate            : 200
+initial_monster_rate    : 25
+player_minimum          : 20
+start_time$             : "周6-19:30:00"
+duration                : 10800
+broadcast_stop          : 600
+title                   : 木系王者
+step_rate               : 50
+
+[水系]
+family                  : 凤凰山斗阙宫
+broadcast               : 1800
+signup                  : 600
+monster_rate            : 200
+initial_monster_rate    : 25
+player_minimum          : 20
+start_time$             : "周6-19:30:00"
+duration                : 10800
+broadcast_stop          : 600
+title                   : 水系王者
+step_rate               : 50
+
+[火系]
+family                  : 乾元山金光洞
+broadcast               : 1800
+signup                  : 600
+monster_rate            : 200
+initial_monster_rate    : 25
+player_minimum          : 20
+start_time$             : "周6-19:30:00"
+duration                : 10800
+broadcast_stop          : 600
+title                   : 火系王者
+step_rate               : 50
+
+[土系]
+family                  : 骷髅山白骨洞
+broadcast               : 1800
+signup                  : 600
+monster_rate            : 200
+initial_monster_rate    : 25
+player_minimum          : 20
+start_time$             : "周6-19:30:00"
+duration                : 10800
+broadcast_stop          : 600
+title                   : 土系王者
+step_rate               : 50

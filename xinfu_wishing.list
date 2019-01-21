@@ -1,0 +1,56 @@
+#FORM2
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2013-10-31-00:00:00", "EVERY_DAY(17)", "EVERY_WEEK(0)", "2013-11-16-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "start_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 7200
+broadcast_end   : "end_time(-60)"
+message         : "新服特惠，#P元宝商人#P许愿活动开始了，大家快来参与吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+60)"
+message         : "新服特惠，#P元宝商人#P许愿活动结束了，感谢大家的参与。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+#奖励配置
+[bonus_set]
+bonus$ : "至尊太极熊"
+bonus$ : "巨骨刺"
+bonus$ : "北极熊"
+bonus$ : "雅尘狐"
+bonus$ : "盘古猿"
+bonus$ : "牛头狱卒"
+bonus$ : "神兽精魄"
+bonus$ : "变异精魄"
+bonus$ : "星图卷轴·霸下"
+bonus$ : "星图卷轴·蒲牢"
+bonus$ : "星图卷轴·嘲风"
+bonus$ : "星图卷轴·囚牛"
+bonus$ : "骑宠魂兽石"
+bonus$ : "如意圈秘笈"
+bonus$ : "乾坤罩秘笈"
+bonus$ : "神龙罩秘笈"
+bonus$ : "神圣之光秘笈"
+bonus$ : "游说之舌秘笈"
+bonus$ : "漫天血舞秘笈"
+bonus$ : "如意战斗令"
+bonus$ : "秘笈·随机属性"
+bonus$ : "超级粉水晶"
+bonus$ : "超级女娲石"
+bonus$ : "80级满属性黑水晶"
+bonus$ : "90级满属性黑水晶"
+bonus$ : "100级满属性黑水晶"
+bonus$ : "110级满属性黑水晶"
+bonus$ : "120级满属性黑水晶"
+bonus$ : "130级满属性黑水晶"
+bonus$ : "140级满属性黑水晶"
+bonus$ : "150级满属性黑水晶"

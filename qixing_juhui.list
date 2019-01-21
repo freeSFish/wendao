@@ -1,0 +1,1536 @@
+#FORM2
+
+[attack_zu_che]
+name                  : "車"
+icon                  : 31118
+portrait              : 31118
+polar                 : -1
+religion              : -1
+life_effect           : "level * 70 + level / 4 * 230"
+mag_effect            : "level * 3.2 * difficulty * 0.7"
+phy_effect            : "level * 3.2 * difficulty * 0.7"
+accurate              : 200
+stunt_rate            : 50
+double_hit_rate       : 50
+mstunt_rate           : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "550 + level / 10 * 30"
+speed_effect          : "500 + level / 10 * 20"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "B1", "B2", "B3", "B4", "lipo-qianjun", "youshui-zhishe", "shensheng-zhiguang" })
+family_skills         : ({ "C4" })
+super_boss_skills     : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+artifact              : ({ "jinjiaojian", 20, "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics               : "tactice_attack_zu_monster_che"
+
+[attack_zu_pao]
+name                  : "砲"
+icon                  : 31122
+portrait              : 31122
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) / 2"
+mag_effect            : "level * 3.2 * difficulty * 0.7 * 1.4"
+phy_effect            : "level * 3.2 * difficulty * 0.7 * 1.4"
+accurate              : 200
+stunt_rate            : 50
+double_hit_rate       : 50
+mstunt_rate           : 100
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+tao_effect            : "500 + level / 10 * 30"
+speed_effect          : "50 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+family_skills         : ({ "B1", "B2", "B3", "B4" })
+artifact              : ({ "fantianyin", 18, "yinyangjing", 20 })
+tactics               : "tactice_attack_zu_monster_pao"
+
+[attack_zu_ma]
+name                : "馬"
+icon                : 31119
+portrait            : 31119
+polar               : 0
+religion            : -1
+life_effect         : "level * 60 + level / 4 * 200"
+mag_effect          : "level * 3.2 * difficulty * 0.7"
+phy_effect          : "level * 3.2 * difficulty * 0.7"
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+mstunt_rate         : 50
+penetrate_rate      : ({ 40, 99 })
+penetrate           : ({ 40, 99 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "500 + level / 10 * 30"
+speed_effect        : "150 + level / 10 * 20"
+modify_attrib       : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "liwan-kuanglan", "wuse-guanghuan", "qiankun-zhao", "siwang-chanmian", "daofa-wubian" })
+artifact            : ({ "yinyangjing", 20 })
+tactics             : "tactice_attack_zu_monster_ma"
+
+[attack_zu_zu]
+name                  : "卒"
+icon                  : 31123
+portrait              : 31123
+life_effect           : "level * 60 + level / 4 * 200"
+mag_effect            : "level * 3.2 * difficulty * 0.7"
+phy_effect            : "level * 3.2 * difficulty * 0.7"
+mstunt_rate           : 100
+accurate              : 200
+stunt_rate            : 50
+double_hit_rate       : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "500 + level / 10 * 30"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+artifact              : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics               : "tactice_attack_zu_monster_zu"
+
+[defense_bing_che]
+name                : "俥"
+icon                : 31112
+portrait            : 31112
+polar               : -1
+religion            : -1
+life_effect         : "level * 70 + level / 4 * 230"
+mag_effect          : "level * 3.2 * difficulty * 0.7"
+phy_effect          : "level * 3.2 * difficulty * 0.7"
+phy_absorb          : ({ -20, -10 })
+mag_absorb          : ({ -20, -10 })
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+mstunt_rate         : 50
+damage_sel          : ({ 40, 79 })
+damage_sel_rate     : ({ 40, 79 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "550 + level / 10 * 30"
+speed_effect        : "500 + level / 10 * 20"
+modify_attrib       : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "damage_sel", "damage_sel_rate", "phy_absorb", "mag_absorb" })
+skills              : ({ "B4", "lipo-qianjun", "youshui-zhishe", "shensheng-zhiguang" })
+family_skills       : ({ "C4" })
+super_boss_skills   : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+artifact$           : ({ "dinghaizhu", 12, "hunyuan-jindou", 20, "jinjiaojian", 20 })
+artifact$           : ({ "yinyangjing", 12, "hunyuan-jindou", 20, "jinjiaojian", 20 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_bing_monster_che"
+
+[defense_bing_pao]
+name                : "炮"
+icon                : 31115
+portrait            : 31115
+polar               : 0
+religion            : -1
+life_effect         : "(level * 60 + level / 4 * 230) / 2"
+mag_effect          : "level * 3.2 * difficulty * 0.7"
+phy_effect          : "level * 3.2 * difficulty * 0.7"
+phy_absorb          : ({ -20, -10 })
+mag_absorb          : ({ -20, -10 })
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+mstunt_rate         : 100
+penetrate           : ({ 30, 69 })
+penetrate_rate      : ({ 30, 69 })
+damage_sel          : ({ 40, 79 })
+damage_sel_rate     : ({ 40, 79 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 180
+resist_forgotten    : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 180
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+tao_effect          : "500 + level / 10 * 30"
+speed_effect        : "50 + level / 10 * 10"
+modify_attrib       : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "damage_sel", "damage_sel_rate", "penetrate", "penetrate_rate", "phy_absorb", "mag_absorb" })
+family_skills       : ({ "B1", "B2", "B3", "B4" })
+artifact$           : ({ "dinghaizhu", 12, "fantianyin", 20 })
+artifact$           : ({ "yinyangjing", 12, "fantianyin", 20 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_bing_monster_pao"
+
+[defense_bing_ma]
+name                : "傌"
+icon                : 31113
+portrait            : 31113
+polar               : 0
+religion            : -1
+life_effect         : "level * 60 + level / 4 * 230"
+mag_effect          : "level * 2.4 * difficulty * 0.7"
+phy_effect          : "level * 2.4 * difficulty * 0.7"
+phy_absorb          : ({ -20, -10 })
+mag_absorb          : ({ -20, -10 })
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+mstunt_rate         : 50
+damage_sel          : ({ 40, 79 })
+damage_sel_rate     : ({ 40, 79 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "500 + level / 10 * 30"
+speed_effect        : "150 + level / 10 * 20"
+modify_attrib       : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "damage_sel", "damage_sel_rate", "phy_absorb", "mag_absorb" })
+skills              : ({ "tiandi-hunyuan", "qiankun-zhao", "ruyi-quan", "honghua-lvye", "daofa-wubian" })
+artifact$           : ({ "dinghaizhu", 12 })
+artifact$           : ({ "yinyangjing", 12 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_bing_monster_ma"
+
+[defense_bing_bing]
+name                : "兵"
+icon                : 31116
+portrait            : 31116
+religion            : -1
+life_effect         : "level * 60 + level / 4 * 230"
+mag_effect          : "level * 2.4 * difficulty * 0.7"
+phy_effect          : "level * 2.4 * difficulty * 0.7"
+phy_absorb          : ({ -20, -10 })
+mag_absorb          : ({ -20, -10 })
+mstunt_rate         : 100
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+damage_sel          : ({ 40, 79 })
+damage_sel_rate     : ({ 40, 79 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "500 + level / 10 * 30"
+modify_attrib       : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect" })
+random_attrib       : ({ "damage_sel", "damage_sel_rate", "phy_absorb", "mag_absorb" })
+skills              : ({ "B5", "lipo-qianjun" })
+artifact$           : ({ "dinghaizhu", 12 })
+artifact$           : ({ "yinyangjing", 12 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_bing_monster_bing"
+
+[attack_pao_zu]
+name                  : "卒"
+icon                  : 31123
+portrait              : 31123
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 50 / 2 + level / 5 * 200 / 2) * 1.4"
+mag_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+phy_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+accurate              : 200
+stunt_rate            : 100
+double_hit_rate       : 100
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+damage_sel_rate       : ({ 30, 49 })
+damage_sel            : 100
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+tao_effect            : "800 + level / 10 * 30"
+speed_effect          : "50 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate", "damage_sel_rate" })
+skills                : ({ "lipo-qianjun" })
+artifact              : ({ "hunyuan-jindou", 22 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+god_book_skills       : ({ "fanji" })
+god_book_skill_levels : ({ 349 })
+tactics               : "tactice_attack_pao_monster_zu"
+
+[attack_pao_che]
+name                  : "車"
+icon                  : 31118
+portrait              : 31118
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 50 / 2 + level / 5 * 200 / 2) * 1.4"
+mag_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+phy_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+mag_absorb            : -10
+phy_absorb            : -10
+accurate              : 200
+mstunt_rate           : 80
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+tao_effect            : "850 + level / 10 * 30"
+speed_effect          : "50 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+family_skills         : ({ "B1", "B2", "B3", "B4" })
+artifact              : ({ "fantianyin", 22 })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 349 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_pao_monster_che"
+
+[attack_pao_pao]
+name                  : "砲"
+icon                  : 31122
+portrait              : 31122
+polar                 : -1
+religion              : -1
+life_effect           : "(level * 50 / 2 + level / 5 * 200 / 2) * 1.4"
+mag_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+phy_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+phy_absorb            : -10
+mag_absorb            : -10
+accurate              : 200
+stunt_rate            : 50
+mstunt_rate           : 50
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "1050 + level / 10 * 30"
+speed_effect          : 0
+modify_attrib         : ({ "life_effect", "tao_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+artifact              : ({ "fantianyin", 22, "hunyuan-jindou", 22 })
+super_boss_skills     : ({ "yaohuang-tiannu", "cixue-tianxuan", "tiansha-kuangfeng", "xuelian-diyu" })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 349 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_pao_monster_pao"
+
+[attack_pao_xiang]
+name                  : "象"
+icon                  : 31120
+portrait              : 31120
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 50 / 2 + level / 5 * 200 / 2) * 1.4"
+mag_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+phy_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+mag_absorb            : -100
+phy_absorb            : -100
+accurate              : 200
+stunt_rate            : 50
+double_hit_rate       : 50
+double_hit            : 2
+mstunt_rate           : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "1500 + level / 10 * 30"
+speed_effect          : "150 + level / 10 * 20"
+modify_attrib         : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "liwan-kuanglan", "tianding-sanhun", "wanyi-shixin", "wuse-guanghuan", "qiankun-zhao", "xiewei-shexian", "dishu-qipo", "honghua-lvye", "bishi-jiuxu" })
+family_skills         : ({ "B1", "B2", "B3", "B4" })
+artifact              : ({ "fantianyin", 22, "hunyuan-jindou", 22 })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 349 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_pao_monster_xiang"
+
+[attack_pao_ma]
+name                  : "馬"
+icon                  : 31119
+portrait              : 31119
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 50 / 2 + level / 5 * 200 / 2) * 1.4"
+mag_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+phy_effect            : "level * 3 * difficulty * 0.7 * 1.15"
+accurate              : 200
+stunt_rate            : 50
+double_hit_rate       : 50
+double_hit            : 2
+mstunt_rate           : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "850 + level / 10 * 30"
+speed_effect          : "1000 + level / 10 * 20"
+modify_attrib         : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "huaxian-weiyi", "wuse-guanghuan", "qiankun-zhao", "siwang-chanmian" })
+artifact              : ({ "hunyuan-jindou", 22, "fantianyin", 22, "dinghaizhu", 22 })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 349 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_pao_monster_ma"
+
+[defense_pao_bing]
+name                  : "兵"
+icon                  : 31116
+portrait              : 31116
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 60 / 2 + level / 5 * 200 / 2) * 1.5"
+mag_effect            : "level * 3 * difficulty * 0.5 * 1.15"
+phy_effect            : "level * 3 * difficulty * 0.5 * 1.15"
+accurate              : 200
+stunt_rate            : 100
+double_hit_rate       : 100
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+tao_effect            : "800 + level / 10 * 30"
+speed_effect          : "50 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "lipo-qianjun" })
+artifact$             : ({ "dinghaizhu", 14, "hunyuan-jindou", 22 })
+artifact$             : ({ "yinyangjing", 14, "hunyuan-jindou", 22 })
+random_arr_attrib     : ({ "artifact" })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 349 })
+tactics               : "tactice_defense_pao_monster_bing"
+
+[defense_pao_che]
+name                : "俥"
+icon                : 31112
+portrait            : 31112
+polar               : 0
+religion            : -1
+life_effect         : "(level * 60 / 2 + level / 5 * 200 / 2) * 1.5"
+mag_effect          : "(level * 3 * difficulty * 0.5) * 1.15"
+phy_effect          : "(level * 3 * difficulty * 0.5) * 1.15"
+mag_absorb          : -25
+phy_absorb          : -25
+accurate            : 200
+double_hit_rate     : 50
+double_hit          : 2
+mstunt_rate         : 80
+damage_sel_rate     : ({ 40, 79 })
+damage_sel          : ({ 40, 79 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 180
+resist_forgotten    : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 180
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+tao_effect          : "850 + level / 10 * 30"
+speed_effect        : "50 + level / 10 * 10"
+modify_attrib       : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib       : ({ "damage_sel_rate", "damage_sel" })
+family_skills       : ({ "B4" })
+artifact$           : ({ "dinghaizhu", 14 })
+artifact$           : ({ "yinyangjing", 14 })
+random_arr_attrib   : ({ "artifact" })
+yinlingfan_skill    : ({ "kexue-qishu", 288 })
+tactics             : "tactice_defense_pao_monster_che"
+
+[defense_pao_pao]
+name                : "炮"
+icon                : 31115
+portrait            : 31115
+polar               : -1
+religion            : -1
+life_effect         : "(level * 60 / 2 + level / 5 * 200 / 2) * 1.5"
+mag_effect          : "level * 3 * difficulty * 0.7 * 1.15"
+phy_effect          : "level * 3 * difficulty * 0.7 * 1.15"
+accurate            : 200
+stunt_rate          : 50
+mstunt_rate         : 50
+double_hit_rate     : 50
+double_hit          : 2
+penetrate_rate      : ({ 40, 99 })
+penetrate           : ({ 40, 99 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "1050 + level / 10 * 30"
+speed_effect        : 0
+modify_attrib       : ({ "life_effect", "tao_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "B5", "lipo-qianjun" })
+artifact$           : ({ "dinghaizhu", 14 })
+artifact$           : ({ "yinyangjing", 14 })
+random_arr_attrib   : ({ "artifact" })
+super_boss_skills     : ({ "yaohuang-tiannu", "cixue-tianxuan", "tiansha-kuangfeng", "xuelian-diyu" })
+yinlingfan_skill    : ({ "kexue-qishu", 288 })
+tactics             : "tactice_defense_pao_monster_pao"
+
+[defense_pao_xiang]
+name                : "相"
+icon                : 31114
+portrait            : 31114
+polar               : 0
+religion            : -1
+life_effect         : "(level * 60 / 2 + level / 5 * 200 / 2) * 1.5"
+mag_effect          : "level * 3 * difficulty * 0.5 * 1.15"
+phy_effect          : "level * 3 * difficulty * 0.5 * 1.15"
+mag_absorb          : -100
+phy_absorb          : -100
+accurate            : 200
+double_hit_rate     : 50
+double_hit          : 2
+stunt_rate          : 50
+mstunt_rate         : 50
+damage_sel_rate     : ({ 20, 39 })
+damage_sel          : ({ 10, 19 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "1500 + level / 10 * 30"
+speed_effect        : "150 + level / 10 * 20"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "damage_sel_rate", "damage_sel" })
+skills              : ({ "tianding-sanhun", "hunbu-futi", "wuse-guanghuan", "qiankun-zhao", "rumeng-chuxing", "jidi-binghan", "honghua-lvye", "tongqiang-tiebi", "wanyi-shixin" })
+family_skills       : ({ "B4" })
+artifact$           : ({ "dinghaizhu", 14 })
+artifact$           : ({ "yinyangjing", 14 })
+random_arr_attrib   : ({ "artifact" })
+yinlingfan_skill    : ({ "kexue-qishu", 288 })
+tactics             : "tactice_defense_pao_monster_xiang"
+
+[defense_pao_ma]
+name                : "傌"
+icon                : 31113
+portrait            : 31113
+polar               : 0
+religion            : -1
+life_effect         : "(level * 60 / 2 + level / 5 * 200 / 2) * 1.5"
+mag_effect          : "level * 3 * difficulty * 0.5 * 1.15"
+phy_effect          : "level * 3 * difficulty * 0.5 * 1.15"
+mag_absorb          : -25
+phy_absorb          : -25
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 50
+mstunt_rate         : 50
+damage_sel_rate     : ({ 30, 49 })
+damage_sel          : ({ 10, 29 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+tao_effect          : "850 + level / 10 * 30"
+speed_effect        : "1000 + level / 10 * 20"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "damage_sel_rate", "damage_sel" })
+skills              : ({ "tongqiang-tiebi", "wuse-guanghuan", "qiankun-zhao" })
+family_skills       : ({ "B5" })
+artifact$           : ({ "dinghaizhu", 14 })
+artifact$           : ({ "yinyangjing", 14 })
+random_arr_attrib   : ({ "artifact" })
+yinlingfan_skill    : ({ "kexue-qishu", 288 })
+tactics             : "tactice_defense_pao_monster_ma"
+
+[attack_ma_che]
+name                : "車"
+icon                : 31118
+portrait            : 31118
+life_effect         : "level * 60 + level / 4 * 200"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_absorb          : 0
+mag_absorb          : 0
+mstunt_rate         : 100
+accurate            : 300
+stunt_rate          : 100
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 220
+resist_forgotten    : 220
+resist_frozen       : 220
+resist_sleep        : 220
+resist_confusion    : 220
+resist_repress      : 220
+resist_melt         : 220
+resist_cage         : 220
+resist_lock         : 220
+resist_lost         : 220
+resist_metal        : 150
+resist_wood         : 150
+resist_water        : 150
+resist_fire         : 150
+resist_earth        : 150
+tao_effect          : "800 + level / 10 * 40"
+speed_effect        : "30 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+artifact            : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics             : "tactice_attack_ma_monster_che"
+
+[attack_ma_xiang]
+name                : "象"
+icon                : 31120
+portrait            : 31120
+polar               : -1
+religion            : -1
+life_effect         : "(level * 60 + level / 4 * 200) * 1.6"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_absorb          : 0
+mag_absorb          : 0
+accurate            : 300
+stunt_rate          : 50
+mstunt_rate         : 100
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 220
+resist_forgotten    : 220
+resist_frozen       : 220
+resist_sleep        : 220
+resist_confusion    : 220
+resist_repress      : 220
+resist_melt         : 220
+resist_cage         : 220
+resist_lock         : 220
+resist_lost         : 220
+resist_metal        : 150
+resist_wood         : 150
+resist_water        : 150
+resist_fire         : 150
+resist_earth        : 150
+tao_effect          : "800 + level / 10 * 40"
+speed_effect        : "50 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "shensheng-zhiguang", "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "liwan-kuanglan" })
+artifact            : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics             : "tactice_attack_ma_monster_xiang"
+
+[attack_ma_shi]
+name                : "士"
+icon                : 31121
+portrait            : 31121
+polar               : -1
+religion            : -1
+life_effect         : "(level * 60 + level / 4 * 200) * 2"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+accurate            : 300
+stunt_rate          : 50
+mstunt_rate         : 100
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 300
+resist_forgotten    : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+resist_metal        : 150
+resist_wood         : 150
+resist_water        : 150
+resist_fire         : 150
+resist_earth        : 150
+tao_effect          : "800 + level / 10 * 40"
+speed_effect        : "90 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "lipo-qianjun", "B1", "B2", "B3", "B4", "B5", "shuizhang-chuangao" })
+family_skills       : ({ "C5" })
+super_boss_skills   : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+artifact            : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics             : "tactice_attack_ma_monster_shi"
+
+[attack_ma_ma]
+name                : "馬"
+icon                : 31119
+portrait            : 31119
+polar               : -1
+religion            : -1
+life_effect         : "level * 20 + level / 4 * 70"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_absorb          : 0
+mag_absorb          : 0
+accurate            : 300
+stunt_rate          : 50
+mstunt_rate         : 50
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 150
+ignore_resist_wood  : 150
+ignore_resist_water : 150
+ignore_resist_fire  : 150
+ignore_resist_earth : 150
+resist_poison       : 220
+resist_forgotten    : 220
+resist_frozen       : 220
+resist_sleep        : 220
+resist_confusion    : 220
+resist_repress      : 220
+resist_melt         : 220
+resist_cage         : 220
+resist_lock         : 220
+resist_lost         : 220
+resist_metal        : 120
+resist_wood         : 120
+resist_water        : 120
+resist_fire         : 120
+resist_earth        : 120
+tao_effect          : "900 + level / 10 * 40"
+speed_effect        : "70 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "lipo-qianjun", "B1", "B2", "B3", "B4", "B5" })
+family_skills       : ({ "C5" })
+super_boss_skills   : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+artifact            : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics             : "tactice_attack_ma_monster_ma"
+
+[defense_ma_che]
+name                : "俥"
+icon                : 31112
+portrait            : 31112
+religion            : -1
+life_effect         : "level * 60 + level / 4 * 300"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_absorb          : 0
+mag_absorb          : 0
+mstunt_rate         : 100
+accurate            : 300
+stunt_rate          : 100
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 220
+resist_forgotten    : 220
+resist_frozen       : 220
+resist_sleep        : 220
+resist_confusion    : 220
+resist_repress      : 220
+resist_melt         : 220
+resist_cage         : 220
+resist_lock         : 220
+resist_lost         : 220
+resist_metal        : 150
+resist_wood         : 150
+resist_water        : 150
+resist_fire         : 150
+resist_earth        : 150
+tao_effect          : "800 + level / 10 * 40"
+speed_effect        : "30 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+artifact$           : ({ "dinghaizhu", 15, "fantianyin", 20 })
+artifact$           : ({ "yinyangjing", 15, "fantianyin", 20 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_ma_monster_che"
+
+[defense_ma_xiang]
+name                : "相"
+icon                : 31114
+portrait            : 31114
+polar               : -1
+religion            : -1
+life_effect         : "(level * 60 + level / 4 * 300) * 1.6"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_absorb          : 0
+mag_absorb          : 0
+accurate            : 300
+stunt_rate          : 50
+mstunt_rate         : 100
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 220
+resist_forgotten    : 220
+resist_frozen       : 220
+resist_sleep        : 220
+resist_confusion    : 220
+resist_repress      : 220
+resist_melt         : 220
+resist_cage         : 220
+resist_lock         : 220
+resist_lost         : 220
+resist_metal        : 150
+resist_wood         : 150
+resist_water        : 150
+resist_fire         : 150
+resist_earth        : 150
+tao_effect          : "800 + level / 10 * 40"
+speed_effect        : "50 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "shensheng-zhiguang", "B5", "lipo-qianjun", "tiandi-hunyuan" })
+artifact$           : ({ "dinghaizhu", 15 })
+artifact$           : ({ "yinyangjing", 15 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_ma_monster_xiang"
+
+[defense_ma_shi]
+name                : "仕"
+icon                : 22023
+portrait            : 22023
+polar               : -1
+religion            : -1
+life_effect         : "(level * 60 + level / 4 * 300) * 1.6"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+accurate            : 300
+stunt_rate          : 50
+mstunt_rate         : 100
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 200
+ignore_resist_wood  : 200
+ignore_resist_water : 200
+ignore_resist_fire  : 200
+ignore_resist_earth : 200
+resist_poison       : 300
+resist_forgotten    : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+resist_metal        : 150
+resist_wood         : 150
+resist_water        : 150
+resist_fire         : 150
+resist_earth        : 150
+tao_effect          : "800 + level / 10 * 40"
+speed_effect        : "90 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "lipo-qianjun", "B5", "shuizhang-chuangao" })
+family_skills       : ({ "C5" })
+super_boss_skills   : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+artifact$           : ({ "dinghaizhu", 15 })
+artifact$           : ({ "yinyangjing", 15 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_ma_monster_shi"
+
+[defense_ma_ma]
+name                : "傌"
+icon                : 31113
+portrait            : 31113
+polar               : -1
+religion            : -1
+life_effect         : "level * 20 + level / 4 * 70"
+mag_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_effect          : "level * 4 * difficulty * 0.7 * 1.3"
+phy_absorb          : 0
+mag_absorb          : 0
+accurate            : 300
+stunt_rate          : 50
+mstunt_rate         : 50
+penetrate_rate      : ({ 50, 80 })
+penetrate           : ({ 50, 60 })
+ignore_resist_metal : 150
+ignore_resist_wood  : 150
+ignore_resist_water : 150
+ignore_resist_fire  : 150
+ignore_resist_earth : 150
+resist_poison       : 220
+resist_forgotten    : 220
+resist_frozen       : 220
+resist_sleep        : 220
+resist_confusion    : 220
+resist_repress      : 220
+resist_melt         : 220
+resist_cage         : 220
+resist_lock         : 220
+resist_lost         : 220
+resist_metal        : 120
+resist_wood         : 120
+resist_water        : 120
+resist_fire         : 120
+resist_earth        : 120
+tao_effect          : "900 + level / 10 * 40"
+speed_effect        : "70 + level / 10 * 5"
+modify_attrib       : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib       : ({ "penetrate_rate", "penetrate" })
+skills              : ({ "lipo-qianjun", "B5" })
+family_skills       : ({ "C5" })
+super_boss_skills   : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+artifact$           : ({ "dinghaizhu", 15 })
+artifact$           : ({ "yinyangjing", 15 })
+random_arr_attrib   : ({ "artifact" })
+tactics             : "tactice_defense_ma_monster_ma"
+
+[attack_che_zu]
+name                  : "卒"
+icon                  : 31123
+portrait              : 31123
+polar                 : -1
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.15 * 5"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.15 * 5"
+accurate              : 400
+stunt_rate            : 100
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+damage_sel_rate       : ({ 30, 49 })
+damage_sel            : 100
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+resist_lost_mind      : 300
+resist_lock_wid       : 300
+resist_stone          : 300
+tao_effect            : "800 + level / 10 * 40"
+speed_effect          : "50 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate", "damage_sel_rate" })
+skills                : ({ "B1", "B2", "B3", "B4" })
+god_book_skills       : ({ "nuji" })
+god_book_skill_levels : ({ 349 })
+artifact              : ({ "hunyuan-jindou", 22, "fantianyin", 22 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_che_monster_zu"
+
+[attack_che_pao]
+name                  : "砲"
+icon                  : 31122
+portrait              : 31122
+polar                 : -1
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.3"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.3"
+mag_absorb            : -10
+phy_absorb            : -10
+accurate              : 400
+stunt_rate            : 50
+mstunt_rate           : 50
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "800 + level / 10 * 40"
+speed_effect          : 1000
+modify_attrib         : ({ "life_effect", "tao_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun" })
+god_book_skills       : ({ "nuji", "fanji" })
+god_book_skill_levels : ({ 349, 349 })
+artifact              : ({ "hunyuan-jindou", 22, "fantianyin", 22 })
+tactics               : "tactice_attack_che_monster_pao"
+
+[attack_che_ma]
+name                  : "馬"
+icon                  : 31119
+portrait              : 31119
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+mag_absorb            : 0
+phy_absorb            : 0
+accurate              : 400
+stunt_rate            : 50
+double_hit_rate       : 50
+double_hit            : 2
+mstunt_rate           : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "850 + level / 10 * 40"
+speed_effect          : "1000 + level / 10 * 20"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "yixing-huanying", "youshui-zhishe", "shensheng-zhiguang" })
+god_book_skills       : ({ "nuji" })
+god_book_skill_levels : ({ 349 })
+artifact              : ({ "hunyuan-jindou", 22, "fantianyin", 22, "dinghaizhu", 22 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_che_monster_ma"
+
+[attack_che_che]
+name                  : "車"
+icon                  : 31118
+portrait              : 31118
+polar                 : -1
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+mag_absorb            : -10
+phy_absorb            : -10
+accurate              : 400
+mstunt_rate           : 80
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_lost_mind      : 300
+resist_lock_wid       : 300
+resist_stone          : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+tao_effect            : "850 + level / 10 * 40"
+speed_effect          : "500 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "B1", "B2", "B3", "B4", "B5", "wanyi-shixin", "tianding-sanhun", "sheming-yiji" })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skill_levels : ({ 349 })
+artifact              : ({ "fantianyin", 22 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_che_monster_che"
+
+[attack_che_xiang]
+name                  : "象"
+icon                  : 31120
+portrait              : 31120
+polar                 : 1
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.5"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.5"
+mag_absorb            : -10
+phy_absorb            : -10
+accurate              : 400
+stunt_rate            : 50
+double_hit_rate       : 50
+double_hit            : 2
+mstunt_rate           : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "1500 + level / 10 * 40"
+speed_effect          : "150 + level / 10 * 20"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "D5", "C5", "B1", "B2", "B3", "B4", "B5" })
+super_boss_skills     : ({ "cixue-tianxuan" })
+god_book_skills       : ({ "nuji" })
+god_book_skill_levels : ({ 349 })
+artifact              : ({ "hunyuan-jindou", 22, "fantianyin", 22 })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactice_attack_che_monster_xiang"
+
+[defense_che_bing]
+name                  : "兵"
+icon                  : 31116
+portrait              : 31116
+polar                 : -1
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.15 * 5"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.15 * 5"
+accurate              : 400
+stunt_rate            : 100
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+damage_sel_rate       : ({ 30, 49 })
+damage_sel            : 100
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_lost_mind      : 300
+resist_lock_wid       : 300
+resist_stone          : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+tao_effect            : "800 + level / 10 * 40"
+speed_effect          : "50 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "tao_effect", "speed_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate", "damage_sel_rate" })
+skills                : ({ "B4" })
+god_book_skills       : ({ "fanji", "xiuluoshu" })
+god_book_skill_levels : ({ 349, 349 })
+artifact$             : ({ "hunyuan-jindou", 22, "dinghaizhu", 17 })
+artifact$             : ({ "hunyuan-jindou", 22, "yinyangjing", 17 })
+random_arr_attrib     : ({ "artifact" })
+tactics               : "tactice_defense_che_monster_bing"
+
+[defense_che_pao]
+name                  : "炮"
+icon                  : 31115
+portrait              : 31115
+polar                 : -1
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.3"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.3"
+mag_absorb            : 0
+phy_absorb            : 0
+accurate              : 400
+stunt_rate            : 50
+mstunt_rate           : 50
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "800 + level / 10 * 40"
+speed_effect          : 1000
+modify_attrib         : ({ "life_effect", "tao_effect", "mag_effect", "phy_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "B5", "lipo-qianjun" })
+god_book_skills       : ({ "fanji" })
+god_book_skill_levels : ({ 349, 349 })
+artifact$             : ({ "dinghaizhu", 17 })
+artifact$             : ({ "yinyangjing", 17 })
+random_arr_attrib     : ({ "artifact" })
+yinlingfan_skill      : ({ "kexue-qishu", 288 })
+tactics               : "tactice_defense_che_monster_pao"
+
+[defense_che_ma]
+name                  : "傌"
+icon                  : 31113
+portrait              : 31113
+polar                 : 0
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+mag_absorb            : 0
+phy_absorb            : 0
+accurate              : 400
+stunt_rate            : 50
+double_hit_rate       : 50
+double_hit            : 2
+mstunt_rate           : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "850 + level / 10 * 40"
+speed_effect          : "1000 + level / 10 * 20"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "tiandi-hunyuan", "youshui-zhishe", "shensheng-zhiguang" })
+god_book_skills       : ({ "fanji" })
+god_book_skill_levels : ({ 349 })
+artifact$             : ({ "dinghaizhu", 17 })
+artifact$             : ({ "yinyangjing", 17 })
+random_arr_attrib     : ({ "artifact" })
+yinlingfan_skill      : ({ "kexue-qishu", 288 })
+tactics               : "tactice_defense_che_monster_ma"
+
+[defense_che_che]
+name                  : "俥"
+icon                  : 31112
+portrait              : 31112
+polar                 : -1
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.15"
+mag_absorb            : -10
+phy_absorb            : -10
+accurate              : 400
+mstunt_rate           : 80
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+resist_poison         : 180
+resist_forgotten      : 300
+resist_frozen         : 300
+resist_sleep          : 300
+resist_confusion      : 300
+resist_repress        : 300
+resist_melt           : 180
+resist_cage           : 300
+resist_lock           : 300
+resist_lost           : 300
+resist_lost_mind      : 300
+resist_lock_wid       : 300
+resist_stone          : 300
+tao_effect            : "850 + level / 10 * 40"
+speed_effect          : "500 + level / 10 * 10"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "B5", "wanyi-shixin", "tianding-sanhun" })
+artifact$             : ({ "dinghaizhu", 17 })
+artifact$             : ({ "yinyangjing", 17 })
+random_arr_attrib     : ({ "artifact" })
+yinlingfan_skill      : ({ "kexue-qishu", 288 })
+tactics               : "tactice_defense_che_monster_che"
+
+[defense_che_xiang]
+name                  : "相"
+icon                  : 31114
+portrait              : 31114
+polar                 : 2
+religion              : -1
+life_effect           : "(level * 60 + level / 4 * 200) * 0.9"
+mag_effect            : "level * 3 * 1.2 * 0.7 * 1.2"
+phy_effect            : "level * 3 * 1.2 * 0.7 * 1.2"
+mag_absorb            : -10
+phy_absorb            : -10
+accurate              : 400
+stunt_rate            : 50
+double_hit_rate       : 50
+double_hit            : 2
+mstunt_rate           : 50
+penetrate_rate        : ({ 40, 99 })
+penetrate             : ({ 40, 99 })
+ignore_resist_metal   : 200
+ignore_resist_wood    : 200
+ignore_resist_water   : 200
+ignore_resist_fire    : 200
+ignore_resist_earth   : 200
+tao_effect            : "850 + level / 10 * 40"
+speed_effect          : "150 + level / 10 * 20"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib         : ({ "penetrate_rate", "penetrate" })
+skills                : ({ "D3", "C5", "B5", "B4" })
+super_boss_skills     : ({ "cixue-tianxuan" })
+god_book_skills       : ({ "fanji" })
+god_book_skill_levels : ({ 349 })
+artifact$             : ({ "dinghaizhu", 17 })
+artifact$             : ({ "yinyangjing", 17 })
+random_arr_attrib     : ({ "artifact" })
+yinlingfan_skill      : ({ "kexue-qishu", 288 })
+tactics               : "tactice_defense_che_monster_xiang"
+
+[attack_xiang_xiang]
+name                    : "象"
+icon                    : 31120
+portrait                : 31120
+life_effect             : "(level * 60 + level / 4 * 200) * 0.3"
+mag_effect              : "level * 4 * 1.2 * 0.7 * 2.0"
+phy_effect              : "level * 4 * 1.2 * 0.7 * 2.0"
+mstunt_rate             : 85
+accurate                : 500
+stunt_rate              : 85
+penetrate_rate          : ({ 60, 90 })
+penetrate               : ({ 60, 80 })
+ignore_all_resist_polar : 250
+all_resist_except       : 500
+all_resist_polar        : 250
+tao_effect              : "600 + level / 5 * 35"
+speed_effect            : "100 + level / 10 * 15"
+skills                  : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "liwan-kuanglan", "shuizhang-chuangao" })
+family_skills           : ({ "C5" })
+super_boss_skills       : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+modify_attrib           : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib           : ({ "penetrate_rate", "penetrate" })
+artifact                : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics                 : "tactice_xiang_xiang"
+
+[defense_xiang_xiang]
+name                    : "相"
+icon                    : 31114
+portrait                : 31114
+life_effect             : "(level * 60 + level / 4 * 200) * 0.4"
+mag_effect              : "level * 4 * 1.2 * 0.7 * 1.6"
+phy_effect              : "level * 4 * 1.2 * 0.7 * 1.6"
+mstunt_rate             : 85
+accurate                : 500
+stunt_rate              : 85
+penetrate_rate          : ({ 60, 90 })
+penetrate               : ({ 60, 80 })
+ignore_all_resist_polar : 250
+all_resist_except       : 500
+all_resist_polar        : 250
+tao_effect              : "600 + level / 5 * 35"
+speed_effect            : "100 + level / 10 * 15"
+skills                  : ({ "B5", "lipo-qianjun", "liwan-kuanglan", "shuizhang-chuangao" })
+family_skills           : ({ "C5" })
+modify_attrib           : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+super_boss_skills       : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng" })
+random_attrib           : ({ "penetrate_rate", "penetrate" })
+artifact$               : ({ "dinghaizhu", 18 })
+artifact$               : ({ "yinyangjing", 18 })
+random_arr_attrib       : ({ "artifact" })
+tactics                 : "tactice_xiang_xiang"
+
+[attack_shi_shi]
+name                    : "士"
+icon                    : 31121
+portrait                : 31121
+polar                   : -1
+religion                : -1
+life_effect             : "level * 2000"
+mag_effect              : "level * 4 * 1.2 * 0.7 * 4.0 * 2"
+phy_effect              : "level * 4 * 1.2 * 0.7 * 4.0 * 2"
+mstunt_rate             : 85
+accurate                : 800
+stunt_rate              : 85
+penetrate_rate          : ({ 60, 100 })
+penetrate               : ({ 60, 100 })
+ignore_all_resist_polar : 400
+all_resist_except       : 600
+all_resist_polar        : 400
+tao_effect              : "3200 - level / 10 * 40"
+speed_effect            : "200 + level / 10 * 30"
+random_attrib           : ({ "penetrate_rate", "penetrate" })
+modify_attrib           : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+skills                  : ({ "lipo-qianjun", "liwan-kuanglan", "yaohuang-tiannu", "lingfan-qusan", "tiandi-xuanhuang", "zuijiu-miwu", "huiyin-zhiji", "fali-xukong", "tiandao-guiyi", "jingtian-daoshu", "daofa-wubian", "shensheng-zhiguang", "youshui-zhishe", "honghua-lvye", "tihu-guanding" })
+family_skills           : ({ "B1", "B2", "B3", "B4", "B5", "C5" })
+super_boss_skills       : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng", "tuntian-poyue", "shitun-qiankun" })
+artifact                : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics                 : "tactice_shi_shi"
+
+[attack_shi_common]
+name                    : ""
+icon                    : 31123
+portrait                : 31123
+polar                   : -1
+religion                : -1
+mag_effect              : "level * 4 * 1.2 * 0.7 * 2.0"
+phy_effect              : "level * 4 * 1.2 * 0.7 * 2.0"
+phy_absorb              : 100
+mag_absorb              : -100
+mstunt_rate             : 85
+accurate                : 800
+stunt_rate              : 85
+penetrate_rate          : ({ 60, 100 })
+penetrate               : ({ 60, 100 })
+ignore_all_resist_polar : 400
+all_resist_except       : 600
+all_resist_polar        : 400
+tao_effect              : "700 + level / 5 * 40"
+speed_effect            : "160 + level / 10 * 20"
+random_attrib           : ({ "penetrate_rate", "penetrate" })
+modify_attrib           : ({ "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+skills                  : ({ "lipo-qianjun", "ruhu-tianyi", "yaohuang-tiannu", "lingfan-qusan", "tiandi-xuanhuang", "zuijiu-miwu", "huiyin-zhiji", "fali-xukong", "tiandao-guiyi", "jingtian-daoshu", "daofa-wubian", "shensheng-zhiguang", "youshui-zhishe", "honghua-lvye", "tihu-guanding" })
+family_skills           : ({ "B5", "C5" })
+super_boss_skills       : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng", "tuntian-poyue", "shitun-qiankun" })
+artifact$               : ({ "dinghaizhu", 20 })
+artifact$               : ({ "yinyangjing", 20 })
+random_arr_attrib       : ({ "artifact" })
+tactics                 : "tactice_shi_common"
+
+[defense_shi_shi]
+name                    : "仕"
+icon                    : 22023
+portrait                : 22023
+polar                   : -1
+religion                : -1
+life_effect             : "level * 2400"
+mag_effect              : "level * 4 * 1.2 * 0.7 * 3.2 * 2"
+phy_effect              : "level * 4 * 1.2 * 0.7 * 3.2 * 2"
+mstunt_rate             : 85
+accurate                : 800
+stunt_rate              : 85
+penetrate_rate          : ({ 60, 100 })
+penetrate               : ({ 60, 100 })
+ignore_all_resist_polar : 400
+all_resist_except       : 600
+all_resist_polar        : 400
+tao_effect              : "3200 - level / 10 * 40"
+speed_effect            : "200 + level / 10 * 30"
+modify_attrib           : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib           : ({ "penetrate_rate", "penetrate" })
+skills                  : ({ "lipo-qianjun", "liwan-kuanglan", "yaohuang-tiannu", "lingfan-qusan", "tiandi-xuanhuang", "zuijiu-miwu", "huiyin-zhiji", "fali-xukong", "tiandao-guiyi", "jingtian-daoshu", "daofa-wubian", "shensheng-zhiguang", "youshui-zhishe", "honghua-lvye", "tihu-guanding" })
+family_skills           : ({ "B1", "B2", "B3", "B4", "B5", "C5" })
+super_boss_skills       : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng", "tuntian-poyue", "shitun-qiankun" })
+artifact                : ({ "fantianyin", 20, "hunyuan-jindou", 20 })
+tactics                 : "tactice_shi_shi"
+
+[defense_shi_common]
+name                    : ""
+icon                    : 31116
+portrait                : 31116
+polar                   : -1
+religion                : -1
+mag_effect              : "level * 4 * 1.2 * 0.7 * 1.6"
+phy_effect              : "level * 4 * 1.2 * 0.7 * 1.6"
+phy_absorb              : 100
+mag_absorb              : -100
+mstunt_rate             : 85
+accurate                : 800
+stunt_rate              : 85
+penetrate_rate          : ({ 60, 100 })
+penetrate               : ({ 60, 100 })
+ignore_all_resist_polar : 400
+all_resist_except       : 600
+all_resist_polar        : 400
+tao_effect              : "700 + level / 5 * 40"
+speed_effect            : "160 + level / 10 * 20"
+modify_attrib           : ({ "mag_effect", "phy_effect", "tao_effect", "speed_effect" })
+random_attrib           : ({ "penetrate_rate", "penetrate" })
+skills                  : ({ "lipo-qianjun", "ruhu-tianyi", "yaohuang-tiannu", "lingfan-qusan", "tiandi-xuanhuang", "zuijiu-miwu", "huiyin-zhiji", "fali-xukong", "tiandao-guiyi", "jingtian-daoshu", "daofa-wubian", "shensheng-zhiguang", "youshui-zhishe", "honghua-lvye", "tihu-guanding" })
+family_skills           : ({ "B5", "C5" })
+super_boss_skills       : ({ "yaohuang-tiannu", "cixue-tianxuan", "xuelian-diyu", "tiansha-kuangfeng", "tuntian-poyue", "shitun-qiankun" })
+artifact$               : ({ "dinghaizhu", 20 })
+artifact$               : ({ "yinyangjing", 20 })
+random_arr_attrib       : ({ "artifact" })
+tactics                 : "tactice_shi_common"

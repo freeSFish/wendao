@@ -1,0 +1,45 @@
+#FORM2
+
+[任务卷轴·宠物强化]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P屠娇娇#P了解有关#R宠物强化#n相关的知识。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+alias : "宠物强化"
+
+[S0]
+type : "null"
+item : "任务卷轴·宠物强化"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+npc : "屠娇娇"
+content$ : "NPC:宠物是我们日常修行中一个不可缺少的伙伴。"
+content$ : "NPC:如果你想让你的宠物攻击更高，就可以找我对宠物的物攻或法攻进行强化。"
+content$ : "NPC:你可以在鬼斧神工的宠物强化界面中对宠物进行强化，强化需要归元露或者超级归元露。野生、变异、神兽、元灵，以及限制类宠物不能强化。进化过的宠物可以进行强化，但是强化的数值和花费根据进化前宠物的基础成长来计算。强化过程需要收取一定的费用才能进行。"
+content$ : "ME:还挺复杂的...谢谢指点。"
+action : "S2"
+log : "任务目标：找#P屠娇娇#P了解有关#R宠物强化#n相关的知识。"
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·宠物强化"
+log : "任务目标：完成一次#R宠物强化#n的操作，相关内容可以查看#R#H帮助|chongwuyangcheng\chongwuqianghua.htm#H#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 300000"
+
+[SX]
+type : "null"

@@ -1,0 +1,201 @@
+#FORM2
+
+[暗雷怪]
+桐柏山  : 小妖
+瑶池    : 仙子
+
+[小妖_0]
+name                : 小妖
+icon                : ({ 6131, 6132 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 100 + LV / 150 * 30 + 100"
+phy_effect          : 40
+mag_effect          : 20
+mag_absorb          : 20
+speed_effect        : 0
+tao_effect          : 0
+modify_attrib       : ({ "life_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_bonus_touch_monster" })
+combat_trigger      : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "combat_trigger_xiaoyao" })
+combat_limit        : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_check_combat_limit" })
+assistant_num       : ({ 0, 1 })
+assistant_name      : ({ "小妖_0" })
+skills              : ({ "B2", "B4" })
+tactics             : ({ "tactics_xiaoyao" })
+
+[仙子_0]
+name                : 仙子
+icon                : ({ 6135, 6138 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 100 + LV / 150 * 30 + 100"
+phy_effect          : 20
+mag_effect          : 50
+speed_effect        : 0
+tao_effect          : 0
+modify_attrib       : ({ "life_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_bonus_touch_monster" })
+combat_limit        : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_check_combat_limit" })
+assistant_num       : ({ 0, 1 })
+assistant_name      : ({ "仙子_0" })
+skills              : ({ "B2", "B4" })
+tactics             : ({ "tactics_xianzi" })
+
+[守值天兵_0]
+name                : 守值天兵
+icon                : ({ 6223 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 300 + 600 + LV / 150 * 130"
+phy_effect          : "LV / 100 * 50 + 50 + LV / 150 * 15"
+mag_effect          : "LV / 100 * 50 + 100 + LV / 150 * 20"
+stunt_rate          : 30
+all_resist_except   : 30
+speed_effect        : 10
+tao_effect          : 0
+artifact            : ({ "hunyuan-jindou" })
+artifact_level      : 24
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_none_bonus" })
+combat_trigger      : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "combat_trigger_shouzhitianbing" })
+sf_die              : ({ "sf_die_shouzhitianbing" })
+sf_artifact_skill   : ({ "sf_artifact_skill_shouzhitianbing" })
+assistant_num       : ({ 2, 2 })
+assistant_name      : ({ "守值天兵_0" })
+skills              : ({ "B2", "B4", "D4" })
+tactics             : ({ "tactics_shouzhitianbing" })
+
+[穿山甲_0]
+name                : 穿山甲
+icon                : ({ 6260 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 1000 + 2000 + LV / 150 * 450"
+phy_effect          : "LV / 100 * 100 + 150 + LV / 150 * 35"
+mag_effect          : "LV / 100 * 100 + 200 + LV / 150 * 45"
+double_hit_rate     : 30
+double_hit          : 5
+resist_forgotten    : 100
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+phy_absorb          : 10
+mag_absorb          : 30
+speed_effect        : -30
+tao_effect          : "LV / 10 * 10"
+artifact            : ({ "fantianyin", "hunyuan-jindou" })
+artifact_level      : 18
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_none_bonus" })
+combat_trigger      : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "combat_trigger_chuanshanjia" })
+sf_artifact_skill   : ({ "sf_artifact_skill_chuanshanjia" })
+sf_receive_damage   : ({ "sf_receive_damage_chuanshanjia" })
+skills              : ({ "B1", "B2", "B3", "B4" })
+tactics             : ({ "tactics_chuanshanjia" })
+
+[小妖_1]
+name                : 小妖
+icon                : ({ 6131, 6132 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 600 + LV / 150 * 180 + 600"
+phy_effect          : 80
+mag_effect          : 40
+mag_absorb          : 20
+speed_effect        : ({ 0, 29 })
+tao_effect          : ({ 0, 49 })
+modify_attrib       : ({ "life_effect" })
+random_attrib       : ({ "speed_effect", "tao_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_bonus_touch_monster" })
+combat_trigger      : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "combat_trigger_xiaoyao" })
+combat_limit        : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_check_combat_limit" })
+assistant_num       : ({ 0, 1 })
+assistant_name      : ({ "小妖_1" })
+skills              : ({ "B2", "B4" })
+tactics             : ({ "tactics_xiaoyao" })
+
+[仙子_1]
+name                : 仙子
+icon                : ({ 6135, 6138 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 600 + LV / 150 * 180 + 600"
+phy_effect          : 40
+mag_effect          : 50
+speed_effect        : ({ 0, 39 })
+tao_effect          : ({ 0, 49 })
+modify_attrib       : ({ "life_effect" })
+random_attrib       : ({ "speed_effect", "tao_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_bonus_touch_monster" })
+combat_limit        : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_check_combat_limit" })
+assistant_num       : ({ 0, 1 })
+assistant_name      : ({ "仙子_1" })
+skills              : ({ "B2", "B4" })
+tactics             : ({ "tactics_xianzi" })
+
+[守值天兵_1]
+name                : 守值天兵
+icon                : ({ 6223 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 1800 + 3600 + LV / 150 * 780"
+phy_effect          : "LV / 100 * 100 + 100 + LV / 150 * 30"
+mag_effect          : "LV / 100 * 100 + 200 + LV / 150 * 40"
+stunt_rate          : 30
+all_resist_except   : 40
+speed_effect        : ({ 20, 119 })
+tao_effect          : ({ 0, 99 })
+artifact            : ({ "hunyuan-jindou" })
+artifact_level      : 24
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib       : ({ "speed_effect", "tao_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_none_bonus" })
+combat_trigger      : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "combat_trigger_shouzhitianbing" })
+sf_die              : ({ "sf_die_shouzhitianbing" })
+sf_artifact_skill   : ({ "sf_artifact_skill_shouzhitianbing" })
+assistant_num       : ({ 2, 2 })
+assistant_name      : ({ "守值天兵_1" })
+skills              : ({ "B2", "B4", "D4" })
+tactics             : ({ "tactics_shouzhitianbing" })
+
+[穿山甲_1]
+name                : 穿山甲
+icon                : ({ 6260 })
+polar               : -1
+religion            : -1
+life_effect         : "LV / 100 * 6000 + 12000 + LV / 150 * 2700"
+phy_effect          : "LV / 100 * 200 + 300 + LV / 150 * 70"
+mag_effect          : "LV / 100 * 200 + 400 + LV / 150 * 90"
+double_hit_rate     : 30
+double_hit          : 5
+resist_forgotten    : 100
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+phy_absorb          : 10
+mag_absorb          : 30
+speed_effect        : ({ 0, 29 })
+tao_effect          : "LV / 10 * 15"
+artifact            : ({ "fantianyin", "hunyuan-jindou" })
+artifact_level      : 18
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+random_attrib       : ({ "speed_effect" })
+bonus_info          : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "do_none_bonus" })
+combat_trigger      : ({ "/gs/daemons/tasks/baxian_mengjing/lvdongbin.c", "combat_trigger_chuanshanjia" })
+sf_artifact_skill   : ({ "sf_artifact_skill_chuanshanjia" })
+sf_receive_damage   : ({ "sf_receive_damage_chuanshanjia" })
+skills              : ({ "B1", "B2", "B3", "B4" })
+tactics             : ({ "tactics_chuanshanjia" })

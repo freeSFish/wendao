@@ -1,0 +1,29 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-06-16-00:00:00", "EVERY_DAY(3)", "EVERY_WEEK(0)", "2016-06-18-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R【暑假】镖行西域#n活动已经开启，由于西域的战事愈演愈烈，药品物资箱成为了抢手货，将药品物资箱从#Z天墉城#Z运到#Z西域古城#Z的#P西域商人#P处，可以获得很多奖励。赶快叫上你的小伙伴一起到#Z天墉城#Z的#P车夫#P处报名吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+sender          : "车夫"
+message         : "#R【暑假】镖行西域#n活动已经开启，将药品物资箱从#Z天墉城#Z运到#Z西域古城#Z的#P西域商人#P处，可以获得很多奖励。赶快叫上你的小伙伴来找我报名吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(0)"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "通过广大玩家的努力，本次#R镖行西域#n任务已经结束，#Z西域古城#Z获得了大量充足的物资，感谢各位玩家的参与。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

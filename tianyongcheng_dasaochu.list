@@ -1,0 +1,14 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-05-01-00:00:00", "EVERY_DAY(3)", 0, "2015-05-03-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "脏死啦！#Z天墉城#Z突然出现了好多#Y邋遢鬼#n，大家快去消灭他们，净化#Z天墉城#Z吧！"
+channel         : "CHANNEL_RUMOR | CHANNEL_NO_BROADCAST"

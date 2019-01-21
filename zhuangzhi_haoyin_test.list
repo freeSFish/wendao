@@ -1,0 +1,22 @@
+#FORM2
+
+[setting]
+start_time       : "2015-07-25-00:00:00"
+end_time         : "2015-07-27-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "重阳将至，如今#Z东海渔村#Z、#Z无名小镇#Z逐渐被一群邪魔妖道的咒语侵袭，各位仁人志士快去解救百姓，还大家一个和谐安宁的重阳节。成功解救百姓后还有机会获得意想不到的惊喜！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "感谢各位仁人义士的鼎力相助，大家成功的将邪咒驱赶走了，#Z东海渔村#Z、#Z无名小镇#Z又恢复了端午祥和之气！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,861 @@
+#FORM2
+
+[卷虫]
+name             : 卷虫
+icon             : 6110
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 700 })
+phy_effect       : ({ 50 })
+mag_effect       : ({ 20 })
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_juanchong"
+
+[卷魂]
+name                : 卷魂
+icon                : 6242
+resist_metal        : ({ 15 })
+resist_wood         : ({ 15 })
+resist_water        : ({ 15 })
+resist_fire         : ({ 15 })
+resist_earth        : ({ 15 })
+life_effect         : ({ 700 })
+phy_effect          : ({ 50 })
+mag_effect          : 0
+speed_effect        : 0
+tao_effect          : 0
+resist_forgotten    : ({ 15 })
+resist_poison       : ({ 15 })
+resist_frozen       : ({ 15, 2 })
+resist_sleep        : ({ 15, 2 })
+resist_confusion    : ({ 15, 2 })
+counter_attack_rate : 100
+counter_attack      : 12
+monster_tactics     : "physical_tactics"
+
+[卷童]
+name             : 卷童
+icon             : 7009
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 700 })
+phy_effect       : 0
+mag_effect       : ({ 50 })
+speed_effect     : 1000
+tao_effect       : 0
+resist_forgotten : ({ 15 })
+resist_poison    : ({ 15 })
+resist_frozen    : ({ 15 })
+resist_sleep     : ({ 15 })
+resist_confusion : ({ 15 })
+skills           : ({ "B5", "ruyi-quan", "shenlong-zhao" })
+monster_tactics  : "tactics_juantong"
+
+[妖道]
+name             : 妖道
+icon             : 6249
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 1000 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : ({ 15 })
+resist_poison    : ({ 15 })
+resist_frozen    : ({ 15 })
+resist_sleep     : ({ 15 })
+resist_confusion : ({ 15 })
+skills           : ({ "B3" })
+monster_tactics  : "tactics_yaodao"
+
+[打手]
+icon             : 6201
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 700 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_dashou"
+
+[伙计]
+icon                : 6231
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : ({ 120 })
+mag_effect          : 0
+speed_effect        : 0
+tao_effect          : 0
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+counter_attack_rate : 100
+counter_attack      : 12
+monster_tactics     : "physical_tactics"
+
+[管家]
+icon             : 6088
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 700 })
+phy_effect       : 0
+mag_effect       : ({ 80 })
+speed_effect     : 1000
+tao_effect       : 0
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B5", "ruyi-quan", "shenlong-zhao" })
+monster_tactics  : "tactics_guanjia"
+
+[强盗]
+name             : 强盗
+icon             : 6201
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 600 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_qiangdao"
+
+[官兵]
+icon             : 6051
+name             : 官兵
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 600 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_guanbing"
+
+[书生]
+name                : 书生
+polar               : -1
+resist_metal        : ({ 15 })
+resist_wood         : ({ 15 })
+resist_water        : ({ 15 })
+resist_fire         : ({ 15 })
+resist_earth        : ({ 15 })
+life_effect         : ({ 1000 })
+phy_effect          : ({ 100 })
+mag_effect          : ({ 80 })
+speed_effect        : ({ 50 })
+tao_effect          : ({ 100 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+counter_attack_rate : 100
+skills              : ({ "B3", "B4" })
+monster_tactics     : "tactics_shusheng"
+
+[家丁]
+name                : 家丁
+icon                : 6201
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : ({ 100 })
+mag_effect          : ({ 80 })
+speed_effect        : 0
+tao_effect          : 100
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B3", "B4" })
+monster_tactics     : "tactics_jiading"
+
+[书童]
+name                : 书童
+icon                : 6027
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : ({ 120 })
+mag_effect          : 0
+speed_effect        : 0
+tao_effect          : 100
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+counter_attack_rate : 100
+counter_attack      : 12
+monster_tactics     : "physical_tactics"
+
+[丫头]
+name                : 丫头
+icon                : 6133
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : 0
+mag_effect          : ({ 80 })
+speed_effect        : 1000
+tao_effect          : 100
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B5", "ruyi-quan", "shenlong-zhao" })
+monster_tactics     : "tactics_yatou"
+
+[盗宝贼]
+icon             : 6213
+name             : 盗宝贼
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 800 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 100
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_daobaozei"
+
+[女妖]
+icon             : 6241
+name             : 女妖
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 1000 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 200
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3" })
+monster_tactics  : "tactics_nvyao"
+
+[虾兵]
+icon             : 6163
+name             : 虾兵
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 700 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 100
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_xiabing"
+
+[蟹将]
+icon                : 6164
+name                : 蟹将
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : ({ 120 })
+mag_effect          : 0
+speed_effect        : 0
+tao_effect          : 100
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+counter_attack_rate : 100
+counter_attack      : 12
+monster_tactics     : "physical_tactics"
+
+[龙王]
+icon                : 6079
+name                : 龙王
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 800 })
+phy_effect          : ({ 100 })
+mag_effect          : ({ 80 })
+speed_effect        : 0
+tao_effect          : 100
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B3" })
+monster_tactics     : "tactics_longwang"
+
+[无名小镇家丁]
+name                : 家丁
+icon                : 6201
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : ({ 100 })
+mag_effect          : ({ 80 })
+speed_effect        : 0
+tao_effect          : 0
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B3", "B4" })
+monster_tactics     : "tactics_jiading_wumxz"
+
+[童子]
+name                : 童子
+icon                : 6231
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : ({ 120 })
+mag_effect          : 0
+speed_effect        : 0
+tao_effect          : 0
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+counter_attack_rate : 100
+counter_attack      : 12
+monster_tactics     : "physical_tactics"
+
+[弟子]
+name                : 弟子
+icon                : 6088
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 700 })
+phy_effect          : 0
+mag_effect          : ({ 80 })
+speed_effect        : 1000
+tao_effect          : 0
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B5", "ruyi-quan", "shenlong-zhao" })
+monster_tactics     : "tactics_dizi"
+
+[无名小镇强盗]
+name             : 强盗
+icon             : 6201
+polar            : -1
+resist_metal     : ({ 10 })
+resist_wood      : ({ 10 })
+resist_water     : ({ 10 })
+resist_fire      : ({ 10 })
+resist_earth     : ({ 10 })
+life_effect      : ({ 600 })
+phy_effect       : ({ 100 })
+mag_effect       : ({ 80 })
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : ({ 10 })
+resist_poison    : ({ 10 })
+resist_frozen    : ({ 10 })
+resist_sleep     : ({ 10 })
+resist_confusion : ({ 10 })
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_qiangdao_wumxz"
+
+[无名小镇书生]
+name                : 书生
+polar               : -1
+resist_metal        : ({ 15 })
+resist_wood         : ({ 15 })
+resist_water        : ({ 15 })
+resist_fire         : ({ 15 })
+resist_earth        : ({ 15 })
+life_effect         : ({ 800 })
+phy_effect          : ({ 100 })
+mag_effect          : ({ 80 })
+speed_effect        : ({ 50 })
+tao_effect          : ({ 100 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+counter_attack_rate : 100
+skills              : ({ "B3", "B4" })
+monster_tactics     : "tactics_shusheng_wumxz"
+
+[汉钟离]
+name                : 汉钟离
+icon                : 20005
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[铁拐李]
+name                : 铁拐李
+icon                : 20004
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[吕洞宾]
+name                : 吕洞宾
+icon                : 20006
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[蓝采和]
+name                : 蓝采和
+icon                : 20007
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[韩湘子]
+name                : 韩湘子
+icon                : 20008
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[张果老]
+name                : 张果老
+icon                : 20009
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[何仙姑]
+name                : 何仙姑
+icon                : 20010
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[曹国舅]
+name                : 曹国舅
+icon                : 20011
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1500 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 400 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5", "D5" })
+monster_tactics     : "tactics_baxian"
+
+[天兵]
+name                : 天兵
+icon                : 20078
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+mag_absorb          : ({ 0 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_tianbing"
+
+[神器护卫]
+name                : 神器护卫
+icon                : 20078
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+mag_absorb          : ({ 0 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_tianbing"
+
+[神兵]
+name                : 神兵
+icon                : 20079
+polar               : -1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+phy_absorb          : ({ 0 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+counter_attack_rate : 100
+counter_attack      : 12
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_shenbing"
+
+[金系圣物护卫]
+name                : 金系圣物护卫
+icon                : 6228
+polar               : 1
+resist_metal        : ({ 50 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_huwei"
+
+[木系圣物护卫]
+name                : 木系圣物护卫
+icon                : 6140
+polar               : 1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 50 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_huwei"
+
+[水系圣物护卫]
+name                : 水系圣物护卫
+icon                : 6221
+polar               : 1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 50 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_huwei"
+
+[火系圣物护卫]
+name                : 火系圣物护卫
+icon                : 6153
+polar               : 1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 50 })
+resist_earth        : ({ 10 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_huwei"
+
+[土系圣物护卫]
+name                : 土系圣物护卫
+icon                : 6206
+polar               : 1
+resist_metal        : ({ 10 })
+resist_wood         : ({ 10 })
+resist_water        : ({ 10 })
+resist_fire         : ({ 10 })
+resist_earth        : ({ 50 })
+life_effect         : ({ 1200 })
+phy_effect          : ({ 150 })
+mag_effect          : ({ 120 })
+speed_effect        : ({ 100 })
+tao_effect          : ({ 200 })
+resist_forgotten    : ({ 10 })
+resist_poison       : ({ 10 })
+resist_frozen       : ({ 10 })
+resist_sleep        : ({ 10 })
+resist_confusion    : ({ 10 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+monster_tactics     : "tactics_huwei"

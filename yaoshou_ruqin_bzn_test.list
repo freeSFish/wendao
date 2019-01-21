@@ -1,0 +1,24 @@
+#FORM2
+
+[setting]
+start_time : "2014-03-17-00:00:00"
+end_time   : "2014-03-21-23:59:59"
+
+[broadcast_setting]
+broadcast_list: ({ "broadcast_1", "broadcast_2" })
+
+[broadcast_1]
+broadcast_start : "start_time(1)"
+interval        : 1800
+cycle           : 86400
+broadcast_end   : "start_time(86300)"
+final_end_time  : "end_time"
+broadcast_func  : "broadcast_dur_game"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_2]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "多谢各位道友鼎力相助，现在#R三祥五福兽#n已经回天宫向鸿钧老祖复命去了！在活动中所有成功击杀妖魔的玩家，都可找#P活动大使#P领取积分奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,29 @@
+# child_equip_extra_attrib.list
+
+# 属性名                     最小等级  最大等级  最小值  标称值  最大值   属性描述
+child_mag_damage,            1,       180,      30%,     50%,     100%,   法术伤害
+child_phy_damage,            1,       180,      30%,     50%,     100%,   物理伤害
+child_damage_reduce,         1,       180,      30%,     50%,     100%,   伤害化解
+child_physique,              1,       180,      30%,     50%,     100%,   体魄
+child_str,                   1,       180,      30%,     50%,     100%,   力气
+child_wisdom,                1,       180,      30%,     50%,     100%,   智慧
+child_dex,                   1,       180,      30%,     50%,     100%,   灵敏
+child_all_attrib,            1,       180,      30%,     50%,     100%,   所有属性
+
+# 以下这些字段都是绝对值
+child_reduce_phy,            1,       180,      5,       8,       15,     化解物理伤害
+child_reduce_mag,            1,       180,      5,       8,       15,     化解法术伤害
+child_rd_metal,              1,       180,      5,       8,       15,     化解金系伤害
+child_rd_wood,               1,       180,      5,       8,       15,     化解木系伤害
+child_rd_water,              1,       180,      5,       8,       15,     化解水系伤害
+child_rd_fire,               1,       180,      5,       8,       15,     化解火系伤害
+child_rd_earth,              1,       180,      5,       8,       15,     化解土系伤害
+child_ir_all,                1,       180,      5,       10,      20,     忽视所有抗性
+child_ir_metal,              1,       180,      5,       15,      30,     忽视目标抗金
+child_ir_wood,               1,       180,      5,       15,      30,     忽视目标抗木
+child_ir_water,              1,       180,      5,       15,      30,     忽视目标抗水
+child_ir_fire,               1,       180,      5,       15,      30,     忽视目标抗火
+child_ir_earth,              1,       180,      5,       15,      30,     忽视目标抗土
+child_phy_stunt,             1,       180,     10,       20,      30,     物理必杀
+child_mag_stunt,             1,       180,     10,       20,      30,     法术必杀
+child_ignore_def,            1,       180,      8,       15,      20,     忽视防御

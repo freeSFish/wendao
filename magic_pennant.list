@@ -1,0 +1,7 @@
+#名称,   file_id,                            pennant_level,               equip_type,                     equip_parts,                     combined, no_float,  log_action,   icon,   等级,    量词,      价格,    描述
+key_name,   file_id,                           pennant_level,           equip_type,                   equip_parts,                   combined, no_float, log_action, icon, level, unit, value, desc
+一阶引灵幡, "magic_pennant/yijie-yinlingfan",  "MAGIC_PENNANT_LEVEL_1", "EQUIP_TYPE_MAGIC_PENNANT_1", ({ "EQUIP_MAGIC_PENNANT_1" }), 0,        1,        "zhuangb",  1427, 1,     张,   500,   用于修炼一阶引灵幡奇术的幡，装备后即可领取灵幡任务，将中洲的山精野怪魂魄转积聚幡上，使你的灵幡技能更加强大
+二阶引灵幡, "magic_pennant/erjie-yinlingfan",  "MAGIC_PENNANT_LEVEL_2", "EQUIP_TYPE_MAGIC_PENNANT_2", ({ "EQUIP_MAGIC_PENNANT_2" }), 0,        1,        "zhuangb",  1428, 1,     张,   500,   用于修炼二阶引灵幡奇术的幡，装备后即可领取灵幡任务，将中洲的山精野怪魂魄转积聚幡上，使你的灵幡技能更加强大
+三阶引灵幡, "magic_pennant/sanjie-yinlingfan", "MAGIC_PENNANT_LEVEL_3", "EQUIP_TYPE_MAGIC_PENNANT_3", ({ "EQUIP_MAGIC_PENNANT_3" }), 0,        1,        "zhuangb",  1429, 1,     张,   500,   用于修炼三阶引灵幡奇术的幡，装备后即可领取灵幡任务，将中洲的山精野怪魂魄转积聚幡上，使你的灵幡技能更加强大
+四阶引灵幡, "magic_pennant/sijie-yinlingfan",  "MAGIC_PENNANT_LEVEL_4", "EQUIP_TYPE_MAGIC_PENNANT_4", ({ "EQUIP_MAGIC_PENNANT_4" }), 0,        1,        "zhuangb",  1430, 1,     张,   500,   用于修炼四阶引灵幡奇术的幡，装备后即可领取灵幡任务，将中洲的山精野怪魂魄转积聚幡上，使你的灵幡技能更加强大
+

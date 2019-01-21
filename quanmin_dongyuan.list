@@ -1,0 +1,82 @@
+#FORM2
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2014-10-01-00:00:00", "EVERY_DAY(7)", 0, "2014-10-07-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "start_task", "end_task" })
+
+[start_task]
+broadcast_start   : "start_time"
+interval          : 0
+broadcast_end     : "end_time(-1)"
+message           : "封神世界的妖孽掠夺了我们稀有的六阶坐骑、变异和神兽，众道友速去将其夺回，以免妖孽祸害人间！"
+channel           : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start   : "end_time(-1)"
+interval          : 0
+broadcast_end     : "end_time"
+message           : "本次#R【国庆节】全民动员#n活动圆满结束，感谢大家的参与！"
+channel           : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[一阶小妖]
+name              : "一阶小妖"
+polar             : -1
+religion          : -1
+life_effect       : "400 + LV / 100 * 300 + LV / 130 * 200 + LV / 150 * 100"
+phy_effect        : "100 + LV / 100 * 50 + LV / 130 * 50 + LV / 150 * 25"
+mag_effect        : "120 + LV / 100 * 50 + LV / 130 * 50 + LV / 150 * 25"
+speed_effect      : 50
+tao_effect        : 50
+phy_absorb        : 0
+all_resist_polar  : 0
+skills            : ({ "B3" })
+level_skills      : ({ 60, 0, "B4", 100, 0, "B5" })
+modify_attrib     : ({ "life_effect", "phy_effect", "mag_effect" })
+tactics           : "tactics_common"
+
+[二阶妖魔]
+name              : "二阶妖魔"
+polar             : -1
+religion          : -1
+life_effect       : "500 + LV / 100 * 350 + LV / 130 * 250 + LV / 150 * 125"
+phy_effect        : "120 + LV / 100 * 50 + LV / 130 * 50 + LV / 150 * 25"
+mag_effect        : "140 + LV / 100 * 50 + LV / 130 * 50 + LV / 150 * 25"
+speed_effect      : 50
+tao_effect        : 50
+phy_absorb        : 0
+all_resist_polar  : 0
+skills            : ({ "B3" })
+level_skills      : ({ 60, 0, "B4", 100, 0, "B5" })
+modify_attrib     : ({ "life_effect", "phy_effect", "mag_effect" })
+tactics           : "tactics_common"
+
+[终极妖王]
+name              : "终极妖王"
+polar             : -1
+religion          : -1
+life_effect       : "600 + LV / 100 * 400 + LV / 130 * 400 + LV / 150 * 200"
+phy_effect        : "140 + LV / 100 * 50 + LV / 130 * 50 + LV / 150 * 25"
+mag_effect        : "160 + LV / 100 * 50 + LV / 130 * 50 + LV / 150 * 25"
+speed_effect      : 50
+tao_effect        : 50
+phy_absorb        : 0
+all_resist_polar  : 0
+skills            : ({ "B3" })
+level_skills      : ({ 60, 0, "B4", 100, 0, "B5" })
+modify_attrib     : ({ "life_effect", "phy_effect", "mag_effect" })
+tactics           : "tactics_common"
+
+[特殊怪物]
+polar             : -1
+religion          : -1
+mag_effect        : -99
+speed_effect      : 100
+tao_effect        : 5000
+mag_absorb        : -100
+no_obstruct       : 1
+skills            : ({ "B3" })
+level_skills      : ({ 60, 0, "B4", 100, 0, "B5" })
+tactics           : "tactics_special"

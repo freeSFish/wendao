@@ -1,0 +1,69 @@
+#FORM2
+#jinshux.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+金色天书奖励 : 1000
+
+
+[金色天书奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "反击a", "狂暴a", "破天a", "修罗术a", "降魔斩a", "怒击a", "仙风a", "云体a", "尽忠a" })
+
+[反击a]
+name      : 反击
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_lingh_1", 160, "level", 248, "nimbus", 16000, "icon", 9357, "color", 金色 })
+
+[狂暴a]
+name      : 狂暴
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_jis_1", 12, "level", 248, "nimbus", 16000, "icon", 9350, "color", 金色 })
+
+[破天a]
+name      : 破天
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_zhang_1", 12, "level", 248, "nimbus", 16000, "icon", 9356, "color", 金色 })
+
+[修罗术a]
+name      : 修罗术
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_jis_1", 12, "level", 248, "nimbus", 16000, "icon", 9360, "color", 金色 })
+
+[降魔斩a]
+name      : 降魔斩
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_lingh_1", 160, "level", 248, "nimbus", 16000, "icon", 9359, "color", 金色 })
+
+[怒击a]
+name      : 怒击
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_qiangj_1", 12, "level", 248, "nimbus", 16000, "icon", 9358, "color", 金色 })
+
+[仙风a]
+name      : 仙风
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_qiangj_1", 12, "level", 248, "nimbus", 16000, "icon", 9362, "color", 金色 })
+
+[云体a]
+name      : 云体
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_jis_1", 12, "level", 248, "nimbus", 16000, "icon", 9361, "color", 金色 })
+
+[尽忠a]
+name      : 尽忠
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 30, "prop_basic/mag_power", 21, "prop_basic/double_hit_rate", 20, "prop_basic/double_hit", 12, "prop_basic/stunt_rate", 20, "prop_extra/gb_lingh_1", 160, "level", 248, "nimbus", 16000, "icon", 9363, "color", 金色 })
+

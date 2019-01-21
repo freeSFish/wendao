@@ -1,0 +1,123 @@
+#FORM2
+#monsters--monster name : monster num
+#place--room list : the rooms where monster placed
+#data time--the task time info
+#before_game--start time of the broadcast before task begin
+#before_interval--the frequence of the broadcast before task begin
+#duration_game--start time of the broadcast during task process
+#duration_interval--the frequence of the broadcast during task process
+#duration--the task duration
+#odd--the date is odd number
+#even--the date is even number
+#pet_bonus--pet name list
+
+[data_time]
+before_game : 300
+before_interval : 60
+duration_s1 : 600
+duration_game_s1 : 1200
+duration_interval_s1 : 120
+duration : 3000
+odd : ({ "11:00:00", "17:00:00", "21:00:00" })
+even : ({ "11:00:00", "17:00:00", "21:00:00" })
+
+[monster_info_s1]
+金猪 : 40
+
+[monster_info_s2]
+野猪精 : 1
+
+
+[place]
+room_list : ({ "揽仙镇外", "卧龙坡", "官道南", "官道北", "桃柳林", "北海沙滩" })
+
+
+[bonus]
+pet_bonus : ({ "招财猪" })
+
+
+
+[金猪]
+polar            : -1
+name             : "金猪"
+icon             : 6178
+portrait         : 6178
+tao_effect       : 30
+life_effect      : 400
+speed_effect     : 40
+phy_absorb       : 60
+mag_absorb       : 80
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 20
+double_hit       : 4
+counter_attack_rate : 30
+counter_attack   : 12
+resist_forgotten : 60
+resist_poison    : 40
+resist_frozen    : 40
+resist_sleep     : 40
+resist_confusion : 60
+skills           : ({ "B2", 16, "B4", 16 })
+tractics         : "jinzhu_tactics"
+
+[猪仔]
+polar            : -1
+name             : "猪仔"
+icon             : 31035
+portrait         : 31035
+tao_effect       : 0
+life_effect      : 50
+speed_effect     : 10
+phy_absorb       : 0
+mag_absorb       : 0
+mag_effect       : 0
+phy_effect       : 60
+double_hit_rate  : 20
+double_hit       : 4
+counter_attack_rate : 50
+counter_attack   : 3
+tractics         : "zhuzai_tactics"
+
+[野猪精]
+polar            : -1
+name             : "野猪精"
+icon             : 6208
+portrait         : 6208
+tao_effect       : 100
+life_effect      : 400
+speed_effect     : 60
+phy_absorb       : -20
+mag_absorb       : -20
+mag_effect       : 100
+phy_effect       : 100
+double_hit_rate  : 40
+double_hit       : 8
+counter_attack_rate : 60
+counter_attack   : 12
+skills           : ({ "B2", 16, "B4", 16 })
+tractics         : "yezhujing_tactics"
+
+[金猪1]
+polar            : -1
+name             : "金猪"
+icon             : 6178
+portrait         : 6178
+tao_effect       : 50
+life_effect      : 400
+speed_effect     : 40
+phy_absorb       : 60
+mag_absorb       : 80
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 20
+double_hit       : 4
+counter_attack_rate : 30
+counter_attack   : 12
+resist_forgotten : 60
+resist_poison    : 40
+resist_frozen    : 40
+resist_sleep     : 40
+resist_confusion : 60
+skills           : ({ "B2", 16, "B4", 16 })
+tractics         : "jinzhu_tactics"

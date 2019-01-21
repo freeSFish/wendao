@@ -1,0 +1,120 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2010-07-18-18:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2010-08-31-24:00:00" })
+time_list$ : ({ "2010-07-21-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2010-08-31-24:00:00" })
+
+[data_time]
+before_game : 300
+before_interval : 60
+duration : 600
+duration_interval : 120
+
+[monster_info]
+青蛙 : 10
+鱼人 : 10
+虾兵 : 10
+鳌鱼 : 10
+
+[charge_pet]
+name : ({ "鳌鱼0" })
+num  : 1
+
+[place]
+room_list : ({ "揽仙镇外", "官道南", "官道北" })
+
+[青蛙]
+polar            : ({ 1, 2, 4, 5 })
+name             : "青蛙"
+icon             : 6101
+portrait         : 6101
+tao_effect       : 0
+life_effect      : 400
+speed_effect     : 40
+phy_absorb       : 0
+mag_absorb       : 0
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+skills           : ({ "B2", 16, "B4", 16 })
+tactics         : "qingwa_tactics"
+
+[鱼人]
+polar            : ({ 1, 2, 4, 5 })
+name             : "鱼人"
+icon             : 6125
+portrait         : 6125
+tao_effect       : 0
+life_effect      : 500
+speed_effect     : 40
+phy_absorb       : 0
+mag_absorb       : 0
+mag_effect       : 50
+phy_effect       : 50
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+skills           : ({ "B2", 16, "B4", 16 })
+tactics         : "yuren_tactics"
+
+[虾兵]
+polar            : ({ 1, 2, 4, 5 })
+name             : "虾兵"
+icon             : 6163
+portrait         : 6163
+tao_effect       : 0
+life_effect      : 600
+speed_effect     : 40
+phy_absorb       : 0
+mag_absorb       : 0
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+skills           : ({ "B2", 16, "B4", 16 })
+tactics         : "xiabing_tactics"
+
+[鳌鱼]
+polar            : ({ 1, 2, 4, 5 })
+name             : "鳌鱼"
+icon             : 6195
+portrait         : 6195
+tao_effect       : 0
+life_effect      : 800
+speed_effect     : 40
+phy_absorb       : 0
+mag_absorb       : 0
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 30
+double_hit       : 3
+counter_attack_rate : 0
+counter_attack   : 0
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+skills           : ({ "B2", 16, "B4", 16 })
+tactics         : "aoyu_tactics"

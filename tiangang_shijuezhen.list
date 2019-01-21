@@ -1,0 +1,361 @@
+#FORM2
+
+[µØÁÒÕóÖ÷]
+name             : µØÁÒÕóÖ÷
+place            : µØÁÒÕó
+room             : ´óÂŞ¹¬
+icon             : 6244
+portrait         : 6244
+polar            : 4
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_fire      : 200
+tao_effect_func  : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+skill_c_suc      : 1
+zhenzhu          : 1
+assistant_num    : 9
+
+[·çºğÕóÖ÷]
+name             : ·çºğÕóÖ÷
+place            : ·çºğÕó
+room             : Î÷À¥ÂØ
+icon             : 6245
+portrait         : 6245
+polar            : 1
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_metal     : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+cost_life_tactics : "resist_metal"
+skill_c_suc      : 1
+zhenzhu          : 1
+assistant_num    : 9
+
+[º®±ùÕóÖ÷]
+name             : º®±ùÕóÖ÷
+place            : º®±ùÕó
+room             : °ËµÂ³Ø
+icon             : 6246
+portrait         : 6246
+polar            : 3
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_water     : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+skill_c_suc      : 1
+zhenzhu          : 1
+assistant_num    : 9
+
+[ºìÉ°ÕóÖ÷]
+name             : ºìÉ°ÕóÖ÷
+place            : ºìÉ°Õó
+room             : ±ÌÓÎ¹¬
+icon             : 6252
+portrait         : 6252
+polar            : 5
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_earth     : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+skill_c_suc      : 1
+zhenzhu          : 1
+assistant_num    : 9
+
+[ºìË®ÕóÖ÷]
+name             : ºìË®ÕóÖ÷
+place            : ºìË®Õó
+room             : °ËµÂ³Ø
+icon             : 6251
+portrait         : 6251
+polar            : 3
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_water     : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+cost_life_tactics : "resist_water"
+zhenzhu          : 1
+assistant_num    : 9
+
+[»¯ÑªÕóÖ÷]
+name             : »¯ÑªÕóÖ÷
+place            : »¯ÑªÕó
+room             : Æß±¦ÁÖ
+icon             : 6248
+portrait         : 6248
+polar            : 2
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_wood      : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+cost_life_tactics : "resist_wood"
+zhenzhu          : 1
+assistant_num    : 9
+
+[½ğ¹âÕóÖ÷]
+name             : ½ğ¹âÕóÖ÷
+place            : ½ğ¹âÕó
+room             : Î÷À¥ÂØ
+icon             : 6247
+portrait         : 6247
+polar            : 1
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_metal     : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+skill_c_suc      : 1
+zhenzhu          : 1
+assistant_num    : 9
+
+[ÁÒÑæÕóÖ÷]
+name             : ÁÒÑæÕóÖ÷
+place            : ÁÒÑæÕó
+room             : ´óÂŞ¹¬
+icon             : 6249
+portrait         : 6249
+polar            : 4
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_fire      : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+cost_life_tactics : "resist_fire"
+zhenzhu          : 1
+assistant_num    : 9
+
+[ÂäÆÇÕóÖ÷]
+name             : ÂäÆÇÕóÖ÷
+place            : ÂäÆÇÕó
+room             : Æß±¦ÁÖ
+icon             : 6250
+portrait         : 6250
+polar            : 2
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_wood      : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+skill_c_suc      : 1
+zhenzhu          : 1
+assistant_num    : 9
+
+[ÌìãÚÕóÖ÷]
+name             : ÌìãÚÕóÖ÷
+place            : ÌìãÚÕó
+room             : ±ÌÓÎ¹¬
+icon             : 6243
+portrait         : 6243
+polar            : 5
+life_effect      : 1500
+speed_effect     : "Lv * 2 + 50"
+phy_effect       : "Lv * 2"
+mag_effect       : "Lv * 2"
+phy_absorb       : -30
+mag_absorb       : -30
+resist_earth     : 200
+tao_effect       : 200
+all_resist_except : 150
+penetrate_rate   : 50
+penetrate        : 40
+modify_attrib    : ({ "speed_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B5", "C4" })
+monster_tactics  : "tactics_use_magic"
+cost_life_tactics : "resist_earth"
+zhenzhu          : 1
+assistant_num    : 9
+
+[¶ÒÁé]
+name                : ¶ÒÁé
+icon                : 6215
+polar               : 1
+resist_metal        : 200
+skills              : ({ "B3", "B4", "D4" })
+monster_tactics     : "tactics_assistant"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[ÕğÁé]
+name                : ÕğÁé
+icon                : 6215
+polar               : 2
+resist_wood         : 200
+skills              : ({ "B3", "B4", "D4" })
+monster_tactics     : "tactics_assistant"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[¿²Áé]
+name                : ¿²Áé
+icon                : 6215
+polar               : 3
+resist_water        : 200
+skills              : ({ "B3", "B4", "D4" })
+monster_tactics     : "tactics_assistant"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[ÀëÁé]
+name                : ÀëÁé
+icon                : 6215
+polar               : 4
+resist_fire         : 200
+skills              : ({ "B3", "B4", "D4" })
+monster_tactics     : "tactics_assistant"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[ôŞÁé]
+name                : ôŞÁé
+icon                : 6215
+polar               : 5
+resist_earth        : 200
+skills              : ({ "B3", "B4", "D4" })
+monster_tactics     : "tactics_assistant"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[·èÁé]
+name                : ·èÁé
+icon                : 6214
+polar               : 3
+resist_water        : 200
+phy_absorb          : -100
+phy_effect          : "250 + Lv * 3"
+modify_attrib       : ({ "phy_effect" })
+monster_tactics     : "tactics_use_physical"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[¿ñÁé]
+name                : ¿ñÁé
+icon                : 6214
+polar               : 1
+resist_metal        : 200
+phy_absorb          : 0
+double_hit_rate     : 100
+double_hit          : 5
+monster_tactics     : "tactics_use_physical"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[±¬Áé]
+name                : ±¬Áé
+icon                : 6214
+polar               : 4
+resist_fire         : 200
+phy_absorb          : 0
+counter_attack_rate : 100
+counter_attack      : 12
+monster_tactics     : "tactics_use_physical"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[°ÁÁé]
+name                : °ÁÁé
+icon                : 6214
+polar               : 5
+resist_earth        : 200
+phy_absorb          : 0
+stunt_rate          : 100
+monster_tactics     : "tactics_use_physical"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1
+
+[¾µÁé]
+name                : ¾µÁé
+icon                : 6214
+polar               : 2
+resist_wood         : 200
+phy_absorb          : 0
+damage_sel_rate     : 100
+damage_sel          : 100
+monster_tactics     : "tactics_use_physical"
+common_attrib_func  : "set_assistant_common_attrib"
+assistant           : 1

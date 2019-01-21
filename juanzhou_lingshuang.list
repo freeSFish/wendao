@@ -1,0 +1,48 @@
+#FORM2
+
+[任务卷轴·领双]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P天机老人#P了解有关#R双倍奖励时间#n相关的知识。\n温馨提示：在#P天机老人#P处领取#R4小时#n双倍时间，再使用#@特效仙风散|Open:OnlineMarketDlg,特效仙风散#@道具将双倍时间压缩成三倍时间，获得的数值奖励可翻#R3倍#n。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+alias : "领双"
+
+[S0]
+type : "null"
+item : "任务卷轴·领双"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+npc : "天机老人"
+content$ : "NPC:失天机者，事倍功半；得天机者，事半功倍！"
+content$ : "ME:前辈此话何解？"
+content$ : "NPC:在修道升级的过程中，可以找我领取双倍奖励时间。"
+content$ : "NPC:在此时间下，参与一些系统（如除暴、仙人指路等任务）时，可以获得双倍的奖励，这将大大有助于你的修炼。"
+content$ : "NPC:领取双倍时间后，再使用#R特效仙风散#n道具（可在商城中购买），即可将双倍时间压缩为三倍时间，同时获得的数值奖励也相应的提升。"
+content$ : "NPC:非位列仙班的玩家每周可以找我领取#R7小时#n的双倍时间，位列仙班玩家每周可以领取#R16小时#n。"
+content$ : "ME:多谢前辈指点。"
+action : "S2"
+log : "任务目标：找#P天机老人#P了解有关#R双倍奖励时间#n相关的知识。\n温馨提示：在#P天机老人#P处领取#R4小时#n双倍时间，再使用#@特效仙风散|Open:OnlineMarketDlg,特效仙风散#@道具将双倍时间压缩成三倍时间，获得的数值奖励可翻#R3倍#n。"
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·领双"
+log : "任务目标：找#P天机老人#P领取一次双倍奖励时间。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 8000"
+
+[SX]
+type : "null"

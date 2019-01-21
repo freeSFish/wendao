@@ -1,0 +1,29 @@
+#FORM2
+
+[config]
+start_time : "2014-04-14-00:00:00"
+end_time : "2014-05-03-23:59:59"
+
+[all_npcs]
+香菱 : ({ 6308, 243, 199, NORTHEAST, "exp", 0 })
+沐婉 : ({ 6309, 252, 205, NORTHEAST, "exp", 1 })
+梦瑶 : ({ 6310, 254, 194, SOUTHEAST, "both", 2 })
+静琪 : ({ 6311, 263, 190, SOUTHWEST, "tao", 3 })
+芸熙 : ({ 6312, 272, 195, SOUTHWEST, "tao", 4 })
+
+[broadcast_setting]
+broadcast_list : ({ "end_task", "during_task" })
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "八周年庆典已经结束了，各门派小师妹们已经回师门了。感谢众道友！《问道》八年一路有你！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(-3599)"
+message         : "各门派小师妹道法如今已有所成，此次欲趁问道八周年庆典之际下山与各位道友比武切磋，以验证自身的道法修为。各派宗主对她们恩宠有加，所传道法自然不可小觑。众道友是否已经摩拳擦掌、跃跃欲试了呢？快去找#P活动大使#P领取任务，向#R小师妹#n们发起挑战吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

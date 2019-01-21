@@ -1,0 +1,99 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-01-31-00:00:00", "EVERY_DAY(9)", 0, "2015-02-08-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time"
+message         : "#R【九周年】狐生九尾#n活动开始了，#Z官道北#Z的灵狐经过千百年的修炼，竟生九尾而成妖！在九周年活动期间，#R妖狐#n妄想入侵天墉城，中洲的道友们，快去#Z官道北(24,16)#Z阻止它吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【九周年】狐生九尾#n活动正在进行中，#Z官道北#Z的灵狐经过千百年的修炼，竟生九尾而成妖！在九周年活动期间，#R妖狐#n妄想入侵天墉城，中洲的道友们，快去#Z官道北(24,16)#Z阻止它吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【九周年】狐生九尾#n活动已经结束了，妄想入侵的#R妖狐#n已经被驱逐！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[妖狐第一阶段]
+name                : 妖狐的爪牙
+polar               : -1
+religion            : -1
+icon                : 6176
+portrait            : 6176
+life_effect         : 20000
+obstacle_rate       : 0
+phy_effect          : "150 + Lv / 100 * 50 + Lv / 130 * 50 + Lv / 140 * 50 + Lv / 150 * 50"
+mag_effect          : "150 + Lv / 100 * 50 + Lv / 130 * 50 + Lv / 140 * 50 + Lv / 150 * 50"
+speed_effect        : "100 + Lv / 100 * 60 + Lv / 130 * 60 + Lv / 140 * 60 + Lv / 150 * 60"
+tao_effect          : "100 + Lv / 100 * 100 + Lv / 130 * 100 + Lv / 140 * 100 + Lv / 150 * 100"
+penetrate           : "Lv / 2"
+penetrate_rate      : "Lv / 2"
+modify_attrib       : ({ "phy_effect", "mag_effect", "speed_effect", "tao_effect", "penetrate", "penetrate_rate" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "C5", "D5", "lipo-qianjun" })
+tactics             : "tactics_fox_common"
+
+[妖狐第二阶段]
+name                : 妖狐的爪牙
+polar               : -1
+religion            : -1
+icon                : 6176
+portrait            : 6176
+life_effect         : 20000
+obstacle_rate       : 0
+phy_effect          : "150 + Lv / 100 * 50 + Lv / 130 * 50 + Lv / 140 * 50 + Lv / 150 * 50"
+mag_effect          : "150 + Lv / 100 * 50 + Lv / 130 * 50 + Lv / 140 * 50 + Lv / 150 * 50"
+speed_effect        : "100 + Lv / 100 * 60 + Lv / 130 * 60 + Lv / 140 * 60 + Lv / 150 * 60"
+tao_effect          : "100 + Lv / 100 * 100 + Lv / 130 * 100 + Lv / 140 * 100 + Lv / 150 * 100"
+penetrate           : "Lv / 2"
+penetrate_rate      : "Lv / 2"
+modify_attrib       : ({ "phy_effect", "mag_effect", "speed_effect", "tao_effect", "penetrate", "penetrate_rate" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "C5", "D5", "lipo-qianjun" })
+tactics             : "tactics_fox_common"
+
+[妖狐第三阶段]
+name                : 妖狐的分身
+polar               : -1
+religion            : -1
+icon                : 6690
+portrait            : 6690
+life_effect         : 20000
+obstacle_rate       : 0
+phy_effect          : "160 + Lv / 100 * 60 + Lv / 130 * 60 + Lv / 140 * 60 + Lv / 150 * 60"
+mag_effect          : "160 + Lv / 100 * 60 + Lv / 130 * 60 + Lv / 140 * 60 + Lv / 150 * 60"
+speed_effect        : "100 + Lv / 100 * 60 + Lv / 130 * 60 + Lv / 140 * 60 + Lv / 150 * 60"
+tao_effect          : "150 + Lv / 100 * 150 + Lv / 130 * 150 + Lv / 140 * 150 + Lv / 150 * 150"
+modify_attrib       : ({ "phy_effect", "mag_effect", "speed_effect", "tao_effect" })
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "C5", "D5", "lipo-qianjun" })
+tactics             : "tactics_fox_common"
+
+[妖狐]
+name                : 妖狐
+polar               : -1
+religion            : -1
+icon                : 6690
+portrait            : 6690
+life_effect         : 20000
+phy_effect          : "180 + Lv / 100 * 80 + Lv / 130 * 80 + Lv / 140 * 80 + Lv / 150 * 80"
+mag_effect          : "180 + Lv / 100 * 80 + Lv / 130 * 80 + Lv / 140 * 80 + Lv / 150 * 80"
+speed_effect        : "100 + Lv / 100 * 60 + Lv / 130 * 60 + Lv / 140 * 60 + Lv / 150 * 60"
+tao_effect          : "150 + Lv / 100 * 150 + Lv / 130 * 150 + Lv / 140 * 150 + Lv / 150 * 150"
+obstacle_rate       : 0
+skill_success_rate  : 100
+modify_attrib       : ({ "phy_effect", "mag_effect", "speed_effect", "tao_effect" })
+skills              : ({ "lipo-qianjun" })
+family_skills       : ({ "B1", "B2", "B3", "B4", "B5", "C5", "D4" })
+tactics             : "tactics_fox_boss"
+artifact            : ({ "huanyuan-jindou", 24, "fantianyin", 24, "yinyangjing", 24, "jinjiaojian", 24, "jiuhuo-shenlongzhao", 24, "dinghaizhu" , 24 })

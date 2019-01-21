@@ -1,0 +1,194 @@
+#FORM2
+
+[time]
+start_time : "2011-10-19-00:00:00"
+end_time   : "2011-10-20-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "before_end_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time"
+message         : "感恩节活动已经开始了，大家可以到#P感恩节活动大使|天墉城（240,187）#P那里了解感恩节活动。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "感恩节活动已经开始了，大家可以到#P感恩节活动大使|天墉城（240,187）#P那里了解感恩节活动。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-600)"
+interval        : 60
+broadcast_end   : "end_time(-1)"
+message         : "本次感恩节活动即将结束，感谢大家的参与。祝大家快乐游戏，快乐生活！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "此次感恩节活动圆满结束了，感谢大家的参与。祝大家快乐游戏，快乐生活！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[主怪1]
+polar : -1
+name  : 怪物头领
+life_effect      : "700 + (LV - 70) * 10"
+phy_effect       : "LV + 20"
+mag_effect       : "LV + 20"
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+tao_effect : 15
+speed_effect : 15
+skills : ({ "B3", "B4" })
+tactics : "tactics_zhuguai_1"
+
+[主怪2]
+polar : -1
+name  : 怪物头领
+life_effect      : "700 + (LV - 70) * 10"
+phy_effect       : "LV + 20"
+mag_effect       : "LV + 20"
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+tao_effect : 15
+speed_effect : 15
+skills : ({ "D5", "B4" })
+tactics : "tactics_zhuguai_2"
+
+[主怪3]
+polar : -1
+name  : 怪物头领
+life_effect      : "700 + (LV - 70) * 10"
+phy_effect       : "LV + 20"
+mag_effect       : "LV + 20"
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+tao_effect : 15
+speed_effect : 15
+skills : ({ "B4", "lipo-qianjun" })
+tactics : "tactics_zhuguai_3"
+
+[兑灵]
+icon : 6206
+portrait : 6206
+name : 没有火鸡吃的怪物
+polar : 1
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+resist_metal : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[震灵]
+icon : 6207
+portrait : 6207
+name : 没有火鸡吃的怪物
+polar : 2
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+resist_wood : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[坎灵]
+icon : 6208
+portrait : 6208
+name : 没有火鸡吃的怪物
+polar : 3
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+resist_water : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[离灵]
+icon : 6209
+portrait : 6209
+name : 没有火鸡吃的怪物
+polar : 4
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+resist_fire : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[艮灵]
+icon : 6210
+portrait : 6210
+name : 没有火鸡吃的怪物
+polar : 5
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+resist_earth : 75
+skills : ({ "B4" })
+tactics : "tactics_first"
+
+[疯灵]
+icon : 6203
+portrait : 6203
+name : 没有火鸡吃的怪物
+polar : 0
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+speed_effect : 	-10
+phy_absorb : -50
+tactics : "tactics_physical"
+
+[爆灵]
+icon : 6203
+portrait : 6203
+name : 没有火鸡吃的怪物
+polar : 0
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+speed_effect : 	-10
+counter_attack_rate : 100
+counter_attack : 12
+tactics : "tactics_physical"
+
+[狂灵]
+icon : 6203
+portrait : 6203
+name : 没有火鸡吃的怪物
+polar : 0
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+speed_effect : 	-10
+double_hit_rate : 100
+double_hit : 5
+tactics : "tactics_physical"
+
+[镜灵]
+icon : 6203
+portrait : 6203
+name : 没有火鸡吃的怪物
+polar : 0
+life_effect : "350 + (LV - 70) * 5"
+phy_effect : "LV - 20"
+mag_effect : "LV - 20"
+speed_effect : 	-10
+damage_sel_rate : 100
+damage_sel : 100
+tactics : "tactics_physical"

@@ -1,0 +1,31 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-04-04-18:00:00", "EVERY_HOUR(4)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "prepare_task", "during_task1", "during_task2" })
+
+[prepare_task]
+broadcast_start : "start_time(-86400)"
+interval        : 1200
+broadcast_end   : "start_time(-1)"
+message         : "九重天曙光已现，预计将在#RSTART_TIME#n至#REND_TIME#n开放，届时玩家可通过#P九重天仙官|九重天仙官1#P登上九重天跨服区组进行#R跨服升级#n活动，请广大玩家做好准备，登上九重天！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+sender          : ""
+
+[during_task1]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "九重天已经开放，请广大玩家通过#P九重天仙官|九重天仙官1#P登上九重天跨服区组进行#R跨服升级#n活动，本次活动开放时间为#RSTART_TIME#n至#REND_TIME#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+sender          : ""
+
+[during_task2]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "#R跨服升级#n活动已经开放，请广大玩家通过#P九重天仙官|九重天仙官1#P登上九重天跨服区组参与活动，本次活动开放时间为#RSTART_TIME#n至#REND_TIME#n。"
+channel         : "CHANNEL_HORN | CHANNEL_NO_BROADCAST"
+sender          : "九重天仙官"

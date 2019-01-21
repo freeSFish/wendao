@@ -1,0 +1,23 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-08-20-00:00:00", "EVERY_WEEK(1)", "EVERY_WEEK(1)", "2012-08-26-23:59:59" })
+
+[npc_info]
+织女 : ({ 6139, "揽仙镇", 23, 106, SOUTHEAST, "init_zhinv_menu_content", "init_zhinv_menu_action" })
+牛郎 : ({ 6012, "揽仙镇", 354, 129, SOUTHEAST, "init_niulang_menu_content", "init_niulang_menu_action" })
+王母娘娘 : ({ 6074, "天墉城", 11, 275, NORTHEAST, "init_wangmu_menu_content", "init_wangmu_menu_action" })
+
+[bonus_item]
+rate : ({ 300, 300, 300, 400, 300, 300, 300, 200, 100 })
+item : ({ "惊妖铃", "急急如律令", "引路蜂", "飞行符", "特效仙风散", "黑水晶", "粉水晶", "绿水晶", "超级圣水晶" })
+
+[broadcast_setting]
+broadcast_list  : ({ "durling_task" })
+
+[durling_task]
+broadcast_start : "start_time(+2400)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "一年一度的七夕节又来到了，在这七天里，如果你每天都到#P七夕节活动大使|天墉城(212,188)#P处帮些小忙，也许会有意外的惊喜哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

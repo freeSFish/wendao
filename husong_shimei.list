@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time       : "2014-04-14-00:00:00"
+end_time         : "2014-05-03-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "end_task", "during_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【八周年】护送师妹#n活动开始了，大家快去#P活动大使#P处领取任务，护送各门派的#R师妹们#n回师门看望长老，完成后可获得丰厚的数值奖励更有机会获得商城道具大奖。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【八周年】护送师妹#n活动圆满结束，#P活动大使#P非常感谢大家的热心帮助。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1199)"
+interval        : 1200
+broadcast_end   : "end_time(-1)"
+message         : "#R【八周年】护送师妹#n活动正在进行中，大家快去#P活动大使#P处领取任务，护送各门派的#R师妹们#n回师门看望长老，完成后可获得丰厚的数值奖励更有机会获得商城道具大奖。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

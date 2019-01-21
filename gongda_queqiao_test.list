@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time : "2014-05-30-00:00:00"
+end_time   : "2014-06-01-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "迢迢牵牛星，皎皎河汉女！#R【七夕节】共搭鹊桥#n活动开始了，大家快去#Z风月谷#Z请#R七夕喜鹊#n协助搭建#R鹊桥#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "迢迢牵牛星，皎皎河汉女！#R【七夕节】共搭鹊桥#n活动正在进行中，大家快去#Z风月谷#Z请#R七夕喜鹊#n协助搭建#R鹊桥#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "迢迢牵牛星，皎皎河汉女！#R【七夕节】共搭鹊桥#n活动结束了，祝大家七夕节快乐，明年再见！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

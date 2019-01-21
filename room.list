@@ -1,0 +1,3806 @@
+#FORM2
+
+#################################################################################
+# [地图名]
+#
+# alias  : 该地图对应的文件名
+# map_id : 该地图的图档编号
+# npc_guide_index: 该地图NPC精灵索引
+# compact_map_index: 该地图小地图的索引
+#
+# exits$ : ({ 连通地图, 传送点X坐标, 传送点Y坐标,
+#             传送点图标（方向为箭头，切换房间时使用；CIRCLE为圆形）,
+#             传送后X坐标, 传送后Y坐标, 传送后人物朝向,
+#             区域名称（跨区域移动时务必填写） })
+#
+# npc$   : ({ NPC文件名, X坐标, Y坐标, NPC朝向, 优先级, 名字 })
+# 优先级: NPC精灵显示时的优先级，数字越大，显示越靠后
+# 名字:   NPC的中文名
+#
+# monster_list : ({ 怪物文件名 })
+#
+# template     : ({ 支持模版名 })
+#
+# family       : FAMILY_YUZHUDONG 门派遇敌
+#
+# p_touch_monster : 该地图是否可以遇敌（1 可以；0 不可以）
+# p_auto_touch : 该地图是否可以使用自动遇敌功能（1 可以；0 不可以）
+# show_name : The name for client
+#################################################################################
+
+[揽仙镇]
+alias   : ({ "lanxianzhen" })
+map_id  : 1000
+exits$  : ({ "永合杂货铺", 224, 99,  NORTHEAST, 16, 26, NORTHEAST })
+exits$  : ({ "揽仙客栈", 257, 176, NORTHEAST, 16, 29, NORTHEAST })
+exits$  : ({ "天下钱庄", 256, 123, NORTHEAST, 18, 28, NORTHEAST })
+exits$  : ({ "万全药铺", 193, 183, NORTHWEST, 18, 23, NORTHWEST })
+exits$  : ({ "威扬武器店", 174, 118, NORTHEAST, 15, 23, NORTHEAST })
+exits$  : ({ "天锦布庄", 119, 125, NORTHEAST, 14, 20, NORTHEAST })
+exits$  : ({ "官道南", 221, 5,   CIRCLE, 124, 229, NORTH,     "官道" })
+exits$  : ({ "揽仙镇外", 348, 252, CIRCLE, 18,  148, SOUTHEAST, "揽仙镇外" })
+npc$    : ({ "THIS_PLACE/duowen-daoren",        81,  182, SOUTHWEST, 0,     多闻道人})
+npc$    : ({ "THIS_PLACE/huangsaner",           209, 179, SOUTHEAST, 2048,  黄仨儿 })
+npc$    : ({ "THIS_PLACE/lianhua-guniang",      326, 212, SOUTHWEST, 10240, 莲花姑娘 })
+npc$    : ({ "THIS_PLACE/leshanshi",            369, 59,  SOUTHWEST, 11264, 乐善施 })
+npc$    : ({ "THIS_PLACE/qingjing-sanren",      357, 99,  SOUTHWEST, 12288, 清净散人 })
+npc$    : ({ "THIS_PLACE/yiyezhiqiu",           341, 62,  SOUTHEAST, 14336, 一叶知秋 })
+npc$    : ({ "THIS_PLACE/xingyundashi",         240, 49,  SOUTHEAST, 15360, 幸运大使 })
+#npc$    : ({ "THIS_PLACE/huojudashi",           217, 142, SOUTHWEST, -1,    火炬大使 })
+npc$    : ({ "THIS_PLACE/miaomiao-daoren",      55,  173, SOUTHEAST, 512,   渺渺道人 })
+npc$    : ({ "THIS_PLACE/huayang-zhenren",      20,  12,  SOUTHEAST, 1024,  华阳真人 })
+#npc$    : ({ "THIS_PLACE/baozai-junliangguan",  255, 50,  SOUTHWEST, 11264, 爆仔军粮官 })
+npc$    :  ({ "THIS_PLACE/anquan-dashi",        265, 56,  SOUTHWEST, 40000, 安全大使 })
+#npc$    :  ({ "THIS_PLACE/sishu-xiansheng",     52,  236, SOUTHEAST, 41000, 私塾先生 })
+npc$    :  ({ "THIS_PLACE/diexian",             110, 215, SOUTHWEST, 50128, 蝶仙 })
+npc$    :  ({ "THIS_PLACE/huangxuejiu",         39,  238, SOUTHEAST, 50256, 黄学究 })
+npc$    :  ({ "THIS_PLACE/shenchong",           232, 202, SOUTHWEST, 50512, 神宠 })
+npc$    :  ({ "THIS_PLACE/menpai-zhiyinren",    146, 61,  SOUTHEAST, 50768, 门派指引人 })
+npc$    :  ({ "THIS_PLACE/xuezi",               43,  244, SOUTHEAST, 51024, 学子 })
+template: ({ "idle_template" })
+fly_room : ({ 284, 91 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_CAN_CASUAL_GAME"
+
+[揽仙客栈]
+alias   : ({ "lanxian-kezhan" })
+map_id  : 1006
+exits$  : ({ "揽仙镇", 13, 30, SOUTHWEST, 253, 178, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/kezhan-laoban", 11, 23, SOUTHEAST, 3072, 赵老板 })
+npc$    : ({ "THIS_PLACE/xiaoerge",      30, 18, SOUTHEAST, 4096, 小二哥 })
+fly_room : ({ 13, 30 })
+room_limit : "ROOM_CATCH_PKER"
+
+[天锦布庄]
+alias   : ({ "tianjin-buzhuang" })
+map_id  : 1001
+exits$  : ({ "揽仙镇", 11, 21, SOUTHWEST, 115, 128, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/budian-laoban",   26,  17, SOUTHWEST, 9216, 卜老板 })
+fly_room : ({ 11, 21 })
+room_limit : "ROOM_CATCH_PKER"
+
+[天下钱庄]
+alias   : ({ "tianxia-qianzhuang" })
+map_id  : 1004
+exits$  : ({ "揽仙镇", 14, 30, SOUTHWEST, 250, 123, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/qianzhuang-laoban", 14, 17, SOUTHEAST, 8192, 钱老板 })
+fly_room : ({ 14, 30 })
+room_limit : "ROOM_CATCH_PKER | ROOM_F_MULTI_FLY"
+
+[万全药铺]
+alias   : ({ "wanquan-yaopu" })
+map_id  : 1003
+exits$  : ({ "揽仙镇", 22, 26, SOUTHEAST, 197, 186, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/yaodian-laoban", 27, 19, SOUTHWEST, 6144, 王老板 })
+fly_room : ({ 22, 26 })
+room_limit : "ROOM_CATCH_PKER"
+
+[威扬武器店]
+alias   : ({ "weiyang-wuqidian" })
+map_id  : 1002
+exits$  : ({ "揽仙镇", 12, 25, SOUTHWEST, 170, 120, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/wuqidian-laoban", 28, 16, SOUTHWEST, 5120, 张老板 })
+fly_room : ({ 12, 25 })
+room_limit : "ROOM_CATCH_PKER"
+
+[永合杂货铺]
+alias   : ({ "yonghe-zahuopu" })
+map_id  : 1005
+exits$  : ({ "揽仙镇", 13, 28, SOUTHWEST, 220, 101, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/zahuodian-laoban", 24, 12, SOUTHWEST, 7168, 贾老板 })
+fly_room : ({ 13, 28 })
+room_limit : "ROOM_CATCH_PKER"
+
+[揽仙镇外]
+alias   : ({ "lanxianzhenwai" })
+map_id  : 2000
+exits$  : ({ "揽仙镇", 1,   131, CIRCLE, 341, 246, NORTHWEST, "揽仙镇" })
+exits$  : ({ "卧龙坡", 147, 60,  CIRCLE, 6,   124, EAST,      "卧龙坡" })
+npc$    : ({ "misc/yerufeng",            29,  114, SOUTHEAST, 0,    叶如风 })
+npc$    : ({ "THIS_PLACE/wada",          25,  117, SOUTHEAST, 1024, 蛙大 })
+npc$    : ({ "THIS_PLACE/waer",          27,  117, SOUTHEAST, 2048, 蛙二 })
+npc$    : ({ "THIS_PLACE/waxizai",       30,  116, SOUTHEAST, 3072, 蛙细仔 })
+npc$    : ({ "THIS_PLACE/wanan",         32,  115, SOUTHEAST, 4096, 蛙囡 })
+npc$    : ({ "misc/hujingxian", 91, 93,  SOUTHWEST, 8192, 湖镜仙 })
+monster_list : ({ "qingwa", "songshu" })
+template     : ({ "standard_template", "thief_template" })
+log_action   : "liangq_lxzw"
+fly_room : ({ 18, 150 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH"
+
+[卧龙坡]
+alias   : ({ "wolongpo" })
+map_id  : 3000
+exits$  : ({ "揽仙镇外", 2, 124, CIRCLE, 142, 60, WEST, "揽仙镇外" })
+npc$    : ({ "misc/xuanwu",             78, 33,  SOUTHEAST, 0, 玄武 })
+npc$    : ({ "misc/shenlong-zhenren",   145, 15, NORTHEAST, 1024, 神龙真人 })
+npc$    : ({ "THIS_PLACE/mengmianren",  103, 38, SOUTHEAST, 2048, 蒙面人1 })
+npc$    : ({ "THIS_PLACE/lata-daoren",  16, 161, SOUTHEAST, 4096, 邋遢道人 })
+npc$    : ({ "lanxianzhenwai/shenshouyiren", 147,  87,  SOUTHWEST, 8192,   神兽异人 })
+monster_list : ({ "tuzi", "she" })
+template     : ({ "standard_template", "thief_template" })
+log_action   : "liangq_wlp"
+fly_room : ({ 16, 121 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH"
+
+[官道北]
+alias   : ({ "guandaobei" })
+map_id  : 24000
+exits$  : ({ "天墉城", 14,  4,   CIRCLE, 403, 276, NORTH,  "天墉城" })
+exits$  : ({ "官道南", 117, 180, CIRCLE, 140, 12,  SOUTHWEST })
+npc$    : ({ "misc/pilixian", 105, 126,  NORTHEAST, 0, 霹雳仙 })
+monster_list : ({ "huli", "yegou" })
+template     : ({ "standard_template", "thief_template" })
+log_action   : "liangq_gdb"
+fly_room : ({ 14, 9 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH"
+
+[官道南]
+alias   : ({ "guandaonan" })
+map_id  : 4000
+npc$    : ({ "misc/jiefeihuhanshan", 107, 71, SOUTHWEST, 0, 劫匪胡汉山 })
+npc$    : ({ "misc/yehuaxian", 115, 122,  NORTHEAST, 1024, 叶猾仙 })
+exits$  : ({ "官道北", 148, 7,   CIRCLE, 120, 177, NORTHEAST })
+exits$  : ({ "揽仙镇", 126, 233, CIRCLE, 214, 9,  SOUTHWEST, "揽仙镇" })
+monster_list : ({ "houzi", "shanmao" })
+template     : ({ "standard_template", "thief_template" })
+log_action   : "liangq_gdn"
+fly_room : ({ 124, 23 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH"
+
+[天墉城]
+alias   : ({ "tianyongcheng" })
+map_id  : 5000
+exits$  : ({ "富甲钱庄",   218, 226, NORTHWEST, 65, 52,  NORTHWEST }),
+exits$  : ({ "神勇兵器铺",   291, 180, NORTHWEST, 24, 34,  NORTHWEST }),
+exits$  : ({ "巧手坊",   108, 173, NORTHEAST, 24, 44,  NORTHEAST }),
+#exits$  : ({ "官府",   378, 18,  CIRCLE, 17, 74,  NORTHEAST }),
+exits$  : ({ "喜来客栈",   273, 245, NORTHEAST, 27, 57,  NORTHEAST }),
+exits$  : ({ "回春堂药铺", 270, 100, NORTHWEST, 35, 53,  NORTHWEST }),
+#exits$  : ({ "威震镖局",   27,  64,  NORTHEAST, 24, 47,  NORTHEAST }),
+exits$  : ({ "悟云观",   68, 218, NORTHWEST, 77, 57,  NORTHWEST }),
+exits$  : ({ "南北杂货铺", 122, 46,  NORTHWEST, 44, 47,  NORTHWEST }),
+exits$  : ({ "仁和布庄",   155, 136, NORTHWEST, 53, 63,  NORTHWEST }),
+#exits$ : ({ "民居1",    264, 73,  NORTHEAST, 18, 49,  NORTHEAST }),
+exits$  : ({ "民居2",    347, 113, NORTHEAST, 16, 28,  NORTHEAST }),
+exits$  : ({ "监狱",    389, 15,  NORTHEAST, 27, 47,  NORTHEAST }),
+exits$  : ({ "总督衙门",      407, 36,  NORTHEAST, 36, 60,  NORTHEAST }),
+exits$  : ({ "官道北",     411, 279, CIRCLE,    20, 11,   SOUTHEAST, "官道" }),
+exits$  : ({ "桃柳林",     10, 4,   CIRCLE,    11, 118, NORTHEAST, "桃柳林" })
+npc$    : ({ "THIS_PLACE/donglaotou",        221, 109,   SOUTHWEST, 850, 董老头 })
+#npc$    : ({ "THIS_PLACE/shenmishangren",    156, 259,   SOUTHWEST, -1, 神秘商人 })
+npc$    : ({ "misc/ning-caishen",      143, 198,   SOUTHWEST, 880, 宁彩神 })
+npc$    : ({ "THIS_PLACE/lingshouyiren",     289, 262,   SOUTHWEST, 100, 灵兽异人2 })
+npc$    : ({ "THIS_PLACE/menpaishizhe",      346, 211,   SOUTHEAST, 30, 门派使者 })
+npc$    : ({ "THIS_PLACE/chuanfu",           181, 278,   SOUTHEAST, 10, 船夫8 })
+npc$    : ({ "THIS_PLACE/chefu",             371, 152,   SOUTHEAST, 0, 车夫4 })
+npc$    : ({ "THIS_PLACE/qigai",             376, 91,    SOUTHEAST, 100000, 乞丐1 })
+npc$    : ({ "THIS_PLACE/qigai",             282, 101,   SOUTHEAST, 100001, 乞丐2 })
+npc$    : ({ "THIS_PLACE/qigai",             135, 42,    SOUTHEAST, 100002, 乞丐3 })
+npc$    : ({ "THIS_PLACE/qianmianguai",       28, 180,   SOUTHWEST, 350, 千面怪 })
+npc$    : ({ "THIS_PLACE/shouwei",           396, 268,   SOUTHWEST, 9999, 天墉城守卫 })
+npc$    : ({ "THIS_PLACE/mengmian",          200, 14,    SOUTHWEST, 590, 蒙面 })
+npc$    : ({ "THIS_PLACE/tianjilaoren",      405, 169,   SOUTHWEST, 20, 天机老人 })
+npc$    : ({ "THIS_PLACE/shoucheng-shibing1", 392, 264,   SOUTHWEST, 9990, 守城士兵1 })
+npc$    : ({ "THIS_PLACE/shoucheng-shibing2", 382, 269,   SOUTHEAST, 9991, 守城士兵2 })
+npc$    : ({ "THIS_PLACE/puhua-tianzun",     298, 179,   SOUTHEAST, 750, 普华天尊 })
+npc$    : ({ "THIS_PLACE/bingfen-dashi", 310, 174, SOUTHEAST, 480, 缤纷大使 })
+npc$    : ({ "THIS_PLACE/huodong-dashi", 240, 187, SOUTHEAST, 285, 活动大使 })
+#npc$    : ({ "misc/xianguan", 70, 104, SOUTHEAST, 53248, 仙官 })
+#npc$   : ({ "THIS_PLACE/shibing",           323,  64,   NORTHWEST, -1, 士兵 })
+#npc$   : ({ "THIS_PLACE/shibing",           316,  60,   SOUTHEAST, -1, 士兵 })
+#npc$   : ({ "THIS_PLACE/shibing",           364,  47,   SOUTHWEST, -1, 士兵 })
+#npc$   : ({ "THIS_PLACE/shibing",           355,  42,   SOUTHWEST, -1, 士兵 })
+#npc$   : ({ "THIS_PLACE/shibing",           397,   8,   SOUTHWEST, -1, 士兵 })
+#npc$   : ({ "THIS_PLACE/shibing",           403,  11,   SOUTHWEST, -1, 士兵 })
+#npc$   : ({ "THIS_PLACE/shibing",           352,  16,   SOUTHWEST, -1, 士兵 })
+#npc$   : ({ "THIS_PLACE/shibing",           402,  44,   SOUTHEAST, -1, 士兵 })
+npc$    : ({ "THIS_PLACE/shoucheng-shibing3",  57,  47,   SOUTHWEST, 9992, 守城士兵3 })
+npc$    : ({ "THIS_PLACE/shoucheng-shibing4",  48,  51,   NORTHEAST, 9993, 守城士兵4 })
+npc$    : ({ "THIS_PLACE/nianxin-daoren",     92, 221,   SOUTHEAST, 630, 念心道人 })
+npc$    : ({ "THIS_PLACE/bangpai-shizhe",    274, 189,   SOUTHWEST, 40,  帮派使者 })
+#npc$    : ({ "THIS_PLACE/qianduoduo",        397, 112,   SOUTHWEST, -1,  钱多多 })
+npc$    : ({ "THIS_PLACE/baixiao-tong",      199, 160,   SOUTHEAST, 560, 百晓通 })
+npc$    : ({ "THIS_PLACE/xin-renai",         283, 55,   SOUTHWEST, 380, 辛仁皑 })
+npc$    : ({ "misc/yexingren",               109, 20,   SOUTHEAST, 400, 夜行人 })
+npc$    : ({ "THIS_PLACE/shidaodahui-shenqingren", 229, 113, SOUTHWEST, 280, 试道大会申请人 })
+npc$    : ({ "THIS_PLACE/nanji-xianweng",     45, 119,   SOUTHEAST, 390, 南极仙翁 })
+npc$    : ({ "THIS_PLACE/wuming-jianke.c",    29, 125,   SOUTHEAST, 360, 无名剑客 })
+npc$    : ({ "THIS_PLACE/minfang-zongguan.c",163, 208,   SOUTHWEST, 250, 民房总管 })
+npc$    : ({ "THIS_PLACE/hongniang.c",       151, 202,   SOUTHWEST, 600, 红娘 })
+npc$    : ({ "THIS_PLACE/youfang-shushi.c",  156, 49,   SOUTHWEST, 430, 游方术士 })
+npc$    : ({ "THIS_PLACE/dahuzi.c",          271,  48,   SOUTHWEST, 450, 大胡子 })
+npc$    : ({ "THIS_PLACE/wuxing-jingcaishi.c", 317, 199,  SOUTHWEST, 500, 五行竞猜使 })
+npc$    : ({ "THIS_PLACE/maoshan-daoshi.c",  213,  40,   SOUTHEAST, 580, 茅山道士 })
+npc$    : ({ "THIS_PLACE/xiaoyaoxian.c",     31, 273,   NORTHWEST, 640, 逍遥仙 })
+npc$    : ({ "THIS_PLACE/shensuanzi.c",      298, 261,   SOUTHEAST, 460, 神算子 })
+npc$    : ({ "THIS_PLACE/jieri-dashi.c",      15, 132,   SOUTHEAST, 340, 节日大使 })
+npc$    : ({ "THIS_PLACE/gongzhengren.c",    287, 23,    SOUTHWEST, 540, 点卡寄售商 })
+npc$    : ({ "THIS_PLACE/shanghui-huizhang.c", 270, 146,  SOUTHWEST, 70, 商会会长 })
+npc$    : ({ "THIS_PLACE/jishi-chuansongren.c", 235, 165,  SOUTHEAST, 60, 集市传送人1 })
+npc$    : ({ "THIS_PLACE/paimaishi.c", 206, 99,  SOUTHWEST, 80, 拍卖师 })
+npc$    : ({ "THIS_PLACE/bangpai-guanliyuan.c", 180, 83,  SOUTHWEST, 260, 帮派管理员 })
+npc$    : ({ "THIS_PLACE/xingzhe.c",            100, 48,   SOUTHWEST, -1, 行者 })
+npc$    : ({ "THIS_PLACE/qingfengdaoren.c",  87, 167,  SOUTHWEST, 440, 清风道人 })
+npc$    : ({ "THIS_PLACE/linlaohan.c",      338, 111,  SOUTHWEST, 820, 林老汉 })
+npc$    : ({ "THIS_PLACE/gongchengzhan-guanliyuan.c", 164, 174, SOUTHEAST, 370, 攻城战管理员 })
+npc$    : ({ "THIS_PLACE/chilingzunshen.c", 197, 48, SOUTHEAST, 11264, 赤灵尊神 })
+npc$    : ({ "THIS_PLACE/jingji-sqr.c",     273, 155, SOUTHWEST, 310, 竞技申请人 })
+npc$    : ({ "THIS_PLACE/shouhutianshen.c", 382, 192, SOUTHEAST, 320, 守护天神 })
+npc$    : ({ "THIS_PLACE/chongfanwendao-dashi.c", 291, 89, SOUTHEAST, 680, 重返问道大使 })
+npc$    : ({ "THIS_PLACE/xuantianling-dashi",    194, 81,  SOUTHEAST, 770, 玄天令活动大使 })
+npc$    : ({ "THIS_PLACE/menpaibiwu-shenqingren",  261, 107, SOUTHWEST, 300, 门派比武大会申请人 })
+npc$    : ({ "THIS_PLACE/yuanbao-shangren", 174, 59, SOUTHEAST, 660, 元宝商人 })
+#npc$    : ({ "misc/jiangquan-huodongdashi", 349, 62, SOUTHEAST, -1, 奖券活动大使 })
+#npc$    : ({ "THIS_PLACE/aoyunzhishi-kaoguan.c", 303, 167, SOUTHEAST, -1, 奥运知识考官 })
+npc$    : ({ "THIS_PLACE/zhanchang-jieyinren.c",  181, 189, SOUTHWEST, 860, 战场接引人 })
+npc$    : ({ "THIS_PLACE/wenjuan-diaochayuan.c", 193, 163, SOUTHEAST, 690, 问卷调查专员 })
+npc$    : ({ "THIS_PLACE/guidaozi.c", 258, 75, SOUTHWEST, 840, 鬼道子 })
+npc$    : ({ "THIS_PLACE/qingdian-dashi", 301, 17, SOUTHWEST, 44033, 庆典大使 })
+npc$    : ({ "THIS_PLACE/huanjingsanren.c", 403, 137, SOUTHEAST, 890, 幻境散人 })
+npc$    : ({ "THIS_PLACE/qingmu-daoren", 114, 232, SOUTHWEST, 740, 青木道人 })
+npc$    : ({ "THIS_PLACE/baibangmang.c", 309, 255, SOUTHEAST, 110, 白邦芒 })
+npc$    : ({ "THIS_PLACE/miaoshou-daoren.c", 160, 67, SOUTHEAST, 635, 妙手道人 })
+npc$    : ({ "THIS_PLACE/beidouxingshi.c", 150, 22,  SOUTHEAST, 570, 北斗星使 })
+#npc$    : ({ "THIS_PLACE/kongkong-daoren.c", 192, 260, SOUTHWEST, 31744, 空空道人 })
+npc$    : ({ "THIS_PLACE/wuji-sanren", 340, 159, SOUTHEAST, 610, 无极散人 })
+npc$    : ({ "THIS_PLACE/recommend", 241, 238, SOUTHWEST, 625, 问道引路人 })
+npc$    : ({ "THIS_PLACE/shengxiao-shizhe", 88, 99, SOUTHEAST, 810, 生肖使者 })
+npc$    : ({ "THIS_PLACE/zhuangyuanwangzhongwang", 256, 245, SOUTHWEST, 510, 状元王中王 })
+#npc$    : ({ "THIS_PLACE/zhumo-zhenren", 106, 116, SOUTHWEST, 40960, 诛魔真人 })
+#npc$    : ({ "THIS_PLACE/xiangyao-zhenren", 387, 106, SOUTHWEST, 54272, 降妖真人 })
+npc$    : ({ "THIS_PLACE/tianxia-diyibang-shizhe", 267, 186, SOUTHWEST, 270, 天下第一帮使者 })
+npc$    : ({ "THIS_PLACE/baimeizhenren",           32,  234, SOUTHEAST, 870, 白眉真人 })
+npc$    : ({ "THIS_PLACE/duiduile",           329, 164, SOUTHEAST,      790, 兑兑乐 })
+npc$    : ({ "THIS_PLACE/lizongbing",           314, 163, SOUTHEAST,      130, 李总兵 })
+#npc$    : ({ "THIS_PLACE/xietingfeng", 195, 214, SOUTHWEST, 68000, 谢听风 })
+#npc$    : ({ "THIS_PLACE/lilian-wuziguan", 328, 215, SOUTHWEST, 9984, 历练物资官 })
+npc$    : ({ "THIS_PLACE/dawen-sanren", 124, 181, SOUTHWEST, 330, 达闻散人 })
+npc$    : ({ "THIS_PLACE/yangbiaotou", 38, 91, SOUTHEAST, 410, 杨镖头 })
+npc$    : ({ "THIS_PLACE/wenquxing", 356, 205, SOUTHEAST, 120, 文曲星 })
+npc$    : ({ "THIS_PLACE/wudouzhe",  244, 107,   SOUTHEAST, 290,  武斗者 })
+npc$    : ({ "THIS_PLACE/shengjing_shizhe", 280, 187, SOUTHEAST, 7681, 圣境使者 })
+npc$    : ({ "THIS_PLACE/qiankun_shizhe", 202, 76, SOUTHEAST, 7682, 乾坤使者 })
+npc$    : ({ "THIS_PLACE/hongyun_shizhe", 199, 138, SOUTHEAST, 6038, 鸿运使者 })
+npc$    : ({ "THIS_PLACE/xuanxiudashi", 233, 218,   SOUTHEAST, 7682,  问道选秀大使 })
+npc$    : ({ "THIS_PLACE/tuangou_shangren", 210, 180, SOUTHEAST, 3019, 团购商人 })
+#npc$    : ({ "THIS_PLACE/wuying_xian", 314, 252, SOUTHEAST, 910, 无影仙 })
+npc$    : ({ "misc/huodong-dashi", 392, 187, SOUTHEAST, 920, 问道活动大使 })
+npc$    : ({ "misc/wudao-zunzhe", 218, 156, SOUTHEAST, 930, 武道尊者 })
+npc$    : ({ "THIS_PLACE/kuafushidao-jieyinren", 238, 110, SOUTHEAST, 930, 跨服试道接引人 })
+npc$    : ({ "THIS_PLACE/wendaoyuan-dashi", 314, 71, SOUTHWEST, 950, 问道缘大使 })
+npc$    : ({ "THIS_PLACE/wangzhongwang", 235, 140, SOUTHEAST, -1, 王中王 })
+npc$    : ({ "THIS_PLACE/mingren-jieyinren", 156, 178, SOUTHEAST, 960, 名人争霸赛接引人 })
+#npc$    : ({ "THIS_PLACE/samsung-jieyinren", 213, 232, SOUTHEAST, 970, 三星竞技赛接引人 })
+npc$    : ({ "THIS_PLACE/leitai-guanliren", 361, 193, SOUTHEAST, 44031, 擂台管理人 })
+#npc$    : ({ "THIS_PLACE/qiankun-laozu", 185, 242, SOUTHEAST, 970, 乾坤老祖 })
+npc$    : ({ "misc/ledoudou", 395, 89, SOUTHEAST, 1024, 乐豆豆 })
+npc$    : ({ "misc/guichengxiang", 405, 84, SOUTHEAST, 18888, 龟丞相 })
+npc$    : ({ "misc/jinxie-jiangjun", 400, 87, SOUTHEAST, 20000, 金蟹将军 })
+npc$    : ({ "misc/xianyuan-daoren", 350, 89, SOUTHWEST, 1026, 仙缘道人 })
+npc$    : ({ "tianyongcheng/hutu-daoren", 65, 235, SOUTHEAST, 1029, 糊涂道人 })
+#npc$    : ({ "misc/caicaile", 338, 206, SOUTHWEST, 18889, 猜猜乐 })
+npc$    : ({ "misc/zhongzhou-jieyinren3.c", 172, 172, SOUTHEAST, 1030, 中洲争霸战接引人3 })
+npc$    : ({ "misc/haojiyou", 251, 37, SOUTHWEST, 1031, 彭满天 })
+npc$    : ({ "tianyongcheng/zhuangban-dashi", 364, 175, NORTHEAST, 1032, 天墉城装扮大使 })
+#npc$    : ({ "tianyongcheng/dali_shenzhu", 220, 131, SOUTHEAST, 1064, 大力神猪 })
+npc$    : ({ "THIS_PLACE/quanmin-pk-jieyinren", 211, 160, SOUTHEAST, 1033, 全民PK赛接引人 })
+npc$    : ({ "tianyongcheng/xianguan", 166, 134, SOUTHWEST, 1099, 九重天仙官1 })
+npc$    : ({ "tianyongcheng/jinling-zunsheng", 190, 52, SOUTHEAST, 11265, 金灵尊圣 })
+npc$    : ({ "tianyongcheng/xuyuan-shu", 122, 86, SOUTHEAST, 11266, 许愿树 })
+npc$    : ({ "tianyongcheng/chongwu-dashi", 390, 91, SOUTHEAST, 11310, 宠物大使 })
+npc$    : ({ "dongfu/dongfu_chuansongshi2", 333, 209, SOUTHWEST, 11312, 洞府传送使2 })
+template: ({ "idle_template" })
+fly_room : ({ 371, 152 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_CAN_CASUAL_GAME"
+
+[比武场]
+alias   : ({ "biwuchang" })
+map_id  : 40064
+source_id : 29000
+npc$    : ({ "THIS_PLACE/chuansongren", 101, 76, SOUTHWEST, 0, 传送人 })
+not_start_room : 1
+fly_room : ({ 13, 28 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER"
+
+[五行争霸场]
+alias   : ({ "wuxing-zhengbachang" })
+map_id  : 40082
+source_id : 33000
+npc$    : ({ "THIS_PLACE/chuansongren", 88, 55, SOUTHEAST, 0, 传送人 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE"
+
+[GM工作室]
+alias   : ({ "GM-workroom" })
+map_id  : 99000
+npc$    : ({ "THIS_PLACE/GM-manager", 18, 19, SOUTHEAST, 0, GM值班登记员 })
+npc$    : ({ "misc/shouji-zhushou", 25, 17, SOUTHEAST, 0, GM问道手机助手 })
+npc$    : ({ "THIS_PLACE/jifen-dashi", 12, 22, SOUTHEAST, 0, 积分大使 })
+#npc$    : ({ "misc/zhongzhou-jieyinren3.c", 12, 22, SOUTHEAST, 1030, 中洲争霸战接引人3 })
+exits$  : ({ "揽仙镇", 30, 26, CIRCLE, 56, 171,  SOUTHEAST, "揽仙镇" })
+fly_room : ({ 18, 19 })
+room_limit : "ROOM_BIG_MAP"
+
+[民居2]
+alias   : ({ "minju2" })
+map_id  : 5014
+npc$    : ({ "misc/baifa-laoren", 40, 25, SOUTHWEST, 900, 白发老人 })
+exits$  : ({ "天墉城", 13, 30, SOUTHWEST, 342, 116, SOUTHWEST })
+fly_room : ({ 13, 30 })
+room_limit : "ROOM_CATCH_PKER"
+
+[监狱]
+alias   : ({ "jianyu" })
+map_id  : 05015
+exits$  : ({ "天墉城", 23, 48, SOUTHWEST, 387, 19, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/laotou3", 51, 32, SOUTHWEST, 47030, 牢头3 })
+npc$    : ({ "THIS_PLACE/laotou1", 29, 40, SOUTHEAST, 47010, 牢头1 })
+npc$    : ({ "THIS_PLACE/laotou2", 45, 43, NORTHWEST, 47020, 牢头2 })
+
+[巧手坊]
+alias   : ({ "qiaoshou-fang" })
+map_id  : 5003
+exits$  : ({ "天墉城", 21, 47, SOUTHWEST, 101, 177, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/liqiaoshou",  53, 33, SOUTHWEST, 200, 厉巧手 })
+npc$    : ({ "THIS_PLACE/yujianxian",  40, 24, SOUTHWEST, 190, 驭剑仙 })
+npc$    : ({ "THIS_PLACE/shengong",    27, 26, SOUTHEAST, 180, 管神工 })
+npc$    : ({ "THIS_PLACE/jingjinger",  47, 29, SOUTHWEST, 210, 精精儿 })
+npc$    : ({ "THIS_PLACE/jingjinger2", 16, 30, SOUTHEAST, 220, 晶晶儿 })
+npc$    : ({ "THIS_PLACE/libeiqi",     59, 36, SOUTHWEST, 230, 厉北七 })
+npc$    : ({ "THIS_PLACE/huihuier",    34, 22, SOUTHWEST, 21000, 慧慧儿  })
+fly_room : ({ 21, 47 })
+room_limit : "ROOM_CATCH_PKER"
+
+[悟云观]
+alias   : ({ "wuyun-guan" })
+map_id  : 5009
+npc$    : ({ "THIS_PLACE/tongling-daoren",  46, 41, SOUTHEAST, 50, 通灵道人 })
+exits$  : ({ "天墉城", 80, 59, SOUTHEAST, 75, 222, SOUTHEAST })
+fly_room : ({ 82, 60 })
+room_limit : "ROOM_CATCH_PKER"
+
+[总督衙门]
+alias   : ({ "zongdu-yamen" })
+map_id  : 5004
+#exits$  : ({ "官府", 25, 62, SOUTHWEST, 83, 37, SOUTHWEST })
+exits$  : ({ "天墉城", 32, 63, SOUTHWEST, 402, 42, SOUTHWEST })
+#exits$  : ({ "监狱", 42, 28, NORTHEAST, 27, 47, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/xiazongbing",    76,  37,  SOUTHWEST, 650, 夏总兵 })
+npc$    : ({ "THIS_PLACE/shouwei",        62,  37,  SOUTHWEST, -1, 天墉城守卫 })
+npc$    : ({ "THIS_PLACE/shouwei",        82,  46,  SOUTHWEST, -1, 天墉城守卫 })
+#npc$    : ({ "THIS_PLACE/shibing",        74,  51,  NORTHWEST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        81,  48,  NORTHWEST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        67,  54,  NORTHWEST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        60,  57,  NORTHWEST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        53,  60,  NORTHWEST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        64,  39,  SOUTHEAST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        57,  42,  SOUTHEAST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        50,  45,  SOUTHEAST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        43,  48,  SOUTHEAST, -1, 士兵 })
+#npc$    : ({ "THIS_PLACE/shibing",        36,  51,  SOUTHEAST, -1, 士兵 })
+npc$    : ({ "THIS_PLACE/zhangsitu.c",    39,  41,  SOUTHEAST, 520, 张司徒 })
+npc$    : ({ "THIS_PLACE/jiashiye",       28,  47,  SOUTHEAST, 530, 贾师爷 })
+npc$    : ({ "THIS_PLACE/shoufangli.c",   56,  29,  SOUTHEAST, 550, 售房吏 })
+fly_room : ({ 32, 63 })
+room_limit : "ROOM_CATCH_PKER"
+
+[神勇兵器铺]
+alias   : ({ "shenyong-bingqipu" })
+map_id  : 5002
+exits$  : ({ "天墉城", 28, 37, SOUTHEAST, 294, 183, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/duantiexin", 39, 20, SOUTHWEST, 160, 段铁心 })
+fly_room : ({ 28, 37 })
+room_limit : "ROOM_CATCH_PKER"
+
+[仁和布庄]
+alias   : ({ "renhe-buzhuang" })
+map_id  : 5011
+exits$  : ({ "天墉城", 58, 66, SOUTHEAST, 158, 139, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/jiarenhe", 38, 45, SOUTHEAST, 170, 贾仁和 })
+fly_room : ({ 58, 66 })
+room_limit : "ROOM_CATCH_PKER"
+
+[南北杂货铺]
+alias   : ({ "nanbei-zahuopu" })
+map_id  : 5010
+exits$  : ({ "天墉城", 48, 49, SOUTHEAST, 126, 50, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/zahuodian-laoban", 61, 31, SOUTHWEST, 90, 杂货店老板1 })
+npc$    : ({ "THIS_PLACE/tujiaojiao",       23, 31, SOUTHEAST, 240, 屠娇娇 })
+fly_room : ({ 48, 49 })
+room_limit : "ROOM_CATCH_PKER"
+
+[回春堂药铺]
+alias   : ({ "huichuntang-yaopu" })
+map_id  : 5007
+exits$  : ({ "天墉城", 40, 55, SOUTHEAST, 275, 105, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/dubusi", 59, 28, SOUTHWEST, 150, 杜卜思 })
+fly_room : ({ 40, 55 })
+room_limit : "ROOM_CATCH_PKER"
+
+[富甲钱庄]
+alias   : ({ "fujia-qianzhuang" })
+map_id  : 5001
+exits$  : ({ "天墉城", 69, 55, SOUTHEAST, 221, 229, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/qiandafu", 31, 32, SOUTHEAST, 140, 钱大富 })
+fly_room : ({ 69, 55 })
+room_limit : "ROOM_CATCH_PKER | ROOM_F_MULTI_FLY"
+
+[喜来客栈]
+alias   : ({ "xilai-kezhan" })
+map_id  : 5005
+exits$  : ({ "天墉城", 23, 58, SOUTHWEST, 266, 251, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/fengxilai",  67, 37, SOUTHWEST, 420, 冯喜来 })
+npc$    : ({ "THIS_PLACE/dianxiaoer", 41, 34, SOUTHEAST, 46080, 店小二 })
+npc$    : ({ "misc/lingxu-zhenren", 29, 46,  SOUTHEAST, 620, 灵虚真人  })
+fly_room : ({ 23, 58 })
+room_limit : "ROOM_CATCH_PKER"
+
+#[通吃赌坊]
+#alias  : ({ "tongchi-dufang" })
+#map_id : 5006
+#exits$ : ({ "天墉城", 17, 54, SOUTHWEST, 372, 131, SOUTHWEST })
+#npc$   : ({ "THIS_PLACE/datongchi",   39, 31, SOUTHEAST, -1, 大通吃 })
+#npc$   : ({ "THIS_PLACE/xiaotongchi", 32, 47, SOUTHWEST, -1, 小通吃 })
+#room_limit : "ROOM_BIG_MAP"
+
+[桃柳林]
+alias   : ({ "taoliulin" })
+map_id  : 6000
+exits$  : ({ "天墉城", 3, 115, CIRCLE, 14, 16,   SOUTH, "天墉城" })
+exits$  : ({ "轩辕庙", 192, 4, CIRCLE, 13, 241, NORTHEAST, "轩辕庙" })
+npc$    : ({ "THIS_PLACE/shenfeng-shangren",  182, 110, SOUTHWEST, 1000, 神风上人 })
+npc$    : ({ "THIS_PLACE/guili-shangren",  21, 12, NORTHWEST, 2000, 龟力上人 })
+npc$    : ({ "misc/ditengxian",  164, 24, SOUTHEAST, 3000, 地藤仙 })
+monster_list : ({ "taojing", "liugui" })
+template     : ({ "standard_template", "thief_template" })
+log_action   : "liangq_tll"
+fly_room : ({ 11, 120 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[轩辕庙]
+alias   : ({ "xuanyuanmiao" })
+map_id  : 8000
+exits$  : ({ "轩辕庙内",   136, 108, NORTHWEST, 100, 73, NORTHWEST })
+exits$  : ({ "轩辕坟一层", 125, 14,  NORTHWEST, 139, 72, NORTHWEST })
+exits$  : ({ "桃柳林",     7, 243,   CIRCLE, 187, 7,     SOUTHWEST, "桃柳林" })
+exits$  : ({ "北海沙滩",   278, 3,   CIRCLE, 157, 146,   NORTHWEST, "北海沙滩" })
+exits$  : ({ "风月谷",     6,   4,   CIRCLE, 149, 199,   NORTHWEST, "风月谷" })
+npc$    : ({ "THIS_PLACE/chefu",        248, 177, SOUTHEAST, 1024, 车夫2 })
+npc$    : ({ "THIS_PLACE/luya-zhenren", 159, 123, SOUTHEAST, 2048, 陆压真人 })
+npc$    : ({ "THIS_PLACE/wunianseng",   299,  60, SOUTHWEST, 3072, 无念僧 })
+npc$    : ({ "misc/shanchixian",   270, 143, SOUTHWEST, 4096, 煽赤仙 })
+npc$    : ({ "THIS_PLACE/shizongde-jiajiang",   224,  89, SOUTHEAST, 46080, 失踪的家将 })
+monster_list : ({ "ying", "baiyuan" })
+boss_list    : ({ "shihungui" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_xym"
+fly_room : ({ 248, 177 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[轩辕庙内]
+alias   : ({ "xuanyuanmiaonei" })
+map_id  : 8001
+exits$  : ({ "轩辕庙", 104, 76, SOUTHEAST, 139, 111, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/wuxiangseng",      48,  48, SOUTHEAST, 0, 无想僧 })
+fly_room : ({ 104, 76 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[轩辕坟一层]
+alias   : ({ "xuanyuanfen-yiceng" })
+map_id  : 8100
+exits$  : ({ "轩辕庙",     144, 73, SOUTHEAST, 129, 18, SOUTHEAST })
+exits$  : ({ "轩辕坟二层", 64,  16, NORTHWEST, 184, 64, NORTHWEST })
+monster_list : ({ "bianfu", "mang" })
+boss_list    : ({ "qidao-xiuluo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_xyf1"
+fly_room : ({ 139, 72 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[轩辕坟二层]
+alias   : ({ "xuanyuanfen-erceng" })
+map_id  : 8200
+exits$  : ({ "轩辕坟一层", 188, 65, SOUTHEAST, 68,  19, SOUTHEAST })
+exits$  : ({ "轩辕坟三层", 21,  69, NORTHWEST, 183, 84, NORTHWEST })
+monster_list : ({ "jiangshi", "mangB" })
+boss_list    : ({ "qidao-xiuluo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_xyf2"
+fly_room : ({ 184, 64 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[轩辕坟三层]
+alias   : ({ "xuanyuanfen-sanceng" })
+map_id  : 8300
+exits$  : ({ "轩辕坟二层", 187, 84, SOUTHEAST, 24, 72, SOUTHEAST })
+npc$    : ({ "misc/qinxiao",   138, 21,  SOUTH, 20000, 秦萧 })
+monster_list : ({ "guihuoying", "mangC" })
+boss_list    : ({ "qidao-xiuluo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_xyf3"
+fly_room : ({ 181, 83 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[北海沙滩]
+alias   : ({ "beihai-shatan" })
+map_id  : 9000
+exits$  : ({ "轩辕庙", 163, 146, CIRCLE, 285,   8, SOUTH,     "轩辕庙" })
+exits$  : ({ "五龙山", 164, 18,  CIRCLE,  11, 311, NORTHEAST, "五龙山" })
+npc$    : ({ "THIS_PLACE/lijia-sangongzi",    55, 50,  SOUTHWEST, 1024, 李家三公子 })
+monster_list : ({ "haigui", "yingB" })
+boss_list    : ({ "naohai-yecha" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhst"
+fly_room : ({ 157, 146 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[十里坡]
+alias   : ({ "shilipo" })
+map_id  : 12000
+exits$  : ({ "东海渔村", 327,   5, CIRCLE,  13, 192, NORTHEAST, "东海渔村" })
+exits$  : ({ "终南山",     2, 190, CIRCLE, 129, 408, NORTHWEST, "终南山" })
+exits$  : ({ "凤凰山",   331, 228, CIRCLE,   7, 320, NORTHEAST, "凤凰山" })
+exits$  : ({ "乾元山",    76,   5, CIRCLE,   8, 235, NORTHEAST, "乾元山" })
+exits$  : ({ "骷髅山",   114, 370, CIRCLE, 200, 227, SOUTH,     "骷髅山" })
+monster_list : ({ "langB", "laohuB" })
+boss_list    : ({ "shandawang" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+npc$    : ({ "misc/baihu", 177, 147, SOUTHEAST, 0, 白虎 })
+log_action   : "liangq_slp"
+fly_room : ({ 324, 8 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[玉柱洞]
+alias   : ({ "yuzhudong" })
+map_id  : 14001
+exits$  : ({ "终南山", 85, 74, SOUTHEAST, 28, 25, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/yunzhongzi",       27, 8,  SOUTHEAST, 1024, 云中子 })
+npc$    : ({ "THIS_PLACE/biyutongzi",       31, 24, SOUTHEAST, 2048, 碧玉童子 })
+npc$    : ({ "THIS_PLACE/yuzhu-zhanglao",   16, 36, SOUTHEAST, 4096, 玉柱长老 })
+fly_room : ({ 85, 74 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[盘虬洞]
+alias   : ({ "panqiudong" })
+map_id  : 14002
+exits$  : ({ "终南山", 79, 72, SOUTHEAST, 24, 89, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/zhangzhenren", 40, 35, SOUTHWEST, 0, 张真人 })
+fly_room : ({ 40, 35 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[绝人阵]
+alias   : ({ "juerenzhen" })
+map_id  : 14003
+exits$  : ({ "绝仙阵", 193, 22,  CIRCLE, 147, 153, NORTH })
+exits$  : ({ "盘虬洞", 157, 161, CIRCLE, 36, 36,  SOUTH, "终南山" })
+npc$    : ({ "misc/eling-guiwang", 84, 66, SOUTHEAST, 0, 恶灵鬼王 })
+npc$    : ({ "misc/lingyaowang", 52, 28, SOUTHWEST, 1024, 灵妖王 })
+monster_list : ({ "shiniuyao", "kulou-zhanjiang" })
+boss_list    : ({ "guinu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_jrz"
+fly_room : ({ 150, 154 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[绝仙阵]
+alias   : ({ "juexianzhen" })
+map_id  : 14004
+exits$  : ({ "绝人阵", 146, 157, CIRCLE, 184, 30, SOUTHWEST })
+exits$  : ({ "地绝阵", 110, 79,  CIRCLE, 18, 153, NORTHEAST })
+npc$    : ({ "misc/fantianshu", 49, 158, SOUTHEAST, 0, 翻天鼠 })
+npc$    : ({ "misc/jiushidaoren", 188, 18, SOUTHEAST, 1, 九世道人 })
+monster_list : ({ "lanmao-jushou", "tanglangguai" })
+boss_list    : ({ "guinu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_jxz"
+fly_room : ({ 147, 153 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[地绝阵]
+alias   : ({ "dijuezhen" })
+map_id  : 14005
+exits$  : ({ "天绝阵", 23, 13,   CIRCLE, 25, 200, SOUTHEAST })
+exits$  : ({ "绝仙阵", 14, 158,  CIRCLE, 105, 79,  SOUTH })
+npc$    : ({ "misc/jindasheng", 141, 9, SOUTHEAST, 0, 金大升 })
+monster_list : ({ "santou-juquan", "shixue-juren" })
+boss_list    : ({ "guinu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_djz"
+fly_room : ({ 27, 154 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[天绝阵]
+alias   : ({ "tianjuezhen" })
+map_id  : 14006
+exits$  : ({ "地绝阵", 15,  194, CIRCLE, 27, 19, SOUTHEAST })
+exits$  : ({ "盘虬洞", 135, 35,  CIRCLE, 36, 36, SOUTH, "终南山" })
+npc$    : ({ "misc/yuanhong", 54, 28, SOUTHEAST, 0, 袁洪 })
+monster_list : ({ "lianmo", "hanbingguai" })
+boss_list    : ({ "guinu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_tjz"
+fly_room : ({ 41, 200 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[终南山]
+alias   : ({ "zhongnanshan" })
+map_id  : 14000
+exits$  : ({ "玉柱洞", 26, 22, NORTHWEST, 79, 68, NORTHWEST })
+exits$  : ({ "盘虬洞", 21, 85, NORTHWEST, 74, 66, NORTHWEST })
+exits$  : ({ "十里坡", 133, 413, CIRCLE, 8, 195, SOUTHEAST, "十里坡" })
+family  : FAMILY_YUZHUDONG
+npc$    : ({ "THIS_PLACE/jieyin-daotong", 37, 23, SOUTHWEST, 0, 接引道童2 })
+npc$    : ({ "master/master-wood", 49, 30, SOUTHWEST, 3072, 木系掌门 })
+npc$    : ({ "misc/huashen",       88, 206, SOUTHEAST, 4096, 花神 })
+monster_list : ({ "lang", "laohu" })
+boss_list    : ({ "yuanmu-zhenqun" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_zns"
+fly_room : ({ 37, 23 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[斗阙宫]
+alias   : ({ "douquegong" })
+map_id  : 15001
+exits$  : ({ "凤凰山", 121, 71, SOUTHEAST, 215, 86, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/longji-gongzhu",   40,  14, SOUTHWEST, 1024, 龙吉公主 })
+npc$    : ({ "THIS_PLACE/shuilingtongzi",   104, 27, SOUTHWEST, 2048, 水灵童子 })
+npc$    : ({ "THIS_PLACE/douque-zhanglao",  80,  13, SOUTHWEST, 4096, 斗阙长老 })
+fly_room : ({ 121, 71 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[凤凰山]
+alias   : ({ "fenghuangshan" })
+map_id  : 15000
+exits$  : ({ "斗阙宫", 212, 83, NORTHWEST, 117, 69, NORTHWEST })
+exits$  : ({ "十里坡", 4, 326, CIRCLE, 324, 228, SOUTHWEST, "十里坡" })
+family  : FAMILY_DOUQUEGONG
+npc$    : ({ "THIS_PLACE/jieyin-daotong", 221, 83, SOUTHEAST, 0, 接引道童3 })
+npc$    : ({ "master/master-water",       226, 100, SOUTHWEST, 3072, 水系掌门 })
+npc$    : ({ "misc/longshen",             171, 167, SOUTHEAST, 4096, 龙神 })
+monster_list : ({ "lang", "laohu" })
+boss_list    : ({ "zhaoshui-zhenqun" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_fhs"
+fly_room : ({ 221, 83 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[幽冥涧]
+alias   : ({ "youmingjian" })
+map_id  : 16100
+exits$  : ({ "骷髅山", 451, 153, CIRCLE, 8, 244, SOUTHEAST, "骷髅山" })
+npc$    : ({ "misc/diyu-niutou",            187, 56,   SOUTHEAST, 0, 地狱牛头 })
+npc$    : ({ "THIS_PLACE/xiuluowang",       199, 129,  SOUTHEAST, 1024, 修罗王 })
+npc$    : ({ "misc/xiaoliang-mozun",        85,  65,   SOUTHEAST, 2048, 枭魉魔尊 })
+monster_list : ({ "quhun", "yuangui" })
+boss_list    : ({ "chedimo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_ymj"
+fly_room : ({ 446, 150 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[骷髅山]
+alias   : ({ "kuloushan" })
+map_id  : 16000
+exits$  : ({ "白骨洞", 155,  68, NORTHEAST, 15,  43, NORTHEAST })
+exits$  : ({ "十里坡", 206, 217, CIRCLE,   113, 366, NORTH,     "十里坡" })
+exits$  : ({ "幽冥涧",   2, 234, CIRCLE,   446, 150, NORTHWEST, "幽冥涧" })
+family  : FAMILY_BAIGUDONG
+npc$    : ({ "THIS_PLACE/jieyin-daotong", 164,  71, SOUTHWEST, 0, 接引道童5 })
+npc$    : ({ "master/master-earth",       183,  79, SOUTHWEST, 3072, 土系掌门 })
+npc$    : ({ "misc/handimo",               34, 217, SOUTHEAST, 5120, 憾地魔 })
+npc$    : ({ "misc/shanshen",             17,  124, SOUTHEAST, 4096, 山神 })
+monster_list : ({ "lang", "laohu" })
+boss_list    : ({ "mingtu-zhenqun" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_kls"
+fly_room : ({ 161, 71 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[白骨洞]
+alias   : ({ "baigudong" })
+map_id  : 16001
+exits$  : ({ "骷髅山", 12, 45, SOUTHWEST,   151, 70, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/shiji-niangniang", 48,  7, SOUTHWEST, 1024, 石矶娘娘 })
+npc$    : ({ "THIS_PLACE/caiyuntongzi",     26, 23, SOUTHEAST, 2048, 彩云童子 })
+npc$    : ({ "THIS_PLACE/baigu-zhanglao",   52, 30, SOUTHWEST, 4096, 白骨长老 })
+fly_room : ({ 12, 45 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[金光洞]
+alias   : ({ "jinguangdong" })
+map_id  : 13001
+exits$  : ({ "乾元山", 3, 74, SOUTHWEST, 287, 48, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/taiyi-zhenren",        68,  35, SOUTHWEST, 1024, 太乙真人 })
+npc$    : ({ "THIS_PLACE/chixiatongzi",         43,  51, SOUTHWEST, 2048, 赤霞童子 })
+npc$    : ({ "THIS_PLACE/jinguang-zhanglao",    38,  29, SOUTHWEST, 4096, 金光长老 })
+fly_room : ({ 3, 74 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[乾元山]
+alias   : ({ "qianyuanshan" })
+map_id  : 13000
+exits$  : ({ "金光洞", 290, 45, NORTHEAST, 6, 72, NORTHEAST })
+exits$  : ({ "十里坡", 4,  239, CIRCLE,   71,  9, SOUTHWEST, "十里坡" })
+family  : FAMILY_JINGUANGDONG
+npc$    : ({ "THIS_PLACE/jieyin-daotong", 282, 46, SOUTHWEST, 0, 接引道童4 })
+npc$    : ({ "master/master-fire",        250, 53, SOUTHEAST, 3072, 火系掌门 })
+npc$    : ({ "misc/yanshen",              351, 100, SOUTHWEST, 4096, 炎神 })
+monster_list : ({ "lang", "laohu" })
+boss_list    : ({ "chenhuo-zhenqun" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_qys"
+fly_room : ({ 282, 46 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[云霄洞]
+alias   : ({ "yunxiaodong" })
+map_id  : 10001
+exits$  : ({ "五龙山", 81, 71, SOUTHEAST, 193, 24, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/wenshuguangfa-tianzun", 8,  22, SOUTHEAST, 1024, 文殊天尊 })
+npc$    : ({ "THIS_PLACE/yunxiaotongzi",         19, 41, SOUTHEAST, 2048, 云霄童子 })
+npc$    : ({ "THIS_PLACE/yunxiao-zhanglao",      32, 37, SOUTHEAST, 4096, 云霄长老 })
+fly_room : ({ 81, 71 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[五龙山]
+alias   : ({ "wulongshan" })
+map_id  : 10000
+exits$  : ({ "云霄洞",     190,  21, NORTHWEST, 77,  70, NORTHWEST })
+exits$  : ({ "五龙窟一层", 33,  246, NORTHWEST, 278, 66, SOUTHWEST })
+exits$  : ({ "北海沙滩",   8,   314, CIRCLE,    160, 22, SOUTHWEST, "北海沙滩" })
+exits$  : ({ "东海渔村",   230, 317, CIRCLE,    7,    9, SOUTHEAST, "东海渔村" })
+family  : FAMILY_YUNXIAODONG
+npc$    : ({ "THIS_PLACE/jieyin-daotong", 206, 25, SOUTHWEST, 0, 接引道童1 })
+npc$    : ({ "master/master-metal",       208, 58, SOUTHWEST, 3072, 金系掌门 })
+npc$    : ({ "misc/qinglong",             77,  32, SOUTHEAST, 5120, 青龙 })
+npc$    : ({ "misc/leishen",              32,  87, SOUTHEAST, 4096, 雷神 })
+monster_list : ({ "lang", "laohu" })
+boss_list    : ({ "jintan-zhenqun" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_wls"
+fly_room : ({ 206, 25 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[五龙窟一层]
+alias   : ({ "wulongku-yiceng" })
+map_id  : 10100
+exits$  : ({ "五龙山",     282, 64, NORTHEAST,  38, 250, SOUTH })
+exits$  : ({ "五龙窟二层", 55, 138, SOUTHWEST, 145,  27, SOUTHWEST })
+npc$    : ({ "misc/tuteng-zhu",  89,  62, SOUTHEAST, 4096, 图腾柱 })
+monster_list : ({ "huayao", "wulong" })
+boss_list    : ({ "anying-xiemo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_wlk1"
+fly_room : ({ 278, 66 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[五龙窟二层]
+alias   : ({ "wulongku-erceng" })
+map_id  : 10200
+exits$  : ({ "五龙窟一层", 149, 25,  NORTHEAST, 59, 135, NORTHEAST })
+exits$  : ({ "五龙窟三层", 108, 137, SOUTHEAST, 16, 92,  SOUTHEAST })
+monster_list : ({ "yanlong", "yuren" })
+boss_list    : ({ "anying-xiemo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_wlk2"
+fly_room : ({ 145, 27 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[五龙窟三层]
+alias   : ({ "wulongku-sanceng" })
+map_id  : 10300
+exits$  : ({ "五龙窟二层", 12,  89, NORTHWEST, 100, 132, NORTHWEST })
+exits$  : ({ "五龙窟四层", 197, 72, SOUTHWEST, 187,  75, SOUTHWEST })
+monster_list : ({ "binglong", "dilieshou" })
+boss_list    : ({ "anying-xiemo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_wlk3"
+fly_room : ({ 14, 92 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[五龙窟四层]
+alias   : ({ "wulongku-siceng" })
+map_id  : 10400
+exits$  : ({ "五龙窟三层", 190, 73, NORTHEAST, 200, 69, NORTHEAST })
+exits$  : ({ "五龙窟五层", 11,  88, SOUTHWEST, 8,  62, SOUTHWEST })
+monster_list : ({ "jintoutuo", "qinglong" })
+boss_list    : ({ "anying-xiemo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_wlk4"
+fly_room : ({ 187, 75 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[五龙窟五层]
+alias   : ({ "wulongku-wuceng" })
+map_id  : 10500
+exits$  : ({ "五龙窟四层", 13,  57, NORTHEAST, 13, 85, NORTHEAST })
+exits$  : ({ "五龙窟一层", 167, 22, CIRCLE,   182, 56, SOUTHWEST })
+npc$    : ({ "misc/yuyixian",     120,  21, SOUTHEAST, 0, 羽翼仙 })
+monster_list : ({ "huoya", "huanglong" })
+boss_list    : ({ "anying-xiemo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_wlk5"
+fly_room : ({ 11, 58 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[东海渔村]
+alias   : ({ "donghai-yucun" })
+map_id  : 11000
+exits$  : ({ "药店",    37, 160, NORTHWEST, 29,  24, NORTHWEST })
+exits$  : ({ "杂货店", 135, 100, NORTHEAST, 14,  19, NORTHEAST })
+exits$  : ({ "钱庄",   201,  78, NORTHEAST, 20,  24, NORTHEAST })
+exits$  : ({ "客栈",   176, 143, NORTHEAST, 38,  41, NORTHEAST })
+exits$  : ({ "十里坡",   8, 194, CIRCLE,   318,   9, SOUTHWEST, "十里坡" })
+exits$  : ({ "五龙山",   4,   5, CIRCLE,   217, 317, NORTHWEST, "五龙山" })
+npc$    : ({ "THIS_PLACE/chuanfu",       267, 157, SOUTHEAST, 0, 船夫1 })
+npc$    : ({ "THIS_PLACE/chefu",         161, 147, SOUTHWEST, 1024, 车夫1 })
+npc$    : ({ "THIS_PLACE/lingshouyiren", 97,  193, NORTHEAST, 6144, 灵兽异人1 })
+npc$    : ({ "THIS_PLACE/songxinzhe",   244,   75, SOUTHWEST, 7168, 宋辛哲 })
+npc$    : ({ "THIS_PLACE/liuruchen",    103,   51, SOUTHWEST, 8192, 柳如尘 })
+npc$    : ({ "THIS_PLACE/yuzhenzi",    165,   25, SOUTHWEST, 9216, 玉真子 })
+npc$    : ({ "THIS_PLACE/tianxuan-laoren",   111, 107, SOUTHWEST, 10240, 天玄老人 })
+npc$    : ({ "THIS_PLACE/huanjingsanren.c", 138, 107, SOUTHWEST, 12288, 幻境散人1 })
+npc$    : ({ "THIS_PLACE/xuanqingdaoren.c", 52, 157, SOUTHEAST, 11264, 玄清道人 })
+npc$    : ({ "THIS_PLACE/yinshi.c", 162, 83, SOUTHEAST, 0, 隐士 })
+npc$    : ({ "THIS_PLACE/songzi-liangliang", 173, 182, SOUTHEAST, 0, 送子娘娘 })
+npc$    : ({ "THIS_PLACE/qingdian-dashi", 182, 80, SOUTHWEST, 44034, 庆典大使1 })
+npc$    : ({ "THIS_PLACE/ruyi-laoren", 219, 134, SOUTHWEST, 12000, 如意老人 })
+npc$    : ({ "THIS_PLACE/chenbiaotou", 27, 94, SOUTHEAST, 13000, 陈镖头 })
+npc$    : ({ "THIS_PLACE/liuruyan", 92, 45, SOUTHWEST, 14000, 柳如烟 })
+template: ({ "idle_template" })
+fly_room : ({ 161, 147 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_CAN_CASUAL_GAME"
+
+[杂货店]
+alias   : ({ "donghai-zahuodian" })
+map_id  : 11002
+exits$  : ({ "东海渔村", 11, 20, SOUTHWEST, 133, 103, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/zahuodian-laoban", 16, 12, SOUTH, 5120, 杂货店老板2 })
+fly_room : ({ 11, 20 })
+room_limit : "ROOM_CATCH_PKER"
+
+[客栈]
+alias   : ({ "donghai-kezhan" })
+map_id  : 11004
+exits$  : ({ "东海渔村", 35, 43, SOUTHWEST, 172, 146, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/kezhan-laoban", 51, 35, SOUTHWEST, 4096, 客栈老板 })
+fly_room : ({ 35, 43 })
+room_limit : "ROOM_CATCH_PKER"
+
+[药店]
+alias   : ({ "donghai-yaodian" })
+map_id  : 11001
+exits$  : ({ "东海渔村", 33, 27, SOUTHEAST, 40, 162, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/yaodian-laoban", 12, 17, SOUTHEAST, 2048, 药店老板 })
+fly_room : ({ 33, 27 })
+room_limit : "ROOM_CATCH_PKER"
+
+[钱庄]
+alias   : ({ "donghai-qianzhuang" })
+map_id  : 11003
+exits$  : ({ "东海渔村", 17, 26, SOUTHWEST, 198, 81, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/qianzhuang-laoban", 36, 19, SOUTHWEST, 3072, 钱庄老板 })
+fly_room : ({ 17, 26 })
+room_limit : "ROOM_CATCH_PKER | ROOM_F_MULTI_FLY"
+
+[蓬莱岛]
+alias   : ({ "penglaidao" })
+map_id  : 17000
+exits$  : ({ "百花谷一", 226, 228, CIRCLE, 7,   135, NORTHEAST })
+exits$  : ({ "百花谷二", 328, 314, CIRCLE, 85,  9,   SOUTH })
+exits$  : ({ "百花谷三", 385, 164, CIRCLE, 145, 271, NORTHWEST })
+exits$  : ({ "百花谷四", 234, 123, CIRCLE, 13,  9,   SOUTHEAST })
+exits$  : ({ "百花谷五", 396, 37,  CIRCLE, 246, 11,   SOUTHWEST })
+exits$  : ({ "百花谷六", 65,  23,  CIRCLE, 213, 58,  WEST })
+exits$  : ({ "百花谷七", 70,  252, CIRCLE, 20,  11,   SOUTH })
+npc$    : ({ "THIS_PLACE/penglai-shizhe", 189, 166, SOUTHWEST, 0, 蓬莱使者 })
+npc$    : ({ "THIS_PLACE/longgong-shizhe", 406, 277, SOUTHWEST, 1024, 龙宫使者2 })
+npc$    : ({ "THIS_PLACE/duobao-daoren", 294, 32,  NORTHWEST, 2048, 多宝道人 })
+npc$    : ({ "THIS_PLACE/milanxianzi",   27, 40, SOUTHWEST, 3072, 米兰仙子 })
+npc$    : ({ "THIS_PLACE/caoguojiu", 162, 24, SOUTHEAST, 4096, 曹国舅1 })
+npc$    : ({ "misc/lvdongbin", 16, 67,    NORTHEAST, 5000, 吕洞宾1 })
+npc$    : ({ "misc/hexiangu",    39, 240,  SOUTHEAST, 5100, 何仙姑1 })
+npc$    : ({ "misc/tieguaili",    162,  259, SOUTHWEST, 5200, 铁拐李1 })
+npc$    : ({ "misc/hanzhongli",  291,  287, SOUTHWEST, 5300, 汉钟离1 })
+npc$    : ({ "misc/lancaihe",    347, 269,  SOUTHEAST, 5400, 蓝采和1 })
+npc$    : ({ "misc/hanxiangzi",  405, 181,  SOUTHWEST, 5500, 韩湘子1 })
+npc$    : ({ "misc/zhangguolao", 400, 66, SOUTHWEST, 5600, 张果老1 })
+npc$    : ({ "THIS_PLACE/feimaotui_baobao", 12, 317, SOUTHWEST, 8192, 飞毛腿宝宝 })
+monster_list : ({ "juxi", "shimo" })
+boss_list    : ({ "gumo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_pld"
+fly_room : ({ 189, 166 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[百花谷一]
+alias   : ({ "baihuaguyi" })
+map_id  : 17100
+exits$  : ({ "蓬莱岛", 3, 135, CIRCLE, 231, 234, SOUTH })
+npc$    : ({ "misc/taoshujing",    211, 114,  SOUTH, 1024, 桃树精 })
+npc$    : ({ "misc/fenyixianzi",   80, 21,  SOUTH, 2048, 粉衣仙子 })
+monster_list : ({ "fenyi-xianzi", "dianjing" })
+boss_list    : ({ "yuehu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhg1"
+fly_room : ({ 7, 135 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[百花谷二]
+alias   : ({ "baihuaguer" })
+map_id  : 17200
+exits$  : ({ "蓬莱岛", 92, 4, CIRCLE, 335, 319, SOUTHEAST })
+monster_list : ({ "qingyi-xianzi", "yushou" })
+boss_list    : ({ "yuehu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhg2"
+fly_room : ({ 90, 8 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[百花谷三]
+alias   : ({ "baihuagusan" })
+map_id  : 17300
+exits$  : ({ "蓬莱岛", 146, 277, CIRCLE, 377, 169, SOUTHWEST })
+monster_list : ({ "huangyi-xianzi" , "fengguai"})
+boss_list    : ({ "yuehu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhg3"
+fly_room : ({ 145, 271 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[百花谷四]
+alias   : ({ "baihuagusi" })
+map_id  : 17400
+exits$  : ({ "蓬莱岛", 7, 6, CIRCLE, 226, 129, SOUTH })
+monster_list : ({ "hongyi-xianzi" , "hongyao"})
+boss_list    : ({ "yuehu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhg4"
+fly_room : ({ 13, 9 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[百花谷五]
+alias   : ({ "baihuaguwu" })
+map_id  : 17500
+exits$  : ({ "蓬莱岛", 250, 8, CIRCLE, 387, 37, WEST })
+npc$    : ({ "misc/yixianzi",  89, 168,   EAST, 1024, 医仙子 })
+monster_list : ({ "ziyi-xianzi" , "xuenv"})
+boss_list    : ({ "yuehu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhg5"
+fly_room : ({ 246, 11 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[百花谷六]
+alias   : ({ "baihuaguliu" })
+map_id  : 17600
+exits$  : ({ "蓬莱岛", 221, 57, CIRCLE, 57, 25, SOUTHWEST })
+monster_list : ({ "lanyi-xianzi", "yunshou" })
+boss_list    : ({ "yuehu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhg6"
+fly_room : ({ 213, 58 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[百花谷七]
+alias   : ({ "baihuaguqi" })
+map_id  : 17700
+exits$  : ({ "蓬莱岛", 13, 5, CIRCLE, 62, 258, SOUTHWEST })
+npc$    : ({ "misc/xiaohuaxian",  65, 68,   SOUTHWEST, 1024, 小花仙 })
+#npc$    : ({ "misc/shibing",  103, 86,   SOUTHEAST, -1, 士兵 })
+monster_list : ({ "baiyi-xianzi" , "leiguai"})
+boss_list    : ({ "yuehu" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_bhg7"
+fly_room : ({ 14, 9 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[风月谷]
+alias   : ({ "fengyuegu" })
+map_id  : 7000
+exits$  : ({ "轩辕庙", 154, 203, CIRCLE,  10,   8, SOUTHEAST, "轩辕庙" })
+exits$  : ({ "无名小镇",  93,   5, CIRCLE, 156, 32, NORTHWEST, "无名小镇" })
+npc$    : ({ "misc/susu",  67, 80,    SOUTHWEST, 0, 苏苏 })
+npc$    : ({ "misc/baisu",  89, 149,  SOUTHEAST, 1024, 白素 })
+npc$    : ({ "misc/zhuque", 157,  17, SOUTHWEST, 2048, 朱雀 })
+npc$    : ({ "misc/yuelao", 160, 143, SOUTHEAST, 3072, 月老 })
+npc$    : ({ "misc/yunyou-daxian1",  26, 45,   SOUTHEAST, 4096, 云游大仙1 })
+npc$    : ({ "misc/yunyou-daxian2",  24, 54,   NORTHEAST, 4096, 云游大仙2 })
+npc$    : ({ "misc/yunyou-daxian3",  35, 47,   SOUTHWEST, 4096, 云游大仙3 })
+fly_room : ({ 160, 143 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_CAN_CASUAL_GAME"
+
+[东昆仑]
+alias   : ({ "dongkunlun" })
+map_id  : 18000
+npc$    : ({ "THIS_PLACE/xiaoyuanhou", 211, 218, SOUTHEAST, 1, 小猿猴 })
+npc$    : ({ "THIS_PLACE/chuanfu", 31, 273, SOUTHWEST, 0, 船夫2 })
+#npc$    : ({ "THIS_PLACE/qiannian-taoshujing", 194, 176, SOUTHWEST, -1, 千年桃树精 })
+npc$    : ({ "misc/shenfuhu",  101, 53, SOUTHWEST, 2, 申伏虎 })
+npc$    : ({ "misc/wuliaochen", 65, 266, SOUTHEAST, 1024, 吴了尘 })
+exits$  : ({ "西昆仑", 130, 3, CIRCLE, 223, 141, NORTHWEST, "西昆仑" })
+exits$  : ({ "无名小镇", 197, 297, CIRCLE,  17, 10, SOUTH, "无名小镇" })
+monster_list : ({ "huoguangshu" , "ziyan"})
+boss_list : ({ "anyemo" })
+template  : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_dkl"
+fly_room : ({ 188, 29 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+#[玄洲]
+#alias   : ({ "xuanzhou" })
+#map_id  : 19000
+#npc$    : ({ "THIS_PLACE/chuanfu", 227, 203, SOUTHEAST, -1, 船夫 })
+#exits$  : ({ "碧游宫", 34, 20, NORTHWEST, 91, 62, NORTHWEST })
+#boss_list : ({ "shitianmo" })
+#template  : ({ "standard_template", "thief_template", "hidden_boss_template" })
+#room_limit : "ROOM_BIG_MAP"
+
+[碧游宫]
+alias   : ({ "biyougong" })
+map_id  : 19000
+npc$    : ({ "misc/chuansong-tongzi", 41, 37, SOUTHWEST, 1024, 传送童子5 })
+npc$    : ({ "THIS_PLACE/tianque-zhenzhu", 20, 86, SOUTHEAST, 2048, 天阙阵主 })
+npc$    : ({ "THIS_PLACE/hongsha-zhenzhu", 95, 69, SOUTHWEST, 4096, 红砂阵主 })
+#exits$  : ({ "玄洲", 99, 68, SOUTHEAST, 38, 22, SOUTHEAST })
+exits$  : ({ "逍遥殿", 17, 25, NORTHWEST, 88, 62, NORTHWEST })
+#exits$  : ({ "寒冰阵", 20, 86, SJZ_EXIT, 23, 22, SOUTH })
+#exits$  : ({ "红水阵", 95, 69, SJZ_EXIT, 22, 19, SOUTHWEST })
+exits$  : ({ "雪域冰原", 69, 94, CIRCLE, 19, 25, EAST })
+fly_room : ({ 41, 37 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[逍遥殿]
+alias   : ({ "xiaoyaodian" })
+map_id  : 19001
+npc$    : ({ "THIS_PLACE/tongtian-jiaozhu", 27, 27, SOUTHEAST, 0, 通天教主 })
+exits$  : ({ "碧游宫", 92, 64, SOUTHEAST, 20, 27, SOUTHEAST })
+template: ({ "idle_template" })
+fly_room : ({ 92, 64 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+#[炎洲]
+#alias   : ({ "yanzhou" })
+#map_id  : 20000
+#npc$    : ({ "THIS_PLACE/chuanfu", 17, 8, NORTHWEST, -1, 船夫 })
+#exits$  : ({ "玄都洞回廊", 169, 155, NORTHWEST, 82, 62, NORTHWEST })
+#boss_list : ({ "shitianmo" })
+#template  : ({ "standard_template", "thief_template", "hidden_boss_template" })
+#room_limit : "ROOM_BIG_MAP"
+
+[大罗宫]
+alias   : ({ "daluogong" })
+map_id  : 20000
+npc$    : ({ "misc/chuansong-tongzi", 41, 24, SOUTHWEST, 1024, 传送童子4 })
+npc$    : ({ "THIS_PLACE/lieyan-zhenzhu", 140, 70, SOUTHWEST, 4096, 烈焰阵主 })
+npc$    : ({ "THIS_PLACE/dilie-zhenzhu", 11, 66, SOUTHEAST, 2048, 地烈阵主 })
+exits$  : ({ "玄都洞", 27, 23, NORTHWEST, 73, 52, NORTHWEST })
+#exits$  : ({ "风吼阵", 11, 66, SJZ_EXIT, 29, 24, SOUTH })
+#exits$  : ({ "金光阵", 140, 69, SJZ_EXIT, 24, 20, SOUTHWEST })
+exits$  : ({ "热砂荒漠", 161, 103, CIRCLE, 12, 9, SOUTHEAST })
+template: ({ "idle_template" })
+fly_room : ({ 41, 24 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[玄都洞]
+alias   : ({ "xuandudong" })
+map_id  : 20001
+npc$    : ({ "THIS_PLACE/taishang-laojun", 13, 20, SOUTHEAST, 0, 太上老君 })
+#exits$  : ({ "玄都洞回廊", 69, 75, SOUTHEAST, 32, 39, SOUTHEAST })
+exits$  : ({ "大罗宫", 77, 54, SOUTHEAST, 33, 27, SOUTHEAST })
+template: ({ "idle_template" })
+fly_room : ({ 77, 54 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+#[玄都洞回廊]
+#alias   : ({ "xuandudong-huilang" })
+#map_id  : 20002
+#exits$  : ({ "玄都洞", 27, 37, NORTHWEST,  66,  71, NORTHWEST })
+#exits$  : ({ "炎洲",   85, 64, SOUTHEAST, 172, 158, SOUTHEAST })
+# room_limit : "ROOM_BIG_MAP"
+
+#[聚窟洲]
+#alias   : ({ "jukuzhou" })
+#map_id  : 21000
+#npc$    : ({ "THIS_PLACE/chuanfu", 28, 237, SOUTHWEST, -1, 船夫 })
+#exits$  : ({ "七宝林", 240, 8, NORTHEAST, 12, 67, NORTHEAST })
+#boss_list    : ({ "shitianmo" })
+#template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+#room_limit : "ROOM_BIG_MAP"
+
+[七宝林]
+alias   : ({ "qibaolin" })
+map_id  : 21001
+npc$    : ({ "THIS_PLACE/zhunti-daoren", 127, 14, SOUTHWEST, 0, 准提道人 })
+npc$    : ({ "misc/chuansong-tongzi", 79, 59, SOUTHEAST, 1024, 传送童子2 })
+npc$    : ({ "misc/xiaosheng", 32, 89, SOUTHEAST, 1, 萧升 })
+npc$    : ({ "THIS_PLACE/luopo-zhenzhu", 131, 79, SOUTHWEST, 4096, 落魄阵主 })
+npc$    : ({ "THIS_PLACE/huaxue-zhenzhu", 20, 45, SOUTHEAST, 2048, 化血阵主 })
+exits$  :  ({"迷境花树", 139, 140, CIRCLE, 13, 12, SOUTHEAST})
+#exits$  : ({ "聚窟洲", 5, 70, SOUTHWEST, 238, 13, SOUTHWEST })
+#exits$  : ({ "天阙阵", 20, 45, SJZ_EXIT, 41, 17, SOUTHWEST })
+#exits$  : ({ "红砂阵", 131, 79, SJZ_EXIT, 25, 22, SOUTHEAST })
+template: ({ "idle_template" })
+fly_room : ({ 79, 59 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+#[流洲]
+#alias   : ({ "liuzhou" })
+#map_id  : 22000
+#npc$    : ({ "THIS_PLACE/chuanfu", 269, 14, NORTHEAST, -1, 船夫 })
+#exits$  : ({ "八德池", 135, 156, NORTHWEST, 127, 85, NORTHWEST })
+#boss_list    : ({ "shitianmo" })
+#template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+# room_limit : "ROOM_BIG_MAP"
+
+[八德池]
+alias   : ({ "badechi" })
+map_id  : 22001
+npc$    : ({ "liuzhou/xifang-jiaozhu", 35, 17, SOUTHEAST, 0, 西方教主 })
+npc$    : ({ "misc/chuansong-tongzi", 68, 79, SOUTHWEST, 1024, 传送童子3 })
+npc$    : ({ "misc/caobao", 15, 58, SOUTHEAST, 1, 曹宝 })
+npc$    : ({ "THIS_PLACE/hongshui-zhenzhu", 17, 107, SOUTHEAST, 4096, 红水阵主 })
+npc$    : ({ "THIS_PLACE/hanbing-zhenzhu", 115, 106, SOUTHWEST, 2048, 寒冰阵主 })
+#exits$  : ({ "流洲", 130, 88, SOUTHEAST, 139, 159, SOUTHEAST })
+#exits$  : ({ "地烈阵", 115, 106, SJZ_EXIT, 25, 18, SOUTHWEST })
+#exits$  : ({ "烈焰阵", 20, 106, SJZ_EXIT, 1, 23, SOUTHWEST })
+exits$  : ({ "水云间", 98, 144, CIRCLE, 11, 9, SOUTHEAST })
+template: ({ "idle_template" })
+fly_room : ({ 68, 79 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[无名小镇]
+alias   : ({ "wumingxiaozhen" })
+map_id  : 23000
+npc$    : ({ "THIS_PLACE/lingshouyiren", 93, 29, SOUTHEAST, 4096, 灵兽异人3 })
+npc$    : ({ "THIS_PLACE/chuanfu", 53, 183, SOUTHWEST, 0, 船夫5 })
+npc$    : ({ "THIS_PLACE/chefu",   107, 25,  SOUTH, 1024, 车夫3 })
+npc$    : ({ "THIS_PLACE/shancai-tongzi", 81, 108, SOUTHWEST, 13312, 善财童子 })
+#npc$    : ({ "THIS_PLACE/recommend", 126, 169, SOUTHWEST, -1, 推荐人 })
+npc$    : ({ "THIS_PLACE/yuquanzhenren", 106, 49, SOUTHWEST, 14336, 玉泉真人 })
+npc$    : ({ "THIS_PLACE/qingwei-zhenren", 126, 168, SOUTHWEST, 15360, 清微真人 })
+npc$    : ({ "THIS_PLACE/nanhua-zhenren", 71, 79, SOUTHEAST, 2048, 南华真人 })
+npc$    : ({ "THIS_PLACE/yujian-shangren", 120, 89, SOUTHWEST, 2560, 玉鉴上人 })
+npc$    : ({ "THIS_PLACE/xianjie-shenbu", 53, 36, SOUTHEAST, 10000, 仙界神捕 })
+exits$  : ({ "无名药铺",   140, 65,  NORTHEAST, 19, 35, NORTHEAST })
+exits$  : ({ "无名杂货店",   136, 101, NORTHEAST, 16, 29, NORTHEAST })
+exits$  : ({ "无名客栈",   119, 29,  NORTHEAST, 18, 38, NORTHEAST })
+exits$  : ({ "无名武器店",   67,  28,  NORTHWEST, 43, 30, NORTHWEST })
+exits$  : ({ "无名钱庄",   143, 140, NORTHEAST, 13, 23, NORTHEAST })
+exits$  : ({ "无名布庄",   111, 125, NORTHWEST, 32, 24, NORTHWEST })
+exits$ : ({ "东昆仑",  14, 3, CIRCLE, 188, 290, NORTHWEST, "东昆仑" })
+exits$  : ({ "风月谷", 160, 31, CIRCLE,  99,  10, SOUTHEAST, "风月谷" })
+template: ({ "idle_template" })
+fly_room : ({ 102, 25 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_CAN_CASUAL_GAME"
+
+[无名药铺]
+alias   : ({ "wumingyaopu" })
+map_id  : 23001
+npc$    : ({ "THIS_PLACE/yaopu-laoban", 48, 28, SOUTHWEST, 9216, 无名药铺老板 })
+exits$  : ({ "无名小镇", 16, 37, SOUTHWEST, 137, 68, SOUTHWEST })
+fly_room : ({ 16, 37 })
+room_limit : "ROOM_CATCH_PKER"
+
+[无名杂货店]
+alias   : ({ "wumingzahuodian" })
+map_id  : 23002
+npc$    : ({ "THIS_PLACE/zahuodian-laoban", 19, 20, SOUTHEAST, 8192, 无名杂货店老板 })
+exits$  : ({ "无名小镇", 14, 32, SOUTHWEST, 132, 104, SOUTHWEST })
+fly_room : ({ 14, 32 })
+room_limit : "ROOM_CATCH_PKER"
+
+[无名钱庄]
+alias   : ({ "qianzhuang" })
+map_id  : 23003
+npc$    : ({ "THIS_PLACE/qianzhuang-laoban", 17, 20,  SOUTHEAST, 5120, 无名钱庄老板 })
+exits$  : ({ "无名小镇", 10, 26, SOUTHWEST, 137, 144, SOUTHWEST })
+fly_room : ({ 10, 26 })
+room_limit : "ROOM_CATCH_PKER | ROOM_F_MULTI_FLY"
+
+[无名客栈]
+alias   : ({ "wumingkezhang" })
+map_id  : 23004
+npc$    : ({ "THIS_PLACE/kezhan-laoban", 21, 31, SOUTHEAST, 6144, 无名客栈老板 })
+npc$    : ({ "THIS_PLACE/xiaoer", 35, 29, SOUTHWEST, 7168, 无名客栈小二 })
+exits$  : ({ "无名小镇", 15, 41, SOUTHWEST, 114, 32, SOUTHWEST })
+fly_room : ({ 15, 41 })
+room_limit : "ROOM_CATCH_PKER"
+
+[无名武器店]
+alias   : ({ "wumingwuqidian" })
+map_id  : 23005
+npc$    : ({ "THIS_PLACE/wuqidian-laoban", 51, 21, SOUTHWEST, 11776, 无名武器店老板 })
+exits$  : ({ "无名小镇", 46, 34, SOUTHEAST, 70, 32, SOUTHEAST })
+fly_room : ({ 46, 34 })
+room_limit : "ROOM_CATCH_PKER"
+
+[无名布庄]
+alias   : ({ "wumingbuzhuang" })
+map_id  : 23006
+npc$    : ({ "THIS_PLACE/buzhuang-laoban", 21, 16, SOUTHEAST, 10240, 无名布庄老板 })
+npc$    : ({ "THIS_PLACE/lugongjiang",     33, 18, SOUTHWEST, 11264, 鲁工匠 })
+exits$  : ({ "无名小镇", 36, 27, SOUTHEAST, 116, 129, SOUTHEAST })
+fly_room : ({ 36, 27 })
+room_limit : "ROOM_CATCH_PKER"
+
+[西昆仑]
+alias   : ({ "xikunlun" })
+map_id  : 25000
+npc$    : ({ "misc/chuansong-tongzi", 65, 46, SOUTHWEST, 1024, 传送童子1 })
+npc$    : ({ "THIS_PLACE/jinguan-zhenzhu", 13, 67, SOUTHEAST, 4096, 金光阵主 })
+npc$    : ({ "THIS_PLACE/fenghou-zhenzhu", 84, 29, SOUTHWEST, 2048, 风吼阵主 })
+exits$  : ({ "玉虚宫", 38, 34, NORTHWEST, 91, 63, NORTHWEST })
+exits$  : ({ "昆仑云海", 180, 19, CIRCLE, 231, 190, NORTHWEST, "昆仑云海" })
+exits$  : ({ "东昆仑", 227, 146, CIRCLE, 135, 6, SOUTHEAST, "东昆仑" })
+#exits$  : ({ "化血阵", 84, 29, SJZ_EXIT, 24, 16, SOUTHEAST })
+#exits$  : ({ "落魄阵", 13, 67, SJZ_EXIT, 18, 24, SOUTHEAST })
+boss_list : ({ "shitianmo" })
+template  : ({ "standard_template", "thief_template", "hidden_boss_template" })
+fly_room : ({ 65, 46 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[玉虚宫]
+alias   : ({ "yuxugong" })
+map_id  : 25001
+npc$    : ({ "THIS_PLACE/yuanshi-tianzun", 26, 27, SOUTHEAST, 0, 元始天尊 })
+exits$  : ({ "西昆仑", 96, 67, SOUTHEAST, 41, 36, SOUTHEAST })
+fly_room : ({ 96, 67 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[昆仑云海]
+alias   : ({ "kunlunyunhai" })
+map_id  : 25002
+npc$    : ({ "misc/feishengxianguan", 20, 133, SOUTHWEST, 0, 飞升仙官 })
+exits$  : ({ "西昆仑", 253, 192, CIRCLE, 171, 26, SOUTHWEST, "西昆仑" })
+exits$  : ({ "南天门", 262, 43, CIRCLE, 48, 128, NORTHEAST, "云霄宫" })
+monster_list : ({ "bingjinglonglinshou" , "jinchiyuan"})
+boss_list : ({ "shitianmo" })
+template  : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_klyh"
+fly_room : ({ 231, 190 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[帮派总坛]
+map_id  : 26000
+map_type : "party"
+exits$  : ({ "聚义堂", 130,  21, NORTHEAST,  22,  37,  NORTHEAST })
+exits$  : ({ "住所一", 137,  56, NORTHEAST,  15,  22,  NORTHEAST })
+exits$  : ({ "住所二", 124,  90, NORTHEAST,  17,  27,  NORTHEAST })
+exits$  : ({ "住所三",  68,  24, NORTHWEST,  16,  28,  NORTHWEST })
+exits$  : ({ "天墉城",  10, 163, CIRCLE,     274, 196, SOUTHEAST, "天墉城" })
+npc$    : ({ "THIS_PLACE/bangpai-chuansongren", 95, 30, SOUTHEAST, 0, 帮派传送人 })
+npc$    : ({ "THIS_PLACE/bangpai-shutong", 120, 37, SOUTHWEST, 1024, 帮派书童 })
+npc$    : ({ "THIS_PLACE/bangpai-zongjiaotou", 83, 80, SOUTHWEST, 2048, 帮派总教头 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE | ROOM_CAN_DUNSHU | ROOM_SWITCH_SERVER"
+fly_room : ({ 15, 160 })
+
+[聚义堂]
+map_id  : 26001
+map_type : "party"
+npc$    : ({ "THIS_PLACE/bangpai-zongguan", 39, 27, SOUTHWEST, 3072, 帮派总管 })
+exits$  : ({ "帮派总坛", 19, 38, SOUTHWEST, 124, 23, SOUTHWEST })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE | ROOM_CAN_DUNSHU | ROOM_SWITCH_SERVER"
+fly_room : ({ 24, 35 })
+
+[住所一]
+map_id  : 26002
+map_type : "party"
+npc$    : ({ "THIS_PLACE/bangpai-junshi", 24, 18, SOUTHWEST, 4096, 帮派军师 })
+npc$    : ({ "THIS_PLACE/cangku-guanliyuan", 12, 17, SOUTHEAST, 5120, 仓库管理员 })
+exits$  : ({ "帮派总坛", 12, 25, SOUTHWEST, 134, 58, SOUTHWEST })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE | ROOM_CAN_DUNSHU | ROOM_SWITCH_SERVER"
+fly_room : ({ 18, 21 })
+
+[住所二]
+map_id  : 26003
+map_type : "party"
+exits$  : ({ "帮派总坛", 14, 30, SOUTHWEST, 120, 92, SOUTHWEST })
+npc$    : ({ "THIS_PLACE/zhangfang-xiansheng", 27, 20, SOUTHWEST, 6144, 账房先生 })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE | ROOM_CAN_DUNSHU | ROOM_SWITCH_SERVER"
+fly_room : ({ 24, 22 })
+
+[住所三]
+map_id  : 26004
+map_type : "party"
+exits$  : ({ "帮派总坛", 20, 31, SOUTHEAST, 72, 28, SOUTHEAST })
+npc$    : ({ "THIS_PLACE/bangpai-shinv",    18, 24, SOUTHEAST, 7168, 帮派侍女 })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE | ROOM_CAN_DUNSHU | ROOM_SWITCH_SERVER"
+fly_room : ({ 24, 22 })
+
+[高级帮派总坛]
+map_id  : 30000
+map_type : "party"
+npc_guide_index : 1
+exits$  : ({ "聚义堂", 153,  41, NORTHEAST,  22,  37,  NORTHEAST })
+exits$  : ({ "住所一", 176,  114, NORTHEAST,  15,  22,  NORTHEAST })
+exits$  : ({ "住所二", 152,  172, NORTHEAST,  18,  26,  NORTHEAST })
+exits$  : ({ "住所三",  31,  32, NORTHWEST,  16,  28,  NORTHWEST })
+exits$  : ({ "天墉城",  9, 244, CIRCLE,      274, 196, SOUTHEAST, "天墉城" })
+npc$    : ({ "bangpaiditu/bangpai-chuansongren", 134, 45, SOUTHEAST, 0, 帮派传送人 })
+npc$    : ({ "bangpaiditu/bangpai-shutong", 160, 46, SOUTHWEST, 1024, 帮派书童 })
+npc$    : ({ "bangpaiditu/bangpai-zongjiaotou", 98, 142, SOUTHEAST, 2048, 帮派总教头 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE"
+
+[高级聚义堂]
+map_id  : 40100
+source_id : 26001
+map_type : "party"
+npc_guide_index: 1
+npc$    : ({ "bangpaiditu/bangpai-zongguan", 39, 27, SOUTHWEST, 3072, 帮派总管 })
+exits$  : ({ "帮派总坛", 19, 38, SOUTHWEST, 149, 43, SOUTHWEST })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE"
+
+[高级住所一]
+map_id  : 40106
+source_id : 26002
+map_type : "party"
+npc_guide_index: 1
+npc$    : ({ "bangpaiditu/bangpai-junshi", 24, 18, SOUTHWEST, 4096, 帮派军师 })
+npc$    : ({ "bangpaiditu/cangku-guanliyuan", 12, 17, SOUTHEAST, 5120, 仓库管理员 })
+exits$  : ({ "帮派总坛", 12, 25, SOUTHWEST, 172, 116, SOUTHWEST })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE"
+
+[高级住所二]
+map_id  : 40102
+source_id : 26003
+map_type : "party"
+npc_guide_index: 1
+exits$  : ({ "帮派总坛", 14, 30, SOUTHWEST, 148, 174, SOUTHWEST })
+npc$    : ({ "bangpaiditu/zhangfang-xiansheng", 27, 20, SOUTHWEST, 6144, 账房先生 })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE"
+
+[高级住所三]
+map_id  : 40105
+source_id : 26004
+map_type : "party"
+npc_guide_index: 1
+exits$  : ({ "帮派总坛", 20, 31, SOUTHEAST, 34, 34, SOUTHEAST })
+npc$    : ({ "bangpaiditu/bangpai-shinv",    18, 24, SOUTHEAST, 7168, 帮派侍女 })
+not_start_room : 2
+room_limit : "ROOM_NO_CHANGE_UPGRADE"
+
+[幽雅小居]
+map_id  : 28000
+npc$    : ({ "misc/guanjia", 23, 22, SOUTHEAST, -1, 管家 })
+#npc$    : ({ "misc/guanliyuan", 36, 28, NORTHWEST, 1024, 储物箱管理员1 })
+exits$  : ({ "天墉城", 23, 29, SOUTHWEST,  162, 211, SOUTHEAST, "天墉城" })
+entrance: ({ 26, 27, NORTHEAST })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[豪华居所]
+map_id  : 28001
+npc$    : ({ "misc/guanjia", 25, 40, SOUTHEAST, -1, 管家 })
+#npc$    : ({ "misc/guanliyuan", 42, 45, NORTHWEST, 1024, 储物箱管理员2 })
+exits$  : ({ "天墉城", 26, 45, SOUTHWEST, 162, 211, SOUTHWEST, "天墉城" })
+entrance: ({ 31, 43, NORTHEAST })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[花园别墅]
+map_id  : 28002
+npc$    : ({ "misc/guanjia", 50, 58, SOUTHEAST, -1, 管家 })
+#npc$    : ({ "misc/guanliyuan", 64, 63, NORTHWEST, 1024, 储物箱管理员3 })
+exits$  : ({ "天墉城", 52, 65, SOUTHWEST, 162, 211, SOUTHEAST, "天墉城" })
+entrance: ({ 57, 62, NORTHEAST })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[翡翠庄园]
+map_id  : 28008
+npc$    : ({ "misc/guanjia", 59, 61, SOUTHEAST, -1, 管家 })
+#npc$    : ({ "misc/guanliyuan", 73, 68, NORTHWEST, 1024, 储物箱管理员4 })
+exits$  : ({ "天墉城", 20, 93, SOUTHWEST, 162, 211, SOUTHEAST, "天墉城" })
+entrance: ({ 62, 70, NORTHEAST })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[百鬼地]
+map_id  : 40014
+source_id : 16100
+compact_map_index: 1
+npc$    : ({ "misc/hulinggui",   89,  67,  SOUTHEAST, 0,    狐灵鬼 })
+npc$    : ({ "misc/anlinggui",   205, 67,  NORTHWEST, 1024, 暗灵鬼 })
+npc$    : ({ "misc/yanlinggui",  303, 67,  SOUTHEAST, 2048, 炎灵鬼 })
+npc$    : ({ "misc/meilinggui",  219, 130, SOUTHEAST, 3072, 魅灵鬼 })
+npc$    : ({ "misc/zhanlinggui", 315, 185, SOUTHEAST, 4096, 战灵鬼 })
+npc$    : ({ "misc/tianxin-daoren",   418, 140, SOUTHWEST, 5120, 天心道人 })
+exits$  : ({ "天墉城", 451, 153, CIRCLE, 400, 189, SOUTHEAST, "天墉城" })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT"
+
+[蝴蝶谷]
+map_id  : 40176
+source_id : 7001
+npc$    : ({ "misc/xuanlu-xianzi", 158, 18, SOUTHEAST, 1, 玄露仙子 })
+npc$    : ({ "misc/baihua-shennv",   205, 165, SOUTHEAST, 1024, 百花神女 })
+exits$  : ({ "南天门", 152, 203, CIRCLE, 162, 57, SOUTH, "云霄宫" })
+not_start_room : 1
+compact_map_index : 1
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT"
+
+[试道场]
+alias   : ({ "shidaochang" })
+map_id  : 40067
+source_id : 29000
+npc$    : ({ "misc/shidao-chuansongren", 101, 76, SOUTHWEST, 0, 试道传送人 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_ANTICHEATER | ROOM_FORBID_XIANLINGKA"
+
+[帮战地图]
+alias   : ({ "bangzhanditu" })
+map_id  : 29001
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_XIANLINGKA | ROOM_NO_ANTICHEATER"
+
+[证道殿]
+alias   : ({ "zhengdaodian" })
+map_id  : 29002
+exits$  : ({ "天墉城", 120, 175, CIRCLE, 345, 222, SOUTHWEST,  "天墉城" })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_SWITCH_SERVER"
+
+[龙宫]
+alias   : ({ "longgong" })
+map_id  : 27001
+exits$  : ({ "海底迷宫", 167, 104, CIRCLE, 43, 35, SOUTHEAST, "海底迷宫" })
+exits$  : ({ "龙宫大殿", 28, 25, NORTHWEST, 95, 64, NORTHWEST })
+npc$    : ({ "THIS_PLACE/longgong-shizhe", 61, 38, SOUTHWEST, 0, 龙宫使者1 })
+template: ({ "idle_template" })
+fly_room : ({ 61, 38 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[龙宫大殿]
+alias   : ({ "longgong-dadian" })
+map_id  : 27002
+exits$  : ({ "龙宫", 101, 68, SOUTHEAST, 33, 28, SOUTHEAST })
+npc$   : ({ "THIS_PLACE/longnv", 81, 49, SOUTHEAST, 2048, 龙女 })
+npc$    : ({ "THIS_PLACE/longwang", 30, 23, SOUTHEAST, 1024, 龙王 })
+npc$    : ({ "THIS_PLACE/shinv", 34, 34, SOUTHEAST, 3072, 侍女 })
+npc$    : ({ "THIS_PLACE/shinv", 45, 29, SOUTHEAST, 3072, 侍女 })
+fly_room : ({ 101, 68 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[海底迷宫]
+alias   : ({ "haidi-migong" })
+map_id  : 27000
+exits$  : ({ "龙宫", 35, 26, CIRCLE, 162, 97, NORTHWEST, "龙宫" })
+monster_list : ({ "xiabing", "xiejiang" })
+boss_list    : ({ "bishui-jinqingshou" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_hdmg"
+fly_room : ({ 43, 35 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[天上集市]
+alias   : ({ "tianshangjishi" })
+map_id  : 29000
+npc$    : ({ "THIS_PLACE/jishi-chuansongren", 101, 76, SOUTHWEST, 0, 集市传送人2 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER"
+
+[万妖窟1层]
+repeat_map : "万妖窟[2,3,4,5,6,7,8,9]层"
+alias   : ({ "wanyaoku" })
+map_id  : 12001
+npc$    : ({ "misc/xuanwushenjiang", 158, 99, SOUTHWEST, 0, 玄武神将 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_SWITCH_SERVER | ROOM_NO_CHANGE_UPGRADE"
+
+[帮派名人堂]
+alias   : ({ "bangpai-mingrentang" })
+map_id  : 40075
+source_id : 29002
+npc$    : ({ "THIS_PLACE/mingrentang-guanshi", 43, 143, SOUTHEAST, 0, 名人堂管事 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER"
+
+[帮派外坛]
+alias   : ({ "bangpai-waitan" })
+map_id  : 30001
+#exits$  : ({ "天墉城",  9, 242, CIRCLE, 158, 159, NORTHEAST, "天墉城" })
+npc$    : ({ "misc/bangpai-shouhushixiang", 59, 18, SOUTHWEST, -1, 帮派守护石像 })
+npc$    : ({ "misc/bangpai-shouhushixiang", 163, 65, SOUTHWEST, -1, 帮派守护石像 })
+npc$    : ({ "misc/chengmen", 183, 15, SOUTHWEST, -1, 城门 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[正斗场]
+alias   : ({ "zhengdouchang" })
+map_id  : 40074
+source_id : 29001
+exits$  : ({ "天墉城", 189, 103, CIRCLE, 270, 142, SOUTHEAST, "天墉城" })
+exits$  : ({ "天墉城",  77,  43, CIRCLE, 270, 142, SOUTHEAST, "天墉城" })
+template : ({ "zhengdou_template" })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE"
+
+[黑风洞一层]
+alias   : ({ "heifengdong-yiceng" })
+map_id  : 31100
+template: ({ "idle_template" })
+npc$    : ({ "misc/yangxiaowei", 127, 91, SOUTHEAST, 0, 杨校尉 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[黑风洞二层]
+alias   : ({ "heifengdong-erceng" })
+map_id  : 31200
+template: ({ "idle_template" })
+npc$    : ({ "misc/mengmianren", 191, 71, SOUTHEAST, -1, 蒙面人 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[黑风洞三层]
+alias   : ({ "heifengdong-sanceng" })
+map_id  : 31300
+template: ({ "idle_template" })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[官府]
+alias   : ({ "guanfu" })
+map_id  : 5016
+#exits$  : ({ "监狱", 135, 15, NORTHEAST, 27, 47, NORTHEAST })
+#exits$  : ({ "天墉城", 13, 76, CIRCLE, 374, 21, SOUTHWEST })
+#exits$  : ({ "总督衙门", 87, 36, NORTHEAST, 28, 59, NORTHEAST })
+#npc$    : ({ "THIS_PLACE/jiashiye", 44,  30, SOUTHEAST, 27136, 贾师爷 })
+npc$    : ({ "THIS_PLACE/shibing",  133, 13, SOUTHWEST, -1, 士兵 })
+npc$    : ({ "THIS_PLACE/shibing",  139, 16, SOUTHWEST, -1, 士兵 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER"
+
+[兰若寺]
+alias   : ({ "lanruosi" })
+map_id  : 32000
+npc$    : ({ "misc/chixiazhenren", 226, 195, SOUTHWEST, 0, 赤霞真人 })
+exits$  : ({ "兰若寺内",  143, 123, NORTHEAST, 17, 27, NORTHEAST })
+template: ({ "idle_template" })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[兰若寺内]
+alias   : ({ "lanruosinei" })
+exits$  : ({ "兰若寺",  11, 30, SOUTHWEST, 138, 126, SOUTHWEST })
+map_id  : 32001
+not_start_room : 1
+room_limit : "ROOM_NO_CHANGE_UPGRADE"
+
+[舞会场地]
+alias   : ({ "costume_ball" })
+map_id  : 40000
+source_id : 29001
+exits$  : ({ "天墉城",  132, 72, CIRCLE, 23, 182, NORTH, "天墉城"})
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[乱斗场]
+alias   : ({ "luandouchang" })
+map_id  : 40072
+source_id : 29001
+exits$  : ({ "天墉城", 189, 103, CIRCLE, 270, 142, SOUTHEAST, "天墉城" })
+exits$  : ({ "天墉城",  77,  43, CIRCLE, 270, 142, SOUTHEAST, "天墉城" })
+template : ({ "luandou_template" })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE"
+
+[烈火涧]
+alias   : ({ "liehuojian" })
+map_id  : 33000
+template: ({ "idle_template" })
+npc$    : ({ "misc/tudigonggong", 13, 107, SOUTHEAST, 0, 土地公公 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[门派比武场]
+alias   : ({ "menpaibiwuchang" })
+map_id  : 40066
+source_id : 29000
+npc$    : ({ "misc/menpaibiwudahui-chuansongren", 101, 76, SOUTHWEST, 0, 门派比武大会传送人1 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE | ROOM_P_TOUCH_MONSTER | ROOM_NO_ANTICHEATER"
+
+[护宝战场]
+alias   : ({ "hubaozhanchang" })
+map_id  : 40103
+source_id : 29000
+npc$    : ({ "misc/zhanchang-guanliren", 84, 67, SOUTHWEST, 0, 战场管理人 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_DUNSHU | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_COMPETE"
+
+[守护祭坛]
+alias  : ({ "shouhu-jitan" })
+map_id : 40068
+source_id : 29000
+npc$    : ({ "misc/shouhu-shixiang", 170,  40, SOUTHEAST, 0, 守护石像 })
+npc$    : ({ "misc/shouhu-tuteng", 28, 112, SOUTHWEST, 1024, 守护图腾 })
+npc$    : ({ "misc/jitan-chuansongshi", 101, 76, SOUTHWEST, 2048, 祭坛传送使 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_SWITCH_SERVER"
+
+[镇邪冢]
+alias   : ({ "zhenxiezhong" })
+map_id  : 34000
+template: ({ "idle_template" })
+npc$    : ({ "misc/zhenxieshenjiang", 161, 110, SOUTHEAST, 0, 镇邪神将 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[化血阵]
+#alias   : ({ "huaxuezhen" })
+#map_id  : 19003
+#exits$  : ({ "西昆仑", 48, 28, CIRCLE, 81, 36, SOUTHWEST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[落魄阵]
+#alias   : ({ "luopozhen" })
+#map_id  : 19004
+#exits$  : ({ "西昆仑", 43, 32, CIRCLE, 19, 72, SOUTHEAST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[寒冰阵]
+#alias   : ({ "hanbingzhen" })
+#map_id  : 20003
+#exits$  : ({ "碧游宫", 47, 21, CIRCLE, 24, 91, SOUTHEAST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[红水阵]
+#alias   : ({ "hongshuizhen" })
+#map_id  : 20004
+#exits$  : ({ "碧游宫", 47, 20, CIRCLE, 84, 70, SOUTHWEST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[风吼阵]
+#alias   : ({ "fenghouzhen" })
+#map_id  : 21002
+#exits$  : ({ "大罗宫", 12, 10, CIRCLE, 16, 69, SOUTHEAST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[金光阵]
+#alias   : ({ "jinguangzhen" })
+#map_id  : 21003
+#exits$  : ({ "大罗宫", 5, 31, CIRCLE, 131, 62, SOUTHEAST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[天阙阵]
+#alias   : ({ "tianquezhen" })
+#map_id  : 22002
+#exits$  : ({ "七宝林", 8, 18, CIRCLE, 29, 44, EAST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[红砂阵]
+#alias   : ({ "hongshazhen" })
+#map_id  : 22003
+#exits$  : ({ "七宝林", 47, 10, CIRCLE, 119, 77, NORTHWEST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[地烈阵]
+#alias   : ({ "diliezhen" })
+#map_id  : 25003
+#exits$  : ({ "八德池", 3, 32, CIRCLE, 107, 110, SOUTHWEST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+#[烈焰阵]
+#alias   : ({ "lieyanzhen" })
+#map_id  : 25004
+#exits$  : ({ "八德池", 47, 25, CIRCLE, 30, 110, SOUTHEAST })
+#template: ({ "idle_template" })
+#not_start_room : 1
+#room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[雪域冰原]
+alias   : ({ "xueyubingyuan" })
+map_id  : 19002
+npc$    : ({ "xueyubingyuan/luli", 123, 87, SOUTHEAST, 1, 陆离 })
+npc$    : ({ "xueyubingyuan/jiutian-linghu", 217, 159, SOUTHEAST, 10, 九天灵狐 })
+npc$    : ({ "misc/wudidong", 269, 28, SOUTHWEST, 0, 无底洞 })
+monster_list : ({ "xuehu", "jianhun" })
+boss_list    : ({ "miedimo" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+exits$  : ({ "碧游宫", 7, 26, CIRCLE, 72, 86, NORTHEAST })
+log_action   : "liangq_xyby"
+fly_room : ({ 19, 25 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_CATCH_PKER | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN"
+
+[战场]
+map_id  : 38001
+raw_name : 战场
+npc$    : ({ "misc/zhanshen.c", 26, 39, SOUTHWEST, -1, 战神 })
+npc$    : ({ "misc/zhanshen.c", 86, 89, SOUTHWEST, -1, 战神 })
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c",     34,   42, SOUTHWEST, 2048, 战场物资员 })
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c",     81,   85, SOUTHWEST, 4092, 战场物资员 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_SWITCH_SERVER | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[八阵图]
+alias   : ({ "bazhentu" })
+map_id  : 21003
+npc$    : ({ "misc/yinluzhe", 24, 20, SOUTHEAST, 0, 引路者 })
+not_start_room : 1
+fly_room : ({ 21, 21 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_F_TELEPORT_BY_ITEM"
+
+[离阵]
+alias   : ({ "bazhentu_lipo" })
+map_id  : 20004
+not_start_room : 1
+room_limit : "ROOM_NO_CHANGE_UPGRADE"
+
+[莲花池]
+compact_map_index : 1
+alias   : ({ "lianhuachi" })
+map_id  : 40040
+source_id : 22001
+npc$    : ({ "misc/change-xianzi", 35, 17, SOUTHEAST, 0, 嫦娥仙子 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_SWITCH_SERVER"
+
+[驯鹿林地]
+alias   : ({ "christmas_party" })
+map_id  : 40030
+source_id : 21001
+compact_map_index: 1
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_SWITCH_SERVER | ROOM_NO_ANTICHEATER"
+
+[迷境花树]
+alias   : ({ "mijinghuashu" })
+map_id  : 21000
+exits$  : ({ "七宝林", 6, 6, CIRCLE, 128, 137, NORTHWEST })
+monster_list : ({ "zhengshou", "diexian" })
+boss_list    : ({ "huanji" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template"})
+log_action         : "liangq_mjhs"
+fly_room : ({ 13, 12 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN | ROOM_SWITCH_SERVER | ROOM_CATCH_PKER"
+
+[虚灵幻境]
+alias   : ({ "xulinghuanjing" })
+map_id  : 40028
+source_id : 20003
+not_start_room : 1
+npc$     : ({ "misc/xulingsanren", 27, 21, SOUTHEAST, 20009, 虚灵散人 })
+template : ({ "xulinghuanjing_template", "xulinghuanjing_boss_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[虚灵幻境1]
+alias   : ({ "xulinghuanjing1" })
+map_id  : 40029
+source_id : 20003
+not_start_room : 1
+npc$     : ({ "misc/xulingsanren", 27, 21, SOUTHEAST, 20009, 虚灵散人 })
+template : ({ "xulinghuanjing_template", "xulinghuanjing_boss_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[虚灵幻境2]
+alias   : ({ "xulinghuanjing2" })
+map_id  : 40053
+source_id : 22003
+not_start_room : 1
+npc$     : ({ "misc/xulingsanren", 27, 21, SOUTHEAST, 20009, 虚灵散人 })
+template : ({ "xulinghuanjing_template", "xulinghuanjing_boss_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[虚灵幻境3]
+alias   : ({ "xulinghuanjing3" })
+map_id  : 40062
+source_id : 25003
+not_start_room : 1
+npc$     : ({ "misc/xulingsanren", 27, 21, SOUTHEAST, 20009, 虚灵散人 })
+template : ({ "xulinghuanjing_template", "xulinghuanjing_boss_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[虚灵幻境4]
+alias   : ({ "xulinghuanjing4" })
+map_id  : 40051
+source_id : 22002
+not_start_room : 1
+npc$     : ({ "misc/xulingsanren", 27, 21, SOUTHEAST, 20009, 虚灵散人 })
+template : ({ "xulinghuanjing_template", "xulinghuanjing_boss_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[虚灵幻境5]
+alias   : ({ "xulinghuanjing5" })
+map_id  : 40038
+source_id : 21002
+not_start_room : 1
+npc$     : ({ "misc/xulingsanren", 27, 21, SOUTHEAST, 20009, 虚灵散人 })
+template : ({ "xulinghuanjing_template", "xulinghuanjing_boss_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[虚灵幻境6]
+alias   : ({ "xulinghuanjing6" })
+map_id  : 40026
+source_id : 19004
+not_start_room : 1
+npc$     : ({ "misc/xulingsanren", 27, 21, SOUTHEAST, 20009, 虚灵散人 })
+template : ({ "xulinghuanjing_template", "xulinghuanjing_boss_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE"
+
+[争霸赛场]
+alias   : ({ "zhengba-saichang" })
+map_id  : 40069
+source_id : 29000
+npc$    : ({ "misc/miaoshou-kongkong", 101, 76, SOUTHEAST, 0, 妙手空空 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE"
+
+[水云间]
+alias   : ({ "shuiyunjian" })
+map_id  : 22000
+exits$  : ({ "八德池", 6, 6, CIRCLE, 91, 142, NORTHWEST })
+npc$    : ({ "THIS_PLACE/chuanfu", 269, 14, SOUTHWEST, 1, 船夫9 })
+monster_list : ({ "bangji", "shuimeshen" })
+boss_list    : ({ "yunshui-xianshou" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_syj"
+fly_room : ({ 11, 9 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[热砂荒漠]
+alias   : ({ "reshahuangmo" })
+map_id  : 20002
+exits$  : ({ "大罗宫", 8, 6, CIRCLE, 156, 99, NORTHWEST })
+npc$    : ({ "reshahuangmo/jiutian-linglu", 193, 69, SOUTHWEST, 1, 九天灵鹿 })
+npc$    : ({ "reshahuangmo/shentuo", 115, 191, NORTHWEST, 2, 神驼2 })
+monster_list : ({ "jinjiaxie", "doumoxi" })
+boss_list    : ({ "jinganglang" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_rshm"
+fly_room : ({ 27, 11 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[楼兰城]
+map_id  : 38000
+alias   : ({ "loulancheng" })
+npc$    : ({ "THIS_PLACE/zhanchang-chuansongren.c", 139,  99, SOUTHEAST, 0, 战场传送人 })
+npc$    : ({ "THIS_PLACE/zhanchang-wuziyuan.c",     213,  86, SOUTHEAST, 1024, 战场物资员 })
+template: ({ "idle_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[幻仙塔底]
+alias   : ({ "huanxianta-diceng" })
+map_id  : 35005
+npc$    : ({ "misc/huanxianta-tazhu", 34, 36, SOUTHEAST, -1, 幻仙塔塔主 })
+npc$    : ({ "misc/huanxianta-kanshouzhe", 25, 22, SOUTHWEST, -1, 幻仙塔看守者 })
+exits$  : ({ "天墉城", 51, 40, SOUTHEAST, 136, 21, SOUTHEAST, "天墉城" })
+room_limit : "ROOM_NO_CHANGE_UPGRADE"
+
+[幻仙塔]
+alias   : ({ "huanxianta" })
+map_id  : 35004
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[通天塔]
+alias   : ({ "tongtianta" })
+map_id  : 37000
+not_start_room : 1
+npc$     : ({ "tongtianta/beidoushenjiang", 116,  70, SOUTHWEST,     0, 北斗神将 })
+npc$     : ({ "tongtianta/tianshuxingjun",  137,  45, SOUTHWEST,  1024, 天枢星君 })
+npc$     : ({ "tongtianta/tianxuanxingjun",  92,  46, SOUTHEAST,  2048, 天璇星君 })
+npc$     : ({ "tongtianta/tianjixingjun",    61,  64, SOUTHEAST,  3072, 天玑星君 })
+npc$     : ({ "tongtianta/tianquanxingjun",  62,  87, NORTHEAST,  4096, 天权星君 })
+npc$     : ({ "tongtianta/yuhengxingjun",    95, 104, NORTHEAST,  5120, 玉衡星君 })
+npc$     : ({ "tongtianta/kaiyangxingjun",  140, 104, NORTHWEST,  6144, 开阳星君 })
+npc$     : ({ "tongtianta/yaoguangxingjun", 171,  86, NORTHWEST,  7168, 摇光星君 })
+exits$   : ({ "天墉城", 170, 62, WANYAOKU_EXIT, 160, 17, SOUTHEAST, "天墉城" })
+fly_room : ({ 116, 70 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_SWITCH_SERVER"
+
+[桐柏山]
+alias   : ({ "tongbaishan" })
+map_id  : 40134
+source_id  : 14006
+not_start_room : 2
+compact_map_index: 1
+npc$     : ({ "misc/lvdongbin",       35,   191, SOUTHWEST, 0,     吕洞宾2 })
+npc$     : ({ "misc/chuanshanjia",   135,   34, SOUTHWEST,  1024,  穿山甲 })
+npc$     : ({ "misc/taibai-jinxing",  44,   15, NORTHWEST,  2048,  太白金星 })
+template : ({ "baxianmengjing_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 41, 200 })
+
+[瑶池]
+alias   : ({ "yaochi" })
+map_id  : 40135
+source_id  : 22001
+not_start_room : 2
+compact_map_index: 1
+npc$     : ({ "misc/mudan-xianzi",      67,   31, SOUTHWEST, 0,     牡丹仙子 })
+npc$     : ({ "misc/shouzhi-tianbing",  77,  126, SOUTHWEST, 1024,  守值天兵 })
+npc$     : ({ "misc/xiwangmu",          35,   17, SOUTHEAST, 2048,  西王母 })
+template : ({ "baxianmengjing_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 68, 79 })
+
+[方丈岛]
+alias   : ({ "fangzhangdao" })
+map_id  : 36000
+exits$  : ({ "受录宫", 218, 157, NORTHWEST, 42, 33, NORTHWEST })
+exits$  : ({"断魂窟", 343, 152, CIRCLE, 82, 108, NORTHEAST, "断魂窟"})
+npc$    : ({ "THIS_PLACE/chuanfu", 327, 289, SOUTHEAST, 1, 船夫10 })
+npc$    : ({ "misc/tianmushangren", 121, 132, SOUTHWEST, 1024, 天目上人 })
+monster_list : ({ "huasheshou", "huling" })
+boss_list    : ({ "qicailuanyao" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_fzd"
+fly_room : ({ 322, 293 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[受录宫]
+alias   : ({ "shoulugong" })
+map_id  : 36001
+exits$  : ({ "方丈岛", 46, 35, SOUTHEAST, 221, 158, SOUTHEAST })
+fly_room : ({ 46, 35 })
+room_limit : "ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[仙界战场]
+alias   : ({ "xianjie-zhanchang" })
+map_id  : 40012
+source_id : 14006
+not_start_room : 1
+compact_map_index: 1
+npc$    : ({ "THIS_PLACE/xianjiepanni-diaoxiang", 67, 28, SOUTHEAST, 0, 仙界叛逆雕像 })
+exits$  : ({ "无名小镇", 135, 34, CIRCLE, 65, 40, SOUTHEAST, "无名小镇" })
+room_limit : "ROOM_BIG_MAP"
+
+[仙魔战场]
+alias   : ({ "xianmo-zhanchang" })
+map_id  : 40013
+source_id : 14006
+not_start_room : 1
+compact_map_index: 1
+npc$    : ({ "THIS_PLACE/zhanzheng-diaoxiang", 67, 28, SOUTHEAST, 0, 战争雕像 })
+exits$  : ({ "无名小镇", 135, 34, CIRCLE, 65, 40, SOUTHEAST, "无名小镇" })
+room_limit : "ROOM_BIG_MAP"
+
+[煞星魔境]
+alias   : ({ "shaxingmojing" })
+map_id  : 40081
+source_id : 33000
+npc$    : ({ "misc/xiangmo-shizhe", 101, 52, SOUTHWEST, 1, 降魔使者 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_SWITCH_SERVER"
+
+[天牢]
+alias   : ({ "tianlao" })
+map_id  : 40002
+source_id : 12001
+
+[妖王魔境]
+alias   : ({ "yaowangmojing" })
+map_id  : 40084
+source_id : 34000
+npc$    : ({ "misc/xiangyao-shizhe", 161, 109, SOUTHWEST, 1, 降妖使者 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_SWITCH_SERVER"
+
+[冰雪广场]
+alias   : ({ "bingxue-guangchang" })
+map_id  : 40016
+source_id : 19000
+npc$    : ({ "misc/xueren1", 38, 39, SOUTHEAST, -1,     雪人 })
+npc$    : ({ "misc/xueren2", 25, 89, SOUTHEAST, -1,     雪人 })
+npc$    : ({ "misc/xueren3", 89, 21, SOUTHWEST, -1,     雪人 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP"
+
+[魔舞镇]
+map_id            : 40089
+source_id         : 38001
+not_start_room    : 2
+alias   : ({ "mowuzhen" })
+npc$    : ({ "mowuzhen/chenkong-daoren", 109, 18, SOUTHWEST, 0, 尘空道人 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT"
+
+[断魂窟]
+alias   : ({ "duanhunku" })
+map_id  : 36002
+exits$  : ({ "方丈岛", 76, 112, CIRCLE, 349, 156, SOUTHEAST, "方丈岛" })
+npc$    : ({ "duanhunku/tongmo-daoren", 8, 64, SOUTHEAST, 1, 通魔道人 })
+monster_list : ({ "zhenshuiguai", "qiutangxianzi" })
+boss_list    : ({ "longgui" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_dhk"
+fly_room : ({ 97, 104 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[雾锦香壤]
+alias   : ({ "wujinxiangrang" })
+map_id  : 29003
+exits$   : ({ "五龙山", 90, 71, CIRCLE, 204, 33, SOUTH, "五龙山" })
+map_type : "medicine_field"
+fly_room : ({ 90, 71 })
+room_limit : "ROOM_BIG_MAP"
+
+[芷凌幽境]
+alias   : ({ "zhilingyoujing" })
+map_id  : 40077
+source_id : 29003
+exits$   : ({ "终南山", 90, 71, CIRCLE, 36, 33, SOUTH, "终南山" })
+map_type : "medicine_field"
+fly_room : ({ 90, 71 })
+room_limit : "ROOM_BIG_MAP"
+
+[芸水田园]
+alias   : ({ "yunshuitianyuan" })
+map_id  : 40078
+source_id : 29003
+exits$   : ({ "凤凰山", 90, 71, CIRCLE, 219, 93, SOUTH, "凤凰山" })
+map_type : "medicine_field"
+fly_room : ({ 90, 71 })
+room_limit : "ROOM_BIG_MAP"
+
+[仙山奇药]
+alias   : ({ "xianshanqiyao" })
+map_id  : 40079
+source_id : 29003
+exits$   : ({ "乾元山", 90, 71, CIRCLE, 285, 54, SOUTH, "乾元山" })
+map_type : "medicine_field"
+fly_room : ({ 90, 71 })
+room_limit : "ROOM_BIG_MAP"
+
+[百草药谷]
+alias   : ({ "baicaoyaogu" })
+map_id  : 40080
+source_id : 29003
+exits$   : ({ "骷髅山", 90, 71, CIRCLE, 159, 80, SOUTH, "骷髅山" })
+map_type : "medicine_field"
+fly_room : ({ 90, 71 })
+room_limit : "ROOM_BIG_MAP"
+
+[藏宝之地]
+alias  : ({ "cangbao-zhidi" })
+npc$   : ({ "misc/baozang-lieshou",  67,  191, SOUTHWEST, 1024,  宝藏猎手 })
+npc$   : ({ "misc/caifu-lieshou",    221,  23, NORTHEAST, 2048,  财富猎手 })
+map_id : 40083
+source_id : 34000
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT"
+
+[楼兰]
+map_id  : 40087
+source_id : 38000
+alias   : ({ "loulan" })
+show_name : "楼兰城"
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 213,  86, SOUTHEAST, 1024, 战场物资员 })
+npc$    : ({ "loulancheng/kufubangzhan-chuansongren.c", 169, 55, SOUTHEAST, 1024, 跨服帮战传送人 })
+template: ({ "idle_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_FORBID_DUNSHU"
+
+[试道楼兰城]
+map_id  : 40088
+source_id : 38000
+alias   : ({ "shidao_loulancheng" })
+show_name : "楼兰城"
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 132,  103, SOUTHEAST, 1024, 战场物资员 })
+npc$    : ({ "shidao_loulancheng/shidao-jieyinren", 139, 99, SOUTHEAST, 2048, 试道接引人 })
+template: ({ "idle_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER"
+
+[试道大会战场]
+map_id  : 40090
+source_id : 38001
+raw_name : 试道大会战场
+show_name : "战场"
+npc$    : ({ "misc/tianxia-daowang.c", 86, 89, SOUTHWEST, 1024, 天下道尊 })
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 34, 42, SOUTHWEST, 2048, 战场物资员 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER"
+
+[名人争霸楼兰城]
+map_id  : 40092
+source_id : 38000
+alias   : ({ "celebrity_loulancheng" })
+show_name : "楼兰城"
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 132,  103, SOUTHEAST, 1024, 战场物资员 })
+npc$    : ({ "misc/zhengba-jieyinren", 139, 99, SOUTHEAST, 2048, 争霸赛接引人 })
+template: ({ "idle_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER"
+
+[名人争霸赛场]
+map_id  : 40093
+source_id : 38001
+raw_name : 名人争霸赛场
+show_name : "战场"
+#npc$    : ({ "misc/wudi-bawang.c", 86, 89, SOUTHWEST, 1024, 无敌霸王 })
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 34, 42, SOUTHWEST, 2048, 战场物资员 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER"
+
+[三星线下赛楼兰城]
+map_id  : 40094
+source_id : 38000
+alias   : ({ "samsung_loulancheng" })
+show_name : "楼兰城"
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 132, 103, SOUTHEAST, 1024, 战场物资员 })
+npc$    : ({ "misc/loulan-jieyinren", 139, 99, SOUTHEAST, 2048, 楼兰城接引人 })
+template: ({ "idle_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER"
+
+[三星线下赛战场]
+map_id  : 40095
+source_id : 38001
+raw_name : 三星线下赛战场
+show_name : "战场"
+npc$    : ({ "misc/samsung-tepaiyuan.c", 86, 89, SOUTHWEST, 1024, 三星竞技特派员 })
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 34, 42, SOUTHWEST, 2048, 战场物资员 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER"
+
+[楼兰战场]
+map_id  : 40071
+source_id : 29001
+not_start_room : 1
+room_limit : "ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_P_TOUCH_MONSTER"
+
+[冰雪战场]
+alias   : ({ "bingxue_zhanchang" })
+map_id  : 40017
+source_id : 19000
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER"
+
+[休息室]
+alias   : ({ "rest_room" })
+map_id  : 40091
+source_id : 99000
+room_limit : "ROOM_BIG_MAP"
+
+[迷宫地图一]
+map_id  : 39005
+not_start_room : 1
+left_out_pos  : ({ 13, 61 })
+right_out_pos : ({ 93, 39 })
+enter_pos     : ({ 17, 16 })
+room_limit : "ROOM_BIG_MAP"
+
+[迷宫地图二]
+map_id  : 39007
+not_start_room : 1
+left_out_pos  : ({ 20, 13 })
+right_out_pos : ({ 88, 70 })
+enter_pos     : ({ 27, 37 })
+room_limit : "ROOM_BIG_MAP"
+
+[迷宫地图三]
+map_id  : 39004
+not_start_room : 1
+left_out_pos  : ({ 15, 63 })
+mid_out_pos   : ({ 36, 13 })
+right_out_pos : ({ 80, 15 })
+enter_pos     : ({ 41, 23 })
+room_limit : "ROOM_BIG_MAP"
+
+[迷宫地图四]
+map_id  : 39006
+not_start_room : 1
+left_out_pos  : ({ 10, 65 })
+mid_out_pos   : ({ 79, 9 })
+right_out_pos : ({ 90, 66 })
+enter_pos     : ({ 30, 25 })
+room_limit : "ROOM_BIG_MAP"
+
+[迷宫出口]
+map_id  : 39003
+not_start_room : 1
+enter_pos : ({ 33, 19 })
+room_limit : "ROOM_BIG_MAP"
+
+[地府]
+alias   : ({ "difu" })
+map_id  : 39000
+exits$  : ({ "黄泉路", 16, 169,  CIRCLE, 110, 29, SOUTHWEST })
+exits$  : ({ "奈何桥", 12, 26, CIRCLE, 31,  92, NORTHEAST })
+npc$    : ({ "misc/qinguangdian-chuanfu",       73,  124,  SOUTHEAST, 0,    秦广殿船夫 })
+npc$    : ({ "misc/chujiangdian-chuanfu",       99,  85,   SOUTHEAST, 100,  楚江殿船夫 })
+npc$    : ({ "misc/difu-chuanfu",               160, 98,   SOUTHWEST, 200,  阎罗殿船夫 })
+npc$    : ({ "misc/bianchengdian-chuanfu",      164, 63,   SOUTHEAST, 300,  卞城殿船夫 })
+npc$    : ({ "THIS_PLACE/hell-dealer",          224, 33,   SOUTHEAST, 400,  地府商人 })
+npc$    : ({ "THIS_PLACE/zhuanlunwang",         215, 39,   SOUTHEAST, 500,  转轮王 })
+npc$    : ({ "THIS_PLACE/dizangwang",           138, 134,  SOUTHEAST, 600,  地藏王 })
+npc$    : ({ "THIS_PLACE/yanluowang",           253, 40,   SOUTHWEST, 700,  阎罗王 })
+npc$    : ({ "THIS_PLACE/baiwuchang",           235, 39,   SOUTHWEST, 800,  白无常 })
+npc$    : ({ "THIS_PLACE/heiwuchang",           262, 53,   SOUTHWEST, 900,  黑无常 })
+npc$    : ({ "THIS_PLACE/wangxiangshi",         248, 119,  SOUTHEAST, 1000, 望乡石 })
+npc$    : ({ "misc/renxin-shushi",              206, 105,  SOUTHWEST, 1100, 仁心术士 })
+npc$    : ({ "misc/lingshouyiren",              191, 103,  SOUTHEAST, 1200, 灵兽异人4 })
+npc$    : ({ "THIS_PLACE/lianyumo",             81,  28,   SOUTHWEST, 1300, 炼狱魔 })
+npc$    : ({ "THIS_PLACE/yuao",                 162, 38,   SOUTHEAST, 1400, 狱獒 })
+npc$    : ({ "THIS_PLACE/meiling",              202, 155,  SOUTHEAST, 1500, 魅 灵 })
+npc$    : ({ "THIS_PLACE/yinyangshi",           40,  92,   SOUTHEAST, 1600, 阴阳师 })
+npc$    : ({ "THIS_PLACE/xuedanhun",            97,  62,   SOUTHEAST, 1650, 血丹魂 })
+npc$    : ({ "THIS_PLACE/niutou",               194, 74,   SOUTHWEST, 1700, 牛头 })
+npc$    : ({ "THIS_PLACE/mamian",               205, 80,   SOUTHWEST, 1800, 马面 })
+npc$    : ({ "THIS_PLACE/xiaolian",             137, 46,   SOUTHWEST, 1900, 小莲 })
+npc$    : ({ "THIS_PLACE/wujuren",              125, 57,   NORTHEAST, 2000, 武举人 })
+npc$    : ({ "THIS_PLACE/liangtong",            75,  5,    SOUTHWEST, 2100, 魉彤 })
+npc$    : ({ "THIS_PLACE/egui-shouhu",          93,  70,   SOUTHEAST, 2200, 恶鬼守护 })
+npc$    : ({ "THIS_PLACE/baibianjing",          116, 77,   SOUTHWEST, 2300, 百变精 })
+npc$    : ({ "THIS_PLACE/hongli",               4,   121,  SOUTHEAST, 2400, 鸿狸 })
+npc$    : ({ "THIS_PLACE/pipanv",               21,  147,  SOUTHEAST, 2500, 琵琶女 })
+npc$    : ({ "THIS_PLACE/shenmiren",            184, 50,   SOUTHEAST, 2600, 神秘人 })
+npc$    : ({ "THIS_PLACE/jueyin-shouwei",       234, 46,   SOUTHEAST, 2700, 绝阴守卫 })
+npc$    : ({ "THIS_PLACE/taisha-shouwei",       227, 50,   SOUTHEAST, 2800, 泰煞守卫 })
+npc$    : ({ "THIS_PLACE/fanwu-shouwei",        220, 54,   SOUTHEAST, 2900, 犯武守卫 })
+npc$    : ({ "THIS_PLACE/zuiqi-shouwei",        246, 52,   NORTHWEST, 3000, 罪气守卫 })
+npc$    : ({ "THIS_PLACE/zongling-shouwei",     239, 56,   NORTHWEST, 3100, 宗灵守卫 })
+npc$    : ({ "THIS_PLACE/wanlv-shouwei",        232, 59,   NORTHWEST, 3200, 宛屡守卫 })
+npc$    : ({ "THIS_PLACE/wangxiangtai-shouwei", 238, 120,  SOUTHEAST, 3300, 望乡台守卫1 })
+npc$    : ({ "THIS_PLACE/wangxiangtai-shouwei", 244, 115,  SOUTHEAST, 3400, 望乡台守卫2 })
+npc$    : ({ "THIS_PLACE/leizhenzi",            240, 26,   SOUTHWEST, 3500, 雷震子 })
+npc$    : ({ "difu/tuntian",                    147, 88,   NORTHWEST, 3600, 吞天 })
+fly_room : ({ 170, 102 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[黄泉路]
+alias   : ({ "huangquanlu" })
+map_id  : 39001
+#npc$    : ({ "THIS_PLACE/xuanming-dongzhu",  35, 25,   SOUTHWEST, 4096, 玄冥洞主 })
+exits$  : ({ "地府", 115, 24, CIRCLE,  9, 167, NORTHEAST })
+exits$  : ({ "龙宫", 62,  91, CIRCLE,  60,  43, SOUTHEAST, "龙宫" })
+fly_room : ({ 111, 30 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[圣境]
+map_id            : 33001
+not_start_room    : 1
+alias    : ({ "party_shengjing" })
+npc$     : ({ "party_shengjing/shengjing_xianzi", 66, 38, SOUTHWEST, 0, 圣境仙子 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_NO_ANTICHEATER | ROOM_P_PLACE_PARTTERN"
+
+[奈何桥]
+alias   : ({ "naiheqiao" })
+map_id  : 39002
+npc$    : ({ "THIS_PLACE/mengpo",               32, 74,   SOUTHEAST, 0,    孟婆 })
+exits$  : ({ "地府", 28, 97, CIRCLE, 16, 26, NORTHEAST })
+fly_room : ({ 33, 92 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[天道]
+alias   : ({ "tiandao" })
+map_id  : 40027
+source_id : 20003
+not_start_room : 1
+npc$     : ({ "misc/tiandao-shouhushi", 20, 23, SOUTHEAST, 20009, 天道守护使 })
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT"
+
+[人间道]
+alias   : ({ "renjiandao" })
+map_id  : 40052
+source_id : 22003
+not_start_room : 1
+npc$     : ({ "misc/renjiandao-shouhushi", 25, 22, SOUTHEAST, 20009, 人间道守护使 })
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT"
+
+[修罗道]
+alias   : ({ "xiuluodao" })
+map_id  : 40050
+source_id : 22002
+not_start_room : 1
+npc$     : ({ "misc/xiuluodao-shouhushi", 24, 17, SOUTHEAST, 20009, 修罗道守护使 })
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT"
+
+[畜生道]
+alias   : ({ "chushengdao" })
+map_id  : 40039
+source_id : 21002
+not_start_room : 1
+npc$     : ({ "misc/chusheng-shouhushi", 29, 24, SOUTHEAST, 20009, 畜生道守护使 })
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT"
+
+[饿鬼道]
+alias   : ({ "eguidao" })
+map_id  : 40018
+source_id : 19004
+not_start_room : 1
+npc$     : ({ "misc/eguidao-shouhushi", 21, 18, SOUTHEAST, 20009, 饿鬼道守护使 })
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT"
+
+[地狱道]
+alias   : ({ "diyudao" })
+map_id  : 40054
+source_id : 25003
+not_start_room : 1
+npc$     : ({ "misc/diyudao-shouhushi", 25, 18, SOUTHEAST, 20009, 地狱道守护使 })
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT"
+
+[菜园]
+alias   : ({ "caiyuan" })
+map_id  : 28003
+npc$     : ({ "misc/yuanding", 14, 23, SOUTHEAST, 0, 园丁 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[天玄战场]
+alias    : ({ "misc/tianxuan-zhanchang" })
+map_id   : 40073
+source_id : 29001
+npc$ : ({ "misc/zhuangyuanwang", 142, 66, SOUTHWEST, 0, 状元王 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE"
+
+[地黄战场]
+alias : ({ "misc/dihuang-zhanchang" })
+map_id : 40070
+source_id : 29001
+npc$ : ({ "misc/zhuangyuanwang", 142, 66, SOUTHWEST, 0, 状元王 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE"
+
+[海滨]
+alias : ({ "haibing" })
+map_id : 40136
+source_id : 9000
+exits$  : ({ "东海深宫", 77, 44, CIRCLE, 91, 63, NORTHWEST })
+npc$ : ({ "misc/hanxiangzi2", 50, 60, SOUTHEAST, 1, 韩湘子2 })
+npc$ : ({ "misc/lingmudaoren", 140, 86, SOUTHWEST, 2, 灵木道人 })
+npc$ : ({ "misc/zhuanlintai", 115, 20, SOUTHWEST, 4, 转灵台 })
+template : ({ "hanxiangzi_template" })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 157, 146 })
+
+[东海深宫]
+alias : ({ "donghai_shengong" })
+map_id : 40137
+source_id : 27002
+exits$  : ({ "海滨", 99, 67, CIRCLE, 82, 51, SOUTHWEST })
+npc$ : ({ "misc/donghai-longwang", 30, 23, SOUTHEAST, 1, 东海龙王 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 101, 68 })
+
+#[太虚圣境]
+#map_id  : 34000
+#alias   : ({ "taixu-shengjing" })
+#not_start_room : 1
+#npc$    : ({ "misc/taixushengjing-chuansongren.c", 125, 104, SOUTH, 1024, 太虚圣境传送人 })
+#template: ({ "idle_template" })
+# room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[婚房]
+alias   : ({ "hunfang" })
+map_id  : 28007
+source_id : 28007
+exits$  : ({ "天墉城", 26, 48, SOUTHWEST, 162, 211, SOUTHEAST, "天墉城" })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[东方角宿]
+alias   : ({ "dongfang-jiaoxiu" })
+map_id  : 40045
+source_id : 22002
+npc$ : ({ "misc/dongfang-jiaoxiu", 24, 17, SOUTHEAST, 0, 角宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[东方亢宿]
+alias   : ({ "dongfang-kangxiu" })
+map_id  : 40046
+source_id : 22002
+npc$ : ({ "misc/dongfang-kangxiu", 24, 17, SOUTHEAST, 0, 亢宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[东方氐宿]
+alias   : ({ "dongfang-dixiu" })
+map_id  : 40049
+source_id : 22002
+npc$ : ({ "misc/dongfang-dixiu", 24, 17, SOUTHEAST, 0, 氐宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[东方房宿]
+alias   : ({ "dongfang-fangxiu" })
+map_id  : 40043
+source_id : 22002
+npc$ : ({ "misc/dongfang-fangxiu", 24, 17, SOUTHEAST, 0, 房宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[东方心宿]
+alias   : ({ "dongfang-xinxiu" })
+map_id  : 40048
+source_id : 22002
+npc$ : ({ "misc/dongfang-xinxiu", 24, 17, SOUTHEAST, 0, 心宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[东方尾宿]
+alias   : ({ "dongfang-weixiu" })
+map_id  : 40047
+source_id : 22002
+npc$ : ({ "misc/dongfang-weixiu", 24, 17, SOUTHEAST, 0, 尾宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[东方箕宿]
+alias   : ({ "dongfang-jixiu" })
+map_id  : 40044
+source_id : 22002
+npc$ : ({ "misc/dongfang-jixiu", 24, 17, SOUTHEAST, 0, 箕宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[北方斗宿]
+alias   : ({ "beifang-douxiu" })
+map_id  : 40032
+source_id : 21002
+npc$ : ({ "misc/beifang-douxiu", 29, 24, SOUTHEAST, 0, 斗宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[北方牛宿]
+alias   : ({ "beifang-niuxiu" })
+map_id  : 40033
+source_id : 21002
+npc$ : ({ "misc/beifang-niuxiu", 29, 24, SOUTHEAST, 0, 牛宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[北方女宿]
+alias   : ({ "beifang-nvxiu" })
+map_id  : 40034
+source_id : 21002
+npc$ : ({ "misc/beifang-nvxiu", 29, 24, SOUTHEAST, 0, 女宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[北方虚宿]
+alias   : ({ "beifang-xuxiu" })
+map_id  : 40037
+source_id : 21002
+npc$ : ({ "misc/beifang-xuxiu", 29, 24, SOUTHEAST, 0, 虚宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[北方危宿]
+alias   : ({ "beifang-weixiu" })
+map_id  : 40036
+source_id : 21002
+npc$ : ({ "misc/beifang-weixiu", 29, 24, SOUTHEAST, 0, 危宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[北方室宿]
+alias   : ({ "beifang-shixiu" })
+map_id  : 40035
+source_id : 21002
+npc$ : ({ "misc/beifang-shixiu", 29, 24, SOUTHEAST, 0, 室宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[北方壁宿]
+alias   : ({ "beifang-bixiu" })
+map_id  : 40031
+source_id : 21002
+npc$ : ({ "misc/beifang-bixiu", 29, 24, SOUTHEAST, 0, 壁宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[西方奎宿]
+alias   : ({ "xifang-kuixiu" })
+map_id  : 40021
+source_id : 19004
+npc$ : ({ "misc/xifang-kuixiu", 21, 18, SOUTHEAST, 0, 奎宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[西方娄宿]
+alias   : ({ "xifang-louxiu" })
+map_id  : 40022
+source_id : 19004
+npc$ : ({ "misc/xifang-louxiu", 21, 18, SOUTHEAST, 0, 娄宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[西方胃宿]
+alias   : ({ "xifang-weixiu" })
+map_id  : 40023
+source_id : 19004
+npc$ : ({ "misc/xifang-weixiu", 21, 18, SOUTHEAST, 0, 胃宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[西方昴宿]
+alias   : ({ "xifang-angxiu" })
+map_id  : 40024
+source_id : 19004
+npc$ : ({ "misc/xifang-angxiu", 21, 18, SOUTHEAST, 0, 昴宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[西方毕宿]
+alias   : ({ "xifang-bixiu" })
+map_id  : 40019
+source_id : 19004
+npc$ : ({ "misc/xifang-bixiu", 21, 18, SOUTHEAST, 0, 毕宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[西方觜宿]
+alias   : ({ "xifang-zuixiu" })
+map_id  : 40025
+source_id : 19004
+npc$ : ({ "misc/xifang-zuixiu", 21, 18, SOUTHEAST, 0, 觜宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[西方参宿]
+alias   : ({ "xifang-canxiu" })
+map_id  : 40020
+source_id : 19004
+npc$ : ({ "misc/xifang-canxiu", 21, 18, SOUTHEAST, 0, 参宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[南方井宿]
+alias   : ({ "nanfang-jinxiu" })
+map_id  : 40056
+source_id : 25003
+npc$ : ({ "misc/nanfang-jinxiu", 25, 18, SOUTHEAST, 0, 井宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[南方鬼宿]
+alias   : ({ "nanfang-guixiu" })
+map_id  : 40055
+source_id : 25003
+npc$ : ({ "misc/nanfang-guixiu", 25, 18, SOUTHEAST, 0, 鬼宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[南方柳宿]
+alias   : ({ "nanfang-liuxiu" })
+map_id  : 40057
+source_id : 25003
+npc$ : ({ "misc/nanfang-liuxiu", 25, 18, SOUTHEAST, 0, 柳宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[南方星宿]
+alias   : ({ "nanfang-xingxiu" })
+map_id  : 40058
+source_id : 25003
+npc$ : ({ "misc/nanfang-xingxiu", 25, 18, SOUTHEAST, 0, 星宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[南方张宿]
+alias   : ({ "nanfang-zhangxiu" })
+map_id  : 40060
+source_id : 25003
+npc$ : ({ "misc/nanfang-zhangxiu", 25, 18, SOUTHEAST, 0, 张宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[南方翌宿]
+alias   : ({ "nanfang-yixiu" })
+map_id  : 40059
+source_id : 25003
+npc$ : ({ "misc/nanfang-yixiu", 25, 18, SOUTHEAST, 0, 翌宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[南方轸宿]
+alias   : ({ "nanfang-zhenxiu" })
+map_id  : 40061
+source_id : 25003
+npc$ : ({ "misc/nanfang-zhenxiu", 25, 18, SOUTHEAST, 0, 轸宿 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_CHALLENGE_STARS"
+
+[百花岛]
+alias   : ({ "baihuadao" })
+map_id  : 40132
+source_id  : 17100
+npc$    : ({ "misc/hexiangu",    20, 99,  SOUTHWEST, 0, 何仙姑2 })
+npc$    : ({ "baxianmengjing/shanggu-chuanshanjia",    156, 28,  SOUTHWEST, 1024, 上古穿山甲 })
+npc$    : ({ "baxianmengjing/jiapu",    155, 31,  WEST, 2048, 家仆 })
+npc$    : ({ "baxianmengjing/chuansong-tongzi",    238, 150,  SOUTHWEST, 4096, 传送童子11 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 7, 135 })
+
+[南天宫]
+alias   : ({ "nantiangong" })
+map_id  : 40133
+source_id  : 22001
+npc$    : ({ "misc/lvdongbin",    20, 59,  SOUTHEAST, 0, 吕洞宾 })
+npc$    : ({ "baxianmengjing/wangmuniangniang",    35, 17,  SOUTHEAST, 1024, 王母娘娘 })
+npc$    : ({ "baxianmengjing/chuanshanjiamo",    116, 61,  SOUTHWEST, 2048, 穿山魔甲 })
+npc$    : ({ "baxianmengjing/chuansong-tongzi",    68, 80,  SOUTHWEST, 4096,  传送童子12 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 68, 79 })
+
+[不周山]
+alias : ({ "buzhoushan" })
+map_id  : 40129
+source_id  : 36000
+not_start_room : 2
+npc$ : ({ "baxianmengjing/zhangguolao", 223, 159, SOUTHEAST, 1000, 张果老2 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 322, 293 })
+
+[百花园]
+alias : ({ "baihuayuan" })
+map_id  : 40130
+source_id : 29003
+not_start_room : 2
+npc$ : ({ "misc/baihuayuan-yuanding", 55, 60, NORTHEAST, 2000, 百花园园丁 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 90, 71 })
+
+[邪冥谷]
+alias : ({ "xieminggu" })
+map_id : 40131
+source_id : 36002
+not_start_room : 2
+npc$ : ({ "misc/jinlingjian", 81, 26, SOUTHEAST, 1000, 金灵剑 })
+npc$ : ({ "misc/mulingjian", 19, 41, SOUTHEAST, 2000, 木灵剑 })
+npc$ : ({ "misc/shuilingjian", 9, 78, NORTHEAST, 3000, 水灵剑 })
+npc$ : ({ "misc/huolingjian", 116, 82, SOUTHEAST, 4000, 火灵剑 })
+npc$ : ({ "misc/tulingjian", 123, 50, SOUTHWEST, 5000, 土灵剑 })
+npc$ : ({ "misc/xieming-yaowang", 69, 63, NORTHEAST, 6000, 邪冥妖王 })
+npc$ : ({ "misc/xieming-guzhu", 86, 106, NORTHEAST, 7000, 邪冥谷主 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 97, 104 })
+
+[黄沙镇]
+alias   : ({ "huangshazhen" })
+map_id  : 40104
+source_id : 38001
+not_start_room : 1
+npc$ : ({ "misc/huangsha-zhanglao", 109, 18, SOUTHWEST, 0, 黄沙长老 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_NO_ANTICHEATER | ROOM_FORBID_XIANLINGKA"
+
+[乾坤台]
+alias   : ({ "party-qiankuntai" })
+map_id  : 40107
+source_id : 29000
+not_start_room : 1
+npc$     : ({ "misc/bangpai-fuzongguan", 100,  76, SOUTHWEST,  0,    帮派副总管 })
+exits$   : ({ "天墉城", 152, 50, CIRCLE, 274, 189, SOUTHEAST, "天墉城" })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT"
+
+[深海龙宫]
+alias : ({ "longgong2012" })
+map_id : 40101
+source_id : 27000
+npc$ : ({ "misc/caipan1", 42, 35, SOUTHEAST, 0, 一号裁判 })
+npc$ : ({ "misc/caipan2", 6, 213, SOUTHEAST, 10, 二号裁判 })
+npc$ : ({ "misc/caipan3", 228, 241, SOUTHEAST, 20, 三号裁判 })
+npc$ : ({ "misc/caipan4", 208, 34, SOUTHWEST, 30, 四号裁判 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[牧野战场]
+alias : ({ "muye-zhanchang" })
+map_id : 40099
+source_id : 14005
+not_start_room : 1
+exits$   : ({ "天墉城", 14, 158, CIRCLE, 345, 220, SOUTHEAST, "天墉城" })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT"
+
+[百兽赛场]
+alias   : ({ "baishou_saichang" })
+map_id : 40108
+source_id  : 29000
+npc$    : ({ "misc/baishou-shizhe", 101, 76, SOUTHEAST, 0, 百兽使者 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_FORBID_DUNSHU | ROOM_FORBID_XIANLINGKA"
+
+[藏宝地图]
+alias   : ({ "cangbao_ditu" })
+map_id  : 40113
+source_id : 13000
+npc$    : ({ "misc/baodi-shizhe", 275, 51, SOUTH, 0, 宝地使者 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_DUNSHU | ROOM_FORBID_TELEPORT"
+
+[弑神殿]
+alias : ({ "shishendian" })
+map_id : 50002
+source_id : 50002
+exits$ : ({ "灭魔堂", 204, 34, CIRCLE, 45, 126, NORTHEAST })
+exits$ : ({ "云霄宫", 59, 136, CIRCLE, 142, 37, SOUTHWEST })
+monster_list : ({ "fuling", "keyao" })
+boss_list    : ({ "dimoxian" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_ssd"
+fly_room : ({ 66, 133 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[灭魔堂]
+alias : ({ "miemotang" })
+map_id : 50003
+source_id : 50003
+exits$  : ({ "弑神殿", 32, 133, CIRCLE, 200, 37, SOUTHWEST })
+monster_list : ({  "qiling", "shishuzhe" })
+boss_list    : ({ "dimoshen" })
+template     : ({ "standard_template", "thief_template", "hidden_boss_template" })
+log_action   : "liangq_mmt"
+fly_room : ({ 45, 126 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[南天门]
+alias   : ({ "nantianmen" })
+map_id  : 50001
+source_id : 50001
+exits$  : ({ "昆仑云海", 37, 134, CIRCLE, 255, 44, SOUTHWEST, "昆仑云海" })
+exits$  : ({ "云霄宫", 168, 52, CIRCLE, 82, 158, NORTHEAST })
+npc$ : ({ "nantianmen/chuansong-xianguan", 154, 51, SOUTHEAST, 0, 传送仙官 })
+npc$ : ({ "nantianmen/taixuan-zhenjun",    150, 134, NORTHWEST, 10, 太玄真君 })
+npc$ : ({ "nantianmen/taiqing-zhenjun",    24, 69, SOUTHEAST, 20, 太清真君 })
+npc$ : ({ "misc/ntm-lingshouyiren",    172, 60, NORTHWEST, 100, 灵兽异人5 })
+npc$ : ({ "nantianmen/shidi",  88, 107,   SOUTHEAST, 200, 噬地 })
+fly_room : ({ 48, 128 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_PLACE_PARTTERN | ROOM_CAN_CASUAL_GAME"
+
+[茅山]
+alias     : ({ "maoshan" })
+map_id    : 40126
+source_id : 8000
+not_start_room : 2
+exits$  : ({ "茅山教总坛",   136, 108, NORTHWEST, 95,  64,  NORTHWEST })
+exits$  : ({ "妖魔洞窟",     6,   4,   CIRCLE,    147, 104, NORTHWEST, "混合区域" })
+npc$    : ({ "misc/maoshan-jieyinren", 227, 191, SOUTHEAST, 0, 茅山接引人 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH"
+
+[茅山教总坛]
+alias     : ({ "maoshanjiao-zongtan" })
+map_id    : 40127
+source_id : 27002
+not_start_room : 2
+exits$  : ({ "茅山", 101, 68, SOUTHEAST, 139, 111, SOUTHEAST })
+npc$    : ({ "misc/zhuge-hutu", 30, 23, SOUTHEAST, 0, 诸葛糊涂 })
+npc$    : ({ "misc/maoshanjiao-zhangfang", 69, 42, SOUTHWEST, 10, 茅山教账房 })
+room_limit : "ROOM_P_AUTO_TOUCH"
+
+[妖魔洞窟]
+alias     : ({ "yaomo-dongku" })
+map_id    : 40128
+source_id : 31100
+exits$  : ({ "茅山", 154, 109, CIRCLE, 10, 8, SOUTHWEST, "茅山" })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH"
+
+[东胜岛]
+alias : ({ "dongshengdao" })
+map_id  : 40111
+source_id  : 9000
+not_start_room : 2
+npc$ : ({ "baxianmengjing/caoguojiu", 152, 120, WEST, 1000, 曹国舅2 })
+npc$ : ({ "baxianmengjing/jiaolong", 92, 39, SOUTHWEST, 2000, 蛟龙 })
+npc$ : ({ "baxianmengjing/dongsheng-zunzhe", 118, 20, SOUTHWEST, 3000, 东胜尊神 })
+exits$  : ({ "蛟龙宫殿", 8, 94, CIRCLE, 90,  62, NORTHWEST })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 157, 146 })
+
+[蛟龙宫殿]
+alias : ({ "jiaolong-gongdian" })
+map_id  : 40112
+source_id  : 27002
+not_start_room : 2
+npc$ : ({ "baxianmengjing/jiaolong-zuzhang", 30, 23, SOUTHEAST, 1000, 蛟龙族长 })
+exits$  : ({ "东胜岛", 96, 65, CIRCLE, 20,  99, SOUTHEAST })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 101, 68 })
+
+[朝歌城郊]
+alias     : ({ "zhaoge-chengjiao" })
+map_id    : 41007
+source_id : 2000
+npc$    : ({ "fengshenshijie/shangrong", 30, 108, SOUTHEAST, 0, 商容 })
+npc$    : ({ "fengshenshijie/yinpobai", 54, 79, SOUTHWEST, 1, 殷破败 })
+npc$    : ({ "fengshenshijie/fangbi", 40, 84, NORTHEAST, 2, 方弼 })
+npc$    : ({ "fengshenshijie/yunzhongzi1", 131, 10, SOUTHWEST, 100, 云中子1 })
+npc$    : ({ "fengshenshijie/jinxiatongzi", 87, 8, SOUTHEAST, 200, 金霞童子 })
+npc$    : ({ "fengshenshijie/yinhong", 130, 151, SOUTHWEST, 3, 殷洪 })
+npc$    : ({ "fengshenshijie/yinjiao", 131, 155, NORTHWEST, 4, 殷郊 })
+exits$     : ({ "恩州驿", 7, 140,  CIRCLE, 247, 187, NORTHEAST, "封神世界" })
+exits$     : ({ "朝歌城", 145, 60,  CIRCLE, 156, 99, NORTHWEST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_TOUCH_MONSTER | ROOM_NO_CHANGE_UPGRADE | ROOM_FENGSHEN"
+fly_room : ({ 34, 112 })
+
+[四门阵]
+alias      : ({ "simenzhen" })
+map_id     : 41000
+source_id  : 22001
+exits$     : ({ "朝歌城郊",  87, 140, CIRCLE,  34, 112,     SOUTH, "封神世界" })
+exits$     : ({ "冀州战场",   8,  18, CIRCLE,  29,  20, SOUTHEAST, "封神世界" })
+npc$       : ({ "simenzhen/dishen",             68, 130, SOUTHEAST,    0, 地神 })
+npc$       : ({ "simenzhen/xuanwu-shouwei",    116, 107, SOUTHWEST,  256, 玄武守卫 })
+npc$       : ({ "simenzhen/zhuque-shouwei",     19, 107, SOUTHEAST,  512, 朱雀守卫 })
+npc$       : ({ "simenzhen/baihu-shouwei",     114,  59, SOUTHWEST,  768, 白虎守卫 })
+npc$       : ({ "simenzhen/qinglong-shouwei",   19,  59, SOUTHEAST, 1024, 青龙守卫 })
+npc$       : ({ "simenzhen/nvwa-niangniang",    35,  17, SOUTHEAST, 1280, 女娲娘娘 })
+template   : ({ "fengshen_monster_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room   : ({ 68, 130 })
+
+[吐蕃境内]
+alias : ({ "tufanjingnei" })
+map_id  : 40117
+source_id  : 3000
+not_start_room : 2
+npc$ : ({ "baxianmengjing/baifa-laoweng", 35, 123, SOUTHWEST, 1000, 白发老翁 })
+npc$ : ({ "baxianmengjing/tufan-shibing", 169, 61, SOUTHWEST, 1001, 士兵 })
+npc$ : ({ "baxianmengjing/zhongliquan", 108, 29, SOUTHEAST, 1002, 钟离权 })
+exits$  : ({ "紫金四皓峰", 2, 124, CIRCLE, 129, 408, WEST })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN | ROOM_P_AUTO_TOUCH"
+fly_room : ({ 16, 121 })
+
+[紫金四皓峰]
+alias : ({ "zijinsihaofeng" })
+map_id  : 40118
+source_id  : 14000
+not_start_room : 2
+exits$  : ({ "龙崆洞", 21, 85, NORTHWEST, 74, 66, NORTHWEST })
+exits$  : ({ "吐蕃境内", 135, 415, CIRCLE, 6, 124, SOUTHEAST })
+npc$ : ({ "baxianmengjing/huseng", 88, 336, SOUTHEAST, 1000, 胡僧 })
+npc$ : ({ "baxianmengjing/donghua-shangxian", 138, 193, SOUTHEAST, 1001, 东华上仙 })
+npc$ : ({ "baxianmengjing/taishang-laojun", 50, 164, SOUTHEAST, 1002, 太上老君2 })
+npc$ : ({ "baxianmengjing/lifujiang", 9, 133, SOUTHEAST, 1003, 李副将 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+compact_map_index : 1
+fly_room : ({ 37, 23 })
+
+[龙崆洞]
+alias : ({ "longkongdong" })
+map_id  : 40119
+source_id  : 14002
+not_start_room : 2
+exits$  : ({ "紫金四皓峰", 79, 72, SOUTHEAST, 24, 89, SOUTHEAST })
+npc$ : ({ "baxianmengjing/yuxia", 40, 35, SOUTHEAST, 1000, 玉匣 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 40, 35 })
+
+[乡间小路]
+alias     : ({ "xiangjian-xiaolu" })
+map_id    : 40122
+source_id : 24000
+exits$  : ({ "落魄崖", 14,  4,   CIRCLE, 16, 121, NORTH })
+exits$  : ({ "李家庄", 117, 180, CIRCLE, 6, 8,  SOUTHWEST })
+npc$    : ({ "misc/liliehu", 186, 10, SOUTHEAST, 0, 李猎户 })
+npc$    : ({ "misc/yisi_laoqigai", 43, 107, SOUTHWEST, 10, 已死的老乞丐 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 14, 9 })
+
+[李家庄]
+alias     : ({ "lijiazhuang" })
+map_id    : 40123
+source_id : 11000
+exits$  : ({ "乡间小路",   4,   5, CIRCLE,   115, 175, NORTHWEST })
+npc$    : ({ "misc/lisi", 166, 146, SOUTHWEST, 0, 李四 })
+npc$    : ({ "misc/liningyang", 112, 130, NORTHEAST, 10, 李凝阳 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 161, 147 })
+
+[落魄崖]
+alias     : ({ "luopoya" })
+map_id    : 40124
+source_id : 3000
+exits$  : ({ "乡间小路",   2, 124, CIRCLE, 20, 11, WEST })
+npc$    : ({ "misc/lingbao_zhenjun", 75, 35, SOUTHEAST, 0, 灵宝真君 })
+npc$    : ({ "misc/feilianyoushou",  89, 173, NORTHWEST, 10, 飞廉幼兽 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 16, 121 })
+
+[恩州驿]
+alias      : ({ "enzhouyi" })
+map_id     : 41003
+source_id  : 38000
+npc$       : ({ "fengshenshijie/qilaoye",  140, 99,  SOUTHWEST, 1000, 启老爷 })
+npc$       : ({ "fengshenshijie/suhu",     122, 54,  SOUTHWEST, 2000, 苏护 })
+npc$       : ({ "fengshenshijie/shouwei",  43, 143,  SOUTHEAST, 3000, 守卫 })
+npc$       : ({ "fengshenshijie/shouwei1", 49, 146,  NORTHWEST, 4000, 守卫1 })
+npc$       : ({ "fengshenshijie/zhuyao",   235, 159, NORTHWEST, 5000, 好色的猪妖 })
+exits$     : ({ "陈塘关", 257, 91,  CIRCLE, 13, 241, NORTHEAST, "封神世界" })
+exits$     : ({ "冀州战场", 56, 190,  CIRCLE, 13, 80, NORTHWEST, "封神世界" })
+exits$     : ({ "朝歌城郊", 242, 195,  CIRCLE, 20, 148, SOUTHEAST, "封神世界" })
+exits$     : ({ "燕山", 17, 27,  CIRCLE, 10, 123, EAST, "封神世界" })
+npc$       : ({ "fengshenshijie/suquanzhong1", 241, 83, SOUTHWEST, 6000, 苏全忠1 })
+npc$       : ({ "fengshenshijie/sudaji",   226, 75, SOUTHEAST, 7000, 苏妲己 })
+npc$       : ({ "fengshenshijie/leikai",   33, 25,   SOUTHEAST, 6000, 雷开 })
+npc$       : ({ "fengshenshijie/fangxiang",43, 32,   NORTHWEST, 7000, 方相1 })
+npc$       : ({ "fengshenshijie/huangfeihu", 38, 93, SOUTHWEST, 8000, 黄飞虎 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+template : ({ "fengshen_monster_template" })
+fly_room   : ({ 140, 99 })
+ignore_source_id : 1
+
+[冀州战场]
+alias      : ({ "jizhou-zhanchang" })
+map_id     : 41001
+source_id  : 38001
+npc$       : ({ "fengshenshijie/chongheihu",  47, 58,  NORTHEAST, 1000, 崇黑虎 })
+npc$       : ({ "fengshenshijie/zhenglun", 114, 20,  SOUTHWEST, 2000, 郑伦 })
+npc$       : ({ "fengshenshijie/sanyisheng",   13, 39, NORTHEAST, 3000, 散宜生 })
+npc$       : ({ "fengshenshijie/suhu1",     108, 19,  SOUTHWEST, 4000, 苏护1 })
+npc$       : ({ "fengshenshijie/suquanzhong",    56, 47,  SOUTHWEST, 5000, 苏全忠 })
+npc$       : ({ "fengshenshijie/chonghouhu",     18, 78,  NORTHEAST, 6000, 崇侯虎 })
+npc$       : ({ "fengshenshijie/shangjun-qianfeng1", 17,  37, SOUTHEAST, 7000, 商军前锋1 })
+npc$       : ({ "fengshenshijie/shangjun-qianfeng2", 20,  28, SOUTHWEST, 8000, 商军前锋2 })
+npc$       : ({ "fengshenshijie/meiwu",              45,  59, NORTHEAST, 9000, 梅武 })
+npc$       : ({ "fengshenshijie/jinkui",             37,  66, NORTHEAST, 10000, 金葵 })
+npc$       : ({ "fengshenshijie/chongyingbiao",      23,  75, NORTHEAST, 11000, 崇应彪 })
+exits$  : ({ "恩州驿", 10, 89,  CIRCLE, 53, 180, SOUTHWEST, "封神世界" })
+exits$  : ({ "四门阵", 35, 15,  CIRCLE, 18, 19, SOUTHWEST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+template : ({ "fengshen_monster_template" })
+fly_room   : ({ 47, 58 })
+
+[云中道]
+alias : ({ "yunzhongdao" })
+map_id : 40120
+source_id : 17200
+not_start_room : 2
+npc$ : ({ "misc/lancaihe2", 148, 29, SOUTHWEST, 1000, 蓝采和2 })
+npc$ : ({ "misc/yanluodian-chuansongren", 194, 156, SOUTHEAST, 2000, 阎罗殿传送人 })
+npc$ : ({ "misc/shutong", 144, 31, SOUTHWEST, 1000, 书童 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+template : ({ "lancaihe_template" })
+fly_room : ({ 90, 8 })
+
+[阎罗殿]
+alias : ({ "yanluodian" })
+map_id : 40121
+source_id : 39000
+not_start_room : 2
+npc$ : ({ "misc/mengjing_niutou", 194, 74, SOUTHWEST, 1000, 梦境牛头 })
+npc$ : ({ "misc/mengjing_mamian", 205, 80, SOUTHWEST, 2000, 梦境马面 })
+npc$ : ({ "misc/yanwangye", 252, 40, SOUTHWEST, 3000, 阎王爷 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 170, 102 })
+
+[蟠桃园]
+alias  : ({ "pantaoyuan" })
+npc$   : ({ "misc/jintong", 35, 107, SOUTHWEST, 1024, 金童 })
+npc$   : ({ "misc/yunv", 164, 24, NORTHEAST, 2048, 玉女 })
+map_id : 40125
+source_id : 6000
+background_music : 2003
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT"
+
+[东海]
+alias : ({ "donghai" })
+map_id : 40114
+source_id : 27000
+exits$  : ({ "东海龙宫", 35, 26, CIRCLE, 162, 97, NORTHWEST })
+npc$    : ({ "donghai/penglai-shizhe", 181, 171, SOUTHWEST, 1000, 蓬莱使者1 })
+npc$ : ({ "donghai/tieguaili", 98, 246, SOUTHWEST, 2000, 铁拐李3 })
+npc$ : ({ "donghai/hanzhongli", 164, 8, SOUTHEAST, 3000, 汉钟离3 })
+npc$ : ({ "donghai/lancaihe", 169, 7, SOUTHWEST, 4000, 蓝采和3 })
+npc$ : ({ "donghai/zhangguolao", 98, 251, NORTHWEST, 5000, 张果老3 })
+npc$ : ({ "donghai/hulu", 93, 248, NORTHEAST, 6000, 受控制的葫芦 })
+npc$ : ({ "donghai/longjiang", 164, 13, NORTHEAST, 7000, 东海龙将1 })
+npc$ : ({ "donghai/longjiang1", 160, 14, NORTHEAST, 7000, 东海龙将2 })
+npc$ : ({ "donghai/longjiang", 158, 7, SOUTHEAST, 8000, 东海龙将1 })
+npc$ : ({ "donghai/longjiang2", 174, 10, NORTHWEST, 9000, 东海龙将3 })
+npc$ : ({ "donghai/longjiang2", 169, 12, NORTHWEST, 9000, 东海龙将3 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 43, 35 })
+
+[东海龙宫]
+alias : ({ "donghai_longgong" })
+map_id : 40115
+source_id : 27001
+exits$  : ({ "东海", 167, 104, CIRCLE, 43, 35, SOUTHEAST })
+exits$  : ({ "东海龙宫大殿", 28, 25, NORTHWEST, 95, 64, NORTHWEST })
+npc$ : ({ "donghai/hanxiangzi", 91, 30, NORTHEAST, 1000, 韩湘子 })
+npc$ : ({ "donghai/lvdongbin", 99, 25, SOUTHWEST, 2000, 吕洞宾3 })
+npc$ : ({ "donghai/caoguojiu", 35, 60, NORTHEAST, 3000, 曹国舅3 })
+npc$ : ({ "donghai/hexiangu", 40, 57, SOUTHWEST, 4000, 何仙姑3 })
+npc$ : ({ "donghai/laotou", 95, 27, SOUTHWEST, 5000, 东海牢头 })
+npc$ : ({ "donghai/longtaizi", 34, 56, SOUTHWEST, 5000, 花龙太子 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 61, 38 })
+
+[东海龙宫大殿]
+alias : ({ "longgong_dadian" })
+map_id : 40116
+source_id : 27002
+exits$  : ({ "东海龙宫", 101, 68, SOUTHEAST, 33, 28, SOUTHEAST })
+npc$    : ({ "donghai/aoguang", 30, 23, SOUTHEAST, 1000, 敖广 })
+npc$    : ({ "longgong/shinv", 34, 34, SOUTHEAST, 2000, 侍女 })
+npc$    : ({ "longgong/shinv", 45, 29, SOUTHEAST, 3000, 侍女 })
+not_start_room : 2
+room_limit : "ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_TELEPORT | ROOM_NO_CHANGE_UPGRADE | ROOM_BAXIAN_MENGJING | ROOM_CAN_DUNSHU | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 101, 68 })
+
+[云霄宫]
+alias   : ({ "yunxiaogong" })
+map_id  : 50000
+source_id : 50000
+exits$  : ({ "南天门", 49, 173, CIRCLE, 162, 55, SOUTHWEST })
+exits$  : ({ "弑神殿", 148, 34, CIRCLE, 66, 133, NORTHEAST })
+npc$ : ({ "THIS_PLACE/lingqiaoxian",   244, 79, NORTHWEST, 0, 灵巧仙 })
+npc$ : ({ "THIS_PLACE/wuqi_shenjiang", 244, 55, NORTHWEST, 10, 武器神匠 })
+npc$ : ({ "THIS_PLACE/suanpanxian",    236, 52, SOUTHEAST, 20, 算盘仙 })
+npc$ : ({ "THIS_PLACE/tongling_yaowang", 223, 154, NORTHWEST, 30, 通灵药王 })
+npc$ : ({ "THIS_PLACE/fuyuanxian", 94, 85, SOUTHEAST, 50, 复元仙 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 81, 150, SOUTHEAST, -1, 天宫神将 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 90, 144, SOUTHEAST, -1, 天宫神将1 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 97, 137, SOUTHEAST, -1, 天宫神将2 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 105, 131, SOUTHEAST, -1, 天宫神将3 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 113, 123, SOUTHEAST, -1, 天宫神将4 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 170, 91, SOUTHEAST, -1, 天宫神将5 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 181, 86, SOUTHEAST, -1, 天宫神将6 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 184, 80, SOUTHEAST, -1, 天宫神将7 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 193, 70, SOUTHEAST, -1, 天宫神将8 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 95, 158, NORTHWEST, -1, 天宫神将9 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 104, 151, NORTHWEST, -1, 天宫神将10 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 112, 144, NORTHWEST, -1, 天宫神将11 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 119, 138, NORTHWEST, -1, 天宫神将12 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 128, 130, NORTHWEST, -1, 天宫神将13 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 187, 100, NORTHWEST, -1, 天宫神将14 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 198, 95, NORTHWEST, -1, 天宫神将15 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 205, 90, NORTHWEST, -1, 天宫神将16 })
+npc$ : ({ "THIS_PLACE/tiangong_shenjiang", 214, 80, NORTHWEST, -1, 天宫神将17 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 75, 138, SOUTHEAST, -1, 天宫护卫 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 83, 130, SOUTHEAST, -1, 天宫护卫1 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 91, 124, SOUTHEAST, -1, 天宫护卫2 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 100, 116, SOUTHEAST, -1, 天宫护卫3 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 118, 159, NORTHWEST, -1, 天宫护卫4 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 126, 151, NORTHWEST, -1, 天宫护卫5 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 134, 145, NORTHWEST, -1, 天宫护卫6 })
+npc$ : ({ "THIS_PLACE/tiangong_shouwei", 142, 137, NORTHWEST, -1, 天宫护卫7 })
+npc$ : ({ "THIS_PLACE/zahuodian_laobanniang", 78, 43, SOUTHWEST, 320, 百宝仙 })
+npc$ : ({ "THIS_PLACE/qixjh_tiaozhanshizhe", 147, 113, SOUTHEAST, 330, 七星战神 })
+npc$ : ({ "THIS_PLACE/zu", 134, 119, SOUTHWEST, -1, 卒1 })
+npc$ : ({ "THIS_PLACE/zu", 120, 111, SOUTHWEST, -1, 卒2 })
+npc$ : ({ "THIS_PLACE/zu", 134, 124, SOUTHWEST, -1, 卒3 })
+npc$ : ({ "THIS_PLACE/zu", 124, 119, SOUTHWEST, -1, 卒4 })
+npc$ : ({ "THIS_PLACE/xiang", 160, 106, SOUTHWEST, -1, 象 })
+npc$ : ({ "THIS_PLACE/che1", 169, 101, SOUTHWEST, -1, 車 })
+npc$ : ({ "THIS_PLACE/jiang", 174, 104, SOUTHWEST, -1, 將 })
+npc$ : ({ "THIS_PLACE/bing", 160, 101, NORTHEAST, -1, 兵1 })
+npc$ : ({ "THIS_PLACE/bing", 165, 109, NORTHEAST, -1, 兵2 })
+npc$ : ({ "THIS_PLACE/bing", 164, 124, NORTHEAST, -1, 兵3 })
+npc$ : ({ "THIS_PLACE/che2", 135, 129, NORTHEAST, -1, 俥 })
+npc$ : ({ "THIS_PLACE/che2", 139, 131, NORTHEAST, -1, 俥1 })
+npc$ : ({ "THIS_PLACE/pao", 150, 126, NORTHEAST, -1, 炮 })
+npc$ : ({ "THIS_PLACE/shuai", 124, 124, NORTHEAST, -1, 帥 })
+npc$ : ({ "THIS_PLACE/kunlun_jingxian", 249, 153, SOUTHWEST, 340, 昆仑镜仙 })
+fly_room : ({ 82, 158 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_CAN_CASUAL_GAME"
+
+[虚幻天墉城]
+alias     : ({ "xuhua-tianyongcheng" })
+map_id    : 40140
+source_id : 40140
+not_start_room : 2
+npc$    : ({ "misc/chuansong-shizhe", 246, 195, SOUTHWEST, 0, 传送使者 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_AUTO_TOUCH"
+
+[校场]
+map_id  : 40138
+source_id : 38001
+not_start_room : 2
+npc$    : ({ "misc/zhongzhou-jieyinren1.c", 109, 18, SOUTHWEST, 1022, 中洲争霸战接引人1 })
+npc$    : ({ "misc/zhongzhou-wuziyuan.c", 73, 55, SOUTHWEST, 1024, 中洲争霸战物资员 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_P_TOUCH_MONSTER"
+
+[争霸战场]
+map_id  : 40139
+source_id :  33001
+not_start_room : 2
+npc$    : ({ "misc/zhongzhou-jieyinren2.c", 66, 38, SOUTHEAST, 1024, 中洲争霸战接引人2 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_P_TOUCH_MONSTER"
+
+[千宝宫]
+alias   : ({ "qianbaogong" })
+map_id  : 40144
+source_id :  50002
+not_start_room : 1
+npc$    : ({ "misc/shenmi-laozhe", 59, 136, SOUTHWEST, 1024, 神秘老者 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[门派战场]
+alias   : ({ "menpaidazhan-zhanchang" })
+map_id : 40143
+source_id : 29000
+npc$    : ({ "THIS_PLACE/zhanchang-guanliren1", 84, 67, SOUTHWEST, 0,  战场管理人1 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_ANTICHEATER | ROOM_FORBID_TELEPORT"
+
+[捕鱼场]
+map_id  : 33002
+source_id :  33002
+not_start_room : 2
+npc$    : ({ "misc/buyu-shizhe.c", 49, 26, SOUTH, 1024, 捕鱼使者 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_P_TOUCH_MONSTER"
+
+[地牢]
+alias      : ({ "dilao" })
+map_id     : 41011
+source_id  : 5015
+npc$       : ({ "fengshenshijie/dilao_laotou",  51, 32,  SOUTHWEST, 1000, 地牢牢头 })
+exits$  : ({ "朝歌大殿", 23, 48, CIRCLE, 53, 164, EAST,"封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+
+[朝歌城]
+alias      : ({ "zhaogecheng" })
+map_id     : 41008
+source_id  : 20000
+compact_map_index : 1
+npc$       : ({ "fengshenshijie/huangfeihu1",  43, 36,  NORTHEAST, 1000, 黄飞虎1 })
+npc$       : ({ "fengshenshijie/suhu2",  112, 40,  SOUTHWEST, 2000, 苏护2 })
+npc$       : ({ "fengshenshijie/suquanzhong2",  151, 59,  SOUTHWEST, 3000, 苏全忠2 })
+npc$       : ({ "fengshenshijie/zhaogeshouwei",  145, 95,  SOUTHEAST, 4000, 朝歌守卫1 })
+npc$       : ({ "fengshenshijie/zhaogeshouwei",  151, 92,  SOUTHEAST, 5000, 朝歌守卫2 })
+npc$       : ({ "fengshenshijie/jiangziya",  14, 77,  SOUTHEAST, 6000, 姜子牙 })
+npc$       : ({ "fengshenshijie/zhaogejinjun",  110, 81,  NORTHEAST, -1, 朝歌禁军1 })
+npc$       : ({ "fengshenshijie/zhaogejinjun",  92, 72,  NORTHEAST, -1, 朝歌禁军2 })
+npc$       : ({ "fengshenshijie/zhaogejinjun",  76, 64,  NORTHEAST, -1, 朝歌禁军3 })
+npc$       : ({ "fengshenshijie/zhaogejinjun",  65, 58,  SOUTHEAST, -1, 朝歌禁军4 })
+npc$       : ({ "fengshenshijie/zhaogejinjun",  25, 26,  SOUTHEAST, -1, 朝歌禁军5 })
+npc$       : ({ "fengshenshijie/zhaogejinjun",  34, 41,  SOUTHEAST, -1, 朝歌禁军6 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  122, 75,  SOUTHWEST, -1, 朝歌禁军7 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  106, 67,  SOUTHWEST, -1, 朝歌禁军8 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  90, 59,  SOUTHWEST, -1, 朝歌禁军9 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  76, 52,  SOUTHEAST, -1, 朝歌禁军10 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  62, 27,  SOUTHEAST, -1, 朝歌禁军11 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  31, 22,  SOUTHEAST, -1, 朝歌禁军12 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  79, 95,  SOUTHEAST, -1, 朝歌禁军13 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  68, 100,  SOUTHEAST, -1, 朝歌禁军14 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  105, 27,  SOUTHEAST, -1, 朝歌禁军15 })
+npc$       : ({ "fengshenshijie/zhaogejinjun1",  118, 20,  SOUTHEAST, -1, 朝歌禁军16 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  120, 47,  SOUTHWEST, -1, 朝歌禁卫23 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  136, 55,  SOUTHWEST, -1, 朝歌禁卫24 })
+npc$       : ({ "fengshenshijie/sanyisheng1", 144, 38, SOUTHWEST, 6000, 散宜生1 })
+npc$       : ({ "fengshenshijie/kuaizishou", 65, 85, SOUTHWEST, 4000, 刽子手 })
+npc$       : ({ "fengshenshijie/kuaizishou1", 55, 91, SOUTHWEST, 4000, 刽子手1 })
+exits$  : ({ "朝歌城郊", 161, 103,  CIRCLE, 136, 60, WEST, "封神世界" })
+exits$  : ({ "朝歌大殿", 27, 23,  CIRCLE, 66, 133, NORTHEAST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+template : ({ "fengshen_monster_template" })
+fly_room : ({ 41, 24 })
+ignore_source_id : 1
+
+[朝歌大殿]
+alias      : ({ "zhaoge-dadian" })
+map_id     : 41009
+source_id  : 50002
+npc$       : ({ "fengshenshijie/zhouwang",  221, 52,  SOUTHWEST, 1000, 纣王 })
+npc$       : ({ "fengshenshijie/bigan",  201, 52,  SOUTHEAST, 2000, 比干 })
+npc$       : ({ "fengshenshijie/shangrong1",  212, 68,  NORTHWEST, 3000, 商容1 })
+npc$       : ({ "fengshenshijie/feizhong",  220, 63,  NORTHWEST, 4000, 费仲 })
+npc$       : ({ "fengshenshijie/youhun",  192, 57,  SOUTHEAST, 5000, 尤浑 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  204, 48,  SOUTHWEST, -1, 朝歌禁卫1 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  248, 58,  SOUTHEAST, -1, 朝歌禁卫2 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  184, 51,  SOUTHEAST, -1, 朝歌禁卫3 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  151, 67,  SOUTHEAST, -1, 朝歌禁卫4 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  118, 83,  SOUTHEAST, -1, 朝歌禁卫5 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  85, 99,  SOUTHEAST, -1, 朝歌禁卫6 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  75, 114,  SOUTHEAST, -1, 朝歌禁卫7 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  59, 120,  SOUTHWEST, -1, 朝歌禁卫8 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  42, 119,  SOUTHEAST, -1, 朝歌禁卫9 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  83, 140,  SOUTHEAST, -1, 朝歌禁卫10 })
+npc$       : ({ "fengshenshijie/zhaogejinwei",  70, 127,  SOUTHEAST, -1, 朝歌禁卫11 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  54, 125,  NORTHWEST, -1, 朝歌禁卫12 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  77, 131,  NORTHWEST, -1, 朝歌禁卫13 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  95, 146,  NORTHWEST, -1, 朝歌禁卫14 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  93, 137,  SOUTHWEST, -1, 朝歌禁卫15 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  106, 128,  NORTHWEST, -1, 朝歌禁卫16 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  237, 64,  SOUTHWEST, -1, 朝歌禁卫17 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  215, 40,  WEST, -1, 朝歌禁卫18 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  133, 123,  NORTHWEST, -1, 朝歌禁卫19 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  166, 105,  NORTHWEST, -1, 朝歌禁卫20 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  198, 89,  NORTHWEST, -1, 朝歌禁卫21 })
+npc$       : ({ "fengshenshijie/zhaogejinwei1",  231, 73,  NORTHWEST, -1, 朝歌禁卫22 })
+exits$  : ({ "朝歌城", 59, 136,  CIRCLE, 33, 27, SOUTHEAST, "封神世界" })
+exits$  : ({ "后宫", 204, 34,  CIRCLE, 45, 126, NORTHEAST, "封神世界" })
+exits$  : ({ "地牢", 47, 161, CIRCLE, 27, 45, NORTHEAST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 66, 133 })
+
+[后宫]
+alias      : ({ "hougong" })
+map_id     : 41010
+source_id  : 50003
+npc$       : ({ "fengshenshijie/taomujian",  90, 65,  SOUTHEAST, 1000, 桃木剑 })
+exits$  : ({ "朝歌大殿", 32, 133,  CIRCLE, 200, 37, SOUTHWEST, "封神世界" })
+exits$  : ({ "酒池肉林", 13, 98,  CIRCLE, 192, 147, NORTHWEST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 45, 126 })
+
+[酒池肉林]
+alias      : ({ "jiuchi-roulin" })
+map_id     : 41021
+source_id  : 14003
+exits$  : ({ "后宫", 196, 153,  CIRCLE, 21, 102, SOUTHEAST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 150, 154 })
+
+[星君府]
+alias   : ({ "xingjunfu" })
+map_id  : 40999
+source_id : 50001
+not_start_room : 1
+exits$  : ({ "天墉城", 37, 134, CIRCLE, 223, 170, NORTHEAST, "天墉城" })
+fly_room : ({ 48, 128 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER"
+
+[古树仙境]
+alias   : ({ "gushu-xianjing" })
+map_id  : 40147
+source_id : 21000
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[桃花谷]
+alias   : ({ "taohuagu" })
+map_id  : 40146
+source_id : 7001
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[如梦幻境]
+alias   : ({ "rumenghuanjing" })
+map_id  : 40148
+source_id : 33001
+not_start_room : 1
+npc$ : ({ "misc/mengjing_sanxian",  66, 38,  SOUTHWEST, 0, 梦境散仙 })
+npc$ : ({ "misc/beiguai",  65, 12,  SOUTHEAST, 0, 北怪 })
+npc$ : ({ "misc/xikuang",  20, 39,  SOUTHEAST, 0, 西狂 })
+npc$ : ({ "misc/nanman",   67, 68,  NORTHEAST, 0, 南蛮 })
+npc$ : ({ "misc/dongxie",  111, 38, SOUTHWEST, 0, 东邪 })
+room_limit : "ROOM_BIG_MAP | ROOM_FORBID_TELEPORT"
+
+[封神殿]
+alias   : ({ "fengshendian" })
+map_id  : 40150
+source_id : 38000
+not_start_room : 1
+npc$    : ({ "misc/fengshen-shizhe", 139, 99, SOUTHEAST, 1024, 封神使者 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_FORBID_XIANLINGKA | ROOM_FORBID_TELEPORT"
+
+[封神比武场]
+alias   : ({ "fengshen_biwuchang" })
+map_id  : 40149
+source_id : 29000
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_FORBID_XIANLINGKA | ROOM_FORBID_TELEPORT"
+
+[运筹帷幄战场]
+alias   : ({ "yunchouweiwozhanchang" })
+map_id  : 40151
+source_id : 29000
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_FORBID_DUNSHU | ROOM_F_TELEPORT_BY_ITEM | ROOM_FORBID_TELEPORT"
+
+[西岐]
+alias      : ({ "xiqi" })
+map_id     : 41012
+source_id  : 1000
+npc$ : ({ "fengshenshijie/xiqishouwei",   212, 7,  SOUTHEAST, -1, 西岐守卫1 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   222, 13,  NORTHWEST, -1, 西岐守卫2 })
+exits$  : ({ "燕山", 225, 4,  CIRCLE, 173, 116, SOUTHWEST, "封神世界" })
+exits$  : ({ "西岐大殿", 369, 59,  CIRCLE, 40, 59, NORTHEAST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 284, 91 })
+
+[燕山]
+alias      : ({ "yanshan" })
+map_id     : 41013
+source_id  : 3000
+npc$ : ({ "fengshenshijie/yunzhongzi2",   69, 89,  SOUTHEAST, 1000, 云中子2 })
+npc$ : ({ "fengshenshijie/jichang1",     125, 111, SOUTHWEST, 2000, 姬昌1 })
+exits$  : ({ "恩州驿", 4, 124,  CIRCLE, 12, 33, SOUTHWEST, "封神世界" })
+exits$  : ({ "西岐", 177, 114,  CIRCLE, 220, 7, SOUTH, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 16, 121 })
+
+[西岐大殿]
+alias      : ({ "xiqi_dadian" })
+map_id     : 41014
+source_id  : 5004
+npc$ : ({ "fengshenshijie/jichang",   76, 36,  SOUTHWEST, 1000, 姬昌 })
+npc$ : ({ "fengshenshijie/boyikao",   63, 38,  SOUTHEAST, 2000, 伯邑考 })
+npc$ : ({ "fengshenshijie/nangongshi",   80, 45,  NORTHWEST, 3000, 南宫适 })
+npc$ : ({ "fengshenshijie/taidian",   58, 41,  SOUTHEAST, 4000, 太颠 })
+npc$ : ({ "fengshenshijie/hongyao",   74, 49,  NORTHWEST, 5000, 闳夭 })
+exits$  : ({ "西岐", 36, 62,  CIRCLE, 364, 63, SOUTHWEST, "封神世界" })
+npc$ : ({ "fengshenshijie/xiqishouwei",   28, 47,  SOUTHEAST, -1, 西岐守卫3 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   39, 41,  SOUTHEAST, -1, 西岐守卫4 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   50, 35,  SOUTHEAST, -1, 西岐守卫5 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   85, 50,  NORTHWEST, -1, 西岐守卫6 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   74, 57,  NORTHWEST, -1, 西岐守卫7 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   61, 63,  NORTHWEST, -1, 西岐守卫8 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   28, 56,  SOUTHWEST, -1, 西岐守卫9 })
+npc$ : ({ "fengshenshijie/xiqishouwei",   50, 64,  SOUTHWEST, -1, 西岐守卫10 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 32, 63 })
+
+[陈塘关]
+alias      : ({ "chentangguan" })
+map_id     : 41015
+source_id  : 8000
+npc$       : ({ "fengshenshijie/lijing",  137, 109,  SOUTHEAST, 1000, 李靖 })
+npc$       : ({ "fengshenshijie/nezha1",  156, 115,  SOUTHEAST, 2000, 哪吒1 })
+npc$       : ({ "fengshenshijie/jinzha",  137, 116,  SOUTHEAST, 3000, 金吒 })
+npc$       : ({ "fengshenshijie/muzha",  146, 112,  SOUTHEAST, 4000, 木吒 })
+npc$       : ({ "fengshenshijie/chentangguansb",  185, 166,  SOUTHEAST, -1, 陈塘关士兵1 })
+npc$       : ({ "fengshenshijie/chentangguansb",  202,157,  SOUTHEAST, -1, 陈塘关士兵2 })
+npc$       : ({ "fengshenshijie/chentangguansb",  190,145,  SOUTHEAST, -1, 陈塘关士兵3 })
+npc$       : ({ "fengshenshijie/chentangguansb",  175,152,  SOUTHEAST, -1, 陈塘关士兵4 })
+npc$       : ({ "fengshenshijie/chentangguansb",  163,139,  SOUTHEAST, -1, 陈塘关士兵5 })
+npc$       : ({ "fengshenshijie/chentangguansb",  178,133,  SOUTHEAST, -1, 陈塘关士兵6 })
+npc$       : ({ "fengshenshijie/chentangguansb",  151,126,  SOUTHEAST, -1, 陈塘关士兵7 })
+npc$       : ({ "fengshenshijie/chentangguansb",  165,119,  SOUTHEAST, -1, 陈塘关士兵8 })
+npc$       : ({ "fengshenshijie/chentangguansb",  129,120,  SOUTHEAST, -1, 陈塘关士兵9 })
+npc$       : ({ "fengshenshijie/chentangguansb",  155,157,  SOUTHEAST, -1, 陈塘关士兵10 })
+exits$  : ({ "恩州驿", 7, 243,  CIRCLE, 250, 89, WEST, "封神世界" })
+exits$  : ({ "东海之滨", 6, 4,  CIRCLE, 155, 146, WEST, "封神世界" })
+exits$  : ({ "骷髅峰",  85, 20, CIRCLE,  201, 229,     SOUTHWEST, "封神世界" })
+exits$  : ({ "乾元峰",  282, 6, CIRCLE,  13, 232,      NORTHEAST, "封神世界" })
+exits$  : ({ "轩辕洞", 326, 238,  CIRCLE, 136, 93, NORTHWEST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 248, 177 })
+
+[海底龙宫]
+alias      : ({ "haidi_longgong" })
+map_id     : 41016
+source_id  : 27001
+npc$       : ({ "fengshenshijie/longgong_jinwei",  151, 97,  SOUTHEAST, -1, 龙宫禁卫1 })
+npc$       : ({ "fengshenshijie/longgong_jinwei",  160, 92,  SOUTHEAST, -1, 龙宫禁卫2 })
+exits$  : ({ "东海之滨", 167, 104,  CIRCLE, 93, 38, SOUTH, "封神世界" })
+exits$  : ({ "天门", 185, 18,  CIRCLE, 129, 86, NORTHEAST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+template   : ({ "fengshen_monster_template" })
+fly_room : ({ 61, 38 })
+
+[天门]
+alias      : ({ "tianmen" })
+map_id     : 41017
+source_id  : 50001
+npc$       : ({ "fengshenshijie/donghai_longwang1",  162, 56,  NORTHEAST, 1, 东海龙王1 })
+exits$  : ({ "海底龙宫", 122, 90,  CIRCLE, 178, 22, SOUTHWEST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 48, 128 })
+
+[东海之滨]
+alias      : ({ "donghai_zhibing" })
+map_id     : 41018
+source_id  : 9000
+npc$       : ({ "fengshenshijie/nezha",  47, 60,  SOUTHEAST, 1000, 哪吒 })
+exits$  : ({ "陈塘关", 163, 148,  CIRCLE, 10, 8, SOUTHWEST, "封神世界" })
+exits$  : ({ "海底龙宫", 84, 32,  CIRCLE, 157, 99, NORTHWEST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 157, 146 })
+
+[骷髅峰]
+alias      : ({ "kuloufeng" })
+map_id     : 41019
+source_id  : 16000
+exits$     : ({ "陈塘关",  204, 224, CIRCLE,  95, 23,     EAST, "封神世界" })
+npc$       : ({ "fengshenshijie/shiji-niangniang1",  174, 74,  SOUTHWEST,  0,   石矶娘娘1 })
+npc$       : ({ "fengshenshijie/kuloushan-daotong", 131, 115, SOUTHEAST,  256, 骷髅山道童 })
+npc$       : ({ "fengshenshijie/kuloushan-daotong", 138, 110, SOUTHEAST,  512, 骷髅山道童1 })
+template   : ({ "fengshen_monster_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room   : ({ 161, 71 })
+
+[乾元峰]
+alias      : ({ "qianyuanfeng" })
+map_id     : 41020
+source_id  : 13000
+exits$     : ({ "陈塘关",  10, 238, CIRCLE,  286, 9,     SOUTHEAST, "封神世界" })
+npc$       : ({ "fengshenshijie/taiyi-zhenren1",  287, 47, SOUTHWEST, 0,   太乙真人1 })
+npc$       : ({ "fengshenshijie/lianhua-xianzi", 125, 32, SOUTHEAST, 256, 莲花仙子1 })
+template   : ({ "fengshen_monster_template" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 282, 45 })
+
+[全民楼兰城]
+map_id  : 41052
+source_id : 38000
+alias   : ({ "everyone_pk_loulancheng" })
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 132,  103, SOUTHEAST, 1024, 战场物资员 })
+npc$    : ({ "misc/quanmin-pk-jieyinren", 139, 99, SOUTHEAST, 2048, 全民楼兰城接引人 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_ANTICHEATER | ROOM_FORBID_XIANLINGKA | ROOM_FORBID_DUNSHU | ROOM_F_TELEPORT_BY_ITEM | ROOM_F_MULTI_FLY | ROOM_FORBID_CITY_WAR | ROOM_FORBID_COMPETE"
+
+[全民赛场]
+map_id  : 41053
+source_id : 38001
+raw_name : 全民赛场
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 34, 42, SOUTHWEST, 2048, 战场物资员 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_ANTICHEATER | ROOM_FORBID_XIANLINGKA | ROOM_FORBID_DUNSHU | ROOM_F_TELEPORT_BY_ITEM | ROOM_F_MULTI_FLY | ROOM_FORBID_CITY_WAR | ROOM_FORBID_COMPETE"
+
+[全民热身赛场]
+map_id  : 41054
+source_id : 38001
+raw_name : 全民热身赛场
+npc$    : ({ "loulancheng/zhanchang-wuziyuan.c", 34, 42, SOUTHWEST, 2048, 战场物资员 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_AUTO_TOUCH | ROOM_P_TOUCH_MONSTER | ROOM_NO_ANTICHEATER | ROOM_FORBID_XIANLINGKA | ROOM_FORBID_DUNSHU | ROOM_F_TELEPORT_BY_ITEM | ROOM_F_MULTI_FLY | ROOM_FORBID_CITY_WAR"
+
+[轩辕洞]
+alias      : ({ "xuanyuandong" })
+map_id     : 41022
+source_id  : 31300
+npc$ : ({ "fengshenshijie/huangfeihu2",   123, 89,  NORTHEAST, 1000, 黄飞虎2 })
+npc$ : ({ "fengshenshijie/bigan1",   136, 87,  NORTHWEST, 2000, 比干1 })
+npc$ : ({ "fengshenshijie/wuhoujingbing",   132, 93,  SOUTHEAST, -1, 武侯精兵 })
+npc$ : ({ "fengshenshijie/wuhoujingbing",   137, 90,  SOUTHEAST, -1, 武侯精兵 })
+exits$  : ({ "陈塘关", 140, 97,  CIRCLE, 321, 238, WEST, "封神世界" })
+room_limit : "ROOM_BIG_MAP | ROOM_P_TOUCH_MONSTER | ROOM_P_AUTO_TOUCH | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_FENGSHEN | ROOM_NO_CHANGE_UPGRADE"
+fly_room : ({ 140, 97 })
+
+[九重天天门]
+alias   : ({ "jiuchongtian-tianmen" })
+map_id  : 40155
+source_id : 50001
+exits$  : ({ "九重天边关", 37, 134, CIRCLE, 255, 44, SOUTHWEST })
+exits$  : ({ "九重天天宫", 168, 52, CIRCLE, 82, 158, NORTHEAST })
+npc$ : ({ "jiuchongtian-tianmen/xianguan", 77, 107, SOUTHEAST, 10, 九重天仙官2 })
+npc$ : ({ "jiuchongtian-tianmen/wuzi-xianguan", 88, 113, NORTHWEST, 20, 九重天物资仙官 })
+npc$ : ({ "jiuchongtian-tianmen/bianguan-shoujiang", 38, 125, SOUTHWEST, 30, 边关守将 })
+npc$ : ({ "jiuchongtian-tianmen/shenjun-shizhe", 154, 51, SOUTHEAST, 40, 神君使者 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 48, 128 })
+
+[九重天边关]
+alias   : ({ "jiuchongtian-bianguan" })
+map_id  : 40156
+source_id : 25002
+exits$  : ({ "九重天天门", 262, 43, CIRCLE, 48, 128, NORTHEAST })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 262, 50 })
+
+[百谷山]
+alias   : ({ "baigushan" })
+map_id  : 40160
+source_id : 17400
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[神药园]
+alias   : ({ "shenyaoyuan" })
+map_id  : 40161
+source_id : 29003
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[世外桃源]
+alias   : ({ "shiwai_taoyuan" })
+map_id  : 40157
+source_id  : 6000
+exits$  : ({ "幽州", 3, 115, CIRCLE, 155, 146,   WEST, "混合区域" })
+exits$  : ({ "不周圣山", 192, 4, CIRCLE, 222, 317, WEST, "混合区域" })
+npc$    : ({ "misc/jingxian_tongzi", 85, 99, SOUTHWEST, 0, 镜仙童子 })
+npc$    : ({ "misc/huoshen_zhurong", 47, 48, SOUTHWEST, 0, 火神祝融 })
+npc$    : ({ "misc/nvwashi", 182, 110, SOUTHWEST, 0, 女娲氏 })
+template : ({ "idle_template" })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[幽州]
+alias   : ({ "youzhou" })
+map_id  : 40158
+source_id  : 9000
+exits$  : ({ "世外桃源", 163, 146, CIRCLE, 8,   118, SOUTHEAST,     "混合区域" })
+exits$  : ({ "不周圣山", 164, 18,  CIRCLE,  13, 310, NORTHEAST, "混合区域" })
+npc$    : ({ "misc/gonggongshi", 25, 92, SOUTHEAST, 0, 共工氏 })
+template : ({ "idle_template" })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[不周圣山]
+alias   : ({ "buzhou_shengshan" })
+map_id  : 40159
+source_id  : 10000
+exits$  : ({ "幽州",   8,   314, CIRCLE,    159, 22, SOUTHWEST, "混合区域" })
+exits$  : ({ "世外桃源", 230, 317, CIRCLE, 186, 8, SOUTHWEST, "混合区域" })
+template : ({ "idle_template" })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[东海海滨]
+alias   : ({ "donghai-haibin" })
+map_id  : 40162
+source_id : 9000
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[昆仑雪山]
+alias   : ({ "kunlun-xueshan" })
+map_id  : 40163
+source_id : 18000
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[风幽谷]
+alias   : ({ "fengyougu" })
+map_id  : 40164
+source_id  : 14003
+exits$  : ({ "幽冥洞府", 193, 22, CIRCLE, 445, 149, NORTHWEST, "混合区域" })
+npc$    : ({ "misc/jingxian_tongzi", 52, 161, SOUTHWEST, 0, 镜仙童子 })
+npc$    : ({ "misc/suirenshi", 100, 105, SOUTHWEST, 0, 燧人氏 })
+template : ({ "idle_template" })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[幽冥洞府]
+alias   : ({ "youming-dongfu" })
+map_id  : 40165
+source_id  : 16100
+exits$  : ({ "风幽谷", 451, 153, CIRCLE, 192, 27, SOUTH, "混合区域" })
+template : ({ "idle_template" })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[太阳神殿]
+alias   : ({ "taiyang-shendian" })
+map_id  : 40166
+source_id : 20001
+exits$  : ({ "风幽谷", 77, 54, SOUTHEAST, 157, 163, SOUTHEAST, "混合区域" })
+npc$    : ({ "misc/taiyangshen", 13, 20, SOUTHEAST, 0, 太阳神 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[天墉城郊]
+alias      : ({ "tianyong-chengjiao" })
+map_id     : 38002
+source_id  : 38002
+npc$    : ({ "misc/tianyongcheng-chefu", 82, 56, SOUTHWEST, 100, 天墉城车夫 })
+npc$    : ({ "misc/shoucheng-shibing", 68, 49, SOUTHEAST, 200, 守城士兵5 })
+npc$    : ({ "misc/nuche-shouwei", 13, 58, SOUTHEAST, 0, 弩车守卫1 })
+npc$    : ({ "misc/nuche-shouwei", 72, 29, SOUTHEAST, 0, 弩车守卫2 })
+npc$    : ({ "misc/nuche-shouwei", 89, 21, SOUTHEAST, 0, 弩车守卫3 })
+npc$    : ({ "misc/nuche-shouwei", 104, 14, SOUTHEAST, 0, 弩车守卫4 })
+npc$    : ({ "misc/nuche-shouwei", 118, 6, SOUTHEAST, 0, 弩车守卫5 })
+npc$    : ({ "misc/nuche", 8, 60, SOUTHWEST, 0, 弩车1 })
+npc$    : ({ "misc/nuche", 74, 27, SOUTHWEST, 0, 弩车2 })
+npc$    : ({ "misc/nuche", 91, 19, SOUTHWEST, 0, 弩车3 })
+npc$    : ({ "misc/nuche", 107, 11, SOUTHWEST, 0, 弩车4 })
+npc$    : ({ "misc/nuche", 120, 5, SOUTHWEST, 0, 弩车5 })
+npc$    : ({ "misc/toushiche", 29, 52, SOUTHWEST, 0, 投石车1 })
+npc$    : ({ "misc/toushiche", 65, 35, SOUTHWEST, 0, 投石车2 })
+npc$    : ({ "misc/yangzongbing", 46, 42, SOUTHEAST, 300, 杨总兵 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[太极圣境]
+alias   : ({ "taijishengjing" })
+map_id  : 60000
+npc$    : ({ "THIS_PLACE/chuanfu", 133, 83, SOUTHWEST, 1, 船夫11 })
+npc$    : ({ "misc/jinlong-dawang", 118, 44, SOUTHWEST, 4, 金龙大王})
+npc$    : ({ "misc/yudiao-dawang", 61, 82, NORTHEAST, 8, 玉雕大王 })
+npc$    : ({ "misc/hanbing-dawang", 51, 42, SOUTHEAST, 16, 寒冰大王 })
+npc$    : ({ "misc/lieyan-dawang", 144, 69, NORTHWEST, 32, 烈焰大王 })
+npc$    : ({ "misc/tuci-dawang", 100, 96, NORTHEAST, 64, 土瓷大王 })
+npc$    : ({ "THIS_PLACE/kuileiwang", 94, 15, SOUTHWEST, 65, 傀儡王 })
+fly_room : ({ 65, 80 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_PLACE_PARTTERN | ROOM_CAN_CASUAL_GAME"
+
+[玉清山巅]
+alias   : ({ "yuqingshandian" })
+map_id  : 60001
+exits$  : ({ "太极圣境", 6,   143, CIRCLE, 135, 78, SOUTHWEST, "太极圣境" })
+npc$    : ({ "yuqingshandian/yuqing-shimoshen", 82, 84, SOUTHWEST, 100, 玉清噬魔神 })
+npc$    : ({ "yuqingshandian/yuqing-shimoyangsheng", 87, 78, SOUTHWEST, 0, 玉清噬魔阳圣1 })
+npc$    : ({ "yuqingshandian/yuqing-shimoyangsheng", 83, 91, NORTHWEST, 0, 玉清噬魔阳圣2 })
+npc$    : ({ "yuqingshandian/yuqing-shimoyinsheng", 68, 85, SOUTHEAST, 0, 玉清噬魔阴圣1 })
+npc$    : ({ "yuqingshandian/yuqing-shimoyinsheng", 96, 85, NORTHWEST, 0, 玉清噬魔阴圣2 })
+fly_room : ({ 135, 78 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_PLACE_PARTTERN | ROOM_CAN_CASUAL_GAME"
+
+[异灵堂外]
+alias      : ({ "yiling-tangwai" })
+map_id     : 40167
+source_id  : 19000
+npc$    : ({ "misc/tianyongcheng-chefu1", 83, 92, SOUTHWEST, 100, 天墉城车夫1 })
+not_start_room : 2
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
+
+[娃娃训练营]
+alias   : ({ "wawa-xunlianying" })
+map_id  : 40168
+source_id : 38001
+npc$    : ({ "misc/xunlianyingzhang", 62, 50, SOUTHWEST, 0, 训练营长 })
+npc$    : ({ "misc/liqixunlianshi1", 28, 44, SOUTHWEST, 0, 力气训练师1 })
+npc$    : ({ "misc/zhihuixunlianshi1", 14, 79, SOUTHWEST, 0, 智慧训练师1 })
+npc$    : ({ "misc/lingminxunlianshi1", 78, 84, SOUTHWEST, 0, 灵敏训练师1 })
+npc$    : ({ "misc/tipoxunlianshi1", 96, 26, SOUTHWEST, 0, 体魄训练师1 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE"
+
+[力气训练营]
+alias   : ({ "liqi-xunlianying" })
+map_id  : 40169
+source_id : 21003
+npc$    : ({ "misc/liqixunlianshi", 24, 20, SOUTHEAST, 0, 力气训练师 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE"
+
+[智慧训练营]
+alias   : ({ "zhihui-xunlianying" })
+map_id  : 40170
+source_id : 21003
+npc$    : ({ "misc/zhihuixunlianshi", 24, 20, SOUTHEAST, 0, 智慧训练师 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE"
+
+[灵敏训练营]
+alias   : ({ "lingmin-xunlianying" })
+map_id  : 40171
+source_id : 21003
+npc$    : ({ "misc/lingminxunlianshi", 24, 20, SOUTHEAST, 0, 灵敏训练师 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE"
+
+[体魄训练营]
+alias   : ({ "tipo-xunlianying" })
+map_id  : 40172
+source_id : 21003
+npc$    : ({ "misc/tipoxunlianshi", 24, 20, SOUTHEAST, 0, 体魄训练师 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE"
+
+[铭牌乱斗场]
+alias   : ({ "simingpai-luandouchang" })
+map_id  : 40173
+source_id : 29001
+npc$    : ({ "misc/luandouchangshizhe", 142, 66, SOUTHWEST, 1, 乱斗场使者 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_FORBID_DUNSHU | ROOM_FORBID_COMPETE"
+
+[铭牌训练场]
+alias   : ({ "simingpai-xunlianchang" })
+map_id  : 40174
+source_id : 29000
+npc$    : ({ "misc/xunlianchangshizhe", 100, 76, SOUTHWEST, 1, 训练场使者 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_FORBID_DUNSHU | ROOM_FORBID_COMPETE"
+
+[九重天天宫]
+alias   : ({ "jiuchongtian-tiangong" })
+map_id  : 40175
+source_id : 50000
+exits$  : ({ "九重天天门", 49, 173, CIRCLE, 162, 55, SOUTHWEST })
+npc$ : ({ "jiuchongtian-tiangong/qinglong-mengzhang", 217, 148, NORTHWEST, 10, 青龙孟章神君 })
+npc$ : ({ "jiuchongtian-tiangong/baihu-linbing", 34, 47, SOUTHEAST, 20, 白虎监兵神君 })
+npc$ : ({ "jiuchongtian-tiangong/zhuque-lingguang", 34, 182, SOUTHWEST, 30, 朱雀陵光神君 })
+npc$ : ({ "jiuchongtian-tiangong/xuanwu-zhiming", 234, 58, SOUTHWEST, 40, 玄武执名神君 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_PLACE_PARTTERN"
+fly_room : ({ 82, 158 })
+
+[西域古城]
+alias   : ({ "xiyugucheng" })
+map_id  : 42000
+source_id : 42000
+exits$  : ({ "万佛窟", 95, 3,  CIRCLE, 141, 121, NORTHWEST, "万佛窟"    })
+npc$    : ({ "THIS_PLACE/shougu_shangren", 114, 96,  SOUTHWEST, 1,   兽骨商人  })
+npc$    : ({ "THIS_PLACE/xiyu_shangren",   61,  43,  SOUTHWEST, 2,   西域商人  })
+npc$    : ({ "THIS_PLACE/ayisha_xiaojie",  103, 45,  SOUTHEAST, 4,   阿伊莎小姐  })
+npc$    : ({ "THIS_PLACE/shentuo",         10,  87,  SOUTHEAST, 8,   神驼1 })
+npc$    : ({ "THIS_PLACE/haha_laobo",      132, 19,  SOUTHWEST, 16,  哈哈老伯  })
+npc$    : ({ "THIS_PLACE/xiyu_shibing1",   52,  57,  SOUTHEAST, 32,  西域士兵1 })
+npc$    : ({ "THIS_PLACE/xiyu_shibing2",   58,  53,  SOUTHEAST, 64,  西域士兵2 })
+npc$    : ({ "THIS_PLACE/xiyu_shibing3",   35,  89,  SOUTHEAST, 128, 西域士兵3 })
+npc$    : ({ "THIS_PLACE/xiyu_shibing4",   42,  93,  NORTHWEST, 256, 西域士兵4 })
+npc$    : ({ "THIS_PLACE/asa_tiejiang",    41,  29,  SOUTHWEST, 300, 阿萨铁匠  })
+npc$    : ({ "THIS_PLACE/xiaolingli",      159, 70,  SOUTHWEST, 310, 小伶俐  })
+npc$    : ({ "THIS_PLACE/jiumo_jiangjun",  57,  57,  SOUTHEAST, 320, 鸠摩将军  })
+npc$    : ({ "THIS_PLACE/qiufan1",         81,  50,  SOUTHWEST, 330, 囚犯1 })
+npc$    : ({ "THIS_PLACE/qiufan2",         90,  50,  SOUTHEAST, 340, 囚犯2 })
+npc$    : ({ "THIS_PLACE/dajisi",         125,  68,  SOUTHEAST, 350, 大祭司  })
+npc$    : ({ "THIS_PLACE/dawangzi",        28,  12,  SOUTHWEST, 360, 大王子  })
+npc$    : ({ "THIS_PLACE/xiaowangzi",      157, 88,  NORTHWEST, 370, 小王子  })
+npc$    : ({ "THIS_PLACE/shicong1",        23,  13,  SOUTHWEST, 380, 侍从1 })
+npc$    : ({ "THIS_PLACE/shicong2",        28,  16,  SOUTHWEST, 390, 侍从2 })
+npc$    : ({ "THIS_PLACE/shicong3",        157, 92,  NORTHWEST, 400, 侍从3 })
+npc$    : ({ "THIS_PLACE/shicong4",        161, 88,  NORTHWEST, 410, 侍从4 })
+npc$    : ({ "THIS_PLACE/lingshouyiren",   78,  90,  SOUTHEAST, 420, 灵兽异人6  })
+npc$    : ({ "THIS_PLACE/yangdashu",        27, 49,  SOUTHEAST, 430, 羊大叔 })
+npc$    : ({ "THIS_PLACE/xiuxiluotuo1",    145, 23,  SOUTHWEST, 440, 休息的骆驼1 })
+npc$    : ({ "THIS_PLACE/xiuxiluotuo2",    150, 26,  SOUTHWEST, 450, 休息的骆驼2 })
+npc$    : ({ "THIS_PLACE/xiuxiluotuo3",    155, 29,  SOUTHWEST, 460, 休息的骆驼3 })
+fly_room : ({ 17, 94 })
+room_limit : "ROOM_BIG_MAP | ROOM_P_PLACE_PARTTERN | ROOM_CATCH_PKER | ROOM_CAN_CASUAL_GAME"
+
+[万佛窟]
+alias : ({ "wanfoku" })
+map_id : 60002
+source_id : 60002
+exits$ : ({ "西域古城", 151, 122, CIRCLE, 94, 7, SOUTHEAST, "西域古城" })
+fly_room : ({ 141, 121 })
+room_limit : "ROOM_BIG_MAP | ROOM_CATCH_PKER | ROOM_P_PLACE_PARTTERN | ROOM_CAN_CASUAL_GAME"
+
+[阵营战场]
+alias   : ({ "zhenyingzhanchang" })
+map_id  : 40177
+source_id : 29001
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_XIANLINGKA | ROOM_NO_ANTICHEATER | ROOM_FORBID_TELEPORT | ROOM_F_TELEPORT_BY_ITEM"
+
+[阵营争霸场]
+map_id  : 40178
+source_id : 29001
+npc$ : ({ "misc/zhenyzb-chuansongren", 132, 73, SOUTHEAST, 0, 阵营争霸传送人 })
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_P_TOUCH_MONSTER | ROOM_FORBID_XIANLINGKA | ROOM_NO_ANTICHEATER | ROOM_FORBID_TELEPORT | ROOM_F_TELEPORT_BY_ITEM"
+
+[迷雾昆仑]
+alias  : ({ "miwu_kunlun" })
+map_id : 40179
+source_id : 18000
+not_start_room : 1
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_NO_CHANGE_UPGRADE | ROOM_FORBID_TELEPORT | ROOM_FORBID_DUNSHU | ROOM_FORBID_COMPETE | ROOM_F_TELEPORT_BY_ITEM"
+
+[洞府]
+map_id  : 33005
+source_id  : 33005
+not_start_room : 2
+npc$ : ({ "THIS_PLACE/dongfu_chuansongshi1", 85, 53,  SOUTHEAST, 1, 洞府传送使1 })
+npc$ : ({ "THIS_PLACE/jingyan_shuijing", 101, 17,  SOUTHEAST, 2, 经验水晶 })
+npc$ : ({ "THIS_PLACE/daohang_shuijing", 173, 68,  SOUTHEAST, 3, 道行水晶 })
+npc$ : ({ "THIS_PLACE/shengwang_shuijing", 103, 120,  SOUTHEAST, 4, 声望水晶 })
+npc$ : ({ "THIS_PLACE/daofa_shuijing", 26, 59,  SOUTHEAST, 5, 道法水晶 })
+npc$ : ({ "THIS_PLACE/wuxue_shuijing", 161, 29,  SOUTHEAST, 6, 武学水晶 })
+npc$ : ({ "THIS_PLACE/xiuwei_shuijing", 164, 108,  SOUTHEAST, 7, 修为水晶 })
+npc$ : ({ "THIS_PLACE/xinfa_shuijing", 40, 104,  SOUTHEAST, 8, 心法水晶 })
+npc$ : ({ "THIS_PLACE/qinmi_shuijing", 43, 22,  SOUTHEAST, 9, 亲密水晶 })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE | ROOM_NO_ANTICHEATER | ROOM_P_TOUCH_MONSTER"
+
+[宠物训练营]
+alias  : ({ "chongwu_xunlianying" })
+map_id  : 40180
+source_id  : 36002
+not_start_room : 1
+npc$    : ({ "misc/xunlianying_dengjiyuan",    120, 113,  SOUTHWEST, 460, 训练营登记员 })
+exits$ : ({ "天墉城", 144, 116, CIRCLE, 393, 94, NORTHWEST })
+room_limit : "ROOM_BIG_MAP | ROOM_NO_ANTICHEATER | ROOM_P_TOUCH_MONSTER | ROOM_CAN_DUNSHU | ROOM_FORBID_TELEPORT | ROOM_F_TELEPORT_BY_ITEM"

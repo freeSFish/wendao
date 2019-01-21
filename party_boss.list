@@ -1,0 +1,340 @@
+#FORM2
+
+#怪物名称    怪物类型(1：主怪，0：小怪)
+
+
+[模版一]
+BOSS金       :     1
+BOSS木       :     1
+BOSS水       :     1
+BOSS火       :     1
+BOSS土       :     1
+
+[模版二]
+速度型       :     1
+法攻型       :     1
+血牛型       :     1
+物攻型       :     1
+吸收型       :     1
+
+[模版三]
+MO金         :     1
+MO木         :     1
+MO水         :     1
+MO火         :     1
+MO土         :     1
+黄怪         :     0
+绿鬼         :     0
+蓝精         :     0
+红魔         :     0
+紫魅         :     0
+疯魑         :     0
+狂魍         :     0
+爆魉         :     0
+镜妖         :     0
+
+#####################模版一的怪物########################
+
+[BOSS金]
+polar             : 1
+resist_metal      : 75
+resist_forgotten  : 100
+resist_poison     : 75
+resist_frozen     : 40
+resist_sleep      : 40
+resist_confusion  : 100
+accurate          : 100
+life_effect       : 4900
+speed_effect      : 150
+tao_effect        : 40
+mag_absorb        : -25
+phy_absorb        : -35
+double_hit_rate   : 40
+double_hit        : 5
+phy_action_rate   : 30
+assist_max_count  : 9
+assist_init_name  : "金头陀"
+assist_data : ({ "life_effect:300", "speed_effect:0", "tao_effect:0", "mag_absorb:-40", "phy_absorb:-40" })
+
+[BOSS木]
+polar             : 2
+resist_wood       : 75
+resist_forgotten  : 100
+resist_poison     : 75
+resist_frozen     : 40
+resist_sleep      : 40
+resist_confusion  : 100
+accurate          : 100
+life_effect       : 4900
+speed_effect      : 150
+tao_effect        : 40
+mag_absorb        : -25
+phy_absorb        : -35
+double_hit_rate   : 40
+double_hit        : 5
+phy_action_rate   : 30
+assist_max_count  : 9
+assist_init_name  : "金头陀"
+assist_data : ({ "life_effect:300", "speed_effect:0", "tao_effect:0", "mag_absorb:-40", "phy_absorb:-40" })
+
+[BOSS水]
+polar             : 3
+resist_water      : 75
+resist_forgotten  : 100
+resist_poison     : 75
+resist_frozen     : 40
+resist_sleep      : 40
+resist_confusion  : 100
+accurate          : 100
+life_effect       : 4900
+speed_effect      : 150
+tao_effect        : 40
+mag_absorb        : -25
+phy_absorb        : -35
+double_hit_rate   : 40
+double_hit        : 5
+phy_action_rate   : 30
+assist_max_count  : 9
+assist_init_name  : "金头陀"
+assist_data : ({ "life_effect:300", "speed_effect:0", "tao_effect:0", "mag_absorb:-40", "phy_absorb:-40" })
+
+[BOSS火]
+polar             : 4
+resist_fire       : 75
+resist_forgotten  : 100
+resist_poison     : 75
+resist_frozen     : 40
+resist_sleep      : 40
+resist_confusion  : 100
+accurate          : 100
+life_effect       : 4900
+speed_effect      : 150
+tao_effect        : 40
+mag_absorb        : -25
+phy_absorb        : -35
+double_hit_rate   : 40
+double_hit        : 5
+phy_action_rate   : 30
+assist_max_count  : 9
+assist_init_name  : "金头陀"
+assist_data : ({ "life_effect:300", "speed_effect:0", "tao_effect:0", "mag_absorb:-40", "phy_absorb:-40" })
+
+[BOSS土]
+polar             : 5
+resist_earth      : 75
+resist_forgotten  : 100
+resist_poison     : 75
+resist_frozen     : 40
+resist_sleep      : 40
+resist_confusion  : 100
+accurate          : 100
+life_effect       : 4900
+speed_effect      : 150
+tao_effect        : 40
+mag_absorb        : -25
+phy_absorb        : -35
+double_hit_rate   : 40
+double_hit        : 5
+phy_action_rate   : 30
+assist_max_count  : 9
+assist_init_name  : "金头陀"
+assist_data : ({ "life_effect:300", "speed_effect:0", "tao_effect:0", "mag_absorb:-40", "phy_absorb:-40" })
+
+#####################模版二的怪物########################
+
+[速度型]
+life_effect     : 450
+mag_absorb      : -10
+phy_absorb      : -20
+phy_effect      : 100
+mag_effect      : 120
+
+[法攻型]
+life_effect     : 450
+mag_absorb      : -10
+phy_absorb      : -20
+speed_effect    : 0
+phy_effect      : 100
+
+[血牛型]
+mag_absorb      : -10
+phy_absorb      : -20
+speed_effect    : 0
+phy_effect      : 100
+mag_effect      : 120
+
+[物攻型]
+life_effect     : 450
+mag_absorb      : -10
+phy_absorb      : -20
+speed_effect    : 0
+mag_effect      : 100
+double_hit_rate : 30
+double_hit      : 5
+
+[吸收型]
+life_effect     : 450
+speed_effect    : 0
+phy_effect      : 100
+mag_effect      : 120
+
+#######################模版三的怪物#######################
+
+[MO金]
+polar           : 1
+mag_absorb      : 0
+phy_absorb      : 0
+speed_effect    : 30
+accurate        : 100
+phy_action_rate : 30
+
+[MO木]
+polar           : 2
+mag_absorb      : 0
+phy_absorb      : 0
+speed_effect    : 30
+accurate        : 100
+phy_action_rate : 30
+
+[MO水]
+polar           : 3
+mag_absorb      : -20
+phy_absorb      : -20
+speed_effect    : 30
+accurate        : 100
+phy_action_rate : 40
+
+[MO火]
+polar           : 4
+mag_absorb      : 0
+phy_absorb      : 0
+speed_effect    : 70
+accurate        : 100
+phy_action_rate : 30
+
+[MO土]
+polar           : 5
+mag_absorb      : 0
+phy_absorb      : 0
+speed_effect    : 30
+accurate        : 100
+phy_action_rate : 40
+
+[黄怪]
+icon         : 6215
+portrait     : 6215
+polar        : 1
+resist_metal : 75
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : 0
+phy_effect   : 45
+mag_effect   : 80
+phy_action_rate : 20
+
+[绿鬼]
+icon         : 6215
+portrait     : 6215
+polar        : 2
+resist_wood  : 75
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : 0
+phy_effect   : 45
+mag_effect   : 80
+phy_action_rate : 20
+
+[蓝精]
+icon         : 6215
+portrait     : 6215
+polar        : 3
+resist_water : 75
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : 0
+phy_effect   : 45
+mag_effect   : 80
+phy_action_rate : 20
+
+[红魔]
+icon         : 6215
+portrait     : 6215
+polar        : 4
+resist_fire  : 75
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : 0
+phy_effect   : 45
+mag_effect   : 80
+phy_action_rate : 20
+
+[紫魅]
+icon         : 6215
+portrait     : 6215
+polar        : 5
+resist_earth : 75
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : 0
+phy_effect   : 45
+mag_effect   : 80
+phy_action_rate : 20
+
+[疯魑]
+icon         : 6214
+portrait     : 6214
+polar        : 0
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : -100
+speed_effect : -10
+phy_effect   : 80
+mag_effect   : 0
+phy_action_rate : 100
+
+[狂魍]
+icon         : 6214
+portrait     : 6214
+polar        : 0
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : -10
+phy_effect   : 40
+mag_effect   : 0
+double_hit_rate : 100
+double_hit      : 5
+phy_action_rate : 100
+
+[爆魉]
+icon         : 6214
+portrait     : 6214
+polar        : 0
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : -10
+phy_effect   : 80
+mag_effect   : 0
+counter_attack_rate : 100
+counter_attack      : 12
+phy_action_rate : 100
+
+[镜妖]
+icon         : 6214
+portrait     : 6214
+polar        : 0
+life_effect  : 250
+mag_absorb   : 0
+phy_absorb   : 0
+speed_effect : -10
+phy_effect   : 80
+mag_effect   : 0
+damage_sel_rate : 100
+damage_sel      : 100
+phy_action_rate : 100

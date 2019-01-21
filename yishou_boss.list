@@ -1,0 +1,206 @@
+#FORM2
+
+[玄凤]
+name                  : "玄凤"
+icon                  : 6158
+portrait              : 6158
+polar                 : 0
+life_effect           : "(2000 + Lv * 80 + (Lv / 100) * 500 + (Lv / 130) * 800 + (Lv / 150) * 1000) * M"
+mag_effect            : "(250 + Lv * 2 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(350 + Lv * 2 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+phy_absorb            : -10
+mag_absorb            : -10
+accurate              : 300
+stunt_rate            : 30
+double_hit_rate       : 60
+double_hit            : 3
+penetrate_rate        : 100
+penetrate             : ({ 50, 99 })
+all_resist_except     : 300
+tao_effect            : 1000
+obstacle_rate         : 0
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect" })
+random_attrib         : ({ "penetrate" })
+skills                : ({ "lipo-qianjun" })
+family_skills         : ({ "B5", "D5", "C5" })
+artifact              : ({ "hunyuan-jindou", 13, "yinyangjing", 13 })
+equiped_upgrade_artifact : ({ "yinyangjing" })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactics_xuanfeng"
+
+[玄凤化身]
+name                  : "玄凤化身"
+icon                  : 6158
+portrait              : 6158
+polar                 : 0
+life_effect           : "(2000 + Lv * 80 + (Lv / 100) * 500 + (Lv / 130) * 800 + (Lv / 150) * 1000) * M"
+mag_effect            : "(200 + Lv * 18 / 10 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(300 + Lv * 18 / 10 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+accurate              : 300
+stunt_rate            : 30
+double_hit_rate       : 60
+double_hit            : 3
+penetrate_rate        : ({ 30, 79 })
+penetrate             : ({ 30, 79 })
+all_resist_except     : 300
+tao_effect            : "400 + 200 * M"
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect", "tao_effect" })
+random_attrib         : ({ "penetrate", "penetrate_rate" })
+skills                : ({ "lipo-qianjun" })
+family_skills         : ({ "B5", "D5", "C5" })
+artifact              : ({ "hunyuan-jindou", 13, "yinyangjing", 13 })
+equiped_upgrade_artifact : ({ "yinyangjing" })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactics_xuanfeng_huasheng"
+
+[神牛]
+name                  : "神牛"
+icon                  : 30510
+portrait              : 30510
+polar                 : 0
+life_effect           : "(2000 + Lv * 80 + (Lv / 100) * 500 + (Lv / 130) * 800 + (Lv / 150) * 1000) * M"
+mag_effect            : "(250 + Lv * 2 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(350 + Lv * 2 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+accurate              : 300
+stunt_rate            : 50
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : 80
+penetrate             : ({ 30, 79 })
+all_resist_except     : 300
+tao_effect            : 1000
+obstacle_rate         : 0
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect" })
+random_attrib         : ({ "penetrate" })
+skills                : ({ "lipo-qianjun", "wanyi-shixin", "tianding-sanhun" })
+family_skills         : ({ "B5", "D5" })
+artifact              : ({ "xiejia-jinhu", 18, "jiulong-shenhuozhao", 18, "dinghaizhu", 18 })
+tactics               : "tactics_shenniu"
+
+[神牛元神]
+name                  : "神牛元神"
+icon                  : 30510
+portrait              : 30510
+polar                 : 0
+life_effect           : "(1000 + Lv * 30 + (Lv / 100) * 300 + (Lv / 130) * 480 + (Lv / 150) * 600) * M"
+mag_effect            : "(200 + Lv * 18 / 10 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(300 + Lv * 18 / 10 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+accurate              : 300
+stunt_rate            : 30
+double_hit_rate       : 60
+double_hit            : 3
+penetrate_rate        : ({ 30, 89 })
+penetrate             : ({ 40, 99 })
+all_resist_except     : 300
+tao_effect            : "400 + 200 * M"
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect", "tao_effect" })
+random_attrib         : ({ "penetrate", "penetrate_rate" })
+skills                : ({ "lipo-qianjun", "wanyi-shixin", "tianding-sanhun" })
+family_skills         : ({ "B5", "D5" })
+artifact              : ({ "hunyuan-jindou", 20, "yinyangjing", 20, "fantianyin", 20 })
+equiped_upgrade_artifact : ({ "hunyuan-jindou", "yinyangjing", "fantianyin" })
+tactics               : "tactics_shenniu_yuanshen"
+
+[金睛]
+name                  : "金睛"
+icon                  : 6225
+portrait              : 6225
+polar                 : 0
+life_effect           : "(2500 + Lv * 100 + (Lv / 100) * 1000 + (Lv / 130) * 1500 + (Lv / 150) * 3000) * M"
+mag_effect            : "(250 + Lv * 2 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(350 + Lv * 2 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+accurate              : 300
+stunt_rate            : 100
+double_hit_rate       : 100
+double_hit            : 2
+penetrate_rate        : 100
+penetrate             : ({ 50, 99 })
+all_resist_except     : 300
+tao_effect            : 1000
+obstacle_rate         : 0
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect" })
+random_attrib         : ({ "penetrate" })
+skills                : ({ "lipo-qianjun", "xuemai-zhili", "wanyi-shixin", "tianding-sanhun" })
+family_skills         : ({ "B5", "D5" })
+artifact              : ({ "hunyuan-jindou", 13, "yinyangjing", 13 })
+equiped_upgrade_artifact : ({ "yinyangjing" })
+yinlingfan_skill      : ({ "nujiao-lianzhan", 288 })
+tactics               : "tactics_jinjing"
+
+[金睛族裔]
+name                  : "金睛族裔"
+icon                  : 6225
+portrait              : 6225
+polar                 : -1
+religion              : -1
+life_effect           : "(1500 + Lv * 50 + (Lv / 100) * 500 + (Lv / 130) * 1000 + (Lv / 150) * 1500) * M"
+mag_effect            : "(150 + Lv * 2 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(200 + Lv * 2 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+damage_sel_rate       : 30
+damage_sel            : 100
+tao_effect            : "300 + 100 * M"
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect", "tao_effect" })
+skills                : ({ "lipo-qianjun", "wanyi-shixin", "tianding-sanhun" })
+family_skills         : ({ "B5", "D5" })
+tactics               : "tactics_jinjing_zuyi"
+
+[冰麟]
+name                  : "冰麟"
+icon                  : 6162
+portrait              : 6162
+polar                 : 0
+life_effect           : "(2000 + Lv * 80 + (Lv / 100) * 1000 + (Lv / 130) * 1500 + (Lv / 150) * 3000) * M"
+mag_effect            : "(250 + Lv * 2 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(350 + Lv * 2 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+phy_absorb            : -10
+mag_absorb            : -10
+accurate              : 300
+stunt_rate            : 100
+double_hit_rate       : 50
+double_hit            : 2
+counter_attack_rate   : 30
+counter_attack        : 2
+penetrate_rate        : 100
+penetrate             : ({ 50, 99 })
+all_resist_except     : 300
+tao_effect            : 1000
+obstacle_rate         : 0
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect" })
+random_attrib         : ({ "penetrate" })
+skills                : ({ "lipo-qianjun", "shixue-kuangmo" })
+family_skills         : ({ "B5", "D5", "C5" })
+artifact              : ({ "hunyuan-jindou", 13, "yinyangjing", 13, "fantianyin", 13 })
+equiped_upgrade_artifact : ({ "yinyangjing" })
+tactics               : "tactics_binglin"
+
+[冰麟化身]
+name                  : "冰麟化身"
+icon                  : 6162
+portrait              : 6162
+polar                 : 0
+life_effect           : "(2000 + Lv * 50 + (Lv / 100) * 1000 + (Lv / 130) * 1500 + (Lv / 150) * 3000) * M"
+mag_effect            : "(200 + Lv * 18 / 10 + (Lv / 130) * 80 + (Lv / 150) * 130) * M"
+phy_effect            : "(300 + Lv * 18 / 10 + (Lv / 130) * 100 + (Lv / 150) * 150) * M"
+accurate              : 300
+stunt_rate            : 30
+double_hit_rate       : 50
+double_hit            : 2
+penetrate_rate        : ({ 30, 79 })
+penetrate             : ({ 30, 79 })
+all_resist_except     : 200
+tao_effect            : "400 + 200 * M"
+speed_effect          : "200 + 100 * M"
+modify_attrib         : ({ "life_effect", "mag_effect", "phy_effect", "speed_effect", "tao_effect" })
+random_attrib         : ({ "penetrate", "penetrate_rate" })
+skills                : ({ "lipo-qianjun", "shixue-kuangmo" })
+family_skills         : ({ "B5", "D5", "C5" })
+artifact              : ({ "hunyuan-jindou", 13, "yinyangjing", 13, "fantianyin", 13 })
+equiped_upgrade_artifact : ({ "yinyangjing" })
+tactics               : "tactics_binglin_huashen"

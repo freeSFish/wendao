@@ -1,0 +1,28 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-07-06-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2011-09-02-22:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_end_task", "during_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-599)"
+message         : "据闻地府中逃出的恶鬼已经埋伏在#Z天墉城#Z中，准备等天黑之后发动攻击。请大家前往#P阎罗王#P处了解探寻恶鬼藏身之所的方法。活动将于#RSTART_TIME#n开启。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-900)"
+interval        : 300
+broadcast_end   : "end_time(-299)"
+message         : "#R慧眼识鬼#n活动将于#REND_TIME#n结束，请大家抓紧时间，把埋伏的恶鬼一网打尽。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1799)"
+message         : "#R慧眼识鬼#n正在进行中，请大家在#Z天墉城#Z使用#Y阴阳罗盘#n（可在#P阎罗王#P处领取）以探寻恶鬼的藏身之所。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

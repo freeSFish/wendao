@@ -1,0 +1,24 @@
+#FORM2
+
+[setting]
+start_time : "2014-04-05-00:00:00"
+end_time : "2014-04-07-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task1", "during_task2" })
+
+[during_task1]
+broadcast_start : "start_time(0)"
+interval        : 1200
+broadcast_end   : "end_time(-1)"
+message         : "清明时节雨纷纷，天墉城的居民们的#Y祭拜物品#n都被#R窃贼#n们抢走了，大家快消灭他们，夺回#Y祭拜物品#n吧。#78m"
+sender          : ""
+channel         : "CHANNEL_RUMOR | CHANNEL_NO_BROADCAST"
+
+[during_task2]
+broadcast_start : "start_time(0)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+sender          : "活动大使"
+message         : "天墉城的居民们的#Y祭拜物品#n都被#R窃贼#n们抢走了，大家快消灭他们，夺回#Y祭拜物品#n吧。#78m"
+channel         : "CHANNEL_HORN | CHANNEL_NO_BROADCAST"

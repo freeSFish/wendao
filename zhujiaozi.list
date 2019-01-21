@@ -1,0 +1,32 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-02-02-18:00:00", "EVERY_MIN(60)", "EVERY_DAY(1)", "2011-02-03-00:00:00" })
+
+[setting]
+start_time : "2011-02-02-18:00:00"
+end_time   : "2011-02-02-19:00:00"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast1", "broadcast2", "broadcast3" })
+
+[broadcast1]
+broadcast_start : "start_time(-3600)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "过年啦过年啦，过年煮饺子啦，传说中的#P饺子神厨|天墉城(255,199)#P即将于#RSTART_TIME#n出现在#Z天墉城#Z，大家记得届时找她参加#R煮饺子#n活动哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast2]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "过年啦过年啦，过年煮饺子啦，传说中的#P饺子神厨|天墉城(255,199)#P来到了#Z天墉城#Z，大家赶快来找她参加#R煮饺子#n活动啊。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast3]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R煮饺子#n活动结束了，饺子神厨也回家休息啦，祝大家除夕快乐。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

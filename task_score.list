@@ -1,0 +1,443 @@
+#FORM2
+
+[001]
+name : Ò×¾­Ï´Ëèµ¤
+score : 0
+give_num : 1
+gift_item : 1
+free_bag : 1
+
+[002]
+name : °ÙÁéµ¤
+score : 0
+give_num : 20
+free_bag : 1
+
+[003]
+name : ¾ÅÊ¥É¢
+score : 0
+give_num : 20
+free_bag : 1
+
+[004]
+name : ×Ï½ğµ¤
+score : 0
+give_num : 20
+free_bag : 1
+
+[005]
+name : °Ù»¨Äğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[006]
+name : À®°È
+score : 0
+give_num : 1
+free_bag : 1
+time_limit : 604800
+
+# [007]
+# name : ÈçÒâÕ½¶·Áî
+# score : 0
+# give_num : 1
+# gift_item : 1
+# free_bag : 1
+
+[008]
+name : Å®æ´Ê¯
+score : 0
+give_num : 1
+free_bag : 1
+
+[009]
+name : ³¬¼¶Å®æ´Ê¯
+score : 0
+give_num : 1
+free_bag : 1
+
+[010]
+name : ³¬¼¶ÁæÀşÊó¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[011]
+name : ³¬¼¶±¿±¿Å£¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[012]
+name : ³¬¼¶ÍşÍş»¢¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[013]
+name : ³¬¼¶ÌøÌøÍÃ¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[014]
+name : ³¬¼¶¿á¿áÁú¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[015]
+name : ³¬¼¶»¨»¨Éß¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[016]
+name : ³¬¼¶ÁïÁïÂí¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[017]
+name : ³¬¼¶ßãßãÑò¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[018]
+name : ³¬¼¶Ë§Ë§ºï¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[019]
+name : ³¬¼¶µ°µ°¼¦¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[020]
+name : ³¬¼¶¹Ô¹Ô¹·¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[021]
+name : ³¬¼¶ÕĞ²ÆÖí¿¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[022]
+name : Ñ©ÈË±äÉí°ü
+score : 0
+durability : 0
+give_num : 1
+free_bag : 1
+
+[023]
+name : ¾ÅÇúÁáçç±Ê¡¤¹û¹û
+score : 0
+give_num : 1
+free_bag : 1
+
+[024]
+name : ¾ÅÇúÁáçç±Ê¡¤Ò¹ĞĞÈË
+score : 0
+give_num : 1
+free_bag : 1
+
+[025]
+name : ¾ÅÇúÁáçç±Ê¡¤½£¿Í
+score : 0
+give_num : 1
+free_bag : 1
+
+[026]
+name : ¾ÅÇúÁáçç±Ê¡¤»ğ·ï
+score : 0
+give_num : 1
+free_bag : 1
+
+[027]
+name : ¾ÅÇúÁáçç±Ê¡¤ÇàÅ£
+score : 0
+give_num : 1
+free_bag : 1
+
+[028]
+name : ¾ÅÇúÁáçç±Ê¡¤½õ³½ÍÃ
+score : 0
+give_num : 1
+free_bag : 1
+
+[029]
+name : ¾ÅÇúÁáçç±Ê¡¤×ÏÔÆÍÃ
+score : 0
+give_num : 1
+free_bag : 1
+
+[030]
+name : ¾ÅÇúÁáçç±Ê¡¤ÔÂÀ¶ÍÃ
+score : 0
+give_num : 1
+free_bag : 1
+
+[031]
+name : ¾ÅÇúÁáçç±Ê¡¤³àÑæÍÃ
+score : 0
+give_num : 1
+free_bag : 1
+
+[032]
+name : ¾ÅÇúÁáçç±Ê¡¤±ÌÓñÍÃ
+score : 0
+give_num : 1
+free_bag : 1
+
+[033]
+name : ¾ÅÇúÁáçç±Ê¡¤¹ÅÂ¹
+score : 0
+give_num : 1
+free_bag : 1
+
+[034]
+name : ¾ÅÇúÁáçç±Ê¡¤ÔÀÂ´½£
+score : 0
+give_num : 1
+free_bag : 1
+
+[035]
+name : ¾ÅÇúÁáçç±Ê¡¤ôä´äºùÂ«
+score : 0
+give_num : 1
+free_bag : 1
+
+[036]
+name : ¾ÅÇúÁáçç±Ê¡¤ÔÆ±ª
+score : 0
+give_num : 1
+free_bag : 1
+
+[037]
+name : ¾ÅÇúÁáçç±Ê¡¤±±¼«ĞÜ
+score : 0
+give_num : 1
+free_bag : 1
+
+[038]
+name : ¾ÅÇúÁáçç±Ê¡¤Ì«¼«ĞÜ
+score : 0
+give_num : 1
+free_bag : 1
+
+[039]
+name : ¾ÅÇúÁáçç±Ê¡¤Ä½Ñ×Ê¨
+score : 0
+give_num : 1
+free_bag : 1
+
+[040]
+name : ¾ÅÇúÁáçç±Ê¡¤Îå²ÊÉñÅ£
+score : 0
+give_num : 1
+free_bag : 1
+
+[041]
+name : ¾ÅÇúÁáçç±Ê¡¤ÑÅ³¾ºü
+score : 0
+give_num : 1
+free_bag : 1
+
+[042]
+name : ¾ÅÇúÁáçç±Ê¡¤½ğ¸£ĞÇ
+score : 0
+give_num : 1
+free_bag : 1
+
+[043]
+name : ¾ÅÇúÁáçç±Ê¡¤×Ï¸£ĞÇ
+score : 0
+give_num : 1
+free_bag : 1
+
+[044]
+name : ¾ÅÇúÁáçç±Ê¡¤À¼¸£ĞÇ
+score : 0
+give_num : 1
+free_bag : 1
+
+[045]
+name : ¾ÅÇúÁáçç±Ê¡¤ºì¸£ĞÇ
+score : 0
+give_num : 1
+free_bag : 1
+
+[046]
+name : ¾ÅÇúÁáçç±Ê¡¤»Æ¸£ĞÇ
+score : 0
+give_num : 1
+free_bag : 1
+
+[047]
+name : Ò»½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[048]
+name : Ò»ÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[049]
+name : ¶ş½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[050]
+name : ¶şÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[051]
+name : Èı½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[052]
+name : ÈıÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[053]
+name : ËÄ½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[054]
+name : ËÄÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[055]
+name : Îå½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[056]
+name : ÎåÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[057]
+name : Áù½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[058]
+name : ÁùÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[059]
+name : ÏÉ³è
+score : 0
+give_num : 20
+free_bag : 1
+
+[060]
+name : Êô±¦
+score : 0
+give_num : 20
+free_bag : 1
+
+[061]
+name : ÊÎÎå
+score : 0
+give_num : 20
+free_bag : 1
+
+[062]
+name : ÆßÖÜÄê¼ÍÄî¿¨
+score : 0
+give_num : 99
+free_bag : 1
+
+[063]
+name : »Ã³è
+score : 0
+give_num : 20
+free_bag : 1
+
+[064]
+name : °Ë½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[065]
+name : °ËÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[066]
+name : ¾Å½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[067]
+name : ¾ÅÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[068]
+name : Ê®½ğ
+score : 0
+give_num : 20
+free_bag : 1
+
+[069]
+name : Ê®ÍÁ
+score : 0
+give_num : 20
+free_bag : 1
+
+[070]
+name : ¸£¹ó
+score : 0
+give_num : 99
+free_bag : 1
+
+[071]
+name : Ê®¼¶ÏâÇ¶Áî
+score : 0
+give_num : 1
+free_bag : 1
+
+[072]
+name : Ê®ËÙ
+score : 0
+give_num : 20
+free_bag : 1
+
+[073]
+name : ±¬¼¶
+score : 0
+give_num : 99
+free_bag : 1

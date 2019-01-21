@@ -1,0 +1,543 @@
+#FORM2
+
+[ÊÉ»ê¹í]
+icon        : 6049
+portrait    : 6049
+polar       : POLAR_METAL
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 160
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[ÆßµÀÐÞÂÞ]
+icon        : 6206
+portrait    : 6206
+polar       : POLAR_FIRE
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 50
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[ÄÖº£Ò¹²æ]
+icon        : 6212
+portrait    : 6212
+polar       : POLAR_WATER
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -50
+phy_absorb  : -50
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[É½´óÍõ]
+icon        : 6202
+portrait    : 6202
+polar       : POLAR_EARTH
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 120
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 40
+stunt_rate  : 30
+phy_rate    : 70
+mag_rate    : 30
+
+[½ðÌ³Õæ¾ý]
+icon        : 6211
+portrait    : 6211
+polar       : POLAR_METAL
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 160
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[àÁ»ðÕæ¾ý]
+icon        : 6211
+portrait    : 6211
+polar       : POLAR_FIRE
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 50
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[ÔªÄ¾Õæ¾ý]
+icon        : 6211
+portrait    : 6211
+polar       : POLAR_WOOD
+life_effect : 800
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[ÕÑË®Õæ¾ý]
+icon        : 6211
+portrait    : 6211
+polar       : POLAR_WATER
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -50
+phy_absorb  : -50
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[Ú¤ÍÁÕæ¾ý]
+icon        : 6211
+portrait    : 6211
+polar       : POLAR_EARTH
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 120
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 40
+stunt_rate  : 30
+phy_rate    : 70
+mag_rate    : 30
+
+[°µÓ°Ð°Ä§]
+icon        : 6208
+portrait    : 6208
+polar       : POLAR_EARTH
+life_effect : 700
+#mana_effect : 5900
+tao_effect  : 20
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 120
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 40
+stunt_rate  : 30
+phy_rate    : 70
+mag_rate    : 30
+
+[³¹µØÄ§]
+icon        : 6221
+portrait    : 6221
+polar       : POLAR_WOOD
+life_effect : 900
+#mana_effect : 5900
+tao_effect  : 20
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 40
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[¹ÆÄ§]
+icon        : 6204
+portrait    : 6204
+polar       : POLAR_EARTH
+life_effect : 700
+#mana_effect : 5900
+tao_effect  : 20
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 120
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 50
+stunt_rate  : 30
+phy_rate    : 70
+mag_rate    : 30
+
+[ÔÂºü]
+icon        : 6205
+portrait    : 6205
+polar       : POLAR_WATER
+life_effect : 800
+#mana_effect : 5900
+tao_effect  : 20
+mag_absorb  : -60
+phy_absorb  : -60
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 50
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[¹íÅ«]
+icon        : 6207
+portrait    : 6207
+polar       : POLAR_METAL
+life_effect : 800
+#mana_effect : 5900
+tao_effect  : 20
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 160
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 60
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[±ÜË®½ð¾¦ÊÞ]
+icon        : 6225
+portrait    : 6225
+polar       : POLAR_WATER
+life_effect : 800
+#mana_effect : 5900
+tao_effect  : 20
+mag_absorb  : -60
+phy_absorb  : -60
+phy_effect  : 100
+mag_effect  : 120
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 60
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[°µÒ¹Ä§]
+icon        : 6228
+portrait    : 6228
+polar       : POLAR_FIRE
+life_effect : 600
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 140
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 60
+penetrate   : 30
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[ÊÉÌìÄ§]
+icon        : 6229
+portrait    : 6229
+polar       : POLAR_METAL
+life_effect : 800
+#mana_effect : 5900
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 200
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 60
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[ÃðµØÄ§]
+icon        : 6226
+portrait    : 6226
+polar       : POLAR_EARTH
+life_effect : 800
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 180
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 30
+penetrate   : 60
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[»Ã¼§]
+icon        : 6241
+portrait    : 6241
+polar       : POLAR_WOOD
+life_effect : 800
+tao_effect  : 0
+mag_absorb  : -30
+phy_absorb  : -30
+phy_effect  : 100
+mag_effect  : 200
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 50
+penetrate   : 50
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[ÔÆË®ÏÉÊÞ]
+icon        : 6195
+portrait    : 6195
+polar       : POLAR_WATER
+life_effect : 600
+tao_effect  : 0
+mag_absorb  : -60
+phy_absorb  : -60
+phy_effect  : 100
+mag_effect  : 150
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 20
+penetrate   : 60
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[½ð¸ÕÀÇ]
+icon        : 6260
+portrait    : 6260
+polar       : POLAR_METAL
+life_effect : 1500
+tao_effect  : 0
+mag_absorb  : 0
+phy_absorb  : 0
+phy_effect  : 150
+mag_effect  : 200
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 0
+penetrate   : 40
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[Æß²Êð½Ñý]
+icon        : 6158
+portrait    : 6158
+polar       : POLAR_EARTH
+life_effect : 1200
+tao_effect  : 0
+mag_absorb  : 0
+phy_absorb  : 0
+phy_effect  : 170
+mag_effect  : 170
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 0
+penetrate   : 50
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[Áú¹ê]
+icon        : 6196
+portrait    : 6196
+polar       : POLAR_FIRE
+life_effect : 1200
+tao_effect  : 0
+mag_absorb  : 0
+phy_absorb  : 0
+phy_effect  : 170
+mag_effect  : 170
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 100
+penetrate   : 50
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[µØÄ§ÏÉ]
+icon        : 31062
+portrait    : 31062
+polar       : POLAR_EARTH
+life_effect : 1500
+tao_effect  : 0
+mag_absorb  : 0
+phy_absorb  : 0
+phy_effect  : 200
+mag_effect  : 200
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 100
+penetrate   : 50
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70
+
+[µØÄ§Éñ]
+icon        : 31067
+portrait    : 31067
+polar       : POLAR_METAL
+life_effect : 1500
+tao_effect  : 0
+mag_absorb  : 0
+phy_absorb  : 0
+phy_effect  : 200
+mag_effect  : 200
+resist_forgotten : 100
+resist_sleep     : 100
+resist_frozen    : 100
+resist_poison    : 100
+resist_confusion : 100
+speed_effect: 100
+penetrate   : 50
+stunt_rate  : 30
+phy_rate    : 30
+mag_rate    : 70

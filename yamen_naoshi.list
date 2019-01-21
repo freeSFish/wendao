@@ -1,0 +1,28 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-08-01-00:00:00", "EVERY_DAY(34)", 0, "2015-09-03-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【暑假】衙门闹事#n活动开始啦，大家赶紧去找#P活动大使#P参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【暑假】衙门闹事#n活动开始啦，完成任务就可以领取丰厚奖励！大家赶紧去找#P活动大使#P参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "本次#R【暑假】衙门闹事#n活动结束了，希望大家有个开心的暑假！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

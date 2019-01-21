@@ -1,0 +1,118 @@
+#FORM2
+
+#["124132"]:  括号中为条形码
+#for_sale:    是否出售(1出售,0不出售)
+#coin:        元宝价格
+#name:        必须为物品的导入名称（不能是显示名称）
+#recommend:   条形最开头编号
+#type:        物品类型
+
+###################道具类型对应表####################
+#[道具类型对应表]
+#新品推荐: 1
+#热销道具: 2
+#
+#####################头发########################
+#["H0000000"]
+#name: "普通女发"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 2
+#gender : 2
+#recommend : 新品推荐
+#
+#["H0000001"]
+#name: "普通男发"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 2
+#gender : 1
+#recommend : 新品推荐
+#
+#####################眼睛########################
+#["E00000000"]
+#name: "水汪汪"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 4
+#gender : 2
+#recommend : 新品推荐
+#
+#["E00000001"]
+#name: "炯炯有神"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 4
+#gender : 1
+#recommend : 新品推荐
+#
+#####################嘴巴########################
+#["M00000000"]
+#name: "开口笑"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 5
+#gender : 0
+#recommend : 新品推荐
+#
+#["M00000001"]
+#name: "微笑"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 5
+#gender : 0
+#recommend : 新品推荐
+#
+#####################首饰########################
+#["N00000000"]
+#name: "圆圈耳环"
+#for_sale: 1
+#basic_coin: 1000
+#coin_extra: 6
+#type: 6
+#gender : 2
+#recommend : 新品推荐
+#
+#####################上衣########################
+#["S00000000"]
+#name: "白色连衣裙"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 8
+#gender : 2
+#recommend : 新品推荐
+#
+#["S00000001"]
+#name: "新潮上衣"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 8
+#gender : 1
+#recommend : 新品推荐
+#
+#####################下衣########################
+#["T00000000"]
+#name: "黑色筒袜"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 9
+#gender : 2
+#recommend : 新品推荐
+#
+#["T00000001"]
+#name: "格子裤"
+#for_sale: 1
+#basic_coin: 200
+#coin_extra: 6
+#type: 9
+#gender : 1
+#recommend : 新品推荐

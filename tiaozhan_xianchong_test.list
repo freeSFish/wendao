@@ -1,0 +1,50 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-04-01-09:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2011-04-15-12:00:00" })
+time_list$ : ({ "2011-04-01-11:00:00", "EVERY_HOUR(1)", "EVERY_DAY(1)", "2011-04-15-12:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task_first", "before_start_task_second", "before_start_task_third", "during_task", "end_task", "exchange_alarm" })
+
+[before_start_task_first]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1801)"
+message         : "亲爱的广大道友们，我们每日练功修道，玉帝为考察我们的能力，特意派了几个#Y仙宠#n于#RSTART_FORMAT_HOUR_MIN-END_FORMAT_HOUR_MIN#n在#ZROOM#Z考量大家，让我们一起去挑战这些#Y仙宠#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task_second]
+broadcast_start : "start_time(-1800)"
+interval        : 300
+broadcast_end   : "start_time(-599)"
+message         : "亲爱的广大道友们，我们每日练功修道，玉帝为考察我们的能力，特意派了几个#Y仙宠#n于#RSTART_FORMAT_HOUR_MIN-END_FORMAT_HOUR_MIN#n在#ZROOM#Z考量大家，让我们一起去挑战这些#Y仙宠#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task_third]
+broadcast_start : "start_time(-300)"
+interval        : 60
+broadcast_end   : "start_time(-1)"
+message         : "亲爱的广大道友们，我们每日练功修道，玉帝为考察我们的能力，特意派了几个#Y仙宠#n于#RSTART_FORMAT_HOUR_MIN-END_FORMAT_HOUR_MIN#n在#ZROOM#Z考量大家，让我们一起去挑战这些#Y仙宠#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 300
+broadcast_end   : "end_time(-299)"
+message         : "亲爱的广大道友们，我们每日练功修道，玉帝为考察我们的能力，特意派了几个#Y仙宠#n于#RSTART_FORMAT_HOUR_MIN-END_FORMAT_HOUR_MIN#n在#ZROOM#Z考量大家，让我们一起去挑战这些#Y仙宠#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-180)"
+interval        : 60
+broadcast_end   : "end_time(-1)"
+message         : "#Y仙宠#n今日已经对多位道友进行了指点，要回仙界修养，希望道友们日后能够勤奋练功修道。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[exchange_alarm]
+broadcast_start : "2011-04-06-00:00:00"
+interval        : 1800
+broadcast_end   : "2011-04-06-23:59:00"
+message         : "五周年活动明天就要结束啦！各位道友快点将五周年期间收集的物品带上，去找#P五周年庆典大使#P兑换奖励吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,5 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-01-04-00:00:00", "EVERY_DAY(33)", 0 })
+challenge_day : 32

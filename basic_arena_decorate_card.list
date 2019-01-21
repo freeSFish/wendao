@@ -1,0 +1,5 @@
+key_name,   no_float,    log_action, file_id,                            icon, unit, value, cost_type
+随机套装卡, "equipment", "zhuangb",  "decorate_card/suiji-taozhuang",    2502, 张,   500,   "combat"
+天兵天将卡, "equipment", "zhuangb",  "decorate_card/tianbing-tianjiang", 2503, 张,   500,   "combat"
+鲜花背景卡, "equipment", "zhuangb",  "decorate_card/xianhuan-beijing",   2504, 张,   500,   "room"
+

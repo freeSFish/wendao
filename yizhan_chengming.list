@@ -1,0 +1,132 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-02-16-00:00:00", "EVERY_DAY(14)", "EVERY_WEEK(0)", "2015-03-01-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "end_task", "during_task" })
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【三羊开泰】一战成名#n活动已经结束了，#Y战羊们#n已征战远方了，感谢大家的参与！#0"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time(-3599)"
+message         : "迎新年，贺新春，战羊们在#Z天墉城(248,202)#Z附近迎接各道友的挑战，大家快去#P活动大使#P处领取#R【三羊开泰】一战成名#n任务吧。#50"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[normal]
+polar            : -1
+religion         : -1
+life_effect      : "(500 + (LV / 100) * 40 + (LV / 130) * 60 + STAGE * 45) * 8 / 10"
+phy_effect       : "(100 + (LV / 100) * 20 + (LV / 130) * 30 + STAGE * 16) * 8 / 10"
+mag_effect       : "(100 + (LV / 100) * 20 + (LV / 130) * 30 + STAGE * 16) * 8 / 10"
+speed_effect     : "(30 + STAGE * 10) * 3 / 10"
+tao_effect       : "(100 + STAGE * 10) * 6 / 10"
+resist_metal     : "2 * STAGE"
+resist_fire      : "2 * STAGE"
+resist_earth     : "2 * STAGE"
+resist_wood      : "2 * STAGE"
+resist_water     : "2 * STAGE"
+resist_forgotten : "5 + STAGE * 5 / 10"
+resist_repress   : "5 + STAGE * 5 / 10"
+resist_poison    : "STAGE * 5 / 10"
+resist_frozen    : "STAGE * 5 / 10"
+resist_sleep     : "STAGE * 5 / 10"
+resist_melt      : "STAGE * 5 / 10"
+resist_cage      : "STAGE * 5 / 10"
+resist_lock      : "STAGE * 5 / 10"
+resist_lost      : "5 + STAGE * 5 / 10"
+resist_confusion : "5 + STAGE * 5 / 10"
+accurate         : 100
+stunt_rate       : 30
+double_hit_rate  : 0
+double_hit       : 0
+damage_sel       : 0
+damage_sel_rate  : 0
+penetrate_rate   : 30
+penetrate        : 30
+random_attrib    : ({ "speed_effect", "5 * STAGE * 3 / 10" })
+max_attrib       : ({ "phy_absorb", "-1 * STAGE * 2.5", -95 })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect", "tao_effect", "resist_metal", "resist_wood", "resist_water", "resist_fire", "resist_earth", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion", "resist_repress", "resist_melt", "resist_cage", "resist_lock", "resist_lost" })
+
+[middle]
+polar            : -1
+religion         : -1
+life_effect      : "(500 + (LV / 100) * 40 + (LV / 130) * 60 + STAGE * 45) * 9 / 10"
+phy_effect       : "(100 + (LV / 100) * 20 + (LV / 130) * 30 + STAGE * 16) * 8 / 10"
+mag_effect       : "(100 + (LV / 100) * 20 + (LV / 130) * 30 + STAGE * 16) * 8 / 10"
+speed_effect     : "(30 + STAGE * 10) * 5 / 10"
+tao_effect       : "(100 + STAGE * 10) * 8 / 10"
+resist_metal     : "2 * STAGE"
+resist_fire      : "2 * STAGE"
+resist_earth     : "2 * STAGE"
+resist_wood      : "2 * STAGE"
+resist_water     : "2 * STAGE"
+resist_forgotten : "5 + STAGE * 5 / 10"
+resist_repress   : "5 + STAGE * 5 / 10"
+resist_poison    : "STAGE * 5 / 10"
+resist_frozen    : "STAGE * 5 / 10"
+resist_sleep     : "STAGE * 5 / 10"
+resist_melt      : "STAGE * 5 / 10"
+resist_cage      : "STAGE * 5 / 10"
+resist_lock      : "STAGE * 5 / 10"
+resist_lost      : "5 + STAGE * 5 / 10"
+resist_confusion : "5 + STAGE * 5 / 10"
+accurate         : 100
+stunt_rate       : 30
+double_hit_rate  : 0
+double_hit       : 0
+damage_sel       : 0
+damage_sel_rate  : 0
+penetrate_rate   : 30
+penetrate        : 30
+random_attrib    : ({ "speed_effect", "5 * STAGE * 5 / 10" })
+max_attrib       : ({ "phy_absorb", "-1 * STAGE * 2.5", -95 })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "speed_effect", "tao_effect", "resist_metal", "resist_wood", "resist_water", "resist_fire", "resist_earth", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion", "resist_repress", "resist_melt", "resist_cage", "resist_lock", "resist_lost" })
+
+[senior]
+polar            : -1
+religion         : -1
+life_effect      : "(500 + (LV / 100) * 40 + (LV / 130) * 60 + STAGE * 45) * 105 / 100"
+phy_effect       : "100 + (LV / 100) * 20 + (LV / 130) * 30 + STAGE * 16"
+mag_effect       : "100 + (LV / 100) * 20 + (LV / 130) * 30 + STAGE * 16"
+tao_effect       : "50 + STAGE * 14"
+accurate         : 100
+stunt_rate       : 30
+double_hit_rate  : 0
+double_hit       : 0
+damage_sel       : 0
+damage_sel_rate  : 0
+penetrate_rate   : 30
+resist_metal     : "4 * STAGE"
+resist_fire      : "4 * STAGE"
+resist_earth     : "4 * STAGE"
+resist_wood      : "4 * STAGE"
+resist_water     : "4 * STAGE"
+resist_forgotten : "40 + STAGE * 3"
+resist_repress   : "40 + STAGE * 3"
+resist_poison    : "3 * STAGE"
+resist_frozen    : "3 * STAGE"
+resist_sleep     : "3 * STAGE"
+resist_melt      : "3 * STAGE"
+resist_cage      : "3 * STAGE"
+resist_lock      : "3 * STAGE"
+resist_lost      : "40 + STAGE * 3"
+resist_confusion : "40 + STAGE * 3"
+max_attrib       : ({ "phy_absorb", "-1 * STAGE * 2.5", -95 })
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "resist_metal", "resist_wood", "resist_water", "resist_fire", "resist_earth", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion", "resist_repress", "resist_melt", "resist_cage", "resist_lock", "resist_lost" })
+
+[lucky]
+polar           : -1
+religion        : -1
+mag_effect      : -99
+mag_absorb      : -100
+tao_effect      : 5000
+speed_effect    : 100
+tactics         : "use_null_tactics"

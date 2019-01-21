@@ -1,0 +1,504 @@
+#FORM2
+
+[time_info]
+start_time      : "2013-04-15-00:00"
+end_time        : "2023-05-03-23:59"
+test_start_time : "2013-03-04-00:00"
+test_end_time   : "2023-03-10-23:59"
+
+[broadcast_setting]
+broadcast_list : ({ "dur_task" })
+
+[dur_task]
+broadcast_start : "start_time(64800)"
+interval        : 1200
+cycle           : 86400
+broadcast_end   : "start_time(79100)"
+final_end_time  : "end_time"
+message         : "传说中的#R吴胖子黑店#n在周年商城上架了，大家赶紧去#P活动大使#P处兑换吧！出售时间为#R00:00-24:00#n，欲购从速。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[001]
+name : 超级昆仑卡
+type : "item"
+card_num : 40
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[002]
+name : 超级逐鹿卡
+type : "item"
+card_num : 40
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[003]
+name : 超级无名卡
+type : "item"
+card_num : 40
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[004]
+name : 超级巨力卡
+type : "item"
+card_num : 40
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[005]
+name : 超级斗战胜佛卡
+type : "item"
+card_num : 40
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[006]
+name : 超级苍穹卡
+type : "item"
+card_num : 40
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[007]
+name : 超级净瓶卡
+type : "item"
+card_num : 40
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[008]
+name : 十级镶嵌令
+type : "item"
+card_num : 800
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[009]
+name : 锦囊
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[010]
+name : 特级藏宝图
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[011]
+name : 超级女娲石
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[012]
+name : 福贵
+card_num : 88
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[013]
+name : 太极熊
+card_num : 650
+icon:30025
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[014]
+name : 至尊太极熊
+card_num : 1100
+icon:30538
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[015]
+name : 至尊巨骨刺
+card_num : 1000
+icon:30547
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[016]
+name : 至尊玉蝶鱼
+card_num : 1000
+icon:30539
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[017]
+name : 至尊盘古猿
+card_num : 1000
+icon:30540
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[018]
+name : 至尊吉祥蛙
+card_num : 1000
+icon:30546
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[019]
+name : 古鹿
+card_num : 100
+icon:30001
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[020]
+name : 翡翠葫芦
+card_num : 100
+icon:30015
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[021]
+name : 北极熊
+card_num : 100
+icon:30021
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[022]
+name : 岳麓剑
+card_num : 100
+icon:30010
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[023]
+name : 云豹
+card_num : 100
+icon:30016
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[024]
+name : 吉祥蛙
+card_num : 550
+icon:30541
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[025]
+name : 巨骨刺
+card_num : 550
+icon:30542
+give_num : 1
+free_pet : 1
+type : "pet"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[026]
+name : 玄天刺猬
+type : "pet"
+card_num : 1000
+give_num : 1
+free_pet : 1
+sell_start : 0
+sell_end : 24
+icon : 6662
+show_start : 0
+show_end : 24
+
+[027]
+name : 百年黑熊
+type : "pet"
+card_num : 1000
+give_num : 1
+free_pet : 1
+sell_start : 0
+sell_end : 24
+icon : 6660
+show_start : 0
+show_end : 24
+
+[028]
+name : 化蛇兽
+type : "pet"
+card_num : 10
+give_num : 1
+free_pet : 1
+sell_start : 0
+sell_end : 24
+icon : 6285
+show_start : 0
+show_end : 24
+
+[029]
+name : 狐灵
+type : "pet"
+card_num : 10
+give_num : 1
+free_pet : 1
+sell_start : 0
+sell_end : 24
+icon : 6286
+show_start : 0
+show_end : 24
+
+[030]
+name : 修为丹
+card_num : 70
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[031]
+name : 超级天书
+card_num : 90
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[032]
+name : 元宠
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[033]
+name : 百三
+card_num : 70
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[034]
+name : 百四
+card_num : 80
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[035]
+name : 百五
+card_num : 90
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[036]
+name : 百六
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[037]
+name : 杂货
+card_num : 25
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[038]
+name : 饰五
+card_num : 1200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[039]
+name : 金书
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[040]
+name : 图石
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24

@@ -1,0 +1,125 @@
+#FORM2
+
+[task_time]
+start_time : "2012-01-01-00:00:00"
+end_time   : "2012-01-31-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "#R天降好礼活动#n开始了，前一天的#R今日活跃度#n达到#RB-#n以上的玩家可以到#P活动大使#P处领取#R天降好礼奖券#n，活跃度越高，领取的奖券越多。活动时间#RSTART_TIME#n至#REND_TIME#n，大家快到#P活动大使#P处领取#R天降好礼奖券#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[包子]
+name  : 包子
+rate  : 10000
+
+[拨浪鼓]
+name  : 拨浪鼓
+rate  : 10000
+
+[喇叭]
+name  : 喇叭
+rate  : 1000
+
+[特效仙风散]
+name  : 特效仙风散
+rate  : 1000
+
+[特级八卦阴阳令]
+name  : 特级八卦阴阳令
+rate  : 1000
+
+[天换石]
+name  : 天换石
+rate  : 1000
+
+[装备共鸣石]
+name  : 装备共鸣石
+rate  : 1000
+
+[神木鼎]
+name  : 神木鼎
+rate  : 1000
+
+[惊妖铃]
+name  : 惊妖铃
+rate  : 1000
+
+[急急如律令]
+name  : 急急如律令
+rate  : 1000
+
+[引路蜂]
+name  : 引路蜂
+rate  : 1000
+
+[金蝉脱壳]
+name  : 金蝉脱壳
+rate  : 500
+
+[天神护佑]
+name  : 天神护佑
+rate  : 500
+
+[羽化丹]
+name  : 羽化丹
+rate  : 500
+
+[高级驯兽诀]
+name  : 高级驯兽诀
+rate  : 300
+
+[高级血池]
+name  : 高级血池
+rate  : 300
+
+[高级血玲珑]
+name  : 高级血玲珑
+rate  : 300
+
+[超级女娲石]
+name  : 超级女娲石
+rate  : 100
+
+[相性药]
+name  : 相性药
+rate  : 100
+special : 1
+
+[九转仙灵露]
+name  : 九转仙灵露
+rate  : 100
+
+[随机满属性装备]
+name  : 随机满属性装备
+rate  : 100
+special : 1
+
+[高级灵池]
+name  : 高级灵池
+rate  : 40
+
+[高级法玲珑]
+name  : 高级法玲珑
+rate  : 40
+
+[道具套餐卡]
+name  : 道具套餐卡
+rate  : 30
+
+[高级道具套餐卡]
+name  : 高级道具套餐卡
+rate  : 10
+
+[改头换面卡]
+name  : 改头换面卡
+rate  : 10
+
+[龙腾盛世礼花]
+name  : 龙腾盛世礼花
+rate  : 10

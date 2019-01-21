@@ -1,0 +1,101 @@
+#FORM2
+
+[ÁéÑı]
+name             : ÁéÑı
+icon             : 06049
+level            : 100
+portrait         : 06049
+polar            : -1
+religion         : -1
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 20
+resist_fire      : 20
+resist_earth     : 20
+life_effect      : 1500
+phy_effect       : 200
+mag_effect       : 200
+speed_effect     : 0
+tao_effect       : 100
+resist_forgotten : 70
+resist_poison    : 70
+resist_frozen    : 70
+resist_sleep     : 70
+resist_confusion : 70
+resist_repress   : 70
+resist_melt      : 70
+resist_cage      : 70
+resist_lock      : 70
+resist_lost      : 70
+phy_absorb       : -50
+comrade          : ({"ÁéÑı", 0})
+skills           : ({ "B4", "B5" })
+sf_die            : "sf_die_lingyao"
+monster_tactics  : "tactics_lingyao"
+
+[ÁéÑıÍõ]
+name             : ÁéÑıÍõ
+icon             : 06258
+level            : 100
+polar            : 2
+religion         : -1
+portrait         : 06258
+resist_metal     : 20
+resist_wood      : 100
+resist_water     : 20
+resist_fire      : 20
+resist_earth     : 20
+life_effect      : 5000
+phy_effect       : 250
+mag_effect       : 250
+speed_effect     : 500
+tao_effect       : 200
+resist_forgotten : 90
+resist_poison    : 90
+resist_frozen    : 90
+resist_sleep     : 90
+resist_confusion : 90
+resist_repress   : 90
+resist_melt      : 90
+resist_cage      : 90
+resist_lock      : 90
+resist_lost      : 90
+phy_absorb       : -20
+mag_absorb       : -20
+comrade          : ({"ÁéÑı", 9})
+skills           : ({ "B5", "C5" })
+monster_tactics  : "tactics_lingyaowang"
+
+# µÚÈı³¡Õ½¶·ÖĞµÄÁéÑıĞèÌØÊâÅäÖÃ
+[ÁéÑı3]
+name             : ÁéÑı
+icon             : 06049
+level            : 100
+portrait         : 06049
+polar            : -1
+religion         : -1
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 20
+resist_fire      : 20
+resist_earth     : 20
+life_effect      : 2000
+phy_effect       : 300
+mag_effect       : 200
+speed_effect     : -20
+tao_effect       : 100
+resist_forgotten : 90
+resist_poison    : 90
+resist_frozen    : 90
+resist_sleep     : 90
+resist_confusion : 90
+resist_repress   : 90
+resist_melt      : 90
+resist_cage      : 90
+resist_lock      : 90
+resist_lost      : 90
+phy_absorb       : -50
+comrade          : ({"ÁéÑı3", 0})
+skills           : ({ "B4", "B5" })
+sf_die            : "sf_die_lingyao"
+monster_tactics  : "tactics_lingyao"

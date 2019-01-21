@@ -1,0 +1,54 @@
+#FORM2
+#huancho.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+奖励 : 1000
+
+[奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "百年黑熊", "血幻豪猪", "北冥幼狮", "玄天刺猬"})
+
+[百年黑熊]
+name$: ({ 百年黑熊, 百年黑熊 })
+rank$: 宝宝
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+
+[血幻豪猪]
+name$: ({ 血幻豪猪, 血幻豪猪 })
+rank$: 宝宝
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+
+[北冥幼狮]
+name$: ({ 北冥幼狮, 北冥幼狮 })
+rank$: 宝宝
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+
+[玄天刺猬]
+name$: ({ 玄天刺猬, 玄天刺猬 })
+rank$: 宝宝
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })

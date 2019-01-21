@@ -1,0 +1,27 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-12-19-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_start_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-7200)"
+interval        : 1800
+broadcast_end   : "start_time(-1600)"
+message         : "一年一度的蟠桃盛会就要开始了，王母娘娘将邀请各门各派本领高强的道友参加，只有在蟠桃园争夺战中获得胜利的道友才能拿到该资格，各位道友可在#RSTART_TIME#n找#P百晓通#P进入蟠桃园内一决高下。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-1200)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "一年一度的蟠桃盛会就要开始了，王母娘娘将邀请各门各派本领高强的道友参加，只有在蟠桃园争夺战中获得胜利的道友才能拿到该资格，各位道友可在#RSTART_TIME#n找#P百晓通#P进入蟠桃园内一决高下。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[level_str]
+7 : "100-119"
+6 : "120-129"
+5 : "130-139"
+4 : "140-155"

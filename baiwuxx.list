@@ -1,0 +1,433 @@
+#FORM2
+#baiwuxx.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+80级武器满属性 : 500
+80级衣服满属性 : 500
+80级头盔满属性 : 500
+80级靴子满属性 : 500
+80级腰带满属性 : 500
+
+[80级腰带满属性]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "腰带","腰带1", "腰带2", "腰带3" , "腰带4" , "腰带5"  , "腰带6" , "腰带7" , "腰带8" , "腰带9" })
+
+
+[腰带]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/base_dodge",190,"color", 蓝色})
+#闪避
+
+[腰带1]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_attrib",29,"color", 蓝色})
+#所有属性16
+
+[腰带2]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/def",3200,"color", 蓝色})
+#防御
+
+[腰带3]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/max_life",9000,"color", 蓝色})
+#气血
+
+[腰带4]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_resist_except",15,"color", 蓝色})
+#抗异常
+
+[腰带5]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_resist_polar",15,"color", 蓝色})
+#抗所有抗性
+
+
+[腰带6]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/str",36,"color", 蓝色})
+
+[腰带7]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/con",36,"color", 蓝色})
+
+[腰带8]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/wiz",36,"color", 蓝色})
+
+[腰带9]
+name      : 九吞八乍带
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/dex",36,"color", 蓝色})
+
+[80级靴子满属性]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "靴子1", "靴子2", "靴子3" , "靴子6" , "靴子7" , "靴子8" , "靴子9" })
+
+
+[靴子1]
+name      : 煞影履 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_attrib",29,"color", 蓝色})
+#所有属性16
+
+[靴子2]
+name      : 煞影履 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/def",1600,"color", 蓝色})
+#防御
+
+[靴子3]
+name      : 煞影履 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/speed",190,"color", 蓝色})
+#速度
+
+
+[靴子6]
+name      : 煞影履 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/str",36,"color", 蓝色})
+
+[靴子7]
+name      : 煞影履 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/con",36,"color", 蓝色})
+
+[靴子8]
+name      : 煞影履 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/wiz",36,"color", 蓝色})
+
+[靴子9]
+name      : 煞影履 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/dex",36,"color", 蓝色})
+
+[80级头盔满属性]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "头盔1", "头盔2", "头盔3"  , "头盔6" , "头盔7" , "头盔8" , "头盔9" })
+
+
+[头盔1]
+name      : 金翼龙冠 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_attrib",29,"color", 蓝色})
+#所有属性16
+
+[头盔2]
+name      : 金翼龙冠 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/def",1600,"color", 蓝色})
+#防御
+
+[头盔3]
+name      : 金翼龙冠 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/max_life",5000,"color", 蓝色})
+#气血
+
+
+[头盔6]
+name      : 金翼龙冠 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/str",36,"color", 蓝色})
+
+[头盔7]
+name      : 金翼龙冠 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/con",36,"color", 蓝色})
+
+[头盔8]
+name      : 金翼龙冠 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/wiz",36,"color", 蓝色})
+
+[头盔9]
+name      : 金翼龙冠 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/dex",36,"color", 蓝色})
+
+[80级衣服满属性]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "衣服1", "衣服2", "衣服3" , "衣服4" , "衣服5"  , "衣服6" , "衣服7" , "衣服8" , "衣服9" })
+
+[衣服1]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_attrib",29,"color", 蓝色})
+#所有属性16
+
+[衣服2]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/def",3200,"color", 蓝色})
+#防御
+
+[衣服3]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/max_life",9000,"color", 蓝色})
+#气血
+
+[衣服4]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_resist_except",15,"color", 蓝色})
+#抗异常
+
+[衣服5]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_resist_polar",15,"color", 蓝色})
+#抗所有抗性
+
+
+[衣服6]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/str",36,"color", 蓝色})
+
+[衣服7]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/con",36,"color", 蓝色})
+
+[衣服8]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/wiz",36,"color", 蓝色})
+
+[衣服9]
+name      : 紫金神风甲 
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/dex",36,"color", 蓝色})
+
+[80级武器满属性]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "武器1", "武器2", "武器3" , "武器3" , "武器4" , "武器5" , "武器6" , "武器7" , "武器8" , "武器9" , "武器10" , "武器11" , "武器12" , "武器13" , "武器14" , "武器15" , "武器16" , "武器17" , "武器18" , "武器19" , "武器20" , "武器21" , "武器22" , "武器23", "武器24", "武器25" })
+
+[武器1]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_polar",5,"color", 蓝色})
+#所有相5
+
+
+[武器2]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/metal",5,"color", 蓝色})
+#金5
+
+
+[武器3]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/wood",5,"color", 蓝色})
+#木五
+
+
+[武器4]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/water",5,"color", 蓝色})
+#水5
+
+
+[武器5]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/fire",5,"color", 蓝色})
+#火5
+
+[武器6]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/earth",5,"color", 蓝色})
+#土5
+
+
+[武器7]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/phy_power", 4800, "prop/mag_power", 4800,"color", 蓝色})
+#伤害
+
+[武器8]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/stunt_rate",30,"color", 蓝色})
+#必杀
+
+
+[武器9]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/double_hit_rate",30,"color", 蓝色})
+#连击
+
+[武器10]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/all_skill",10,"color", 蓝色})
+#技能
+
+[武器11]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_all_resist_polar",20,"color", 蓝色})
+#忽视所有抗性
+
+[武器12]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_all_resist_except",20,"color", 蓝色})
+#忽视所有异常
+
+[武器13]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_forgotten",30,"color", 蓝色})
+#忽视抗遗忘
+
+[武器14]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_poison",30,"color", 蓝色})
+#忽视抗中毒
+
+[武器15]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_frozen",30,"color", 蓝色})
+#忽视抗冰冻
+
+[武器16]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_sleep",30,"color", 蓝色})
+#忽视抗昏睡
+
+[武器17]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_confusion",30,"color", 蓝色})
+忽视抗混乱
+
+[武器18]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_repress",30,"color", 蓝色})
+#忽视抗镇魂
+
+[武器19]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_melt",30,"color", 蓝色})
+#忽视抗化功
+
+[武器20]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_lock",30,"color", 蓝色})
+#忽视抗锁灵
+
+[武器21]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/ignore_resist_lost",30,"color", 蓝色})
+#忽视抗迷心
+
+[武器22]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/str",36,"color", 蓝色})
+#力量
+
+[武器23]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/dex",36,"color", 蓝色})
+#敏捷
+
+[武器24]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/wiz",36,"color", 蓝色})
+#灵力
+
+[武器25]
+name      : 赤封侠胆戟
+min_level : 150
+max_level : 150
+attribs      : ({ "prop/con",36,"color", 蓝色})
+#体质
+

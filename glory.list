@@ -1,0 +1,526 @@
+#FORM2
+
+#glory.list
+#Created by wuhx Jan/12/2010
+#系统获取荣誉值配置表
+
+# glory 为每次能获得的荣誉值
+# limit 为每天(或其他单位)能获得的荣誉值，-1指没有限制，-2指关闭产出
+# id 是唯一标识，不能重复
+# 不要删除下面的项，只要设limit为-2即可
+
+[妖魔道-勇擒鱼怪]
+glory : 100
+limit : -2
+action : "yaomd_yongqyg"
+id : "1"
+
+[妖魔道-真假神兽]
+glory : 100
+limit : -2
+action : "yaomd_zhenjss"
+id : "2"
+
+[妖魔道-试炼之道]
+glory : 100
+limit : -2
+action : "yaomd_shilzd"
+id : "3"
+
+[妖魔道-力擒恶匪]
+glory : 100
+limit : -2
+action : "yaomd_liqef"
+id : "4"
+
+[妖魔道-探寻真相]
+glory : 100
+limit : -2
+action : "yaomd_tanxzx"
+id : "5"
+
+[妖魔道-妖魔当道]
+glory : 100
+limit : -2
+action : "yaomd_yaomdd"
+id : "6"
+
+[妖魔道-除魔卫道]
+glory : 100
+limit : -2
+action : "yaomd_chumwd"
+id : "7"
+
+[仙魔录-初现疑云]
+glory : 100
+limit : -2
+action : "xianml_chuxyy"
+id : "8"
+
+[仙魔录-迷局难解]
+glory : 100
+limit : -2
+action : "xianml_mijnj"
+id : "9"
+
+[仙魔录-初知真情]
+glory : 100
+limit : -2
+action : "xianml_chuzzq"
+id : "10"
+
+[仙魔录-猪精伏诛]
+glory : 100
+limit : -2
+action : "xianml_zhujfz"
+id : "11"
+
+[仙魔录-真假难辨]
+glory : 100
+limit : -2
+action : "xianml_zhenjnb"
+id : "12"
+
+[仙魔录-获知详情]
+glory : 100
+limit : -2
+action : "xianml_huozxq"
+id : "13"
+
+[仙魔录-封印得解]
+glory : 100
+limit : -2
+action : "xianml_fengydj"
+id : "14"
+
+[仙魔录-重镇心魔]
+glory : 100
+limit : -2
+action : "xianml_chongzxm"
+id : "15"
+
+[仙魔录-混迹魔军]
+glory : 100
+limit : -2
+action : "xianml_hunjmj"
+id : "16"
+
+[仙魔录-大祸得消]
+glory : 100
+limit : -2
+action : "xianml_dahdx"
+id : "17"
+
+[伏魔记-突然事起]
+glory : 100
+limit : -2
+action : "fumj_tursq"
+id : "18"
+
+[伏魔记-再起风云]
+glory : 100
+limit : -2
+action : "fumj_zaiqfy"
+id : "19"
+
+[伏魔记-误入圈套]
+glory : 100
+limit : -2
+action : "fumj_wurqt"
+id : "20"
+
+[伏魔记-幡然悔悟]
+glory : 100
+limit : -2
+action : "fumj_fanrhw"
+id : "21"
+
+[伏魔记-解救仙山]
+glory : 100
+limit : -2
+action : "fumj_jiejxs"
+id : "22"
+
+[金系拜师任务]
+glory : 100
+limit : -2
+action : "jinxbs"
+id : "23"
+
+[木系拜师任务]
+glory : 100
+limit : -2
+action : "muxbs"
+id : "24"
+
+[水系拜师任务]
+glory : 100
+limit : -2
+action : "shuixbs"
+id : "25"
+
+[火系拜师任务]
+glory : 100
+limit : -2
+action : "huoxbs"
+id : "26"
+
+[土系拜师任务]
+glory : 100
+limit : -2
+action : "tuxbs"
+id : "27"
+
+[飞升－引路人]
+glory : 100
+limit : -2
+action : "feis_yinlr"
+id : "28"
+
+[飞升－仙道难]
+glory : 100
+limit : -2
+action : "feis_xiandn"
+id : "29"
+
+[宠物飞升任务]
+glory : 100
+limit : -2
+action : "chongwfs"
+id : "30"
+
+[矫燥劫]
+glory : 100
+limit : -2
+action : "dij_jiaozj"
+id : "31"
+
+[欺诈劫]
+glory : 100
+limit : -2
+action : "dij_qizj"
+id : "32"
+
+[贪念劫]
+glory : 100
+limit : -2
+action : "dij_tannj"
+id : "33"
+
+[名利劫]
+glory : 100
+limit : -2
+action : "dij_minglj"
+id : "34"
+
+[私欲劫]
+glory : 100
+limit : -2
+action : "dij_liyj"
+id : "35"
+
+[上仁无为]
+glory : 100
+limit : -2
+action : "dij_shangrww"
+id : "36"
+
+[轻诺寡信]
+glory : 100
+limit : -2
+action : "dij_qingngx"
+id : "37"
+
+[慈以至勇]
+glory : 100
+limit : -2
+action : "dij_ciyzy"
+id : "38"
+
+[以哀泣亡]
+glory : 100
+limit : -2
+action : "dij_yiaqw"
+id : "39"
+
+[静笃虚极]
+glory : 100
+limit : -2
+action : "dij_jingdxj"
+id : "40"
+
+[tianjie1]
+glory : 100
+limit : -2
+action : "tianj1"
+id : "41"
+
+[tianjie2]
+glory : 100
+limit : -2
+action : "tianj2"
+id : "42"
+
+[tianjie3]
+glory : 100
+limit : -2
+action : "tianj3"
+id : "43"
+
+[tianjie4]
+glory : 100
+limit : -2
+action : "tianj4"
+id : "44"
+
+[tianjie5]
+glory : 100
+limit : -2
+action : "tianj5"
+id : "45"
+
+[tianjie6]
+glory : 100
+limit : -2
+action : "tianj6"
+id : "46"
+
+[tianjie7]
+glory : 100
+limit : -2
+action : "tianj7"
+id : "47"
+
+[tianjie8]
+glory : 100
+limit : -2
+action : "tianj8"
+id : "48"
+
+[tianjie9]
+glory : 100
+limit : -2
+action : "tianj9"
+id : "49"
+
+[tianjie10]
+glory : 100
+limit : -2
+action : "tianj10"
+id : "50"
+
+[修法炼宝]
+glory : 100
+limit : -2
+action : "xiuflb"
+id : "51"
+
+[师门任务]
+glory : 10
+limit : 200
+action : "shim"
+id : "52"
+
+[门派试炼]
+glory : 10
+limit : 200
+action : "menpsl"
+id : "53"
+
+[帮派任务]
+glory : 10
+limit : 200
+action : "bangprw"
+id : "54"
+
+[天降大任]
+glory : 10
+limit : 200
+action : "tianjdr"
+id : "55"
+
+[为民除暴]
+glory : 10
+limit : 200
+action : "weimcb"
+id : "56"
+
+[降妖任务]
+glory : 10
+limit : 300
+action : "xiangy"
+id : "57"
+
+[伏魔任务]
+glory : 10
+limit : 300
+action : "fum"
+id : "58"
+
+[仙界通缉]
+glory : 10
+limit : 300
+action : "xianjtj"
+id : "59"
+
+[修法任务]
+glory : 10
+limit : 300
+action : "xiuf"
+id : "60"
+
+[藏宝图任务]
+glory : 30
+limit : 150
+action : "xunbrw"
+id : "61"
+
+[每天完成一次系统-副本任务]
+glory : 150
+limit : -1
+action : "fub"
+id : "62"
+
+[每天完成一次系统-日领取任务]
+glory : 10
+limit : -1
+action : "rilq"
+id : "63"
+
+[每天完成一次系统-日常任务]
+glory : 100
+limit : -1
+action : "zhurwl"
+id : "64"
+
+[每天完成一次系统-通天塔]
+glory : 100
+limit : -1
+action : "tongtt"
+id : "65"
+
+[每天完成一次系统-八仙梦境]
+glory : 100
+limit : -1
+action : "baxmj"
+id : "66"
+
+[每天完成一次系统-修行系统]
+glory : 20
+limit : -1
+action : "xiux"
+id : "67"
+
+[每天完成一次系统-十绝阵]
+glory : 20
+limit : -1
+action : "shijz"
+id : "68"
+
+[每天完成一次系统-寻仙系统]
+glory : 20
+limit : -1
+action : "xunx"
+id : "69"
+
+[每天完成一次系统-同甘共苦]
+glory : 50
+limit : -1
+action : "tongggk"
+id : "70"
+
+[每周完成一次系统-化妆舞会]
+glory : 10
+limit : 500
+action : "huazwh"
+id : "71"
+
+[每周完成一次系统-虎狼争霸]
+glory : 10
+limit : 500
+action : "hulzb"
+id : "72"
+
+[每周完成一次系统-押镖活动]
+glory : 10
+limit : 500
+action : "biaoxwl"
+id : "73"
+
+[每周完成一次系统-勇闯万妖窟]
+glory : 10
+limit : 500
+action : "yongcwyk"
+id : "74"
+
+[每周完成一次系统-萝卜桃子大收集]
+glory : 8
+limit : 500
+action : "luobtzdsj"
+id : "75"
+
+[竞技系统-帮战]
+glory : 60
+limit : -1
+action : "bangz"
+id : "76"
+
+[竞技系统-帮派守卫]
+glory : 40
+limit : -1
+action : "bangpsw"
+id : "77"
+
+[竞技系统-帮派之旱魃入侵]
+glory : 50
+limit : -1
+action : "hanbrq"
+id : "78"
+
+[竞技系统-试道大会]
+glory : 300
+limit : 300
+action : "shiddh"
+id : "79"
+
+[竞技系统-门派比武大会]
+glory : 300
+limit : 300
+action : "menpbwdh"
+id : "80"
+
+[竞技系统-比武系统]
+glory : 20
+limit : 500
+action : "biwdh"
+id : "81"
+
+[其他系统-八阵图]
+glory : 50
+limit : -1
+action : "bazt"
+id : "82"
+
+[其他系统-海盗入侵]
+glory : 10
+limit : -1
+action : "haidrq"
+id : "83"
+
+[帮派攻城战]
+glory  : 60
+limit  : -1
+action : "bangpgcz"
+id     : "84"
+
+[帮派日常挑战]
+glory  : 100
+limit  : 200
+action : "bangprctz"
+id     : "85"
+
+[悬赏令]
+glory  : 50
+limit  : 100
+action : "xuansl"
+id     : "86"

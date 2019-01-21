@@ -1,0 +1,14 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2014-01-13-00:00:00", "EVERY_DAY(7)", 0 })
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 7800
+broadcast_end   : "end_time(-1)"
+message         : "大新闻！由于天墉城近日来了一些外地游客，#P活动大使#P从外地游客处学习会了#R凝练法术#n的新窍门，赶快去向#P活动大使#P了解方法吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

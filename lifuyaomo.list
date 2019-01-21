@@ -1,0 +1,61 @@
+#FORM2
+
+# lifuyaomo.list
+# created by huangwen 2009/06/06
+# lifuyaomo任务的怪物培植表
+# 该配置表必须保证friend_score,level按照从1-->xxx的顺序增加,否则的话,将出现异常情况
+
+[1]
+level        : -1
+friend_score : -1
+monster_name : 羊头怪
+rate         : 300
+
+[2]
+level : -1
+friend_score : -1
+monster_name : 牛头怪
+rate : 250
+
+[3]
+level : -1
+friend_score : 6000
+monster_name : 百年黑熊精
+rate : 150
+
+
+[4]
+level : 50
+friend_score : 7000
+monster_name : 百年狂狮怪
+rate : 120
+
+[5]
+level : 60
+friend_score : 8000
+monster_name : 百年刺猬精
+rate : 80
+
+[6]
+level : 70
+friend_score : 10000
+monster_name : 百年猪妖
+rate : 50
+
+[7]
+level : 80
+friend_score : 12000
+monster_name : 百年象精
+rate : 25
+
+[8]
+level : 90
+friend_score : 25000
+monster_name : 百花羞
+rate : 15
+
+[9]
+level : 100
+friend_score : 50000
+monster_name : 牛魔王
+rate : 10

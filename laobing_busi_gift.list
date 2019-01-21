@@ -1,0 +1,290 @@
+#FORM2
+
+[task_score]
+list : ({ "xiangy", "tianjdr", "bazt", "xiux", "fum", "shijz", "xianjtj", "tongtt", "baxmj", "fub", "xuansBOSS", "zhurwl", "xianrzl", "feixdx", "siszj" })
+
+[xiangy]
+task  : 降妖
+point : 5
+title : "1轮除妖任务"
+
+[tianjdr]
+task  : 天降大任
+point : 5
+title : "1轮天降大任任务"
+
+[bazt]
+task  : 八阵图
+point : 5
+title : "1轮八阵图任务"
+
+[xiux]
+task  : 修行
+point : 6
+title : "1轮修行任务"
+
+[fum]
+task  : 伏魔
+point : 8
+title : "1轮伏魔任务"
+
+[shijz]
+task  : 十绝阵
+point : 10
+title : "1轮十绝阵任务"
+
+[xianjtj]
+task  : 仙界通缉
+point : 10
+title : "1轮仙界通缉任务"
+
+[tongtt]
+task  : 通天塔
+point : 5
+title : "通天塔的修炼挑战阶段"
+
+[baxmj]
+task  : 八仙梦境
+point : 4
+title : "八仙梦境任务"
+
+[fub]
+task  : 副本
+point : 5
+title : "副本任务"
+
+[xuansBOSS]
+task  : 悬赏BOSS
+point : 3
+title : "1次悬赏BOSS任务"
+
+[zhurwl]
+task  : 日常任务（白邦芒）
+point : 3
+title : "1次日常任务"
+
+[xianrzl]
+task  : 仙人指路
+point : 5
+title : "1轮仙人指路任务"
+
+[feixdx]
+task  : 飞仙渡邪
+point : 10
+title : "1轮飞仙渡邪任务"
+
+[siszj]
+task  : 四圣真君
+point : 10
+title : "1轮四圣真君任务"
+
+[task_glory]
+xiangy    : 10
+xiux      : 10
+fum       : 15
+xianjtj   : 20
+fub       : 100
+shijz     : 20
+tongtt    : 50
+tianjdr   : 30
+bazt      : 20
+zhurwl    : 50
+xuansBOSS : 30
+xianrzl   : 10
+feixdx    : 10
+siszj     : 10
+
+[bonus_list]
+bonus_list : ({ 九曲玲珑笔, 特效仙风散, 超级仙风散, 宠风散, 中级血池, 中级灵池, 驯兽诀, 果仁糖葫芦, 纸鸢, 超级仙风散, 天神护佑, 金蝉脱壳, 神木鼎, 超级八卦阴阳令, 特级八卦阴阳令, 仙灵卡, 喇叭, 火眼金睛, "pets" })
+
+[九曲玲珑笔]
+name : 九曲玲珑笔
+rate : "1000 * (61 - times * 2)"
+
+[特效仙风散]
+name : 特效仙风散
+rate : "1000 * (61 - times * 2)"
+
+[超级仙风散]
+name : 超级仙风散
+rate : "1000 * (185 - times * 4)"
+
+[宠风散]
+name : 宠风散
+rate : "1000 * (93 - times * 3)"
+
+[中级血池]
+name : 中级血池
+rate : 48000
+
+[中级灵池]
+name : 中级灵池
+rate : 14000
+
+[驯兽诀]
+name : 驯兽诀
+rate : "1000 * (185 + times * 4)"
+
+[果仁糖葫芦]
+name : 果仁糖葫芦
+rate : "1000 * (93 + times * 3)"
+
+[纸鸢]
+name : 纸鸢
+rate : "1000 * (93 + times * 3)"
+
+[强力驱魔香]
+name : 强力驱魔香
+rate : "1000 * (185 + times * 4)"
+
+[天神护佑]
+name : 天神护佑
+rate : "1000 * (39 + times * 1)"
+
+[金蝉脱壳]
+name : 金蝉脱壳
+rate : "1000 * (39 + times * 1)"
+
+[神木鼎]
+name : 神木鼎
+rate : "1000 * (61 - times * 2)"
+
+[超级八卦阴阳令]
+name : 超级八卦阴阳令
+rate : "1000 * (183 - times * 4)"
+
+[特级八卦阴阳令]
+name : 特级八卦阴阳令
+rate : "1000 * (61 - times * 2)"
+
+[仙灵卡]
+name : 仙灵卡
+rate : "1000 * (93 + times * 3)"
+
+[喇叭]
+name : 喇叭
+rate : "1000 * (61 + times * 2)"
+
+[火眼金睛]
+name : 火眼金睛
+rate : "1000 * (93 - times * 3)"
+
+[pets]
+bonus_list    : ({ 句芒, 玄冥 })
+type          : "pet"
+rate          : 10
+spe_skill_num : 0
+max_num       : 1
+limit_id      : 1
+rank          : 神兽
+
+[carvinal_bonus_list]
+bonus_list : ({ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27" })
+
+[1]
+name : 九曲玲珑笔
+rate : 300
+
+[2]
+name : 特效仙风散
+rate : 300
+
+[3]
+name : 超级仙风散
+rate : 1000
+
+[4]
+name : 宠风散
+rate : 300
+
+[5]
+name : 中级血池
+rate : 100
+
+[6]
+name : 中级灵池
+rate : 50
+
+[7]
+name : 驯兽诀
+rate : 500
+
+[8]
+name : 超级黑水晶
+rate : 100
+
+[9]
+name : 聚灵石
+rate : 100
+
+[10]
+name : 爱心铭牌
+rate : 100
+
+[11]
+name : 卷轴铭牌
+rate : 100
+
+[12]
+name : 彩云铭牌
+rate : 100
+
+[13]
+name : 八卦铭牌
+rate : 100
+
+[14]
+name : 火焰铭牌
+rate : 100
+
+[15]
+name : 天神护佑
+rate : 100
+
+[16]
+name : 金蝉脱壳
+rate : 100
+
+[17]
+name : 神木鼎
+rate : 300
+
+[18]
+name : 超级八卦阴阳令
+rate : 200
+
+[19]
+name : 特级八卦阴阳令
+rate : 200
+
+[20]
+name : 宠物顿悟丹
+rate : 200
+
+[21]
+name : 宠物成长丹
+rate : 100
+
+[22]
+name : 火眼金睛
+rate : 500
+
+[23]
+name : 超级绿水晶
+rate : 10
+
+[24]
+name : 封印石
+rate : 300
+
+[25]
+name : 超值家具礼包·幽雅小居
+rate : 5
+
+[26]
+name : 天空石
+rate : 10
+
+[27]
+name : 宠物顿悟丹
+rate : 200

@@ -1,0 +1,1086 @@
+#FORM2
+
+# zhuren_weile.list
+# created by kesy JAN/13/2009
+# 日领取任务（又名助人为乐）物品奖励配置表
+# level_limit表示该等级以上的玩家不可抽取该项奖励，当值为300时表示该项奖励对等级不做要求
+# 现在只支持标签为8位的。如 ZRWLB001
+# 现在只支持以ZRWLB或ZRWLM开头的标签,以ZRWLB开头的是奖励信息，而ZRWLM开头的是怪物信息
+
+# 怪物字段assistant_monster为一个array，偶数位下标为怪物名称，奇数位下标为该怪物的数目，
+# -1表示小怪数目为玩家队伍人数减主怪数(主怪数其实就是1，主怪数一定是1，如果策划要求主怪数目大于1，则将剩余怪当成小怪)
+# -2表示小怪数目为玩家队伍人数的两倍减主怪数
+
+# 怪物字段skills为一个array，偶数位下标是技能，奇数位为技能等级，-1代表技能等级为怪物等级的1.6倍
+# special_skills为天生技能
+
+# 怪物字段polar表示怪物相性,-1表示怪物相性随机
+
+[ZRWLB001]
+rate : 10000
+level_limit : 60
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "血池#赠品", 1, 1 })
+
+[ZRWLB002]
+rate : 10000
+level_limit : 60
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "灵池#赠品", 1, 1 })
+
+[ZRWLB003]
+rate : 10000
+level_limit : 80
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "血玲珑#赠品", 1, 1 })
+
+[ZRWLB004]
+rate : 10000
+level_limit : 80
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "法玲珑#赠品", 1, 1 })
+
+[ZRWLB005]
+rate : 5000
+level_limit : 100
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "惊妖铃#赠品", 1, 1 })
+
+[ZRWLB006]
+rate : 5000
+level_limit : 100
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+
+[ZRWLB007]
+rate : 2000
+level_limit : 300
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "超级黑水晶#赠品", 1, 1 })
+
+[ZRWLB008]
+rate : 1000
+level_limit : 300
+rumor_channel : 1
+system_channel : 0
+bonus$  : ({ 0, 0, 100, "超级绿水晶#赠品", 1, 1 })
+
+[ZRWLB009]
+rate : 166
+level_limit : 300
+rumor_channel : 0
+system_channel : 1
+bonus$  : ({ 0, 0, 100, "超级女娲石", 1, 1 })
+
+[ZRWLB010]
+rate : 10
+level_limit : 300
+rumor_channel : 0
+system_channel : 1
+bonus$  : ({ 0, 0, 100, "法文手轮", 1, 1 })
+
+#[ZRWLB011]
+#rate : 1
+#level_limit : 300
+#rumor_channel : 0
+#system_channel : 1
+#bonus$  : ({ 0, 0, 100, "灵引咒", 1, 1 })
+
+[ZRWLM001]
+#polar                 : -1
+life_effect           : 1500
+phy_effect            : "20 + (LV / 70)*20"
+phy_absorb            : 100
+all_resist_except     : 30
+double_hit_rate       : 30
+double_hit            : 3
+skills                : ({  })
+name                  : 醉酒暴徒
+icon                  : 6201
+portrait              : 6201
+assistant_monster     : ({ 醉酒暴徒, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "dabao_buping"
+
+[ZRWLM002]
+name                  : 冤魂
+icon                  : 6140
+portrait              : 6140
+polar                 : -1
+religion              : -1
+life_effect           : "1000 + (LV / 100) * 200 + (LV / 130) * 300"
+mag_effect            : "20 + (LV / 70) * 10 + (LV / 100) * 10"
+phy_effect            : 20
+mag_absorb            : 100
+all_resist_except     : 30
+assistant_monster     : ({ 冤魂, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect", "mag_effect" })
+monster_tactics       : "saochu_yaomo_yuanhun_tactics"
+flag                  : "saochu_yaomo"
+
+[ZRWLM003]
+name                  : 窃贼
+icon                  : 6201
+portrait              : 6201
+life_effect           : 50
+phy_effect            : 50
+phy_absorb            : 50
+speed_effect          : 5000
+special_skills        : ({ "神龙罩", 180, "如意圈", 180 })
+monster_tactics       : "chuandi_xinyi_qiezei_tactics"
+flag                  : "chuandi_xinyi"
+
+[ZRWLM004]
+name                  : 无名剑客
+icon                  : 6231
+portrait              : 6231
+life_effect           : "1500 + (LV / 70) * 500 + (LV / 130) * 500"
+phy_effect            : "20 + (LV / 70) * 20"
+all_resist_except     : 30
+double_hit            : 3
+double_hit_rate       : 30
+assistant_monster     : ({ 剑客分身, -1 })
+modify_attrib         : ({ "life_effect", "phy_effect" })
+monster_tactics       : "dabao_buping_jianke_tactics"
+flag                  : "dabao_buping"
+
+[ZRWLM005]
+name                  : 剑客分身
+icon                  : 6231
+portrait              : 6231
+life_effect           : "1500 + (LV / 70) * 500 + (LV / 130) * 500"
+phy_effect            : 20
+all_resist_except     : 30
+double_hit            : 2
+double_hit_rate       : 30
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jianke_fenshen_tactics"
+flag                  : "dabao_buping"
+
+[ZRWLM006]
+name                  : 百变飞贼
+icon                  : 6213
+portrait              : 6213
+polar                 : -1
+religion              : -1
+life_effect           : 1000
+mag_effect            : "20 + (LV / 70) * 7 + (LV / 100) * 15 + (LV / 120) * 30 + (LV / 130) * 20"
+phy_effect            : 20
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "mag_effect" })
+monster_tactics         : "fuwei_jiukun_feizei_tactics"
+flag                    : "fuwei_jiukun"
+
+[ZRWLM007]
+name                  : 劫匪
+icon                  : 6202
+portrait              : 6202
+polar                 : -1
+religion              : -1
+life_effect           : 2000
+mag_effect            : "20 + (LV / 70) * 7 + (LV / 100) * 15 + (LV / 120) * 30 + (LV / 130) * 20"
+phy_effect            : 20
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "mag_effect" })
+monster_tactics       : "fuwei_jiukun_jiefei_tactics"
+flag                  : "fuwei_jiukun"
+
+[ZRWLM008]
+name                  : 愤怒的冤魂
+icon                  : 6140
+portrait              : 6140
+polar                 : -1
+religion              : -1
+life_effect           : "1500 + (LV / 100) * 500 + (LV / 130) * 500"
+mag_effect            : "20 + (LV / 70) * 10 + (LV / 100) * 10"
+phy_effect            : 20
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect", "mag_effect" })
+monster_tactics       : "fennu_yuanhun_tactics"
+flag                  : "saochu_yaomo"
+
+[ZRWLM009]
+name                  : 炼狱魔
+icon                  : 31052
+portrait              : 31052
+polar                 : -1
+religion              : -1
+life_effect           : 1500
+mag_effect            : 60
+phy_effect            : 20
+mag_absorb            : 100
+all_resist_except     : 30
+assistant_monster     : ({ 炼狱魔, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "saochu_yaomo_yuanhun_tactics"
+flag                  : "huangquan-mengjiang"
+
+[ZRWLM010]
+name                  : 愤怒的炼狱魔
+icon                  : 31052
+portrait              : 31052
+polar                 : -1
+religion              : -1
+life_effect           : 2500
+mag_effect            : 60
+phy_effect            : 20
+all_resist_except     : 30
+assistant_monster     : ({ 愤怒的炼狱魔, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "fennu_yuanhun_tactics"
+flag                  : "huangquan-mengjiang"
+
+[ZRWLM011]
+name                  : 劫匪1
+alias                 : 劫匪
+icon                  : 6201
+portrait              : 6201
+polar                 : -1
+life_effect           : "400 + (LV / 70) * 90 + (LV / 100) * 200 + (LV / 120) * 200 + (LV / 130) * 200"
+mag_effect            : 60
+phy_effect            : 20
+phy_absorb            : 100
+all_resist_except     : 30
+assistant_monster     : ({ 劫匪1, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jiefei1_tactics"
+flag                  : "qingjiao-jiefei"
+
+[ZRWLM012]
+name                  : 劫匪头目
+icon                  : 6202
+portrait              : 6202
+polar                 : -1
+life_effect           : "1000 + (LV / 70) * 150 + (LV / 100) * 250 + (LV / 120) * 300 + (LV / 130) * 500"
+mag_effect            : 60
+phy_effect            : 20
+all_resist_except     : 30
+assistant_monster     : ({ 劫匪2, -1 })
+skills                : ({ "B2", -1, "B3", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jiefei_toumu_tactics"
+flag                  : "qingjiao-jiefei"
+
+[ZRWLM013]
+name                  : 劫匪2
+alias                 : 劫匪
+icon                  : 6201
+portrait              : 6201
+polar                 : 0
+life_effect           : "600 + (LV / 70) * 150 + (LV / 100) * 250 + (LV / 120) * 300 + (LV / 130) * 500"
+phy_effect            : 20
+double_hit_rate       : 30
+double_hit            : 3
+all_resist_except     : 30
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jiefei2_tactics"
+flag                  : "qingjiao-jiefei"
+
+[ZRWLM014]
+name                  : 愤怒的花仙幻象
+icon                  : 6241
+portrait              : 6241
+polar                 : -1
+religion              : -1
+life_effect           : "1500  + (LV / 100) * 500 + (LV / 130) * 500"
+mag_effect            : "20 + (LV / 70) * 10 + (LV / 100) * 10"
+phy_effect            : 20
+all_resist_except     : 30
+assistant_monster     : ({ 小花精, -1 })
+modify_attrib         : ({ "mag_effect", "life_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "qiuyao_common_tactics"
+flag                  : "dairen-qiuyao"
+
+[ZRWLM015]
+name                  : 小花精
+icon                  : 6128
+portrait              : 6128
+polar                 : -1
+religion              : -1
+life_effect           : "1000  + (LV / 100) * 200 + (LV / 130) * 300"
+mag_effect            : "20 + (LV / 70) * 10 + (LV / 100) * 10"
+phy_effect            : 20
+mag_absorb            : 100
+all_resist_except     : 30
+modify_attrib         : ({ "mag_effect", "life_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "qiuyao_common_tactics"
+flag                  : "dairen-qiuyao"
+
+[ZRWLM016]
+name                  : 觊觎丹鼎的妖魔
+icon                  : 6249
+portrait              : 6249
+polar                 : -1
+religion              : -1
+life_effect           : 1000
+mag_effect            : "20 + (LV / 70) * 7 + (LV / 100) * 15 + (LV / 120) * 30 + (LV / 130) * 20"
+phy_effect            : 20
+all_resist_except     : 30
+assistant_monster     : ({ 觊觎丹鼎的妖魔, -1 })
+modify_attrib         : ({ "mag_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "caiji_xianqi_common_tactics"
+flag                  : "caiji-xianqi"
+
+[ZRWLM017]
+name                  : 觊觎丹鼎的妖魔1
+alias                 : 觊觎丹鼎的妖魔
+icon                  : 6244
+portrait              : 6244
+polar                 : -1
+religion              : -1
+life_effect           : 2000
+mag_effect            : "20 + (LV / 70) * 7 + (LV / 100) * 15 + (LV / 120) * 30 + (LV / 130) * 20"
+phy_effect            : 20
+all_resist_except     : 30
+assistant_monster     : ({ 觊觎丹鼎的妖魔1, -1 })
+modify_attrib         : ({ "mag_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "caiji_xianqi_common_tactics"
+flag                  : "caiji-xianqi"
+
+[ZRWLM018]
+name                  : 蒙面小贼
+icon                  : 6213
+portrait              : 6213
+life_effect           : 1500
+phy_effect            : "20 + LV / 70 * 20"
+phy_absorb            : 100
+all_resist_except     : 30
+double_hit_rate       : 30
+double_hit            : 3
+assistant_monster     : ({ 蒙面小贼, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "zhuabu-xiaozei"
+
+[ZRWLM019]
+name                  : 蒙面头目
+icon                  : 6231
+portrait              : 6231
+life_effect           : "1500 + LV / 70 * 500 + LV / 130 * 500"
+phy_effect            : "20 + LV / 70 * 20"
+all_resist_except     : 30
+double_hit_rate       : 30
+double_hit            : 3
+assistant_monster     : ({ 蒙面小贼, -1 })
+modify_attrib         : ({ "life_effect", "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "zhuabu-xiaozei"
+
+[ZRWLM020]
+name                  : 轻舞
+icon                  : 6294
+portrait              : 6294
+polar                 : -1
+religion              : -1
+life_effect           : 1500
+phy_effect            : "20 + LV / 70 * 20 + LV / 100 * 20"
+mag_effect            : "20 + LV / 70 * 10 + LV / 100 * 10"
+mag_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+assistant_monster     : ({ 轻舞的伙伴, -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "qingwu_common_tactics"
+flag                  : "xiufu-zhuchai"
+
+[ZRWLM021]
+name                  : 轻舞的伙伴
+icon                  : 6294
+portrait              : 6294
+polar                 : -1
+religion              : -1
+life_effect           : 1000
+phy_effect            : "20 + LV / 70 * 10"
+mag_effect            : "20 + LV / 70 * 10"
+mag_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "qingwu_common_tactics"
+flag                  : "xiufu-zhuchai"
+
+[ZRWLM022]
+name                  : 火灵
+icon                  : 31031
+portrait              : 31031
+polar                 : -1
+religion              : -1
+life_effect           : "1200 + LV / 70 * 300 + LV / 130 * 500"
+phy_effect            : "20 + LV / 70 * 20"
+all_resist_except     : 30
+stunt_rate            : 50
+skills                : ({ "lipo-qianjun", -1 })
+assistant_monster     : ({ 火灵, -1 })
+modify_attrib         : ({ "phy_effect", "life_effect" })
+monster_tactics       : "huoling_common_tactics"
+flag                  : "xiufu-zhuchai"
+
+[ZRWLM023]
+name                  : 小英招
+icon                  : 31064
+portrait              : 31064
+life_effect           : 1200
+phy_effect            : "20 + LV / 70 * 20"
+phy_absorb            : 100
+all_resist_except     : 30
+double_hit_rate       : 30
+double_hit            : 3
+assistant_monster     : ({ 英招分身, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM024]
+name                  : 英招分身
+icon                  : 31064
+portrait              : 31064
+life_effect           : 1000
+phy_effect            : "20 + LV / 70 * 20"
+phy_absorb            : 100
+all_resist_except     : 30
+double_hit_rate       : 30
+double_hit            : 3
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM025]
+name                  : 小飞廉
+icon                  : 31067
+portrait              : 31067
+polar                 : 5
+religion              : -1
+life_effect           : 1500
+phy_effect            : "20 + LV / 70 * 20 + LV / 100 * 20"
+mag_effect            : "20 + LV / 70 * 10 + LV / 100 * 10"
+mag_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+assistant_monster     : ({ 飞廉分身, -1 })
+monster_tactics       : "feilian_common_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM026]
+name                  : 飞廉分身
+icon                  : 31067
+portrait              : 31067
+polar                 : 5
+religion              : -1
+life_effect           : 1000
+phy_effect            : "20 + LV / 70 * 10"
+mag_effect            : "20 + LV / 70 * 10"
+mag_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "feilian_common_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM027]
+name                  : 蜘蛛精
+icon                  : 6222
+portrait              : 6222
+life_effect           : 2000
+phy_effect            : "20 + LV / 70 * 20"
+phy_absorb            : 100
+all_resist_except     : 30
+double_hit_rate       : 30
+double_hit            : 3
+skills                : ({ "lipo-qianjun", -1 })
+assistant_monster     : ({ 蜘蛛精, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "tactics_zhizhujing"
+sf_damage             : "sf_damage_zhizhujing"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM028]
+name                  : 百宝仙元神
+icon                  : 6294
+portrait              : 6294
+polar                 : 2
+life_effect           : 5000
+mag_effect            : "20 + LV / 70 * 10 + LV / 100 * 10"
+mag_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1, "D3", -1 })
+modify_attrib         : ({ "mag_effect" })
+monster_tactics       : "tactics_baibaoxian"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM029]
+name                  : 蜘蛛精1
+alias                 : 蜘蛛精
+icon                  : 6222
+portrait              : 6222
+polar                 : 2
+life_effect           : 3000
+mag_effect            : "20 + LV / 70 * 10 + LV / 100 * 10"
+mag_absorb            : 50
+phy_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+assistant_monster     : ({ 蜘蛛精分身, 1 })
+modify_attrib         : ({ "mag_effect" })
+monster_tactics       : "tactics_zhizhujing1"
+sf_damage             : "sf_damage_zhizhujing"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM030]
+name                  : 蜘蛛精分身
+icon                  : 6222
+portrait              : 6222
+polar                 : 5
+life_effect           : 1000
+phy_effect            : "20 + LV / 70 * 20 + LV / 100 * 20"
+mag_absorb            : 100
+phy_absorb            : -100
+all_resist_except     : 30
+skills                : ({ "lipo-qianjun", -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "tactics_zhizhujing_fenshen"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM031]
+name                  : 发狂的当康
+icon                  : 31035
+portrait              : 31035
+polar                 : 5
+life_effect           : 1500
+phy_effect            : "20 + LV / 70 * 20 + LV / 100 * 20"
+mag_effect            : "20 + LV / 70 * 10 + LV / 100 * 10"
+mag_absorb            : 100
+all_resist_except     : 30
+sf_die                : 1
+assistant_monster     : ({ 当康分身, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "tactics_dangkang"
+flag                  : "yingjiu-dangkang"
+
+[ZRWLM032]
+name                  : 当康分身
+icon                  : 31035
+portrait              : 31035
+polar                 : 5
+life_effect           : 1000
+phy_effect            : "20 + LV / 70 * 10"
+mag_effect            : "20 + LV / 70 * 10"
+mag_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "tactics_dangkang"
+flag                  : "yingjiu-dangkang"
+
+[ZRWLM033]
+life_effect           : 6000
+phy_effect            : "40 + (LV / 70) * 40"
+phy_absorb            : 100
+all_resist_except     : 60
+double_hit_rate       : 30
+double_hit            : 6
+skills                : ({  })
+name                  : 醉酒暴徒_2
+alias                 : 醉酒暴徒
+icon                  : 6201
+portrait              : 6201
+assistant_monster     : ({ 醉酒暴徒_2, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "dabao_buping"
+
+[ZRWLM034]
+name                  : 无名剑客_2
+alias                 : 无名剑客
+icon                  : 6231
+portrait              : 6231
+life_effect           : "6000 + (LV / 70) * 2000 + (LV / 130) * 2000"
+phy_effect            : "40 + (LV / 70) * 40"
+all_resist_except     : 60
+double_hit            : 6
+double_hit_rate       : 30
+assistant_monster     : ({ 剑客分身_2, -1 })
+modify_attrib         : ({ "life_effect", "phy_effect" })
+monster_tactics       : "dabao_buping_jianke_tactics"
+flag                  : "dabao_buping"
+
+[ZRWLM035]
+name                  : 剑客分身_2
+alias                 : 剑客分身
+icon                  : 6231
+portrait              : 6231
+life_effect           : "6000 + (LV / 70) * 2000 + (LV / 130) * 2000"
+phy_effect            : 40
+all_resist_except     : 60
+double_hit            : 4
+double_hit_rate       : 30
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jianke_fenshen_tactics"
+flag                  : "dabao_buping"
+
+[ZRWLM036]
+name                  : 冤魂_2
+alias                 : 冤魂
+icon                  : 6140
+portrait              : 6140
+polar                 : -1
+religion              : -1
+life_effect           : "4000 + (LV / 100) * 800 + (LV / 130) * 1200"
+mag_effect            : "40 + (LV / 70) * 20 + (LV / 100) * 20"
+phy_effect            : 40
+mag_absorb            : 100
+all_resist_except     : 60
+assistant_monster     : ({ 冤魂_2, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect", "mag_effect" })
+monster_tactics       : "saochu_yaomo_yuanhun_tactics"
+flag                  : "saochu_yaomo"
+
+
+[ZRWLM037]
+name                  : 愤怒的冤魂_2
+alias                 : 愤怒的冤魂
+icon                  : 6140
+portrait              : 6140
+polar                 : -1
+religion              : -1
+life_effect           : "6000 + (LV / 100) * 2000 + (LV / 130) * 2000"
+mag_effect            : "40 + (LV / 70) * 20 + (LV / 100) * 20"
+phy_effect            : 40
+all_resist_except     : 60
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect", "mag_effect" })
+monster_tactics       : "fennu_yuanhun_tactics"
+flag                  : "saochu_yaomo"
+
+[ZRWLM038]
+name                  : 劫匪1_2
+alias                 : 劫匪
+icon                  : 6201
+portrait              : 6201
+polar                 : -1
+life_effect           : "1600 + (LV / 70) * 360 + (LV / 100) * 800 + (LV / 120) * 800 + (LV / 130) * 800"
+mag_effect            : 120
+phy_effect            : 40
+phy_absorb            : 100
+all_resist_except     : 60
+assistant_monster     : ({ 劫匪1_2, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jiefei1_tactics"
+flag                  : "qingjiao-jiefei"
+
+[ZRWLM039]
+name                  : 劫匪头目_2
+alias                 : 劫匪头目
+icon                  : 6202
+portrait              : 6202
+polar                 : -1
+life_effect           : "4000 + (LV / 70) * 600 + (LV / 100) * 1000 + (LV / 120) * 1200 + (LV / 130) * 2000"
+mag_effect            : 120
+phy_effect            : 40
+all_resist_except     : 60
+assistant_monster     : ({ 劫匪2_2, -1 })
+skills                : ({ "B2", -1, "B3", -1, "B4", -1 })
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jiefei_toumu_tactics"
+flag                  : "qingjiao-jiefei"
+
+[ZRWLM040]
+name                  : 劫匪2_2
+alias                 : 劫匪
+icon                  : 6201
+portrait              : 6201
+polar                 : 0
+life_effect           : "2400 + (LV / 70) * 600 + (LV / 100) * 1000 + (LV / 120) * 1200 + (LV / 130) * 2000"
+phy_effect            : 40
+double_hit_rate       : 30
+double_hit            : 6
+all_resist_except     : 60
+modify_attrib         : ({ "life_effect" })
+monster_tactics       : "jiefei2_tactics"
+flag                  : "qingjiao-jiefei"
+
+[ZRWLM041]
+name                  : 炼狱魔_2
+alias                 : 炼狱魔
+icon                  : 31052
+portrait              : 31052
+polar                 : -1
+religion              : -1
+life_effect           : 6000
+mag_effect            : 120
+phy_effect            : 40
+mag_absorb            : 100
+all_resist_except     : 60
+assistant_monster     : ({ 炼狱魔_2, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "saochu_yaomo_yuanhun_tactics"
+flag                  : "huangquan-mengjiang"
+
+[ZRWLM042]
+name                  : 愤怒的炼狱魔_2
+alias                 : 愤怒的炼狱魔
+icon                  : 31052
+portrait              : 31052
+polar                 : -1
+religion              : -1
+life_effect           : 10000
+mag_effect            : 120
+phy_effect            : 40
+all_resist_except     : 60
+assistant_monster     : ({ 愤怒的炼狱魔_2, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "fennu_yuanhun_tactics"
+flag                  : "huangquan-mengjiang"
+
+[ZRWLM043]
+name                  : 觊觎丹鼎的妖魔_2
+alias                 : 觊觎丹鼎的妖魔
+icon                  : 6249
+portrait              : 6249
+polar                 : -1
+religion              : -1
+life_effect           : 6000
+mag_effect            : "80 + (LV / 70) * 28 + (LV / 100) * 60 + (LV / 120) * 120 + (LV / 130) * 80"
+phy_effect            : 80
+all_resist_except     : 60
+assistant_monster     : ({ 觊觎丹鼎的妖魔_2, -1 })
+modify_attrib         : ({ "mag_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "caiji_xianqi_common_tactics"
+flag                  : "caiji-xianqi"
+
+[ZRWLM044]
+name                  : 觊觎丹鼎的妖魔1_2
+alias                 : 觊觎丹鼎的妖魔
+icon                  : 6244
+portrait              : 6244
+polar                 : -1
+religion              : -1
+life_effect           : 12000
+mag_effect            : "80 + (LV / 70) * 28 + (LV / 100) * 60 + (LV / 120) * 120 + (LV / 130) * 80"
+phy_effect            : 80
+all_resist_except     : 60
+assistant_monster     : ({ 觊觎丹鼎的妖魔1_2, -1 })
+modify_attrib         : ({ "mag_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "caiji_xianqi_common_tactics"
+flag                  : "caiji-xianqi"
+
+[ZRWLM045]
+name                  : 愤怒的花仙幻象_2
+alias                 : 愤怒的花仙幻象
+icon                  : 6241
+portrait              : 6241
+polar                 : -1
+religion              : -1
+life_effect           : "9000  + (LV / 100) * 3000 + (LV / 130) * 3000"
+mag_effect            : "80 + (LV / 70) * 40 + (LV / 100) * 40"
+phy_effect            : 80
+all_resist_except     : 60
+assistant_monster     : ({ 小花精_2, -1 })
+modify_attrib         : ({ "mag_effect", "life_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "qiuyao_common_tactics"
+flag                  : "dairen-qiuyao"
+
+[ZRWLM046]
+name                  : 小花精_2
+alias                 : 小花精
+icon                  : 6128
+portrait              : 6128
+polar                 : -1
+religion              : -1
+life_effect           : "6000  + (LV / 100) * 1200 + (LV / 130) * 1800"
+mag_effect            : "80 + (LV / 70) * 40 + (LV / 100) * 40"
+phy_effect            : 80
+mag_absorb            : 100
+all_resist_except     : 60
+modify_attrib         : ({ "mag_effect", "life_effect" })
+skills                : ({ "B2", -1, "B4", -1 })
+monster_tactics       : "qiuyao_common_tactics"
+flag                  : "dairen-qiuyao"
+
+[ZRWLM047]
+name                  : 蒙面小贼_2
+alias                 : 蒙面小贼
+icon                  : 6213
+portrait              : 6213
+life_effect           : 9000
+phy_effect            : "80 + LV / 70 * 80"
+phy_absorb            : 100
+all_resist_except     : 60
+double_hit_rate       : 30
+double_hit            : 6
+assistant_monster     : ({ 蒙面小贼_2, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "zhuabu-xiaozei"
+
+[ZRWLM048]
+name                  : 蒙面头目_2
+alias                 : 蒙面头目
+icon                  : 6231
+portrait              : 6231
+life_effect           : "9000 + LV / 70 * 3000 + LV / 130 * 3000"
+phy_effect            : "80 + LV / 70 * 80"
+all_resist_except     : 60
+double_hit_rate       : 30
+double_hit            : 6
+assistant_monster     : ({ 蒙面小贼_2, -1 })
+modify_attrib         : ({ "life_effect", "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "zhuabu-xiaozei"
+
+[ZRWLM049]
+name                  : 轻舞_2
+alias                 : 轻舞
+icon                  : 6294
+portrait              : 6294
+polar                 : -1
+religion              : -1
+life_effect           : 9000
+phy_effect            : "80 + LV / 70 * 80 + LV / 100 * 80"
+mag_effect            : "80 + LV / 70 * 40 + LV / 100 * 40"
+mag_absorb            : 100
+all_resist_except     : 60
+skills                : ({ "B2", -1, "B4", -1 })
+assistant_monster     : ({ 轻舞的伙伴_2, -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "qingwu_common_tactics"
+flag                  : "xiufu-zhuchai"
+
+[ZRWLM050]
+name                  : 轻舞的伙伴_2
+alias                 : 轻舞的伙伴
+icon                  : 6294
+portrait              : 6294
+polar                 : -1
+religion              : -1
+life_effect           : 6000
+phy_effect            : "80 + LV / 70 * 40"
+mag_effect            : "80 + LV / 70 * 40"
+mag_absorb            : 100
+all_resist_except     : 60
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "qingwu_common_tactics"
+flag                  : "xiufu-zhuchai"
+
+[ZRWLM051]
+name                  : 火灵_2
+alias                 : 火灵
+icon                  : 31031
+portrait              : 31031
+polar                 : -1
+religion              : -1
+life_effect           : "7200 + LV / 70 * 1800 + LV / 130 * 3000"
+phy_effect            : "80 + LV / 70 * 80"
+all_resist_except     : 60
+stunt_rate            : 50
+skills                : ({ "lipo-qianjun", -1 })
+assistant_monster     : ({ 火灵_2, -1 })
+modify_attrib         : ({ "phy_effect", "life_effect" })
+monster_tactics       : "huoling_common_tactics"
+flag                  : "xiufu-zhuchai"
+
+[ZRWLM052]
+name                  : 小英招_2
+alias                 : 小英招
+icon                  : 31064
+portrait              : 31064
+life_effect           : 7200
+phy_effect            : "80 + LV / 70 * 80"
+phy_absorb            : 100
+all_resist_except     : 60
+double_hit_rate       : 30
+double_hit            : 6
+assistant_monster     : ({ 英招分身_2, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM053]
+name                  : 英招分身_2
+alias                 : 英招分身
+icon                  : 31064
+portrait              : 31064
+life_effect           : 6000
+phy_effect            : "80 + LV / 70 * 80"
+phy_absorb            : 100
+all_resist_except     : 60
+double_hit_rate       : 30
+double_hit            : 6
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "use_physical_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM054]
+name                  : 小飞廉_2
+alias                 : 小飞廉
+icon                  : 31067
+portrait              : 31067
+polar                 : 5
+religion              : -1
+life_effect           : 9000
+phy_effect            : "80 + LV / 70 * 80 + LV / 100 * 80"
+mag_effect            : "80 + LV / 70 * 40 + LV / 100 * 40"
+mag_absorb            : 100
+all_resist_except     : 60
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+assistant_monster     : ({ 飞廉分身_2, -1 })
+monster_tactics       : "feilian_common_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM055]
+name                  : 飞廉分身_2
+alias                 : 飞廉分身
+icon                  : 31067
+portrait              : 31067
+polar                 : 5
+religion              : -1
+life_effect           : 6000
+phy_effect            : "80 + LV / 70 * 40"
+mag_effect            : "80 + LV / 70 * 40"
+mag_absorb            : 100
+all_resist_except     : 60
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "feilian_common_tactics"
+flag                  : "jiaoxun-wantong"
+
+[ZRWLM056]
+name                  : 蜘蛛精_2
+alias                 : 蜘蛛精
+icon                  : 6222
+portrait              : 6222
+life_effect           : 12000
+phy_effect            : "80 + LV / 70 * 80"
+phy_absorb            : 100
+all_resist_except     : 60
+double_hit_rate       : 30
+double_hit            : 6
+skills                : ({ "lipo-qianjun", -1 })
+assistant_monster     : ({ 蜘蛛精_2, -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "tactics_zhizhujing"
+sf_damage             : "sf_damage_zhizhujing"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM057]
+name                  : 百宝仙元神_2
+alias                 : 百宝仙元神
+icon                  : 6294
+portrait              : 6294
+polar                 : 2
+life_effect           : 30000
+mag_effect            : "80 + LV / 70 * 40 + LV / 100 * 40"
+mag_absorb            : 100
+all_resist_except     : 30
+skills                : ({ "B2", -1, "B4", -1, "D3", -1 })
+modify_attrib         : ({ "mag_effect" })
+monster_tactics       : "tactics_baibaoxian"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM058]
+name                  : 蜘蛛精1_2
+alias                 : 蜘蛛精
+icon                  : 6222
+portrait              : 6222
+polar                 : 2
+life_effect           : 18000
+mag_effect            : "80 + LV / 70 * 40 + LV / 100 * 40"
+mag_absorb            : 50
+phy_absorb            : 100
+all_resist_except     : 60
+skills                : ({ "B2", -1, "B4", -1 })
+assistant_monster     : ({ 蜘蛛精分身_2, 1 })
+modify_attrib         : ({ "mag_effect" })
+monster_tactics       : "tactics_zhizhujing1"
+sf_damage             : "sf_damage_zhizhujing"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM059]
+name                  : 蜘蛛精分身_2
+alias                 : 蜘蛛精分身
+icon                  : 6222
+portrait              : 6222
+polar                 : 5
+life_effect           : 6000
+phy_effect            : "80 + LV / 70 * 80 + LV / 100 * 80"
+mag_absorb            : 100
+phy_absorb            : -100
+all_resist_except     : 60
+skills                : ({ "lipo-qianjun", -1 })
+modify_attrib         : ({ "phy_effect" })
+monster_tactics       : "tactics_zhizhujing_fenshen"
+flag                  : "geshi-qingyuan"
+
+[ZRWLM060]
+name                  : 发狂的当康_2
+alias                 : 发狂的当康
+icon                  : 31035
+portrait              : 31035
+polar                 : 5
+life_effect           : 9000
+phy_effect            : "80 + LV / 70 * 80 + LV / 100 * 80"
+mag_effect            : "80 + LV / 70 * 40 + LV / 100 * 40"
+mag_absorb            : 100
+all_resist_except     : 60
+sf_die                : 1
+assistant_monster     : ({ 当康分身_2, -1 })
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "tactics_dangkang"
+flag                  : "yingjiu-dangkang"
+
+[ZRWLM061]
+name                  : 当康分身_2
+alias                 : 当康分身
+icon                  : 31035
+portrait              : 31035
+polar                 : 5
+life_effect           : 6000
+phy_effect            : "80 + LV / 70 * 40"
+mag_effect            : "80 + LV / 70 * 40"
+mag_absorb            : 100
+all_resist_except     : 60
+skills                : ({ "B2", -1, "B4", -1 })
+modify_attrib         : ({ "phy_effect", "mag_effect" })
+monster_tactics       : "tactics_dangkang"
+flag                  : "yingjiu-dangkang"
+
+[无天技速龙豹]
+name$: ({ 速龙豹, 速龙豹 })
+rank$: 宝宝
+mount$: 御灵
+level: "player_upgrade_level"
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 0 })
+
+[速龙豹]
+free_bag:   ({ 0 })
+free_pet:   ({ 1 })
+limit$ : ({ "time_limit", "now", 2592000 })
+bonus$:     ({ 0, 0, 100, "宠物", 1, 1, "无天技速龙豹" })

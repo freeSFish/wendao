@@ -1,0 +1,101 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-03-11-00:00:00", "EVERY_HOUR(21)", "EVERY_DAY(1)", "2013-03-13-20:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task1", "during_task2", "end_task" })
+
+[during_task1]
+broadcast_start : "start_time(0)"
+interval        : 1200
+broadcast_end   : "end_time(-8000)"
+message         : "劳动节活动#R【劳动节】劳动最光荣#n第一阶段活动开始了，大家快去#Z天墉城#Z找到地面上出现的#Y裂缝#n和#Y杂草#n，将它们消灭后即可获得丰厚的数值奖励。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task2]
+broadcast_start : "end_time(-7200)"
+interval        : 1200
+broadcast_end   : "end_time(-1)"
+message         : "劳动节活动#R【劳动节】劳动最光荣#n第二阶段活动开始了，大家快去#Z天墉城(158,266)#Z击杀企图破坏劳动成果的#Y慵懒魔王#n或#Y慵懒妖王#n，战斗胜利后可获得丰厚的数值奖励，还有机会获得珍贵的商城道具。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "今天的#R劳动节活动#n已全部结束，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[all_monster_poses]
+pos$ : ({ 212, 161 })
+pos$ : ({ 200, 165 })
+pos$ : ({ 189, 168 })
+pos$ : ({ 180, 167 })
+pos$ : ({ 256, 113 })
+pos$ : ({ 216, 111 })
+pos$ : ({ 208, 145 })
+pos$ : ({ 309, 179 })
+pos$ : ({ 334, 167 })
+pos$ : ({ 364, 157 })
+pos$ : ({ 383, 152 })
+pos$ : ({ 403, 191 })
+pos$ : ({ 390, 206 })
+pos$ : ({ 361, 221 })
+pos$ : ({ 317, 211 })
+pos$ : ({ 271, 207 })
+pos$ : ({ 244, 219 })
+pos$ : ({ 211, 238 })
+pos$ : ({ 191, 229 })
+pos$ : ({ 172, 214 })
+pos$ : ({ 124, 187 })
+pos$ : ({ 96, 181  })
+pos$ : ({ 66, 162  })
+pos$ : ({ 32, 136  })
+pos$ : ({ 163, 72  })
+pos$ : ({ 192, 56  })
+pos$ : ({ 237, 127 })
+pos$ : ({ 320, 257 })
+pos$ : ({ 293, 270 })
+pos$ : ({ 268, 256 })
+pos$ : ({ 243, 243 })
+pos$ : ({ 383, 97  })
+pos$ : ({ 302, 69  })
+pos$ : ({ 253, 45  })
+pos$ : ({ 161, 14  })
+pos$ : ({ 130, 52  })
+pos$ : ({ 109, 73  })
+pos$ : ({ 103, 100 })
+pos$ : ({ 167, 261 })
+pos$ : ({ 254, 153 })
+pos$ : ({ 304, 90  })
+pos$ : ({ 393, 175 })
+pos$ : ({ 217, 180 })
+pos$ : ({ 201, 198 })
+pos$ : ({ 174, 195 })
+pos$ : ({ 178, 89  })
+pos$ : ({ 248, 198 })
+pos$ : ({ 359, 211 })
+pos$ : ({ 86, 53   })
+pos$ : ({ 368, 172 })
+pos$ : ({ 304, 105 })
+pos$ : ({ 345, 242 })
+pos$ : ({ 226, 170 })
+pos$ : ({ 140, 28  })
+pos$ : ({ 245, 39  })
+pos$ : ({ 393, 47  })
+pos$ : ({ 384, 51  })
+pos$ : ({ 366, 61  })
+pos$ : ({ 137, 81  })
+pos$ : ({ 191, 87  })
+pos$ : ({ 274, 53  })
+pos$ : ({ 359, 94  })
+pos$ : ({ 408, 105 })
+pos$ : ({ 399, 120 })
+pos$ : ({ 410, 215 })
+pos$ : ({ 310, 267 })
+pos$ : ({ 273, 210 })
+pos$ : ({ 157, 8   })
+pos$ : ({ 186, 25  })
+pos$ : ({ 110, 59  })
+pos$ : ({ 101, 138 })

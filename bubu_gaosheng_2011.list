@@ -1,0 +1,72 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-01-13-15:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2012-01-20-17:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "start_task", "during_task", "before_end_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "大鱼吃小鱼、小鱼吃虾米，弱肉强食是亘古不变的生存法则，#R步步高升#n活动即将开始，请做好准备找#P活动大使#P参加。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R步步高升#n活动开始了，请找#P活动大使#P进入活动场地。在活动中消灭比自己低阶的怪物会获得积分，随着积分的变化形象也会发生变化，活动结束时形象越高级可获得的奖励越多，快来参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#R步步高升#n活动正在进行中，请大家找#P活动大使#P参加。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-900)"
+interval        : 300
+broadcast_end   : "end_time(-1)"
+message         : "#R步步高升#n活动将于#REND_TIME#n结束，请大家抓紧时间，做最后的变身冲刺。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "感谢大家的支持，本次#R步步高升#n活动圆满结束，下次再见！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[common_monster]
+polar               : -1
+life_effect         : "500 + Lv * 180"
+phy_effect          : "50 + Lv * 20"
+mag_effect          : "50 + Lv * 20"
+penetrate_rate      : 30
+penetrate           : 50
+tao_effect          : "50 + Lv * 20"
+speed_effect        : "50 + Lv * 10"
+all_resist_polar    : 20
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect", "speed_effect" })
+skills              : ({ "B3" })
+special_skills      : ({ "力破千钧" })
+monster_tactics     : "monster_common_tactics"
+
+[百花仙]
+polar               : -1
+life_effect         : 2000
+phy_effect          : 250
+mag_effect          : 250
+penetrate_rate      : 30
+penetrate           : 50
+tao_effect          : 250
+speed_effect        : 150
+all_resist_polar    : 20
+random_attrib       : ({ "speed_effect" })
+skills              : ({ "B3" })
+special_skills      : ({ "力破千钧" })
+monster_tactics     : "monster_baihuaxian_tactics"

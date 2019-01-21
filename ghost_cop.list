@@ -1,0 +1,115 @@
+#FORM2
+
+[main_monster_0]
+polar               : -1
+life_effect         : "3000 + (LV - 70) / 30 * 500 + LV / 150 * 600"
+phy_effect          : "100 + (LV - 40) / 25 * 50"
+mag_effect          : "100 + (LV - 40) / 25 * 50"
+tao_effect          : 500
+speed_effect        : 0
+phy_absorb          : 0
+mag_absorb          : 0
+penetrate           : 70
+penetrate_rate      : 50
+resist_forgotten    : 0
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_confusion    : 0
+resist_repress      : 0
+resist_lock         : 0
+resist_cage         : 0
+resist_melt         : 0
+resist_lost         : 0
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B1", "B2", "B3", "B4", "C3", "D3", "lipo-qianjun" })
+skills_100          : ({ "B1", "B2", "B3", "B4", "B5", "C5", "D5", "lipo-qianjun" })
+random_attrib       : ({ "speed_effect", 200, "tao_effect", 200, "resist_forgotten", 160, "resist_poison", 160, "resist_frozen", 160, "resist_sleep", 160, "resist_confusion", 160, "resist_repress", 160, "resist_lock", 160, "resist_cage", 160, "resist_melt", 160, "resist_lost", 160 })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+artifact            : ({ "fantianyin", "dinghaizhu" })
+monster_tactics     : "main_monster_tactics"
+
+[sub_monster_0]
+polar               : -1
+life_effect         : "1200 + (LV - 70) / 30 * 300 + LV / 150 * 250"
+phy_effect          : "70 + (LV - 50) / 30 * 50"
+mag_effect          : "70 + (LV - 50) / 30 * 50"
+tao_effect          : 300
+speed_effect        : -100
+phy_absorb          : 0
+mag_absorb          : 0
+penetrate           : 70
+penetrate_rate      : 30
+resist_forgotten    : 0
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_confusion    : 0
+resist_repress      : 0
+resist_lock         : 0
+resist_cage         : 0
+resist_melt         : 0
+resist_lost         : 0
+skills              : ({ "B3", "B4", "C3", "D3", "lipo-qianjun" })
+skills_100          : ({ "B4", "B5", "C5", "D5", "lipo-qianjun" })
+random_attrib       : ({ "speed_effect", 200, "tao_effect", 200, "resist_forgotten", 160, "resist_poison", 160, "resist_frozen", 160, "resist_sleep", 160, "resist_confusion", 160, "resist_repress", 160, "resist_lock", 160, "resist_cage", 160, "resist_melt", 160, "resist_lost", 160 })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "sub_monster_tactics"
+
+[main_monster_1]
+polar               : -1
+life_effect         : "12000 + (LV - 70) / 30 * 2000 + LV / 150 * 2400"
+phy_effect          : "200 + (LV - 40) / 25 * 100"
+mag_effect          : "200 + (LV - 40) / 25 * 100"
+tao_effect          : 500
+speed_effect        : 0
+phy_absorb          : 0
+mag_absorb          : 0
+penetrate           : 70
+penetrate_rate      : 50
+resist_forgotten    : 0
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_confusion    : 0
+resist_repress      : 0
+resist_lock         : 0
+resist_cage         : 0
+resist_melt         : 0
+resist_lost         : 0
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B1", "B2", "B3", "B4", "C3", "D3", "lipo-qianjun" })
+skills_100          : ({ "B1", "B2", "B3", "B4", "B5", "C5", "D5", "lipo-qianjun" })
+random_attrib       : ({ "speed_effect", 200, "tao_effect", 200, "all_resist_except", 320 })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+artifact            : ({ "fantianyin", "dinghaizhu" })
+monster_tactics     : "main_monster_tactics"
+
+[sub_monster_1]
+polar               : -1
+life_effect         : "4800 + (LV - 70) / 30 * 1200 + LV / 150 * 1000"
+phy_effect          : "140 + (LV - 50) / 30 * 100"
+mag_effect          : "140 + (LV - 50) / 30 * 100"
+tao_effect          : 300
+speed_effect        : -100
+phy_absorb          : 0
+mag_absorb          : 0
+penetrate           : 70
+penetrate_rate      : 30
+resist_forgotten    : 0
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_confusion    : 0
+resist_repress      : 0
+resist_lock         : 0
+resist_cage         : 0
+resist_melt         : 0
+resist_lost         : 0
+skills              : ({ "B3", "B4", "C3", "D3", "lipo-qianjun" })
+skills_100          : ({ "B4", "B5", "C5", "D5", "lipo-qianjun" })
+random_attrib       : ({ "speed_effect", 200, "tao_effect", 200, "all_resist_except", 320 })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "sub_monster_tactics"

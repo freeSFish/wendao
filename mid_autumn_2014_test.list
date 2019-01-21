@@ -1,0 +1,38 @@
+#FORM2
+
+[setting]
+start_time       : "2014-08-02-12:00:00"
+end_time         : "2014-08-10-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "end_task", "during_task" })
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "今年的#R【中秋节】博饼庆中秋#n活动到此结束，感谢大家的积极参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3599)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【中秋节】博饼庆中秋#n活动开始了！去年的#R博饼状元#n们已经准备了大量的奖品，在天墉城等待大家的好运！今年的#R状元王中王#n必定获得#R神兽精魄#n或#R变异精魄#n的奖励。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[npc_tips]
+all_tips$ : "若六个骰子组合是：“四个四点+两个一点”则博中博饼状元最高奖#R状元王中王#n！"
+all_tips$ : "若六个骰子组合是：“六个四点”则博中博饼状元#R满堂红#n！"
+all_tips$ : "若六个骰子组合是：“六个一点”则博中博饼状元#R遍地锦#n！"
+all_tips$ : "若六个骰子组合是：“六个二、三、五或六”则博中博饼状元#R六勃黑#n！"
+all_tips$ : "若六个骰子组合是：“五个四点+一个非四点”则博中博饼状元#R五王#n！"
+all_tips$ : "若六个骰子组合是：“五个非四点+一个与前面不同的点数”则博中博饼状元#R五子#n！"
+all_tips$ : "若六个骰子组合是：“四个四点+两个非四点”则博中博饼#R状元#n！"
+all_tips$ : "若六个骰子组合是：“分别是一二三四五六点”则博中博饼#R对堂#n！"
+all_tips$ : "若六个骰子组合是：“三个四点+三个非四点”则博中博饼#R三红#n！"
+all_tips$ : "若六个骰子组合是：“四个非四点+两个与前面不同的点数”则博中博饼#R四进#n！"
+all_tips$ : "若六个骰子组合是：“两个四点+四个非四点”则博中博饼#R二举#n！"
+all_tips$ : "若六个骰子组合是：“一个四点+五个非四点”则博中博饼#R一秀#n！"
+all_tips$ : "若六个骰子组合没有特殊规律，则为#R罚黑#n！"
+all_tips$ : "奖项排名依次为：状元王中王、满堂红、遍地锦、六勃黑、五王、五子、状元、对堂、三红、四进、二举、一秀、罚黑。"

@@ -1,0 +1,12 @@
+#FORM2
+
+#SAMPLE
+#[【圣诞节】修补雪人]
+#show      : "#G【圣诞节】修补雪人#n"
+#path      : "#Z官道北#Z、#Z桃柳林#Z、#Z轩辕庙#Z或#Z北海沙滩#Z"
+#reward    : 经验、道行等
+#level_min : 40
+#level_max : 180
+#purpose   : 活动
+#date      : "20141222-20141231"
+#test_date : "20141222-20141231"

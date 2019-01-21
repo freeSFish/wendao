@@ -1,0 +1,42 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-02-14-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(2)" })
+
+[broadcast_setting]
+broadcast_list:   ({ "before_task", "before_task1", "before_task2", "before_task3", "before_task4" })
+
+[before_task]
+broadcast_start : "start_time(-72000)"
+interval        : 1800
+broadcast_end   : "start_time(-1)"
+message         : "西域古城阵营战即将在今晚的#R20:00#n开始，请各位道友前往#Z西域古城#Z加入阵营，阵营战有各种丰厚的道具和数值奖励，大家千万不可错过。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_task1]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_before_task"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_task2]
+broadcast_start : "start_time(-300)"
+interval        : 0
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_before_task"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_task3]
+broadcast_start : "start_time(-180)"
+interval        : 60
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_before_task"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_task4]
+broadcast_start : "start_time(-600)"
+interval        : 0
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_before_task_ex"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,7026 @@
+#FORM2
+
+[仙魔录]
+task_type : "剧情"
+
+[仙魔录-获知详情]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "80~90级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验700,000#I#I随机奖励|80级三改蓝（金）装备#I#I其它奖励|伏魔真人#I"
+
+[神仙附体]
+task_type : "功能"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[筹备晚宴]
+task_type : "活动"
+difficulty : 1
+suggest_level : "20级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#r人物潜能#I#I其它奖励|功勋值#r喇叭#I"
+
+[tianjie3]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "142~144级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验25,000,000#I#I其它奖励|称谓“三劫散仙”#I#I随机奖励|140级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[伏魔记]
+task_type : "剧情"
+
+[伏魔记-误入圈套]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "103~120级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,750,000#I#I随机奖励|100级三改蓝（金）装备#I"
+
+[飞升]
+task_type : "剧情"
+
+[飞升－引路人]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "110-115级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|人物经验100,000,000点#I#I随机奖励|获得元婴(血婴)#I"
+
+[飞升－仙道难]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "130级以上"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|经验值100,000,000#I#I其它奖励|获得仙魔属性和技能#I"
+
+[驱魔香时间]
+task_type : "功能"
+
+[八阵图]
+task_type : "日常"
+difficulty : 3
+suggest_level : "50级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定几率额外获得以下奖励：#I超级女娲石|超级女娲石#I#I随机奖励|装备材料#I"
+
+[护送幼龙]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : ""
+
+[欢庆寒假]
+task_type : "活动"
+
+[降妖]
+task_type : "日常"
+
+[五色灵珠]
+task_type : "剧情"
+
+[悬赏令]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I有一定几率获得：#I其它奖励|商城道具#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I其它奖励|炼妖石#I#I数值奖励|修为值#I"
+
+[送宠任务]
+task_type : "日常"
+
+[卦象显示]
+task_type : "功能"
+
+[仙魔录-猪精伏诛]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "74~84级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验450,000#I#I随机奖励|80级三改蓝（金）装备#I#I其它奖励|辟邪仙师#I"
+
+[诛杀邪神]
+task_type : "日常"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[虚灵幻境]
+task_type : "日常"
+
+[友好度任务]
+task_type : "日常"
+
+[千面怪]
+task_type : "剧情"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I金刚手镯|金刚手镯#I"
+
+[贪念劫]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "92~94级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验4,663,000#I#I金钱奖励|金钱奖励#I#I数值奖励|提升相性上限#I#I随机奖励|100级五改武器#I"
+
+[学习道术]
+task_type : "日常"
+
+[元旦之神仙抢亲]
+task_type : "活动"
+
+[护送朱雀]
+task_type : "活动"
+
+[元旦之护送礼物]
+task_type : "活动"
+
+[火系拜师任务]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "100~105级"
+suggest_person : "组满5人"
+bonus_info : "#I其它奖励|称谓“乾元山金光洞第一代弟子”#I#I其它奖励|火系五阶技能学习资格#I"
+
+[金系拜师任务]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "100~105级"
+suggest_person : "组满5人"
+bonus_info : "#I其它奖励|称谓“五龙山云霄洞第一代弟子”#I#I其它奖励|金系五阶技能学习资格#I"
+
+[元旦之送喜帖]
+task_type : "活动"
+
+[妖魔道-探寻真相]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "60~70级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验320,000#I#I数值奖励|潜能1,600,000#I#I代金券奖励|代金券3,200,000#I#I数值奖励|道行奖励#I"
+
+[私欲劫]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "102~104级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验7,389,000#I#I金钱奖励|金钱奖励#I#I数值奖励|提升相性上限#I#I随机奖励|100级五改武器#I"
+
+[tianjie5]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "152~154级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验41,000,000#I#I其它奖励|称谓“五劫散仙”#I#I随机奖励|150级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[夜游百鬼地]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : ""
+
+[元婴（血婴）修炼时间]
+task_type : "功能"
+
+[上仁无为]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "107~109级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验9,041,000#I#I金钱奖励|金钱奖励#I#I御风履|#Y御风履(5)#I#I数值奖励|提升相性上限#I"
+
+[亲友拜年（问候）]
+task_type : "活动"
+
+[三倍奖励时间]
+task_type : "功能"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[抓捕宠物]
+task_type : "日常"
+
+[慈以至勇]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "117~119级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验12,982,000#I#I金钱奖励|金钱奖励#I#I数值奖励|提升相性上限#I#I随机奖励|110级五改腰带#I"
+
+[祭拜祖先]
+task_type : "日常"
+
+[南荒巫术特殊卦]
+task_type : "功能"
+
+[降服小妖]
+task_type : "日常"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[tianjie9]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "172~174级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验84,000,000#I#I其它奖励|称谓“九劫散仙”#I#I随机奖励|170级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[妖魔道-勇擒鱼怪]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "20~30级"
+suggest_person : "单人"
+bonus_info : "#I数值奖励|经验20,000#I#I数值奖励|潜能100,000#I#I代金券奖励|代金券200,000#I#I铁炉|铁炉#I"
+
+[欢欢喜喜过大年]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : ""
+
+[领取武器]
+task_type : "指引"
+
+[收集材料]
+task_type : "日常"
+bonus_info : "#I金钱奖励|代金券#I以下奖励随机一项：#I数值奖励|道行奖励#I#I数值奖励|经验奖励#I#I数值奖励|潜能奖励#I#I其它奖励|玩家等级±5级金装备#I"
+
+[tianjie1]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "132~134级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验13,000,000#I#I其它奖励|称谓“一劫散仙”#I#I随机奖励|130级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[力克双煞]
+task_type : "日常"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[地劫任务]
+task_type : "剧情"
+
+[送药]
+task_type : "日常"
+
+[八仙梦境|八仙梦境·吕洞宾]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[八仙梦境|八仙梦境·韩湘子]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[八仙梦境|八仙梦境·张果老]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[八仙梦境|八仙梦境·何仙姑]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[八仙梦境|八仙梦境·汉钟离]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[圣诞许愿]
+task_type : "日常"
+
+[矫燥劫]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "82~84级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验2,626,000#I#I金钱奖励|金钱奖励#I#I数值奖励|提升相性上限#I#I随机奖励|90级五改武器#I"
+
+[挑战道童]
+task_type : "日常"
+difficulty : 3
+suggest_level : "50级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I每轮任务结束时获得：#I数值奖励|人物道行#r宠物武学#I"
+
+[仙魔录-真假难辨]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "77~87级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验550,000#I#I随机奖励|80级三改蓝（金）装备#I#I其它奖励|九灵散人#I"
+
+[地劫任务游戏指引]
+task_type : "指引"
+bonus_info : "#I数值奖励|人物道行#I"
+
+[恶作剧]
+task_type : "日常"
+difficulty : 0
+suggest_level : ""
+suggest_person : "1人"
+bonus_info : ""
+
+[修行任务]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60~129级"
+suggest_person : "4~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|宠物武学#I#I随机奖励|粉材奖励#I110级及以下可获得：#I数值奖励|人物道行#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[帮派活动之圈圈乐]
+task_type : "日常"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I数值奖励|战绩#I#I数值奖励|潜能#I#I数值奖励|帮贡奖励#I#I数值奖励|帮派活力值#I#I随机奖励|道具奖励#I前十名可额外获得：#I数值奖励|帮贡奖励#I#I数值奖励|帮派活力值#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[重选第二门派]
+task_type : "功能"
+
+[查看地图任务]
+task_type : "指引"
+
+[降灭妖王]
+task_type : "剧情"
+
+[妖魔道-试炼之道]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "40~50级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验80,000#I#I数值奖励|潜能400,000#I#I代金券奖励|代金券800,000#I"
+
+[为民除暴]
+task_type : "日常"
+difficulty : 3
+suggest_level : "20~50级"
+suggest_person : "3~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I"
+
+[门派试炼]
+task_type : "日常"
+difficulty : 1
+suggest_level : "50级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I代金券奖励|代金券奖励#I每轮任务结束时有几率获得：#I随机奖励|物品奖励#I"
+
+[免费洗点]
+task_type : "日常"
+
+[玄天令]
+task_type : "活动"
+
+[黑风洞]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "5人"
+bonus_info : "#I其它奖励|装备奖励#I以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备奖励#I选择装备奖励时有一定几率获得如下奖励：#I随机奖励|满属性装备奖励#I有一定几率额外获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[领取资助]
+task_type : "日常"
+bonus_info : "#I代金券奖励|代金券奖励#I#I数值奖励|人物经验#I"
+
+[升级送道具]
+task_type : "日常"
+
+[仙魔争夺战活动]
+task_type : "日常"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[轻诺寡信]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "112~114级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验10,901,000#I#I金钱奖励|金钱奖励#I#I数值奖励|提升相性上限#I#I随机奖励|110级五改帽子#I"
+
+[节日系统类]
+task_type : "日常"
+
+[问道引路人]
+task_type : "日常"
+
+[荡除妖将]
+task_type : "日常"
+
+[仙界通缉]
+task_type : "日常"
+difficulty : 3
+suggest_level : "130级以上"
+suggest_person : "3~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I#I数值奖励|修为值#I每场战斗结束时有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I"
+
+[妖魔道-除魔卫道]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "80~100级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,280,000#I#I数值奖励|潜能6,400,000#I#I代金券奖励|代金券12,800,000#I#I数值奖励|道行奖励#I#I金刚手镯|金刚手镯×2#I#I青珑挂珠|青珑挂珠#I#I纹龙佩|纹龙佩#I"
+
+[炼药任务]
+task_type : "日常"
+
+[组建团队]
+task_type : "日常"
+
+[投桃报李]
+task_type : "日常"
+
+[囤积物资]
+task_type : "日常"
+
+[伏魔记-解救仙山]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "105~120级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,850,000#I#I随机奖励|100级三改蓝（金）装备#I"
+
+[娃娃领回]
+task_type : "日常"
+
+[幸运家具]
+task_type : "日常"
+
+[帮派任务]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|帮贡奖励#I#I数值奖励|帮派活力值#I#I数值奖励|人物道行#I#I金钱奖励|金钱奖励#I#I数值奖励|人物潜能#I#I数值奖励|宠物武学#I每轮任务结束时有几率获得：#I超级女娲石|超级女娲石#I#I喇叭|喇叭#I"
+
+[调查劫匪]
+task_type : "日常"
+
+[仲夏除盗]
+task_type : "活动"
+
+[春节活动]
+task_type : "活动"
+
+[土系拜师任务]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "100~105级"
+suggest_person : "组满5人"
+bonus_info : "#I其它奖励|称谓“骷髅山白骨洞第一代弟子”#I#I其它奖励|土系五阶技能学习资格#I"
+
+[引路人换积分]
+task_type : "功能"
+
+[荣誉之星]
+task_type : "日常"
+
+[急速追捕]
+task_type : "日常"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I"
+
+[tianjie10]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "177~179级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验97,000,000#I#I其它奖励|称谓“十劫散仙”#I#I随机奖励|170级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[十绝阵]
+task_type : "日常"
+difficulty : 4
+suggest_level : "100~149级"
+suggest_person : "4~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励| 粉材奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I每轮任务结束时有几率获得：#I随机奖励|装备奖励#I"
+
+[天劫任务]
+task_type : "剧情"
+
+[守护神试炼]
+task_type : "日常"
+difficulty : 1
+suggest_level : "30级以上"
+suggest_person : "1~5人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[圣诞宝藏]
+task_type : "活动"
+
+[无量心经]
+task_type : "功能"
+
+[问道辞典之选拔赛]
+task_type : "活动"
+suggest_level : "10级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[仙魔转换]
+task_type : "功能"
+difficulty : 1
+suggest_level : "130级以上"
+suggest_person : "1~5人"
+
+[助人为乐]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[传递心意]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[打抱不平]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[扫除妖魔]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[扶危救困]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[黄泉猛将]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[代人求药]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[修复珠钗]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[抓捕小贼]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[教训顽童]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[清剿劫匪]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[营救当康]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[采集仙气]
+task_type : "日常"
+difficulty : 2
+suggest_level : "与队长等级相当"
+suggest_person : "1~2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[隔世情缘]
+task_type : "日常"
+difficulty : 1
+suggest_level : "与队长等级相当"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I其它奖励|符文宝箱#I#I数值奖励|修为值#I"
+
+[雪国的宝藏]
+task_type : "日常"
+
+[保卫中州]
+difficulty : 3
+suggest_level : "20级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#r人物潜能#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|功勋值#r喇叭#I"
+
+[庆典寻宝]
+task_type : "日常"
+
+[庆典寻人]
+task_type : "日常"
+
+[获得宠物]
+task_type : "日常"
+
+[采集物品]
+task_type : "日常"
+
+[挑战幻仙塔]
+task_type : "剧情"
+
+[访仙问友]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验奖励#I"
+
+[领取装备]
+task_type : "指引"
+
+[妖魔道-真假神兽]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "30~40级"
+suggest_person : "2~5人"
+bonus_info : "#I数值奖励|经验40,000#I#I数值奖励|潜能200,000#I#I代金券奖励|代金券400,000#I"
+
+[安全知识问答]
+task_type : "日常"
+
+[伏魔记-突然事起]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "101~120级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,600,000#I#I随机奖励|100级三改蓝（金）装备#I"
+
+[求医问药]
+task_type : "日常"
+
+[同甘共苦]
+task_type : "日常"
+difficulty : 1
+suggest_level : "25级以上"
+suggest_person : "2~5人"
+bonus_info : "#I数值奖励|友好度奖励#I"
+
+[仙魔录-初知真情]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "71~81级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验350,000#I#I随机奖励|70级三改蓝（金）装备#I#I其它奖励|屠龙法师#I"
+
+[伏魔记-再起风云]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "102~120级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,700,000#I#I随机奖励|100级三改蓝（金）装备#I"
+
+[仙魔录-迷局难解]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "68~78级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验250,000#I#I随机奖励|70级三改蓝（金）装备#I#I其它奖励|智贤羽士#I"
+
+[宝玉寄情]
+task_type : "剧情"
+bonus_info : "#I随机奖励|随机20级首饰#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[捉迷藏]
+task_type : "活动"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I金钱奖励|金钱奖励#I以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|宠物经验#I有一定几率额外获得以下奖励：#I其它奖励|生肖兽变身卡#I"
+
+[老君查岗]
+task_type : "功能"
+
+[静笃虚极]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "127~129级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验25,149,000#I#I金钱奖励|金钱奖励#I#I数值奖励|提升相性上限#I#I随机奖励|110级五改腰带#I"
+
+[擒妖任务]
+task_type : "日常"
+
+[伏魔任务]
+task_type : "日常"
+difficulty : 3
+suggest_level : "81~129级"
+suggest_person : "1~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I#I数值奖励|修为值#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I每场战斗结束时有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[tianjie4]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "147~149级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验33,000,000#I#I其它奖励|称谓“四劫散仙”#I#I随机奖励|140级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[兰若寺]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "5人"
+bonus_info : "#R指定副本模式数值奖励将提升30%#n#I其它奖励|装备奖励#I以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备奖励#I选择装备奖励时有一定几率获得如下奖励：#I随机奖励|满属性装备奖励#I有一定几率额外获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[虎狼争霸]
+task_type : "日常"
+
+[全局双倍奖励时间]
+task_type : "功能"
+
+[战斗指引任务]
+task_type : "指引"
+
+[仙魔录-封印得解]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "83~93级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验950,000#I#I随机奖励|90级三改蓝（金）装备#I#I其它奖励|天道圣者#I"
+
+[十绝阵（队长）]
+task_type : "日常"
+difficulty : 4
+suggest_level : "100~149级"
+suggest_person : "4~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励| 粉材奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I每轮任务结束时有几率获得：#I随机奖励|装备奖励#I"
+
+[武学心得]
+task_type : "功能"
+
+[潜能心得]
+task_type : "功能"
+
+[道行心得]
+task_type : "功能"
+
+[道法心得]
+task_type : "功能"
+
+[经验心得]
+task_type : "功能"
+
+[召集宠物]
+task_type : "日常"
+
+[妖魔道-妖魔当道]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "70~80级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验640,000#I#I数值奖励|潜能3,200,000#I#I代金券奖励|代金券6,400,000#I#I数值奖励|道行奖励#I#I内丹|16级内丹#I"
+
+[千变万化]
+task_type : "功能"
+
+[亲友拜年（祝福）]
+task_type : "日常"
+
+[出现叛徒]
+task_type : "日常"
+difficulty : 1
+suggest_person : "1-5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|帮派活力值#I"
+
+[修行任务（队长）]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60~129级"
+suggest_person : "4~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|宠物武学#I#I随机奖励|粉材奖励#I110级及以下可获得：#I数值奖励|人物道行#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[提前领取双倍时间]
+task_type : "日常"
+
+[修行]
+task_type : "日常"
+
+[日领取活动]
+task_type : "日常"
+
+[在线送经验任务]
+task_type : "日常"
+
+[师门任务|师门任务之物资收集]
+task_type : "日常"
+difficulty : 2
+suggest_level : "10级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|师门贡献度#I#I数值奖励|代金券#I80级以上角色每轮任务结束时获得：#I数值奖励|人物道行#r宠物武学#I20-60级有一定概率获得：#I随机奖励|道具奖励#I"
+
+[师门任务|师门任务之入世修行]
+task_type : "日常"
+difficulty : 2
+suggest_level : "10级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|师门贡献度#I#I数值奖励|代金券#I80级以上角色每轮任务结束时获得：#I数值奖励|人物道行#r宠物武学#I20-60级有一定概率获得：#I随机奖励|道具奖励#I"
+
+[师门任务|师门任务之门派邀斗]
+task_type : "日常"
+difficulty : 2
+suggest_level : "10级以上"
+suggest_person : "1~5人（同门派）"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|师门贡献度#I#I数值奖励|代金券#I80级以上角色每轮任务结束时获得：#I数值奖励|人物道行#r宠物武学#I20-60级有一定概率获得：#I随机奖励|道具奖励#I"
+
+[师门任务|师门任务之巡逻]
+task_type : "日常"
+difficulty : 2
+suggest_level : "10级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|师门贡献度#I#I数值奖励|代金券#I80级以上角色每轮任务结束时获得：#I数值奖励|人物道行#r宠物武学#I20-60级有一定概率获得：#I随机奖励|道具奖励#I"
+
+[师门任务|师门任务之重任加身]
+task_type : "日常"
+difficulty : 3
+suggest_level : "100级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|师门贡献度#I#I数值奖励|代金券#I80级以上角色每轮任务结束时获得：#I数值奖励|人物道行#r宠物武学#I"
+
+[师门任务]
+task_type : "日常"
+difficulty : 2
+suggest_level : "10级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|师门贡献度#I#I数值奖励|代金券#I80级以上角色每轮任务结束时获得：#I数值奖励|人物道行#r宠物武学#I20-60级有一定概率获得：#I随机奖励|道具奖励#I"
+
+[名利劫]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "97~99级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验5,934,000#I#I金钱奖励|金钱奖励#I#I踏云靴|#Y踏云靴(5)#I#I数值奖励|提升相性上限#I"
+
+[tianjie2]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "137~139级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验19,000,000#I#I其它奖励|称谓“二劫散仙”#I#I随机奖励|130级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[仙界大叛乱活动]
+task_type : "日常"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[以哀泣亡]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "122~124级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验14,600,000#I#I金钱奖励|金钱奖励#I#I数值奖励|提升相性上限#I#I随机奖励|110级五改衣服#I"
+
+[妖魔道-力擒恶匪]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "50~60级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验200,000#I#I数值奖励|潜能800,000#I#I代金券奖励|代金券1,600,000#I"
+
+[提升能力]
+task_type : "指引"
+
+[广发请帖]
+task_type : "活动"
+
+[离婚申请]
+task_type : "日常"
+
+[烈火涧]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "5人"
+bonus_info : "#R指定副本模式数值奖励将提升30%#n#I其它奖励|装备奖励#I以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备奖励#I选择装备奖励时有一定几率获得如下奖励：#I随机奖励|满属性装备奖励#I有一定几率额外获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[安全设置指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+
+[仙魔录-混迹魔军]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "89~99级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,250,000#I#I随机奖励|90级三改蓝（金）装备#I#I其它奖励|金身尊者#I"
+
+[伏魔记-幡然悔悟]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "104~120级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,800,000#I#I随机奖励|100级三改蓝（金）装备#I"
+
+[新手礼包]
+task_type : "日常"
+
+[tianjie7]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "162~164级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验60,000,000#I#I其它奖励|称谓“七劫散仙”#I#I随机奖励|160级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[宠物飞升任务]
+task_type : "剧情"
+difficulty : 1
+suggest_level : "110级以上"
+suggest_person : "1-5人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|所飞升的宠物可获得100,000,000点经验奖励#I"
+
+[欺诈劫]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "87~89级"
+suggest_person : "至少组满4人，部分环节不能组满5人"
+bonus_info : "#I数值奖励|经验3,566,000#I#I金钱奖励|金钱奖励#I#I天行履|#Y天行履(5)#I#I数值奖励|提升相性上限#I"
+
+[妖魔道]
+task_type : "剧情"
+
+[狂欢月师徒送大礼]
+task_type : "活动"
+
+[双倍奖励时间]
+task_type : "功能"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[新手指导]
+task_type : "指引"
+
+[仙山逐日]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#r人物潜能#I#I数值奖励|人物道行#r宠物武学#I"
+
+[2009年圣诞节活动]
+task_type : "日常"
+
+[拯救驯鹿行动]
+task_type : "日常"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : ""
+
+[仙魔录-初现疑云]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "65~75级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验150,000#I#I随机奖励|70级三改蓝（金）装备#I#I其它奖励|江湖游侠#I"
+
+[庆典筹备]
+task_type : "日常"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I随机奖励|道具奖励#I"
+
+[召唤精怪]
+task_type : "日常"
+bonus_info : "#I其它奖励|精怪#I"
+
+[大兴土木]
+task_type : "活动"
+
+[水系拜师任务]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "100~105级"
+suggest_person : "组满5人"
+bonus_info : "#I其它奖励|称谓“凤凰山斗阙宫第一代弟子”#I#I其它奖励|水系五阶技能学习资格#I"
+
+[沿途追击]
+task_type : "日常"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|宠物经验#I#I金钱奖励|金钱奖励#I"
+
+[雪神的宝藏]
+task_type : "日常"
+
+[天降大任]
+task_type : "日常"
+difficulty : 1
+suggest_level : "30级以上"
+suggest_person : "1~5人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备打造材料#I"
+
+[神木鼎]
+task_type : "功能"
+
+[小试身手]
+task_type : "日常"
+
+[记录经验]
+task_type : "日常"
+
+[征讨五妖王]
+task_type : "日常"
+
+[送药任务]
+task_type : "日常"
+
+[传递口信]
+task_type : "日常"
+bonus_info : "#I代金券奖励|代金券奖励#I"
+
+[寻找宝藏]
+task_type : "日常"
+difficulty : 1
+suggest_level : "20级及以上"
+suggest_person : "1人"
+bonus_info : "任务结束时有几率获得：#I金钱奖励|金钱奖励#I#I随机奖励|物品奖励#I"
+
+[高级宝藏]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "任务结束时有几率获得：#I金钱奖励|金钱奖励#I#I随机奖励|物品奖励#I"
+
+[超级宝藏]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "任务结束时有几率获得：#I金钱奖励|金钱奖励#I#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I#I其它奖励|神兽#I"
+
+[怪物送信]
+task_type : "剧情"
+bonus_info : "#I代金券奖励|代金券奖励#I"
+
+[召回好友奖励]
+task_type : "功能"
+
+[问道辞典之挑战赛]
+task_type : "活动"
+suggest_level : "10级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I其它奖励|随机道具#I"
+
+[火炬传递]
+task_type : "日常"
+
+[强力驱魔香时间]
+task_type : "功能"
+
+[领取徒弟资助]
+task_type : "功能"
+bonus_info : "#I代金券奖励|代金券奖励#I#I数值奖励|人物经验#I#I数值奖励|潜能#I"
+
+[自动摆摊]
+task_type : "功能"
+
+[收集宠物]
+task_type : "日常"
+
+[消灭恶徒]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|道行奖励#I"
+
+[坐牢]
+
+[tianjie6]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "157~159级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验50,000,000#I#I其它奖励|称谓“六劫散仙”#I#I随机奖励|150级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[逃兵任务]
+task_type : "日常"
+difficulty : 1
+suggest_person : "1-5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|帮派活力值#I"
+
+[国庆师徒送大礼]
+task_type : "日常"
+
+[修法任务]
+task_type : "日常"
+difficulty : 1
+suggest_level : "10级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|法宝道法#I#I数值奖励|人物潜能#I#I代金券奖励|代金券奖励#I"
+
+[遍访高人]
+task_type : "活动"
+
+[镇邪冢]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "5人"
+bonus_info : "#I其它奖励|装备奖励#I以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备奖励#I选择装备奖励时有一定几率获得如下奖励：#I随机奖励|满属性装备奖励#I有一定几率额外获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[战斗触发任务]
+task_type : "日常"
+
+[仙魔录-大祸得消]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "92~102级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,400,000#I#I随机奖励|90级四改蓝（金）装备#I#I其它奖励|无量天尊#I"
+
+[礼物快递]
+task_type : "日常"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : ""
+
+[降妖任务]
+task_type : "日常"
+difficulty : 3
+suggest_level : "41~80级"
+suggest_person : "3~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I#I数值奖励|修为值#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I"
+
+[挑战帮派名人堂]
+task_type : "日常"
+
+[宠物三倍奖励时间]
+task_type : "功能"
+
+[端午节任务]
+task_type : "日常"
+difficulty : 3
+suggest_level : "10级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#r宠物亲密度#I#I数值奖励|人物经验#r宠物经验#r宠物亲密度#I#I其它奖励|随机道具#I"
+
+[tianjie8]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "167~169级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验71,000,000#I#I其它奖励|称谓“八劫散仙”#I#I随机奖励|160级五改绿色装备#I#I数值奖励|提升相性上限#I"
+
+[木系拜师任务]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "100~105级"
+suggest_person : "组满5人"
+bonus_info : "#I其它奖励|称谓“终南山玉柱洞第一代弟子”#I#I其它奖励|木系五阶技能学习资格#I"
+
+[神秘大礼]
+task_type : "日常"
+
+[了解行情]
+task_type : "日常"
+
+[指引任务]
+task_type : "指引"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I数值奖励|经验奖励#I "
+
+[通天塔]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I代金券奖励|代金券奖励#I有一定几率获得（超过210层后几率大幅提升）：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|超级变身卡#r星图卷轴#I#I通天令牌|通天令牌#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[萝卜桃子大收集]
+task_type : "活动"
+
+[90环连环任务]
+task_type : "日常"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I金钱奖励|金钱奖励#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I"
+
+[60环连环任务]
+task_type : "日常"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I金钱奖励|金钱奖励#I#I代金券奖励|代金券奖励#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I"
+
+[30环连环任务]
+task_type : "日常"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I代金券奖励|代金券奖励#I"
+
+[组队指引]
+task_type : "指引"
+
+[答题系统]
+task_type : "日常"
+
+[老君惩罚]
+task_type : "功能"
+
+[问卷调研]
+task_type : "日常"
+
+[宠物双倍奖励时间]
+task_type : "功能"
+
+[双倍奖励时间（娃娃）]
+task_type : "功能"
+
+[记者任务]
+task_type : "功能"
+
+[出师任务]
+task_type : "剧情"
+difficulty : 2
+suggest_person : "2人"
+suggest_level : "80级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I代金券奖励|代金券奖励#I#I五色灵石|五色灵石#I#I五色晶石|五色晶石#I"
+
+[仙魔录-重镇心魔]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "86~96级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验1,100,000#I#I随机奖励|90级三改蓝（金）装备#I#I其它奖励|妙应真君#I"
+
+[道具挖掘]
+task_type : "日常"
+
+[天劫任务游戏指引]
+task_type : "指引"
+bonus_info : "#I数值奖励|人物道行#I"
+
+[重返问道奖励]
+task_type : "日常"
+
+[南荒巫术普通卦]
+task_type : "功能"
+
+[家具材料任务]
+task_type : "日常"
+bonus_info : "#I其它奖励|家具材料#I#I其它奖励|鲁班密卷#I有几率获得：#I工匠斧|工匠斧#I"
+
+[圈圈乐活动]
+task_type : "日常"
+
+[初来乍到]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "1-9级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|1级装备#I"
+
+[师门学艺]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "10-19级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|10级装备#I"
+
+[初入江湖]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "20-29级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|20级装备#I"
+
+[勤学苦练]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "30-39级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|30级装备#I"
+
+[携宠除魔]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "40-49级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|40级装备#I"
+
+[仗剑江湖]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "50-59级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|50级装备#I"
+
+[深山修行]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "60-69级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|60级装备#I"
+
+[学艺有成]
+task_type      : "指引"
+difficulty     : 1
+suggest_level  : "70-79级"
+suggest_person : "1人"
+bonus_info     : "#I数值奖励|人物经验#r宠物经验#I#I随机奖励|70级装备#I"
+
+[鱼饵]
+task_type      : "日常"
+difficulty     : 1
+suggest_level  : "1级"
+suggest_person : "1人"
+
+[学习地图精灵]
+task_type : "指引"
+
+[拜师学艺]
+task_type : "指引"
+
+[天降大任指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "30以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[日常任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[八阵图系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "50以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[修行任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "60以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[十绝阵系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "100以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[门派试炼任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[师门任务任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[除暴任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[降妖任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[伏魔任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[仙界通缉任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[五人副本系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[师门守卫任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[真假幻妖活动指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[萝卜桃子大收集活动任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[虎狼争霸活动任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[押镖活动指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[日常领取活动任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[捉迷藏活动指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[出师任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[同甘共苦任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备改造系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "20以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备合成系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "50以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备拆分系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备重组系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[超黑三合一系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[粉装备炼化系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备品质转换系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[套装炼化系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备强化系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备属性限制转换系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备封印系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "70以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[饰物合成系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "20以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[法宝系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[装备进化系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "80以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮战系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[功德兑换系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派触发BOSS任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮贡兑换物品任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派研发技能任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "10级以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派俸禄任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "10级以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[宠物进化系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[骑宠融合系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "60以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[宠物点化系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[宠物强化系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[炼妖系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "30以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[宠物天书系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[坐骑系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[宠物飞升指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[师徒系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[结拜系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "50级以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[结婚系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[跨服联赛指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[试道大会任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[门派比武大会任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[证道殿任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[英雄会任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[擂台比武任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[强制PK任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[掌门系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[钱庄系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[摆摊系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[商会系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[拍卖系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[点卡寄售系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[元宝交易系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[技能精研系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "100以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[占卜系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "50以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[加锁系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "20以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[认主系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "20以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[绑定系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "20以上"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[BOSS系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[悬赏BOSS任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[天罡星系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[上古妖王任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[海盗入侵任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[寻宝系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[南荒巫术系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[收集材料任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "无"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[答题系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[工资系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[福利彩票系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[天降福星系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[神仙下凡任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[游戏币兑换系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[五行竞猜系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[守护系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[阵法系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[炼丹系统指引]
+task_type : "指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[问道秀系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派名人堂任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派守卫战之强盗来袭任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派守卫战之旱魃入侵任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[帮派圈圈乐任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[归还礼物]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r人物潜能#I#I数值奖励|宠物经验#I"
+
+[每日感恩]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[金秋感恩]
+task_type : "活动"
+difficulty : 1
+suggest_level : "20级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[任务卷轴·拜师]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验500#I#I数值奖励|宠物经验500#I"
+
+[任务卷轴·结婚]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验300,000#I#I数值奖励|宠物经验300,000#I"
+
+[任务卷轴·结拜]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验300,000#I#I数值奖励|宠物经验300,000#I"
+
+[任务卷轴·采购]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验500#I#I数值奖励|宠物经验500#I"
+
+[任务卷轴·捉宠]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验2,500#I#I数值奖励|宠物经验2,500#I"
+
+[任务卷轴·摆摊]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验6,000#I#I数值奖励|宠物经验6,000#I"
+
+[任务卷轴·钱庄]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验6,000#I#I数值奖励|宠物经验6,000#I"
+
+[任务卷轴·切磋]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验180,000#I#I数值奖励|宠物经验180,000#I"
+
+[任务卷轴·炼丹]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验100,000#I#I数值奖励|宠物经验100,000#I"
+
+[任务卷轴·绑定]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验150,000#I#I数值奖励|宠物经验150,000#I"
+
+[任务卷轴·加锁]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验150,000#I#I数值奖励|宠物经验150,000#I"
+
+[任务卷轴·加入帮派]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验80,000#I#I数值奖励|宠物经验80,000#I"
+
+[任务卷轴·天罡地煞]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验200,000#I#I数值奖励|宠物经验200,000#I"
+
+[任务卷轴·答题]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验20,000#I#I数值奖励|宠物经验20,000#I"
+
+[任务卷轴·日常任务]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验80,000#I#I数值奖励|宠物经验80,000#I"
+
+[任务卷轴·守护神]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验100,000#I#I数值奖励|宠物经验100,000#I"
+
+[任务卷轴·帮派任务]
+task_type : "指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验120,000#I#I数值奖励|宠物经验120,000#I"
+
+[任务卷轴·除暴任务]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验30,000#I#I数值奖励|宠物经验30,000#I"
+
+[任务卷轴·降妖任务]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验120,000#I#I数值奖励|宠物经验120,000#I"
+
+[任务卷轴·副本任务]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验200,000#I#I数值奖励|宠物经验200,000#I"
+
+[任务卷轴·天降大任]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验30,000#I#I数值奖励|宠物经验30,000#I"
+
+[任务卷轴·幸运大使]
+task_type : "指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验2,500#I#I数值奖励|宠物经验2,500#I"
+
+[任务卷轴·押镖]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验180,000#I#I数值奖励|宠物经验180,000#I"
+
+[任务卷轴·节日奖励]
+task_type : "指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验20,000#I#I数值奖励|宠物经验20,000#I"
+
+[任务卷轴·萝卜桃子]
+task_type : "指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验180,000#I#I数值奖励|宠物经验180,000#I"
+
+[任务卷轴·试道大会]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验300,000#I#I数值奖励|宠物经验300,000#I"
+
+[任务卷轴·门派比武]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验250,000#I#I数值奖励|宠物经验250,000#I"
+
+[任务卷轴·领双]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验8,000#I#I数值奖励|宠物经验8,000#I"
+
+[任务卷轴·妖魔道]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验50,000#I#I数值奖励|宠物经验50,000#I"
+
+[任务卷轴·仙魔录]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验250,000#I#I数值奖励|宠物经验250,000#I"
+
+[任务卷轴·宠物强化]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验300,000#I#I数值奖励|宠物经验300,000#I"
+
+[功能卷轴·易筋改气]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[功能卷轴·神工砺兵]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[功能卷轴·乐于助人]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[如何获得娃娃指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃拜师系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[如何携带娃娃指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃成长指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃历险系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃切磋系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃比武指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃参战系统指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃组队指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[幻仙劫]
+task_type : "剧情"
+
+[幻仙劫-离奇失踪]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "106~125级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验2,600,000#I"
+
+[幻仙劫-惊现魔教]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "107~125级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验2,700,000#I"
+
+[幻仙劫-洞悉阴谋]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "108~125级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验2,800,000#I"
+
+[幻仙劫-浮出水面]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "109~125级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验2,900,000#I"
+
+[幻仙劫-力挽狂澜]
+task_type : "剧情"
+difficulty : 5
+suggest_level : "110~125级"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验3,000,000#I"
+
+[小妖猎人]
+task_type : "活动"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "20级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+
+[情比金坚]
+task_type : "日常"
+bonus_info : "#I数值奖励|友好度奖励#I "
+
+[不速之客]
+task_type : "日常"
+difficulty : 2
+suggest_person : "2人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物声望#I#I数值奖励|友好度奖励#I "
+
+[除虫试道]
+task_type : "日常"
+difficulty : 2
+suggest_person : "2人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物战绩#I#I数值奖励|友好度奖励#I "
+
+[官府奖励]
+task_type : "日常"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|友好度奖励#I "
+
+[落难秀才]
+task_type : "日常"
+bonus_info : "以下奖励随机获得：#I随机奖励|装备奖励#I#I数值奖励|好心值奖励#I "
+
+[星君下凡]
+task_type : "日常"
+bonus_info : "#I数值奖励|金钱奖励#I#I数值奖励|友好度奖励#I "
+
+[力伏妖魔]
+task_type : "日常"
+difficulty : 2
+suggest_person : "2人"
+suggest_level : "40级及以上"
+bonus_info : "#I随机奖励|随机首饰#I#I随机奖励|物品奖励#I"
+
+[恩将仇报]
+task_type : "日常"
+difficulty : 2
+suggest_person : "2人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物潜能#I#I数值奖励|友好度奖励#I "
+
+[天王寻珠]
+task_type : "剧情"
+suggest_person : "1~5人"
+bonus_info : "#I其它奖励|首饰材料#I"
+
+[抢彩蛋]
+task_type : "活动"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[接力卷轴·东海渔村]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_RELAY_SCROLL"
+difficulty : 2
+suggest_level : "60~109级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有几率获得装备：#I随机奖励|装备奖励#I有几率获得好友额外奖励：#I随机奖励|友好度#r战绩#I每轮任务结束时可获得额外奖励：#I随机奖励|其它奖励#I"
+
+[接力卷轴·揽仙镇]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_RELAY_SCROLL"
+difficulty : 2
+suggest_level : "60~109级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I有几率获得装备：#I随机奖励|装备奖励#I有几率获得好友额外奖励：#I随机奖励|友好度#r战绩#I每轮任务结束时可获得额外奖励：#I随机奖励|其它奖励#I"
+
+[接力卷轴·天墉城]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_RELAY_SCROLL"
+difficulty : 2
+suggest_level : "110~149级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I有几率获得装备：#I随机奖励|装备奖励#I有几率获得好友额外奖励：#I随机奖励|友好度#r战绩#I每轮任务结束时可获得额外奖励：#I随机奖励|其它奖励#I"
+
+[接力卷轴·无名小镇]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_RELAY_SCROLL"
+difficulty : 2
+suggest_level : "110~149级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有几率获得装备：#I随机奖励|装备奖励#I有几率获得好友额外奖励：#I随机奖励|友好度#r战绩#I每轮任务结束时可获得额外奖励：#I随机奖励|其它奖励#I"
+
+[接力卷轴·云霄宫一]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_RELAY_SCROLL"
+difficulty : 2
+suggest_level : "150~179级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I有几率获得装备：#I随机奖励|装备奖励#I有几率获得好友额外奖励：#I随机奖励|友好度#r战绩#I每轮任务结束时可获得额外奖励：#I随机奖励|其它奖励#I"
+
+[接力卷轴·云霄宫二]
+task_type : "卷轴"
+task_attrib : "TASK_ATTRIB_RELAY_SCROLL"
+difficulty : 2
+suggest_level : "150~179级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有几率获得装备：#I随机奖励|装备奖励#I有几率获得好友额外奖励：#I随机奖励|友好度#r战绩#I每轮任务结束时可获得额外奖励：#I随机奖励|其它奖励#I"
+
+[地府·超度亡魂]
+task_type : "剧情"
+suggest_level : "40级及以上"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|功德值#I#I随机奖励|飞行部件#I"
+
+[地府·炼化鬼灵珠]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1~5人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I鬼灵珠|鬼灵珠#I"
+
+[地府·挖掘鬼物]
+task_type : "日常"
+suggest_level : "40级以上"
+suggest_person : "1人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I灵慧|灵慧#I有几率获得：#I随机奖励|飞行法宝梦荷部件#I#I帮派技能卷轴|帮派技能卷轴#I"
+
+[鬼宠任务]
+task_type : "活动"
+difficulty : 5
+suggest_level : "100级以上"
+suggest_person : "5人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I炼狱魔|炼狱魔#I#I狱獒|狱獒#I#I魅灵|魅灵#I#I阴阳师|阴阳师#I#I血丹魂|血丹魂#I"
+
+[地煞星系统任务指引]
+task_type : "指引"
+difficulty : 0
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "无"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[鲲鹏变]
+task_type : "剧情"
+
+[鲲鹏变-北海事起]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "111级及以上"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验4,000,000#I#I随机奖励|110级五改蓝（金）装备#I"
+
+[鲲鹏变—五大灵阵]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "112级及以上"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验4,200,000#I#I随机奖励|110级五改蓝（金）装备#I"
+
+[鲲鹏变—力战鲲鹏]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "113级及以上"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验4,500,000#I#I随机奖励|110级五改蓝（金）装备#I"
+
+[鲲鹏变-寻访后羿]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "114级及以上"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验4,800,000#I#I随机奖励|110级五改蓝（金）装备#I"
+
+[鲲鹏变-斩妖封魔]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "115级及以上"
+suggest_person : "组满5人"
+bonus_info : "#I数值奖励|经验5,000,000#I#I随机奖励|110级五改蓝（金）装备#I"
+
+[地府指引]
+task_type : "指引"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I灵气丹|灵气丹#I#I梦荷|梦荷#I#R说明：完成鬼灵珠指引任务后获得灵气丹，完成所有地府指引任务后获得飞行法宝·梦荷#n"
+
+[姻缘一线牵|【七夕】姻缘一线牵]
+task_type : "活动"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+suggest_level : "40级以上"
+suggest_person : "1~5"
+
+[遥寄心意]
+task_type : "剧情"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1~5"
+
+[捍卫姻缘]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1~5"
+
+[男耕女织]
+task_type : "活动"
+difficulty : 4
+suggest_level : "40级以上"
+suggest_person : "3~5"
+
+[签解姻缘|【七夕】签解姻缘]
+task_type : "活动"
+difficulty : 3
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I"
+
+[【中秋】中秋聚月]
+task_type : "活动"
+difficulty : 1
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+suggest_person : "1人"
+
+[【教师节】师门叛逆]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I"
+
+[【教师节】桃李天下]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I"
+
+[娃娃指引·装备合成]
+task_type : "指引"
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|娃娃对应等级段手镯#I#I其它奖励|娃娃对应等级段脚环#I"
+
+[娃娃指引·亲子活动]
+task_type : "指引"
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|娃娃普通秘笈#I#I其它奖励|娃娃绝技秘笈#I"
+
+[缤纷好礼大派送]
+task_type : "活动"
+suggest_level : "10级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物潜能#I#I数值奖励|人物道行#I#I其它奖励|随机道具#I#I其它奖励|随机宠物#I"
+
+[【娃娃指引·装备合成】]
+task_type : "指引"
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|娃娃对应等级段手镯#I#I其它奖励|娃娃对应等级段脚环#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【娃娃指引·领取双倍】]
+task_type : "指引"
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|娃娃普通秘笈#I#I其它奖励|娃娃绝技秘笈#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[问道玩家回归问卷|【问卷调研】]
+task_type : "功能"
+bonus_info : "#I数值奖励|人物经验#I"
+
+[捕捉精怪]
+task_type : "功能"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|精怪#I有几率获得#I其它奖励|十阶坐骑#I"
+
+[获得娃娃]
+task_type : "功能"
+suggest_level : "60级及以上"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|娃娃#I"
+
+[【活动】榜上有名]
+task_type : "活动"
+bonus_info : "有一定几率额外获得以下奖励：#I随机奖励|神兽奖励#I"
+
+[七星阵]
+task_type : "日常"
+difficulty : 1
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[七星阵|天罡七星阵]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【国庆】筹备晚宴]
+task_type : "活动"
+difficulty : 1
+suggest_level : "20级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#r人物潜能#I#I其它奖励|功勋值#r影木枝#I"
+
+[【国庆】保卫中州]
+task_type : "活动"
+difficulty : 3
+suggest_level : "20级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#r人物潜能#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|功勋值#r影木枝#I"
+
+[娃娃拜师]
+task_type : "剧情"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[娃娃冒险任务|【亲子活动】揽仙镇冒险]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3人以上"
+suggest_level : "40级以上"
+
+[娃娃冒险任务|【亲子活动】东海渔村冒险]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3人以上"
+suggest_level : "40级以上"
+
+[娃娃冒险任务|【亲子活动】无名小镇冒险]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3人以上"
+suggest_level : "40级以上"
+
+[【光棍节】捣乱的小妖]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【光棍节】我的生活方式]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【亲子】拯救小熊]
+task_type : "活动"
+difficulty : 3
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|金钱奖励#I#I其它奖励|娃娃装备#I#I其它奖励|娃娃秘笈#I#I其它奖励|百年黑熊#I"
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+
+[【感恩节活动】幸存的火鸡|【感恩节】幸存的火鸡]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3人以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【万圣节】化妆舞会]
+task_type : "活动"
+difficulty : 3
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+suggest_level : "10级以上"
+suggest_person : "3~5人"
+
+[【圣诞】圣诞狂欢]
+task_type : "活动"
+difficulty : 3
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|宠物武学#I#I数值奖励|宠物经验#I#I随机奖励|道具奖励#I"
+suggest_level : "80~140级"
+suggest_person : "3~5人"
+
+[太虚圣境]
+difficulty : 1
+suggest_level : "10级及以上"
+suggest_person : "3人以上"
+bonus_info : "#I数值奖励|法宝道法#I#I数值奖励|人物潜能#I#I代金券奖励|代金券奖励#I"
+
+[【元旦】百花仙子]
+task_type : "活动"
+difficulty : 3
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|花仙子的祝福#I"
+suggest_level : "40级以上"
+suggest_person : "3人以上"
+
+[二十八星宿挑战]
+task_type : "日常"
+difficulty : 3
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有几率获得#I随机奖励|法宝#I"
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+
+[帮派日常挑战]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1-5人"
+bonus_info : "#I数值奖励|帮贡奖励#I#I数值奖励|帮派活力值#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I#I红木|红木#I有几率获得：#I超级女娲石|超级女娲石#I#I喇叭|喇叭#I#I数值奖励|修为值#I"
+
+[修法炼宝]
+task_type : "日常"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+difficulty : 3
+bonus_info : "#I其它奖励|随机法宝#I"
+suggest_level : "100级及以上"
+suggest_person : "1~5人"
+
+[【寒假】步步高升]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I#I其它奖励|娃娃装备#I#I其它奖励|道具奖励#I "
+
+[【元宵节】元宵大仙]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3人及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|元宵花灯#I"
+
+[【元宵节】闹元宵]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3人及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|变异兽#I"
+
+[【寒假】走亲访友]
+task_type : "活动"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I代金券奖励|代金券奖励#I每轮任务结束时有几率获得：#I随机奖励|随机道具#I"
+suggest_level : "10级以上"
+suggest_person : "1~3人"
+
+[【寒假】日记本]
+task_type : "活动"
+difficulty : 1
+suggest_level : "20级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|宠物经验#I#I随机奖励|道具奖励#I"
+
+[【指引】新法宝系统]
+task_type : "指引"
+bonus_info : "#I随机奖励|限时法宝#I"
+suggest_level : "60级及以上"
+suggest_person : "1人"
+
+[【春节活动】辞旧迎新]
+task_type : "活动"
+difficulty : 2
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|新年宝箱#I"
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【春节活动】百花齐放]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3-5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|新年宝箱#I "
+
+[【春节活动】众仙报喜]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I随机奖励|新年宝箱#I"
+
+[【春节活动】]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|袖珍水晶#r变异兽#I"
+
+[精精儿的秘密]
+task_type : "指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[创帮庆典特殊奖励]
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I数值奖励|帮贡奖励#I#I数值奖励|帮派活力值#I#I数值奖励|人物道行#I#I金钱奖励|金钱奖励#I#I数值奖励|人物潜能#I#I数值奖励|宠物武学#I每轮任务结束时有几率获得：#I超级女娲石|超级女娲石#I#I喇叭|喇叭#I"
+
+[乾坤八卦阵功臣]
+difficulty : 3
+suggest_person : "3人以上"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|帮贡奖励#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|装备、妖石等#I "
+
+[再续问道积分大礼]
+task_type : "活动"
+bonus_info : "#I随机奖励|随机道具#I有一定的几率获得：#I随机奖励|变异宠物#I"
+
+[铲除妖王]
+task_type : "活动"
+difficulty : 5
+bonus_info : "#I随机奖励|随机首饰#I#I随机奖励|随机装备#I#I随机奖励|随机道具#I"
+suggest_person : "3~5人"
+suggest_level : "20级及以上"
+
+[【甜蜜情人节】]
+task_type : "活动"
+difficulty : 3
+suggest_level : "80-140级"
+suggest_person : "2人(异性)"
+bonus_info : "#I数值奖励|魅力值#I前20次可获得以下奖励选一#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【开学庆典】]
+task_type : "活动"
+difficulty : 1,
+suggest_level : "40级以上",
+suggest_person : "3~5人",
+bonus_info : "#I数值奖励|人物经验#r人物道行#I#I随机奖励|九曲玲珑笔#r娃娃装备#r娃娃秘笈#I"
+
+[果果的试炼]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "70级以上"
+suggest_person : "1人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|宠物经验#I#I其它奖励|果果突破等级上限#I80级突破后可获得：#I其它奖励|果果获得天生技能#I"
+
+[【周年】神兽拜福]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【周年】妖族入侵]
+task_type : "活动"
+difficulty : 2
+bonus_info : "数值奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I队长有可能额外获得以下奖励：#I妖族之心|妖族之心#I"
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+
+[【愚人节大冒险活动】]
+task_type : "活动"
+bonus_info : "#I其它奖励|人物任意一项属性效果增加#I#I其它奖励|神秘变身效果、咒语#I有几率抽取#I其它奖励|限时神秘宠物#I"
+
+[【清明还魂祭祖活动】]
+task_type : "活动"
+bonus_info : "#I鬼灵|鬼灵#I#I随机奖励|鬼宠天技秘笈#I#I随机奖励|鬼宠天技秘笈残片#I以下奖励随机#I数值奖励|宠物经验#I#I数值奖励|宠物武学#I"
+
+[【劳动大联欢】]
+task_type : "活动"
+difficulty : 2
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+suggest_person : "3-5人"
+suggest_level : "大于等于40级"
+
+[【周年】九子贺喜]
+task_type : "活动"
+difficulty : 3
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I#I数值奖励|人物战绩#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I "
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+
+[黄金罗盘]
+task_type : "日常"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "任务结束时有几率获得：#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I数值奖励|人物战绩#I#I随机奖励|物品奖励#I"
+
+[【指引】首饰升级指引]
+task_type : "指引"
+bonus_info : "#I数值奖励|人物经验#I "
+
+[押送镖银]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "20级及以上"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|声望值奖励#I"
+
+[【周年】五龙散礼]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[七星拱月]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "70级以上"
+
+[竞技试炼]
+difficulty : 0
+suggest_person : ""
+suggest_level : ""
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|宠物武学#I#I数值奖励|人物潜能#I#I数值奖励|竞技赠点#I"
+
+[九曲玲珑变身]
+task_type : "功能"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【周年】仙子赐福]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|金钱#r代金券#I#I随机奖励|随机道具#I"
+
+[【欢乐儿童节】]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3-5人"
+suggest_level : "大于等于40级"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|童趣礼包#I"
+
+[【欢乐儿童节】幸福许愿]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3-5人"
+suggest_level : "大于等于40级"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|童趣礼包#I"
+
+[【欢乐儿童节】缤纷糖果]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3-5人"
+suggest_level : "大于等于40级"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|童趣礼包#I"
+
+[【新手】初访揽仙镇]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+suggest_person : "1人"
+suggest_level : "1~9级"
+
+[任务卷轴·商城消费]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验600,000#I#I数值奖励|宠物经验600,000#I"
+
+[【新手】除暴安天下]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+suggest_person : "1人"
+suggest_level : "20~29级"
+
+[【新手】五行化天地]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I "
+suggest_person : "1人"
+suggest_level : "30~39级"
+
+[【新手】千里不独行]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+suggest_person : "1人"
+suggest_level : "10~19级"
+
+[【新手】金身略有成]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+suggest_person : "1人"
+suggest_level : "70~79级"
+
+[地府总动员]
+task_type : "活动"
+difficulty : 1
+bonus_info : "有几率获得：#I其它奖励|商城道具#I#I其它奖励|鲁班密卷#I以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+
+[【新手】父子齐上阵]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+suggest_person : "1人"
+suggest_level : "60~69级"
+
+[【新手】窥得成仙道]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+suggest_person : "1人"
+suggest_level : "50~59级 "
+
+[帮派日常挑战指引]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I"
+suggest_person : "1人"
+suggest_level : "50~59级 "
+
+[抽取师徒奖励]
+task_type : "功能"
+difficulty : 0
+bonus_info : "以下奖励随机获得其一：#I随机奖励|商城道具#I#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定概率获得：#I随机奖励|生肖兽#I"
+suggest_level : ""
+suggest_person : "1人"
+
+[【新手】结伴闯天涯]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+suggest_person : "1人"
+suggest_level : "40~49级"
+
+[天罡十绝阵]
+task_type : "日常"
+difficulty : 4
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I每轮任务结束时有几率获得：#I随机奖励|装备奖励#I#I随机奖励|粉材奖励#I"
+suggest_person : "4~5人"
+suggest_level : "100~149级"
+
+[虎符金印]
+difficulty : 2
+suggest_person : "1人以上"
+suggest_level : "20级"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|宠物经验#I有几率获得：#I随机奖励|20级随机首饰#I"
+
+[娃娃日常活动]
+task_type : "日常"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|娃娃经验#I#I数值奖励|娃娃亲密#I有一定几率获得：#I其它奖励|娃娃装备百宝箱#I#I其它奖励|五星娃娃精魂#I40及以上等级娃娃参与活动有一定几率获得：#I其它奖励|娃娃经验心得#I"
+
+[擂台小霸王]
+task_type : "活动"
+difficulty : 3
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|宠物武学#I"
+suggest_person : "5人"
+suggest_level : "60级以上"
+
+[【端午蜜粽抢不停活动】]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及其以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I#I随机奖励|绝味粽子、娃娃装备#I"
+
+[任务卷轴·帮派日常挑战]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物道行3000天（削减前）#I#I数值奖励|宠物武学3400点（削减前）#I"
+
+[仙人巡游|【活动】仙人巡游]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+bonus_info : "数值奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有可能额外获得以下奖励：#I随机奖励|商城道具#I "
+
+[护宝大战]
+task_type : "活动"
+difficulty : 2
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|鲁班密卷#I"
+suggest_person : "1-5人"
+suggest_level : "40级以上"
+
+[【指引】学习阵型-万象宇化]
+task_type : "指引"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "60级及以上"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "无"
+
+[【暑假】小宝游龙宫]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|商城道具#I"
+
+[【暑假】小宝惹人爱]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【暑假】小宝大胃王]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得商城道具奖励#I随机奖励|道具奖励#I"
+
+[【暑假】小宝遇险记]
+task_type : "活动"
+difficulty : 4
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得道具：#I随机奖励|中洲见闻录#I"
+
+[【暑假】小宝育仙树]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得：#I随机奖励|中洲见闻录#I"
+
+[【暑假】小宝斩妖魔]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I"
+
+[【暑假】小宝满载归]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【暑假】小宝护生灵]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选择其一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物战绩#I有一定几率获得：#I其它奖励|中洲见闻录#I#I随机奖励|商城道具#I"
+
+[订购乾坤锁]
+task_type : "功能"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[化解仇恨]
+task_type : "剧情"
+bonus_info : "#I随机奖励|白色装备#I"
+
+[【双节庆】桂香金秋]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【双节庆】牧野之战]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【周活动】盛妆舞会]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|特殊道具#I#I其它奖励|鲁班密卷#I"
+
+[【周活动】百兽盛宴]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物潜能#I以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I额外终极奖励：#I其它奖励|随机道具#I#I其它奖励|鲁班密卷#I"
+
+[【双节庆】举国同庆]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1-5人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I#I盛世奇宝|盛世奇宝#I"
+
+[【双节庆】盛世奇宝]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3-5人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I有一定几率获得：#I其它奖励|娃娃装备、秘笈、绝技等#I#I其它奖励|袖珍黄水晶、特殊道具#I"
+
+[【双节庆】桂仙考验]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I#I随机奖励|娃娃装备、秘笈、绝技#r袖珍黑水晶#I"
+
+[【双节庆】五行之神]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I触发隐藏战斗将获得以下奖励：#I随机奖励|道具奖励#I"
+
+[【十二生肖挑战】]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|道具奖励#I#I其它奖励|鲁班密卷#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[仙人指路]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "50~99级（元婴或血婴为50~129级）"
+bonus_info : "#I数值奖励|人物经验、人物道行#I#I数值奖励|宠物经验、宠物武学#I#I随机奖励|道具奖励#I"
+
+[仙人指路（队长）]
+task_type : "日常"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "50~99级（元婴或血婴为50~129级）"
+bonus_info : "#I数值奖励|人物经验、人物道行#I#I数值奖励|宠物经验、宠物武学#I#I随机奖励|道具奖励#I"
+
+[高级仙人指路]
+task_type : "日常"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "50级及其以上"
+bonus_info : "#I数值奖励|人物经验、人物道行#I#I数值奖励|宠物经验、宠物武学#I#I随机奖励|道具奖励#I"
+
+[高级仙人指路（队长）]
+task_type : "日常"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "50级及其以上"
+bonus_info : "#I数值奖励|人物经验、人物道行#I#I数值奖励|宠物经验、宠物武学#I#I随机奖励|道具奖励#I"
+
+[职业分化·木系]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "130级以上"
+suggest_person : "组满5人"
+bonus_info : "#I随机奖励|引灵幡功能开启#I#R说明：可使用灵引幡界面#n"
+
+[职业分化·火系]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "130级以上"
+suggest_person : "组满5人"
+bonus_info : "#I随机奖励|引灵幡功能开启#I#R说明：可使用灵引幡界面#n"
+
+[职业分化·金系]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "130级以上"
+suggest_person : "组满5人"
+bonus_info : "#I随机奖励|引灵幡功能开启#I#R说明：可使用灵引幡界面#n"
+
+[龙宫献艺]
+task_type : "日常"
+difficulty : 1
+suggest_level : "100级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I排名前三名可获得：#I随机奖励|特殊称谓#I"
+
+[职业分化·土系]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "130级以上"
+suggest_person : "组满5人"
+bonus_info : "#I随机奖励|引灵幡功能开启#I#R说明：可使用灵引幡界面#n"
+
+[职业分化·水系]
+task_type : "剧情"
+difficulty : 4
+suggest_level : "130级以上"
+suggest_person : "组满5人"
+bonus_info : "#I随机奖励|引灵幡功能开启#I#R说明：可使用灵引幡界面#n"
+
+[结拜任务]
+task_type : "剧情"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+difficulty : 3
+suggest_level : "50级以上"
+suggest_person : "2~5人"
+bonus_info : "#I其它奖励|特殊称谓#I"
+
+[居所任务]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I其它奖励|打造斧子#I#I其它奖励|鲁班密卷#I"
+
+[【引灵幡】奇术炼魂]
+task_type : "日常"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+difficulty : 3
+suggest_level : "130级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|炼魂值#I有几率获得：#I随机奖励|引灵幡#I"
+
+[【引灵幡】极速追魂]
+task_type : "日常"
+difficulty : 1
+suggest_level : "130级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|炼魂值#I有几率获得：#I随机奖励|引灵幡#I"
+
+[夺宝奇兵]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "3-5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I随机奖励|道具奖励#I"
+
+[地藏王传·坠入地狱]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "122~124级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值7,300,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[地藏王传·脱离鬼道]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "119级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值6,400,000#I#I随机奖励|110级改5蓝（金）装备一件#I"
+
+[地藏王传·游魂委托]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "116级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值5,500,000#I#I随机奖励|110级改5蓝（金）装备一件#I"
+
+[地藏王传·龙宫寻道]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "118级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值6,100,000#I#I随机奖励|110级改5蓝（金）装备一件#I"
+
+[地藏王传·解救目连]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "123级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值7,600,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[地藏王传·寻找目连]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "117级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值5,800,000#I#I随机奖励|110级改5蓝（金）装备一件#I"
+
+[地藏王传·脱离之法]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "120~122级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励| 经验值6,700,000#I#I随机奖励| 120级改5蓝（金）装备一件#I"
+
+[元神合体]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "130级以上"
+suggest_person : "1~5人"
+
+[地藏王传·转世回生]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "121~123级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励| 经验值7,000,000#I#I随机奖励| 120级改5蓝（金）装备一件#I"
+
+[地藏王传·入地狱道]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "124级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值7,900,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[地藏王传·超度亡灵]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "125级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验值8,200,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[【感恩节】焰火晚会]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【光棍节】激情挑战]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及其以上"
+suggest_person : "3-5人"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I有一定几率获得：#I其它奖励|娃娃装备、秘笈、绝技等#I#I其它奖励|商城道具#I"
+
+[【光棍节】激情欢乐]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及其以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行或人物经验#I#I随机奖励|激情令牌#I"
+
+[【重阳节】重阳敬老]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【周活动】门派历练]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I随机奖励|道具奖励#I#I其它奖励|鲁班密卷#I"
+
+[飞仙渡邪]
+task_type : "日常"
+difficulty : 3
+suggest_level : "150级以上"
+suggest_person : "3~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I#I数值奖励|修为值#I每轮任务结束时有几率获得：#I随机奖励|特殊奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[南天门试炼]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "150级及以上"
+suggest_person : "3人及以上"
+bonus_info : "#I其它奖励|角色数值效果提升！#I"
+
+[寻仙任务]
+task_type : "日常"
+difficulty : 4
+suggest_level : "140~180级"
+suggest_person : "4~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励| 粉材奖励#I每轮任务结束时有几率获得：#I随机奖励|装备奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[寻仙任务（队长）]
+task_type : "日常"
+difficulty : 4
+suggest_level : "140~180级"
+suggest_person : "4~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励| 粉材奖励#I每轮任务结束时有几率获得：#I随机奖励|装备奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[【指引】居所系统]
+task_type : "指引"
+difficulty : 1
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|打造斧子#I"
+
+[宠物羽化修炼]
+task_type : "剧情"
+difficulty : 1
+suggest_person : "1"
+suggest_level : "40以上"
+bonus_info : "#I羽化丹|羽化丹#I有几率获得以下奖励：#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I"
+
+[宠物羽化飞仙]
+task_type : "剧情"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I其它奖励|开启宠物羽化#I"
+
+[天罡寻仙任务]
+task_type : "日常"
+difficulty : 4
+suggest_level : "140~180级"
+suggest_person : "4~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|粉材奖励#I每轮任务结束时必定获得：#I随机奖励|装备奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[天罡寻仙任务（队长）]
+task_type : "日常"
+difficulty : 4
+suggest_level : "140~180级"
+suggest_person : "4~5人"
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|粉材奖励#I每轮任务结束时必定获得：#I随机奖励|装备奖励#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I"
+
+[【迎新年】压岁红包]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【寒假】营救教众]
+task_type : "活动"
+difficulty : 2
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|茅山教友好值#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【寒假】挽救茅山教]
+task_type : "活动"
+difficulty : 1
+suggest_level : "60级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|特殊称谓：茅山教守卫者#I#I数值奖励|茅山教友好值#I"
+
+[【寒假】勇战魔王]
+task_type : "活动"
+difficulty : 4
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|茅山教友好值#I每场战斗结束后有几率获得：#I随机奖励|商城道具#I"
+
+[茅山教反击战斩妖除魔]
+task_type : "活动"
+difficulty : 2
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|茅山教友好值#I以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[茅山教防卫战携将上阵]
+task_type : "活动"
+difficulty : 4
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|商城道具#I#I数值奖励|茅山教友好值#I"
+
+[【寒假】刺杀妖魔]
+task_type : "活动"
+difficulty : 2
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|茅山教友好值#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I"
+
+[【寒假】构筑防御]
+task_type : "活动"
+difficulty : 4
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|茅山教友好值#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[任务卷轴·力破千钧]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验15,000#I#I数值奖励|宠物经验15,000#I"
+
+[建设纪念塔]
+task_type : "日常"
+bonus_info : "#I数值奖励|活跃度#r建设度#I"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1-5人"
+
+[【圣诞】苹果送福]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【圣诞】仙兽赐福]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|金钱#r代金券#I#I随机奖励|随机道具#I"
+
+[【元旦辞旧迎新活动】]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及其以上"
+suggest_person : "3-5人"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I#I随机奖励|特殊道具、娃娃装备#I "
+
+[【吉祥赐福】]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【迎新年】好礼相送]
+task_type : "活动"
+bonus_info : "随机获得以下奖励：#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I随机奖励|道具奖励#I#I随机奖励|满属性装备#I"
+
+[【迎新年】驱逐年兽]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I随机奖励|家具打造材料#I"
+
+[【迎新年】喜迎新春]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及其以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【迎新年】万家灯火]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I随机奖励|家具打造材料#I"
+
+[【迎新年】灶神赐福]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及其以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|娃娃装备、秘笈、绝技#I "
+
+[【迎新年】吉星送喜]
+task_type : "活动"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+
+[【情人节】爱意飘飘]
+task_type : "活动"
+bonus_info : "以下奖励选一#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|随机奖励#I"
+
+[【情人节】玫瑰寄情]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I其它奖励|随机奖励#I"
+
+[【情人节】寄托姻缘]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I其它奖励|随机奖励#I"
+
+[【元宵节】欢乐猜灯谜]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "答题胜利可以获得：#I其它奖励|元宵积分#I以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【元宵节】喜庆送汤圆]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "战斗胜利及提交任务时可以获得：#I其它奖励|元宵积分#I以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[天罡十绝阵（队长）]
+task_type : "日常"
+difficulty : 4
+bonus_info : "#I金钱奖励|金钱奖励#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I每场战斗结束有几率获得：#I其它奖励|天赋技能石#r天赋魂兽石#I每轮任务结束时有几率获得：#I随机奖励|装备奖励#I#I随机奖励|粉材奖励#I"
+suggest_person : "4~5人"
+suggest_level : "100~149级"
+
+[帮派大战]
+task_type : "活动"
+bonus_info : "#I数值奖励|帮战活跃值#I#I数值奖励|战绩#I#I数值奖励|帮贡#I"
+
+[任务卷轴·仙人指路]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验200,000#I#I数值奖励|宠物经验200,000#I"
+
+[【愚人节】宝箱大冒险]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I "
+
+[【愚人节】舞会变变变]
+task_type : "活动"
+bonus_info : "#I其它奖励|愚人积分#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【植树节】绿化中洲]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得如下奖励：#I随机奖励|商城道具#I"
+
+[【活动】清明祭扫]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "3人或3人以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【指引】学习引灵幡技能]
+task_type : "指引"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "130级以上 "
+bonus_info : "#I一阶引灵幡|一阶引灵幡#I#I二阶引灵幡|二阶引灵幡#I#I三阶引灵幡|三阶引灵幡#I#I四阶引灵幡|四阶引灵幡#I"
+
+[【七周年】喜迎周年]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|金钱#r代金券#I#I随机奖励|随机道具#I"
+
+[【七周年】真情红包]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I其它奖励|七周年纪念宠#I#I七周年纪念卡|七周年纪念卡#I"
+
+[【七周年】一战到底]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I#I数值奖励|人物战绩#I有一定几率额外获得以下奖励：#I七周年纪念卡|七周年纪念卡#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【七周年】普天同庆]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1-5人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I#I天降洪福|天降洪福#I#I七周年纪念卡|七周年纪念卡#I战胜盛世长乐神有几率获得如下奖励：#I其它奖励|七周年纪念宠#I#I其它奖励|商城道具#I携带娃娃参战有几率获得：#I其它奖励|娃娃装备、秘笈等#I"
+
+[【七周年】天降洪福]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3-5人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I#I七周年纪念卡|七周年纪念卡#I战胜盛世长乐神有几率获得如下奖励：#I其它奖励|七周年纪念宠#I#I其它奖励|商城道具#I携带娃娃参战有几率获得：#I其它奖励|娃娃装备、秘笈等#I"
+
+[八仙梦境|八仙梦境·曹国舅]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[【封神榜】妖狐夺舍]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】梦入封神]
+task_type : "日常"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "60级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【封神榜】四门绝阵]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【活动】寻找九子]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[驱鬼避凶]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[勇闯万妖窟]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1-5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I金钱奖励|金钱奖励#I有一定几率额外获得以下奖励：#I随机奖励|装备奖励#I#I随机奖励|随机道具#I"
+
+[【封神榜】苏护献女]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】冀州之战]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|封神积分#I"
+
+[封神随机任务]
+task_type : "日常"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|封神积分#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【活动】抓捕烂赌鬼]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人或1人以上"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|经验奖励#r宠物经验#I#I数值奖励|道行奖励#r宠物武学#I"
+
+[【儿童节】消失的糖果]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "1-5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|娃娃相关道具#I上榜玩家可获得：#I随机奖励|道具奖励#I"
+
+[地府·还魂]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|功德值#I#I随机奖励|飞行部件#I"
+
+[地府·转生]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|功德值#I"
+
+[【活动】天降好礼]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "10级以上"
+bonus_info : "以下奖励随机获得：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得以下奖励：#I随机奖励|道具奖励#I"
+
+[【劳动节】劳动最光荣]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "第一阶段：1~5人；第二阶段：3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【端午节】喜迎欢乐粽]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|商城道具#I"
+
+[【端午节】端午欢乐粽]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I活动期间正确使用道具：#I随机奖励|商城道具#I"
+
+[蟠桃园争夺战]
+task_type : "活动"
+difficulty : 2
+suggest_level : "100级以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得如下奖励：#I随机奖励|商城道具#I"
+
+[天鉴神兵]
+task_type : "功能"
+bonus_info : "#I随机奖励|鉴定满属性装备#I"
+
+[阵型修炼]
+task_type : "日常"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|阵型熟练度#I有一定概率获得：#I万象宇化丹|万象宇化丹#I"
+
+[寻找高级首饰材料]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "150级以上"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "以下道具可随机获得：#I星辰玄铁|星辰玄铁#I#I乌金残片|乌金残片#I#I水晶原石|水晶原石#I"
+
+[【七周年】神兽下凡]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【七周年】梦回封神]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "数值奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I队长有可能额外获得以下奖励：#I三魂七魄|三魂七魄#I每场战斗胜利后有几率获得以下奖励：#I七周年纪念卡|七周年纪念卡#I"
+
+[【七周年】星君历练]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3-5人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行、宠物武学#I#I数值奖励|人物经验、宠物经验#I#I其它奖励|随机奖励#I"
+
+[【七周年】莲灯祈福]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3-5人"
+suggest_level : "40级及其以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I其它奖励|商城道具、鸿钧神石#I#I七周年纪念卡|七周年纪念卡#I#I其它奖励|七周年纪念宠#I"
+
+[八仙梦境|八仙梦境·八仙过海]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I随机奖励|随机道具#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[八仙梦境|八仙梦境·铁拐李]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[八仙梦境|八仙梦境·蓝采和]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[中洲争霸战]
+task_type : "日常"
+difficulty : 0
+suggest_level : ""
+suggest_person : ""
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【中洲争霸战】建筑升级]
+task_type : "日常"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|建筑经验#I"
+
+[【天降神石】貔貅星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I代金券奖励|代金券奖励#I#I随机奖励|无天技鬼仙#r或强化五次三天技鬼王#I"
+
+[【天降神石】嘲风星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|三天技九子变异或三天技神兽#I"
+
+[【天降神石】囚牛星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|三天技九子变异或三天技神兽#I"
+
+[【天降神石】狴犴星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|无天技鬼仙或强化五次三天技鬼王#I"
+
+[【天降神石】睚眦星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|三天技九子变异或三天技神兽#I"
+
+[【天降神石】蒲牢星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|三天技九子变异或三天技神兽#I"
+
+[【天降神石】霸下星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|三天技九子变异或三天技神兽#I"
+
+[【天降神石】饕餮星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|三天技九子变异或三天技神兽#I"
+
+[【天降神石】鳌鱼星图]
+task_type : "功能"
+difficulty : 4
+suggest_level : "与队长等级相当"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|无天技鬼仙或强化五次三天技鬼王#I"
+
+[人宠合体]
+task_type : "剧情"
+difficulty : 1
+suggest_person : "1~5人"
+bonus_info : "#I其它奖励|获得人宠合体技能#I"
+
+[七星聚会挑战]
+task_type : "日常"
+difficulty : 5
+suggest_person : "3~5人"
+suggest_level : "60级及以上"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+drop_tip : "你取消了#R七星聚会挑战#n任务，可到#P七星战神#P处重新申请挑战！"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【活动】驱鬼避凶]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【指引】天降神石]
+task_type : "指引"
+bonus_info : "道具奖励：#I无相石·一|无相石·一#I"
+
+[【父亲节】父爱如山]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I"
+
+[【母亲节】慈母之爱]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I母亲节礼包|母亲节礼包#I有一定概率获得：#I数值奖励|娃娃经验#I#I随机奖励|娃娃相关道具#I "
+
+[【暑假】仙女试炼]
+task_type : "活动"
+difficulty : 4
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得道具：#I玄天玉梭|玄天玉梭#I#I异兽选票|异兽选票#I携带娃娃参战有一定几率获得道具：#I随机奖励|娃娃装备#I"
+
+[【暑假】仙女送福]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1~3人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I每轮任务结束时有几率获得：#I随机奖励|随机道具#I#I玄天玉梭|玄天玉梭#I#I异兽选票|异兽选票#I"
+
+[【暑假】异兽选美]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得商城道具奖励：#I随机奖励|道具奖励#I"
+
+[【暑假】仙女赏花]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I#I异兽选票|异兽选票#I#I玄天玉梭|玄天玉梭#I"
+
+[【转世】灵物转世]
+task_type : "剧情"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "60级以上"
+bonus_info : "#I其它奖励|法宝转世#I"
+
+[【教师节】师门试炼]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【国庆节】天赐神宠]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人 "
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【国庆节】仙人指点]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|经验奖励#I#I数值奖励|道行奖励#I有一定几率获得：#I随机奖励|商城道具#I"
+
+[【国庆节】与仙同乐]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|神仙附体效果#I"
+
+[【国庆节】真假仙人]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|经验奖励#r宠物经验#I#I数值奖励|道行奖励#r宠物武学#I"
+
+[【暑假】仙女授道]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I随机奖励|道具奖励#I#I异兽选票|异兽选票#I#I玄天玉梭|玄天玉梭#I"
+
+[挑战六道]
+task_type : "功能"
+difficulty : 5
+suggest_person : "5人"
+suggest_level : "40级及以上"
+bonus_info : "#I其它奖励|宠物轮回技能#I"
+
+[【中秋节】玉兔送礼]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1-5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|随机道具#I "
+
+[【七夕】保卫鹊桥]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "数值奖励任选其一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定几率获得以下奖励：#I其它奖励|道具奖励#I"
+
+[【爱我中华】击杀倭奴]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I其它奖励|商城道具#I#I其它奖励|尊荣称谓#I"
+
+[【暑假】仙宠送礼]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I异兽选票|异兽选票#I#I随机奖励|商城道具#I"
+
+[【暑假】仙女奇闻]
+task_type : "活动"
+bonus_info : "提交无量心经后可获得：#I数值奖励|人物经验#I提交无量心经后有几率获得：#I玄天玉梭|玄天玉梭#I"
+
+[千宝宫]
+task_type : "日常"
+difficulty : 5
+suggest_person : "2~5人"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|友好度#I以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备奖励#I选择装备奖励时有一定几率获得如下奖励：#I随机奖励|满属性装备奖励#I有一定几率额外获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I"
+
+[【新手】1-9级新手任务]
+task_type : "指引"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "1~9级"
+bonus_info : "#I数值奖励|人物经验#I#I代金券奖励|代金券奖励#I"
+
+[【新手】20-29级新手任务]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I代金券奖励|代金券奖励#I"
+suggest_person : "1人"
+suggest_level : "20~29级"
+
+[【新手】30-39级新手任务]
+task_type : "指引"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "30~39级"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I#I代金券奖励|代金券奖励#I"
+
+[探索世界任务|【探索】青蛙王子]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【指引】法宝转世系统]
+task_type : "指引"
+bonus_info : "#I随机奖励|限时法宝#I"
+
+[【新手】10-19级新手任务]
+task_type : "指引"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "10~19级"
+bonus_info : "#I数值奖励|人物经验#I#I代金券奖励|代金券奖励#I"
+
+[探索世界任务|【探索】救死扶伤]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[探索世界任务|【探索】渔村祈雨]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "10级以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[探索世界任务|【探索】真假幻妖]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[探索世界任务|【探索】不义之财]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[探索世界任务|【探索】风月谷梦境]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【指引】中洲争霸建筑升级]
+task_type : "指引"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励二选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[探索世界任务|【探索】眼疾手快]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【指引】奇宝斋系统]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "指引"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[奇宝斋之星]
+task_type : "日常"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I "
+
+[【领取】奇宝斋之星奖励]
+task_type : "功能"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I "
+
+[提亲任务]
+task_type : "剧情"
+difficulty : 1
+suggest_person : "2人"
+bonus_info : "#I其它奖励|夫妻同心技能#I#I其它奖励|夫妻称谓#I"
+
+[【新手】40-49级新手任务]
+task_type : "指引"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40~49级"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I#I代金券奖励|代金券奖励#I"
+
+[相逢意气为君饮]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "2人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有几率获得：#I特效仙风散|特效仙风散#I"
+
+[【新手】50-59级新手任务]
+task_type : "指引"
+difficulty : 1
+suggest_level : "50~59级"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I代金券奖励|代金券奖励#I"
+
+[襄助道友驱邪灵]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~2人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|友好度奖励#I有一定几率获得：#I随机奖励|商城道具#I"
+
+[【新手】70-79级新手任务]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I代金券奖励|代金券奖励#I"
+suggest_person : "1人"
+suggest_level : "70~79级"
+
+[【新手】60-69级新手任务]
+task_type : "指引"
+difficulty : 1
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I代金券奖励|代金券奖励#I"
+suggest_person : "1人"
+suggest_level : "60~69级"
+
+[【重阳节】重阳祈福]
+task_type : "活动"
+difficulty : 1
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+suggest_person : "1人"
+suggest_level : "40级以上"
+
+[【重阳节】敬老尊贤]
+task_type : "活动"
+difficulty : 1
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有几率获得道具奖励：#I随机奖励|道具奖励#I"
+suggest_person : "1人"
+suggest_level : "40级以上"
+
+[【光棍节】妖怪不过光棍节]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3人以上"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I真爱之心|真爱之心#I"
+
+[【光棍节】真爱祝福]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|商城道具#I "
+
+[【指引】坐骑天赋系统]
+task_type : "指引"
+bonus_info : "以下奖励二选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【功能】重置加点]
+task_type : "功能"
+bonus_info : "#I随机奖励|重置你当前的加点#I"
+
+[【指引】学习物理法术合击]
+task_type : "指引"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "100级及其以上"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[80级游戏指引]
+task_type : "指引"
+bonus_info : "#I数值奖励|经验16000#I#I数值奖励|潜能48000#I#I数值奖励|道行160天（削减前）#I#I其它奖励|袖珍绿水晶#I"
+
+[【新手】领取装备v4]
+task_type : "指引"
+bonus_info : "#I随机奖励|装备奖励#I"
+
+[【元旦】共襄盛举]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I#I其它奖励|天赋技能石#I"
+
+[【圣诞节】拯救圣诞雪人]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I其它奖励|天赋技能石#I"
+
+[【圣诞节】马虎的圣诞老人]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励随机获得其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I还有一定几率获得：#I随机奖励|道具奖励#I"
+
+[探索世界任务|【探索】为民除害]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[武状元争夺赛]
+task_type : "活动"
+bonus_info : "获得官职的玩家可获得：#I数值奖励|荣誉值#I#I随机奖励|道具奖励#I"
+
+[鸿运当头]
+bonus_info : "#I其它奖励|预定道具#I"
+
+[【活动】输送物资]
+task_type : "活动"
+difficulty : 3
+suggest_person : "5人"
+suggest_level : "60级以上"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【封神榜】杀子诛妻]
+difficulty : 3
+task_type : "日常"
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】妲己化妖]
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+task_type : "日常"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】狐妖成妃]
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+task_type : "日常"
+bonus_info : "	以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I "
+
+[挑战紫微星君]
+difficulty : 5
+suggest_level : "100级以上"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|宠物经验#I#I数值奖励|宠物武学#I有几率获得：#I其它奖励|道具奖励#I"
+
+[【封神榜】拒谏杀忠]
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+task_type : "日常"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【体验服】升级元宝送不停]
+task_type : "活动"
+bonus_info : "#I金钱奖励|体验服银元宝#I"
+
+[【体验服】冲成就领大奖]
+task_type : "活动"
+bonus_info : "#I金钱奖励|金、银元宝奖励#I#I其它奖励|变异、神兽奖励#I"
+
+[古树仙境]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "#R指定副本模式数值奖励将提升30%#n#I其它奖励|装备奖励#I以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备奖励#I选择装备奖励时有一定几率获得如下奖励：#I随机奖励|满属性装备奖励#I有一定几率额外获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[桃花谷]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "#R指定副本模式数值奖励将提升30%#n#I其它奖励|装备奖励#I以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|装备奖励#I选择装备奖励时有一定几率获得如下奖励：#I随机奖励|满属性装备奖励#I有一定几率额外获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I超级女娲石|超级女娲石#I#I其它奖励|符文宝箱#I#I其它奖励|天赋技能石#r天赋魂兽石#I#I随机奖励|特殊奖励#I#I数值奖励|修为值#I"
+
+[【副本挑战】徒劳无功]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励任选一：#I数值奖励|副本数值奖励提升20%#I#I其它奖励|获得满属性装备概率提升20%#I"
+
+[【副本挑战】四回屠魔]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励任选一：#I数值奖励|副本数值奖励提升20%#I#I其它奖励|获得满属性装备概率提升20%#I"
+
+[【副本挑战】八回屠魔]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励任选一：#I数值奖励|副本数值奖励提升20%#I#I其它奖励|获得满属性装备概率提升20%#I"
+
+[【副本挑战】无力回天]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励任选一：#I数值奖励|副本数值奖励提升20%#I#I其它奖励|获得满属性装备概率提升20%#I"
+
+[【副本挑战】休想复生]
+task_type : "日常"
+difficulty : 5
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励任选一：#I数值奖励|副本数值奖励提升20%#I#I其它奖励|获得满属性装备概率提升20%#I"
+
+[杀气腾腾]
+suggest_person : "1~5人"
+
+[探索世界任务|【探索】临危受命]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[探索世界任务|【探索】手舞足蹈]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[探索世界任务|【探索】秘密召唤]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【骏马迎春】瑞雪祈福]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1-5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I其它奖励|商城道具#I #I其它奖励|雪人祈福#I"
+
+[【骏马迎春】奇珍异宝]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[【骏马迎春】新春献礼]
+task_type : "活动"
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[探索世界任务|【探索】幻境探险]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【情人节】缘来是你]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "可使用情缘积分兑换以下任一奖励：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I本次活动累计获得45点积分即可获得如下奖励：#I其它奖励|紫色称谓“千里姻缘一线牵”#I"
+
+[【情人节】天佑有情人]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I随机奖励|道具奖励#I"
+
+[【元宵节】制花灯闹元宵]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1人"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[探索世界任务|【探索】养育娃娃]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I #I数值奖励|人物道行#r宠物武学#I"
+
+[【骏马迎春】年兽入侵]
+task_type : "活动"
+suggest_person : "3~5人"
+difficulty : 3
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I "
+
+[【骏马迎春】迎春序曲]
+task_type : "活动"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+
+[【寒假】天墉来客]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【骏马迎春】五福临门]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【龙血之精】]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+difficulty : 5
+suggest_level : "100级及以上"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定几率额外获得以下奖励：#I随机奖励|特殊奖励#I"
+
+[探索世界任务|【探索】宝箱大冒险]
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励任选一：#I数值奖励|人物经验#r宠物经验#I #I数值奖励|人物道行#r宠物武学#I"
+
+[【骏马迎春】战马出征]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I "
+
+[【寒假】凝聚法术]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【寒假】护送密件]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I#I仙元草|仙元草#I"
+
+[【寒假】饱读诗书]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I随机奖励|道具奖励#I#I仙元草|仙元草#I"
+
+[【寒假】画中寻人]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[道法双修]
+task_type : "功能"
+
+[满怪遇敌]
+task_type : "功能"
+
+[【寒假】食全食美]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1～5人"
+suggest_level : "40级及以上"
+bonus_info : "#I其它奖励|食材奖励#I每场战斗结束后有几率获得：#I随机奖励|商城道具#I"
+
+[【寒假】烹饪菜肴]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1～5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I仙元草|仙元草#I"
+
+[【鸿蒙新貌】]
+task_type : "功能"
+
+[【新服】鸿蒙新貌]
+task_type : "功能"
+
+[【第二门派·鸿蒙新貌】]
+task_type : "功能"
+
+[【寒假】排忧解难]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I每天前三名最快完成任务者：#I随机奖励|商城道具#I"
+
+[【活动】封神比武]
+difficulty : 2
+suggest_level : "130级以上"
+suggest_person : "3~5人"
+
+[老兵不死积分大礼]
+task_type : "活动"
+bonus_info : "#I随机奖励|随机道具#I有一定的几率获得：#I随机奖励|变异宠物#I"
+
+[任务卷轴·占星问道]
+task_type : "等级指引"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+bonus_info : "#I数值奖励|人物经验2,500#I#I数值奖励|宠物经验2,500#I"
+
+[【时事】时事预测]
+task_type : "活动"
+bonus_info : "若预测正确可获得：#I金钱奖励|金钱奖励#I"
+
+[【植树节】种树抗沙]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|商城道具#I"
+
+[【愚人节】百变怪来袭]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I还有一定几率获得：#I椒盐鱼尾|椒盐鱼尾#I"
+
+[【儿童节】元灵巡游]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选择其一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I元灵精魄|元灵精魄#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I"
+
+[【八周年】中洲共庆]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【八周年】天马行空]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【端午节】粽叶飘香]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【八周年】周年大礼]
+task_type : "活动"
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I随机奖励|八周年纪念宠#I"
+
+[【八周年】师妹情深]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|纪念宠#I"
+
+[【八周年】元灵贺喜]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I随机奖励|特殊奖励#I"
+
+[【八周年】护送师妹]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【八周年】妖兽入侵]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【八周年】同门切磋]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有一定概率获得：#I随机奖励|道具奖励#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【母亲节】温暖母爱]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I其它奖励|花束奖励#I每场战斗结束后有几率获得：#I随机奖励|商城道具#I#I随机奖励|娃娃道具#I"
+
+[【母亲节】献花]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每次任务完成后有几率获得：#I随机奖励|娃娃道具#I"
+
+[【清明节】纸鸢纷飞]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【老兵不死】老兵的试炼]
+task_type : "活动"
+difficulty : 3
+suggest_level : "80级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|经验奖励#r宠物经验#I#I数值奖励|道行奖励#r宠物武学#I#I数值奖励|潜能奖励#I#I数值奖励|战绩奖励#I有一定几率获得：#I超级女娲石|超级女娲石#I#I随机奖励|随机魂兽石#I"
+
+[曾记否]
+task_type : "功能"
+difficulty : 3
+suggest_person : "1人"
+
+[【活动】游城]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I有几率获得：#I随机奖励|道具奖励#I"
+
+[斗宠大会]
+task_type : "日常"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "100级以上"
+bonus_info : "#I数值奖励|宠物经验#I#I数值奖励|宠物武学#I排名前三名可获得：#I随机奖励|特殊称谓#I"
+
+[后羿射日·小惩大诫]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "128级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|经验值9,100,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[【战棋】体验活动]
+task_type : "活动"
+difficulty : 1
+suggest_level : "无"
+suggest_person : "1人"
+bonus_info : "#I其它奖励|银元宝奖励#I"
+
+[后羿射日·十个太阳]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1人以上"
+suggest_level : "126级以上"
+bonus_info : "#I数值奖励|经验值8,500,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[后羿射日·寻找祸源]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1人以上"
+suggest_level : "127级以上"
+bonus_info : "#I数值奖励|经验值8,800,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[后羿射日·下定决心]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "129级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值9,400,000#I#I随机奖励|120级改5蓝（金）装备一件#I"
+
+[后羿射日·大功告成]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "134级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值10,900,000#I#I随机奖励|130级改5蓝（金）装备一件#I"
+
+[后羿射日·不堪重负]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "133级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值10,600,000#I#I随机奖励|130级改5蓝（金）装备一件#I"
+
+[后羿射日·为民除害]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "130级及以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值9,700,000#I#I随机奖励|130级改5蓝（金）装备一件#I"
+
+[后羿射日·保护族人]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "131级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值10,000,000#I#I随机奖励|130级改5蓝（金）装备一件#I"
+
+[后羿射日·恢复平静]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1人以上"
+suggest_level : "135级以上"
+bonus_info : "#I数值奖励|经验值11,200,000#I#I随机奖励|130级改5蓝（金）装备一件#I"
+
+[【六星成就】天鹅肉]
+difficulty : 1
+suggest_person : "1人"
+bonus_info : "#I九曲玲珑笔·至尊吉祥蛙|九曲玲珑笔·至尊吉祥蛙#I#I其它奖励|六星成就#I"
+
+[【六星成就】帮助乞丐]
+difficulty : 1
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#I#I其它奖励|六星成就#I#I其它奖励|秘密#I"
+
+[后羿射日·斩草除根]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "132级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值10,300,000#I#I随机奖励|130级改5蓝（金）装备一件#I"
+
+[新30环连环]
+task_type : "日常"
+difficulty : 2
+suggest_level : "50级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|任务积分#I30环任务完成时有几率获得如下奖励：#I其它奖励|道具奖励#I#I金钱奖励|金钱奖励#I"
+
+[【封神榜】姬伯朝商]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】哪吒闹海]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】子牙下山]
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+task_type : "日常"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】绝境营救]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【战棋】好礼相赠活动]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "无 "
+bonus_info : "#I其它奖励|商城道具、战棋卡包、全局双倍#I"
+
+[【七夕节】共搭鹊桥]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【感恩父亲】温馨父爱 ]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|随机道具#I"
+
+[【中华崛起】抗击倭寇]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I其它奖励|商城道具#I#I其它奖励|尊荣称谓#I"
+
+[天道神符兑换]
+task_type : "功能"
+
+[【暑假】封神竞技积分]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I提交无量心经兑换有几率获得：#I封神勋章|封神勋章#I"
+
+[【暑假】中洲寻令]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神竞技积分#I有几率获得：#I封神勋章|封神勋章#I"
+
+[【暑假】巡视安民]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~3人"
+bonus_info : "每环任务结束时可获得以下奖励之一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每环任务结束时可获得：#I其它奖励|封神竞技积分#I每轮任务结束时有几率获得：#I封神勋章|封神勋章#I#I随机奖励|商城道具#I"
+
+[【暑假】封神竞猜]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|封神竞技积分#I有几率获得：#I封神勋章|封神勋章#I"
+
+[【暑假】封神追捕]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|封神竞技积分#I每场战斗结束后有几率获得：#I封神勋章|封神勋章#I"
+
+[【暑假】封神狂欢]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【暑假】保卫西瓜]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|封神竞技积分#I有几率获得：#I随机奖励|商城道具#I#I封神勋章|封神勋章#I"
+
+[【暑假】擂台封神]
+task_type : "活动"
+difficulty : 4
+suggest_level : "40级以上"
+suggest_person : "5人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I其它奖励|封神竞技积分#I有一定几率获得道具：#I封神勋章|封神勋章#I携带娃娃参战有一定几率获得道具：#I随机奖励|娃娃装备#I"
+
+[【教师节】学子献花]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【中元节】魂归故里]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【中秋节】博饼庆中秋]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|道具奖励#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I"
+
+[全民PK赛]
+task_type : "活动"
+
+[全民PK热身资格]
+task_type : "活动"
+
+[【中秋节】月满中秋]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I随机奖励|特殊奖励#I"
+
+[【中秋节】玉兔送礼2014]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1-5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|随机道具#I "
+
+[【中秋节】拯救玉兔]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【中秋节】五福临门]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【休闲游戏】大鱼吃小鱼奖励领取]
+task_type : "功能"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "100级以上"
+bonus_info : "#I其它奖励|矿石奖励#I"
+
+[问道塔防·守卫灵塔]
+difficulty : 3
+suggest_person : "1人"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【休闲游戏】钓鱼奖励领取]
+task_type : "功能"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "100级以上"
+bonus_info : "#I其它奖励|矿石奖励#I"
+
+[采集技能升级]
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|采集技能熟练度#I#I其它奖励|矿石道具#I"
+
+[【新手】84级新手任务]
+task_type : "剧情"
+difficulty : 2
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+suggest_person : "1~5人"
+suggest_level : "84级"
+
+[【新手】80级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "80级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【新手】85级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "85级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【新手】82级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "82级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【新手】81级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "81级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【新手】88级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "88级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【新手】86级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "86级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【新手】89级新手任务]
+task_type : "剧情"
+difficulty : 2
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+suggest_person : "1~5人"
+suggest_level : "89级"
+
+[【新手】83级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "83级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【新手】87级新手任务]
+task_type : "剧情"
+difficulty : 2
+suggest_level : "87级"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[工艺技能专精]
+task_type : "功能"
+
+[更改技能专精]
+task_type : "功能"
+
+[【国庆节】众志成城]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上 "
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I "
+
+[【国庆节】精兵检阅]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|经验奖励#r宠物经验#I#I数值奖励|道行奖励#r宠物武学#I有几率获得：#I随机奖励|商城道具#I"
+
+[【国庆节】全民动员]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "数值奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗胜利后有几率获得以下奖励：#I其它奖励|限时稀有宠物#I#I金手指|金手指#I#I随机奖励|商城道具#I"
+
+[【国庆节】金秋赐福]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I随机奖励|特殊奖励#I"
+
+[【国庆节】超凡脱俗]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【国庆节】精英选拔]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|超神符咒残片#I#I随机奖励|商城道具#I#I随机奖励|道具奖励#I"
+
+[超神符咒]
+task_type : "功能"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[宠物寿命指引]
+task_type : "指引"
+bonus_info : "#I神兽丹|神兽丹#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[宠物驯养指引]
+task_type : "指引"
+bonus_info : "#I数值奖励|人物经验15,000#I#I数值奖励|宠物经验15,000#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【全民签到】行行出状元]
+task_type : "活动"
+bonus_info : "随机获得以下奖励：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I随机奖励|道具奖励#I有几率额外获得：#I其它奖励|限时神兽或8阶坐骑#I"
+
+[全民现金大奖]
+task_type : "活动"
+
+[再续问道缘]
+task_type: "活动"
+
+[老兵不死]
+task_type: "活动"
+
+[【老兵不死】荣耀回归]
+task_type: "活动"
+
+[【老兵不死】相约问道]
+task_type: "活动"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物潜能#I"
+
+[坐骑炼魄]
+task_type : "功能"
+bonus_info : "获得以下道具之一：#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I "
+
+[【国庆节】举国欢庆]
+task_type : "活动",
+bonus_info : "#I其它奖励|免费打孔#r免费置换#I",
+
+[【寒假】智力训练]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|道具奖励#I"
+
+[【万圣节】不给糖就捣乱]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I其它奖励|变异：南瓜头杰克#I#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I"
+
+[【寒假】训练表现积分]
+task_type : "活动"
+suggest_level : "40级以及40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I提交无量心经兑换有几率获得：#I训练兵勋章|训练兵勋章#I"
+
+[【寒假】切磋训练]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以及40级以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I"
+
+[【圣诞节】修补雪人]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I可额外获得：#I其它奖励|活动大使对你的感谢度#I"
+
+[【圣诞节】圣诞礼物]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "随机获得以下奖励：#I随机奖励|道具奖励#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I感谢度达到600将有几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I"
+
+[【寒假】武力训练]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以及40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|道具奖励#I"
+
+[【寒假】团队训练]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|道具奖励#I按任务完成情况可获得：#I随机奖励|特殊称谓#I"
+
+[【寒假】耐力训练]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以及40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|道具奖励#I"
+
+[【元旦】正名之争]
+task_type : "活动"
+difficulty : 1
+suggest_person : "3人以及3人以上"
+suggest_level : "40级以及40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|道具奖励#I"
+
+[【元旦】烟花驱邪]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人以上"
+suggest_level : "40级以上 "
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|道具奖励#I"
+
+[【感恩节】火鸡大餐]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I随机奖励|特殊奖励#I"
+
+[神兵利器]
+task_type : "活动",
+bonus_info : "#I其它奖励|免费打孔#r免费置换#I",
+
+[夸父逐日·创夸父族]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "137级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值12,000,000#I#I数值奖励|潜能16122571#I"
+
+[夸父逐日·桃花盛开]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "145级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值16,000,000#I#I数值奖励|潜能18060476#I"
+
+[夸父逐日·一统全族]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "138级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值12,500,000#I#I数值奖励|潜能16358796#I"
+
+[夸父逐日·蓄势待发]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "140级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值13,500,000#I#I数值奖励|潜能16836400#I"
+
+[夸父逐日·奔向隅谷]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "141级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值14,000,000#I#I数值奖励|潜能17077779#I"
+
+[夸父逐日·加入部族]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "136级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值11,500,000#I#I数值奖励|潜能15888064#I"
+
+[夸父逐日·妖魔四起]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "139级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值13,000,000#I#I数值奖励|潜能16596739#I"
+
+[夸父逐日·渭河之水]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "142级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值14,500,000#I#I数值奖励|潜能17320876#I"
+
+[夸父逐日·魂断昆仑]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "144级及以上"
+suggest_person : "1人及以上"
+bonus_info : "#I数值奖励|经验值15,500,000#I#I数值奖励|潜能17812224#I"
+
+[【封神榜】请妖赴宴]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[夸父逐日·黄河龙宫]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "143级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值15,000,000#I#I数值奖励|潜能17565691#I"
+
+[【封神榜】文王回周]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I "
+
+[【封神榜】子牙谏主]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I"
+
+[【封神榜】进贡赎罪]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级以上"
+bonus_info : "以下奖励任选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I额外获得奖励：#I其它奖励|封神积分#I "
+
+[【三羊开泰】美羊迎春]
+task_type : "活动"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+
+[【指引】宠物心法]
+task_type : "指引"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#I#I数值奖励|人物经验#I"
+
+[【三羊开泰】一战成名]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【三羊开泰】万事亨通]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|特殊奖励#I"
+
+[【三羊开泰】仙女下凡]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【三羊开泰】福星高照]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【三羊开泰】除夕之战]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【三羊开泰】吉羊瑞雪]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "1-5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I#I其它奖励|商城道具#I#I其它奖励|雪人祈福#I"
+
+[变异宠天技灵现]
+task_type : "活动"
+difficulty : 2
+suggest_level : "10级以上"
+bonus_info : "#I其它奖励|变异宠天技技能#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【情人节】月老很忙]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "2人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【元宵节】元宵灯会]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|5倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【清明节】踏青摘柳]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I清明果|清明果#I#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【清明节】插柳驱邪]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I清明果|清明果#I#I随机奖励|道具奖励#I"
+
+[【青年节】成年考验]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【植树节】养成仙树]
+task_type : "活动"
+bonus_info : "#I数值奖励|经验奖励#I#I数值奖励|道行奖励#I有一定几率获得：#I随机奖励|道具奖励#I"
+
+[精卫填海·精卫夺宝]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "148级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值17,500,000#I#I数值奖励|潜能18815536#I"
+
+[精卫填海·集结众神]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "151级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值19,000,000#I#I数值奖励|潜能19586060#I"
+
+[精卫填海·绝地反击]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "152级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值19,500,000#I#I数值奖励|潜能19846336#I"
+
+[精卫填海·炎谷救父]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "150级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值18,500,000#I#I数值奖励|潜能19327500#I"
+
+[精卫填海·炎帝除魔]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "146级"
+suggest_person : "1人以上"
+bonus_info : " 	#I数值奖励|经验值16,500,000#I#I数值奖励|潜能18310444#I"
+
+[斗宠挑战赛]
+task_type : "活动"
+difficulty : 1
+suggest_level : "100级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|宠物经验#I#I数值奖励|宠物武学#I#I数值奖励|宠物亲密度#I活动第一名玩家还可获得：#I随机奖励|特殊称谓：斗宠之王#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[精卫填海·冥海之战]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "149级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值18,000,000#I#I数值奖励|潜能19070660#I"
+
+[精卫填海·初战金乌]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "153级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值20,000,000#I#I数值奖励|潜能20108332#I"
+
+[精卫填海·决战金乌]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "155级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值21,000,000#I#I数值奖励|潜能20637476#I"
+
+[精卫填海·精卫寻父]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "147级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值17,000,000#I#I数值奖励|潜能18562132#I"
+
+[精卫填海·灵石护体]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "154级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值20,500,000#I#I数值奖励|潜能20372044#I"
+
+[【劳动节】百姓献礼]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【劳动节】天墉城大扫除]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|道具奖励#I"
+
+[【九周年】九五之尊]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|特殊奖励#I"
+
+[【九周年】九九归一]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I其它奖励|纪念宠变异#I"
+
+[【九周年】九洲同庆]
+task_type : "活动"
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【九周年】九子登科]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【九周年】九子送福]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【九周年】九天揽月]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【九周年】狐生九尾]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[为苍生灭魔]
+task_type : "活动"
+difficulty : 1
+suggest_person : "3~5人"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|潜能奖励#I"
+
+[【跨服玩法】登上九重天]
+task_type : "功能"
+
+[团队副本|团队副本·七杀阵]
+task_type : "日常"
+difficulty : 4
+suggest_person : "10~20人"
+suggest_level : "60~180级"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I其它奖励|异兽躯干#I#I随机奖励|神农书#I#I变异精魄|变异精魄#I"
+
+[团队副本|团队副本·反攻]
+task_type : "日常"
+difficulty : 4
+suggest_person : "10~20人"
+suggest_level : "60~180级"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I其它奖励|异兽躯干#I#I随机奖励|神农书#I#I变异精魄|变异精魄#I"
+
+[【昆仑神镜】神农尝百草]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I其它奖励|异兽躯干#I#I随机奖励|神农书#I#I变异精魄|变异精魄#I#I数值奖励|修为值#I"
+
+[【昆仑神镜】女娲补苍天]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I其它奖励|异兽躯干#I#I随机奖励|神农书#I#I变异精魄|变异精魄#I#I数值奖励|修为值#I"
+
+[【昆仑神镜】伏羲创八卦]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "1-5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率获得：#I其它奖励|异兽躯干#I#I随机奖励|神农书#I#I变异精魄|变异精魄#I#I数值奖励|修为值#I"
+
+[【昆仑神镜】燧人取圣火]
+task_type : "日常"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I其它奖励|异兽躯干#I#I随机奖励|神农书#I#I变异精魄|变异精魄#I#I数值奖励|修为值#I"
+
+[【暑假】护身宝盒]
+task_type : "活动"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【暑假】抓捕仙人]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|捣乱点数#I有一定几率获得：#I随机奖励|商城道具#I"
+
+[【暑假】乱斗NPC]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|捣乱点数#I有一定几率获得：#I随机奖励|商城道具#I#I神猴毫毛|神猴毫毛#I"
+
+[【暑假】大闹天墉]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|捣乱点数#I每场战斗结束后有几率获得：#I随机奖励|道具奖励#I#I神猴毫毛|神猴毫毛#I"
+
+[【暑假】捣乱天墉城]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I提交无量心经兑换有几率获得：#I神猴毫毛|神猴毫毛#I#I随机奖励|商城道具#I"
+
+[【暑假】营救妖猴]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|捣乱点数#I有一定几率获得：#I神猴毫毛|神猴毫毛#I#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I#I随机奖励|商城道具#I"
+
+[【暑假】火眼金睛]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I其它奖励|捣乱点数#I每场战斗结束后有几率获得：#I随机奖励|道具奖励#I#I神猴毫毛|神猴毫毛#I"
+
+[【暑假】衙门闹事]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|捣乱点数#I有几率获得：#I神猴毫毛|神猴毫毛#I"
+
+[突破境界]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "159级及以上"
+suggest_person : "3人及以上"
+bonus_info : "#I其它奖励|角色数值效果提升！#I"
+
+[【端午节】赛龙舟]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I香粽|香粽#I上榜后可获得：#I随机奖励|道具奖励#I"
+
+[【活动】仙宠下凡]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I天技秘笈宝箱|天技秘笈宝箱#I#I天技秘笈残片|天技秘笈残片#I"
+
+[【儿童节】娘娘赐福]
+task_type : "活动"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|娃娃经验#I#I数值奖励|娃娃亲密#I#I数值奖励|饱食度或心情度#I有一定几率获得：#I随机奖励|娃娃秘籍#I#I随机奖励|娃娃绝技#I#I随机奖励|娃娃装备#I"
+
+[【儿童节】童心未泯]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I儿童节烟花|儿童节烟花#I有一定概率获得：#I随机奖励|道具奖励#I#I数值奖励|娃娃经验#I#I随机奖励|娃娃装备#I"
+
+[送子娘娘之高级赐福]
+task_type : "功能"
+
+[【中元节】驱鬼除邪]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【双节同庆】普天欢庆]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【双节同庆】全民挑战]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【双节同庆】玉兔捣乱]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【双节同庆】种植桂树]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I任务完成时有一定概率获得：#I数值奖励|5倍经验（或道行）奖励#I#I随机奖励|道具奖励#I"
+
+[【双节同庆】天狗吞月]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【双节同庆】盛世繁华]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|特殊奖励#I"
+
+[【双节同庆】嫦娥祈福]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : " 	以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【双节同庆】巅峰盛典]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "数值奖励任选其一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得以下奖励：#I其它奖励|道具奖励#I"
+
+[【双节同庆】中秋博饼]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定概率获得：#I随机奖励|道具奖励#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I"
+
+[【守护和平】中华崛起]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励二选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I随机奖励|商城道具#I#I其它奖励|尊荣称谓#I"
+
+[西巡令]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I交任务时有几率获得：#I随机奖励|符文宝石#I"
+
+[舞动天墉城]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#I#I数值奖励|人物经验#I当天跳舞时间全部完成时有几率获得：#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I"
+
+[五雷令]
+task_type : "功能"
+
+[【六星成就】神农尝百草]
+bonus_info : "#I其它奖励|六星成就#I#I数值奖励|经验奖励#I"
+
+[【六星成就】百科全书]
+bonus_info : "#I其它奖励|百科全书特权#I#I其它奖励|六星成就#I#I数值奖励|经验奖励#I"
+
+[别人家的配偶]
+difficulty : 2
+suggest_person : "1人"
+bonus_info : "#I别人家的变身笔|别人家的变身笔#I#I其它奖励|六星成就#I#I数值奖励|经验奖励#I"
+
+[娃娃训练营]
+task_type : "日常"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|娃娃经验#I#I数值奖励|娃娃亲密#I#I数值奖励|训练积分#I有一定几率获得：#I其它奖励|五星娃娃精魂#I"
+
+[召集令]
+task_type : "活动"
+
+[【教师节】展示实力]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|宠物武学#I有一定几率获得：#I随机奖励|商城道具#I"
+
+[【七夕节】鹊桥相聚]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "2~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I战胜魔王后必定获得：#I随机奖励|道具奖励#I"
+
+[【守护和平】大阅兵]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1"
+bonus_info : "#I数值奖励|经验奖励#r宠物经验#I#I数值奖励|道行奖励#r宠物武学#I有几率获得：#I随机奖励|商城道具#I"
+
+[【指引】了解相性的作用]
+task_type : "指引"
+bonus_info : "#I数值奖励|经验奖励#I"
+
+[【活动】幻兽试炼]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I "
+
+[仙宠鉴宝]
+task_type : "功能"
+bonus_info : "#I天技秘笈残片|天技秘笈残片#I"
+
+[天狗吞月·消失之月]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "156级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值16,500,000#I#I数值奖励|潜能20904624#I"
+
+[天狗吞月·天狗传说]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "157级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值17,000,000#I#I数值奖励|潜能21173492#I"
+
+[天狗吞月·灵兽天狗]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "158级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值17,500,000#I#I数值奖励|潜能21444076#I"
+
+[天狗吞月·寻找天狗]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "159级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值18,000,000#I#I数值奖励|潜能21716380#I"
+
+[天狗吞月·线索初现]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "160级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值18,500,000#I#I数值奖励|潜能21990400#I"
+
+[天狗吞月·天狗身世]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "161级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值19,000,000#I#I数值奖励|潜能22266140#I"
+
+[天狗吞月·修炼神功]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "162级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值19,500,000#I#I数值奖励|潜能22543596#I"
+
+[天狗吞月·复仇之路]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "163级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值20,000,000#I#I数值奖励|潜能22822772#I"
+
+[天狗吞月·株连之罪]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "164级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值20,500,000#I#I数值奖励|潜能23103664#I"
+
+[天狗吞月·灵魂不灭]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "165级"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|经验值21,000,000#I#I数值奖励|潜能23386276#I"
+
+[300环连环]
+task_type : "日常"
+difficulty : 2
+suggest_level : "50级及以上"
+suggest_person : "1人"
+bonus_info : "选择经验模式：#I数值奖励|人物经验#I#I数值奖励|任务积分#I选择道行模式：#I数值奖励|人物道行#I#I数值奖励|任务积分#I每一环有几率获得如下奖励：#I金钱奖励|金钱奖励#I抽取神秘大礼和竞速奖励可随机获得如下奖励之一：#I随机奖励|道具奖励#I#I随机奖励|满属性装备#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I其它奖励|无天技神兽#I"
+
+[【感恩节】火鸡快跑]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I战斗中可捕获：#I美味的火鸡|美味的火鸡#I"
+
+[【重阳节】壮志豪饮]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级以上"
+suggest_person : "1人以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I符文宝箱|符文宝箱#I#I其它奖励|4、5级符文宝石#I#I其它奖励|尊荣称谓#I"
+
+[【重阳节】祭天祈福]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|经验奖励#I#I数值奖励|道行奖励#I"
+
+[【欢度圣诞】圣诞大礼]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【欢度圣诞】打雪仗]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【光棍节】齐心诛魔]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~2人"
+bonus_info : "#I数值奖励|人物经验#r人物道行#I#I数值奖励|宠物经验#r宠物武学#I有一定几率获得：#I随机奖励|商城道具#I#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I"
+
+[【元旦】百花争艳]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I完成任务时有几率获得：#I数值奖励|5倍经验（或道行）奖励#I#I随机奖励|道具奖励#I"
+
+[【元旦】夺宝大战]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【万圣节】狂欢舞会]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I"
+
+[浪子回头]
+task_type : "剧情"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物潜能#I"
+
+[知错能改]
+task_type : "剧情"
+
+[撕铭牌大战]
+task_type : "活动"
+difficulty : 1
+suggest_level : "60级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I"
+
+[紫微命格]
+task_type : "功能"
+
+[丹术·紫蟾聚灵]
+task_type : "功能"
+
+[【寒假】哪吒战群雄]
+task_type : "活动"
+difficulty : 4
+suggest_level : "40级以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I其它奖励|爱心值#I有一定几率获得道具：#I混天绫碎片|混天绫碎片#I携带娃娃参战有一定几率获得道具：#I随机奖励|娃娃装备#I挑战层数排名前五的道友有几率获得：#I其它奖励|商城道具#I#I变异精魄|变异精魄#I"
+
+[【寒假】哪吒护东海]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I必定获得：#I数值奖励|爱心值#I有一定概率获得：#I随机奖励|道具奖励#I#I混天绫碎片|混天绫碎片#I"
+
+[【寒假】哪吒送祝福]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【寒假】哪吒闹天墉]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I提交无量心经兑换有几率获得：#I混天绫碎片|混天绫碎片#I#I随机奖励|商城道具#I使用混天绫碎片兑换有几率获得：#I随机奖励|神兽宠物#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I"
+
+[【寒假】哪吒忙寻宝]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|爱心值#I有一定概率获得：#I混天绫碎片|混天绫碎片#I上榜玩家可获得：#I随机奖励|道具奖励#I"
+
+[【寒假】哪吒品美食]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I其它奖励|食材奖励#I提交食谱有几率获得：#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I其它奖励|商城道具#I#I数值奖励|人物道行#I#I数值奖励|人物经验#I"
+
+[【寒假】烹制佳肴]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每场战斗结束后有几率获得：#I混天绫碎片|混天绫碎片#I"
+
+[【超神之战】精英选拔]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I超神符咒残片|超神符咒残片#I#I随机奖励|商城道具#I#I随机奖励|道具奖励#I"
+
+[实物大奖]
+task_type : "功能"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[得道九重天]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[得道九重天（队长）]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I"
+
+[【勤学苦练】抽取奖励]
+task_type : "日常"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得：#I随机奖励|道具奖励#I#I随机奖励|满属性装备#I"
+
+[【勤学苦练】师门试炼]
+task_type : "日常"
+difficulty : 4
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【劳动节】争当劳模]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I劳模选票|劳模选票#I以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I每次获得奖励后有几率获得：#I数值奖励|3倍经验（或道行）奖励#I#I随机奖励|商城道具#I"
+
+[【劳动节】劳模投票]
+task_type : "活动"
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有几率获得道具奖励：#I随机奖励|道具奖励#I"
+
+[【愚人节】愚人欢乐逗]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|愚人积分#I以下奖励任选其一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I积分抽取奖励时还有一定几率获得：#I随机奖励|道具奖励#I#I随机奖励|满属性装备#I#I变异精魄|变异精魄#I "
+
+[【春节】元灵挑战]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I数值奖励|人物潜能#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I"
+
+[【春节】金猴接春]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|特殊奖励#I"
+
+[【春节】福至天墉]
+task_type : "活动"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+
+[【春节】守岁得福]
+task_type : "活动"
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得：#I随机奖励|道具奖励#I"
+
+[【春节】驱赶邪祟]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定几率获得：#I随机奖励|道具奖励#I"
+
+[【春节】智斗功曹]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人及以上"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I挑战20名功曹后可抽奖获得：#I随机奖励|道具奖励#I"
+
+[【春节】祛病送福]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I运送完成后可选择获得：#I随机奖励|道具奖励#I"
+
+[【元宵】元宵花灯]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[【春节】吉羊回归]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有几率获得以下道具：#I仙羊羊绒|仙羊羊绒#I"
+
+[【元宵】元宵字谜]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I完美完成收集任务可获得：#I随机奖励|特殊称谓奖励#I"
+
+[【植树节】植树造林]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I"
+
+[【植树节】除妖护林]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【清明节】超度亡魂]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~4人"
+suggest_level : "40级以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I有一定几率额外获得以下奖励：#I其它奖励|1-5级符文宝石#I"
+
+[【情人节】真情告白]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "随机获得以下奖励：#I数值奖励|人物经验#I#I数值奖励|人物道行#I触发真情考验以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【情人节】约会大作战]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1-2人"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有几率获得：#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I "
+
+[勇闯竞技场]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人以上"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I赛季结束时达到全区前100名者可获得：#I随机奖励|“竞技王者”称号#I"
+
+[悟道修仙]
+task_type : "功能"
+
+[【十年问道】大圣考验]
+task_type : "活动"
+difficulty : 3
+suggest_person : "3-5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I上榜后可额外获得以下其一：#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I完成50层挑战有几率获得（挑战大圣分身必得）：#I随机奖励|满属性装备#I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I "
+
+[【十年问道】我是BOSS我做主]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "100级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物潜能#I有一定概率获得：#I道具套餐卡|道具套餐卡#I#I特级聚灵石|特级聚灵石#I#I高级聚灵石|高级聚灵石#I#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I"
+
+[【十年问道】大圣伏魔]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物潜能#I灭妖、斩将胜利有机率获得如下奖励之一：#I随机奖励|商城道具#I完成斩将任务有机率额外获得如下奖励之一： #I变异精魄|变异精魄#I#I随机奖励|满属性装备#I#I随机奖励|商城道具#I"
+
+[【十年问道】周年寻宝]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[全民刷道]
+task_type : "活动"
+
+[神秘乾坤图]
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I数值奖励|帮贡奖励#I"
+
+[【十年问道】大圣贺喜]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|特殊奖励#I"
+
+[【十年问道】在线狂欢]
+task_type : "活动"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有几率获得：#I随机奖励|纪念宠#I#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I#I随机奖励|道具奖励#I"
+
+[【十年问道】猜猜乐]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "与帅帅猴比拼有几率获得:#I金钱奖励|3倍金钱奖励#I"
+
+[绑定乾坤锁]
+task_type : "功能"
+bonus_info : "#I天神护佑|天神护佑#I#I修为丹|修为丹#I#I特效仙风散|特效仙风散#I#I宠风散|宠风散#I#I五雷令|五雷令#I"
+
+[返利抽奖]
+task_type : "活动"
+
+[2016新服冲榜大赛]
+task_type : "活动"
+bonus_info : "在规定时间内达到#R100#n级可获得：#I金钱奖励|3000银元宝#I#I其它奖励|称谓：冲级先锋#I在规定时间内达到#R110#n级可获得：#I金钱奖励|5000银元宝#I#I其它奖励|称谓：冲级先锋#I在规定时间内达到#R140#n级可获得：#I金钱奖励|20000银元宝#I#I其它奖励|称谓：冲级先锋#I进入#R排行榜#n可获得：#I金钱奖励|大量银元宝奖励#I#I其它奖励|相关称谓奖励#I活动期间获得试道王者可获得：#I金钱奖励|大量银元宝奖励#I "
+
+[【2016新服】签到送豪礼]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1-5人"
+suggest_level : "10级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I每累积签到5天有一定概率抽取获得：#I随机奖励|道具奖励#I#I随机奖励|满属性装备#I#I变异精魄|变异精魄#I连续签到31天有一定概率抽取获得：#I其它奖励|变异#I#I其它奖励|神兽#I"
+
+[【十年问道】猴哥快跑]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "可获得以下奖励：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有机会获得以下奖励：#I随机奖励|道具奖励#I"
+
+[【十年问道】十拿九稳]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I数值奖励|人物潜能#I#I随机奖励|道具奖励#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I#I随机奖励|纪念宠#I"
+
+[万万没想到]
+task_type : "活动"
+
+[【指引】悟道系统]
+task_type : "指引"
+bonus_info : "#I其它奖励|悟道周卡#I"
+
+[【月活动】仙界宠物大逃亡]
+task_type : "日常"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I本月每完成5天奖励有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I"
+
+[【月活动】夜游百鬼地]
+task_type : "日常"
+difficulty : 3
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I抽取活动奖励有几率获得：#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I"
+
+[古城王位争夺战]
+task_type : "日常"
+difficulty : 2
+suggest_level : "40级及以上"
+bonus_info : "以下奖励任选其一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I"
+
+[阵营大战]
+bonus_info : "#I数值奖励|古城荣誉值#I"
+
+[古城日常任务]
+task_type : "日常"
+
+[古城日常任务|刺探敌情]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|古城荣誉积分#I"
+
+[古城日常任务|狭路相逢]
+task_type : "日常"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|古城荣誉积分#I"
+
+[古城日常任务|乱世之缘]
+task_type : "日常"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|古城荣誉积分#I"
+
+[修为周卡]
+bonus_info : "#I数值奖励|修为值#I"
+
+[【西域】中洲异客]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1人及以上"
+suggest_level : "100级及以上"
+bonus_info : "#I数值奖励|经验奖励#I"
+
+[【西域】救死扶伤]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1人及以上"
+suggest_level : "100级及以上"
+bonus_info : "#I数值奖励|经验奖励#I"
+
+[【西域】王位之争]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1人及以上"
+suggest_level : "100级及以上"
+bonus_info : "#I数值奖励|经验奖励#I"
+
+[【西域】真相大白]
+task_type : "剧情"
+difficulty : 3
+suggest_person : "1人及以上"
+suggest_level : "100级及以上"
+bonus_info : "#I数值奖励|经验奖励#I"
+
+[古城日常任务|针锋相对]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I数值奖励|古城荣誉积分#I"
+
+[【十年问道】光阴荏苒]
+task_type : "活动"
+difficulty : 1
+suggest_level : "80级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#I#I其它奖励|十周年时装#I#I其它奖励|专属称号奖励#I"
+
+[【活动】利器行动]
+task_type : "活动"
+
+[【活动】宠物初长成]
+task_type : "活动"
+
+[【端午节】祭奠先贤]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "3人"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有几率获得：#I随机奖励|宠物：甜粽仙#I#I随机奖励|宠物：咸粽仙#I"
+
+[储备奖励]
+task_type : "功能"
+difficulty : 1
+suggest_level : "80级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物经验#r人物道行#I "
+
+[寻仙令]
+task_type : "活动"
+difficulty : 1
+suggest_level : "80级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|银元宝#I#I其它奖励|返利大礼包#I#R备注：返利大礼包只有被召回人可获得。#n"
+
+[【活动】九黎降妖]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I其它奖励|异兽躯干#I#I其它奖励|商城道具#I"
+
+[全民升级]
+task_type : "活动"
+
+[【儿童节】儿童节快乐]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I娃娃参战概率获得：#I数值奖励|娃娃经验#I#I随机奖励|娃娃装备#I"
+
+[【暑假】斩妖护宝]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I其它奖励|贡献值#I有一定概率获得：#I随机奖励|商城道具#I#I被损坏的丝绸|被损坏的丝绸#I#I被损坏的瓷器|被损坏的瓷器#I#I被损坏的青铜杯|被损坏的青铜杯#I"
+
+[【暑假】通关文牒]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I必定获得：#I数值奖励|贡献值#I"
+
+[【暑假】镖行西域]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "3～5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I必然获得：#I其它奖励|贡献值#I有一定概率获得：#I随机奖励|商城道具#I"
+
+[【暑假】扫匪除贼]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I必定获得：#I数值奖励|贡献值#I有一定概率获得：#I随机奖励|道具奖励#I#I数值奖励|多倍数值奖励#I#I随机奖励|满属性装备#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I随机奖励|随机神兽#I"
+
+[【中元节】除魔灭道]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I随机奖励|天赋魂兽石#I#I随机奖励|满属性装备#I#I随机奖励|陨石道具#I"
+
+[【暑假】幕后黑手]
+task_type : "活动"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物潜能#I以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|商城道具#I"
+
+[【暑假】重建丝绸之路]
+task_type : "活动"
+bonus_info : "使用丝绸之路宝箱以下奖励任选其一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定几率获得：#I随机奖励|商城道具#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I随机奖励|随机神兽#I#I随机奖励|其他奖励#I"
+
+[【暑假】修复宝物]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I可必定获得：#I其它奖励|贡献值#I有一定概率获得：#I随机奖励|商城道具#I"
+
+[【暑假】筹备物资]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I必定获得：#I数值奖励|贡献值#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【修炼】法宝共生之术]
+task_type : "剧情"
+difficulty : 3
+suggest_level : "60级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I随机奖励|法宝共生之术#I"
+
+[【抗战胜利纪念日】抵御外敌]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励二选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I上榜玩家有几率获得：#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I前五名玩家必定获得：#I其它奖励|尊荣称谓#I战斗中有几率获得：#I随机奖励|商城道具#I#I其它奖励|活动称谓#I"
+
+[【中秋】博饼盛典]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "有一定概率获得：#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I数值奖励|法宝道法#I#I随机奖励|道具奖励#I#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I#I随机奖励|随机变异宠#I#I其它奖励|三天技神兽：嫦娥#I"
+
+[【中秋】仙界月饼]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I随机奖励|随机变异宠#I"
+
+[【中秋】守护嫦娥]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|道具奖励#I"
+
+[【教师节】献花谢师]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "#I其它奖励|花束奖励#I提交花篮给师父有几率获得：#I随机奖励|商城道具#I"
+
+[【教师节】插花]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[阵营争霸]
+task_type : "活动"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|古城荣誉值#I"
+
+[【七夕】偷蛋妖魔]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I#I随机奖励|商城道具#I有几率获得：#I比翼鸟仙蛋|比翼鸟仙蛋#I"
+
+[【七夕】孵化仙蛋]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "2~5人"
+bonus_info : "孵化完成后可获得宠物：#I随机奖励|宠物：小比翼鸟#I孵化完成后有几率获得（投入的超级归元露越多几率越大，提交足够多的超级归元露后必定获得）：#I随机奖励|宠物：比翼鸟#I"
+
+[【七夕】协助孵化仙蛋]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人及以上"
+bonus_info : "孵化完成后必定可获得宠物：#I随机奖励|宠物：小比翼鸟#I"
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[绑定光宇游戏APP]
+task_type : "功能"
+bonus_info : "#I修为丹|修为丹#I#I天神护佑|天神护佑#I#I松树铭牌|松树铭牌#I#I五雷令|五雷令#I#I特效仙风散|特效仙风散#I#I驯兽诀|驯兽诀#I#I随机奖励|金色称谓：守护之盾#I"
+
+[【国庆节】国庆摇摇乐]
+task_type : "活动"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "#I数值奖励|人物道行#r宠物武学#I#I数值奖励|人物经验#r宠物经验#I"
+
+[【国庆节】降妖封神]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|商城道具#I#I其它奖励|高阶躯干碎片#I#I其它奖励|护国大元帅限时称谓#I"
+
+[【国庆节】勇往直前]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "3~5人"
+bonus_info : "#I数值奖励|人物道行#I#I数值奖励|人物经验#I#I数值奖励|人物潜能#I有概率获得以下其一：#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I#I随机奖励|商城道具#I#I随机奖励|随机神石#I#I随机奖励|星图卷轴 #I娃娃参战有几率获得如下奖励：#I其它奖励|娃娃相关道具#I "
+
+[【国庆节】中洲赐福]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I变异精魄|变异精魄#I#I随机奖励|特殊奖励#I"
+
+[【国庆节】鬼怪出没]
+task_type : "活动"
+difficulty : 3
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励二选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I第一名玩家必定获得：#I神兽精魄|神兽精魄#I其他上榜玩家有几率获得：#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I"
+
+[【感恩节】筹备大餐]
+task_type : "活动"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1人"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I完成任务有一定几率获得：#I黄色羽毛|黄色羽毛#I#I变异精魄|变异精魄#I#I随机奖励|满属性装备#I提交老酒或元宝可能获得：#I金色羽毛|金色羽毛#I活动期间使用金色羽毛可能获得：#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I其它奖励|三天技变异宠：嘲风#I#I元灵精魄|元灵精魄#I#I随机奖励|商城道具#I"
+
+[工资荣誉]
+task_type : "功能"
+
+[洞府挑战]
+task_type : "活动"
+difficulty : 3
+suggest_person : "1~5人"
+suggest_level : "60级及以上"
+bonus_info : "第一阶段：#I数值奖励|人物道行#I#I随机奖励|商城道具#I第二阶段：#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I数值奖励|声望#I#I数值奖励|道法#I#I数值奖励|宠物武学#I#I数值奖励|修为值#I#I数值奖励|宠物心法#I#I数值奖励|宠物亲密#I "
+
+[技能觉醒]
+task_type : "功能"
+
+[【时辰】五行考验]
+task_type : "日常"
+difficulty : 2
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "选择以下奖励之一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有几率获得如下奖励：#I三土丸|三土丸#I#I神木丸|神木丸#I#I潜金散|潜金散#I#I柔水丹|柔水丹#I#I烈火散|烈火散#I完成一轮考验有几率获得如下奖励：#I随机奖励|道具奖励#I#I特级心法宝典|特级心法宝典#I"
+
+[【时辰】十二生肖]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "可选择以下奖励之一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有几率获得：#I修为丹|修为丹#I集齐#R十二生肖守护灵#n后有几率获得如下奖励：#I随机奖励|道具奖励#I#I特级修为丹|特级修为丹#I#I随机奖励|随机生肖宠#I"
+
+[【时辰】至尊十二生肖]
+task_type : "日常"
+difficulty : 1
+suggest_level : "40级及以上"
+suggest_person : "1~5人"
+bonus_info : "选择以下奖励之一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有几率获得：#I修为丹|修为丹#I集齐#R至尊十二生肖守护灵#n后有几率获得如下奖励：#I随机奖励|道具奖励#I#I特级修为丹|特级修为丹#I#I随机奖励|随机至尊生肖宠#I"
+
+[【圣诞节】尽情狂欢]
+task_type : "活动"
+difficulty : 2
+suggest_person : "1~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I有一定概率获得：#I随机奖励|商城道具#I#I其它奖励|高阶躯干碎片#I#I爆雪技能卡|爆雪技能卡#I#I圣诞魔咒烟花|圣诞魔咒烟花#I"
+
+[宠物训练营]
+task_type : "日常"
+difficulty : 2
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|宠物经验#I有一定几率获得：#I点化丹|点化丹#I#I羽化丹|羽化丹#I#I心法宝典|心法宝典#I#I超级归元露|超级归元露#I#I宠物顿悟丹|宠物顿悟丹#I#I宠物经验丹|宠物经验丹#I "
+task_attrib : "TASK_ATTRIB_DROP_FLAG"
+
+[【万圣节】变身大作战]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选一：#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I每天完成20次必定获得：#I其它奖励|抽奖次数#I万圣节抽奖有几率获得：#I数值奖励|人物经验#I#I数值奖励|人物道行#I#I随机奖励|南瓜头杰克#I#I元灵精魄|元灵精魄#I#I神兽精魄|神兽精魄#I#I变异精魄|变异精魄#I#I随机奖励|道具奖励#I"
+
+[【重阳节】敬老祈福]
+task_type : "活动"
+difficulty : 2
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "#I数值奖励|人物经验#r宠物经验#I#I数值奖励|人物道行#r宠物武学#I战胜#R寿星仙蝶#n有几率获得：#I祈福符之一|祈福符之一#I战胜#R寿星仙龟#n有几率获得：#I祈福符之二|祈福符之二#I战胜#R寿星仙鹿#n有几率获得：#I祈福符之三|祈福符之三#I战胜#R寿星仙鸟#n有几率获得：#I祈福符之四|祈福符之四#I有几率获得：#I随机奖励|商城道具#I"
+
+[【活动】积分许愿]
+task_type : "活动"
+
+[速赛竞技场]
+task_type : "活动"
+difficulty : 1
+suggest_person : "3~5人"
+suggest_level : "60级及以上"
+bonus_info : "#I数值奖励|人物经验#I#I数值奖励|人物道行#I赢得竞赛冠军可获得：#I随机奖励|“速赛王者”称号#I"
+
+[每周刷道时间]
+task_type : "日常"
+
+[呼风唤雨]
+task_type : "日常"
+difficulty : 5
+suggest_person : "3~5人"
+suggest_level : "40级及以上"
+bonus_info : "以下奖励选择其一：#I数值奖励|人物经验#I#I数值奖励|人物道行#I战斗胜利后有一定概率获得：#I随机奖励|道具奖励#I#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I#I随机奖励|六阶坐骑#I"
+
+[【光棍节】光棍专享福利]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "随机获得：#I数值奖励|人物经验#I#I数值奖励|人物道行#I有一定概率获得：#I随机奖励|道具奖励#I#I数值奖励|多倍数值奖励#I#I随机奖励|满属性装备#I#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I#I元灵精魄|元灵精魄#I"
+
+[【光棍节】福利彩票]
+task_type : "活动"
+difficulty : 1
+suggest_person : "1人"
+suggest_level : "40级及以上"
+bonus_info : "中奖可获得以下奖励之一：#I变异精魄|变异精魄#I#I神兽精魄|神兽精魄#I#I元灵精魄|元灵精魄#I#I随机奖励|随机变异宠#I#I随机奖励|随机神兽#I"

@@ -1,0 +1,74 @@
+#FORM2
+
+[南华真人的元神]
+name                : 南华真人的元神
+polar               : -1
+icon                : 7008
+portrait            : 7008
+life_effect         : "Lv / 90 * Lv * 5 + 3000 + Lv / 150 * 500"
+phy_effect          : "Lv / 100 * 100 + 100 + Lv / 150 * 30"
+mag_effect          : "Lv / 100 * 100 + 100 + Lv / 150 * 30"
+speed_effect        : 100
+tao_effect          : 200
+resist_forgotten    : 25
+resist_poison       : 25
+resist_frozen       : 25
+resist_sleep        : 25
+resist_confusion    : 25
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B2", "B4", "C4", "lipo-qianjun" })
+tactics             : "tactics_yuanshen"
+
+[南华真人的元神幻影]
+name                : 南华真人的元神幻影
+polar               : -1
+icon                : 7009
+portrait            : 7009
+life_effect         : "Lv / 90 * Lv * 5 + 2500 + Lv / 150 * 500"
+phy_effect          : "150 + Lv / 150 * 20"
+mag_effect          : "150 + Lv / 150 * 20"
+phy_absorb          : 100
+mag_absorb          : 100
+speed_effect        : 100
+tao_effect          : 100
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B2", "B4" })
+tactics             : "tactics_huanying"
+
+[地藏王主怪]
+name                : ({ "混灵珠守护仙", "混灵珠守护神" })
+polar               : -1
+icon                : ({ 31062, 31064 })
+portrait            : ({ 31062, 31064 })
+life_effect         : "Lv / 90 * Lv * 5 + 3000 + Lv / 150 * 500"
+phy_effect          : "Lv / 100 * 100 + Lv / 130 * 50 + 100 + Lv / 150 * 30"
+mag_effect          : "Lv / 100 * 100 + Lv / 130 * 50 + 100 + Lv / 150 * 30"
+speed_effect        : 50
+tao_effect          : 150
+resist_forgotten    : 25
+resist_poison       : 25
+resist_frozen       : 25
+resist_sleep        : 25
+resist_confusion    : 25
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B4", "B5", "C4", "D4", "lipo-qianjun" })
+tactics             : "tactics_dizang_zhuguai"
+
+[地藏王小怪]
+name                : ({ "炼狱魔", "魅灵", "狱獒", "阴阳师", "朱雀", "睚眦", "九尾狐" })
+polar               : -1
+icon                : ({ 31052, 31053, 31054, 31055, 6192, 6197, 6176 })
+portrait            : ({ 31052, 31053, 31054, 31055, 6192, 6197, 6176 })
+life_effect         : "Lv / 90 * Lv * 5 + 3000 + Lv / 150 * 500"
+phy_effect          : "Lv / 100 * 100 + Lv / 130 * 50 + 100 + Lv / 150 * 30"
+mag_effect          : "Lv / 100 * 100 + Lv / 130 * 50 + 100 + Lv / 150 * 30"
+speed_effect        : 50
+tao_effect          : 150
+resist_forgotten    : 25
+resist_poison       : 25
+resist_frozen       : 25
+resist_sleep        : 25
+resist_confusion    : 25
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+skills              : ({ "B4", "B5", "C4", "D4", "lipo-qianjun" })
+tactics             : "tactics_dizang_xiaoguai"

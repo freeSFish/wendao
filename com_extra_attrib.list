@@ -1,0 +1,8 @@
+#FORM2
+
+[attrib]
+weapon  : ({ "power", "str", "con", "wiz", "dex", "accurate", "double_hit_rate", "counter_attack_rate", "stunt_rate", "metal", "wood", "water", "fire", "earth", "all_polar", "all_skill", "ignore_all_resist_polar", "ignore_all_resist_except" })
+helmet  : ({ "all_attrib", "def", "max_life", "max_mana", "str", "con", "wiz", "dex", "double_hit", "counter_attack", "damage_sel" })
+armor   : ({ "all_attrib", "def", "max_life", "max_mana", "str", "con", "wiz", "dex", "damage_sel_rate", "resist_metal", "resist_wood", "resist_water", "resist_fire", "resist_earth", "resist_poison", "resist_frozen", "resist_sleep", "resist_forgotten", "resist_confusion", "resist_repress", "resist_melt", "resist_cage", "resist_lock", "resist_lost", "all_resist_polar", "all_resist_except" })
+boot    : ({ "all_attrib", "def", "speed", "str", "con", "wiz", "dex", "double_hit", "counter_attack", "damage_sel" })
+belt    : ({ "all_attrib", "def", "max_life", "max_mana", "base_dodge", "str", "con", "wiz", "dex", "resist_metal", "resist_wood", "resist_water", "resist_fire", "resist_earth", "resist_poison", "resist_frozen", "resist_sleep", "resist_forgotten", "resist_confusion", "resist_repress", "resist_melt", "resist_cage", "resist_lock", "resist_lost", "all_resist_polar", "all_resist_except" })

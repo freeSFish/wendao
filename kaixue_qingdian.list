@@ -1,0 +1,46 @@
+#FORM2
+
+[setting]
+start_time : "2012-02-15-00:00:00"
+end_time : "2012-02-16-23:59:00"
+
+[活动时间]
+time_list$ : ({ "2012-02-15-19:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2012-02-16-21:10:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "start_task", "during_task", "before_end_task", "end_task" })
+
+[before_task]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "为迎接新学期的到来，#Y五炁真君#n特地为各位道友举办盛大#R开学庆典#n，各位真君将在#R19:00~21:00#n下凡至#Z揽仙镇#Z、#Z天墉城#Z、#Z东海渔村#Z和#Z无名小镇#Z，接受各位的挑战。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(+20)"
+message         : "#Y五炁真君#n已下凡至#Z揽仙镇#Z、#Z天墉城#Z、#Z东海渔村#Z和#Z无名小镇#Z，各位道友可组队前往参与试炼，若携带#R娃娃#n，还将获得额外奖励哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#Y五炁真君#n的举办的#R开学庆典#n正在进行中，若携带#R娃娃#n，还将获得额外奖励哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-900)"
+interval        : 300
+broadcast_end   : "end_time(-1)"
+message         : "#R开学庆典#n快要结束了，各位道友请抓紧时间参与#Y五炁真君#n的试炼。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+20)"
+message         : "#Y五炁真君#n十分满意大家的表现，离开凡间，重返天庭。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,69 @@
+#FORM2
+
+# hulang_zhengba.list
+# create by luoyh Jan/5/2009
+# 化妆舞会--虎狼争霸配置
+
+[setting]
+start_time$ : "2009-5-6-18:00"
+duration$   : 7200
+interval$   : 604800
+regular     : 1
+
+[game_info]
+x_back      :  20
+y_back      :  186
+money       :  500000
+bonus_item  :  "完美的皮毛"
+task_place  :  "争霸赛场"
+npc         :  "妙手空空"
+tiger       :  6121
+wolf        :  6120
+init_rabbit_num : 40
+
+[before_start]
+channel_time$ : 1200
+channel_time$ : 900
+channel_time$ : 600
+channel_time$ : 300
+channel       : CHANNEL_SYSTEM
+content       : "#R化妆舞会#n将于#Y%s#n开始，天墉城的#P千面怪#P即将举办#R虎狼争霸#n大赛，所有玩家都可以找#P千面怪#P参加活动。"
+
+[start]
+channel  : CHANNEL_SYSTEM
+content  : "#R化妆舞会#n活动#R虎狼争霸#n开始了！所有玩家都可以到天墉城找#P千面怪#P参加活动！究竟#R虎队#n获胜还是#R狼队#n夺冠呢？让我们拭目以待！"
+
+[after_start]
+channel_time :  600
+duration     :  600
+channel      : CHANNEL_SYSTEM
+content      : "[#Y千面怪#n]#R化妆舞会#n活动#R虎狼争霸#n火热进行中！你还没参加？快到天墉城找我#P千面怪#P参加吧！"
+
+[end]
+channel      :  CHANNEL_SYSTEM
+content_win  :  "#R化妆舞会#n活动#R虎狼争霸#n结束了！#R%s#n以#R%d：%d#n的比分战胜了#R%s#n！#R%s#n的所有玩家获得了#R额外奖励#n！"
+content_draw :  "#R化妆舞会#n活动#R虎狼争霸#n结束了！#R虎队#n和#R狼队#n战成#R%d：%d#n平！真是势均力敌，期待下次活动再分高下！"
+
+[situation]
+limit_time       : 1200
+leading_time     : 300
+channel          : CHANNEL_RUMOR
+sumbit_rabbit    : "#R%s#n的#Y%s#n使出杀手锏，居然买通#Y妙手空空#n，偷走了#R%s#n的#R5个兔子#n，虎队与狼队的比分变成了#R%d：%d#n！"
+same_score       : "[#Y千面怪#n]真是精彩的比赛，#R狼队#n和#R虎队#n不分高下，双方比分相持不下，现在的比分是#R%d：%d#n平！"
+longtime_leader  : "[#Y千面怪#n]#R%s#n比分长时间落后，境况令人担忧，想要追上#R%s#n的话，得加把力了！"
+far_ahead        : "[#Y千面怪#n]#R%s#n的实力实在太强大了！居然领先了#R%d分#n！看来胜券在握了！"
+
+[大白兔]
+icon             : 6165
+portrait         : 6165
+polar            : -1
+speed_effect     : 10
+phy_absorb       : 0
+mag_absorb       : 0
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_forgotten : 45
+resist_confusion : 45
+skills           : ({ "B3", "B4" })
+special_skills   : ({"ruyi-quan", "shenlong-zhao"})

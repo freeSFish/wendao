@@ -1,0 +1,133 @@
+#FORM2
+
+# xianjie-tongji.list - ÏÉ½çÍ¨¼©ÈÎÎñÅäÖÃ±í
+# Created by hongjs Oct/28/2008
+
+[task_rooms]
+# µØÍ¼id                           : µÈ¼¶ÒªÇó
+xuanyuanmiao/xuanyuanmiao.c        : 130
+beihai-shatan/beihai-shatan.c      : 130
+shilipo/shilipo.c                  : 130
+wulongshan/wulongshan.c            : 130
+qianyuanshan/qianyuanshan.c        : 130
+zhongnanshan/zhongnanshan.c        : 130
+fenghuangshan/fenghuangshan.c      : 130
+kuloushan/kuloushan.c              : 130
+wulongshan/wulongku-yiceng.c       : 130
+wulongshan/wulongku-erceng.c       : 130
+wulongshan/wulongku-sanceng.c      : 130
+wulongshan/wulongku-siceng.c       : 130
+wulongshan/wulongku-wuceng.c       : 130
+youmingjian/youmingjian.c          : 130
+penglaidao/penglaidao.c            : 130
+penglaidao/baihuaguyi.c            : 130
+penglaidao/baihuaguer.c            : 130
+penglaidao/baihuagusan.c           : 130
+penglaidao/baihuagusi.c            : 130
+penglaidao/baihuaguwu.c            : 130
+penglaidao/baihuaguliu.c           : 130
+penglaidao/baihuaguqi.c            : 130
+wolongpo/juerenzhen.c              : 130
+wolongpo/juexianzhen.c             : 130
+wolongpo/dijuezhen.c               : 130
+wolongpo/tianjuezhen.c             : 130
+dongkunlun/dongkunlun.c            : 130
+haidi-migong/haidi-migong.c        : 130
+kunlunyunhai/kunlunyunhai.c        : 130
+xuanzhou/xueyubingyuan.c           : 130
+
+[monster_names]
+prefix_names  : ({ ÃğÊÀ, »ÃÊÀ, ÊÉÉ±, ÑªÅÛ, Íò¹Ç, °Ù±ä, ÖÁĞ°, ³àµØ, ³ãÒí, ÇæÌì, ÓùÉ· })
+middle_names  : ({ Ñı»Ê, Ä§×ğ })
+suffix_names  : ({ Ú¤Ìì, °¢¹ÅÕæ, ³£Óà, ÆëÁú, Ğ°èÉ, ¶ñâ², Òõ¹Â, âª })
+assist_names  : ({ ÊÉÊÀºÚÉ·, ÊÈÑª³àÉ·, Éã»êÇàÉ·, ·ÙÊÀ½ğÉ·, ÷ÈÉñ×ÏÉ·, ÑªËéÂÌÉ· })
+
+[Ñı»Ê]
+raw_name          : Ñı»Ê
+icon              : 06259
+portrait          : 06259
+polar             : -1
+mag_absorb        : 0
+speed_effect      : 40
+accurate          : 200
+tao_effect        : 0
+all_resist_except : 60
+sp_skills         : ({ ÈçÒâÈ¦, ÉñÁúÕÖ })
+
+[Ä§×ğ]
+raw_name          : Ä§×ğ
+icon              : 06258
+portrait          : 06258
+polar             : -1
+mag_absorb        : 0
+speed_effect      : 40
+accurate          : 200
+tao_effect        : 0
+all_resist_except : 60
+sp_skills         : ({ ÈçÒâÈ¦, ÉñÁúÕÖ })
+
+[ÊÉÊÀºÚÉ·]
+name              : ÊÉÊÀºÚÉ·
+icon              : 06228
+portrait          : 06228
+polar             : 1
+resist_metal      : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[ÊÈÑª³àÉ·]
+name              : ÊÈÑª³àÉ·
+icon              : 06221
+portrait          : 06221
+polar             : 3
+resist_water      : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[Éã»êÇàÉ·]
+name              : Éã»êÇàÉ·
+icon              : 06140
+portrait          : 06140
+polar             : 2
+resist_wood       : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[·ÙÊÀ½ğÉ·]
+name              : ·ÙÊÀ½ğÉ·
+icon              : 06153
+portrait          : 06153
+polar             : 4
+resist_fire       : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[÷ÈÉñ×ÏÉ·]
+name              : ÷ÈÉñ×ÏÉ·
+icon              : 06206
+portrait          : 06206
+polar             : 5
+resist_earth      : 90
+phy_absorb        : 0
+mag_absorb        : 0
+speed_effect      : 0
+phy_attack_rate   : 20
+
+[ÑªËéÂÌÉ·]
+name              : ÑªËéÂÌÉ·
+icon              : 06150
+portrait          : 06150
+polar             : -1
+phy_absorb        : -50
+mag_absorb        : 0
+speed_effect      : -10
+stunt_rate        : 100
+phy_attack_rate   : 100

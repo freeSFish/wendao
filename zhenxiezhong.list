@@ -1,0 +1,332 @@
+#FORM2
+
+[setting]
+keep_time        : 7200
+timer_inter      : ({ 3600, 1800, 600, 600, 300, 60, 60, 60, 60 })
+姜女$            : ({ 239, 124, 7 })
+风伯$            : ({ 17, 84, 7 })
+雨师$            : ({ 23, 80, 5 })
+风后$            : ({ 188, 17, 7 })
+力牧$            : ({ 45, 191, 5 })
+神农神将$        : ({ 233, 129, -1 })
+神农神将$        : ({ 231, 122, -1 })
+神农神将$        : ({ 239, 129, -1 })
+叛逆神将$        : ({ 9, 92, -1 })
+叛逆神将$        : ({ 15, 86, -1 })
+叛逆神将$        : ({ 23, 84, -1 })
+叛逆神将$        : ({ 29, 83, -1 })
+叛逆神将$        : ({ 25, 89, -1 })
+叛逆神将$        : ({ 20, 90, -1 })
+小妖头领$        : ({ 105, 116, -1 })
+小妖头领$        : ({ 111, 117, -1 })
+小妖头领$        : ({ 119, 120, -1 })
+小妖头领$        : ({ 130, 120, -1 })
+小妖头领$        : ({ 136, 117, -1 })
+小妖头领$        : ({ 143, 115, -1 })
+小妖头领$        : ({ 153, 107, -1 })
+小妖头领$        : ({ 151, 101, -1 })
+小妖头领$        : ({ 146, 98, -1 })
+小妖头领$        : ({ 125, 94, -1 })
+夺宝盗贼$        : ({ 157, 11, -1 })
+夺宝盗贼$        : ({ 165, 20, -1 })
+夺宝盗贼$        : ({ 135, 36, -1 })
+夺宝盗贼$        : ({ 241, 25, -1 })
+夺宝盗贼$        : ({ 151, 40, -1 })
+夺宝盗贼$        : ({ 137, 12, -1 })
+夺宝盗贼$        : ({ 114, 26, -1 })
+夺宝盗贼$        : ({ 161, 15, -1 })
+夺宝盗贼$        : ({ 142, 13, -1 })
+夺宝盗贼$        : ({ 126, 60, -1 })
+婆娑树$          : ({ 4, 201, -1 })
+婆娑树$          : ({ 97, 207, -1 })
+婆娑树$          : ({ 119, 205, -1 })
+婆娑树$          : ({ 130, 196, -1 })
+婆娑树$          : ({ 120, 170, -1 })
+婆娑树$          : ({ 104, 173, -1 })
+婆娑树$          : ({ 91, 165, -1 })
+婆娑树$          : ({ 142, 179, -1 })
+婆娑树$          : ({ 145, 190, -1 })
+婆娑树$          : ({ 108, 188, -1 })
+邪神$            : ({ 125, 105, -1 })
+邪神$            : ({ 131, 104, -1 })
+邪神$            : ({ 131, 110, -1 })
+邪神$            : ({ 135, 107, -1 })
+邪神$            : ({ 115, 102, -1 })
+邪神$            : ({ 118, 111, -1 })
+邪神$            : ({ 126, 113, -1 })
+邪神$            : ({ 136, 99, -1 })
+邪神$            : ({ 121, 98, -1 })
+
+[小妖头领]
+name             : 小妖头领
+icons            : ({ 6204, 6205, 6211, 6212 })
+polar            : -1
+life_effect      : 1000
+phy_effect       : 100
+mag_effect       : 100
+resist_earth     : 10
+resist_forgotten : 30
+resist_poison    : 15
+resist_frozen    : 15
+resist_sleep     : 10
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+comrade          : ({ "小妖头领" })
+combat_trigger   : "combat_trigger_normal"
+
+[夺宝盗贼]
+name             : 夺宝盗贼
+icon             : 6213
+portrait         : 6213
+polar            : -1
+life_effect      : 1000
+phy_effect       : 100
+mag_effect       : 100
+resist_earth     : 10
+resist_wood      : 10
+resist_forgotten : 30
+resist_poison    : 10
+resist_frozen    : 10
+resist_sleep     : 10
+resist_confusion : 30
+skills           : ({ "B4" })
+comrade          : ({ "夺宝盗贼" })
+combat_trigger   : "combat_trigger_normal"
+
+[婆娑树]
+name             : 婆娑树
+icon             : 6106
+portrait         : 6106
+polar            : 2
+life_effect      : 1000
+phy_effect       : 100
+mag_effect       : 100
+resist_wood      : 10
+resist_forgotten : 10
+resist_poison    : 10
+resist_frozen    : 10
+resist_sleep     : 10
+resist_confusion : 10
+flee_forbidden   : 1
+skills           : ({ "B2", "B4" })
+comrade          : ({ "树精" })
+combat_trigger   : "combat_trigger_normal"
+
+[树精]
+name             : 树精
+icon             : 6106
+portrait         : 6106
+polar            : 2
+life_effect      : 1000
+phy_effect       : 100
+mag_effect       : 100
+resist_wood      : 10
+resist_forgotten : 10
+resist_poison    : 10
+resist_frozen    : 10
+resist_sleep     : 10
+resist_confusion : 10
+skills           : ({ "B2", "B4" })
+
+[树灵]
+name             : 树灵
+icon             : 6106
+portrait         : 6106
+polar            : 2
+life_effect      : 1000
+phy_effect       : 100
+mag_effect       : 100
+resist_wood      : 10
+resist_forgotten : 10
+resist_poison    : 10
+resist_frozen    : 10
+resist_sleep     : 10
+resist_confusion : 10
+skills           : ({ "B2", "B4" })
+
+[姜女]
+name             : 姜女
+icon             : 7004
+portrait         : 7004
+polar            : 4
+resist_fire      : 10
+resist_water     : -20
+life_effect      : 3000
+phy_effect       : 150
+mag_effect       : 150
+speed_effect     : 150
+tao_effect       : 50
+resist_forgotten : 30
+resist_poison    : 30
+resist_frozen    : 20
+resist_sleep     : 20
+resist_confusion : 30
+alias            : 炎帝后裔
+skills           : ({ "B4", "B5" })
+comrade          : ({ "神农后裔" })
+combat_trigger   : "combat_trigger_shennonghouyi"
+tactics_monster  : "tactics_shennonghouyi"
+not_random_att   : 1
+menu_content     : 我是为了不让蚩尤重现人间而来。
+
+[神农神将]
+name             : 神农神将
+icon             : 6224
+portrait         : 6224
+level            : 110
+polar            : 4
+resist_fire      : 60
+resist_water     : -20
+life_effect      : 5000
+phy_effect       : 150
+mag_effect       : 300
+speed_effect     : 150
+tao_effect       : 50
+resist_forgotten : 100
+resist_poison    : 60
+resist_frozen    : 80
+resist_sleep     : 50
+resist_confusion : 100
+alias            : 炎帝后裔
+skills           : ({ "B4", "B5" })
+comrade          : ({ "神农后裔" })
+combat_trigger   : "combat_trigger_shennonghouyi"
+tactics_monster  : "tactics_shennonghouyi"
+not_random_att   : 1
+
+[神农后裔]
+name             : 神农后裔
+icon             : 6224
+portrait         : 6224
+polar            : 4
+resist_fire      : 10
+resist_water     : -20
+life_effect      : 2000
+phy_effect       : 120
+mag_effect       : 120
+skills           : ({ "B2", "B4" })
+
+[风伯]
+name             : 风伯
+icon             : 6169
+portrait         : 6169
+polar            : 3
+resist_earth     : -20
+resist_water     : 10
+life_effect      : 1200
+phy_effect       : 150
+mag_effect       : 150
+speed_effect     : 100
+tao_effect       : 50
+resist_forgotten : 30
+resist_poison    : 20
+resist_frozen    : 20
+resist_sleep     : 20
+resist_confusion : 30
+stunt_rate       : 20
+alias            : 蚩尤爪牙
+skills           : ({ "B4", "B5" })
+comrade          : ({ "叛逆天兵" })
+combat_trigger   : "combat_trigger_normal"
+not_random_att   : 1
+menu_content     : 谁也不能阻止蚩尤大人重临人间。
+
+[雨师]
+name             : 雨师
+icon             : 6175
+portrait         : 6175
+polar            : 3
+resist_earth     : -20
+resist_water     : 10
+life_effect      : 1200
+phy_effect       : 150
+mag_effect       : 150
+speed_effect     : 100
+tao_effect       : 50
+resist_forgotten : 30
+resist_poison    : 20
+resist_frozen    : 20
+resist_sleep     : 20
+resist_confusion : 30
+stunt_rate       : 20
+alias            : 蚩尤爪牙
+skills           : ({ "B4", "B5" })
+comrade          : ({ "叛逆天兵" })
+combat_trigger   : "combat_trigger_normal"
+not_random_att   : 1
+menu_content     : 谁也不能阻止蚩尤大人重临人间。
+
+[叛逆神将]
+name             : 叛逆神将
+icon             : 6223
+portrait         : 6223
+level            : 110
+polar            : 3
+resist_earth     : -20
+resist_water     : 60
+life_effect      : 2500
+phy_effect       : 250
+mag_effect       : 200
+speed_effect     : 100
+tao_effect       : 50
+resist_forgotten : 60
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 60
+stunt_rate       : 20
+alias            : 蚩尤爪牙
+skills           : ({ "B4", "B5" })
+comrade          : ({ "叛逆天兵" })
+combat_trigger   : "combat_trigger_normal"
+not_random_att   : 1
+menu_content     : 谁也不能阻止蚩尤大人重临人间。
+
+[叛逆天兵]
+name             : 叛逆天兵
+icon             : 6223
+portrait         : 6223
+polar            : 3
+resist_earth     : -20
+resist_water     : 10
+life_effect      : 1100
+phy_effect       : 120
+mag_effect       : 120
+skills           : ({ "B2", "B4" })
+
+[邪神]
+name             : 邪神
+icon             : 6273
+portrait         : 6273
+polar            : -1
+life_effect      : 2000
+phy_effect       : 200
+mag_effect       : 150
+speed_effect     : 100
+tao_effect       : 50
+double_hit_rate  : 20
+double_hit       : 3
+resist_forgotten : 50
+resist_poison    : 30
+resist_frozen    : 10
+resist_sleep     : 0
+resist_confusion : 50
+skills           : ({ "B4", "B5" })
+comrade          : ({ "邪神" })
+combat_trigger   : "combat_trigger_normal"
+tactics_monster  : "tactics_xieshen"
+sf_die           : 1
+not_random_att   : 1
+menu_content     : 想与我交手？你还差了一千年的修炼。
+
+[风后]
+name             : 风后
+icon             : 6042
+portrait         : 6042
+menu_content     : 麟角斗乃是可以削弱蚩尤法力的宝物。
+
+[力牧]
+name             : 力牧
+icon             : 6236
+portrait         : 6236
+menu_content     : 点犀盘乃是可以削弱蚩尤法力的宝物。

@@ -1,0 +1,130 @@
+#FORM2
+#monsters--monster name : monster num
+#place--room list : the rooms where monster placed
+#data time--the task time info
+#before_game--start time of the broadcast before task begin
+#before_interval--the frequence of the broadcast before task begin
+#duration_game--start time of the broadcast during task process
+#duration_interval--the frequence of the broadcast during task process
+#duration--the task duration
+#odd--the date is odd number
+#even--the date is even number
+#pet_bonus--pet name list
+
+[data_time]
+before_game : 300
+before_interval : 60
+duration_game : 600
+duration_interval : 600
+duration : 3600
+game_after : 300
+odd : ({ "11:00:00", "15:00:00", "19:00:00" })
+even : ({ "11:00:00", "15:00:00", "19:00:00" })
+
+[Ð°Éñ0]
+polar            : -1
+name             : "Ð°Éñ"
+icon             : 06281
+portrait         : 06281
+life_effect      : 150
+mana_effect      : 150
+speed_effect     : -15
+mag_effect       : 20
+phy_effect       : 20
+accurate         : 50
+skills           : ({ "B1", 16, "B2", 16 })
+tractics         : "xieshen0_tactics"
+
+[Ð°Éñ¸ú°à0]
+polar            : -1
+name             : "Ð°Éñ¸ú°à"
+icon             : 06281
+portrait         : 06281
+life_effect      : 50
+mana_effect      : 50
+speed_effect     : -30
+mag_effect       : 20
+phy_effect       : 20
+skills           : ({ "B1", 16, "B2", 16 })
+tractics         : "xieshengengban0_tactics"
+
+[Ð°Éñ1]
+polar            : -1
+name             : "Ð°Éñ"
+icon             : 06281
+portrait         : 06281
+life_effect      : 200
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B3", 16, "B4", 16 })
+tractics         : "xieshen1_tactics"
+
+[Ð°Éñ¸ú°à1]
+polar            : -1
+name             : "Ð°Éñ¸ú°à"
+icon             : 06281
+portrait         : 06281
+life_effect      : 150
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B2", 16, "B4", 16 })
+tractics         : "xieshengengban1_tactics"
+
+[Ð°Éñ2]
+polar            : -1
+name             : "Ð°Éñ"
+icon             : 06281
+portrait         : 06281
+life_effect      : 300
+speed_effect     : 30
+mag_effect       : 50
+phy_effect       : 50
+accurate         : 100
+skills           : ({ "B3", 16, "B4", 16, "B5", 16, "C4", 16, "D2", 16, "D4", 16 })
+tractics         : "xieshen2_tactics"
+
+[Ð°Éñ¸ú°à2]
+polar            : -1
+name             : "Ð°Éñ¸ú°à"
+icon             : 06281
+portrait         : 06281
+life_effect      : 200
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B4", 16 })
+tractics         : "xieshengengban2_tactics"
+
+[Ð°Éñ3]
+polar            : -1
+name             : "Ð°Éñ"
+icon             : 06281
+portrait         : 06281
+life_effect      : 400
+speed_effect     : 40
+mag_effect       : 100
+phy_effect       : 100
+mag_absorb       : 0
+phy_absorb       : 50
+resist_forgotten : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_confusion : 0
+accurate         : 100
+skills           : ({ "B4", 16, "B5", 16, "D4", 16, "D5", 16 })
+tractics         : "xieshen3_tactics"
+
+[Ð°Éñ¸ú°à3]
+polar            : -1
+name             : "Ð°Éñ¸ú°à"
+icon             : 06281
+portrait         : 06281
+life_effect      : 350
+speed_effect     : 0
+mag_effect       : 50
+phy_effect       : 50
+skills           : ({ "B4", 16 })
+tractics         : "xieshengengban3_tactics"

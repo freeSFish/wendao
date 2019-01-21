@@ -1,0 +1,18 @@
+#FORM2
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task" })
+
+[start_task]
+broadcast_start : "start_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【2016新服】签到送豪礼#n活动开始啦！每天只要完成指定的#R日常任务#n，就能完成当天签到，#R连续签到31天#n即可在#P活动大使#P处参与抽取#R变异#n、#R神兽#n奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【2016新服】签到送豪礼#n活动正在火热进行中！每天只要完成指定的#R日常任务#n，就能完成当天签到，#R连续签到31天#n即可在#P活动大使#P处参与抽取#R变异#n、#R神兽#n奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,28 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-11-17-00:00", "EVERY_HOUR(22)", "EVERY_DAY(1)", "2013-11-19-22:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task1", "during_task2", "end_task" })
+
+[during_task1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-100)"
+message         : "#R【元旦】共襄盛举#n活动开始啦，大家快前往#P活动大使#P处领取任务，完成任务后可获得丰厚的奖励哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task2]
+broadcast_start : "end_time(-7200)"
+interval        : 600
+broadcast_end   : "end_time"
+message         : "#Y贪婪魔王#n来到#Z无名小镇（94,87）#Z抢夺天墉城居民们送给龙王的礼物了，请获得挑战资格的玩家前去消灭他。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "今天的#R【元旦】共襄盛举#n活动结束啦，感谢大家的参与。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

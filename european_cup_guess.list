@@ -1,0 +1,70 @@
+#FORM2
+
+[time_info]
+stage_start_time : "2012-06-20-18:00:00"
+stage_end_time : "2012-07-08-20:00:00"
+
+[match_info]
+match_list$ : "team11 VS team12"
+match_list$ : "team13 VS team14"
+match_list$ : "team15 VS team16"
+match_list$ : "team17 VS team18"
+match_list$ : "team21 VS team22"
+match_list$ : "team23 VS team24"
+match_list$ : "team31 VS team32"
+
+[team11 VS team12]
+match_id : "1"
+home : "team11"
+away : "team12"
+round : "四分之一决赛"
+guess_time : "2012-06-20-20:00:00"
+start_time : "2012-06-22-02:45:00"
+
+[team13 VS team14]
+match_id : "2"
+home : "team13"
+away : "team14"
+round : "四分之一决赛"
+guess_time : "2012-06-20-20:00:00"
+start_time : "2012-06-23-02:45:00"
+
+[team15 VS team16]
+match_id : "3"
+home : "team15"
+away : "team16"
+round : "四分之一决赛"
+guess_time : "2012-06-20-20:00:00"
+start_time : "2012-06-24-02:45:00"
+
+[team17 VS team18]
+match_id : "4"
+home : "team17"
+away : "team18"
+round : "四分之一决赛"
+guess_time : "2012-06-20-20:00:00"
+start_time : "2012-06-25-02:45:00"
+
+[team21 VS team22]
+match_id : "5"
+home : "team21"
+away : "team22"
+round : "半决赛"
+guess_time : "2012-06-25-20:00:00"
+start_time : "2012-06-28-02:45:00"
+
+[team23 VS team24]
+match_id : "6"
+home : "team23"
+away : "team24"
+round : "半决赛"
+guess_time : "2012-06-25-20:00:00"
+start_time : "2012-06-29-02:45:00"
+
+[team31 VS team32]
+match_id : "7"
+home : "team31"
+away : "team32"
+round : "决赛"
+guess_time : "2012-06-29-20:00:00"
+start_time : "2012-07-02-02:45:00"

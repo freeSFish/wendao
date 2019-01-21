@@ -1,0 +1,14 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2014-09-08-00:00:00", "EVERY_DAY(21)", 0, "2014-09-28-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【全民签到】行行出状元#n好礼大放送啦，只要每天完成#R助人为乐#n、#R八仙梦境#n与#R通天塔#n，即可在#P活动大使#P处抽取一份丰厚的奖励。连续完成还有几率抽取限时的神兽与8阶坐骑哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

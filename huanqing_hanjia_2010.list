@@ -1,0 +1,152 @@
+#FORM2
+
+#huanqing_hanjia_2010.list
+#Created by wuhx Dec/06/2009
+#欢庆寒假
+
+[game_info]
+#选线策略:选择min(3, line/line_tactics)条线开启，在第4, 8, 12线开启（内测为第2，4，6线）
+line_tactics : 4
+#玩家进入冰雪广场时的位置
+enter_room_x : 71
+enter_room_y : 60
+#冰雪魔王成长时修正的最大值
+max_recover_life : 2000000000
+#和冰雪魔王战斗的最多场数
+max_combat_num : 100
+
+[room]
+room : 冰雪广场
+#room : "雪域冰原"
+
+[position]
+position1 : ({ 44, 42, NORTHWEST, 6154, 冰雪魔王 })
+position2 : ({ 31, 92, NORTHWEST, 6154, 冰雪魔王 })
+position3 : ({ 84, 25, NORTHEAST, 6154, 冰雪魔王 })
+
+[monsters]
+monsters : ({ 冰雪魔王, 冰雪魔王的爪牙-冰晶龙鳞兽, 冰雪魔王的爪牙-雪狐, 冰雪魔王的禁卫军, 冰雪魔王的亲卫队, 明怪冰雪魔王的爪牙-冰晶龙鳞兽, 明怪冰雪魔王的爪牙-雪狐 })
+
+##==战斗数值配置==##
+##配表需注意，只支持整型##
+[冰雪魔王]
+name             : 冰雪魔王
+icon             : 6154
+portrait         : 6154
+level            : "lv"                 #"max_players_lv"
+polar            : 3
+life             : 188340000            #6278 * 100 * 75 * 4
+mag_effect       : "lv * 18 / 10"       #"monster_lv * 1.8"
+speed_effect     : 0
+tao_effect       : 1000
+resist_forgotten : 300
+resist_confusion : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_poison    : 300
+# 技能：B4/B3（如果等级高于100级，B3替换成B5），到时去掉一个
+skills           : ({ "B4", "B3", "B5"})
+# 技能等级：STD
+#artifact         : ({ "fantianyin" })
+#artifact_level   : "lv / 10 + 4"        #"4 + monster_lv / 10"
+tactics          : "boss_tactics"
+
+[冰雪魔王的爪牙-冰晶龙鳞兽]
+name            : 冰雪魔王的爪牙
+level           : "lv"                  #"max_players_lv"
+icon            : 6162
+polar           : 3
+life_effect     : 1000
+phy_effect      : "lv / 2"             #"monster_lv / 2"
+mag_effect      : "lv / 2 + 20"        #"monster_lv / 2 + 20"
+double_hit_rate : 30
+double_hit      : 4
+tao_effect      : -50
+# 技能：B4/B3（如果等级高于100级，B3替换成B5）
+skills          : ({ "B4", "B5", "B3" })
+tactics         : "boss_zhuaya_tactics"
+
+[冰雪魔王的爪牙-雪狐]
+name            : 冰雪魔王的爪牙
+level           : "lv"                  #"max_players_lv"
+icon            : 6271
+polar           : 3
+life_effect     : 1000
+phy_effect      : "lv / 2"             #"monster_lv / 2"
+mag_effect      : "lv / 2 + 20"        #"monster_lv / 2 + 20"
+double_hit_rate : 30
+double_hit      : 4
+tao_effect      : -50
+# 技能：B4/B3（如果等级高于100级，B3替换成B5）
+skills          : ({ "B4", "B5", "B3" })
+tactics         : "boss_zhuaya_tactics"
+
+[冰雪魔王的禁卫军]
+name         : 冰雪魔王的禁卫军
+level        : "lv"                     #"max_players_lv"
+icon         : 31030
+polar        : 3
+life_effect  : 800
+def_effect   : 2900
+speed_effect : 100
+tao_effect   : "lv - 100 * 25 / 10"     #"max(0, (monster_lv - 100)) * 2.5"
+# 道行效果：max(0, (怪物等级 - 100)) * 2.5
+mag_effect   : "lv"                     #"monster_lv * 1"
+# 法宝：九龙神火罩
+# 法宝等级：4 + int(怪物等级/20)
+#artifact     : ({ "jiulong-shenhuozhao" })
+#artifact_level  : "lv / 20 + 4"         #"4 + monster_lv / 20"
+# 技能：D5/B4/B3（如果等级高于100级，B3替换成B5）
+skills       : ({ "B3", "B4", "D5", "B5" })
+tactics      : "boss_jinweijun_tactics"
+
+[冰雪魔王的亲卫队]
+name         : 冰雪魔王的亲卫队
+level        : "lv"                     #"max_players_lv"
+icon         : 31032
+polar        : 5
+life_effect  : 2500
+mag_absorb   : 50
+phy_absorb   : 50
+speed_effect : 100
+tao_effect   : "lv - 100 * 25 / 10"     #"max(0, (monster_lv - 100)) * 2.5"
+mag_effect   : "lv"                     #"monster_lv * 1"
+# 法宝：九龙神火罩
+#artifact     : ({ "jiulong-shenhuozhao" })
+#artifact_level : "lv / 20 + 4"          #"4 + monster_lv / 20"
+# 技能：C5/B4/B3（如果等级高于100级，B3替换成B5）
+skills       : ({ "B3", "B4", "C5", "B5" })
+tactics      : "boss_qingweidui_tactics"
+
+[明怪冰雪魔王的爪牙-冰晶龙鳞兽]
+name            : 冰雪魔王的爪牙
+level           : "lv"                  #"max_players_lv"
+icon            : 6162
+portrait        : 6162
+polar           : 3
+life_effect     : "800 + 300"           #公式比较复杂，故只配最大值，具体在程序中实现
+phy_effect      : "lv / 2"              #"monster_lv / 2"
+mag_effect      : "lv / 2 + 20"         #"monster_lv / 2 + 20"
+double_hit_rate : 30
+double_hit      : 4
+tao_effect      : -50
+# 技能：B4/B3（如果等级高于100级，B3替换成B5）
+skills          : ({ "B3", "B4", "B5" })
+tactics         : "zhuaya_tactics"
+
+[明怪冰雪魔王的爪牙-雪狐]
+name            : 冰雪魔王的爪牙
+level           : "lv"                  #"max_players_lv"
+icon            : 6271
+portrait        : 6271
+polar           : 3
+life_effect     : "800 + 300"           #公式比较复杂，故只配最大值，具体在程序中实现
+phy_effect      : "lv / 2"              #"monster_lv / 2"
+mag_effect      : "lv / 2 + 20"         #"monster_lv / 2 + 20"
+double_hit_rate : 30
+double_hit      : 4
+tao_effect      : -50
+# 技能：B4/B3（如果等级高于100级，B3替换成B5）
+skills          : ({ "B3", "B4", "B5" })
+tactics         : "zhuaya_tactics"
+

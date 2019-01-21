@@ -1,0 +1,178 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-09-06-10:00:00", "EVERY_HOUR(1.5)", "EVERY_DAY(1)" })
+time_list$ : ({ "2009-09-06-14:00:00", "EVERY_HOUR(1.5)", "EVERY_DAY(1)" })
+time_list$ : ({ "2009-09-06-18:00:00", "EVERY_HOUR(1.5)", "EVERY_DAY(1)" })
+
+[before_start]
+time     : 300
+channel  : CHANNEL_SYSTEM
+duration : 60
+content  : "#R仙魔争夺战#n活动将在#R%d分钟#n后开始，欢迎大家到#R无名小镇#n找#Y仙界神捕#n参加！收集叛军袖章，兑换各种奖励，快来参加吧！"
+
+[start]
+channel  : CHANNEL_SYSTEM
+content  : "#R仙魔争夺战#n活动开始了，欢迎大家到#R无名小镇#n找#Y仙界神捕#n参加！"
+
+[after_start]
+time     : 600
+channel  : CHANNEL_SYSTEM
+duration : 600
+content  : "#R仙魔争夺战#n活动火热进行中，欢迎大家到#R无名小镇#n找#Y仙界神捕#n参加！收集叛军袖章，兑换各种奖励，快来参加吧！"
+
+[法士]
+name             : "法士"
+alias            : "法士"
+icon             : 6246
+portrait         : 6246
+polar            : -1
+no_capture       : 1
+life_effect      : 1100
+phy_absorb       : 100
+phy_effect       : 150
+mag_effect       : 200
+speed_effect     : 30
+tao_effect       : 10
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_forgotten : 45
+resist_confusion : 45
+bonus            : ({ "叛逆军袖章", 2 })
+comrade          : ({ "shi", 4 })
+skills           : ({ "B4" })
+attach_skills    : ({ 100, "B3", "B5" })
+tactics          : "panni_tactics"
+modify_attrib    : "modify_monster_attrib"
+monster_menu     : ({ "panni_menu_content", "menu_action" })
+
+[力士]
+name             : "力士"
+alias            : "力士"
+icon             : 6250
+portrait         : 6250
+polar            : -1
+no_capture       : 1
+life_effect      : 1100
+mag_absorb       : 100
+phy_effect       : 200
+mag_effect       : 150
+speed_effect     : 30
+tao_effect       : 10
+resist_poison    : 45
+resist_frozen    : 45
+resist_sleep     : 45
+resist_forgotten : 45
+resist_confusion : 45
+accurate         : 100
+stunt_rate       : 50
+bonus            : ({ "叛逆军袖章", 2 })
+comrade          : ({ "shi", 4 })
+tactics          : "panni_tactics"
+modify_attrib    : "modify_monster_attrib"
+monster_menu     : ({ "panni_menu_content", "menu_action" })
+
+[术士]
+name             : "术士"
+alias            : "术士"
+icon             : 6251
+portrait         : 6251
+polar            : -1
+no_capture       : 1
+life_effect      : 500
+phy_effect       : 150
+mag_effect       : 150
+speed_effect     : 60
+tao_effect       : 10
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+bonus            : ({ "叛逆军袖章", 2 })
+comrade          : ({ "shi", 4 })
+skills           : ({ "B4" })
+attach_skills    : ({ 100, "B3", "B5" })
+tactics          : "panni_tactics"
+modify_attrib    : "modify_monster_attrib"
+monster_menu     : ({ "panni_menu_content", "menu_action" })
+
+[术士精英]
+name             : "术士精英"
+alias            : "术士精英"
+icon             : 6251
+portrait         : 6251
+polar            : -1
+no_capture       : 1
+life_effect      : 2000
+phy_effect       : 200
+mag_effect       : 200
+speed_effect     : 60
+tao_effect       : 10
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+stunt_rate       : 50
+bonus            : ({ "叛逆精英袖章", 2 })
+rumor_msg        : ({ "#Y术士精英#n", "是哪个喽啰在大爷面前嚣张？#YPLAYER#n，就你？在我的剑与法力之下灰飞烟灭吧！" })
+comrade          : ({ "术士精英", 4 })
+skills           : ({ "B4" })
+attach_skills    : ({ 100, "B3", "B5" })
+tactics          : "jingying_tactics"
+modify_attrib    : "modify_monster_attrib"
+monster_menu     : ({ "jingying_menu_content", "menu_action" })
+
+[仙魔将领]
+name                : "仙魔将领"
+alias               : "仙魔将领"
+icon                : 6258
+portrait            : 6258
+polar               : 3
+no_capture          : 1
+life_effect         : 2100
+phy_effect          : 200
+mag_effect          : 200
+speed_effect        : 60
+tao_effect          : 30
+resist_poison       : 75
+resist_frozen       : 75
+resist_sleep        : 75
+resist_forgotten    : 75
+resist_confusion    : 75
+stunt_rate          : 50
+counter_attack      : 10
+counter_attack_rate : 50
+bonus               : ({ "叛逆将领袖章", 1 })
+rumor_msg           : ({ "#Y仙魔将领#n", "三界必定是我的，反抗者只有死路一条！", "#Y仙界神捕#n", "尔等叛逆，口出狂言，莫非不见你大势已去，贤能之士如#YPLAYER#n已经将你属下尽数击退，今日必要将你就地正法！" })
+artifact            : ({ "fantianyin", "hunyuan-jindou", "jiulong-shenhuozhao", "jinjiaojian"})
+artifact_level      : 18
+comrade             : ({ "术士精英1", 7 })
+skills              : ({ "B1", "B2", "B3", "B4", "C5", "B5", "D5" })
+tactics             : "jiangling_tactics"
+modify_attrib       : "modify_monster_attrib"
+monster_menu        : ({ "jiangling_menu_content", "menu_action" })
+
+[术士精英1]
+name             : "术士精英"
+alias            : "术士精英"
+icon             : 6251
+portrait         : 6251
+polar            : -1
+no_capture       : 1
+life_effect      : 1100
+phy_effect       : 200
+mag_effect       : 200
+speed_effect     : 60
+tao_effect       : 10
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_forgotten : 75
+resist_confusion : 75
+stunt_rate       : 50
+skills           : ({ "B4", "B5" })
+tactics          : "jingying_tactics"
+modify_attrib    : "modify_monster_attrib"

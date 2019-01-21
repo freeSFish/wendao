@@ -1,0 +1,318 @@
+#FORM2
+
+#明雷怪
+[黑山食人妖_0]
+name                  : "黑山食人妖"
+icon                  : 6152
+portrait              : 6152
+life_effect           : 2000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 30
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山食人妖_1]
+name                  : "黑山食人妖"
+icon                  : 6152
+portrait              : 6152
+life_effect           : 12000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 80
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山巨兽_0]
+name                  : "黑山巨兽"
+icon                  : 6149
+portrait              : 6149
+life_effect           : 2000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 30
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山巨兽_1]
+name                  : "黑山巨兽"
+icon                  : 6149
+portrait              : 6149
+life_effect           : 12000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 80
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山石牛妖_0]
+name                  : "黑山石牛妖"
+icon                  : 6147
+portrait              : 6147
+life_effect           : 2000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 30
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山石牛妖_1]
+name                  : "黑山石牛妖"
+icon                  : 6147
+portrait              : 6147
+life_effect           : 12000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 80
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山螳螂怪_0]
+name                  : "黑山螳螂怪"
+icon                  : 6150
+portrait              : 6150
+life_effect           : 2000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 30
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山螳螂怪_1]
+name                  : "黑山螳螂怪"
+icon                  : 6150
+portrait              : 6150
+life_effect           : 12000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 80
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山老妖_0]
+name                  : "黑山老妖"
+icon                  : 6258
+portrait              : 6258
+polar                 : 1
+life_effect           : 4000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 50
+skills                : ({ "B4", "D4" })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skills_level : 200
+
+[黑山老妖_1]
+name                  : "黑山老妖"
+icon                  : 6258
+portrait              : 6258
+polar                 : 1
+life_effect           : 24000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 90
+skills                : ({ "B4", "D4" })
+god_book_skills       : ({ "xiuluoshu" })
+god_book_skills_level : 200
+
+[小妖_0]
+life_effect           : 3000
+phy_absorb            : 20
+tao_effect            : 0
+penetrate_rate        : 50
+all_resist_except     : 30
+skills                : ({ "B3", "B4" })
+special_skills        : ({ "shenlong-zhao" })
+special_skills_level  : 180
+
+[小妖_1]
+life_effect           : 7000
+phy_absorb            : 20
+tao_effect            : 200
+penetrate_rate        : 50
+all_resist_except     : 80
+skills                : ({ "B3", "B4" })
+special_skills        : ({ "shenlong-zhao" })
+special_skills_level  : 180
+
+[姥姥_0]
+name                  : "姥姥"
+icon                  : 06241
+portrait              : 06241
+polar                 : 2
+life_effect           : 3000
+phy_absorb            : 20
+speed_effect          : 30
+tao_effect            : 20
+penetrate_rate        : 50
+all_resist_except     : 30
+skills                : ({ "B3", "B4", "D5" })
+
+[姥姥_1]
+name                  : "姥姥"
+icon                  : 06241
+portrait              : 06241
+polar                 : 2
+life_effect           : 7000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 80
+skills                : ({ "B3", "B4", "D5" })
+
+[侍女_0]
+name                  : "侍女"
+icon                  : 06175
+portrait              : 06175
+polar                 : 0
+life_effect           : 1000
+phy_absorb            : 20
+stunt_rate            : 30
+penetrate_rate        : 50
+all_resist_except     : 30
+skills                : ({ "B3", "B4" })
+
+[侍女_1]
+name                  : "侍女"
+icon                  : 06175
+portrait              : 06175
+polar                 : 0
+life_effect           : 6000
+phy_absorb            : 20
+stunt_rate            : 30
+penetrate_rate        : 50
+all_resist_except     : 80
+skills                : ({ "B3", "B4" })
+
+[花妖_0]
+name                  : "花妖"
+icon                  : 06128
+portrait              : 06128
+life_effect           : 1000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 30
+skills                : ({ "B3", "B4" })
+
+[花妖_1]
+name                  : "花妖"
+icon                  : 06128
+portrait              : 06128
+life_effect           : 6000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 80
+skills                : ({ "B3", "B4" })
+
+[九幽怨魂_0]
+name                  : "九幽怨魂"
+icon                  : 06140
+portrait              : 06140
+polar                 : 0
+life_effect           : 1200
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 30
+skills                : ({ "B3", "B4" })
+
+[九幽怨魂_1]
+name                  : "九幽怨魂"
+icon                  : 06140
+portrait              : 06140
+polar                 : 0
+life_effect           : 4800
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 80
+skills                : ({ "B3", "B4" })
+
+[黑山食人妖_黑山老妖_0]
+name                  : "黑山食人妖"
+icon                  : 6152
+portrait              : 6152
+life_effect           : 3000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 50
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山食人妖_黑山老妖_1]
+name                  : "黑山食人妖"
+icon                  : 6152
+portrait              : 6152
+life_effect           : 18000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 90
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山巨兽_黑山老妖_0]
+name                  : "黑山巨兽"
+icon                  : 6149
+portrait              : 6149
+life_effect           : 3000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 50
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山巨兽_黑山老妖_1]
+name                  : "黑山巨兽"
+icon                  : 6149
+portrait              : 6149
+life_effect           : 18000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 90
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山石牛妖_黑山老妖_0]
+name                  : "黑山石牛妖"
+icon                  : 6147
+portrait              : 6147
+life_effect           : 3000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 50
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山石牛妖_黑山老妖_1]
+name                  : "黑山石牛妖"
+icon                  : 6147
+portrait              : 6147
+life_effect           : 18000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 90
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山螳螂怪_黑山老妖_0]
+name                  : "黑山螳螂怪"
+icon                  : 6150
+portrait              : 6150
+life_effect           : 3000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 50
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[黑山螳螂怪_黑山老妖_1]
+name                  : "黑山螳螂怪"
+icon                  : 6150
+portrait              : 6150
+life_effect           : 18000
+phy_absorb            : 20
+penetrate_rate        : 50
+all_resist_except     : 90
+god_book_skills       : ({ "kuangbao" })
+god_book_skills_level : 1800
+
+[基本消息]
+keep_time : 7200
+timer_inter  : ({ 3600, 1800, 600, 600, 300, 60, 60, 60, 60 })

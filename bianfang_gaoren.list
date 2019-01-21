@@ -1,0 +1,59 @@
+#FORM2
+
+#遍访高人
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2010-07-20-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2010-08-31-24:00:00" })
+time_list$ : ({ "2010-07-22-18:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2010-08-31-24:00:00" })
+
+[setting]
+all_items : ({ "特效仙风散", "宠风散", "急急如律令", "惊妖铃", "特级八卦阴阳令", "超级仙风散", "驯兽诀", "血池", "灵池", "强力驱魔香", "仙灵卡", "超级神兽丹", "超级八卦阴阳令" })
+
+[broadcast_setting]
+broadcast_list:   ({ "pre_start_task", "during_task", "end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-7200)"
+interval        : 1200
+broadcast_end   : "start_time(-1200)"
+message         : "#R遍访高人#n活动将于#RSTART_TIME#n开启，60级以上玩家参与该活动将获得丰厚的经验、道行、潜能、宠物武学奖励，最快完成任务的玩家还有机会获得丰厚的#R商城道具#n奖励，届时请去#Z东海渔村#Z找#P宋辛哲#P参加。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 1200
+broadcast_end   : "end_time(-1200)"
+message         : "#R遍访高人#n活动正在进行中，大家赶快到#Z东海渔村#Z找#P宋辛哲#P参加吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "紧张激烈的#R遍访高人#n活动已经结束了。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[九天星君]
+name: "九天星君"
+icon: 6047
+life_effect: 100
+phy_absorb : -100
+mag_absorb : -100
+speed_effect: 1000
+resist_forgotten: 300
+resist_poison   : 300
+resist_frozen   : 300
+resist_sleep    : 300
+resist_confusion: 300
+tao_effect: 1000
+monster_tactics: "template_monster"
+
+[水柔星]
+name: "水柔星"
+icon: 31043
+phy_effect: -40
+mag_effect: 10
+life_effect:10
+mana_effect:10
+speed_effect : 5

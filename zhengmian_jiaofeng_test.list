@@ -1,0 +1,43 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-06-21-19:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-06-26-23:00:00" })
+time_list$ : ({ "2011-06-30-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2011-09-02-23:00:00" })
+
+[broadcast_setting]
+broadcast_list  : ({ "before_task", "start_task", "durling_task", "before_end_task", "end_task" })
+
+[before_task]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "昨日恶鬼在#Z天墉城#Z埋伏的计划被识破，准备于START_TIME发布全面进攻，请大家做好准备，共同抵御恶鬼。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time"
+message         : "恶鬼发起了对#Z天墉城#Z的全面攻击，请大家一起努力，与恶鬼#R正面交锋#n，共同保卫天墉城。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[durling_task]
+broadcast_start : "start_time(+1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#R正面交锋#n活动正在进行中，请大家前往#Z天墉城#Z，铲除#R恶鬼#n，保卫家园。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-900)"
+interval        : 300
+broadcast_end   : "end_time(-1)"
+message         : "#R正面交锋#n活动将于END_TIME结束，所剩的#R恶鬼#n已经不多了，请大家再加一把劲。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "经过大家的努力，入侵#Z天墉城#Z的恶鬼已经全部被消灭干净。但仍然不断地有恶鬼从地府中冲出，必须要想一个办法把#R恶鬼#n永远封印在地府中？请关注明天的活动#R重归平静#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

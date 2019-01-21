@@ -1,0 +1,1050 @@
+#FORM2
+
+# mount_item_attrib.list
+# create by yugq 16/02/2009
+# Æï³èµÀ¾ß¹¦ÄÜÁÐ±í
+
+# ¾«¹Ö¡¢ÓùÁéÄ¬ÈÏµÄÄÜÁ¦½×Êý
+[default_capacity_level]
+ÔÀÂ´½£ : 6
+´äÁé½£ : 5
+Ë®ÔÏ½£ : 4
+Ê¥Ì´½£ : 3
+ÏÉÑô½£ : 2
+¹ÅÂ¹ : 6
+ÁéÂ¹ : 5
+»ÃÂ¹ : 4
+ÑÅÂ¹ : 3
+ÔÆÂ¹ : 2
+ÔÆ±ª : 6
+Óñ±ª : 5
+Ë®¾§±ª : 4
+ÁèÑÒ±ª : 3
+Ñ©±ª : 2
+ËÙÁú±ª : 5
+ÈñÁú±ª : 5
+ôàÁú±ª : 5
+¶à²Ê¿­Ðý±ª : 5
+Ì«¼«ÐÜ : 8
+±±¼«ÐÜ : 6
+ÎÞ¼«ÐÜ : 5
+³à½õÐÜ : 3
+×ØÈ×ÐÜ : 2
+ôä´äºùÂ« : 6
+ÏÉºùÂ« : 5
+³àÑæºùÂ« : 4
+×ÏÌÙºùÂ« : 3
+ÁéºùÂ« : 2
+
+»ÃÁéÐÜ : 3
+±ÌÓñ½£ : 3
+ÒÝÂ¹ : 3
+Ðý·ç±ª : 3
+ºèÓñºùÂ« : 3
+
+ÐùÔ¯Å£ : 4
+ÉñÎäÅ£ : 2
+Ï«Å£ : 3
+³àµ¨Å£ : 5
+Îå²ÊÉñÅ£ : 6
+½ðÁåÊ¨ : 5
+Ä½Ñ×Ê¨ : 6
+Âæ±ùÊ¨ : 4
+³àÑæÊ¨ : 3
+·æºðÊ¨ : 2
+ÑÅ³¾ºü : 6
+±ùÁéºü : 5
+É·»ðºü : 4
+ÊÈÑªºü : 3
+ÐþÌìºü : 2
+ÇáÌã : 2
+³¾Ìã : 3
+³ãÌã : 4
+Ä«Ìã : 5
+ÓñÌã : 6
+·É¿ÕÓã : 2
+³ÛÑæÓã : 3
+º®±ùÓã : 4
+ÍþÕðÓã : 5
+ÓñµûÓã : 6
+¾ÞÕÆÔ³ : 2
+¿ªÉ½Ô³ : 3
+ÁÑÊ¯Ô³ : 4
+ÈÛÑÒÔ³ : 5
+ÅÌ¹ÅÔ³ : 6
+ÖÁ×ðÌ«¼«ÐÜ : 9
+ÖÁ×ðÓñµûÓã : 9
+ÖÁ×ðÅÌ¹ÅÔ³ : 9
+¼ªÏéÍÜ : 8
+¾Þ¹Ç´Ì : 8
+ÖÁ×ð¼ªÏéÍÜ : 9
+ÖÁ×ð¾Þ¹Ç´Ì : 9
+¾ÅÎ²ÏÉºü : 10
+±±¶·ÌìÅî : 10
+¼²·çÊ´ÈÕ : 10
+Ñ©É½·Éºü : 10
+Ì¼ÔªÌìÅî : 10
+Á÷»ðÊ´ÈÕ : 10
+
+# Æï³èÖÖÀà
+[mount_category]
+ÔÀÂ´½£ : 1
+´äÁé½£ : 1
+Ë®ÔÏ½£ : 1
+Ê¥Ì´½£ : 1
+ÏÉÑô½£ : 1
+¹ÅÂ¹ : 2
+ÁéÂ¹ : 2
+»ÃÂ¹ : 2
+ÑÅÂ¹ : 2
+ÔÆÂ¹ : 2
+ÔÆ±ª : 3
+Óñ±ª : 3
+Ë®¾§±ª : 3
+ÁèÑÒ±ª : 3
+Ñ©±ª : 3
+ËÙÁú±ª : 3
+ÈñÁú±ª : 3
+ôàÁú±ª : 3
+¶à²Ê¿­Ðý±ª : 3
+Ì«¼«ÐÜ : 4
+±±¼«ÐÜ : 4
+ÎÞ¼«ÐÜ : 4
+³à½õÐÜ : 4
+×ØÈ×ÐÜ : 4
+ÖÁ×ðÌ«¼«ÐÜ : 4
+ôä´äºùÂ« : 5
+ÏÉºùÂ« : 5
+³àÑæºùÂ« : 5
+×ÏÌÙºùÂ« : 5
+ÁéºùÂ« : 5
+
+»ÃÁéÐÜ : 4
+±ÌÓñ½£ : 1
+ÒÝÂ¹ : 2
+Ðý·ç±ª : 3
+ºèÓñºùÂ« : 5
+
+ÐùÔ¯Å£ : 6
+ÉñÎäÅ£ : 6
+Ï«Å£ : 6
+³àµ¨Å£ : 6
+Îå²ÊÉñÅ£ : 6
+½ðÁåÊ¨ : 7
+Ä½Ñ×Ê¨ : 7
+Âæ±ùÊ¨ : 7
+³àÑæÊ¨ : 7
+·æºðÊ¨ : 7
+ÑÅ³¾ºü : 8
+±ùÁéºü : 8
+É·»ðºü : 8
+ÊÈÑªºü : 8
+ÐþÌìºü : 8
+ÇáÌã : 9
+³¾Ìã : 9
+³ãÌã : 9
+Ä«Ìã : 9
+ÓñÌã : 9
+·É¿ÕÓã : 10
+³ÛÑæÓã : 10
+º®±ùÓã : 10
+ÍþÕðÓã : 10
+ÓñµûÓã : 10
+ÖÁ×ðÓñµûÓã  : 10
+¾ÞÕÆÔ³ : 11
+¿ªÉ½Ô³ : 11
+ÁÑÊ¯Ô³ : 11
+ÈÛÑÒÔ³ : 11
+ÅÌ¹ÅÔ³ : 11
+ÖÁ×ðÅÌ¹ÅÔ³  : 11
+¼ªÏéÍÜ : 12
+¾Þ¹Ç´Ì : 13
+ÖÁ×ð¼ªÏéÍÜ : 12
+ÖÁ×ð¾Þ¹Ç´Ì : 13
+¾ÅÎ²ÏÉºü : 14
+Ñ©É½·Éºü : 14
+±±¶·ÌìÅî : 15
+Ì¼ÔªÌìÅî : 15
+¼²·çÊ´ÈÕ : 16
+Á÷»ðÊ´ÈÕ : 16
+
+# Æï³èÖÖÀàÎª1 ÄÜÁ¦½×Êý6
+[CATEGORY_1_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_1_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_1_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 35000
+mount_cost      : 37000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_1_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 5000
+mount_cost      : 7000
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_1_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 2000
+mount_cost      : 4000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_1_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1000
+mount_cost      : 3000
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_2_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_2_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_2_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 40000
+mount_cost      : 42000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_2_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 7500
+mount_cost      : 9500
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_2_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 3000
+mount_cost      : 5000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_2_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1200
+mount_cost      : 3200
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_3_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_3_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_3_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 35000
+mount_cost      : 37000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_3_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 5000
+mount_cost      : 7000
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_3_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 2000
+mount_cost      : 4000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_3_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1000
+mount_cost      : 3000
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_4_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_4_8]
+max_speed       : 40
+all_attrib      : 8
+power           : 24
+def             : 18
+upgrade_point   : 8
+gremlin_cost    : 350000
+mount_cost      : 352000
+gremlin_cost_senior : 2000000
+mount_cost_senior   : 2002000
+
+[CATEGORY_4_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_4_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_4_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 50000
+mount_cost      : 52000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_4_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 20000
+mount_cost      : 22000
+gremlin_cost_senior : 3000
+mount_cost_senior   : 5000
+
+[CATEGORY_4_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 1000
+mount_cost_senior   : 3000
+
+[CATEGORY_4_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 3000
+mount_cost      : 5000
+gremlin_cost_senior : 250
+mount_cost_senior   : 2250
+
+[CATEGORY_5_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_5_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_5_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 35000
+mount_cost      : 37000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_5_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 5000
+mount_cost      : 7000
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_5_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 2000
+mount_cost      : 4000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_5_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1000
+mount_cost      : 3000
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_6_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_6_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_6_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_6_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_6_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_6_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_7_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_7_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_7_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_7_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_7_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_7_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_8_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_8_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_8_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_8_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_8_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_8_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_9_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_9_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_9_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_9_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_9_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_9_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_10_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_10_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_10_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_10_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_10_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_10_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_11_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_11_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_11_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_11_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_11_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_11_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_10_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_11_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_12_8]
+max_speed       : 40
+all_attrib      : 8
+power           : 24
+def             : 18
+upgrade_point   : 8
+gremlin_cost    : 350000
+mount_cost      : 352000
+gremlin_cost_senior : 2000000
+mount_cost_senior   : 2002000
+
+[CATEGORY_13_8]
+max_speed       : 40
+all_attrib      : 8
+power           : 24
+def             : 18
+upgrade_point   : 8
+gremlin_cost    : 350000
+mount_cost      : 352000
+gremlin_cost_senior : 2000000
+mount_cost_senior   : 2002000
+
+[CATEGORY_12_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_13_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_14_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+[CATEGORY_15_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+[CATEGORY_16_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+[CATEGORY_14_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+[CATEGORY_15_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+[CATEGORY_16_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000

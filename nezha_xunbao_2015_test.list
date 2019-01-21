@@ -1,0 +1,28 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-10-25-00:00:00", "EVERY_DAY(3)", 0, "2015-10-27-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(100)"
+message         : "#R【寒假】哪吒忙寻宝#n活动开始啦，大家赶紧去#P活动大使#P处参加吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1200)"
+interval        : 1200
+broadcast_end   : "end_time(-100)"
+message         : "#R【寒假】哪吒忙寻宝#n活动正在进行中，大家赶紧去#P活动大使#P处参加活动，积极参与活动者可获得丰厚的道具奖励哦。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(100)"
+message         : "本次#R【寒假】哪吒忙寻宝#n活动圆满结束，请关注寒假期间的其它活动！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

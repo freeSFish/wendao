@@ -1,0 +1,37 @@
+#FORM2
+
+[task_time]
+start_time : "2012-09-28-00:00:00"
+end_time   : "2012-10-07-23:59:59"
+
+[all_npc_info]
+象驮銮舆花车 : 42111
+丫鬟 : 42401
+喇叭手 : 42402
+敲锣手 : 42405
+九尾狐护卫 : 6176
+护牌手 : 42404
+
+[象驮銮舆花车]
+type      : "npc"
+move_line : ({ 1 })
+
+[丫鬟]
+type      : "slavey"
+move_line : ({ 4, 5 })
+
+[喇叭手]
+type      : "chuizou"
+move_line : ({ 7 })
+
+[敲锣手]
+type      : "chuizou"
+move_line : ({ 8 })
+
+[九尾狐护卫]
+type      : "guard"
+move_line : ({ 6, 11, 12, 13, 14, 15, 16, 17 })
+
+[护牌手]
+type      : "hupaishou"
+move_line : ({ 9, 10 })

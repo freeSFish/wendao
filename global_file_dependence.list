@@ -1,0 +1,3 @@
+/daemons/configd.c : /daemons/communicated.c
+/daemons/communicated.c : /daemons/threadd.c
+/daemons/check_dbased.c : /daemons/dbd.c

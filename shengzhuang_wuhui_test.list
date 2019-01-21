@@ -1,0 +1,218 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-06-29-19:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2012-06-29-15:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2012-07-13-14:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2012-07-20-16:00:01" })
+
+[game_info]
+monster_icons : ({ 6164, 6283, 6210, 6289, 6215, 6208 })
+monster_names : ({ "天枢星君的爱宠", "天璇星君的爱宠", "天玑星君的爱宠", "天权星君的爱宠", "玉衡星君的爱宠", "开阳星君的爱宠", "摇光星君的爱宠", "福星的爱宠", "禄星的爱宠", "寿星的爱宠", "麻姑的爱宠", "普贤真人的爱宠", "金灵圣母的爱宠", "火灵圣母的爱宠", "元始天尊的爱宠", "西方教主的爱宠", "通天教主的爱宠", "太上老君的爱宠", "准提道人的爱宠", "太白金星的爱宠", "蓬莱使者的爱宠" })
+
+[broadcast_setting]
+broadcast_list:   ({ "pre_start_task_2", "pre_start_task_3", "pre_start_task_4" })
+
+[pre_start_task_2]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-10)"
+message         : "#R【周活动】盛妆舞会#n即将在#RSTART_FORMAT_HOUR_MIN#n开始！大家快用#R时装#n装扮自己或#R携带任意形象的变身卡#n在天墉城找#P千面怪#P报名参加活动吧，用#R时装#n装扮的玩家在活动中可获得超值奖励！(活动双倍、三倍、全局双倍均无效)"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[pre_start_task_3]
+broadcast_start : "start_time(600)"
+interval        : 600
+broadcast_end   : "end_time(-599)"
+message         : "#R【周活动】盛妆舞会#n正在火热进行中！大家快用#R时装#n装扮自己或#R携带任意形象的变身卡#n在天墉城找#P千面怪#P报名参加活动吧，用#R时装#n装扮的玩家在活动中可获得超值奖励！(活动双倍、三倍、全局双倍均无效)"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[pre_start_task_4]
+broadcast_start : "start_time(-3600)"
+interval        : 900
+broadcast_end   : "start_time(-1600)"
+message         : "#R【周活动】盛妆舞会#n即将在#RSTART_FORMAT_HOUR_MIN#n开始！大家快用#R时装#n装扮自己或#R携带任意形象的变身卡#n在天墉城找#P千面怪#P报名参加活动吧，用#R时装#n装扮的玩家在活动中可获得超值奖励！(活动双倍、三倍、全局双倍均无效)"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[6164]
+polar            : -1
+religion         : -1
+icon             : 6164
+portrait         : 6164
+life_effect      : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect       : "70 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+mag_effect       : "70 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+tao_effect       : "75 + Lv / 100 * 65 + Lv / 130 * 65 + Lv / 140 * 65"
+speed_effect     : 150
+mag_absorb       : -30
+phy_absorb       : 10
+stunt_rate       : 20
+penetrate_rate   : 20
+penetrate        : 20
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+skills           : ({ "lipo-qianjun", "B4", "B5" })
+content          : "我有#R雷电之灵#n附体，休想用#R五系法术#n打败我。"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics          : "tactics_first"
+
+[6283]
+polar            : 1
+religion         : -1
+icon             : 6283
+portrait         : 6283
+life_effect      : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+mag_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+tao_effect       : "75 + Lv / 100 * 65 + Lv / 130 * 65 + Lv / 140 * 65"
+speed_effect     : 150
+resist_fire      : -10
+resist_wood      : 30
+stunt_rate       : 20
+penetrate_rate   : 20
+penetrate        : 20
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+content          : "我有#R金之灵#n附体，休想用#R木系法术#n打败我。"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics          : "tactics_second"
+
+[6210]
+polar            : 2
+religion         : -1
+icon             : 6210
+portrait         : 6210
+life_effect      : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+mag_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+tao_effect       : "75 + Lv / 100 * 65 + Lv / 130 * 65 + Lv / 140 * 65"
+speed_effect     : 150
+resist_metal     : -10
+resist_earth     : 30
+stunt_rate       : 20
+penetrate_rate   : 20
+penetrate        : 20
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+content          : "我有#R木之灵#n附体，休想用#R土系法术#n打败我。"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics          : "tactics_second"
+
+[6289]
+polar            : 3
+religion         : -1
+icon             : 6289
+portrait         : 6289
+life_effect      : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+mag_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+tao_effect       : "75 + Lv / 100 * 65 + Lv / 130 * 65 + Lv / 140 * 65"
+speed_effect     : 150
+resist_earth     : -10
+resist_fire      : 30
+stunt_rate       : 20
+penetrate_rate   : 20
+penetrate        : 20
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+content          : "我有#R水之灵#n附体，休想用#R火系法术#n打败我。"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics          : "tactics_second"
+
+[6215]
+polar            : 4
+religion         : -1
+icon             : 6215
+portrait         : 6215
+life_effect      : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+mag_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+tao_effect       : "75 + Lv / 100 * 65 + Lv / 130 * 65 + Lv / 140 * 65"
+speed_effect     : 150
+resist_water     : -10
+resist_metal     : 30
+stunt_rate       : 20
+penetrate_rate   : 20
+penetrate        : 20
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+content          : "我有#R火之灵#n附体，休想用#R金系法术#n打败我。"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics          : "tactics_second"
+
+[6208]
+polar            : 5
+religion         : -1
+icon             : 6208
+portrait         : 6208
+life_effect      : "800 + Lv / 70 * 100 + Lv / 100 * 150 + Lv / 110 * 250 + Lv / 130 * 400 + Lv / 150 * 270"
+phy_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+mag_effect       : "50 + Lv / 70 * 10 + Lv / 100 * 10 + Lv / 110 * 20 + Lv / 130 * 20 + Lv / 150 * 15"
+tao_effect       : "75 + Lv / 100 * 65 + Lv / 130 * 65 + Lv / 140 * 65"
+speed_effect     : 150
+resist_wood      : -10
+resist_water     : 30
+stunt_rate       : 20
+penetrate_rate   : 20
+penetrate        : 20
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+resist_repress   : 50
+resist_melt      : 50
+resist_cage      : 50
+resist_lock      : 50
+resist_lost      : 50
+content          : "我有#R土之灵#n附体，休想用#R水系法术#n打败我。"
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+tactics          : "tactics_second"
+
+[仙界神宠王]
+polar           : -1
+religion        : -1
+icon            : ({ 6179, 6178, 6177, 6186 })
+special_monster : 1
+skills          : ({ "D3" })
+content         : "我是#Y仙界神宠王#n，成功#R捕捉#n我可以获得额外的惊喜！"
+tactics         : "tactics_third"

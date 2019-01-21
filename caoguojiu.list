@@ -1,0 +1,153 @@
+#FORM2
+
+[Ú‘¡˙-0]
+name                : Ú‘¡˙
+icon                : 6162
+portrait            : 6162
+polar               : -1
+religion            : -1
+life_effect         : "2000 + LV / 100 * 300 + LV / 130 * 400 + LV / 150 * 400"
+phy_effect          : "60 + LV / 100 * 100 + LV / 130 * 50 + LV / 150 * 30"
+mag_effect          : "60 + LV / 100 * 100 + LV / 130 * 50 + LV / 150 * 30"
+speed_effect        : 30
+tao_effect          : "LV / 10 * 10"
+skills              : ({ "B2", "B4", "D4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_common_tactics_ex"
+
+[Ú‘¡˙-1]
+name                : Ú‘¡˙
+icon                : 6162
+portrait            : 6162
+polar               : ({ 1, 3, 4, 5 })
+religion            : -1
+life_effect         : "12000 + LV / 100 * 1800 + LV / 130 * 2400 + LV / 150 * 2400"
+phy_effect          : "120 + LV / 100 * 200 + LV / 130 * 100 + LV / 150 * 60"
+mag_effect          : "120 + LV / 100 * 200 + LV / 130 * 100 + LV / 150 * 60"
+speed_effect        : 60
+tao_effect          : "LV / 10 * 10"
+skills              : ({ "B2", "B4", "D4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_common_tactics_ex"
+
+[–°—˝Ú‘¡˙-0]
+name                : –°—˝Ú‘¡˙
+icon                : 6131
+portrait            : 6131
+polar               : -1
+religion            : -1
+life_effect         : "500 + LV / 100 * 100 + LV / 130 * 200 + LV / 150 * 300"
+phy_effect          : "40 + LV / 100 * 60"
+mag_effect          : "40 + LV / 100 * 60"
+speed_effect        : 20
+tao_effect          : "LV / 10 * 10"
+skills              : ({ "B2", "B4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_common_tactics"
+
+[–°—˝Ú‘¡˙-1]
+name                : –°—˝Ú‘¡˙
+icon                : 6131
+portrait            : 6131
+polar               : -1
+religion            : -1
+life_effect         : "3000 + LV / 100 * 600 + LV / 130 * 1200 + LV / 150 * 1800"
+phy_effect          : "80 + LV / 100 * 120"
+mag_effect          : "80 + LV / 100 * 120"
+speed_effect        : 40
+tao_effect          : "LV / 10 * 10"
+skills              : ({ "B2", "B4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_common_tactics"
+
+[Ú‘¡˙◊Â≥§-0]
+name                : Ú‘¡˙◊Â≥§
+icon                : 6190
+portrait            : 6190
+polar               : -1
+religion            : -1
+life_effect         : "2000 + LV / 100 * 1000 + LV / 130 * 800 + LV / 150 * 500"
+phy_effect          : "90 + LV / 100 * 100 + LV / 130 * 50 + LV / 150 * 30"
+mag_effect          : "140 + LV / 100 * 100 + LV / 130 * 50 + LV / 150 * 30"
+speed_effect        : 50
+tao_effect          : "LV / 10 * 10"
+double_hit_rate     : 30
+double_hit          : 5
+resist_forgotten    : 100
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+phy_absorb          : -10
+mag_absorb          : 10
+skills              : ({ "B3", "B4", "C4", "D4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_jiaolong_zuzhang_tactics"
+
+[Ú‘¡˙◊Â≥§-1]
+name                : Ú‘¡˙◊Â≥§
+icon                : 6190
+portrait            : 6190
+polar               : ({ 1, 3, 4, 5 })
+religion            : -1
+life_effect         : "12000 + LV / 100 * 6000 + LV / 130 * 4800 + LV / 150 * 3000"
+phy_effect          : "180 + LV / 100 * 200 + LV / 130 * 100 + LV / 150 * 60"
+mag_effect          : "280 + LV / 100 * 200 + LV / 130 * 100 + LV / 150 * 60"
+speed_effect        : 100
+tao_effect          : "LV / 10 * 10"
+double_hit_rate     : 30
+double_hit          : 5
+resist_forgotten    : 100
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+phy_absorb          : -10
+mag_absorb          : 10
+skills              : ({ "B3", "B4", "C4", "D4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_jiaolong_zuzhang_tactics"
+
+[Ú‘¡˙ª§Œ¿-0]
+name                : Ú‘¡˙ª§Œ¿
+icon                : 6147
+portrait            : 6147
+polar               : -1
+religion            : -1
+life_effect         : "1500 + LV / 100 * 500 + LV / 130 * 300 + LV / 150 * 200"
+phy_effect          : "60 + LV / 100 * 100 + LV / 130 * 50 + LV / 150 * 20"
+mag_effect          : "60 + LV / 100 * 100 + LV / 130 * 50 + LV / 150 * 20"
+speed_effect        : 20
+tao_effect          : "LV / 10 * 10"
+phy_absorb          : 10
+mag_absorb          : 10
+skills              : ({ "B2", "B4", "D4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_jiaolong_huwei_tactics"
+
+[Ú‘¡˙ª§Œ¿-1]
+name                : Ú‘¡˙ª§Œ¿
+icon                : 6147
+portrait            : 6147
+polar               : ({ 1, 3, 4, 5 })
+religion            : -1
+life_effect         : "9000 + LV / 100 * 3000 + LV / 130 * 1800 + LV / 150 * 1200"
+phy_effect          : "120 + LV / 100 * 200 + LV / 130 * 100 + LV / 150 * 40"
+mag_effect          : "120 + LV / 100 * 200 + LV / 130 * 100 + LV / 150 * 40"
+speed_effect        : 40
+tao_effect          : "LV / 10 * 10"
+phy_absorb          : 10
+mag_absorb          : 10
+skills              : ({ "B2", "B4", "D4" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "monster_jiaolong_huwei_tactics"

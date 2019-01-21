@@ -1,0 +1,110 @@
+#一个对手死亡 SF_DIE 子事件
+[SF_OPPONENT_DIE]
+    if (director->check_corps(DEFENSE_CORPS))
+        // 死亡者是防御方，即为对手
+        $event_occur;
+
+#最后一个对手死亡 SF_OPPONENT_DIE 子事件
+[SF_LAST_OPPONENT_DIE]
+    object cob;
+    array  allies;
+
+    cob = (para["ob"])->query_temp("combat");
+    assert(is_object(cob));
+
+    allies = cob->get_living_allies(director);
+    if (sizeof(allies) == 0)
+        $event_occur;
+
+#一个队友死亡（不包含宠物） SF_DIE 子事件
+[SF_ALLY_DIE]
+    if (director->check_corps(ATTACK_CORPS) &&
+        director != get_owner())
+        // // 死亡者是攻击方，且不为 Drama 宿主，即为队友
+        $event_occur;
+
+#最后一个队友死亡（不包含宠物） SF_ALLY_DIE 子事件
+[SF_LAST_ALLY_DIE]
+    object cob;
+    array  allies;
+
+    cob = (para["ob"])->query_temp("combat");
+    assert(is_object(cob));
+
+    allies = cob->get_living_allies(director);
+    if (sizeof(allies) == 1)
+        $event_occur;
+
+#战斗胜利欲结束战斗 SF_TRY_FINISH 子事件
+[SF_TRY_FINISHED_VICTORY]
+    if (para["result"] == ATTACK_VICTORY)
+        $event_occur;
+
+#战斗失败欲结束战斗 SF_TRY_FINISH 子事件
+[SF_TRY_FINISHED_DEFEAT]
+    if (para["result"] == DEFENSE_VICTORY)
+        $event_occur;
+
+#战斗平局欲结束战斗 SF_TRY_FINISH 子事件
+[SF_TRY_FINISHED_DRAW]
+    if (para["result"] == COMBAT_DRAW)
+        $event_occur;
+
+#最后一个敌人 SF_POPUP_MENU 子事件
+[SF_LAST_OPPONENT]
+    if (sizeof(para["defensers_in_combat"]) == 1)
+        $event_occur;
+
+#最后一个友人 SF_POPUP_MENU 子事件
+[SF_LAST_ALLY]
+    if (sizeof(para["attackers_in_combat"]) == 1)
+        $event_occur;
+
+#最后一个玩家 SF_POPUP_MENU 子事件
+[SF_LAST_PLAYER]
+    if (sizeof(para["living_players"]) == 1)
+        $event_occur;
+
+#战斗中新一轮开始 SF_POPUP_MENU 子事件
+[SF_NEW_ROUND]
+    if ((para["cob"])->query_temp("last_total_round") != para["total_round"])
+    {
+        (para["cob"])->set_temp("last_total_round", para["total_round"]);
+        $event_occur(sprintf("%d", para["total_round"]));
+    }
+
+#仍然在战斗中的某一轮 SF_POPUP_MENU 子事件
+[SF_STILL_ROUND]
+    if ((para["cob"])->query_temp("last_total_round") == para["total_round"])
+        $event_occur(sprintf("%d", para["total_round"]));
+
+#第一次出现最后一个敌人 SF_LAST_OPPONENT 子事件
+[SF_LAST_OPPONENT_FIRST_TIME]
+    if (! (para["cob"])->query_temp("sf_last_opponent_first_time"))
+    {
+        (para["cob"])->set_temp("sf_last_opponent_first_time", TRUE);
+        $event_occur;
+    }
+
+#第一次出现最后一个友人 SF_LAST_ALLY 子事件
+[SF_LAST_ALLY_FIRST_TIME]
+    if (! (para["cob"])->query_temp("sf_last_ally_first_time"))
+    {
+        (para["cob"])->set_temp("sf_last_ally_first_time", TRUE);
+        $event_occur;
+    }
+
+#战斗结束（胜利） SF_COMBAT_FINISHED 子事件
+[SF_COMBAT_FINISHED_VICTORY]
+    if (para["result"] == ATTACK_VICTORY)
+        $event_occur;
+
+#战斗结束（失败） SF_COMBAT_FINISHED 子事件
+[SF_COMBAT_FINISHED_DEFEAT]
+    if (para["result"] == DEFENSE_VICTORY)
+        $event_occur;
+
+#战斗结束（平局） SF_COMBAT_FINISHED 子事件
+[SF_COMBAT_FINISHED_DRAW]
+    if (para["result"] == COMBAT_DRAW)
+        $event_occur;

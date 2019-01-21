@@ -1,0 +1,22 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2014-07-08-00:00:00", "EVERY_DAY(12)", 0 })
+time_list$ : ({ "2014-08-11-00:00:00", "EVERY_DAY(11)", 0 })
+
+[broadcast_setting]
+broadcast_list:   ({ "dur_task", "end_task" })
+
+[dur_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "封神大会期间，#P活动大使#P请求众道友到中洲大陆各处巡视，帮助有困难的居民们，完成任务之后将有丰厚的回报，大家快去找#P活动大使#P领取#R【暑假】巡视安民#n任务吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【暑假】巡视安民#n活动结束了，多亏了各位道友的帮助，中洲大陆终于回归了安宁。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

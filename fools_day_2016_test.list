@@ -1,0 +1,36 @@
+#FORM2
+
+[setting]
+start_time       : "2015-12-15-00:00:00"
+end_time         : "2015-12-17-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "before_end_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【愚人节】愚人欢乐逗#n活动开始了，大家快去#Z天墉城#Z找#Y余仁杰#n和#Y窦霓婉#n参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#R【愚人节】愚人欢乐逗#n活动正在火热进行中，大家快去#Z天墉城#Z找#Y余仁杰#n和#Y窦霓婉#n参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-300)"
+interval        : 60
+broadcast_end   : "end_time(-60)"
+message         : "#R【愚人节】愚人欢乐逗#n活动即将结束，请大家抓紧时间！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【愚人节】愚人欢乐逗#n活动圆满结束了，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

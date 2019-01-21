@@ -1,0 +1,38 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2017-10-30-12:00:00", "EVERY_HOUR(252)", 0, "2017-11-09-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start", "during_task", "during_mall", "before_end" })
+
+[config]
+npcs : ({ "白眉真人", "百晓通", "帮派管理员", "帮派使者", "北斗星使", "缤纷大使", "车夫@天墉城", "赤灵尊神", "船夫@天墉城", "达闻散人", "大胡子", "点卡寄售商", "董老头", "兑兑乐", "鬼道子", "红娘", "幻境散人@天墉城", "积分大使", "集市传送人@天墉城", "节日大使", "竞技申请人", "林老汉", "灵兽异人@天墉城", "茅山道士", "门派比武大会申请人", "门派使者", "蒙面", "妙手道人", "民房总管", "念心道人", "宁彩神", "拍卖师", "普华天尊", "千面怪", "清风道人", "青木道人", "商会会长", "神算子", "生肖使者", "试道大会申请人", "守护天神", "天机老人", "问道引路人", "无极散人", "无名剑客", "五行竞猜使", "逍遥仙", "辛仁皑", "杨镖头", "夜行人", "游方术士", "元宝商人", "状元王中王", "庆典大使@天墉城", "李总兵" })
+
+[before_start]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【万圣节】不给糖就捣乱#n活动开始了，活动期间可以到天墉城中的部分NPC处收集糖果，使用糖果可以获得超值奖励，更有可能获得可爱的纪念宠变异#R南瓜头杰克#n或#R变异精魄#n，快去#Y天墉城#n参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(3600)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【万圣节】不给糖就捣乱#n活动正在进行中，活动期间可以到天墉城中的部分NPC处收集糖果，使用糖果可以获得超值奖励，更有可能获得可爱的纪念宠变异#R南瓜头杰克#n或#R变异精魄#n，快去#Y天墉城#n参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_mall]
+broadcast_start : "start_time"
+interval        : 1200
+broadcast_end   : "end_time(-1)"
+broadcast_func  : "broadcast_during_mall"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(1)"
+message         : "#R【万圣节】不给糖就捣乱#n活动已经结束了，大家明年再见！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

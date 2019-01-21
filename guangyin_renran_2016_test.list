@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time       : "2016-03-12-00:00:00"
+end_time         : "2016-03-15-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "dur_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(-1)"
+interval        : 0
+broadcast_end   : "start_time"
+message         : "#R【十年问道】光阴荏苒#n活动开始了！为感谢大家十年来对#R《问道》#n的支持和厚爱！在这喜庆的日子里，大家可以去#P活动大使#P领取#R《问道》#n送出的丰厚大礼，角色创建时间越早奖励越高哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[dur_task]
+broadcast_start : "start_time(0)"
+interval        : 3600
+broadcast_end   : "end_time"
+message         : "#R【十年问道】光阴荏苒#n活动正在进行中！为感谢大家十年来对#R《问道》#n的支持和厚爱！在这喜庆的日子里，大家可以去#P活动大使#P领取#R《问道》#n送出的丰厚大礼，角色创建时间越早奖励越高哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【十年问道】光阴荏苒#n活动到此结束，感谢大家的积极参与"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

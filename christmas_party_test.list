@@ -1,0 +1,93 @@
+#FORM2
+
+#start_time 活动开始时间
+#duration_time 活动持续时间
+#monster_num 每层产生的妖魔数量
+
+[setting]
+start_time    : "2008-12-24-18:00:00"
+duration_time : 352800
+broadcast_interval_60 : 259200
+interval_60 : 3600
+monster_num : 4000
+char_level : 40
+xunluwang : ({ 127, 14, 7 })
+room_list : ({ "卧龙坡", "官道北", "风月谷", "北海沙滩" })
+卧龙坡  : ({ 82, 172 })
+官道北  : ({ 35, 107 })
+风月谷  : ({ 193, 194 })
+北海沙滩  : ({ 106, 20 })
+
+
+[怪物]
+驯鹿王   : 1
+驯鹿绑匪   : 1
+刀斧手   : 1
+邪道士   : 1
+狗头军师   : 1
+
+[驯鹿王]
+icon             : 30001
+portrait         : 30001
+christmas_party  : 1
+
+[驯鹿绑匪]
+icon             : 6245
+portrait         : 6245
+christmas_party  : 1
+
+[刀斧手]
+icon             : 6245
+portrait         : 6245
+polar            : -1
+life_effect      : 1600
+speed_effect     : 0
+phy_effect       : 120
+mag_effect       : 50
+phy_absorb       : -100
+mag_absorb       : 100
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tractics         : "daofushou_tactics"
+christmas_party  : 1
+
+[邪道士]
+icon             : 6246
+portrait         : 6246
+polar            : -1
+life_effect      : 1600
+speed_effect     : 0
+phy_effect       : 50
+mag_effect       : 150
+phy_absorb       : 100
+mag_absorb       : -100
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tractics         : "xiedaoshi_tactics"
+christmas_party  : 1
+
+[狗头军师]
+icon             : 6249
+portrait         : 6249
+polar            : 2
+life_effect      : 1200
+speed_effect     : 2000
+phy_effect       : 80
+mag_effect       : 100
+tao_effect       : 50
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_forgotten : 100
+resist_confusion : 100
+skills           : ({ "D3", "D5" })
+tractics         : "goutoujunshi_tactics"
+christmas_party  : 1

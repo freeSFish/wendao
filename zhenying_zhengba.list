@@ -1,0 +1,51 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-02-15-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2016-03-01-00:00:00" })
+time_list$ : ({ "2016-02-17-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)", "2016-03-01-00:00:00" })
+
+[broadcast_setting]
+broadcast_list:   ({ "before_task", "before_task1", "before_task2", "before_task3", "before_task4", "before_task5", "start_task" })
+
+[before_task]
+broadcast_start : "start_time(-72000)"
+interval        : 1800
+broadcast_end   : "start_time(-1801)"
+message         : "阵营争霸活动即将在今晚的#R20:00#n开始，请各位道友前往#Z西域古城#Z加入阵营，阵营争霸活动将产出大量的#R古城荣誉积分#n，该积分可以兑换商城道具和丰厚的数值奖励，大家千万不要错过。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_task4]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1100)"
+broadcast_func  : "broadcast_before_task"
+
+[before_task1]
+broadcast_start : "start_time(-900)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_before_task"
+
+[before_task2]
+broadcast_start : "start_time(-180)"
+interval        : 60
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_before_task"
+
+[before_task3]
+broadcast_start : "start_time(-600)"
+interval        : 0
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_prepare_start"
+
+[before_task5]
+broadcast_start : "start_time(-900)"
+interval        : 0
+broadcast_end   : "start_time(-1)"
+broadcast_func  : "broadcast_try_fly"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "start_time(+1)"
+broadcast_func  : "broadcast_start"

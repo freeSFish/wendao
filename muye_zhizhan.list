@@ -1,0 +1,33 @@
+#FORM2
+
+[time]
+start_duration : "2012-09-28-00:00:00"
+end_duration   : "2012-10-07-22:00:00"
+
+[活动时间]
+time_list$ : ({ "2012-09-28-12:00:00", "EVERY_HOUR(10)", "EVERY_DAY(1)", "2012-10-07-22:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "2012-09-28-00:00:00"
+interval        : 3600
+broadcast_end   : "2012-09-28-23:59:59"
+final_end_time  : "2012-09-28-23:59:59"
+message         : "#R【双节庆】牧野之战#n活动已经在#P活动大使#P处开启，完成四圣物收集任务可以获得进入#R牧野战场#n的资格！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-10)"
+message         : "#R【双节庆】牧野之战#n活动已经在#P活动大使#P处开启，牧野战场开放，已完成资格任务的玩家可以前往#P夏总兵#P处进入牧野战场。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1800)"
+interval        : 600
+broadcast_end   : "end_time(-10)"
+message         : "本日#R牧野战场#n即将关闭，要参与牧野战场的玩家要抓紧时间啦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

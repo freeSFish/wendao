@@ -1,0 +1,36 @@
+#FORM2
+
+[任务卷轴·天罡地煞]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+desc : "任务卷轴给予的指引任务，完成相应目标后可以获得奖励。"
+log : "任务目标：挑战一位#Y天罡星#n或#Y地煞星#n，你可以在游戏中的练功区地图随机遇到他们，详细信息请查看#R#H帮助|zhandoutiaozhan\tiangangxing.htm#H#n。"
+all_children : ({ "S1", "SX" })
+timeout_task : 1
+alias : "天罡地煞"
+
+[S0]
+type : "null"
+item : "任务卷轴·天罡地煞"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·天罡地煞"
+log : "任务目标：挑战一位#Y天罡星#n或#Y地煞星#n，你可以在游戏中的练功区地图随机遇到他们，详细信息请查看#R#H帮助|zhandoutiaozhan\tiangangxing.htm#H#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 200000"
+
+[SX]
+type : "null"

@@ -1,0 +1,103 @@
+#FORM2
+
+[setting]
+start_time       : "2013-02-22-00:00:00"
+end_time         : "2013-02-24-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "end_task", "during_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "上元佳节，赏灯猜谜，喜乐闹元宵！#R元宵节#n活动开始啦，大家快去#P活动大使#P处了解活动详情吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R元宵节#n活动结束啦，祝大家每天都开心快乐！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "元宵佳节到了，#P活动大使#P准备了大量的元宵美食想要送给各地的居民们，快去帮#P活动大使#P送汤圆吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[坏蛋丫丫]
+name              : 坏蛋丫丫
+icon              : 31064
+portrait          : 31064
+phy_absorb        : 20
+mag_absorb        : 20
+speed_effect      : 3000
+tao_effect        : 350
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+low_l_sk          : ({ "B2", "B4", "B3", "D3" })
+hig_l_sk          : ({ "B2", "B4", "B5", "D5" })
+
+[坏蛋妞妞]
+name              : 坏蛋妞妞
+icon              : 31064
+portrait          : 31064
+phy_absorb        : 20
+mag_absorb        : 20
+speed_effect      : 3000
+tao_effect        : 350
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+low_l_sk          : ({ "lipo-qianjun", "D3" })
+hig_l_sk          : ({ "lipo-qianjun", "D5" })
+
+[小怪]
+name              : 小怪
+phy_absorb        : 20
+mag_absorb        : 20
+phy_effect        : 200
+mag_effect        : 150
+speed_effect      : 30
+tao_effect        : 100
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+low_l_sk          : ({ "B2", "B4", "B3", "lipo-qianjun" })
+hig_l_sk          : ({ "B2", "B4", "B5", "lipo-qianjun" })
+
+[调皮的花花蛇]
+name              : 调皮的花花蛇
+icon              : 6184
+portrait          : 6184
+phy_absorb        : 100
+mag_absorb        : 100
+phy_effect        : 400
+mag_effect        : 400
+speed_effect      : 30
+tao_effect        : 1500
+resist_forgotten  : 75
+resist_poison     : 75
+resist_frozen     : 75
+resist_sleep      : 75
+resist_confusion  : 75
+accurate          : 100
+stunt_rate        : 50
+low_l_sk          : ({ "C4", "B3", "lipo-qianjun" })
+hig_l_sk          : ({ "C4", "B5", "lipo-qianjun" })

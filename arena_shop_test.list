@@ -1,0 +1,328 @@
+#FORM2
+
+# arena_shop.list
+
+[血玲珑]
+type : 1
+price: 100000
+pos : 1
+
+[法玲珑]
+type : 1
+price: 100000
+pos : 2
+
+[鹿茸]
+type : 1
+price: 100
+pos : 3
+
+[天一丸]
+type : 1
+price: 200
+pos : 4
+
+[百花酿]
+type : 1
+price: 300
+pos : 5
+
+[千年蚌丹]
+type : 1
+price: 400
+pos : 6
+
+[紫金丹]
+type : 1
+price: 500
+pos : 7
+
+[琼花玉露丸]
+type : 1
+price: 600
+pos : 8
+
+[天兵天将卡]
+type : 2
+price: 5000000
+pos : 1
+
+[五成气血卡]
+type : 3
+price: 100000
+pos : 1
+
+[标准武学卡]
+type : 3
+price: 100000
+pos : 2
+
+[技能精研卡]
+type : 3
+price: 1000000
+pos : 3
+
+#[亲子卡]
+#type : 3
+#price: 2000000
+#pos : 4
+
+[驯兽诀]
+type : 3
+price: 200000
+pos : 5
+
+[狂暴]
+type : 3
+price: 250000
+pos : 6
+
+[烈炎]
+type : 3
+price: 250000
+pos : 7
+
+[惊雷]
+type : 3
+price: 250000
+pos : 8
+
+[青木]
+type : 3
+price: 250000
+pos : 9
+
+[碎石]
+type : 3
+price: 250000
+pos : 10
+
+[寒冰]
+type : 3
+price: 250000
+pos : 11
+
+[怒击]
+type : 3
+price: 250000
+pos : 12
+
+[反击]
+type : 3
+price: 250000
+pos : 13
+
+[修罗术]
+type : 3
+price: 250000
+pos : 14
+
+[魔引]
+type : 3
+price: 250000
+pos : 15
+
+[破天]
+type : 3
+price: 250000
+pos : 16
+
+[降魔斩]
+type : 3
+price: 250000
+pos : 17
+
+[云体]
+type : 3
+price: 250000
+pos : 18
+
+[仙风]
+type : 3
+price: 250000
+pos : 19
+
+[尽忠]
+type : 3
+price: 250000
+pos : 20
+
+[超级玄武卡]
+type : 4
+price: 10000
+pos : 1
+
+[超级朱雀卡]
+type : 4
+price: 10000
+pos : 2
+
+[超级疆良卡]
+type : 4
+price: 10000
+pos : 3
+
+[超级东山神灵卡]
+type : 4
+price: 10000
+pos : 4
+
+[超级九尾狐卡]
+type : 4
+price: 10000
+pos : 5
+
+[超级伶俐鼠卡]
+type : 4
+price: 10000
+pos : 6
+
+[超级笨笨牛卡]
+type : 4
+price: 10000
+pos : 7
+
+[超级威威虎卡]
+type : 4
+price: 10000
+pos : 8
+
+[超级跳跳兔卡]
+type : 4
+price: 10000
+pos : 9
+
+[超级酷酷龙卡]
+type : 4
+price: 10000
+pos : 10
+
+[超级花花蛇卡]
+type : 4
+price: 10000
+pos : 11
+
+[超级溜溜马卡]
+type : 4
+price: 10000
+pos : 12
+
+[超级咩咩羊卡]
+type : 4
+price: 10000
+pos : 13
+
+[超级帅帅猴卡]
+type : 4
+price: 10000
+pos : 14
+
+[超级蛋蛋鸡卡]
+type : 4
+price: 10000
+pos : 15
+
+[超级乖乖狗卡]
+type : 4
+price: 10000
+pos : 16
+
+[超级招财猪卡]
+type : 4
+price: 10000
+pos : 17
+
+[超级蓐收卡]
+type : 4
+price: 10000
+pos : 18
+
+[超级句芒卡]
+type : 4
+price: 10000
+pos : 19
+
+[超级玄冥卡]
+type : 4
+price: 10000
+pos : 20
+
+[超级祝融卡]
+type : 4
+price: 10000
+pos : 21
+
+[超级后土卡]
+type : 4
+price: 10000
+pos : 22
+
+[超级重明卡]
+type : 4
+price: 10000
+pos : 23
+
+[超级药兽卡]
+type : 4
+price: 10000
+pos : 24
+
+[超级龟宝卡]
+type : 4
+price: 10000
+pos : 25
+
+[超级乘黄卡]
+type : 4
+price: 10000
+pos : 26
+
+[超级风狸卡]
+type : 4
+price: 10000
+pos : 27
+
+[超级白泽卡]
+type : 4
+price: 100000
+pos : 28
+
+[超级方相卡]
+type : 4
+price: 100000
+pos : 29
+
+[超级当康卡]
+type : 4
+price: 100000
+pos : 30
+
+[超级夫诸卡]
+type : 4
+price: 100000
+pos : 31
+
+[超级笛舞卡]
+type : 4
+price: 100000
+pos : 32
+
+[超级赤天卡]
+type : 4
+price: 100000
+pos : 33
+
+[超级降魔卡]
+type : 4
+price: 100000
+pos : 34
+
+[超级混沌卡]
+type : 4
+price: 100000
+pos : 35
+
+[超级震魃卡]
+type : 4
+price: 100000
+pos : 36

@@ -1,0 +1,38 @@
+#FORM2
+
+# zhengdou.list
+# Created by Huang Yadan @ 2007-5-23
+# 正斗场配置
+
+# $ST : start time
+# $ET : end time
+
+# 策划已经取消了赛前广播，因此将其时间置为 0
+[pre_start]
+pre_time  : 0
+interval  : 2
+broadcast : "正斗场将于#R$ST#n后开始！活力四射的你，英气逼人的你，准备好了吗？#41"
+
+# 开始活动的配置
+[start]
+broadcast : "正斗场正式开场啦！究竟谁能笑傲正斗场？又有谁能刷新那#R$SCORE#n点竞技积分的骇人记录呢？让我们拭目以待吧！"
+
+# 策划已经取消了结束前广播，因此将其时间置为 0
+[pre_end]
+pre_time  : 0
+interval  : 2
+broadcast : "正斗场将于#R$ET#n后关闭，还在忘情战斗的你，还在奋力拼搏的你，加油啊！"
+
+# 活动结束的配置
+[end]
+broadcast_keep  : "正斗场已经关闭啦！今天的竞技积分榜首仍然是#R$SCORE#n点。难道这真的已经无法超越了吗？下期正斗场，让我们翘首以待！"
+broadcast_break : "正斗场已经关闭啦！新的竞技积分纪录产生了！#R$SCORE#n点竞技积分！强者辈出的年代，改写历史的传奇！让我们为缔造这一神话的#Y$PLAYER#n欢呼吧！"
+
+# 策划已经取消提前入场的规则，因此将时间置 0
+[pre_enter]
+pre_time  : 0
+
+[活动时间]
+time_list$ : ({ "2008-11-07-13:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })
+time_list$ : ({ "2008-11-07-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })
+time_list$ : ({ "2008-11-07-22:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)" })

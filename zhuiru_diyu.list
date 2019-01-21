@@ -1,0 +1,145 @@
+#FORM2
+
+[龙王]
+icon                : 6079
+portrait            : 6079
+polar               : -1
+level               : 122
+life_effect         : 3000
+speed_effect        : 200
+phy_effect          : 350
+mag_effect          : 300
+tao_effect          : 300
+resist_poison       : 70
+resist_frozen       : 70
+resist_sleep        : 70
+resist_confusion    : 70
+random_attrib       : ({ "speed_effect" })
+skills              : ({ "B3", "B4", "B5", "D5" })
+special_skills      : ({ "力破千钧" })
+comrade             : ({ "虾兵", "蟹将" })
+top_tip             : 看我飞龙在天阵！
+
+[虾兵]
+icon                : 6163
+portrait            : 6163
+polar               : -1
+level               : 122
+life_effect         : 1000
+speed_effect        : 100
+phy_effect          : 200
+mag_effect          : 250
+tao_effect          : 50
+skills              : ({ "B3", "B4" })
+
+[蟹将]
+icon                : 6164
+portrait            : 6164
+polar               : -1
+level               : 122
+life_effect         : 1000
+speed_effect        : 100
+phy_effect          : 200
+mag_effect          : 250
+tao_effect          : 50
+skills              : ({ "B3", "B4" })
+
+[地府侍卫]
+icon                : 6231
+portrait            : 6231
+polar               : -1
+level               : 122
+life_effect         : 1500
+phy_effect          : 250
+mag_effect          : 450
+tao_effect          : 200
+speed_effect        : 150
+resist_poison       : 65
+resist_frozen       : 65
+resist_sleep        : 65
+resist_confusion    : 65
+penetrate_rate      : 30
+penetrate           : 50
+stunt               : 30
+random_attrib       : ({ "speed_effect" })
+skills              : ({ "B5" })
+special_skills      : ({ "力破千钧" })
+comrade             : 地府侍卫
+
+[蓝毛巨兽]
+icon                : 6149
+portrait            : 6149
+polar               : -1
+level               : 122
+life_effect         : 2000
+phy_effect          : 350
+mag_effect          : 350
+tao_effect          : 50
+speed_effect        : 50
+resist_poison       : 45
+resist_frozen       : 45
+resist_sleep        : 45
+resist_confusion    : 45
+resist_forgotten    : 45
+skills              : ({ "B3", "B4", "B5" })
+special_skills      : ({ "力破千钧" })
+comrade             : 蓝毛巨兽
+top_tip             : 蓝毛家族，盖世无敌！
+effect_no           : 8001
+
+[指点仙人]
+icon                : 861401
+portrait            : 861401
+polar               : -1
+level               : 122
+life_effect         : 2000
+phy_effect          : 300
+mag_effect          : 300
+tao_effect          : 250
+speed_effect        : 100
+speed_effect_ex     : 150
+resist_poison       : 75
+resist_frozen       : 75
+resist_sleep        : 75
+resist_confusion    : 75
+resist_forgotten    : 75
+random_attrib       : ({ "speed_effect" })
+skills              : ({ "B4", "B5" })
+special_skills      : ({ "力破千钧" })
+comrade             : 仙兽
+every_round_tip     : 你想要知晓目连的行踪，就前往奈何桥打听打听吧！
+
+[仙兽]
+icon                : ({ 6276, 6285, 6130, 6162, 6170, 6152, 6144, 6146, 6172 })
+polar               : -1
+level               : 122
+life_effect         : 1000
+phy_effect          : 300
+mag_effect          : 300
+tao_effect          : 50
+speed_effect        : 150
+resist_poison       : 30
+resist_frozen       : 30
+resist_sleep        : 30
+resist_confusion    : 30
+resist_forgotten    : 30
+skills              : ({ "B4", "B5", "C5" })
+
+[恶鬼]
+icon                : 370006248
+portrait            : 370006248
+polar               : -1
+level               : 122
+life_effect         : 2000
+phy_effect          : 400
+mag_effect          : 400
+tao_effect          : 100
+speed_effect        : 200
+resist_poison       : 60
+resist_frozen       : 60
+resist_sleep        : 60
+resist_confusion    : 60
+resist_forgotten    : 60
+random_attrib       : ({ "speed_effect" })
+skills              : ({ "B4", "B5", "C5", "D5" })
+comrade             : 恶鬼

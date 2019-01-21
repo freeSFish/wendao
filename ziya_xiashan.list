@@ -1,0 +1,163 @@
+#FORM2
+
+[ÄÄß¸]
+name                : ÄÄß¸
+icon                : 7008
+portrait            : 7008
+polar               : 3
+religion            : -1
+life_effect         : 2000
+phy_effect          : 150
+mag_effect          : 120
+phy_absorb          : -100
+mag_absorb          : -100
+tao_effect          : 300
+penetrate           : 50
+penetrate_rate      : 50
+accurate            : 200
+no_disappear        : 1
+skills              : ({ "lipo-qianjun", "D5" })
+tactics             : "tactics_common"
+
+[÷¼÷ÃÉ½µÀÍ¯]
+name                : ÷¼÷ÃÉ½µÀÍ¯
+icon                : 6029
+portrait            : 6029
+polar               : 5
+religion            : -1
+life_effect         : "900 + LV / 70 * 75 + LV / 100 * 100 + LV / 130 * 150 + LV / 140 * 175 + LV / 150 * 150"
+phy_effect          : "150 + (LV - 70) / 30 * 25 + LV / 150 * 15"
+mag_effect          : "70 + (LV - 70) / 30 * 25 + LV / 150 * 15"
+resist_earth        : 10
+tao_effect          : "50 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50"
+resist_forgotten    : 30
+resist_poison       : 15
+resist_frozen       : 15
+resist_sleep        : 10
+resist_confusion    : 30
+resist_repress      : 30
+resist_melt         : 15
+resist_cage         : 15
+resist_lock         : 10
+resist_lost         : 30
+counter_attack_rate : 30
+counter_attack      : 4
+skills              : ({ "B2", "B4" })
+level_skills        : ({ 100, "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "tactics_kuloushan_daotong"
+
+[Ê¯í¶ÄïÄï]
+name                : Ê¯í¶ÄïÄï
+icon                : 6138
+portrait            : 6138
+polar               : 5
+religion            : -1
+life_effect         : "3800 + LV / 70 * 200 + LV / 100 * 300 + LV / 130 * 400 + LV / 140 * 500 + LV / 150 * 450"
+phy_effect          : "150 + (LV - 70) / 30 * 25 + LV / 150 * 25"
+mag_effect          : "120 + (LV - 70) / 30 * 25 + LV / 150 * 20"
+tao_effect          : "50 + LV / 100 * 50 + LV / 130 * 100 + LV / 140 * 100"
+resist_forgotten    : 50
+resist_poison       : 30
+resist_frozen       : 30
+resist_sleep        : 30
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 30
+resist_cage         : 30
+resist_lock         : 30
+resist_lost         : 50
+penetrate           : 50
+penetrate_rate      : 50
+accurate            : 200
+skills              : ({ "lipo-qianjun", "C4" })
+level_skills        : ({ 100, "B3", "B5", 100, "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "tactics_shiji_niangniang"
+
+[÷¼÷ÃÉ½µÀÍ¯1]
+name                : ÷¼÷ÃÉ½µÀÍ¯
+alias               : ÷¼÷ÃÉ½µÀÍ¯1
+icon                : 6029
+portrait            : 6029
+polar               : 3
+religion            : -1
+life_effect         : "1000 + LV / 70 * 75 + LV / 100 * 100 + LV / 130 * 150 + LV / 140 * 175 + LV / 150 * 150"
+phy_effect          : "150 + (LV - 70) / 30 * 25 + LV / 150 * 15"
+mag_effect          : "70 + (LV - 70) / 30 * 25 + LV / 150 * 15"
+tao_effect          : "50 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50"
+double_hit_rate     : 50
+double_hit          : 3
+skills              : ({ "lipo-qianjun" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "tactics_common"
+
+[Ê÷Ñý]
+name                : Ê÷Ñý
+icon                : 6107
+portrait            : 6107
+polar               : 2
+religion            : -1
+life_effect         : "700 + LV / 70 * 100 + LV / 100 * 125 + LV / 130 * 150 + LV / 140 * 175 + LV / 150 * 140"
+phy_effect          : "80 + LV / 70 * 10 + LV / 100 * 10 + LV / 130 * 20 + LV / 140 * 20 + LV / 150 * 20"
+mag_effect          : "80 + LV / 70 * 10 + LV / 100 * 10 + LV / 130 * 20 + LV / 140 * 20 + LV / 150 * 20"
+tao_effect          : "50 + LV / 100 * 50 + LV / 130 * 100 + LV / 140 * 100"
+skills              : ({ "ruyi-quan", "shenlong-zhao" })
+level_skills        : ({ 100, "B3", "B5", 100, "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+random_attrib       : ({ "speed_effect", 100 })
+monster_tactics     : "tactics_shuyao"
+
+[ÐùÔ¯·ØÐ¡Ñý]
+name                : ÐùÔ¯·ØÐ¡Ñý
+icon                : 6152
+portrait            : 6152
+polar               : -1
+religion            : -1
+life_effect         : "1000 + LV / 70 * 75 + LV / 100 * 100 + LV / 130 * 150 + LV / 140 * 175 + LV / 150 * 150"
+phy_effect          : "150 + (LV - 70) / 30 * 25 + LV / 150 * 15"
+mag_effect          : "70 + (LV - 70) / 30 * 25 + LV / 150 * 15"
+tao_effect          : "50 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50"
+resist_water        : 10
+resist_forgotten    : 30
+resist_poison       : 15
+resist_frozen       : 15
+resist_sleep        : 10
+resist_confusion    : 30
+resist_repress      : 30
+resist_melt         : 15
+resist_cage         : 15
+resist_lock         : 10
+resist_lost         : 30
+stunt_rate          : 30
+skills              : ({ "lipo-qianjun", "B2", "B4", "ruyi-quan", "shenlong-zhao" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "tactics_quanyuanfen_xiaoyao"
+
+[Éê¹«±ª·ÖÉí]
+name                : Éê¹«±ª·ÖÉí
+icon                : 6243
+portrait            : 6243
+polar               : -1
+religion            : -1
+life_effect         : "1800 + LV / 70 * 200 + LV / 100 * 300 + LV / 130 * 400 + LV / 140 * 500 + LV / 150 * 450"
+phy_effect          : "150 + (LV - 70) / 30 * 25 + LV / 150 * 25"
+mag_effect          : "120 + (LV - 70) / 30 * 25 + LV / 150 * 20"
+tao_effect          : "50 + LV / 100 * 50 + LV / 130 * 100 + LV / 140 * 100"
+resist_forgotten    : 50
+resist_poison       : 30
+resist_frozen       : 30
+resist_sleep        : 30
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 30
+resist_cage         : 30
+resist_lock         : 30
+resist_lost         : 50
+penetrate           : 50
+penetrate_rate      : 50
+accurate            : 200
+skills              : ({ "lipo-qianjun" })
+level_skills        : ({ 100, "B3", "B5", 100, "D3", "D5" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+monster_tactics     : "tactics_shengongbao"

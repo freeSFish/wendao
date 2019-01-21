@@ -1,0 +1,66 @@
+#FORM2
+
+[妖魔入侵]
+time_list$ : ({ "2010-09-27-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2010-10-07-24:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "during_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-7200)"
+interval        : 600
+broadcast_end   : "start_time(-60)"
+message         : "#Y国庆佳节，上古妖魔却突然现身，妄图伺机捣乱，各位有识之士请于#n#RSTART_TIME#n#Y前去#n#Z东海渔村#Z#Y共同抵御妖魔#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-60)"
+message         : "#Y国庆佳节，上古洪魔却突然现身，妄图伺机捣乱，各位有识之士请速速前往#n#Z东海渔村#Z#Y共同抵御妖魔#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-300)"
+interval        : 0
+broadcast_end   : "end_time(-60)"
+message         : "#Y经过大家奋力拼搏，妖魔的援军已经不多了，大家速速扫清余寇，欢度国庆。#n"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[洪魔]
+name            : "洪魔"
+icon             : 6278
+portrait         : 6278
+random_icon      : ({ 6278, 6281 })
+polar            : -1
+no_capture       : 1
+phy_absorb       : 0
+mag_absorb       : 0
+phy_effect       : 175
+mag_effect       : 120
+speed_effect     : 50
+tao_effect       : 10
+stunt_rate       : 25
+skills           : ({ "B4", "C4" })
+attach_skills    : ({ 100, "B3", "B5" })
+tactics          : "yaomo_ruqin_tactics"
+monster_menu     : ({ "yaomo_ruqin_menu_content", "menu_action" })
+
+[泥石妖王]
+name            : "泥石妖王"
+icon             : 6229
+portrait         : 6229
+random_icon      : ({ 6229, 6228 })
+polar            : -1
+no_capture       : 1
+phy_absorb       : 0
+mag_absorb       : 0
+phy_effect       : 175
+mag_effect       : 120
+speed_effect     : 50
+tao_effect       : 10
+stunt_rate       : 25
+skills           : ({ "B4", "C4" })
+attach_skills    : ({ 100, "B3", "B5" })
+tactics          : "yaomo_ruqin_tactics"
+monster_menu     : ({ "yaomo_ruqin_menu_content", "menu_action" })

@@ -1,0 +1,46 @@
+#FORM2
+
+[任务卷轴·押镖]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P杨镖头#P了解有关#R镖行万里#n活动相关的信息。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+alias : "押镖"
+
+[S0]
+type : "null"
+item : "任务卷轴·押镖"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+npc : "杨镖头"
+content$ : "NPC:（喃喃自语）今天晚上一定要鼓足勇气跟她...啊，你是谁？"
+content$ : "ME:呃...杨镖头，你好。我来想请你介绍一下关于#R镖行万里#n活动的情况。"
+content$ : "NPC:啊！这样啊，好说好说。镖行万里活动每周二晚上的20:00到22:00举行，参与活动会获得丰厚的金钱奖励。"
+content$ : "NPC:这个活动是需要组队参加的，建议你在每次活动前提前到我这里来，预先和等级相近的玩家组好队伍。"
+content$ : "ME:我知道啦，多谢杨镖头的指导。"
+action : "S2"
+log : "任务目标：找#P杨镖头#P了解有关#R镖行万里#n活动相关的信息。"
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·押镖"
+log : "任务目标：参加一次每周二晚上20:00到22:00举行的#R镖行万里#n活动，详细情况可以查看#R#H帮助|jingcaihuodong\biaoxingwanli.htm#H#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 180000"
+
+[SX]
+type : "null"

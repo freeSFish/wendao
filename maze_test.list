@@ -1,0 +1,199 @@
+#FORM2
+
+[normal_box_bonus]
+bonus$: ({ 0, 0, 100, "彩玉石(30 * 1 * 1 * 1)||银玉石(30 * 1 * 1 * 1)||彩玉石(10 * 2 * 2 * 1)||银玉石(10 * 2 * 2 * 1)||天冲(5 * 1 * 1)||灵慧(5 * 1 * 1)||彩玉石(4 * 5 * 5 * 1)||银玉石(3 * 5 * 5 * 1)||彩玉石(1 * 10 * 10 * 1)||银玉石(1 * 10 * 10 * 1)||蓝玉石(1 * 1 * 1 * 1)", 1, 10 })
+
+[special_box_bonus_1]
+bonus$: ({ 0, 0, 100, "彩玉石(60 * 5 * 5 * 1)||彩玉石(20 * 6 * 6 * 1)||彩玉石(10 * 10 * 10 * 1)||彩玉石(4 * 15 * 15 * 1)||彩玉石(3 * 20 * 20 * 1)||彩玉石(1 * 30 * 30 * 1)||彩玉石(1 * 40 * 40 * 1)||彩玉石(1 * 100 * 100 * 1)", 5, 100 })
+
+[special_box_bonus_2]
+bonus$: ({ 0, 0, 100, "银玉石(60 * 5 * 5 * 1)||银玉石(20 * 6 * 6 * 1)||银玉石(10 * 10 * 10 * 1)||银玉石(4 * 15 * 15 * 1)||银玉石(3 * 20 * 20 * 1)||银玉石(1 * 30 * 30 * 1)||银玉石(1 * 40 * 40 * 1)||银玉石(1 * 100 * 100 * 1)", 5, 100 })
+
+[special_box_bonus_3]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "蓝玉石(55 * 1 * 1 * 1)||勇气卡(15)||智慧卡(15)||武力卡(15)", 1, 1 })
+
+[special_box_bonus_4]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "天冲(50)||灵慧(50)", 1, 1 })
+
+[zhangyi_jiuren_bonus_1]
+bonus$: ({ 0, 0, 100, "彩玉石(60 * 6 * 6 * 1)||彩玉石(20 * 8 * 8 * 1)||彩玉石(10 * 10 * 10 * 1)||彩玉石(4 * 20 * 20 * 1)||彩玉石(3 * 30 * 30 * 1)||彩玉石(1 * 40 * 40 * 1)||彩玉石(1 * 100 * 100 * 1)||彩玉石(1 * 200 * 200 * 1)", 6, 200 })
+
+[zhangyi_jiuren_bonus_2]
+bonus$: ({ 0, 0, 100, "银玉石(60 * 6 * 6 * 1)||银玉石(20 * 8 * 8 * 1)||银玉石(10 * 10 * 10 * 1)||银玉石(4 * 20 * 20 * 1)||银玉石(3 * 30 * 30 * 1)||银玉石(1 * 40 * 40 * 1)||银玉石(1 * 100 * 100 * 1)||银玉石(1 * 200 * 200 * 1)", 6, 200 })
+
+[zhangyi_jiuren_bonus_3]
+free_bag: ({ 2, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "蓝玉石(55 * 2 * 2 * 1)||勇气卡(15)||智慧卡(15)||武力卡(15)", 2, 2 })
+
+[zhangyi_jiuren_bonus_4]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "天冲(50)||灵慧(50)", 1, 1 })
+
+[zhangyi_jiuren_bonus_ex]
+bonus$: ({ 0, 0, 100, "彩玉石(30 * 1 * 1 * 1)||银玉石(30 * 1 * 1 * 1)||彩玉石(10 * 2 * 2 * 1)||银玉石(10 * 2 * 2 * 1)||天冲(5 * 1 * 1)||灵慧(5 * 1 * 1)||彩玉石(4 * 5 * 5 * 1)||银玉石(3 * 5 * 5 * 1)||彩玉石(1 * 10 * 10 * 1)||银玉石(1 * 10 * 10 * 1)||蓝玉石(1 * 1 * 1 * 1)", 1, 10 })
+
+[lucky_bonus_1]
+free_bag: ({ 2, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "紫晶石||绿晶石||蓝晶石||红晶石||黄晶石||紫灵石||绿灵石||蓝灵石||红灵石||黄灵石||五色晶石||五色灵石||金丝线||赤铜||琥珀||绿松石||天然玉||金银砂||藏宝图", 2, 2 })
+
+[lucky_bonus_2]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "黑水晶(500)||天神护佑(200)#赠品||离线摆摊卡(200)#赠品||火眼金睛(200)#赠品||金蝉脱壳(200)#赠品||仙灵卡(200)#赠品||驯兽诀(200)#赠品||特效仙风散(100)#赠品||宠风散(100)#赠品||惊妖铃(100)#赠品||急急如律令(100)#赠品||引路蜂(100)#赠品||会员卡(10)#赠品||灵引咒(5)||超级女娲石(5)", 1, 1 })
+
+[lucky_bonus_3]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "装备", 1, 1, "蓝色装备(500)||金色装备(500)" })
+
+[蓝色装备]
+color$: 蓝色
+scan_min_level: "80"
+scan_max_level: "110"
+
+[金色装备]
+color$: 金色
+scan_min_level: "80"
+scan_max_level: "110"
+
+[BOSS变身卡]
+card_arr : ({ "超级羊头怪卡", "超级牛头怪卡", "超级黑熊精卡", "超级狂狮怪卡", "超级刺猬精卡", "超级猪妖卡", "超级象精卡", "超级百花羞卡", "超级牛魔王卡" })
+
+[生肖兽变身卡]
+card_arr : ({ "超级伶俐鼠卡", "超级笨笨牛卡", "超级威威虎卡", "超级跳跳兔卡", "超级酷酷龙卡", "超级花花蛇卡", "超级溜溜马卡", "超级咩咩羊卡", "超级帅帅猴卡", "超级蛋蛋鸡卡", "超级乖乖狗卡", "超级招财猪卡" })
+
+[神兽变身卡]
+card_arr : ({ "超级朱雀卡", "超级玄武卡", "超级东山神灵卡", "超级疆良卡", "超级九尾狐卡", "超级蓐收卡", "超级句芒卡", "超级玄冥卡", "超级祝融卡", "超级后土卡" })
+
+[天玄怪]
+name             : 天玄怪
+icon             : 270006147
+portrait         : 270006147
+polar            : -1
+life_effect      : 300
+phy_effect       : 200
+mag_effect       : 200
+tao_effect       : 100
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+skills           : ({ "B2", "B4" })
+monster_tactics  : "monster_tactics_tianxg"
+
+[地冥怪]
+name             : 地冥怪
+icon             : 390006149
+portrait         : 390006149
+polar            : -1
+life_effect      : 300
+phy_effect       : 200
+mag_effect       : 200
+tao_effect       : 100
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+skills           : ({ "B2", "B4" })
+monster_tactics  : "monster_tactics_dimg"
+
+[九尾狐]
+name             : 九尾狐
+icon             : 6176
+portrait         : 6176
+polar            : 1
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 20
+resist_fire      : 20
+resist_earth     : 20
+life_effect      : 2000
+phy_effect       : 300
+mag_effect       : 300
+phy_absorb       : 50
+mag_absorb       : -20
+speed_effect     : 100
+tao_effect       : 200
+resist_forgotten : 60
+resist_poison    : 60
+resist_frozen    : 60
+resist_sleep     : 60
+resist_confusion : 60
+skills           : ({ "B4", "B5" })
+monster_tactics  : "monster_tactics_huli"
+
+[狐狸]
+name             : 狐狸
+icon             : 6168
+portrait         : 6168
+polar            : 1
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 20
+resist_fire      : 20
+resist_earth     : 20
+life_effect      : 1000
+phy_effect       : 200
+mag_effect       : 200
+phy_absorb       : -20
+mag_absorb       : 50
+speed_effect     : 100
+tao_effect       : 150
+resist_forgotten : 30
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+monster_tactics  : "monster_tactics_huli"
+
+[仗义救人主怪]
+polar            : -1
+life_effect      : 1500
+phy_effect       : 300
+mag_effect       : 300
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 3000
+phy_absorb       : 10
+mag_absorb       : 30
+speed_effect     : -30
+tao_effect       : 200
+skills           : ({ "B2", "B4" })
+monster_tactics  : "monster_tactics_zhangyjr"
+
+[小罗刹]
+name             : 小罗刹
+polar            : -1
+icon             : ({ 6209, 6211, 6212 })
+life_effect      : 800
+phy_effect       : 200
+mag_effect       : 200
+double_hit_rate  : 30
+double_hit       : 5
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 3000
+phy_absorb       : 10
+mag_absorb       : 30
+speed_effect     : -30
+tao_effect       : 200
+skills           : ({ "B2", "B4" })
+monster_tactics  : "monster_tactics_zhangyjr"
+
+[大哥]
+name             : 大哥
+polar            : -1
+icon             : 6036
+portrait         : 6036
+life_effect      : 500
+resist_poison    : 500
+monster_tactics  : "monster_tactics_brother"

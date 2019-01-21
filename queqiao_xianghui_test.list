@@ -1,0 +1,97 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-08-13-20:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2012-08-14-22:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "start_task", "during_task", "before_end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-1800)"
+interval        : 600
+broadcast_end   : "start_time(-1)"
+message         : "迢迢牵牛星，皎皎河汉女。今晚牛郎织女能不能顺利相会，还要靠大家的努力。#R鹊桥相会#n活动将于#R20:00#n开始，请大家到#Z风月谷#Z做好准备。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "start_time(1)"
+message         : "#R鹊桥相会#n活动开始了，请大家到#Z风月谷#Z教训#R捣乱的喜鹊#n协助搭建#R鹊桥#n。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(1800)"
+interval        : 1800
+broadcast_end   : "end_time(-1)"
+message         : "#R鹊桥相会#n活动正在进行中，请大家到#Z风月谷#Z教训#R捣乱的喜鹊#n协助搭建#R鹊桥#n，助牛郞织女顺利相会。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-900)"
+interval        : 300
+broadcast_end   : "end_time(-1)"
+message         : "#R鹊桥相会#n活动即将于#R22:00#n结束，请大家抓紧时间。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[position_info]
+npc_info$ : ({ 143, 70, 1, 1 })
+npc_info$ : ({ 141, 68, 1, 1 })
+npc_info$ : ({ 139, 66, 1, 1 })
+npc_info$ : ({ 137, 66, 1, 1 })
+npc_info$ : ({ 135, 66, 1, 1 })
+npc_info$ : ({ 133, 66, 1, 1 })
+npc_info$ : ({ 131, 68, 1, 1 })
+npc_info$ : ({ 129, 70, 1, 1 })
+npc_info$ : ({ 129, 72, 1, 1 })
+npc_info$ : ({ 131, 74, 1, 1 })
+npc_info$ : ({ 133, 76, 1, 1 })
+npc_info$ : ({ 135, 78, 1, 1 })
+npc_info$ : ({ 137, 80, 1, 1 })
+npc_info$ : ({ 139, 82, 1, 1 })
+npc_info$ : ({ 141, 84, 1, 1 })
+npc_info$ : ({ 143, 86, 1, 1 })
+npc_info$ : ({ 145, 86, 3, 1 })
+npc_info$ : ({ 147, 84, 3, 1 })
+npc_info$ : ({ 149, 82, 3, 1 })
+npc_info$ : ({ 151, 80, 3, 1 })
+npc_info$ : ({ 153, 78, 3, 1 })
+npc_info$ : ({ 155, 76, 3, 1 })
+npc_info$ : ({ 157, 74, 3, 1 })
+npc_info$ : ({ 159, 72, 3, 1 })
+npc_info$ : ({ 159, 70, 3, 1 })
+npc_info$ : ({ 157, 68, 3, 1 })
+npc_info$ : ({ 155, 66, 3, 1 })
+npc_info$ : ({ 153, 66, 3, 1 })
+npc_info$ : ({ 151, 66, 3, 1 })
+npc_info$ : ({ 149, 66, 3, 1 })
+npc_info$ : ({ 147, 68, 3, 1 })
+npc_info$ : ({ 145, 70, 3, 1 })
+npc_info$ : ({ 143, 72, 1, 0 })
+npc_info$ : ({ 141, 70, 1, 0 })
+npc_info$ : ({ 139, 68, 1, 0 })
+npc_info$ : ({ 137, 68, 1, 0 })
+npc_info$ : ({ 135, 68, 1, 0 })
+npc_info$ : ({ 133, 68, 1, 0 })
+npc_info$ : ({ 131, 70, 1, 0 })
+npc_info$ : ({ 131, 72, 1, 0 })
+npc_info$ : ({ 133, 74, 1, 0 })
+npc_info$ : ({ 135, 76, 1, 0 })
+npc_info$ : ({ 137, 78, 1, 0 })
+npc_info$ : ({ 139, 80, 1, 0 })
+npc_info$ : ({ 141, 82, 1, 0 })
+npc_info$ : ({ 143, 84, 1, 0 })
+npc_info$ : ({ 145, 84, 3, 0 })
+npc_info$ : ({ 147, 82, 3, 0 })
+npc_info$ : ({ 149, 80, 3, 0 })
+npc_info$ : ({ 151, 78, 3, 0 })
+npc_info$ : ({ 153, 76, 3, 0 })
+npc_info$ : ({ 155, 74, 3, 0 })
+npc_info$ : ({ 157, 72, 3, 0 })
+npc_info$ : ({ 157, 70, 3, 0 })
+npc_info$ : ({ 155, 68, 3, 0 })
+npc_info$ : ({ 153, 68, 3, 0 })
+npc_info$ : ({ 151, 68, 3, 0 })
+npc_info$ : ({ 149, 68, 3, 0 })
+npc_info$ : ({ 147, 70, 3, 0 })
+npc_info$ : ({ 147, 72, 3, 0 })

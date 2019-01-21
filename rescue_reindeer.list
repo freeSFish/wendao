@@ -1,0 +1,63 @@
+#FORM2
+#rescue_reindeer.list
+#create by Luoyh Feb/20/2009
+#Õü¾ÈÑ±Â¹»î¶¯ÅäÖÃ
+
+[game_info]
+npc       : "Ñ±Â¹Íõ"
+monster   : "Ñ±Â¹°ó·Ë"
+min_level : 40
+duration  : 7200
+
+[µ¶¸«ÊÖ]
+icon             : 6245
+portrait         : 6245
+polar            : -1
+life_effect      : 1200
+speed_effect     : 0
+phy_effect       : 120
+mag_effect       : 50
+mag_absorb       : 100
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tactics         : "daofushou_tactics"
+
+[Ð°µÀÊ¿]
+icon             : 6246
+portrait         : 6246
+polar            : -1
+life_effect      : 1200
+speed_effect     : 0
+phy_effect       : 50
+mag_effect       : 150
+phy_absorb       : 100
+tao_effect       : 0
+resist_poison    : 30
+resist_frozen    : 30
+resist_sleep     : 30
+resist_forgotten : 30
+resist_confusion : 30
+skills           : ({ "B2", "B4" })
+tactics         : "xiedaoshi_tactics"
+
+[¹·Í·¾üÊ¦]
+icon             : 6249
+portrait         : 6249
+polar            : 2
+life_effect      : 800
+speed_effect     : 2000
+phy_effect       : 80
+mag_effect       : 100
+tao_effect       : 50
+resist_poison    : 100
+resist_frozen    : 100
+resist_sleep     : 100
+resist_forgotten : 100
+resist_confusion : 100
+skills           : ({ "D3", "D5" })
+tactics         : "goutoujunshi_tactics"

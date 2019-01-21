@@ -1,0 +1,20 @@
+#FORM2
+
+[setting]
+start_time : "2010-12-29-00:00:00"
+end_time   : "2011-01-05-23:59:59"
+
+[env]
+map$ : "轩辕庙"
+map$ : "官道南"
+map$ : "官道北"
+map$ : "桃柳林"
+map$ : "揽仙镇外"
+map$ : "蓬莱岛"
+
+[天罡星]
+phy_effect      : 140
+mag_effect      : 160
+speed_effect    : 20
+tao_effect      : 150
+skills          : ({ "B3", "B4", "B5", "D3", "lipo-qianjun" })

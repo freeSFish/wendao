@@ -1,0 +1,217 @@
+#FORM2
+
+#系统设置
+[config]
+#玩家最低等级限制
+req_level: 10
+
+#菜单NPC
+npc: 天墉城考官
+
+#题目组分类
+group: ({ "easy", "expert" })
+
+#易题组设置
+[easy]
+#关卡总数
+total_stages: 4
+
+#每关卡的题目数
+question_number_per_stage: 2
+
+#关卡1的选题难度
+question_type_stage_1: ({ "A" })
+#奖励
+bonus_stage_1: ({ 800, "easy_bonus_stage_1_1", 160, "easy_bonus_stage_1_2", "做得很好，你得到了#R$ITEM_LIST#n。" })
+
+#关卡2的选题难度
+question_type_stage_2: ({ "B" })
+#奖励
+bonus_stage_2: ({ 800, "easy_bonus_stage_2_1", 160, "easy_bonus_stage_2_2", "做得很好，你得到了#R$ITEM_LIST#n。" })
+
+#关卡3的选题难度
+question_type_stage_3: ({ "C" })
+#奖励
+bonus_stage_3: ({ 10, "easy_bonus_stage_3_1", 100, "easy_bonus_stage_3_2", "恭喜你，获得了#R$ITEM_LIST#n。" })
+
+#关卡4的选题难度
+question_type_stage_4: ({ "D" })
+#奖励
+bonus_stage_4: ({ 8400, "easy_bonus_stage_4_1", 5, "easy_bonus_stage_4_2", 100, "easy_bonus_stage_4_3", 5, "easy_bonus_stage_4_4", 65, "easy_bonus_stage_4_5", 60, "easy_bonus_stage_4_6", 140, "easy_bonus_stage_4_7", "你真的是天才哦!获得了#R$ITEM_LIST#n。" })
+
+[easy_bonus_stage_1_1]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "蜂王蜜(25)#非卖品||血浆果(25)#非卖品||八珍汤(25)#非卖品||紫茸膏(25)#非卖品", 5, 5 })
+
+[easy_bonus_stage_1_2]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 14", "玩家等级 * 14" })
+
+[easy_bonus_stage_2_1]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "人参(25)#非卖品||鹿茸(25)#非卖品||陈桑酒(25)#非卖品||天一丸(25)#非卖品", 5, 5 })
+
+[easy_bonus_stage_2_2]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 27", "玩家等级 * 27" })
+
+[easy_bonus_stage_3_1]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "蓝灵石(10)#非卖品||绿灵石(10)#非卖品||红灵石(10)#非卖品||黄灵石(10)#非卖品||紫灵石(10)#非卖品||蓝晶石(10)#非卖品||绿晶石(10)#非卖品||红晶石(10)#非卖品||黄晶石(10)#非卖品||紫晶石(10)#非卖品", 2, 2 })
+
+[easy_bonus_stage_3_2]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 54", "玩家等级 * 54" })
+
+[easy_bonus_stage_4_1]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 108", "玩家等级 * 108" })
+
+[easy_bonus_stage_4_2]
+bonus_guard : 1
+bonus$: ({ 0, 0, 100, "守护", 1, 1 })
+
+[easy_bonus_stage_4_3]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "装备", 1, 1, "金色武器奖励(25)||金色衣服奖励(25)||金色帽子奖励(25)||金色鞋子奖励(25)" })
+
+[easy_bonus_stage_4_4]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "超级女娲石(50)||道具套餐卡(50)#赠品||神木鼎(50)#赠品||超级藏宝图(50)#赠品||材料箱(50)#赠品", 1, 1 })
+
+[easy_bonus_stage_4_5]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "风灵丸(5)#赠品||超级神兽丹(5)#赠品||离线摆摊卡(5)#赠品||烟花筒(50)#赠品", 1, 1 })
+
+[easy_bonus_stage_4_6]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "法玲珑(50)#赠品||BOSS卡(50)#赠品||血玲珑(50)#赠品||驯兽诀(50)#赠品||火眼金睛(50)#赠品||超级八卦阴阳令(50)#赠品", 1, 1 })
+
+[easy_bonus_stage_4_7]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "定时烟花(50)#赠品||鲜花卡(50)#赠品||水果卡(50)#赠品||元气丹(50)#赠品||超级仙风散(50)#赠品||老酒(50)#赠品||无量心经(50)#赠品", 1, 1 })
+
+[金色武器奖励]
+color$: 金色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "weapon" })
+
+[蓝色武器奖励]
+color$: 蓝色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "weapon" })
+
+[金色衣服奖励]
+color$: 金色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "armor" })
+
+[蓝色衣服奖励]
+color$: 蓝色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "armor" })
+
+[金色帽子奖励]
+color$: 金色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "helmet" })
+
+[蓝色帽子奖励]
+color$: 蓝色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "helmet" })
+
+[金色鞋子奖励]
+color$: 金色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "boot" })
+
+[蓝色鞋子奖励]
+color$: 蓝色
+scan_min_level: "玩家等级 + 5 / 10 * 10"
+scan_max_level: "玩家等级 + 5 / 10 * 10"
+scan_type: ({ "boot" })
+
+
+#难题组设置
+[expert]
+#关卡总数
+total_stages: 4
+
+#每关卡的题目数
+question_number_per_stage: 3
+
+#关卡1的选题难度
+question_type_stage_1: ({ "A" })
+#奖励
+bonus_stage_1: ({ 800, "expert_bonus_stage_1_1", 160, "expert_bonus_stage_1_2", "做得很好，你得到了#R$ITEM_LIST#n。" })
+
+#关卡2的选题难度
+question_type_stage_2: ({ "B" })
+#奖励
+bonus_stage_2: ({ 5, "expert_bonus_stage_2_1", 160, "expert_bonus_stage_2_2", "做得很好，你得到了#R$ITEM_LIST#n。" })
+
+#关卡3的选题难度
+question_type_stage_3: ({ "C" })
+#奖励
+bonus_stage_3: ({ 1, "expert_bonus_stage_3_1", 1, "expert_bonus_stage_3_2", 100, "expert_bonus_stage_3_3", "恭喜你，获得了#R$ITEM_LIST#n。" })
+
+#关卡4的选题难度
+question_type_stage_4: ({ "D" })
+#奖励
+bonus_stage_4: ({ 4400, "expert_bonus_stage_4_1", 10, "expert_bonus_stage_4_2", 100, "expert_bonus_stage_4_3", 8, "expert_bonus_stage_4_4", 5, "expert_bonus_stage_4_5", 90, "expert_bonus_stage_4_6", 200, "expert_bonus_stage_4_7", "你真的是天才哦!获得了#R$ITEM_LIST#n。" })
+
+[expert_bonus_stage_1_1]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "蜂王蜜(25)#非卖品||血浆果(25)#非卖品||八珍汤(25)#非卖品||紫茸膏(25)#非卖品", 10, 10 })
+
+[expert_bonus_stage_1_2]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 27", "玩家等级 * 27" })
+
+[expert_bonus_stage_2_1]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "返元露(20)#非卖品||七宝回魂丹(20)#非卖品||宝花玉露丸(20)#赠品||三清丸(20)#赠品||龙鳞如意丹(20)#赠品", 1, 1 })
+
+[expert_bonus_stage_2_2]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 54", "玩家等级 * 54" })
+
+[expert_bonus_stage_3_1]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "五色灵石#非卖品", 2, 2 })
+
+[expert_bonus_stage_3_2]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "五色晶石#非卖品", 2, 2 })
+
+[expert_bonus_stage_3_3]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 108", "玩家等级 * 108" })
+
+[expert_bonus_stage_4_1]
+bonus$  : ({ 0, 0, 100, "经验", "玩家等级 * 216", "玩家等级 * 216" })
+
+[expert_bonus_stage_4_2]
+bonus_guard : 1
+bonus$: ({ 0, 0, 100, "守护", 1, 1 })
+
+[expert_bonus_stage_4_3]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "装备", 1, 1, "金色武器奖励(25)||金色衣服奖励(25)||金色帽子奖励(25)||金色鞋子奖励(25)" })
+
+[expert_bonus_stage_4_4]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "超级女娲石(50)||超级黑水晶(50)#赠品||法玲珑(50)#赠品||血玲珑(50)#赠品", 1, 1 })
+
+[expert_bonus_stage_4_5]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "粉水晶(20)#赠品||黄水晶(20)#赠品||天换石(20)#赠品||绿水晶(20)#赠品||道具套餐卡(20)#赠品", 1, 1 })
+
+[expert_bonus_stage_4_6]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "驯兽诀(50)#赠品||超级仙风散(50)#赠品||神木鼎(50)#赠品||火眼金睛(50)#赠品||超级八卦阴阳令(50)#赠品||超级神兽丹(50)#赠品||超级藏宝图(25)#赠品||材料箱(25)#赠品||离线摆摊卡(50)#赠品||无量心经(50)#赠品", 1, 1 })
+
+[expert_bonus_stage_4_7]
+free_bag: ({ 1, "你的包裹已满，无法获得#R奖励物品#n。" })
+bonus$: ({ 0, 0, 100, "老酒(50)#赠品||烟花筒(50)#赠品", 1, 1 })

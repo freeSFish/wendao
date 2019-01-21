@@ -1,0 +1,58 @@
+#FORM2
+
+[config]
+rooms : ({ "东海渔村", "揽仙镇", "无名小镇", "天墉城" })
+icons : ({ 31072, 31073, 31074, 31075, 31076, 31077, 31078, 31079, 31080, 31081, 31082, 31083 })
+start_time : "2012-05-23-00:00:00"
+end_time : "2012-05-24-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【端午蜜粽抢不停活动】#n已经开启，大家组队快去#Z揽仙镇#Z、#Z天墉城#Z、#Z东海渔村#Z、#Z无名小镇#Z击杀#R蜜粽仙子#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+5)"
+message         : "本次#R【端午蜜粽抢不停活动】#n圆满结束，感谢大家的参与！#86"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[蜜粽仙子]
+name             : 蜜粽仙子
+life_effect      : "1000 + LV / 100 * 100 + LV / 110 * 200 +  LV / 130 * 200 + 500"
+mag_effect       : "100 + LV / 100 * 10 + LV / 110 * 20 +  LV / 130 * 40 + 20"
+phy_effect       : "100 + LV / 100 * 10 + LV / 110 * 20 +  LV / 130 * 40 + 20"
+speed_effect     : 80
+tao_effect       : "100 + LV / 100 * 50 + LV / 130 * 50 + LV / 140 * 50"
+resist_forgotten : "LV / 5"
+resist_poison    : "LV / 5"
+resist_frozen    : "LV / 5"
+resist_sleep     : "LV / 5"
+resist_confusion : "LV / 5"
+modify_attrib    : ({ "life_effect", "mag_effect", "phy_effect", "tao_effect", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion" })
+skills           : ({ "B2", "B3", "B4", "lipo-qianjun" })
+skills_level_100 : ({ "B5" })
+tactics          : "tactics_xianzi"
+
+[小龙宝]
+name                 : 小龙宝
+life_effect          : "400 + LV / 100 * 100 + LV / 110 * 200 +  LV / 130 * 200"
+mag_effect           : "50 + LV / 100 * 10 + LV / 110 * 20 +  LV / 130 * 20"
+phy_effect           : "50 + LV / 100 * 10 + LV / 110 * 20 +  LV / 130 * 20"
+speed_effect         : ({ 20, 69 })
+tao_effect           : 30
+resist_forgotten     : "LV / 5"
+resist_poison        : "LV / 5"
+resist_frozen        : "LV / 5"
+resist_sleep         : "LV / 5"
+resist_confusion     : "LV / 5"
+modify_attrib        : ({ "life_effect", "mag_effect", "phy_effect", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion" })
+modify_attrib_random : ({ "speed_effect" })
+skills               : ({ "B2", "B4" })
+tactics              : "tactics_dragon"

@@ -1,0 +1,235 @@
+#FORM2
+
+#start_time 活动开始时间
+#duration 每次活动持续时间
+#monster_num 每次活动产生的明怪数量
+#interval 每次活动的间隔
+#broadcost_section1_over_count 活动第一阶段结束时，广播的次数
+#section2_interval 第二阶段过程广播间隔
+#item_list 活动第二阶段相关物品列表
+#broadcast_interval_30 活动前72小时广播
+#interval_30 活动前72小时广播间隔
+#start_interval 活动开始时广播间隔
+#section1_duration 第一阶段持续时间
+#section1_interval 第一阶段结束时广播间隔
+#clean_interval 活动结束后48小时清场
+#common_bonus_name 普通怪物战斗后的物品奖励
+#special_bonus_name 特殊怪物战斗后的物品奖励
+#lingpai_exp_rate 令牌换取经验的比值
+#lingpai_tao_rate 令牌换取道行的比值
+#lingpai_martial_rate 令牌换取武学的比值
+#common_exp_rate 普通怪物战斗后的经验奖励
+#common_bonus_rate 普通战斗物品奖励的概率
+#special_bonus_rate 特殊战斗物品奖励的概率
+#common_tao_rate 普通怪物战斗后的道行奖励
+#common_martial_rate 普通怪物战斗后的武学奖励
+#char_level 参加活动第一阶段的玩家等级限制
+#deliver_exp_rate 护送任务的奖励奖励比值
+#deliver_tao_rate 护送活动的道行奖励比值
+#deliver_martial_rate 护送活动的武学奖励比值
+#start_broadcost_count 活动开始时广播的次数
+#common_monster 普通怪物名称
+#special_monster 特殊怪物名称
+#regular 活动是否有规律间隔举行 1：表示有规律间隔；0表示没有规律间隔
+
+
+[setting]
+start_time$ : "2009-12-14-18:00:00"
+start_time$ : "2009-12-15-18:00:00"
+start_time$ : "2009-12-16-18:00:00"
+start_time$ : "2009-12-17-18:00:00"
+start_time$ : "2009-12-18-18:00:00"
+start_time$ : "2009-12-19-18:00:00"
+start_time$ : "2009-12-20-18:00:00"
+
+start_time_sqo : "2009-12-14"
+duration$   : 7200
+interval$   : 0
+broadcost_section1_over_count : 3
+section2_interval : 300
+monster_num : 10
+item_list : ({ "烟花", "爆竹", "烟花筒" })
+broadcast_interval_30 : 259200
+interval_30 : 1800
+start_interval : 3
+section1_duration : 3600
+section1_interval : 3
+clean_interval : 172800
+common_bonus_name : "未孵化的卵"
+special_bonus_name : "水魔令牌"
+lingpai_exp_rate : 1920
+lingpai_tao_rate : 216
+lingpai_martial_rate : 432
+common_exp_rate : 960
+common_bonus_rate : 5
+special_bonus_rate : 20
+common_tao_rate : 108
+common_martial_rate : 216
+char_level : 40
+deliver_exp_rate : 1098846
+deliver_tao_rate : 324
+deliver_martial_rate : 648
+start_broadcost_count : 3
+common_monster : "水魔头领"
+special_monster : "水魔使者"
+npc_list : ({ "朱雀使者", "朱雀公主" })
+limit_place : ({ "北海沙滩" })
+s1_rooms  : ({ "官道北", "官道南" })
+regular : 0
+
+pet_list$ : ({ "花妖", 10000, 0, 0, 1 })
+pet_list$ : ({ "屈魂", 10000, 0, 0, 1 })
+pet_list$ : ({ "怨鬼", 10000, 0, 0, 1 })
+pet_list$ : ({ "花妖", 15000, 1, 0, 1 })
+pet_list$ : ({ "屈魂", 15000, 1, 0, 1 })
+pet_list$ : ({ "怨鬼", 8000,  1, 0, 1 })
+pet_list$ : ({ "屈魂", 8000,  2, 0, 1 })
+pet_list$ : ({ "怨鬼", 8000,  2, 0, 1 })
+pet_list$ : ({ "花妖", 5945,  3, 0, 1 })
+pet_list$ : ({ "屈魂", 5000,  3, 0, 1 })
+pet_list$ : ({ "怨鬼", 5000,  3, 0, 1 })
+pet_list$ : ({ "蛋蛋鸡", 20,  0, 1, 1 })
+pet_list$ : ({ "重明", 30,  0, 1, 1 })
+pet_list$ : ({ "朱雀", 5, 2, 1, 1 })
+
+
+[怪物]
+朱雀公主   : 1
+水魔大将   : 1
+水魔使者   : 1
+水魔头领   : 1
+朱雀后裔   : 1
+水魔兵士   : 1
+朱雀使者   : 1
+
+[朱雀公主]
+icon        : 6192
+portrait    : 6192
+room        : "天墉城"
+position    : ({ 381, 272, 5})
+shuimo_ruqin  : 1
+
+[朱雀使者]
+icon        : 6224
+portrait    : 6224
+menu_content : "init_menu_shenlongshizhe_content"
+menu_action  : "init_menu_shenlongshizhe_action"
+room        : "揽仙镇"
+position    : ({ 178, 79, 5})
+shuimo_ruqin  : 1
+
+[水魔兵士]
+icon             : 6281
+portrait         : 6281
+polar            : -1
+life_effect      : 150
+speed_effect     : 0
+phy_effect       : 100
+mag_effect       : 100
+phy_absorb       : 0
+mag_absorb       : 0
+resist_poison    : 10
+resist_frozen    : 30
+resist_sleep     : 10
+resist_forgotten : 30
+resist_confusion : 30
+phy_rate         : 50
+mag_rate         : ({ "B2", 50, "B4", 50 })
+skills           : ({ "B2", "B4" })
+tractics         : "nianshou_tactics"
+shuimo_ruqin  : 1
+
+[朱雀后裔]
+icon             : 31033
+portrait         : 31033
+polar            : 1
+life_effect      : 150
+speed_effect     : 30
+tao_effect       : 30
+phy_effect       : 100
+mag_effect       : 100
+phy_absorb       : 0
+mag_absorb       : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 0
+resist_confusion : 0
+phy_rate         : 50
+mag_rate         : ({ "B2", 50, "B4", 50 })
+skills           : ({ "B2", "B4" })
+tractics         : "longzuzisun_tactics"
+register_if      : ({ "sf_die", "sf_other_die", "sf_quit_team", "sf_quit_team", "sf_no_destruct", "sf_no_destruct" })
+shuimo_ruqin  : 1
+
+[水魔头领]
+icon             : 6195
+portrait         : 6195
+polar            : -1
+life_effect      : 500
+speed_effect     : 30
+tao_effect       : 30
+phy_effect       : 150
+mag_effect       : 200
+phy_absorb       : 0
+mag_absorb       : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 0
+resist_confusion : 0
+phy_rate         : 20
+mag_rate         : ({ "B2", 25, "B4", 25, "如意圈", 25, "神龙罩", 25 })
+skills           : ({ "B2", "B4" })
+special_skills   : ({ "如意圈", 180, "神龙罩", 180 })
+tractics         : "nianshoutongling_tactics"
+shuimo_ruqin  : 1
+
+[水魔使者]
+icon             : 6196
+portrait         : 6196
+polar            : -1
+life_effect      : 500
+speed_effect     : 0
+tao_effect       : 0
+phy_effect       : 150
+mag_effect       : 150
+phy_absorb       : 0
+mag_absorb       : 0
+resist_poison    : 0
+resist_frozen    : 0
+resist_sleep     : 0
+resist_forgotten : 0
+resist_confusion : 0
+phy_rate         : 0
+mag_rate         : ({ "B2", 25, "B4", 25, "如意圈", 25, "神龙罩", 25 })
+skills           : ({ "B2", "B4" })
+special_skills   : ({ "如意圈", 180, "神龙罩", 180 })
+tractics         : "nianshoutongling_tactics"
+shuimo_ruqin  : 1
+
+[水魔大将]
+icon             : 6193
+portrait         : 6193
+polar            : -1
+life_effect      : 800
+speed_effect     : 30
+tao_effect       : 30
+phy_effect       : 200
+mag_effect       : 200
+phy_absorb       : 0
+mag_absorb       : 0
+resist_poison    : 0
+resist_frozen    : 10
+resist_sleep     : 10
+resist_forgotten : 30
+resist_confusion : 30
+double_hit_rate  : 30
+double_hit       : 3
+recover_life_rate : 45
+phy_rate         : 50
+mag_rate         : ({ "B2", 50, "B4", 50})
+skills           : ({ "B2", "B4" })
+tractics         : "nianshoudajiang_tactics"
+register_if      : ({ "sf_die", "sf_spring_festival_die" })
+shuimo_ruqin  : 1

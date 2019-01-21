@@ -1,0 +1,97 @@
+#FORM2
+
+#2010圣诞活动之欢度圣诞
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2017-12-21-10:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2017-12-31-23:59:59" })
+
+[setting]
+map_info     :   "官道南"
+monster_info$: ({ "调皮的雪人", 30 })
+monster_info$: ({ "优雅的雪人", 30 })
+monster_info$: ({ "聪明的驯鹿", 30 })
+monster_info$: ({ "捣乱的驯鹿", 30 })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start_task", "during_launch_task", "during_task", "end_task" })
+
+[before_start_task]
+broadcast_start : "start_time(-1800)"
+interval        : 300
+broadcast_end   : "start_time(-300)"
+message         : "欢度圣诞活动即将于#R18:00#n开启，雪人队和驯鹿队的挑战赛将在#Z官道南#Z进行，比赛优胜的队伍在本活动中将可获得双倍奖励，请大家届时找#P可怜的小鹿|揽仙镇(307,41) #P报名参赛。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_launch_task]
+broadcast_start : "start_time"
+interval        : 60
+broadcast_end   : "start_time(+600)"
+message         : "雪人队和驯鹿队的比赛正在#Z官道南#Z进行得如火如荼，大家快去找#P可怜的小鹿|揽仙镇(307,41) #P报名参赛吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+660)"
+interval        : 900
+broadcast_end   : "end_time(-60)"
+message         : "雪人队和驯鹿队的比赛正在#Z官道南#Z进行得如火如荼，大家快去找#P可怜的小鹿|揽仙镇(307,41) #P报名参赛吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 2
+broadcast_end   : "end_time(+1)"
+message         : "今天的#R欢度圣诞#n已经结束，比赛真是紧张激烈啊，欢迎大家明日再来一起共度圣诞。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[调皮的雪人]
+name            : "调皮的雪人"
+team            : "雪人"
+icon            : ({ 20018 })
+combat_icon     : ({ 20018, 6154})
+combat_num      : 5
+polar           : -1
+phy_effect      : 90
+mag_effect      : 120
+speed_effect    : 20
+tao_effect      : 10
+skills          : ({ "B3", "B4", "B5" })
+
+[优雅的雪人]
+name            : "优雅的雪人"
+team            : "雪人"
+icon            : ({ 6154 })
+combat_icon     : ({ 20018, 6154})
+combat_num      : 5
+polar           : -1
+phy_effect      : 110
+mag_effect      : 130
+speed_effect    : 50
+tao_effect      : 50
+skills          : ({ "B3", "B4", "B5", "C4" })
+
+[聪明的驯鹿]
+name            : "聪明的驯鹿"
+team            : "驯鹿"
+icon            : ({ 30001, 30002 })
+combat_icon     : ({ 30001, 30002, 30003, 30004, 30005 })
+combat_num      : 5
+polar           : -1
+phy_effect      : 110
+mag_effect      : 130
+speed_effect    : 50
+tao_effect      : 50
+skills          : ({ "B3", "B4", "B5", "C4" })
+
+[捣乱的驯鹿]
+name            : "捣乱的驯鹿"
+team            : "驯鹿"
+icon            : ({ 30003, 30004, 30005 })
+combat_icon     : ({ 30001, 30002, 30003, 30004, 30005 })
+combat_num      : 5
+polar           : -1
+phy_effect      : 90
+mag_effect      : 120
+speed_effect    : 20
+tao_effect      : 10
+skills          : ({ "B3", "B4", "B5" })

@@ -1,0 +1,73 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-01-24-12:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2025-02-02-20:00:00" })
+time_list$ : ({ "2011-01-24-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2025-02-02-20:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_end_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-300)"
+interval        : 60
+broadcast_end   : "start_time(-50)"
+message         : "[#Y多宝道人#n]传闻上古时有大法力者在凡界遗落了众多宝物，而此时宝物灵气渐盛，即将可被#R黄金罗盘#n所感应。让我们带上#R黄金罗盘#n准备前去寻宝吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-180)"
+interval        : 60
+broadcast_end   : "end_time(-50)"
+message         : "[#Y多宝道人#n]宝物灵气渐弱，#R黄金罗盘#n已快感应不到了。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[bonus]
+item1 : ({ "宝花玉露丸", "三清丸", "清风散", "偷天换日散", "六合仙露" })
+item2 : ({ "百灵丹", "九圣散", "紫金丹", "百花酿" })
+item3 : ({ "五色灵石", "五色晶石" })
+item4 : ({ "藏宝箱" })
+stone : ({ "枯月流魂", "凝香幻彩", "炫影霜星", "冰落残阳", "风寂云清" })
+equip : ({ "未鉴定装备" })
+
+[bonus_num]
+item1 : 1
+item2 : 20
+item3 : 2
+item4 : 1
+stone : 1
+equip : 1
+
+[bonus_heavy]
+item1 : 400
+item2 : 400
+item3 : 400
+item4 : 400
+stone : 400
+equip : 400
+
+[sp_bonus_num]
+1 : 20
+2 : 20
+3 : 20
+4 : 20
+5 : 20
+6 : 30
+7 : 30
+
+# ({ 物品, 权重, 数量, 是否赠品 )}
+[attach_bonus]
+bonus$ : ({ "易经洗髓丹", 100, 1, 1 })
+bonus$ : ({ "超级神兽丹", 100, 1, 1 })
+bonus$ : ({ "特效仙风散", 100, 1, 1 })
+bonus$ : ({ "宠风散", 100, 1, 1 })
+bonus$ : ({ "如意战斗令", 100, 1, 1 })
+bonus$ : ({ "驯兽诀", 100, 1, 1 })
+bonus$ : ({ "超级女娲石", 20, 1, 0 })
+bonus$ : ({ "幻境石", 100, 1, 1 })
+bonus$ : ({ "九转仙灵露", 50, 1, 0 })
+bonus$ : ({ "潜金散", 20, 1, 0 })
+bonus$ : ({ "烈火散", 20, 1, 0 })
+bonus$ : ({ "柔水丹", 20, 1, 0 })
+bonus$ : ({ "神木丸", 20, 1, 0 })
+bonus$ : ({ "三土丸", 20, 1, 0 })
+

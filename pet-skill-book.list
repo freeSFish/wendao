@@ -1,0 +1,21 @@
+# pet-skill-book.list
+# created by kesy JAN/13/2009
+# 宠物天生技能书
+
+#名称,  file_id,                             skill_name,           book_range,  icon,   量词,   no_float,       是否可叠加, 价格,     声望价格,    是否是任务物品,   描述
+key_name,     file_id,                             skill_name,           book_range, icon,  unit, no_float, combined, value, reputation, item_task, desc
+翻转乾坤秘笈, "pet_skill_book/fanzhuan-qiankun",   "fanzhuan-qiankun",   1,          08057, 本,   1,        0,        500,   0,          0,         记录有翻转乾坤技能的秘笈，可以让宠物领悟到翻转乾坤技能，可以让无天技的宠物学习到天生技能
+神圣之光秘笈, "pet_skill_book/shensheng-zhiguang", "shensheng-zhiguang", 1,          08057, 本,   1,        0,        500,   0,          0,         记录有神圣之光技能的秘笈，可以让宠物领悟到神圣之光技能，可以让无天技的宠物学习到天生技能
+死亡缠绵秘笈, "pet_skill_book/siwang-chanmian",    "siwang-chanmian",    0,          08057, 本,   1,        0,        500,   0,          0,         记录有死亡缠绵技能的秘笈，可以让宠物领悟到死亡缠绵技能，可以让无天技的宠物学习到天生技能
+游说之舌秘笈, "pet_skill_book/youshui-zhishe",     "youshui-zhishe",     1,          08057, 本,   1,        0,        500,   0,          0,         记录有游说之舌技能的秘笈，可以让宠物领悟到游说之舌技能，可以让无天技的宠物学习到天生技能
+漫天血舞秘笈, "pet_skill_book/mantian-xuewu",      "mantian-xuewu",      1,          08057, 本,   1,        0,        500,   0,          0,         记录有漫天血舞技能的秘笈，可以让宠物领悟到漫天血舞技能，可以让无天技的宠物学习到天生技能
+舍命一击秘笈, "pet_skill_book/sheming-yiji",       "sheming-yiji",       1,          08057, 本,   1,        0,        500,   0,          0,         记录有舍命一击技能的秘笈，可以让宠物领悟到舍命一击技能，可以让无天技的宠物学习到天生技能
+乾坤罩秘笈,   "pet_skill_book/qiankun-zhao",       "qiankun-zhao",       0,          08057, 本,   1,        0,        500,   0,          0,         记录有乾坤罩技能的秘笈，可以让宠物领悟到乾坤罩技能，可以让无天技的宠物学习到天生技能
+神龙罩秘笈,   "pet_skill_book/shenlong-zhao",      "shenlong-zhao",      1,          08057, 本,   1,        0,        500,   0,          0,         记录有神龙罩技能的秘笈，可以让宠物领悟到神龙罩技能，可以让无天技的宠物学习到天生技能
+如意圈秘笈,   "pet_skill_book/ruyi-quan",          "ruyi-quan",          1,          08057, 本,   1,        0,        500,   0,          0,         记录有如意圈技能的秘笈，可以让宠物领悟到如意圈技能，可以让无天技的宠物学习到天生技能
+十万火急秘笈, "pet_skill_book/shiwan-huoji",       "shiwan-huoji",       1,          08057, 本,   1,        0,        500,   0,          0,         记录有十万火急技能的秘笈，可以让宠物领悟到十万火急技能，可以让无天技的宠物学习到天生技能
+天生神力秘笈, "pet_skill_book/tiansheng-shenli",   "tiansheng-shenli",   0,          08057, 本,   1,        0,        500,   0,          0,         记录有天生神力技能的秘笈，可以让宠物领悟到天生神力技能，可以让无天技的宠物学习到天生技能
+鞭长莫及秘笈, "pet_skill_book/bianchang-moji",     "bianchang-moji",     1,          08057, 本,   1,        0,        500,   0,          0,         记录有鞭长莫及技能的秘笈，可以让宠物领悟到鞭长莫及技能，可以让无天技的宠物学习到天生技能
+拔苗助长秘笈, "pet_skill_book/bamiao-zhuzhang",    "bamiao-zhuzhang",    0,          08057, 本,   1,        0,        500,   0,          0,         记录有拔苗助长技能的秘笈，可以让宠物领悟到拔苗助长技能，可以让无天技的宠物学习到天生技能
+防微杜渐秘笈, "pet_skill_book/fangwei-dujian",     "fangwei-dujian",     1,          08057, 本,   1,        0,        500,   0,          0,         记录有防微杜渐技能的秘笈，可以让宠物领悟到防微杜渐技能，可以让无天技的宠物学习到天生技能
+

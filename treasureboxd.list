@@ -1,0 +1,664 @@
+#FORM2
+
+[setting]
+# 阶段信息: ({开始时间, 持续时间(单位秒), 藏宝箱掉落概率(基数1000), 银钥匙掉落概率(基数1000)})
+section_info$ : ({"2008-06-01-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-07-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-08-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-14-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-15-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-21-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-22-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-28-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-06-29-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-05-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-06-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-12-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-13-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-19-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-20-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-26-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-07-27-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-02-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-03-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-09-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-10-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-16-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-17-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-23-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-24-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-30-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-08-31-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-06-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-07-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-13-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-14-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-20-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-21-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-27-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-09-28-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-04-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-05-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-11-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-12-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-18-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-19-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-25-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-10-26-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-01-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-02-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-08-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-09-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-15-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-16-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-22-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-23-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-29-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-11-30-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-06-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-07-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-13-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-14-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-20-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-21-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-27-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2008-12-28-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-03-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-04-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-10-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-11-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-17-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-18-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-24-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-25-14:00:00", 7200, 10, 0 })
+section_info$ : ({"2009-01-31-14:00:00", 7200, 10, 0 })
+
+# 技能书奖励 : ({ 时间：格式一定得为xxxx-xx,如2001-01, 该时间段的奖励概率(基数1000000)})
+# 此配置和下面的一起进行，当月配置了book_rate必须配置book_name
+book_rate$     : ({ "default_book", 20 })
+#book_rate$     : ({ "2009-07", 20 })
+
+# 技能书奖励名称 : ({ 时间：名称})
+#格式如下
+#book_name$ : ({ "2009-07", "如意圈秘笈" })
+
+pet_rate$     : ({ "default_pet", 50 })
+pet_rate$     : ({ "2008-03", 50 })
+pet_rate$     : ({ "2008-04", 50 })
+pet_rate$     : ({ "2008-05", 50 })
+pet_rate$     : ({ "2008-06", 50 })
+pet_rate$     : ({ "2008-07", 50 })
+pet_rate$     : ({ "2008-08", 50 })
+pet_rate$     : ({ "2008-09", 50 })
+pet_rate$     : ({ "2008-10", 50 })
+pet_rate$     : ({ "2008-11", 50 })
+pet_rate$     : ({ "2008-12", 50 })
+pet_rate$     : ({ "2009-01", 50 })
+pet_rate$     : ({ "2009-07", 50 })
+pet_rate$     : ({ "2009-08", 50 })
+#默认配置，在本月没有任何配置的情况下就启动默认配置
+#开始时间-现定义为周末
+#持续时间-现在默认2小时
+#周期-默认一个星期
+[default]
+strat_time$ : "2008-04-19-14:00:00:00"
+strat_time$ : "2008-04-20-14:00:00:00"
+last_time : 7200
+period : 604800
+#[九尾狐1]
+#name$: ({ 九尾狐, 九尾狐 })
+#rank$: 神兽
+#level: 1
+#life_effect: ({ 55, 55 })
+#mana_effect: ({ 25, 25 })
+#speed_effect: ({ 45, 45 })
+#phy_effect: ({ -50, -50 })
+#mag_effect: ({ 35, 35 })
+#longevity: ({ 10000, 20000 })
+#martial: ({ 0, 0 })
+#special_skill$: ({ 3, 翻转乾坤, 1, 游说之舌, 1, 乾坤罩, 1 })
+
+[default_pet]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "乖乖狗0", "乖乖狗1", "乖乖狗2", "伶俐鼠0", "伶俐鼠1", "伶俐鼠2", "蛋蛋鸡0", "蛋蛋鸡1", "蛋蛋鸡2", "咩咩羊0", "咩咩羊1", "咩咩羊2", "威威虎0", "威威虎1", "威威虎2", "花花蛇0", "花花蛇1", "花花蛇2", "溜溜马0", "溜溜马1", "溜溜马2", "笨笨牛0", "笨笨牛1", "笨笨牛2", "跳跳兔0", "跳跳兔1", "跳跳兔2", "帅帅猴0", "帅帅猴1", "帅帅猴2", "酷酷龙0", "酷酷龙1", "酷酷龙2", "招财猪0", "招财猪1", "招财猪2" })
+
+[2008-01]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "乖乖狗0", "乖乖狗1", "乖乖狗2" })
+
+[2008-02]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "伶俐鼠0", "伶俐鼠1", "伶俐鼠2" })
+
+[2008-03]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "伶俐鼠0", "伶俐鼠1", "伶俐鼠2" })
+
+[2008-04]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "蛋蛋鸡0", "蛋蛋鸡1", "蛋蛋鸡2" })
+
+[2008-05]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "伶俐鼠0", "伶俐鼠1", "伶俐鼠2" })
+
+[2008-06]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "咩咩羊0", "咩咩羊1", "咩咩羊2" })
+
+[2008-07]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "咩咩羊0", "咩咩羊1", "咩咩羊2" })
+
+[2008-08]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "威威虎0", "威威虎1", "威威虎2" })
+
+[2008-09]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "威威虎0", "威威虎1", "威威虎2" })
+
+[2008-10]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "蛋蛋鸡0", "蛋蛋鸡1", "蛋蛋鸡2" })
+
+[2008-11]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "蛋蛋鸡0", "蛋蛋鸡1", "蛋蛋鸡2" })
+
+[2008-12]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "花花蛇0", "花花蛇1", "花花蛇2" })
+
+[2009-01]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "花花蛇0", "花花蛇1", "花花蛇2" })
+
+[2009-07]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "溜溜马0", "溜溜马1", "溜溜马2" })
+
+[2009-08]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "溜溜马0", "溜溜马1", "溜溜马2" })
+
+
+[咩咩羊0]
+name$: ({ 咩咩羊, 咩咩羊 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 0, 神圣之光, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[咩咩羊1]
+name$: ({ 咩咩羊, 咩咩羊 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 神圣之光, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[咩咩羊2]
+name$: ({ 咩咩羊, 咩咩羊 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 神圣之光, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[蛋蛋鸡0]
+name$: ({ 蛋蛋鸡, 蛋蛋鸡 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 0, 死亡缠绵, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[蛋蛋鸡1]
+name$: ({ 蛋蛋鸡, 蛋蛋鸡 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 死亡缠绵, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[蛋蛋鸡2]
+name$: ({ 蛋蛋鸡, 蛋蛋鸡 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 死亡缠绵, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[乖乖狗0]
+name$ : ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+special_skill$: ({ 0, 神圣之光, 1, 乾坤罩, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[乖乖狗1]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 神圣之光, 1, 乾坤罩, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[乖乖狗2]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 神圣之光, 1, 乾坤罩, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[伶俐鼠0]
+name$: ({ 伶俐鼠, 伶俐鼠 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 0, 翻转乾坤, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[伶俐鼠1]
+name$: ({ 伶俐鼠, 伶俐鼠 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 翻转乾坤, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[伶俐鼠2]
+name$: ({ 伶俐鼠, 伶俐鼠 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 翻转乾坤, 1, 如意圈, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[威威虎0]
+name$: ({ 威威虎, 威威虎 })
+rank$: 变异
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 0, 翻转乾坤, 1, 乾坤罩, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[威威虎1]
+name$: ({ 威威虎, 威威虎 })
+rank$: 变异
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 翻转乾坤, 1, 乾坤罩, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[威威虎2]
+name$: ({ 威威虎, 威威虎 })
+rank$: 变异
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 翻转乾坤, 1, 乾坤罩, 1 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[花花蛇0]
+name$: ({ 花花蛇, 花花蛇 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 0, 舍命一击, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[花花蛇1]
+name$: ({ 花花蛇, 花花蛇 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 舍命一击, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[花花蛇2]
+name$: ({ 花花蛇, 花花蛇 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 舍命一击, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[溜溜马0]
+name$: ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[溜溜马1]
+name$: ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 神圣之光, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[溜溜马2]
+name$: ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 神圣之光, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[笨笨牛0]
+name$: ({ 笨笨牛, 笨笨牛 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[笨笨牛1]
+name$: ({ 笨笨牛, 笨笨牛 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 死亡缠绵, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[笨笨牛2]
+name$: ({ 笨笨牛, 笨笨牛 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 死亡缠绵, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[跳跳兔0]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[跳跳兔1]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 舍命一击, 1, 乾坤罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[跳跳兔2]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 舍命一击, 1, 乾坤罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[帅帅猴0]
+name$: ({ 帅帅猴, 帅帅猴 })
+rank$: 变异
+level: 1
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[帅帅猴1]
+name$: ({ 帅帅猴, 帅帅猴 })
+rank$: 变异
+level: 1
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 死亡缠绵, 1, 乾坤罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[帅帅猴2]
+name$: ({ 帅帅猴, 帅帅猴 })
+rank$: 变异
+level: 1
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 死亡缠绵, 1, 乾坤罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[酷酷龙0]
+name$: ({ 酷酷龙, 酷酷龙 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[酷酷龙1]
+name$: ({ 酷酷龙, 酷酷龙 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 翻转乾坤, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[酷酷龙2]
+name$: ({ 酷酷龙, 酷酷龙 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 翻转乾坤, 1, 神龙罩, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[招财猪0]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[招财猪1]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 舍命一击, 1, 如意圈, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"
+
+[招财猪2]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 2, 舍命一击, 1, 如意圈, 1})
+channel_msg : "#Y$PLAYER#n打开#R藏宝箱#n时，意外得到了一只#Y$EX_PET#n！真是鸿运当头啊！"

@@ -1,0 +1,15 @@
+#FORM2
+
+[setting]
+start_time       : "2013-04-22-00:00:00"
+end_time         : "2013-05-01-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "《问道》七周年之际，#P杨镖头#P心事重重，道友们快去看看怎么回事吧！快去#P杨镖头#P处领取#R【七周年】莲灯祈福#n任务帮其完成心愿吧，同时还可以获得意想不到的奖励哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

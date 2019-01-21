@@ -1,0 +1,29 @@
+#FORM2
+
+[setting]
+start_time       : "2014-09-05-00:00:00"
+end_time         : "2014-09-14-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time(0)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【中秋节】五福临门#n活动开始了，#R五福星#n降临天墉城，天墉城中的部分NPC将变成#R五福星#n形象，与之游戏即可获得五福星的祝福奖励，快去#Y天墉城#n参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+3500)"
+interval        : 3600
+broadcast_end   : "end_time(-3500)"
+message         : "#R【中秋节】五福临门#n活动正在进行中，#R五福星#n降临天墉城，天墉城中的部分NPC将变成#R五福星#n形象，与之游戏即可获得五福星的祝福奖励，快去#Y天墉城#n参加活动吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "#R【中秋节】五福临门#n活动已经结束了，祝大家#R五福临门#n！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

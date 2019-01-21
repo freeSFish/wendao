@@ -1,0 +1,259 @@
+#FORM2
+
+[config]
+start_time : "2012-09-28-00:00:00"
+end_time : "2012-10-07-23:59:59"
+
+[npcs]
+蓐收 : ({ 31028, 190, 177, NORTHEAST, POLAR_METAL, "金相之神", "吾名为蓐收，主金相。金曰从革，性刚强而重自尊，谓之义。五行之力，玄妙之甚，若能参悟其中相生相克之理，定可有所得。[【双节庆】我想参悟五行相生相克之理/五行之神][我只是随便看看，没有什么事]" })
+句芒 : ({ 31029, 195, 180, NORTHEAST, POLAR_WOOD, "木相之神", "吾名为句芒，主木相。木曰曲直，好华美而乐风雅，谓之仁。五行之力，玄妙之甚，若能参悟其中相生相克之理，定可有所得。[【双节庆】我想参悟五行相生相克之理/五行之神][我只是随便看看，没有什么事]" })
+玄冥 : ({ 31030, 200, 183, NORTHEAST, POLAR_WATER, "水相之神", "吾名为玄冥，主水相。水曰润下，性聪慧而善权谋，谓之智。五行之力，玄妙之甚，若能参悟其中相生相克之理，定可有所得。[【双节庆】我想参悟五行相生相克之理/五行之神][我只是随便看看，没有什么事]" })
+祝融 : ({ 31031, 205, 185, NORTHEAST, POLAR_FIRE, "火相之神", "吾名为祝融，主火相。火曰炎上，亦热忱而好上进，谓之礼。五行之力，玄妙之甚，若能参悟其中相生相克之理，定可有所得。[【双节庆】我想参悟五行相生相克之理/五行之神][我只是随便看看，没有什么事]" })
+后土 : ({ 31032, 210, 187, NORTHEAST, POLAR_EARTH, "土相之神", "吾名为后土，主土相。土曰稼穑，性温厚而诚待人，谓之信。五行之力，玄妙之甚，若能参悟其中相生相克之理，定可有所得。[【双节庆】我想参悟五行相生相克之理/五行之神][我只是随便看看，没有什么事]" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task", "end_task" })
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "值双节之庆，#P活动大使#P正在发布任务让大家去找#Y五行之神#n共参五行之力，若能参悟五行相生相克之理，便能获得额外的大奖！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+5)"
+message         : "双节之庆活动已经结束了，#Y五行之神#n离开了天墉城，双节庆虽然结束了，但是希望大家能够更多地领悟五行之力！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[五行之神]
+life_effect      : "1200 + (LV - 70) * 30"
+speed_effect     : "LV * 2 + 20"
+phy_effect       : 200
+mag_effect       : 200
+phy_absorb       : -30
+mag_absorb       : -30
+tao_effect       : "(LV - 70) / 30 * 50"
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+modify_attrib    : ({ "life_effect", "speed_effect", "tao_effect" })
+skills_high_100  : ({ "B4", "B5", "C5", "D5", "lipo-qianjun" })
+skills_less_100  : ({ "B2", "B3", "C4", "D4", "lipo-qianjun" })
+tactics          : "tactics_wuxing_zhishen"
+
+[五行护卫]
+name                 : "五行护卫"
+polar                : ({ 1, 5 })
+life_effect          : "800 + (LV - 70) / 30 * 300"
+tao_effect           : 150
+resist_forgotten     : 100
+resist_poison        : 100
+resist_frozen        : 100
+resist_sleep         : 100
+resist_confusion     : 100
+stunt_rate           : 50
+speed_effect         : ({ -100, 99 })
+phy_effect           : "70 + (LV - 50 ) / 30 * 50"
+mag_effect           : "70 + (LV - 50 ) / 30 * 50"
+modify_attrib        : ({ "life_effect", "phy_effect", "mag_effect" })
+modify_attrib_random : ({ "speed_effect", "polar" })
+skills_high_100      : ({ "B4", "B5", "C5", "D5", "lipo-qianjun" })
+skills_less_100      : ({ "B2", "B3", "C4", "D4", "lipo-qianjun" })
+tactics              : "tactics_wuxing_huwei"
+
+[相生主怪]
+name                 : "五行之力"
+icon                 : 31062
+portrait             : 31062
+polar                : ({ 1, 5 })
+life_effect          : "3000 + (LV - 70) / 30 * 500"
+phy_effect           : "100 + (LV - 40) / 25 * 30"
+mag_effect           : "100 + (LV - 40) / 25 * 70"
+penetrate_rate       : 70
+penetrate            : 50
+stunt_rate           : 30
+speed_effect         : ({ 0, 199 })
+tao_effect           : "LV * 3"
+resist_forgotten     : 300
+resist_poison        : 300
+resist_frozen        : 300
+resist_sleep         : 300
+resist_confusion     : 300
+modify_attrib        : ({ "life_effect", "phy_effect", "mag_effect", "tao_effect" })
+modify_attrib_random : ({ "speed_effect", "polar" })
+skills               : ({ "B1", "B2", "B3", "B4", "B5", "C5" })
+artifact             : ({ "fantianyin", 18 })
+tactics              : "tactics_xiangsheng_zhuguai"
+
+[五行之土]
+name             : "五行之土"
+polar            : POLAR_EARTH
+icon             : 31073
+portrait         : 31073
+life_effect      : "1200 + (LV - 70) / 30 * 300"
+phy_effect       : "70 + (LV - 50) / 30 * 80"
+mag_effect       : "70 + (LV - 50) / 30 * 50"
+resist_earth     : 100
+penetrate_rate   : 100
+penetrate        : 50
+stunt_rate       : 50
+speed_effect     : -50
+tao_effect       : 400
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B4", "B5", "lipo-qianjun" })
+artifact         : ({ "hunyuan-jindou", 12 })
+tactics          : "tactics_wuxing_zhitu"
+
+[五行之水]
+name             : "五行之水"
+polar            : POLAR_WATER
+icon             : 31079
+portrait         : 31079
+life_effect      : "1200 + (LV - 70) / 30 * 300"
+phy_effect       : "70 + (LV - 50) / 30 * 50"
+mag_effect       : "70 + (LV - 50) / 30 * 80"
+resist_water     : 100
+penetrate_rate   : 80
+penetrate        : 30
+stunt_rate       : 30
+speed_effect     : 250
+tao_effect       : 350
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B1", "B2", "B3", "B4", "B5", "C4", "C5" })
+artifact         : ({ "fantianyin", 12 })
+tactics          : "tactics_wuxing_zhishui"
+
+[五行之木]
+name             : "五行之木"
+polar            : POLAR_WOOD
+icon             : 31077
+portrait         : 31077
+life_effect      : "1200 + (LV - 70) / 30 * 300"
+phy_effect       : "70 + (LV - 50) / 30 * 60"
+mag_effect       : "70 + (LV - 50) / 30 * 60"
+resist_wood      : 100
+penetrate_rate   : 80
+penetrate        : 30
+stunt_rate       : 30
+speed_effect     : -50
+tao_effect       : 300
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B4", "B5", "C4", "C5" })
+artifact         : ({ "dinghaizhu", 18 })
+tactics          : "tactics_wuxing_zhimu"
+
+[五行之火]
+name             : "五行之火"
+polar            : POLAR_FIRE
+icon             : 31074
+portrait         : 31074
+life_effect      : "1200 + (LV - 70) / 30 * 300"
+phy_effect       : "70 + (LV - 50) / 30 * 60"
+mag_effect       : "70 + (LV - 50) / 30 * 60"
+resist_fire      : 100
+penetrate_rate   : 80
+penetrate        : 30
+stunt_rate       : 30
+speed_effect     : 550
+tao_effect       : 350
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B4", "B5", "D5" })
+artifact         : ({ "yinyangjing", 18 })
+tactics          : "tactics_wuxing_zhihuo"
+
+[五行之金]
+name             : "五行之金"
+polar            : POLAR_METAL
+icon             : 31078
+portrait         : 31078
+life_effect      : "1200 + (LV - 70) / 30 * 300"
+phy_effect       : "70 + (LV - 50) / 30 * 50"
+mag_effect       : "70 + (LV - 50) / 30 * 70"
+resist_fire      : 100
+penetrate_rate   : 80
+penetrate        : 30
+stunt_rate       : 30
+speed_effect     : 550
+tao_effect       : 350
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+skills           : ({ "B4", "B5", "D5" })
+artifact         : ({ "jiulong-shenhuozhao", 18 })
+tactics          : "tactics_wuxing_zhijin"
+
+[相克主怪]
+name                 : "五行之力"
+icon                 : 31062
+portrait             : 31062
+polar                : ({ 1, 5 })
+life_effect          : "3000 + (LV - 70) / 30 * 500"
+phy_effect           : "100 + (LV - 40) / 25 * 70"
+mag_effect           : "100 + (LV - 40) / 25 * 40"
+tao_effect           : 500
+resist_forgotten     : 300
+resist_poison        : 300
+resist_frozen        : 300
+resist_sleep         : 300
+resist_confusion     : 300
+penetrate_rate       : 70
+penetrate            : 50
+accurate             : 200
+stunt_rate           : 50
+modify_attrib        : ({ "life_effect", "phy_effect", "mag_effect" })
+modify_attrib_random : ({ "polar" })
+skills               : ({ "B2", "B3", "B4", "B5", "lipo-qianjun", "C5", "D5" })
+artifact             : ({ "fantianyin", 18 })
+tactics              : "tactics_xiangke_zhuguai"
+
+[相克小怪]
+life_effect          : "1200 + (LV - 70) / 30 * 300"
+phy_effect           : "70 + (LV - 50) / 30 * 40"
+mag_effect           : "70 + (LV - 50) / 30 * 40"
+phy_absorb           : ({ -30, -21 })
+mag_absorb           : ({ -30, -21 })
+speed_effect         : ({ 0, 199 })
+penetrate_rate       : 100
+penetrate            : 50
+accurate             : 200
+stunt_rate           : 50
+double_hit_rate      : 30
+double_hit           : 3
+tao_effect           : ({ 100, 299 })
+resist_forgotten     : ({ 20, 139 })
+resist_poison        : ({ 20, 139 })
+resist_frozen        : ({ 20, 139 })
+resist_sleep         : ({ 20, 139 })
+resist_confusion     : ({ 20, 139 })
+modify_attrib        : ({ "life_effect", "phy_effect", "mag_effect" })
+modify_attrib_random : ({ "phy_absorb", "mag_absorb", "speed_effect", "tao_effect", "resist_forgotten", "resist_poison", "resist_frozen", "resist_sleep", "resist_confusion" })
+skills               : ({ "lipo-qianjun" })
+tactics              : "tactics_xiangke_xiaoguai"

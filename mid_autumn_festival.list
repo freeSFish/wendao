@@ -1,0 +1,194 @@
+#FORM2
+
+#mid_autumn_festival.list
+#created by huangw2 Aug/25/2008
+#中秋节游戏活动
+
+[task_time]
+start_time : "2009-10-03-12:00:00"
+maf_time$ :  ({ "2009-10-03-12:00:00", "2009-10-03-14:00:00" })
+
+[中秋纯阳正气丹]
+rate : 25000
+name$ : 纯阳正气丹
+bonus$: ({ 0, 0, 100, "纯阳正气丹", 20, 20 })
+bonus_times : -1
+
+[中秋道藏金丹]
+rate : 25000
+name$ : 道藏金丹
+bonus$: ({ 0, 0, 100, "道藏金丹", 20, 20 })
+bonus_times : -1
+
+[中秋炼妖石]
+rate : 50000
+name$ : 炼妖石
+bonus$: ({ 0, 0, 100, "炼妖石", 1, 1, "凝香幻彩", "枯月流魂", "风寂云清", "炫影霜星" })
+bonus_times : -1
+
+[凝香幻彩]
+name$: 凝香幻彩
+min_level : "玩家等级 / 10 < 7"
+max_level : "玩家等级 / 10 < 7"
+
+[风寂云清]
+name$: 风寂云清
+min_level : "玩家等级 / 10 < 7"
+max_level : "玩家等级 / 10 < 7"
+
+[炫影霜星]
+name$: 炫影霜星
+min_level : "玩家等级 / 10 < 7"
+max_level : "玩家等级 / 10 < 7"
+
+[枯月流魂]
+name$: 枯月流魂
+min_level : "玩家等级 / 10 < 7"
+max_level : "玩家等级 / 10 < 7"
+
+[中秋天神护佑]
+rate : 2000
+log_to_db:  1
+bonus$: ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R天神护佑#n的嘉奖！"
+bonus_times : -1
+
+[中秋离线摆摊卡]
+rate : 2000
+log_to_db:  1
+name$ : 离线摆摊卡
+bonus$: ({ 0, 0, 100, "离线摆摊卡#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R离线摆摊卡#n的嘉奖！"
+bonus_times : -1
+
+[中秋火眼金睛]
+rate : 2000
+log_to_db:  1
+name$ : 火眼金睛
+bonus$: ({ 0, 0, 100, "火眼金睛#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R火眼金睛#n的嘉奖！"
+bonus_times : -1
+
+[中秋金蝉脱壳]
+rate : 2000
+log_to_db:  1
+name$ : 金蝉脱壳
+bonus$: ({ 0, 0, 100, "金蝉脱壳#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R金蝉脱壳#n的嘉奖！"
+bonus_times : -1
+
+[中秋仙灵卡]
+rate : 2000
+log_to_db:  1
+name$ : 仙灵卡
+bonus$: ({ 0, 0, 100, "仙灵卡#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R仙灵卡#n的嘉奖！"
+bonus_times : -1
+
+[中秋驯兽诀]
+rate : 2000
+log_to_db:  1
+name$ : 驯兽诀
+bonus$: ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R驯兽诀#n的嘉奖！"
+bonus_times : -1
+
+[中秋特效仙风散]
+rate : 1000
+log_to_db:  1
+name$ : 特效仙风散
+bonus$: ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R特效仙风散#n的嘉奖！"
+bonus_times : -1
+
+[中秋宠风散]
+rate : 1000
+log_to_db:  1
+name$ : 宠风散
+bonus$: ({ 0, 0, 100, "宠风散#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R宠风散#n的嘉奖！"
+bonus_times : -1
+
+[中秋惊妖铃]
+rate : 1000
+log_to_db:  1
+name$ : 惊妖铃
+bonus$: ({ 0, 0, 100, "惊妖铃#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R惊妖铃#n的嘉奖！"
+bonus_times : -1
+
+[中秋急急如律令]
+rate : 1000
+log_to_db:  1
+name$ : 急急如律令
+bonus$: ({ 0, 0, 100, "急急如律令#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R急急如律令#n的嘉奖！"
+bonus_times : -1
+
+[中秋引路蜂]
+rate : 1000
+log_to_db:  1
+name$ : 引路蜂
+bonus$: ({ 0, 0, 100, "引路蜂#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R引路蜂#n的嘉奖！"
+bonus_times : -1
+
+[中秋道具套餐卡]
+rate : 100
+log_to_db:  1
+name$ : 道具套餐卡
+bonus$: ({ 0, 0, 100, "道具套餐卡#赠品", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R道具套餐卡#n的嘉奖！"
+bonus_times : 10
+
+[中秋灵引咒]
+rate : 50
+log_to_db:  1
+name$ : 灵引咒
+bonus$: ({ 0, 0, 100, "灵引咒", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R灵引咒#n的嘉奖！"
+bonus_times : 3
+
+[中秋超级女娲石]
+rate : 33
+log_to_db:  1
+name$ : 超级女娲石
+bonus$: ({ 0, 0, 100, "超级女娲石", 1, 1 })
+whoop: "#Y%PLAYER%#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了#R超级女娲石#n的嘉奖！"
+bonus_times : 50
+
+[中秋跳跳兔]
+rate : 1
+name$ : 跳跳兔
+log_to_db:  1
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$: ({ 0, 0, 100, "宠物", 1, 1, "跳跳兔1", "跳跳兔2" })
+bonus_times : 1
+
+[跳跳兔1]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 1, 舍命一击, 1, 乾坤罩, 1 })
+channel_rumor: "#Y$PLAYER#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了宠物#Y$EX_PET#n的嘉奖！"
+
+[跳跳兔2]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+longevity: ({ 10000, 20000 })
+martial: ({ 0, 0 })
+special_skill$: ({ 0, 舍命一击, 1, 乾坤罩, 1 })
+channel_rumor: "#Y$PLAYER#n在#R中秋节活动#n中，将得到的#R月饼#n交还给#Y嫦娥仙子#n后，得到了宠物#Y$EX_PET#n的嘉奖！"

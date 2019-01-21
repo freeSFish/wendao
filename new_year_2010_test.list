@@ -1,0 +1,82 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-12-15-13:00:00", "EVERY_HOUR(72)", "EVERY_DAY(0)" })
+
+
+[before_start]
+time     : 300
+channel  : CHANNEL_SYSTEM
+duration : 60
+content  : ""
+
+[start]
+channel  : CHANNEL_SYSTEM
+content  : "元旦节到了，天界有两位神仙结婚，大家快到#P问道活动大使#P处进行元旦活动吧！"
+
+[after_start]
+time     : 7200
+channel  : CHANNEL_SYSTEM
+duration : 7200
+content  : "元旦节到了，天界有两位神仙结婚，大家快到#P问道活动大使#P处进行元旦活动吧！"
+
+[end]
+channel  : CHANNEL_SYSTEM
+content  : "元旦节活动结束了，祝大家在新的一年里健康快乐，生活美满。"
+
+[打劫的小贼]
+name                : "打劫的小贼"
+icon                : ({ 06101, 06166, 06165, 06102})
+polar               : -1
+tao_effect          : 20
+resist_poison       : 40
+resist_frozen       : 40
+resist_sleep        : 40
+resist_forgotten    : 60
+resist_confusion    : 60
+phy_absorb          : 60
+mag_absorb          : 80
+phy_effect          : 50
+mag_effect          : 50
+speed_effect        : 40
+double_hit          : 4
+double_hit_rate     : 20
+counter_attack      : 12
+counter_attack_rate : 30
+skills              : ({ "B2", "B4" })
+tactics             : "thief_tactics"
+combat_trigger      : "combat_trigger_thief"
+dialog              : "抢啊，我闻到礼物的香味啦，哈哈！"
+
+[抢亲的神仙]
+name                : "抢亲的神仙"
+icon                : 6223
+portrait            : 6223
+polar               : -1
+tao_effect          : 100
+resist_poison       : 0
+resist_frozen       : 0
+resist_sleep        : 0
+resist_forgotten    : 0
+resist_confusion    : 0
+phy_absorb          : -20
+mag_absorb          : -20
+phy_effect          : 100
+mag_effect          : 100
+speed_effect        : 60
+double_hit          : 3
+double_hit_rate     : 40
+counter_attack      : 12
+counter_attack_rate : 60
+skills              : ({ "B2", "B4" })
+special_skills       : ({ "ruyi-quan", "shenlong-zhao" })
+special_skills_level : 180
+tactics             : "robber_tactics"
+combat_trigger      : "combat_trigger_robber"
+dialog              : "这么漂亮的新娘子，不抢太遗憾啦！"
+
+[extra_bonus]
+招财进宝 : 0
+吉祥如意  : 0
+金玉满堂  : 0
+老酒(50)#赠品||烟花筒(50)#赠品 : 1

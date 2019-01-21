@@ -1,0 +1,14 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2016-04-15-00:00:00", "EVERY_DAY(24)", "EVERY_WEEK(0)", "2016-05-08-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "end_task" })
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+60)"
+message         : "#R【十年问道】我是BOSS我做主#n活动已经结束了，经过大家的努力，超级大BOSS被赶离了天墉城！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

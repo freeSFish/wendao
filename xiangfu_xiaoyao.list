@@ -1,0 +1,178 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-09-21-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-21-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-21-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-22-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-22-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-22-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-23-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-23-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-23-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-24-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-24-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-24-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-25-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-25-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-25-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+
+[game_info]
+1   : ({ 黑风妖将, 6203, 妖王爪牙 })
+2   : ({ 巨蛮妖将, 6207, 妖王爪牙 })
+3   : ({ 狂野妖将, 6208, 妖王爪牙 })
+4   : ({ 狂狮妖将, 6209, 妖王爪牙 })
+5   : ({ 毒刺妖将, 6210, 妖王爪牙 })
+妖王爪牙 : ({ 6140, 6141, 6147, 6148, 6149, 6150, 6151, 6152 })
+NPC1 : ({ 161, 109, 7, 570 })
+NPC2 : ({ 126, 105, 7, 540 })
+back : ({ 387, 106 })
+enter : ({ 163, 113 })
+
+[monster_list]
+monster$ : 妖王爪牙
+monster$ : 黑风妖将的分身
+monster$ : 巨蛮妖将的分身
+monster$ : 狂野妖将的分身
+monster$ : 狂狮妖将的分身
+monster$ : 毒刺妖将的分身
+
+[妖王爪牙]
+name                : 妖王爪牙
+polar               : -1
+life_effect         : 1000
+mag_effect          : 0
+phy_effect          : 0
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 0
+resist_confusion    : 0
+resist_frozen       : 0
+resist_poison       : 0
+resist_sleep        : 0
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+
+[黑风妖将的分身]
+name                : 黑风妖将的分身
+polar               : -1
+life_effect         : 2000
+mag_effect          : 30
+phy_effect          : 30
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 10
+resist_confusion    : 10
+resist_frozen       : 10
+resist_poison       : 10
+resist_sleep        : 10
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+fenshen             : 1
+
+[巨蛮妖将的分身 ]
+name                : 巨蛮妖将的分身
+polar               : -1
+life_effect         : 2000
+mag_effect          : 30
+phy_effect          : 30
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 10
+resist_confusion    : 10
+resist_frozen       : 10
+resist_poison       : 10
+resist_sleep        : 10
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+fenshen             : 1
+
+[狂野妖将的分身]
+name                : 狂野妖将的分身
+polar               : -1
+life_effect         : 2000
+mag_effect          : 30
+phy_effect          : 30
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 10
+resist_confusion    : 10
+resist_frozen       : 10
+resist_poison       : 10
+resist_sleep        : 10
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+fenshen             : 1
+
+[狂狮妖将的分身]
+name                : 狂狮妖将的分身
+polar               : -1
+life_effect         : 2000
+mag_effect          : 30
+phy_effect          : 30
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 10
+resist_confusion    : 10
+resist_frozen       : 10
+resist_poison       : 10
+resist_sleep        : 10
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+fenshen             : 1
+
+[毒刺妖将的分身]
+name                : 毒刺妖将的分身
+polar               : -1
+life_effect         : 2000
+mag_effect          : 30
+phy_effect          : 30
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 10
+resist_confusion    : 10
+resist_frozen       : 10
+resist_poison       : 10
+resist_sleep        : 10
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+fenshen             : 1
+
+[stage_bonus]
+bonus_list$ : 百花酿
+bonus_list$ : 紫金丹
+bonus_list$ : 百灵丹
+bonus_list$ : 九圣散
+bonus_list$ : 如意战斗令
+
+[百花酿]
+rate   : 1500
+name   : 百花酿
+bonus$ : ({ 0, 0, 100, "百花酿", 10, 10 })
+
+[紫金丹]
+rate   : 1500
+name   : 紫金丹
+bonus$ : ({ 0, 0, 100, "紫金丹", 10, 10 })
+
+[百灵丹]
+rate   : 1500
+name   : 百灵丹
+bonus$ : ({ 0, 0, 100, "百灵丹", 10, 10 })
+
+[九圣散]
+rate   : 1500
+name   : 九圣散
+bonus$ : ({ 0, 0, 100, "九圣散", 10, 10 })
+
+[如意战斗令]
+rate   : 300
+name   : 如意战斗令
+bonus$ : ({ 0, 0, 100, "如意战斗令", 1, 1 })
+rumor  : 1

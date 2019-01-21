@@ -1,0 +1,184 @@
+#FORM2
+
+[龙宫侍卫]
+name             : 龙宫侍卫
+icon             : 06163
+level            : 85
+portrait         : 06163
+polar            : 3
+religion         : -1
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 50
+resist_fire      : 20
+resist_earth     : 0
+life_effect      : 1000
+phy_effect       : 100
+mag_effect       : 250
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : 80
+resist_poison    : 80
+resist_frozen    : 80
+resist_sleep     : 60
+resist_confusion : 80
+resist_repress   : 80
+resist_melt      : 80
+resist_cage      : 80
+resist_lock      : 60
+resist_lost      : 80
+skills           : ({ "B3", "B4" })
+monster_tactics  : "tactics_longgong_shiwei"
+
+[龙宫守卫]
+name             : 龙宫守卫
+icon             : 06164
+level            : 85
+portrait         : 06164
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 20
+resist_fire      : 20
+resist_earth     : 20
+life_effect      : 1000
+phy_effect       : 250
+mag_effect       : 0
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : 80
+resist_poison    : 80
+resist_frozen    : 80
+resist_sleep     : 60
+resist_confusion : 80
+resist_repress   : 80
+resist_melt      : 80
+resist_cage      : 80
+resist_lock      : 60
+resist_lost      : 80
+double_hit_rate  : 100
+double_hit       : 3
+damage_sel_rate  : 100
+damage_sel       : 50
+monster_tactics  : "tactics_longgong_shouwei"
+
+[龙王]
+name             : 龙王
+icon             : 6079
+level            : 90
+polar            : 3
+religion         : -1
+portrait         : 6079
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 50
+resist_fire      : 20
+resist_earth     : 0
+life_effect      : 6000
+phy_effect       : 250
+mag_effect       : 250
+speed_effect     : 0
+tao_effect       : 300
+resist_forgotten : 100
+resist_poison    : 100
+resist_frozen    : 120
+resist_sleep     : 80
+resist_confusion : 100
+resist_repress   : 100
+resist_melt      : 100
+resist_cage      : 120
+resist_lock      : 80
+resist_lost      : 100
+phy_absorb       : 0
+mag_absorb       : 0
+skills           : ({ "B3", "B4", "C3"})
+monster_tactics  : "tactics_longwang"
+
+[龙女侍女]
+name             : 龙女侍女
+icon             : 06175
+level            : 90
+polar            : 3
+religion         : -1
+portrait         : 06175
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 50
+resist_fire      : 20
+resist_earth     : 0
+life_effect      : 1200
+phy_effect       : 100
+mag_effect       : 250
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : 80
+resist_poison    : 80
+resist_frozen    : 80
+resist_sleep     : 60
+resist_confusion : 80
+resist_repress   : 80
+resist_melt      : 80
+resist_cage      : 80
+resist_lock      : 60
+resist_lost      : 80
+skills           : ({ "B3", "B4"})
+monster_tactics  : "tactics_longnv_shinv"
+
+[龙王侍卫]
+name             : 龙王侍卫
+icon             : 06129
+level            : 90
+portrait         : 06129
+resist_metal     : 20
+resist_wood      : 20
+resist_water     : 20
+resist_fire      : 20
+resist_earth     : 20
+life_effect      : 1200
+phy_effect       : 250
+mag_effect       : 0
+speed_effect     : 0
+tao_effect       : 0
+resist_forgotten : 80
+resist_poison    : 80
+resist_frozen    : 80
+resist_sleep     : 60
+resist_confusion : 80
+resist_repress   : 80
+resist_melt      : 80
+resist_cage      : 80
+resist_lock      : 60
+resist_lost      : 80
+double_hit_rate  : 100
+double_hit       : 3
+damage_sel_rate  : 100
+damage_sel       : 50
+monster_tactics  : "tactics_longwang_shiwei"
+
+[玩家真身]
+name             : 玩家真身
+level            : 130
+resist_metal     : 80
+resist_wood      : 80
+resist_water     : 80
+resist_fire      : 80
+resist_earth     : 80
+mag_effect       : 250
+speed_effect     : 500
+tao_effect       : 5000
+phy_absorb       : -100
+mag_absorb       : -100
+monster_tactics  : "tactics_wanjiazhenshen"
+
+[宠物真身]
+name             : 宠物真身
+resist_metal     : 80
+resist_wood      : 80
+resist_water     : 80
+resist_fire      : 80
+resist_earth     : 80
+mag_effect       : 250
+speed_effect     : 500
+tao_effect       : 30000
+phy_absorb       : -95
+mag_absorb       : -95
+monster_tactics  : "tactics_wanjiazhenshen"

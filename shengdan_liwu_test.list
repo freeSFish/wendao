@@ -1,0 +1,31 @@
+#FORM2
+# 修改活动时间时要注意修改during_task1和during_task2广播的时间
+
+[setting]
+start_time       : "2014-12-01-00:00:00"
+end_time         : "2014-12-05-23:59:59"
+bonus_start_time : "2014-12-04-00:00:00"
+
+[broadcast_setting]
+broadcast_list : ({ "end_task", "during_task1", "during_task2" })
+
+[during_task1]
+broadcast_start : "start_time(+1800)"
+interval        : 3600
+broadcast_end   : "end_time(-86401)"
+message         : "听闻#P活动大使#P将在圣诞平安夜凌晨过后向各位道友们发放#R圣诞礼物#n，活动期间有帮助活动大使#R修补雪人#n的道友们将会获得活动大使的感谢，#R感谢度#n越高获得道具奖励的几率越高，如果#R感谢度#n达到了#R600#n将有几率获得一个#R神兽精魄#n或#R变异精魄#n。大家敬请期待吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task2]
+broadcast_start : "end_time(-84599)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#P活动大使#P正在发放#R圣诞礼物#n，还没领取的道友们赶紧去领取吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "圣诞节活动到此结束了，#P活动大使#P的#R圣诞礼物#n也发完了，众道友们敬请期待明年圣诞节的到来吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

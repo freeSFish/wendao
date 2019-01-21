@@ -1,0 +1,22 @@
+#FORM2
+
+[time]
+start_time : "2016-01-29-00:00:00"
+end_time   : "2016-02-14-23:59:59"
+
+[broadcast_setting]
+broadcast_list: ({ "broadcast_1", "broadcast_2" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time"
+message         : "值此新年之际，#Y颛顼#n给全中洲玩家送福啦！到#R揽仙镇#n、#R东海渔村#n、#R无名小镇#n找到迷路的生肖吉羊，帮助他们返回天庭，#Y颛顼#n将会赏赐给你丰厚的奖励！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast_2]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "值此新年之际，#Y颛顼#n给全中洲玩家送福啦！迷路的生肖吉羊已经顺利返回天庭了，谢谢中洲道友的帮助！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

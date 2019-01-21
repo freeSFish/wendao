@@ -1,0 +1,127 @@
+#FORM2
+#monsters--monster name : monster num
+#place--room list : the rooms where monster placed
+#data time--the task time info
+#before_game--start time of the broadcast before task begin
+#before_interval--the frequence of the broadcast before task begin
+#duration_game--start time of the broadcast during task process
+#duration_interval--the frequence of the broadcast during task process
+#duration--the task duration
+#odd--the date is odd number
+#even--the date is even number
+#pet_bonus--pet name list
+
+[ªÓ∂Ø ±º‰]
+time_list$ : ({ "2009-11-11-13:00:00", "EVERY_MIN(50)", "EVERY_DAY(1)" })
+time_list$ : ({ "2009-11-11-17:00:00", "EVERY_MIN(50)", "EVERY_DAY(1)" })
+time_list$ : ({ "2009-11-11-21:00:00", "EVERY_MIN(50)", "EVERY_DAY(1)" })
+
+[data_time]
+before_game : 300
+before_interval : 60
+duration_s1 : 600
+duration_game_s1 : 1200
+duration_interval_s1 : 120
+
+[monster_info_s1]
+Ω≈£ : 40
+
+[monster_info_s2]
+“∞≈£π÷ : 1
+
+[charge_pet]
+name : ({ "±ø±ø≈£0", "±ø±ø≈£1", "±ø±ø≈£2" })
+num  : 1
+
+[place]
+room_list : ({ "¿øœ…’ÚÕ‚", "Œ‘¡˙∆¬", "πŸµ¿ƒœ", "πŸµ¿±±", "Ã“¡¯¡÷", "±±∫£…≥Ã≤" })
+
+[Ω≈£]
+polar            : ({ 1, 2, 4, 5 })
+name             : "Ω≈£"
+icon             : 6180
+portrait         : 6180
+tao_effect       : 0
+life_effect      : 400
+speed_effect     : 40
+phy_absorb       : 20
+mag_absorb       : 80
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 20
+double_hit       : 4
+counter_attack_rate : 30
+counter_attack   : 12
+resist_forgotten : 40
+resist_poison    : 0
+resist_frozen    : 40
+resist_sleep     : 40
+resist_confusion : 40
+skills           : ({ "B2", 16, "B4", 16, "C2", 16, "C4", 16 })
+tractics         : "jinzhu_tactics"
+
+[–°“∞≈£]
+polar            : -1
+name             : "–°“∞≈£"
+icon             : 6198
+portrait         : 6198
+tao_effect       : 0
+life_effect      : 50
+speed_effect     : 10
+phy_absorb       : 0
+mag_absorb       : 0
+mag_effect       : 0
+phy_effect       : 60
+double_hit_rate  : 20
+double_hit       : 4
+counter_attack_rate : 50
+counter_attack   : 3
+tractics         : "zhuzai_tactics"
+
+[“∞≈£π÷]
+polar            : ({ 1, 2, 4, 5 })
+name             : "“∞≈£π÷"
+icon             : 6147
+portrait         : 6147
+tao_effect       : 100
+life_effect      : 400
+speed_effect     : 60
+phy_absorb       : -20
+mag_absorb       : -20
+mag_effect       : 100
+phy_effect       : 100
+resist_forgotten : 40
+resist_poison    : 40
+resist_frozen    : 40
+resist_sleep     : 40
+resist_confusion : 40
+double_hit_rate  : 40
+double_hit       : 8
+counter_attack_rate : 60
+counter_attack   : 12
+skills           : ({ "B2", 16, "B4", 16 })
+tractics         : "yezhujing_tactics"
+
+[Ω≈£1]
+polar            : ({ 1, 2, 4, 5 })
+name             : "Ω≈£"
+icon             : 6180
+portrait         : 6180
+tao_effect       : 0
+life_effect      : 400
+speed_effect     : 40
+phy_absorb       : 20
+mag_absorb       : 80
+mag_effect       : 50
+phy_effect       : 50
+double_hit_rate  : 20
+double_hit       : 4
+counter_attack_rate : 30
+counter_attack   : 12
+resist_forgotten : 40
+resist_poison    : 0
+resist_frozen    : 40
+resist_sleep     : 40
+resist_confusion : 40
+skills           : ({ "B2", 16, "B4", 16, "C2", 16, "C4", 16 })
+tractics         : "jinzhu_tactics"

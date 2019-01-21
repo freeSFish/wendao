@@ -1,0 +1,36 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-11-22-10:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2012-11-22-11:00:00" })
+time_list$ : ({ "2012-11-22-13:30:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2012-11-22-14:30:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "start_task", "dur_task", "end_task" })
+
+[before_task]
+broadcast_start : "start_time(-300)"
+interval        : 60
+broadcast_end   : "start_time(-30)"
+message         : "#R【活动】寻找九子#n马上要开始啦#41m，大家准备好去找调皮的龙生九子哟!"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 30
+broadcast_end   : "start_time(+10)"
+message         : "#R【活动】寻找九子#n活动开始啦#64m，快去#Z天墉城#Z找龙生九子吧!（#R40级#n以上玩家均可参与哦！）"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[dur_task]
+broadcast_start : "start_time(+300)"
+interval        : 600
+broadcast_end   : "end_time(-100)"
+message         : "调皮的龙生九子宠偷跑到#Z天墉城#Z来玩耍，老龙王十分生气!大家快帮忙老龙王找到他们吧，老龙王一高兴没准还能赏赐些珍贵的宝贝给大家哦!（#R40级#n以上玩家均可参与哦！）"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 30
+broadcast_end   : "end_time(+10)"
+message         : "九子们担心受到老龙王的责骂，纷纷回龙宫去了，#R【活动】寻找九子#n活动结束了！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

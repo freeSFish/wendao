@@ -1,0 +1,337 @@
+#FORM2
+#party_upgrade_item.list
+
+#name    : 名称
+#level   : 等级
+#color   : 颜色
+#contrib : 购买需花费的帮贡
+
+[6级金色精铁]
+name: 精铁
+level: 6
+color: 金色
+contrib: 150
+
+[6级金色水铜]
+name: 水铜
+level: 6
+color: 金色
+contrib: 150
+
+[6级金色麟木]
+name: 麟木
+level: 6
+color: 金色
+contrib: 150
+
+[6级金色玄石]
+name: 玄石
+level: 6
+color: 金色
+contrib: 150
+
+[6级金色炎石]
+name: 炎石
+level: 6
+color: 金色
+contrib: 150
+
+[7级金色精铁]
+name: 精铁
+level: 7
+color: 金色
+contrib: 200
+
+[7级金色水铜]
+name: 水铜
+level: 7
+color: 金色
+contrib: 200
+
+[7级金色麟木]
+name: 麟木
+level: 7
+color: 金色
+contrib: 200
+
+[7级金色玄石]
+name: 玄石
+level: 7
+color: 金色
+contrib: 200
+
+[7级金色炎石]
+name: 炎石
+level: 7
+color: 金色
+contrib: 200
+
+[8级金色精铁]
+name: 精铁
+level: 8
+color: 金色
+contrib: 250
+
+[8级金色水铜]
+name: 水铜
+level: 8
+color: 金色
+contrib: 250
+
+[8级金色麟木]
+name: 麟木
+level: 8
+color: 金色
+contrib: 250
+
+[8级金色玄石]
+name: 玄石
+level: 8
+color: 金色
+contrib: 250
+
+[8级金色炎石]
+name: 炎石
+level: 8
+color: 金色
+contrib: 250
+
+[9级金色精铁]
+name: 精铁
+level: 9
+color: 金色
+contrib: 250
+
+[9级金色水铜]
+name: 水铜
+level: 9
+color: 金色
+contrib: 250
+
+[9级金色麟木]
+name: 麟木
+level: 9
+color: 金色
+contrib: 250
+
+[9级金色玄石]
+name: 玄石
+level: 9
+color: 金色
+contrib: 250
+
+[9级金色炎石]
+name: 炎石
+level: 9
+color: 金色
+contrib: 250
+
+[10级金色精铁]
+name: 精铁
+level: 10
+color: 金色
+contrib: 300
+
+[10级金色水铜]
+name: 水铜
+level: 10
+color: 金色
+contrib: 300
+
+[10级金色麟木]
+name: 麟木
+level: 10
+color: 金色
+contrib: 300
+
+[10级金色玄石]
+name: 玄石
+level: 10
+color: 金色
+contrib: 300
+
+[10级金色炎石]
+name: 炎石
+level: 10
+color: 金色
+contrib: 300
+
+[11级金色精铁]
+name: 精铁
+level: 11
+color: 金色
+contrib: 350
+
+[11级金色水铜]
+name: 水铜
+level: 11
+color: 金色
+contrib: 350
+
+[11级金色麟木]
+name: 麟木
+level: 11
+color: 金色
+contrib: 350
+
+[11级金色玄石]
+name: 玄石
+level: 11
+color: 金色
+contrib: 350
+
+[11级金色炎石]
+name: 炎石
+level: 11
+color: 金色
+contrib: 350
+
+[12级金色精铁]
+name: 精铁
+level: 12
+color: 金色
+contrib: 350
+
+[12级金色水铜]
+name: 水铜
+level: 12
+color: 金色
+contrib: 350
+
+[12级金色麟木]
+name: 麟木
+level: 12
+color: 金色
+contrib: 350
+
+[12级金色玄石]
+name: 玄石
+level: 12
+color: 金色
+contrib: 350
+
+[12级金色炎石]
+name: 炎石
+level: 12
+color: 金色
+contrib: 350
+
+[13级金色精铁]
+name: 精铁
+level: 13
+color: 金色
+contrib: 400
+
+[13级金色水铜]
+name: 水铜
+level: 13
+color: 金色
+contrib: 400
+
+[13级金色麟木]
+name: 麟木
+level: 13
+color: 金色
+contrib: 400
+
+[13级金色玄石]
+name: 玄石
+level: 13
+color: 金色
+contrib: 400
+
+[13级金色炎石]
+name: 炎石
+level: 13
+color: 金色
+contrib: 400
+
+[14级金色精铁]
+name: 精铁
+level: 14
+color: 金色
+contrib: 450
+
+[14级金色水铜]
+name: 水铜
+level: 14
+color: 金色
+contrib: 450
+
+[14级金色麟木]
+name: 麟木
+level: 14
+color: 金色
+contrib: 450
+
+[14级金色玄石]
+name: 玄石
+level: 14
+color: 金色
+contrib: 450
+
+[14级金色炎石]
+name: 炎石
+level: 14
+color: 金色
+contrib: 450
+
+[15级金色精铁]
+name: 精铁
+level: 15
+color: 金色
+contrib: 500
+
+[15级金色水铜]
+name: 水铜
+level: 15
+color: 金色
+contrib: 500
+
+[15级金色麟木]
+name: 麟木
+level: 15
+color: 金色
+contrib: 500
+
+[15级金色玄石]
+name: 玄石
+level: 15
+color: 金色
+contrib: 500
+
+[15级金色炎石]
+name: 炎石
+level: 15
+color: 金色
+contrib: 500
+
+[16级金色精铁]
+name: 精铁
+level: 16
+color: 金色
+contrib: 550
+
+[16级金色水铜]
+name: 水铜
+level: 16
+color: 金色
+contrib: 550
+
+[16级金色麟木]
+name: 麟木
+level: 16
+color: 金色
+contrib: 550
+
+[16级金色玄石]
+name: 玄石
+level: 16
+color: 金色
+contrib: 550
+
+[16级金色炎石]
+name: 炎石
+level: 16
+color: 金色
+contrib: 550

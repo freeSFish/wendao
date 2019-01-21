@@ -1,0 +1,178 @@
+#FORM2
+
+[setting]
+start_time: "2011-04-01-00:00:00"
+end_time  : "2011-04-15-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "end_task_1" })
+
+[end_task_1]
+broadcast_start : "end_time(-86400)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R幸运大猜奖活动#n将于#REND_TIME#n结束，活动结束后，无法兑换奖励，请大家做好准备！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+//-------exchange_item-------
+[001]
+type : 道具
+name : 易经洗髓丹
+quota : 10
+score : 216
+
+[002]
+type : 道具
+name : 喇叭
+quota : 10
+score : 328
+
+[003]
+type : 道具
+name : 高级驯兽诀
+quota : 10
+score : 800
+
+[004]
+type : 道具
+name : 灵池
+quota : 10
+score : 328
+
+[005]
+type : 道具
+name : 高级血池
+quota : 10
+score : 800
+
+[006]
+type : 道具
+name : 高级灵池
+quota : 10
+score : 2400
+
+[007]
+type : 道具
+name : 血玲珑
+quota : 10
+score : 216
+
+[008]
+type : 道具
+name : 法玲珑
+quota : 10
+score : 618
+
+[009]
+type : 道具
+name : 高级血玲珑
+quota : 10
+score : 800
+
+[010]
+type : 道具
+name : 高级法玲珑
+quota : 10
+score : 2400
+
+[011]
+type : 道具
+name : 特效仙风散
+quota : 10
+score : 328
+
+[012]
+type : 道具
+name : 宠风散
+quota : 10
+score : 216
+
+[013]
+type : 道具
+name : 特级八卦阴阳令
+quota : 10
+score : 328
+
+[014]
+type : 道具
+name : 经营许可证
+quota : 10
+score : 518
+
+[015]
+type : 道具
+name : 金蝉脱壳
+quota : 10
+score : 518
+
+[016]
+type : 道具
+name : 天神护佑
+quota : 10
+score : 518
+
+[017]
+type : 道具
+name : 道具套餐卡
+quota : 10
+score : 2800
+
+[018]
+type : 道具
+name : 高级道具套餐卡
+quota : 10
+score : 8000
+
+[019]
+type : 道具
+name : 天换石
+quota : 10
+score : 328
+
+[020]
+type : 道具
+name : 神木鼎
+quota : 10
+score : 328
+
+[021]
+type : 道具
+name : 惊妖铃
+quota : 10
+score : 328
+
+[022]
+type : 道具
+name : 急急如律令
+quota : 10
+score : 328
+
+[023]
+type : 道具
+name : 飞行符
+quota : 10
+score : 216
+
+[024]
+type : 道具
+name : 引路蜂
+quota : 10
+score : 328
+
+[025]
+type : 道具
+name : 超级女娲石
+quota : 10
+score : 1000
+
+[026]
+type : 道具
+name : 果仁糖葫芦
+quota : 10
+score : 216
+
+[027]
+type : 道具
+name : 纸鸢
+quota : 10
+score : 216

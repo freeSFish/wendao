@@ -1,0 +1,24 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-11-05-15:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2015-11-08-23:59:59" })
+start_time : "2015-11-05-00:00:00"
+end_time   : "2015-11-08-23:59:59"
+version    : 1
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "during_task" })
+
+[before_task]
+broadcast_start : "start_time(-72000)"
+interval        : 3600
+broadcast_end   : "start_time(-600)"
+message         : "#R铭牌乱斗场#n活动将于#RSTART_TIME#n开启，60级及以上玩家参与该活动将获得丰厚的经验、道行奖励，收服元魄的玩家可获得各种#R商城道具#n奖励，届时请去#Z天墉城#Z找#P活动大使#P参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 1200
+broadcast_end   : "start_time(7000)"
+message         : "#R铭牌乱斗场#n活动正在进行中，众多道友正在场内激烈对抗，大家快去找#Z天墉城#Z的#P活动大使#P参加吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

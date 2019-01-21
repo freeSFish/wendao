@@ -1,0 +1,6 @@
+#FORM2
+#mini_client.list
+#created by shuxx Jul/11/2009
+
+[max_mini]
+map_id : ({ 1000, 1001, 1002, 1003, 1004, 1005, 1006, 2000 })

@@ -1,0 +1,17 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2015-01-12-00:00:00", "EVERY_DAY(9)", 0, "2015-01-20-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "during_task1" })
+
+[during_task1]
+broadcast_start : "start_time"
+interval        : 7200
+broadcast_end   : "end_time(-10)"
+message         : "中洲勇士全民皆兵，共御强敌！快到#P活动大使#P处参与#Y团队训练#n，提升我们的战斗力！"
+sender          : "夏总兵"
+cycle_times     : 3
+cycle_interval  : 10
+channel         : "CHANNEL_HORN | CHANNEL_NO_BROADCAST"

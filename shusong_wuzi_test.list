@@ -1,0 +1,15 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2011-04-10-10:00:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2011-04-10-11:00:00" })
+time_list$ : ({ "2011-04-10-13:30:00", "EVERY_HOUR(1)", "EVERY_WEEK(1)", "2011-04-10-14:30:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "before_task" })
+
+[before_task]
+broadcast_start : "start_time(-3600)"
+interval        : 180
+broadcast_end   : "start_time"
+message         : "近来妖魔活动猖獗，#P李总兵#P命各地加紧守卫，为了中洲的安宁，号召天下道友共御强敌，赶快到#P李总兵#P处看看有什么能帮忙的吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

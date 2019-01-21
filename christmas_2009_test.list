@@ -1,0 +1,479 @@
+#FORM2
+
+# setting中begin_time表示刷新圣诞活动大使的时间及所有活动开始前三小时
+# setting中end_time表示整个活动结束的时间
+
+[活动时间]
+time_list$ : ({ "2009-12-24-22:00:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2009-12-25-18:00:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2009-12-26-18:00:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2009-12-27-18:00:00", "EVERY_HOUR(2)", 0 })
+
+[setting]
+begin_time: "2009-12-24-19:00:00"
+end_time: "2009-12-27-20:00:00"
+vanish_after_game: 10800
+map_info: ({ "官道南", "卧龙坡", "风月谷" })
+pet_info: ({ "伶俐鼠0", "伶俐鼠1", "伶俐鼠2" })
+pet_num : 1
+pet_name: "伶俐鼠"
+圣诞驯鹿: ({ "圣诞驯鹿", 1, 30 })
+捣乱的强盗: ({ "捣乱的强盗", 2, 30 })
+挂满礼物的圣诞树: ({ "挂满礼物的圣诞树", 6106, 20 })
+npc_ambassador$: ({ "圣诞活动大使", 6011, "官道南", 117, 181, SOUTHEAST })
+npc_ambassador$: ({ "圣诞活动大使", 6011, "卧龙坡", 58, 120, SOUTHWEST })
+npc_ambassador$: ({ "圣诞活动大使", 6011, "风月谷", 116, 55, SOUTHEAST })
+npc_snowman$: ({ "圣诞雪人王", 06154, "官道南", 134, 188, SOUTHEAST })
+npc_snowman$: ({ "圣诞雪人王", 06154, "卧龙坡", 102, 120, SOUTHEAST })
+npc_snowman$: ({ "圣诞雪人王", 06154, "风月谷", 85, 97, SOUTHEAST })
+time_answer: "本次圣诞节活动会在#R2009-12-24#n晚上#R22：00#n至#R24：00#n以及#R2009-12-25#n至#R2009-12-27#n每天#R18：00#n至#R20：00#n举行，别忘了参加哦！"
+
+[游戏启动前]
+启动前定时时刻$: 10800
+启动前定时时刻$: 9600
+启动前定时时刻$: 8400
+启动前定时时刻$: 7200
+启动前定时时刻$: 6000
+启动前定时时刻$: 4800
+启动前定时时刻$: 3600
+启动前定时时刻$: 2400
+启动前定时时刻$: 1200
+广播频道       : CHANNEL_SYSTEM
+广播内容       : "圣诞佳节，普天同庆！#R今天#R%s-%s#n期间大家可以到#Z官道南#Z、#Z卧龙坡#Z、#Z风月谷#Z参加五彩缤纷的圣诞活动、领取宝藏任务、许下圣诞愿望，还有机会获得#Y%s#n的奖励哦！"
+
+[游戏开始时]
+广播频道      :  CHANNEL_SYSTEM
+广播内容      : "圣诞节活动开始了！大家可以到#Z官道南#Z、#Z卧龙坡#Z、#Z风月谷#Z参加丰富多彩的圣诞活动，还有机会得到珍贵的#Y%s#n奖励哦！"
+
+[游戏进行中]
+定时广播首时间:  600
+定时广播间隔  :  600
+广播频道      :  CHANNEL_SYSTEM
+广播内容      : "圣诞节活动正在火热地进行中，大家可以到#Z官道南#Z、#Z卧龙坡#Z、#Z风月谷#Z参加，赢取丰厚奖励，还有机会得到珍贵的#Y%s#n奖励哦！"
+
+[雪人王出现]
+雪人王出现时间:  3600
+广播频道      :  CHANNEL_SYSTEM
+广播内容      : "强大的圣诞雪人王已经在#Z官道南（134，188）#Z、#Z卧龙坡（102，120）#Z及#Z风月谷（85，97）#Z出现了，打败他会获得丰厚的奖励！"
+
+[游戏结束时]
+广播频道      :  CHANNEL_SYSTEM
+广播内容      :  "圣诞节活动已经结束了，感谢大家的参与。如果您已经在#Y圣诞活动大使#n处许下了圣诞愿望，现在还可以领取一份礼物哦！"
+
+[snowman_bonus]
+bonus_list$: 易经洗髓丹
+bonus_list$: 五行合缘露
+bonus_list$: 天神护佑
+bonus_list$: 离线摆摊卡
+bonus_list$: 火眼金睛
+bonus_list$: 金蝉脱壳
+bonus_list$: 仙灵卡
+bonus_list$: 驯兽诀
+bonus_list$: 特效仙风散
+bonus_list$: 宠风散
+bonus_list$: 惊妖铃
+bonus_list$: 急急如律令
+bonus_list$: 引路蜂
+bonus_list$: 超级女娲石
+
+[tree_bonus]
+bonus_list$: 月饼
+bonus_list$: 百灵丹
+bonus_list$: 九圣散
+bonus_list$: 紫金丹
+bonus_list$: 百花酿
+bonus_list$: 圈圈包
+bonus_list$: 藏宝箱
+bonus_list$: 圣诞好运符
+bonus_list$: 藏宝图
+bonus_list$: 高级藏宝图
+
+[lucky_bonus]
+bonus_list$: 经验1
+bonus_list$: 道行1
+bonus_list$: 经验2
+bonus_list$: 道行2
+bonus_list$: 特效仙风散1
+bonus_list$: 如意战斗令
+bonus_list$: 宠风散1
+
+[月饼]
+type : "tree"
+rate : 1
+name: 月饼
+bonus$: ({ 0, 0, 100, "月饼", 1, 1 })
+
+[百灵丹]
+type : "tree"
+rate : 1
+name: 百灵丹
+bonus$: ({ 0, 0, 100, "百灵丹", 2, 2 })
+
+[九圣散]
+type : "tree"
+rate : 1
+name: 九圣散
+bonus$: ({ 0, 0, 100, "九圣散", 2, 2 })
+
+[紫金丹]
+type : "tree"
+rate : 1
+name: 紫金丹
+bonus$: ({ 0, 0, 100, "紫金丹", 2, 2 })
+
+[百花酿]
+type : "tree"
+rate : 1
+name: 百花酿
+bonus$: ({ 0, 0, 100, "百花酿", 2, 2 })
+
+[圈圈包]
+type : "tree"
+rate : 1
+name: 圈圈包
+bonus$: ({ 0, 0, 100, "圈圈包", 1, 1 })
+
+[藏宝箱]
+type : "tree"
+rate : 1
+name: 藏宝箱
+bonus$: ({ 0, 0, 100, "藏宝箱", 1, 1 })
+
+[圣诞好运符]
+type : "tree"
+rate : 1
+name: 圣诞好运符
+bonus$: ({ 0, 0, 100, "圣诞好运符", 1, 1 })
+
+[藏宝图]
+type : "tree"
+rate : 1
+name: 藏宝图
+bonus$: ({ 0, 0, 100, "藏宝图", 1, 1 })
+
+[高级藏宝图]
+type : "tree"
+rate : 1
+name: 高级藏宝图
+bonus$: ({ 0, 0, 100, "高级藏宝图", 1, 1 })
+
+[易经洗髓丹]
+type : "snowman"
+rate : 300
+name: 易经洗髓丹
+gift: 1
+bonus$: ({ 0, 0, 100, "易经洗髓丹#赠品", 1, 1 })
+
+[五行合缘露]
+type : "snowman"
+rate : 300
+name: 五行合缘露
+gift: 1
+bonus$: ({ 0, 0, 100, "五行合缘露#赠品", 1, 1 })
+
+[天神护佑]
+type : "snowman"
+rate : 200
+name: 天神护佑
+gift: 1
+bonus$: ({ 0, 0, 100, "天神护佑#赠品", 1, 1 })
+
+[离线摆摊卡]
+type : "snowman"
+rate : 200
+name: 离线摆摊卡
+gift: 1
+bonus$: ({ 0, 0, 100, "离线摆摊卡#赠品", 1, 1 })
+
+[火眼金睛]
+type : "snowman"
+rate : 200
+name: 火眼金睛
+gift: 1
+bonus$: ({ 0, 0, 100, "火眼金睛#赠品", 1, 1 })
+
+[金蝉脱壳]
+type : "snowman"
+rate : 200
+name: 金蝉脱壳
+gift: 1
+bonus$: ({ 0, 0, 100, "金蝉脱壳#赠品", 1, 1 })
+
+[仙灵卡]
+type : "snowman"
+rate : 200
+name: 仙灵卡
+gift: 1
+bonus$: ({ 0, 0, 100, "仙灵卡#赠品", 1, 1 })
+
+[驯兽诀]
+type : "snowman"
+rate : 200
+name: 驯兽诀
+gift: 1
+bonus$: ({ 0, 0, 100, "驯兽诀#赠品", 1, 1 })
+
+[特效仙风散]
+type : "snowman"
+rate : 100
+name: 特效仙风散
+gift: 1
+bonus$: ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+
+[宠风散]
+type : "snowman"
+rate : 100
+name: 宠风散
+gift: 1
+bonus$: ({ 0, 0, 100, "宠风散#赠品", 1, 1 })
+
+[惊妖铃]
+type : "snowman"
+rate : 100
+name: 惊妖铃
+gift: 1
+bonus$: ({ 0, 0, 100, "惊妖铃#赠品", 1, 1 })
+
+[急急如律令]
+type : "snowman"
+rate : 100
+name: 急急如律令
+gift: 1
+bonus$: ({ 0, 0, 100, "急急如律令#赠品", 1, 1 })
+
+[引路蜂]
+type : "snowman"
+rate : 100
+name: 引路蜂
+gift: 1
+bonus$: ({ 0, 0, 100, "引路蜂#赠品", 1, 1 })
+
+[超级女娲石]
+type: "snowman"
+rate: 5
+name: 超级女娲石
+gift: 0
+bonus$: ({ 0, 0, 100, "超级女娲石", 1, 1 })
+
+[经验1]
+bonus$: ({ 0, 0, 100, "经验", "玩家等级 * 2500" })
+type: "exp"
+rate: 15
+
+[道行1]
+bonus$: ({ 0, 0, 100, "道行", "玩家等级 * 40" })
+type: "tao"
+rate: 15
+
+[经验2]
+bonus$: ({ 0, 0, 100, "经验", "玩家等级 * 5000" })
+type: "exp"
+rate: 3
+
+[道行2]
+bonus$: ({ 0, 0, 100, "道行", "玩家等级 * 80" })
+type: "tao"
+rate: 3
+
+[特效仙风散1]
+type: "item"
+rate: 1
+name: 特效仙风散
+gift: 1
+bonus$: ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+
+[如意战斗令]
+type: "item"
+rate: 1
+name: 如意战斗令
+gift: 1
+bonus$: ({ 0, 0, 100, "如意战斗令#赠品", 1, 1 })
+
+[宠风散1]
+type: "item"
+rate: 1
+name: 宠风散
+gift: 1
+bonus$: ({ 0, 0, 100, "宠风散#赠品", 1, 1 })
+
+[圣诞驯鹿1]
+name: "圣诞驯鹿"
+mag_effect: -99
+mag_absorb: -100
+speed_effect: 500
+skills: ({ "B3", "B4", "B5" })
+null_rate: 50
+mag_rate: 100
+b4_rate: 60
+monster_tactics: "template_monster"
+
+[圣诞驯鹿2]
+name: "圣诞驯鹿"
+mag_effect: -99
+speed_effect: 500
+life: 100
+max_life: 100
+skills: ({ "B3", "B4", "B5" })
+null_rate: 20
+mag_rate: 100
+b4_rate: 60
+monster_tactics: "template_monster"
+
+[被捕获的驯鹿]
+name: "被捕获的驯鹿"
+life: 100
+max_life: 100
+speed_effect: 500
+null_rate: 100
+monster_tactics: "template_monster"
+
+[捣乱的强盗]
+name: "捣乱的强盗"
+life_effect: 600
+phy_effect: 100
+mag_effect: 120
+speed_effect: 40
+tao_effect: 50
+resist_forgotten: 25
+resist_poison   : 25
+resist_frozen   : 25
+resist_sleep    : 25
+resist_confusion: 25
+stunt_rate: 30
+mag_rate: 50
+b4_rate: 60
+skills: ({ "B3", "B4", "B5" })
+monster_tactics: "template_monster"
+
+[deer_icons]
+icon: ({ 30001, 30002, 30003, 30004, 30005 })
+
+[robber_icons]
+icon: ({ 6201, 6202 })
+
+[treasure_icons]
+#icon: ({ 06261, 06262, 06263, 06264, 06265, 06266, 06267, 06268, 06269, 06270 })
+icon: ({ 6201, 6202 })
+
+[圣诞雪人王]
+name: "圣诞雪人王"
+polar: 1
+icon: 06154
+life_effect: 3000
+phy_effect: 200
+mag_effect: 300
+stunt_rate: 30
+speed_effect: 200
+tao_effect: 1000
+resist_forgotten: 300
+resist_poison   : 300
+resist_frozen   : 300
+resist_sleep    : 300
+resist_confusion: 300
+skills: ({ "B1", "B2", "B3", "B4", "B5" })
+helpers : ({ "冰兽之王", "冰龙之王", "雪狐之王", "雪之女王" })
+artifact: ({ "fantianyin", 18 })
+mag_rate: 100
+b4_rate: 30
+monster_tactics: "template_monster"
+
+[冰兽之王]
+name: "冰兽之王"
+polar: 5
+icon: 06162
+life_effect: 3500
+phy_effect: 350
+mag_effect: 100
+stunt_rate: 50
+speed_effect: -50
+tao_effect: 100
+resist_forgotten: 50
+resist_poison   : 50
+resist_frozen   : 50
+resist_sleep    : 50
+resist_confusion: 50
+skills: ({ "B3", "B4", "B5" })
+artifact: ({ "hunyuanjindou", 12 })
+mag_rate: 0
+b4_rate: 0
+monster_tactics: "template_monster"
+
+[冰龙之王]
+name: "冰龙之王"
+polar: 3
+icon: 06119
+life_effect: 3000
+phy_effect: 100
+mag_effect: 250
+stunt_rate: 30
+speed_effect: 200
+tao_effect: 100
+resist_forgotten: 50
+resist_poison   : 50
+resist_frozen   : 50
+resist_sleep    : 50
+resist_confusion: 50
+skills: ({ "B1", "B2", "B3", "B4", "B5" })
+artifact: ({ "fantianyin", 12 })
+mag_rate: 100
+b4_rate: 60
+monster_tactics: "template_monster"
+
+[雪狐之王]
+name: "雪狐之王"
+polar: 2
+icon: 06271
+life_effect: 5000
+phy_effect: 200
+mag_effect: 250
+stunt_rate: 30
+speed_effect: -50
+tao_effect: 100
+resist_forgotten: 50
+resist_poison   : 50
+resist_frozen   : 50
+resist_sleep    : 50
+resist_confusion: 50
+skills: ({ "B3", "B4", "B5" })
+artifact: ({ "dinghaizhu", 18 })
+mag_rate: 100
+b4_rate: 60
+monster_tactics: "template_monster"
+
+[雪之女王]
+name: "雪之女王"
+polar: 4
+icon: 06173
+life_effect: 1500
+phy_effect: 200
+mag_effect: 200
+stunt_rate: 30
+speed_effect: 500
+tao_effect: 100
+resist_forgotten: 50
+resist_poison   : 50
+resist_frozen   : 50
+resist_sleep    : 50
+resist_confusion: 50
+skills: ({ "B3", "B4", "B5", "D5" })
+artifact: ({ "yinyangjing", 18 })
+mag_rate: 100
+b4_rate: 30
+monster_tactics: "template_queen"
+
+[附身于宝藏的妖魔]
+name: "附身于宝藏的妖魔"
+life_effect: 500
+phy_effect: 150
+mag_effect: 200
+speed_effect: 30
+tao_effect: 30
+resist_forgotten: 25
+resist_poison   : 25
+resist_frozen   : 25
+resist_sleep    : 25
+resist_confusion: 25
+skills: ({ "B3", "B4", "B5" })
+mag_rate: 50
+b4_rate: 60
+monster_tactics: "template_monster"

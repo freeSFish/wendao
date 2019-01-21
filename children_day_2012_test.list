@@ -1,0 +1,50 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-05-27-00:00", "EVERY_DAY(1)", 0, "2012-05-27-23:59" })
+
+[game_npc]
+大妞 : ({ 7015, "天墉城", 337, 208, 2 })
+大武 : ({ 7014, "天墉城", 301, 83, 2 })
+二妞 : ({ 7013, "天墉城", 146, 72, 2 })
+二武 : ({ 7012, "天墉城", 9, 136, 2 })
+小妞 : ({ 7011, "天墉城", 179, 245, 2 })
+小武 : ({ 7010, "天墉城", 232, 218, 2 })
+
+[主怪1]
+mag_absorb     : 20
+tao_effect     : 150
+penetrate_rate : 30
+accurate       : 100
+stunt_rate     : 50
+tactics        : "tactics_zhuguai_1"
+
+[小怪1]
+tao_effect      : 50
+double_hit      : 4
+double_hit_rate : 30
+skills          : ({ "B2", "B4" })
+tactics         : "tactics_xiaoguai_1"
+
+[主怪2]
+penetrate        : 70
+penetrate_rate   : 50
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_forgotten : 300
+resist_confusion : 300
+accurate         : 200
+stunt_rate       : 50
+tactics          : "tactics_zhuguai_2"
+
+[小怪2]
+penetrate        : 70
+penetrate_rate   : 30
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_forgotten : 50
+resist_confusion : 50
+skills          : ({ "B2", "B4" })
+tactics         : "tactics_xiaoguai_2"

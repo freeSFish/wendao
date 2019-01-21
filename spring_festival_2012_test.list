@@ -1,0 +1,22 @@
+#FORM2
+
+[setting]
+start_time       : "2011-12-05-00:00:00"
+end_monster_time : "2011-12-08-18:59:59"
+end_time         : "2011-12-09-23:59:00"
+task_log         : "活动总积分第一名必定获得#R两天技咩咩羊#n，第二名有很大概率获得#R一天技乖乖狗#n，第三名有概率获得#R无天技溜溜马#n。"
+
+[bonus_pet]
+bonus_0 : "牡丹花2",
+bonus_1 : "月见草1",
+bonus_2 : "茉莉0",
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-104400)"
+broadcast_func  : "broadcast_note_sort_msg"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

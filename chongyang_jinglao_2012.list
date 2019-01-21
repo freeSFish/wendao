@@ -1,0 +1,94 @@
+#FORM2
+
+[setting]
+start_time       : "2012-10-20-00:00:00"
+end_time         : "2012-10-23-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "重阳节，农历九月初九，“九九”谐音是“久久”，有长久之意，所以常在此节期间推行敬老活动。众道友可以前往#P活动大使#P处把#R重阳糕#n和#R菊花酒#n赠予指定NPC，同时可以获得意想不到的奖励哦！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[主怪1]
+random_icons      : ({ 6257, 6258, 6259, 6260 })
+name              : 夺礼妖魔
+phy_absorb        : 20
+mag_absorb        : 20
+speed_effect      : 3000
+tao_effect        : 350
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+penetrate_rate    : 40
+penetrate         : 50
+low_l_sk          : ({ "B2", "B4", "B3", "D3" })
+hig_l_sk          : ({ "B2", "B4", "B5", "D5" })
+
+[主怪2]
+random_icons      : ({ 6257, 6258, 6259, 6260 })
+name              : 夺礼妖魔
+phy_absorb        : 20
+mag_absorb        : 20
+speed_effect      : 3000
+tao_effect        : 350
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+penetrate_rate    : 40
+penetrate         : 50
+low_l_sk          : ({ "lipo-qianjun", "D3" })
+hig_l_sk          : ({ "lipo-qianjun", "D5" })
+
+[妖魔爪牙]
+random_icons      : ({ 6204, 6206 })
+name              : 妖魔爪牙
+phy_absorb        : 20
+mag_absorb        : 20
+phy_effect        : 100
+mag_effect        : 80
+speed_effect      : 30
+tao_effect        : 100
+resist_forgotten  : 45
+resist_poison     : 45
+resist_frozen     : 45
+resist_sleep      : 45
+resist_confusion  : 45
+accurate          : 100
+stunt_rate        : 50
+penetrate_rate    : 40
+penetrate         : 50
+low_l_sk          : ({ "B2", "B4", "B3", "lipo-qianjun" })
+hig_l_sk          : ({ "B2", "B4", "B5", "lipo-qianjun" })
+
+[盗宝飞贼]
+name              : 盗宝飞贼
+icon              : 6213
+portrait          : 6213
+phy_absorb        : 100
+mag_absorb        : 100
+phy_effect        : 400
+mag_effect        : 400
+speed_effect      : 30
+tao_effect        : 1500
+resist_forgotten  : 75
+resist_poison     : 75
+resist_frozen     : 75
+resist_sleep      : 75
+resist_confusion  : 75
+accurate          : 100
+stunt_rate        : 50
+low_l_sk          : ({ "C4", "B3", "lipo-qianjun" })
+hig_l_sk          : ({ "C4", "B5", "lipo-qianjun" })

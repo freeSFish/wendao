@@ -1,0 +1,39 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2010-12-29-18:30:00", "EVERY_MIN(60)", "EVERY_DAY(1)", "2011-01-05-23:59:59" })
+
+[setting]
+start_time : "2010-12-29-00:00:00"
+end_time   : "2011-01-05-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "broadcast1", "broadcast2", "broadcast3", "broadcast4" })
+
+[broadcast1]
+broadcast_start : "start_time(-9000)"
+interval        : 1800
+broadcast_end   : "start_time(-1)"
+message         : "巅峰难及，大道难证，各位修道多日，不妨于#RSTART_TIME#n到#Z天墉城#Z找#P百晓通#P与众多道友考究一下自己的修为。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast2]
+broadcast_start : "start_time(-1500)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "巅峰难及，大道难证，各位修道多日，不妨于#RSTART_TIME#n到#Z天墉城#Z找#P百晓通#P与众多道友考究一下自己的修为。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast3]
+broadcast_start : "start_time"
+interval        : 600
+broadcast_end   : "end_time(-1)"
+message         : "巅峰难及，大道难证，各位修道多日，不妨到#Z天墉城#Z找#P百晓通#P与众多道友考究一下自己的修为。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[broadcast4]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "巅峰难及，大道难证，今日的比试真是精彩啊，各位当更加勤修苦练，使修为更加精进，以待明日再试。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

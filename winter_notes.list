@@ -1,0 +1,86 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2012-01-13-00:00", 691199, 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 30
+broadcast_end   : "start_time(+10)"
+message         : "寒假到来了，寒假日记本活动开放啦，此活动有大量的经验奖励，还有机会获得商城道具，你还等什么？赶快来参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+1200)"
+interval        : 1200
+broadcast_end   : "end_time(-10)"
+message         : "寒假到来了，妖怪们抢走了珍贵的#R寒假日记本#n。请大家找到后交给#P活动大使#P吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 30
+broadcast_end   : "end_time(+10)"
+message         : "本次寒假日记本活动圆满结束，请关注寒假期间的其他活动！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[bonus_info]
+果仁糖葫芦 : 200
+纸鸢 : 200
+糖浆 : 300
+宝宝圣水 : 200
+特效仙风散 : 100
+宠风散 : 200
+超级仙风散  : 300
+易经洗髓丹  : 200
+五行合缘露  : 100
+仙魔散 : 100
+惊妖铃 : 100
+天换石 : 100
+粉水晶 : 100
+急急如律令 : 100
+
+[果仁糖葫芦]
+bonus$ : ({ 0, 0, 100, "果仁糖葫芦#赠品", 1, 1 })
+
+[纸鸢]
+bonus$ : ({ 0, 0, 100, "纸鸢#赠品", 1, 1 })
+
+[糖浆]
+bonus$ : ({ 0, 0, 100, "糖浆#赠品", 1, 1 })
+
+[宝宝圣水]
+bonus$ : ({ 0, 0, 100, "宝宝圣水#赠品", 1, 1 })
+
+[特效仙风散]
+bonus$ : ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+
+[宠风散]
+bonus$ : ({ 0, 0, 100, "宠风散#赠品", 1, 1 })
+
+[超级仙风散]
+bonus$ : ({ 0, 0, 100, "超级仙风散#赠品", 1, 1 })
+
+[易经洗髓丹]
+bonus$ : ({ 0, 0, 100, "易经洗髓丹#赠品", 1, 1 })
+
+[五行合缘露]
+bonus$ : ({ 0, 0, 100, "五行合缘露#赠品", 1, 1 })
+
+[仙魔散]
+bonus$ : ({ 0, 0, 100, "仙魔散#赠品", 1, 1 })
+
+[惊妖铃]
+bonus$ : ({ 0, 0, 100, "惊妖铃#赠品", 1, 1 })
+
+[天换石]
+bonus$ : ({ 0, 0, 100, "天换石#赠品", 1, 1 })
+
+[粉水晶]
+bonus$ : ({ 0, 0, 100, "粉水晶#赠品", 1, 1 })
+
+[急急如律令]
+bonus$ : ({ 0, 0, 100, "急急如律令#赠品", 1, 1 })

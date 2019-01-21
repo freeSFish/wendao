@@ -1,0 +1,31 @@
+#FORM2
+
+[setting]
+start_time : "2010-12-15-00:00:00"
+end_time   : "2011-01-05-23:59:59"
+
+[活动时间]
+time_list$ : ({ "2010-12-15-17:30:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2010-12-19-17:30:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2010-12-22-17:30:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2010-12-26-17:30:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2010-12-29-17:30:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2011-01-02-17:30:00", "EVERY_HOUR(2)", 0 })
+time_list$ : ({ "2011-01-05-17:30:00", "EVERY_HOUR(2)", 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_task", "before_start_task" })
+
+[pre_start_task]
+broadcast_start : "start_time(-7200)"
+interval        : 1800
+broadcast_end   : "start_time(-1600)"
+message         : "传说海外极寒之地发现大量先天灵宝，#R金仙门#n和#R赤魔派#n在争夺中发生激烈冲突，特召集各门各派前往助阵，各位道友可在#RSTART_TIME#n找#P百晓通#P进入场内一展身手。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_start_task]
+broadcast_start : "start_time(-1200)"
+interval        : 300
+broadcast_end   : "start_time(-1)"
+message         : "传说海外极寒之地发现大量先天灵宝，#R金仙门#n和#R赤魔派#n在争夺中发生激烈冲突，特召集各门各派前往助阵，各位道友可在#RSTART_TIME#n找#P百晓通#P进入场内一展身手。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

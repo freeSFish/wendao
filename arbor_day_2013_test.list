@@ -1,0 +1,35 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-01-21-00:00", 86399, 0 })
+
+[broadcast_setting]
+broadcast_list : ({ "before_start", "start_task", "before_end", "end_task" })
+
+[before_start]
+broadcast_start : "start_time(-86400)"
+interval        : 3600
+broadcast_end   : "start_time(-60)"
+message         : "#R植树节#n就要到了，#P活动大使#P将在#RSTART_TIME#n发布植树节活动任务#R【植树节】绿化中洲#n，欢迎参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 3
+broadcast_end   : "start_time(+8)"
+message         : "植树节活动#R“【植树节】绿化中洲”#n开始了！大家快去找#P活动大使#P参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end]
+broadcast_start : "start_time(+300)"
+interval        : 300
+broadcast_end   : "end_time(-1)"
+message         : "植树节活动#R“【植树节】绿化中洲”#n火热进行中！快去找#P活动大使#P参加吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 2
+broadcast_end   : "end_time(+1)"
+message         : "植树节活动#R“【植树节】绿化中洲”#n结束了，感谢众道友对中洲绿化工作做出的贡献！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

@@ -1,0 +1,192 @@
+#FORM2
+
+[¹íÁé²Ý]
+grow_list : ({ 0, 52236, 52237, 52238, 52239  })
+grow_time_list : ({ 0, 0, 1200, 1200, 1200 })
+
+[³æÔÖ_1]
+name                : Ð¡µû
+icon                : 6275
+portrait            : 6275
+polar               : -1
+life_effect         : "400 + (Lv / 150) * 50"
+phy_effect          : "20 + (Lv / 150) * 20"
+mag_effect          : "20 + (Lv / 150) * 20"
+tao_effect          : 0
+speed_effect        : 0
+skills              : ({ "B1" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "common_tactics"
+
+[ÔÓ²Ý_1]
+name                : Ð¡²Ý
+icon                : 6107
+portrait            : 6107
+polar               : -1
+life_effect         : "400 + (Lv / 150) * 50"
+phy_effect          : "20 + (Lv / 150) * 20"
+mag_effect          : "20 + (Lv / 150) * 20"
+tao_effect          : 0
+speed_effect        : 0
+skills              : ({ "B1" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "common_tactics"
+
+[³æÔÖ_2]
+name                : µûÑý
+icon                : 6275
+portrait            : 6275
+polar               : -1
+life_effect         : "600 + (Lv / 150) * 80"
+phy_effect          : "50 + (Lv / 150) * 20"
+mag_effect          : "50 + (Lv / 150) * 20"
+tao_effect          : 0
+speed_effect        : 50
+skills              : ({ "B1" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "common_tactics"
+
+[ÔÓ²Ý_2]
+name                : Ñý²Ý
+icon                : 6107
+portrait            : 6107
+polar               : -1
+life_effect         : "600 + (Lv / 150) * 80"
+phy_effect          : "50 + (Lv / 150) * 20"
+mag_effect          : "50 + (Lv / 150) * 20"
+tao_effect          : 0
+speed_effect        : 50
+skills              : ({ "B1" })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "common_tactics"
+
+[³æÔÖ_3]
+name                : µûÄ§
+icon                : 6275
+portrait            : 6275
+polar               : -1
+life_effect         : "800 + (Lv / 150) * 100"
+phy_effect          : "80 + (Lv / 150) * 30"
+mag_effect          : "80 + (Lv / 150) * 30"
+resist_forgotten    : 20
+resist_poison       : 20
+resist_frozen       : 20
+resist_sleep        : 20
+resist_confusion    : 20
+tao_effect          : 20
+skills              : ({ "B3", "B4"  })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "common_tactics"
+
+[ÔÓ²Ý_3]
+name                : Ä§²Ý
+icon                : 6107
+portrait            : 6107
+polar               : -1
+life_effect         : "800 + (Lv / 150) * 100"
+phy_effect          : "80 + (Lv / 150) * 30"
+mag_effect          : "80 + (Lv / 150) * 30"
+resist_forgotten    : 20
+resist_poison       : 20
+resist_frozen       : 20
+resist_sleep        : 20
+resist_confusion    : 20
+tao_effect          : 20
+skills              : ({ "B3", "B4"  })
+modify_attrib       : ({ "life_effect", "phy_effect", "mag_effect" })
+monster_tactics     : "common_tactics"
+
+[ì­½©Ê¬]
+name                : ì­½©Ê¬
+icon                : 470006113
+portrait            : 470006113
+polar               : -1
+life_effect         : 100
+phy_effect          : 20
+mag_effect          : 20
+resist_metal        : 20
+resist_wood         : 20
+resist_water        : 20
+resist_fire         : 20
+resist_earth        : 20
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+speed_effect        : 500
+tao_effect          : 400
+skills              : ({ "B5", "C4"  })
+artifact            : ({ "jiulong-shenhuozhao", 7 })
+monster_tactics     : "biao_zombie_tactics"
+
+[Ñª½©Ê¬]
+name                : Ñª½©Ê¬
+icon                : 370006113
+portrait            : 370006113
+polar               : -1
+life_effect         : 200
+phy_effect          : 20
+mag_effect          : 20
+penetrate           : 50
+penetrate_rate      : 30
+speed_effect        : 20
+tao_effect          : 100
+skills              : ({ "B4", "B5", "D5" })
+artifact            : ({ "dinghaizhu", 7 })
+monster_tactics     : "xue_zombie_tactics"
+
+[±©½©Ê¬]
+name                : ±©½©Ê¬
+icon                : 260006113
+portrait            : 260006113
+polar               : -1
+life_effect         : 100
+phy_effect          : 50
+mag_effect          : 20
+phy_absorb          : 20
+mag_absorb          : -20
+penetrate           : 30
+penetrate_rate      : 20
+stunt_rate          : 20
+double_hit          : 10
+double_hit_rate     : 20
+damage_sel          : 20
+damage_sel_rate     : 100
+counter_attack      : 100
+counter_attack_rate : 20
+speed_effect        : 20
+tao_effect          : 100
+artifact            : ({ "hunyuan-jindou", 7 })
+monster_tactics     : "bao_zombie_tactics"
+
+[Ô¹½©Ê¬]
+name                : Ô¹½©Ê¬
+icon                : 310006113
+portrait            : 310006113
+polar               : -1
+life_effect         : 100
+phy_effect          : 20
+mag_effect          : 50
+phy_absorb          : -20
+mag_absorb          : 20
+speed_effect        : 20
+tao_effect          : 100
+special_skills      : ({ "ÈçÒâÈ¦" })
+skills              : ({ "B4", "D5" })
+monster_tactics     : "yuan_zombie_tactics"
+
+[½©Ê¬Ê×Áì]
+name                : ½©Ê¬Ê×Áì
+icon                : 540006113
+portrait            : 540006113
+polar               : -1
+life_effect         : 200
+phy_effect          : 50
+mag_effect          : 50
+phy_absorb          : -20
+mag_absorb          : -20
+tao_effect          : 200
+skills              : ({ "B4", "B5" })
+artifact            : ({ "jinjiaojian", 7 })
+monster_tactics     : "leader_zombie_tactics"

@@ -1,0 +1,46 @@
+#FORM2
+
+[任务卷轴·节日奖励]
+trigger_type : "item"
+type : "saved"
+affect : "single"
+log : "任务目标：找#P节日大使#P了解有关#R节日奖励#n相关的信息。"
+all_children : ({ "S1", "S2", "SX" })
+timeout_task : 1
+
+[S0]
+type : "null"
+item : "任务卷轴·节日奖励"
+action : "S1"
+create_task : 1
+task_noneed : 1
+
+[S1]
+type : "scenario"
+npc : "节日大使"
+content$ : "NPC:今年过节不收礼啊，不收礼啊不收礼……"
+content$ : "ME:打扰了……节日大使，你好。我来想请你介绍一下关于#R节日奖励#n相关的情况。"
+content$ : "NPC:啊！欢迎欢迎，每到一些特殊节日的时候，我都会免费发放一些小礼物给大家。"
+content$ : "NPC:你可以在我这里查询下次节日的日期，到时候就可以来领奖啦！"
+content$ : "ME:嗯，辛苦你啦。"
+action : "S2"
+log : "任务目标：找#P节日大使#P了解有关#R节日奖励#n相关的信息。"
+give_notice: ({ "你领取了卷轴任务，找#P节日大使#P了解有关#R节日奖励#n相关的信息。:1--1" })
+
+[S2]
+type : "task_finish"
+action : "SX"
+task_name : "任务卷轴·节日奖励"
+log : "任务目标：在下一个节日到来时找#P节日大使#P领取一次#R节日大礼#n。"
+bonus : "bonus1"
+bonus1 : ({ "get_bonus_exp" })
+weight : ({ 100 })
+
+[get_bonus_exp]
+type : "bonus"
+oper : "all"
+bonus_type : "exp"
+num : "1 * 20000"
+
+[SX]
+type : "null"

@@ -1,0 +1,27 @@
+#FORM2
+
+[setting]
+start_time : "2011-06-18-00:00:00"
+end_time   : "2011-06-19-23:59:59"
+
+[broadcast_setting]
+broadcast_list:   ({ "dur_task" })
+
+[dur_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "一年一度的父亲节到了，让我们一起为父亲们祝福，找#P父亲节活动大使|天墉城(240, 186)#P了解一下有什么活动可以参加吧。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[train_bonus_rate]
+liangongqu    : 3
+xiangyao      : 10
+fumo          : 10
+xianjietongji : 8
+xiuxing       : 20
+shijuezhen    : 40
+
+[train_bonus]
+weight  : ({ 19, 27, 27, 27 })
+bonus   : ({ "父亲节鲜花", "父亲节感谢信", "父亲节女儿红", "父亲节太师椅" })

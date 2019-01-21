@@ -1,0 +1,198 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2009-09-26-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-26-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-26-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-27-12:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-27-16:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2009-09-27-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+
+[game_info]
+6   : ({ 地恶妖王, 6273, 小妖统领 })
+0   : ({ 天邪妖王, 6273, 小妖统领 })
+小妖统领 : ({ 6214, 6215, 6221, 6222, 6228, 6229 })
+NPC1 : ({ 161, 109, 7, 570 })
+NPC2 : ({ 126, 105, 7, 540 })
+back : ({ 387, 106 })
+enter : ({ 163, 113 })
+change_icon : ({ 6203, 6207, 6208, 6209, 6210, 6273, 6273 })
+
+[monster_list]
+monster$ : 小妖统领
+monster$ : 地恶妖王的分身
+monster$ : 天邪妖王的分身
+
+[小妖统领]
+name                : 小妖统领
+polar               : -1
+life_effect         : 1000
+mag_effect          : 0
+phy_effect          : 0
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 0
+resist_confusion    : 0
+resist_frozen       : 0
+resist_poison       : 0
+resist_sleep        : 0
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+
+[地恶妖王的分身]
+name                : 地恶妖王的分身
+polar               : -1
+life_effect         : 2000
+mag_effect          : 30
+phy_effect          : 30
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 10
+resist_confusion    : 10
+resist_frozen       : 10
+resist_poison       : 10
+resist_sleep        : 10
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+fenshen             : 1
+
+[天邪妖王的分身]
+name                : 天邪妖王的分身
+polar               : -1
+life_effect         : 2000
+mag_effect          : 30
+phy_effect          : 30
+speed_effect        : 350
+tao_effect          : -100
+resist_forgotten    : 10
+resist_confusion    : 10
+resist_frozen       : 10
+resist_poison       : 10
+resist_sleep        : 10
+skills              : ({ "B2", "B4", "B3", "B5" })
+double_hit_rate     : 50
+double_hit          : 5
+fenshen             : 1
+
+[stage_bonus]
+bonus_list$ : 百花酿
+bonus_list$ : 紫金丹
+bonus_list$ : 百灵丹
+bonus_list$ : 九圣散
+bonus_list$ : 如意战斗令
+
+[百花酿]
+rate   : 1500
+name   : 百花酿
+bonus$ : ({ 0, 0, 100, "百花酿", 10, 10 })
+
+[紫金丹]
+rate   : 1500
+name   : 紫金丹
+bonus$ : ({ 0, 0, 100, "紫金丹", 10, 10 })
+
+[百灵丹]
+rate   : 1500
+name   : 百灵丹
+bonus$ : ({ 0, 0, 100, "百灵丹", 10, 10 })
+
+[九圣散]
+rate   : 1500
+name   : 九圣散
+bonus$ : ({ 0, 0, 100, "九圣散", 10, 10 })
+
+[如意战斗令]
+rate   : 300
+name   : 如意战斗令
+bonus$ : ({ 0, 0, 100, "如意战斗令", 1, 1 })
+rumor  : 1
+
+[extra_bonus]
+bonus_list$ : 蓝装备三件
+bonus_list$ : 金装备三件
+bonus_list$ : 如意战斗令
+bonus_list$ : 鲜花卡（赠品）
+bonus_list$ : 水果卡（赠品）
+bonus_list$ : "BOSS卡（赠品）"
+bonus_list$ : 特效仙风散（赠品）
+bonus_list$ : 超级黑水晶（赠品）
+bonus_list$ : 超级绿水晶（赠品）
+bonus_list$ : 超级女娲石
+bonus_list$ : 灵引咒
+bonus_list$ : 宠物天生技能书
+
+[蓝装备三件]
+name   : 蓝装备三件
+rate   : 1000
+bonus$ : ({ 0, 0, 100, "装备", 3, 3, "蓝装备" })
+
+[蓝装备]
+color$: 蓝色
+scan_min_level: "玩家等级 / 10 * 10"
+scan_max_level: "玩家等级 / 10 * 10"
+
+[金装备三件]
+name   : 金装备三件
+rate   : 500
+bonus$ : ({ 0, 0, 100, "装备", 3, 3, "金装备" })
+
+[金装备]
+color$: 金色
+scan_min_level: "玩家等级 / 10 * 10"
+scan_max_level: "玩家等级 / 10 * 10"
+
+[鲜花卡（赠品）]
+name   : 鲜花卡（赠品）
+rate   : 300
+bonus$ : ({ 0, 0, 100, "鲜花卡#赠品", 1, 1 })
+rumor  : 1
+
+[水果卡（赠品）]
+name   : 水果卡（赠品）
+rate   : 300
+bonus$ : ({ 0, 0, 100, "水果卡#赠品", 1, 1 })
+rumor  : 1
+
+[BOSS卡（赠品）]
+name   : "BOSS卡（赠品）"
+rate   : 200
+bonus$ : ({ 0, 0, 100, "BOSS卡#赠品", 1, 1 })
+rumor  : 1
+
+[特效仙风散（赠品）]
+name   : 特效仙风散（赠品）
+rate   : 100
+bonus$ : ({ 0, 0, 100, "特效仙风散#赠品", 1, 1 })
+system : 1
+
+[超级黑水晶（赠品）]
+name   : 超级黑水晶（赠品）
+rate   : 100
+bonus$ : ({ 0, 0, 100, "超级黑水晶#赠品", 1, 1 })
+system : 1
+
+[超级绿水晶（赠品）]
+name   : 超级绿水晶（赠品）
+rate   : 50
+bonus$ : ({ 0, 0, 100, "超级绿水晶#赠品", 1, 1 })
+system : 1
+
+[超级女娲石]
+name   : 超级女娲石
+rate   : 10
+bonus$ : ({ 0, 0, 100, "超级女娲石", 1, 1 })
+system : 1
+
+[灵引咒]
+name   : 灵引咒
+rate   : 5
+bonus$ : ({ 0, 0, 100, "灵引咒", 1, 1 })
+system : 1
+
+[宠物天生技能书]
+name   : 宠物天生技能书
+rate   : 1
+bonus$ : ({ 0, 0, 100, "宠物技能书", 1, 1, "翻转乾坤秘笈", "神圣之光秘笈", "死亡缠绵秘笈", "游说之舌秘笈", "漫天血舞秘笈", "舍命一击秘笈", "乾坤罩秘笈", "神龙罩秘笈", "如意圈秘笈", "拔苗助长秘笈", "天生神力秘笈", "十万火急秘笈", "防微杜渐秘笈", "鞭长莫及秘笈" })
+system : 1

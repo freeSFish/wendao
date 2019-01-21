@@ -1,0 +1,5480 @@
+#FORM2
+
+#[成就编号]
+#成就名字 : 强盗来袭,
+#成就等级 : 5,
+#成就总进度 : 20,
+#成就子进度 : 4,
+#奖励信息 : ({ 称谓奖励,道具奖励,荣誉值奖励 }), # 策划目前只配置了道具和 荣誉值,
+#称谓奖励 : "",
+#道具奖励 : ({ 道具1, 道具2 }),
+#荣誉值奖励 : "",
+#举例
+#重置周期 : "per_week" # 一周完成8次白邦忙
+#刷新周期 : "per_day" # 连续30天每天完成4次白邦忙
+#[10101]
+#name : "xxx"
+#level : 4
+#progress : 200
+#sub_progress : 4
+#bonus_info : ({ "appellation_bonus", "item_bonus", "glory_bonus" })
+#appellation_bonus : "xxx"
+#item_bonus : ({ "超级女娲石" })
+#glory_bonus : 10000
+#reset_period : "per_week"
+#refresh_period : "per_day"
+
+[ACHIEVE_PARTY_JRBP_RH]
+name : "入伙"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_JRBP_QTC]
+name : "墙头草"
+level : 2
+progress : 10
+
+[ACHIEVE_PARTY_CLBP_LBJP]
+name : "拉帮结派"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_CLBP_XTH]
+name : "小团伙"
+level : 2
+progress : 1
+
+[ACHIEVE_PARTY_CLBP_LTY]
+name : "领头羊"
+level : 3
+progress : 1
+
+[ACHIEVE_PARTY_CLBP_LD]
+name : "老大"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "老大"
+
+[ACHIEVE_PARTY_TZBP_CWMR]
+name : "我想成为名人"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_SBLZ]
+name : "树碑立传"
+level : 4
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_GCQ]
+name : "强盗来啦，赶出去"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_CHFBH]
+name : "此“旱”非彼“悍”"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_WCSHB]
+name : "我才是“悍吧”"
+level : 4
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "悍"
+
+[ACHIEVE_PARTY_TZBP_QNR]
+name : "圈内人"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_WJSBYDD]
+name : "我家鼠标一大堆"
+level : 3
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_SCJ]
+name : "手抽筋"
+level : 4
+progress : 10
+
+[ACHIEVE_PARTY_TZBP_HB]
+name : "火拼"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_XDZH]
+name : "笑到最后才是笑得最好"
+level : 3
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_ADZDWZ]
+name : "抢夺战斗物资"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_YGZC]
+name : "有功之臣"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_TZBP_GCMJLBJ]
+name : "功成名就利不就"
+level : 3
+progress : 10
+
+[ACHIEVE_PARTY_BPWF_LYD]
+name : "小妹，来一打"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_SY]
+name : "受益"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_DLG]
+name : "打零工"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_ZSG]
+name : "正式工"
+level : 2
+progress : 15
+sub_progress : 3
+refresh_period : "per_day"
+
+[ACHIEVE_PARTY_BPWF_KL]
+name : "苦力"
+level : 4
+progress : 60
+sub_progress : 3
+refresh_period : "per_day"
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "苦力"
+
+[ACHIEVE_PARTY_BPWF_LYSD]
+name : "劳有所得"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_XSCL]
+name : "薪水长流"
+level : 4
+progress : 12
+refresh_period : "per_week"
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "长工"
+
+[ACHIEVE_PARTY_BPWF_NSJ]
+name : "泥水匠"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_SRLJ]
+name : "损人利己"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_SRBLJ]
+name : "损人不利己"
+level : 4
+progress : 8
+reset_period : "per_week"
+
+[ACHIEVE_PARTY_BPWF_WGQZ]
+name : "位高权重"
+level : 2
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_YDXQL]
+name : "有点小权力"
+level : 2
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_CDBG]
+name : "存点帮贡"
+level : 1
+progress : 1000
+
+[ACHIEVE_PARTY_BPWF_BGDD]
+name : "帮贡多多"
+level : 3
+progress : 50000
+
+[ACHIEVE_PARTY_BPWF_YBWDBB]
+name : "用不完的帮贡"
+level : 3
+progress : 100000
+
+[ACHIEVE_TJDR_KXJ]
+name : "苦心志"
+level : 1
+progress : 1
+
+[ACHIEVE_ZRWL_HR]
+name : "好人"
+level : 1
+progress : 1
+
+[ACHIEVE_ZRWL_XJ]
+name : "心急"
+level : 2
+progress : 4
+reset_period : "per_day"
+
+[ACHIEVE_ZRWL_LFY]
+name : "雷锋月"
+level : 4
+progress : 30
+sub_progress : 4
+refresh_period : "per_day"
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "活雷锋"
+
+[ACHIEVE_ZRWL_HB]
+name : "好报"
+level : 1
+progress : 1
+
+[ACHIEVE_ZRWL_SZ]
+name : "善哉"
+level : 4
+progress : 3
+
+[ACHIEVE_ZRWL_RP]
+name : "人品！"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "人品"
+
+[ACHIEVE_ZRWL_BSB]
+name : "爆个十倍吧"
+level : 4
+progress : 30
+
+[ACHIEVE_ZRWL_WSHR]
+name : "天啊，我真的是好人呐"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "命背"
+
+[ACHIEVE_ZRWL_ZRWS]
+name : "助人为生"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "不白帮"
+
+[ACHIEVE_MPSL_SL]
+name : "试炼"
+level : 1
+progress : 1
+
+[ACHIEVE_SMRW_CQ]
+name : "差遣"
+level : 1
+progress : 1
+
+[ACHIEVE_SMRW_ZC]
+name : "忠诚"
+level : 5
+progress : 1
+
+[ACHIEVE_RCLQ_RC]
+name : "日常"
+level : 1
+progress : 1
+
+[ACHIEVE_TGGK]
+name : "同甘共苦"
+level : 1
+progress : 1
+
+[ACHIEVE_FRIEND_ZJ]
+name : "至交"
+level : 3
+progress : 1
+
+[ACHIEVE_FRIEND_ZQ]
+name : "至亲"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "一起玩"
+
+[ACHIEVE_SMSW_WDDP]
+name : "我的地盘我说了算"
+level : 1
+progress : 1
+
+[ACHIEVE_FB_YSFX]
+name : "以身犯险"
+level : 1
+progress : 1
+
+[ACHIEVE_FB_BGEE]
+name : "不过尔尔"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "单挑"
+
+[ACHIEVE_FB_MMHD]
+name : "私密活动"
+level : 3
+progress : 1
+
+[ACHIEVE_FB_SRZY]
+name : "三人足矣"
+level : 2
+progress : 1
+
+[ACHIEVE_FB_QMFZ]
+name : "全面发展"
+level : 2
+progress : 4
+
+[ACHIEVE_FB_WLCJ]
+name : "只是为了成就…"
+level : 4
+progress : 80
+
+[ACHIEVE_FB_JD]
+name : "GM的鉴定符用完了"
+level : 4
+progress : 15
+refresh_period : "per_day"
+
+[ACHIEVE_FB_BXMJ]
+name : "八仙梦境"
+level : 1
+progress : 1
+
+[ACHIEVE_FB_WYJSBXL]
+name : "我已然是八仙了"
+level : 4
+progress : 30
+refresh_period : "per_day"
+
+[ACHIEVE_FB_ZCSRP]
+name : "这才是人品"
+level : 4
+progress : 1
+
+[ACHIEVE_FB_TPSC]
+name : "突破十层"
+level : 2
+progress : 1
+
+[ACHIEVE_FB_ESCL]
+name : "二十层啦"
+level : 3
+progress : 1
+
+[ACHIEVE_FB_WSCSSM]
+name : "五十层是什么星君呢？"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "通天星君"
+
+[ACHIEVE_ZMC_KS]
+name : "躲好、倒数、开始…"
+level : 1
+progress : 1
+
+[ACHIEVE_YB_ZQ]
+name : "听说这是赚钱的"
+level : 1
+progress : 1
+
+[ACHIEVE_YB_YCWS]
+name : "以此为生"
+level : 3
+progress : 20
+
+[ACHIEVE_ZJHY_HY]
+name : "慧眼"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_XX_KX]
+name : "苦修"
+level : 1
+progress : 1
+
+[ACHIEVE_XX_BTKN]
+name : "不太可能"
+level : 4
+progress : 10000
+
+[ACHIEVE_XX_BC]
+name : "悲催"
+level : 4
+progress : 10
+
+[ACHIEVE_SJZ_PZ]
+name : "破阵"
+level : 1
+progress : 1
+
+[ACHIEVE_SJZ_WH]
+name : "为何？"
+level : 4
+progress : 10000
+
+[ACHIEVE_SJZ_ZBBH]
+name : "装备不好…"
+level : 4
+progress : 10
+
+[ACHIEVE_XLRW_XX]
+name : "寻仙"
+level : 1
+progress : 1
+
+[ACHIEVE_XLRW_ZYNSQ]
+name : "这也能刷钱？"
+level : 4
+progress : 10000
+
+[ACHIEVE_CB_YBZB]
+name : "以暴制暴"
+level : 1
+progress : 1
+
+[ACHIEVE_CB_SQ]
+name : "刷钱？"
+level : 4
+progress : 10000
+
+[ACHIEVE_XY_XBSZ]
+name : "邪不胜正"
+level : 1
+progress : 1
+
+[ACHIEVE_XY_QCXD]
+name : "虔诚修道"
+level : 5
+progress : 10000
+
+[ACHIEVE_FM_BRM]
+name : "不入魔"
+level : 1
+progress : 1
+
+[ACHIEVE_FM_MMWS]
+name : "灭魔无数"
+level : 5
+progress : 10000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "灭魔无数"
+
+[ACHIEVE_XJTJ_GYB]
+name : "雇佣兵"
+level : 1
+progress : 1
+
+[ACHIEVE_XJTJ_ZSWJ]
+name : "忠实玩家"
+level : 5
+progress : 10000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "忠实玩家"
+
+[ACHIEVE_XLRW_DX]
+name : "渡邪"
+level : 1
+progress : 1
+
+[ACHIEVE_XLRW_GW]
+name : "高玩"
+level : 5
+progress : 10000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "高玩"
+
+[ACHIEVE_BZT_TZZM]
+name : "图中之妙"
+level : 1
+progress : 1
+
+[ACHIEVE_BZT_MSCT]
+name : "迷失此图中…"
+level : 4
+progress : 10000
+
+[ACHIEVE_ZXSL_SBQ]
+name : "八仙你伤不起"
+level : 4
+progress : 10
+
+[ACHIEVE_QDXD_SBQ]
+name : "强盗你也伤不起"
+level : 4
+progress : 10
+
+[ACHIEVE_CXFX_SHMF]
+name : "我的蜜蜂是水货"
+level : 5
+progress : 20
+
+[ACHIEVE_CXFX_QDQD]
+name : "强盗！强盗！"
+level : 1
+progress : 1
+
+[ACHIEVE_CXFX_ZAQD]
+name : "最爱强盗"
+level : 5
+progress : 10000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "最爱强盗"
+
+[ACHIEVE_CWYL_YGB]
+name : "有个伴"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_YHBY]
+name : "一呼八应"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_ZYSGC]
+name : "这也算官宠…"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_NHZDTSGC]
+name : "你还真当它是官宠啊…"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_WBXT]
+name : "我不心疼"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_WBXTXM]
+name : "我说我不心疼，你信吗"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_DB]
+name : "代步"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_CK]
+name : "我应该改名叫“车库”"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_XF]
+name : "小炫富一把"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "钱二富"
+
+[ACHIEVE_CWYL_TJ]
+name : "太极+太极+太极"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "富"
+
+[ACHIEVE_CWYL_GC]
+name : "这才是真的官宠"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_GCCQ]
+name : "官宠成群"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_SS]
+name : "神兽在手，天下我有"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "神兽在手"
+
+[ACHIEVE_CWYL_DDGQL]
+name : "点点更强力"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_WPMF]
+name : "我怕麻烦"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_WBPMF]
+name : "我不怕麻烦"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_YSTR]
+name : "一视同仁"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_DD]
+name : "胆大"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_BGGC]
+name : "其实，我是第九只…"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_WLSC]
+name : "为了生存"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_HKYGQ]
+name : "还可以更强"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_SR]
+name : "绝对是商人"
+level : 4
+progress : 1000
+
+[ACHIEVE_CWYL_YHSX]
+name : "羽化升仙"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_YHGMF]
+name : "羽化更麻烦"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_YHBMF]
+name : "羽化不麻烦"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_ACYHCG]
+name : "爱宠羽化成功"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_CH]
+name : "凑合"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_KYJSS]
+name : "也可以叫神兽"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_SSSS]
+name : "神兽算个啥"
+level : 5
+progress : 1
+
+[ACHIEVE_CWYL_BCGT]
+name : "百尺竿头，更进一步"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_SSJP]
+name : "神兽中的极品"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "“神”兽掌中握"
+
+[ACHIEVE_CWYL_SGSS]
+name : "手工打造神兽"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "神“兽”掌中握"
+
+[ACHIEVE_CWYL_ZST]
+name : "砸石头"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_NRXM]
+name : "你忍心吗"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_CWDS]
+name : "宠物也读书"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_DSPSJ]
+name : "读书破三卷"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_JQST_NEW]
+name : "鸡犬升天"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_QMDBL]
+name : "亲密达标了"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_AC]
+name : "爱宠"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_ZLXS]
+name : "主力选手"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_QMYJ]
+name : "亲密有加"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "亲密有加"
+
+[ACHIEVE_CWYL_RCHY]
+name : "人宠合一"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "人宠合一"
+
+[ACHIEVE_CWYL_STJ]
+name : "三天技"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_YRSTJ]
+name : "依然三天技"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_ZLWGC]
+name : "主力物攻宠"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_WLM]
+name : "我来秒"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_WXL]
+name : "我先来"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_WLK]
+name : "我来抗"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_CZQMO]
+name : "成长全满哦"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_XLXB]
+name : "下了血本"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_BSL]
+name : "“变色龙”"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_HSJJ]
+name : "会是几阶呢"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_DJQW]
+name : "我真的想脱离低级趣味"
+level : 5
+progress : 15
+
+[ACHIEVE_CWYL_EBDY]
+name : "二百大洋"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_QYDC]
+name : "哇，千元大钞"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_TJBSM]
+name : "咳！太极不是梦！"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "召唤太极熊"
+csa_rumor : 1
+
+[ACHIEVE_CWYL_LR]
+name : "猎人"
+level : 3
+progress : 8
+
+[ACHIEVE_CWYL_JQST]
+name : "鸡犬升天废弃"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_CWYL_BYPB]
+name : "终于不用跑步了"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_TJJC]
+name : "太极绝尘"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_RHGT]
+name : "融会贯通"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_SZBC]
+name : "山寨也不错"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_ADA7]
+name : "七速先锋"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_TJWZW]
+name : "太极王中王"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "顶级座驾"
+
+################################# 成就系统-养育 #################################
+[ACHIEVE_CHILD_HD_WRFM]
+name : "为人父母"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_HD_TSYD]
+name : "天生愚钝"
+level : 4
+progress : 1
+bonus_info : ({ "item_bonus" })
+item_bonus : ({ "宝宝圣水" })
+
+[ACHIEVE_CHILD_HD_TC]
+name : "天才"
+level : 4
+progress : 1
+
+[ACHIEVE_CHILD_HD_XBQS]
+name : "性别歧视"
+level : 4
+progress : 5
+
+[ACHIEVE_CHILD_HD_ET]
+name : "二胎"
+level : 3
+progress : 2
+
+[ACHIEVE_CHILD_HD_YXFM]
+name : "英雄…父母"
+level : 4
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "一代更比一代强"
+
+[ACHIEVE_CHILD_YC_MMZD]
+name : "慢慢长大"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_CHILD_YC_JYXZQ]
+name : "经验险中求"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_CHILD_YC_FGXZQ]
+name : "富贵险中求！"
+level : 4
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_CHILD_YC_BYXZQ]
+name : "变异…险中求"
+level : 5
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_CHILD_YC_JJMS]
+name : "觐见名师"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_YC_ZMZD]
+name : "这是怎么做到的"
+level : 4
+progress : 5
+
+[ACHIEVE_CHILD_YC_KSXX]
+name : "开始学习"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_YC_ZSJSLL]
+name : "知识就是力量"
+level : 3
+progress : 1
+
+[ACHIEVE_CHILD_CZ_SZFZB]
+name : "上阵父子兵"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_CZ_HNYG]
+name : "患难与共"
+level : 3
+progress : 200
+
+[ACHIEVE_CHILD_CZ_XZST]
+name : "雪中送炭"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_CZ_RWL]
+name : "让我来"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_CZ_XGWZG]
+name : "先过我这关"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_CZ_SHJJ]
+name : "身怀绝技"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_RC_WWZRC]
+name : "娃娃做日常"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_CHILD_RC_CWWZQ]
+name : "日常活动从娃娃抓起"
+level : 3
+progress : 30
+to_be_deleted : 1
+
+[ACHIEVE_CHILD_RC_QMWWZB]
+name : "全满娃娃装备"
+level : 3
+progress : 1
+
+[ACHIEVE_CHILD_RC_ZWXWW]
+name : "准五星娃娃"
+level : 3
+progress : 1
+
+[ACHIEVE_CHILD_RC_ST]
+name : "神童"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "我有神童"
+
+################################# 成就系统-传世威名 #################################
+
+[ACHIEVE_CSWM_ZH_NWYY]
+name : "《问道》内外都一样"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "大款"
+to_be_deleted : 1
+
+[ACHIEVE_CSWM_ZH_MLSS]
+name : "名利双收"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "有钱、有闲"
+to_be_deleted : 1
+
+[ACHIEVE_CSWM_BSYM_JSPHB]
+name : "跻身排行榜"
+level : 3
+progress : 1
+
+[ACHIEVE_CSWM_BSYM_PHQS]
+name : "排行前十不是梦"
+level : 4
+progress : 1
+
+[ACHIEVE_CSWM_BSYM_STTW]
+name : "扫塔天王"
+level : 4
+progress : 1
+
+[ACHIEVE_CSWM_BSYM_ZYSZ]
+name : "正义的使者"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "名将"
+
+[ACHIEVE_CSWM_BSYM_XEHS]
+name : "邪恶的化身"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "恶霸"
+
+[ACHIEVE_CSWM_BSYM_JTKNM]
+name : "今天要考哪一门"
+level : 4
+progress : 1
+
+[ACHIEVE_CSWM_XDGS_SRXBYW]
+name : "三人行，必有我"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "三巨头"
+
+[ACHIEVE_CSWM_XDGS_YRXWRS]
+name : "一人之下，万人之上"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "二爷"
+
+[ACHIEVE_CSWM_XDGS_D]
+name : "道"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "道"
+
+[ACHIEVE_CSWM_JZAC_FJTX]
+name : "富甲天下"
+level : 4
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_CSWM_JZAC_JZYS]
+name : "家资殷实"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "钱多多"
+
+[ACHIEVE_CSWM_XSYX_SQDTX]
+name : "双拳打天下"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "力神"
+
+[ACHIEVE_CSWM_XSYX_FWDF]
+name : "法无定法"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "法神"
+
+[ACHIEVE_CSWM_XSYX_LBWB]
+name : "凌波微步"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "风神"
+
+[ACHIEVE_CSWM_XSYX_JZZ]
+name : "金钟罩"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "铁人"
+
+[ACHIEVE_CSWM_XSYX_SBBJ]
+name : "神兵宝甲尽归本人"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "宝库"
+
+[ACHIEVE_CSWM_XSYX_TXSS]
+name : "天下神兽任我驱使"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "兽王"
+
+[ACHIEVE_CSWM_CJKR_BJBG]
+name : "百级不算高"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "首破一百级"
+
+[ACHIEVE_CSWM_CJKR_BSQB]
+name : "一百三才起步"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "首破一百三十级"
+
+[ACHIEVE_CSWM_CJKR_BWKJ]
+name : "一百五，并非遥不可及"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "首破一百五十级"
+
+[ACHIEVE_CSWM_DKWZ_ZYDS]
+name : "道王，我终于当上了"
+level : 4
+progress : 1
+
+[ACHIEVE_CSWM_DKWZ_XCYD]
+name : "道王，小菜一碟"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "道王"
+
+[ACHIEVE_CSWM_DKWZ_YJCM]
+name : "道王，一将成名万骨枯"
+level : 5
+progress : 30
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "王"
+
+[ACHIEVE_CSWM_SDKR_YWJC]
+name : "万年是基础"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "万年第一人"
+
+[ACHIEVE_CSWM_SDKR_EWSD]
+name : "两万年可以试道了"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "两万年第一人"
+
+[ACHIEVE_CSWM_SDKR_SWDW]
+name : "三万年道王"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "三万年道王"
+
+[ACHIEVE_CSWM_SDKR_SWDS]
+name : "四万年道圣"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "道圣"
+
+
+[ACHIEVE_CSWM_SDKR_SWDX]
+name : "五万年道仙"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天道自然"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_TT]
+name : "通天了"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "通天"
+
+[ACHIEVE_CSWM_GZDY_XQ]
+name : "仙器"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "仙器"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_SQ]
+name : "神器"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "神器"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_SQSSM]
+name : "神器算什么"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "超越神器"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_SGSQ]
+name : "上古神器，绝无仅有"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "上古神器"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_MJFB]
+name : "满级法宝"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "先天灵宝"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_DYZTJ]
+name : "第一只太极"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "首只太极"
+
+[ACHIEVE_CSWM_GZDY_CJDBSS]
+name : "超级大BOSS首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "超级大BOSS首杀"
+
+[ACHIEVE_CSWM_GZDY_TSKSSS]
+name : "天煞狂狮首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天煞狂狮首杀"
+
+[ACHIEVE_CSWM_GZDY_MTXCSS]
+name : "灭天血刺首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "灭天血刺首杀"
+
+[ACHIEVE_CSWM_GZDY_SQWWX]
+name : "三千万武学"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "胜似神宠"
+
+[ACHIEVE_CSWM_GZDY_BQWWX]
+name : "八千万武学"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "封我宠试试"
+
+[ACHIEVE_CSWM_GZDY_WBWQM]
+name : "五百万亲密"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "亲密无间"
+
+[ACHIEVE_CSWM_GZDY_SWWS]
+name : "十万物伤"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "力仙"
+
+[ACHIEVE_CSWM_GZDY_WWFS]
+name : "五万法伤"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "法仙"
+
+[ACHIEVE_CSWM_GZDY_LQSD]
+name : "六千速度"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "速仙"
+
+[ACHIEVE_CSWM_GZDY_BWFY]
+name : "八万防御"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "防仙"
+
+[ACHIEVE_BASIC_TZH_BOSS]
+name : "BOSS，包死？"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_TZH_BAO]
+name : "我包了"
+level : 4
+progress : 5
+reset_period : "per_day"
+
+[ACHIEVE_BASIC_TZH_XZH]
+name : "熊掌"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_TZH_HXYDZ]
+name : "黑熊一刀斩"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "妖皇"
+
+
+[ACHIEVE_BASIC_TZH_SZT]
+name : "狮子头"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_TZH_SDSD]
+name : "狮的速度"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天煞"
+
+[ACHIEVE_BASIC_TZH_BGC]
+name : "拔根刺"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_TZH_XCBGRC]
+name : "血刺不过如此"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "灭天"
+
+[ACHIEVE_BASIC_TZH_NUE]
+name : "虐"
+level : 4
+progress : 10
+reset_period : "per_day"
+
+[ACHIEVE_BASIC_TZH_XGAD]
+name : "星光黯淡"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_TZH_DCJT]
+name : "独闯九天"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_TZH_GRSD]
+name : "孤入十地"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_TZH_DTSHS]
+name : "地图守护神"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_TZH_WDDP]
+name : "我的地盘我做主"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "我的地盘我做主"
+
+[ACHIEVE_BASIC_MX_JIEB]
+name : "揭榜"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_MX_SQDSS]
+name : "双拳敌十手"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_MX_JLB]
+name : "这里不是加勒比"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_MX_YAOW]
+name : "这也叫“妖王”？"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_MX_FDL]
+name : "福到啦"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_MX_CSHD]
+name : "财神到"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_MX_YZCM]
+name : "一战成名"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_MX_NAFU]
+name : "纳福"
+level : 2
+progress : 1
+
+[ACHIEVE_BASIC_MX_FU]
+name : "福"
+level : 4
+progress : 36
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "福星"
+
+[ACHIEVE_BASIC_MX_SHC]
+name : "生财"
+level : 2
+progress : 1
+
+[ACHIEVE_BASIC_MX_CAI]
+name : "财"
+level : 4
+progress : 36
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "财神"
+
+[ACHIEVE_BASIC_MX_XIWU]
+name : "习武"
+level : 2
+progress : 1
+
+[ACHIEVE_BASIC_MX_WU]
+name : "武"
+level : 4
+progress : 36
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "战神"
+
+[ACHIEVE_BASIC_MX_FCL]
+name : "发财了"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_DK_LYL]
+name : "遛一遛"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_DK_ND]
+name : "内斗"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_DK_BY]
+name : "榜样"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_DK_HRZD]
+name : "何人证我道"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_DK_YXLLZ]
+name : "英雄轮流做"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_DK_JTGWG]
+name : "今天归我管"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_DK_ZDBZ]
+name : "证道不止"
+level : 4
+progress : 90
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "证道不止"
+refresh_period : "per_day"
+
+[ACHIEVE_BASIC_DK_ASQX]
+name : "傲视群雄"
+level : 4
+progress : 90
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "傲视群雄"
+refresh_period : "per_day"
+
+[ACHIEVE_BASIC_DK_WSZM]
+name : "我是掌门"
+level : 4
+progress : 90
+sub_progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "我是掌门"
+refresh_period : "per_day"
+
+[ACHIEVE_BASIC_ANQ_LSWA]
+name : "落锁为安"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_ANQ_SWYS]
+name : "随我一生"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_ANQ_JTBLM]
+name : "今天，你绑了吗？"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_ANQ_BDYRH]
+name : "被盗又如何？"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_ANQ_DDWSS]
+name : "动动我试试！"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_DT_CHUS]
+name : "初试"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_DT_XFWC]
+name : "学富五车"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_DT_XEK]
+name : "小儿科"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_DT_SZZYHJW]
+name : "书中自有黄金屋"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_YBSR_SSQ]
+name : "试手气"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_YBSR_ZDL]
+name : "哈哈，赚到了"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_YBSR_QQ]
+name : "你是我家哪位亲戚？"
+level : 5
+progress : 10
+
+[ACHIEVE_BASIC_YBSR_JS]
+name : "这个胖子在抢钱！"
+level : 4
+progress : 12
+
+[ACHIEVE_BASIC_JC_XDYQ]
+name : "小赌怡情"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_JC_ZHLD]
+name : "挣了点"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_JC_SHPF]
+name : "收获颇丰"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_JC_DUSH]
+name : "赌神"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "赌神"
+
+[ACHIEVE_BASIC_JC_PEIL]
+name : "这也是种运气！"
+level : 4
+progress : 15
+
+[ACHIEVE_BASIC_SHH_YOUB]
+name : "有伴"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_SHH_QL]
+name : "强力"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_SHH_TSH]
+name : "你不是我的天使"
+level : 4
+progress : 10
+
+[ACHIEVE_BASIC_SHH_ZUD]
+name : "有人组我吗？"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_SHH_JG]
+name : "见过吗？"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_QT_QX]
+name : "起薪"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_LYSD]
+name : "多劳多得"
+level : 3
+progress : 6
+
+[ACHIEVE_BASIC_QT_MZGC]
+name : "面子工程"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_XYX]
+name : "秀一下"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_QT_JS]
+name : "精深"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_GS]
+name : "高手"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "高手"
+
+[ACHIEVE_BASIC_QT_XY]
+name : "幸运"
+level : 3
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_QT_XYSZ]
+name : "幸运使者"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "幸运使者"
+to_be_deleted : 1
+
+[ACHIEVE_EQUIP_BHYSCM]
+name : "不发光都不好意思出门"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_XYSW]
+name : "小有声望"
+level : 1
+progress : 1000
+
+[ACHIEVE_BASIC_QT_ZSYW]
+name : "众所仰望"
+level : 4
+progress : 30000
+
+[ACHIEVE_BASIC_QT_JTHHY]
+name : "今天很活跃"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_WBSGJD]
+name : "我不是挂机的"
+level : 4
+progress : 30
+refresh_period : "per_day"
+
+[ACHIEVE_BASIC_QT_HYDT]
+name : "鸿运当头"
+level : 2
+progress : 1
+
+[ACHIEVE_BASIC_QT_MZCP]
+name : "买张彩票"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_ZCL]
+name : "中彩了"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "彩民"
+
+[ACHIEVE_BASIC_QT_ZFDM]
+name : "争分夺秒"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_QT_GZWJDL]
+name : "跟着我就对了"
+level : 3
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_QT_BFDL]
+name : "缤纷大礼"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_QT_ZYKY]
+name : "这也可以？"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+to_be_deleted : 1
+appellation_bonus : "我才是缤纷大使"
+
+[ACHIEVE_BASIC_QT_JDZJ]
+name : "鉴定专家"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_QT_YBXX]
+name : "一不小心"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_WSGYD]
+name : "我是故意的"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "命途多舛"
+
+[ACHIEVE_BASIC_DJ_GYL]
+name : "归元露"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_DJ_SJGYL]
+name : "“神级”归元露"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_DJ_WJDCJGYL]
+name : "我家的超级归元露"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_DJ_YZDJZD]
+name : "要最低就来最低"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_DJ_GRSSS]
+name : "果然是“圣水”"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_DJ_ZL]
+name : "赚了"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_DJ_LDMY]
+name : "灵丹妙药"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_DJ_TJBX]
+name : "天降宝箱"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "信不信由你"
+csa_rumor : 1
+
+[ACHIEVE_BASIC_DJ_GGM]
+name : "改个名"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_DJ_SLBRBL]
+name : "刷喇叭弱爆了"
+level : 5
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "就是有钱怎么啦"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_ZBGZ6]
+name : "哥穿的都是名牌"
+level : 4
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "名牌"
+
+[ACHIEVE_EQUIP_ZBGZ7]
+name : "咳！"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "咳！"
+
+[ACHIEVE_EQUIP_ZBGZ8]
+name : "！！！"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "！！！"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_MBYDZS]
+name : "满不一定招损"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_QM]
+name : "全满！！！"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "满"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_XCJC]
+name : "想穿就穿"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_QBSX]
+name : "不带相性咱都不瞧一眼"
+level : 4
+progress : 4
+
+[ACHIEVE_EQUIP_QBSX5]
+name : "腰缠万贯不如全相五"
+level : 5
+progress : 4
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "4×5"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_CZBYFHSF]
+name : "穿装备要符合身份"
+level : 3
+progress : 5
+
+[ACHIEVE_EQUIP_FBSXDSGB]
+name : "法宝，首先得是“宝”"
+level : 5
+progress : 1
+
+[ACHIEVE_EQUIP_ZKBNKHZ]
+name : "再苦不能苦孩子"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "爱问道，爱娃娃"
+
+[ACHIEVE_EQUIP_QC]
+name : "强拆"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_CJDD]
+name : "拆迁大队"
+level : 3
+progress : 10
+
+[ACHIEVE_EQUIP_DZHQBKC]
+name : "钉子户，坚不可拆"
+level : 3
+progress : 6
+
+[ACHIEVE_EQUIP_WLZCXB]
+name : "我来组成×部"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_SJRHZ]
+name : "水晶融合者"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_ZBMSS]
+name : "装备魔术师"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_BS]
+name : "粉个好属性吧"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_QJWBSL]
+name : "请叫我“变色龙”"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_LSHSFS]
+name : "帮我看看，蓝还是粉"
+level : 3
+progress : 5
+
+[ACHIEVE_EQUIP_JGSS]
+name : "金光闪闪"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_DLYTSX]
+name : "看，黄出什么属性"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_JSZ]
+name : "金手指"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_ZT]
+name : "做套"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_KYBKQ]
+name : "可遇而不可求"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_ADLYHQ]
+name : "暗地里也很强"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_SF]
+name : "双峰"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_YTNQ]
+name : "一套难求"
+level : 3
+progress : 5
+
+[ACHIEVE_EQUIP_BGBCQ]
+name : "不改不成器"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_GSGWJJ]
+name : "其实管神工是我舅舅"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_JCJSSL]
+name : "坚持就是胜利"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_SHENQI]
+name : "改八啦"
+level : 5
+progress : 1
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_DW]
+name : "点我，ALT+P"
+level : 5
+progress : 1
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_YNGS]
+name : "咦，能改十！"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "装备改十"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_WSHNG]
+name : "哇塞，还能改"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "改十一啦"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_QFHYDEGM]
+name : "全服务器还有第二个吗"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "强烈要求开放无限改造"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_QBQWSLS]
+name : "强不强，我说了算"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_SS]
+name : "圣手"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_QJXWJJ]
+name : "其实驭剑仙也是我舅舅"
+level : 5
+progress : 1
+
+[ACHIEVE_EQUIP_SXLLZ]
+name : "属性轮流转"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_ZBD]
+name : "转不动"
+level : 3
+progress : 10
+
+[ACHIEVE_EQUIP_HGZB]
+name : "魂归装备"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_JCFY]
+name : "解除封印"
+level : 2
+progress : 1
+
+[ACHIEVE_EQUIP_ZYJHCNSC_NEW]
+name : "只有进化才能生存"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_XL]
+name : "心灵"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_SHOUQIAO]
+name : "手巧"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_WXXCXX]
+name : "我相信，出相性"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_X5LL]
+name : "好吧，相五来了，带价"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "相五制造师"
+
+[ACHIEVE_EQUIP_ZYJHCNSC]
+name : "只有进化才能生存废弃"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_EQUIP_BWCS]
+name : "宝物藏身"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_FBYNH]
+name : "法宝也能合"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_QQWDBB]
+name : "亲亲我的宝贝"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_SJFBJN]
+name : "升级法宝新技能"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_XJNYBLH]
+name : "新技能也不落后"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_FXFBYSB]
+name : "飞行法宝也是宝"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_FDJLYNFL]
+name : "飞的久了也就能飞了"
+level : 4
+progress : 1000
+
+[ACHIEVE_EQUIP_BPBL]
+name : "不破不立"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_CMSZX]
+name : "慈母手中线"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_XWYE]
+name : "小玩意儿"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_WJWWYZHD]
+name : "我家娃娃要最好的"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_ST_WRT]
+name : "为人徒"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_ST_WRS]
+name : "为人师"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_ST_SYJH]
+name : "传道授业解惑"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_ST_TLMTX]
+name : "桃李满天下"
+level : 3
+progress : 10
+
+[ACHIEVE_JIAOHU_ST_ZS]
+name : "宗师"
+level : 4
+progress : 50
+bonus_info : ({ "appellation_bonus", "glory_bonus" })
+appellation_bonus : "宗师"
+glory_bonus : 10000
+
+[ACHIEVE_JIAOHU_ST_QCYL]
+name : "青出于蓝而胜于蓝"
+level : 4
+progress : 1
+
+[ACHIEVE_JIAOHU_ST_SFLY]
+name : "师傅老矣"
+level : 4
+progress : 1
+
+[ACHIEVE_JIAOHU_JB_BBZ]
+name : "拜把子"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JB_TYJY]
+name : "桃园结义"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_JB_WQY]
+name : "五缺一"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JB_GDD]
+name : "固定队"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JB_WRSDJ]
+name : "我们五人耍单机"
+level : 4
+progress : 4
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "五人行"
+
+[ACHIEVE_JIAOHU_JH_JF]
+name : "结发"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_LQ]
+name : "离弃"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_QJCJ]
+name : "勤俭持家"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_XKZJ]
+name : "小康之家"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_DK]
+name : "大款"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_FQD]
+name : "夫妻档"
+level : 3
+progress : 50
+
+[ACHIEVE_JIAOHU_JH_QXG]
+name : "抢相公？"
+level : 4
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_QXN]
+name : "抢新娘？"
+level : 4
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_HXDLB]
+name : "花心大萝卜"
+level : 4
+progress : 50
+
+[ACHIEVE_JIAOHU_JH_YSYS]
+name : "一生一世"
+level : 4
+progress : 131400
+
+[ACHIEVE_JIAOHU_JH_QSSH]
+name : "情深似海"
+level : 4
+progress : 300000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "情深似海"
+
+[ACHIEVE_JIAOHU_JH_ZSBY]
+name : "至死不渝"
+level : 4
+progress : 500000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "至死不渝"
+
+[ACHIEVE_JIAOHU_JH_JJDZ]
+name : "家具打造"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_SJJJ]
+name : "四级家具"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_GJ]
+name : "工匠"
+level : 4
+progress : 10
+
+[ACHIEVE_JIAOHU_JH_JJZZS]
+name : "家具制作商"
+level : 5
+progress : 100
+
+[ACHIEVE_JIAOHU_JH_SF]
+name : "舒服"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_JZX]
+name : "精装修"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_LTBW_SYS]
+name : "试一试"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_LTBW_DKH]
+name : "大客户"
+level : 4
+progress : 30
+sub_progress : 10
+refresh_period : "per_day"
+
+[ACHIEVE_JIAOHU_LTBW_ZJGZS]
+name : "战绩工作室"
+level : 4
+progress : 30
+sub_progress : 10
+refresh_period : "per_day"
+
+[ACHIEVE_JIAOHU_LTBW_GXSJXS]
+name : "够修山几小时"
+level : 1
+progress : 50000
+
+[ACHIEVE_JIAOHU_LTBW_ZJBC]
+name : "战绩不愁"
+level : 3
+progress : 300000
+
+[ACHIEVE_JIAOHU_LTBW_WSMZJD]
+name : "我是卖战绩的"
+level : 4
+progress : 2000000
+
+[ACHIEVE_JIAOHU_QZPK_RWLR]
+name : "忍无可忍"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QZPK_SSCX]
+name : "嗜杀成性"
+level : 2
+progress : 5
+
+[ACHIEVE_JIAOHU_QZPK_CJMTX]
+name : "仇家满天下"
+level : 3
+progress : 50
+
+[ACHIEVE_JIAOHU_QZPK_KZS]
+name : "刽子手"
+level : 4
+progress : 100
+
+[ACHIEVE_JIAOHU_QZPK_NHGCM]
+name : "你还敢出门？"
+level : 4
+progress : 500
+
+[ACHIEVE_JIAOHU_QZPK_WWZZ]
+name : "无妄之灾"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QZPK_RDXR]
+name : "惹到小人"
+level : 2
+progress : 3
+reset_period : "per_day"
+
+[ACHIEVE_JIAOHU_QZPK_HRYSPA]
+name : "好人一生平安"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_QZPK_WYYL]
+name : "幸亏我有远见"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_QZPK_YSYS]
+name : "来呀，来呀"
+level : 4
+progress : 10
+
+[ACHIEVE_JIAOHU_SY_YQL]
+name : "有钱了"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_PMBM]
+name : "盆满钵满"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_XSY]
+name : "小生意"
+level : 1
+progress : 1000000
+reset_period : "per_day"
+
+[ACHIEVE_JIAOHU_SY_YZYQWY]
+name : "一周药钱无忧"
+level : 2
+progress : 10000000
+reset_period : "per_day"
+
+[ACHIEVE_JIAOHU_SY_BGRC]
+name : "五开押镖也不过如此"
+level : 3
+progress : 50000000
+reset_period : "per_day"
+
+[ACHIEVE_JIAOHU_SY_DMM]
+name : "大买卖"
+level : 4
+progress : 1000000000
+reset_period : "per_day"
+
+[ACHIEVE_JIAOHU_SY_QQBZ]
+name : "干嘛不去奇宝斋…"
+level : 4
+progress : 2000000000
+reset_period : "per_day"
+
+[ACHIEVE_JIAOHU_SY_STD]
+name : "实体店"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_DQZD]
+name : "不求最全，但求最大"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_PGD]
+name : "盘个店"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_KZ]
+name : "开张"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_LSJG]
+name : "连锁机构废弃"
+level : 3
+progress : 8
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_SY_SYYC]
+name : "事业有成"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_GSDSZ]
+name : "集团公司董事长"
+level : 4
+progress : 3
+
+[ACHIEVE_JIAOHU_SY_DS]
+name : "得手"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_WBL]
+name : "职业拍卖"
+level : 3
+progress : 50
+
+[ACHIEVE_JIAOHU_SY_JJJS]
+name : "竞价结束"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_BCQ]
+name : "不差钱"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_QSH]
+name : "抢手货"
+level : 4
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_DBL]
+name : "倒闭了"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_SY_QSHS]
+name : "起死回生"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_YB_SYK]
+name : "谁要卡？"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_YB_LYZ]
+name : "老板，来一张"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_YB_ZDMYWG]
+name : "我抢"
+level : 4
+progress : 35
+reset_period : "per_week"
+
+[ACHIEVE_JIAOHU_YB_QQ]
+name : "缺钱"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_YB_QYB]
+name : "缺元宝"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_ZC_XZGB]
+name : "想找个伴…"
+level : 5
+progress : 2
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "情种"
+
+[ACHIEVE_SHANGC_ZC_ZSHY]
+name : "终身会员"
+level : 5
+progress : 4800
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "位列仙班"
+
+[ACHIEVE_SHANGC_ZC_SS]
+name : "盛世"
+level : 5
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "万世唯一"
+csa_rumor : 1
+
+[ACHIEVE_SHANGC_ZC_YMCM]
+name : "以名出名"
+level : 5
+progress : 200
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "无名"
+csa_rumor : 1
+
+[ACHIEVE_SHANGC_LGDJ_ZDYTX]
+name : "真的有特效？"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_SBBLS]
+name : "三倍不离身"
+level : 4
+progress : 200
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "修道我最勤"
+
+[ACHIEVE_SHANGC_LGDJ_WYLCJ]
+name : "我也来超级"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_SBWGJ]
+name : "双倍为根基"
+level : 4
+progress : 400
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "超级修道人"
+
+[ACHIEVE_SHANGC_LGDJ_CWYSB]
+name : "宠物也三倍"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_ACRM]
+name : "爱宠如命"
+level : 4
+progress : 400
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "养宠专业户"
+
+[ACHIEVE_SHANGC_LGDJ_DDYS]
+name : "多多益善"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_JI]
+name : "急！"
+level : 4
+progress : 400
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "风风火火"
+
+[ACHIEVE_SHANGC_LGDJ_LDKL]
+name : "铃铛开路"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_YYRL]
+name : "余音绕梁"
+level : 4
+progress : 400
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "叮当"
+
+[ACHIEVE_SHANGC_LGDJ_SHOU]
+name : "嗖……"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_HLHQ]
+name : "灰过来，又灰过去…"
+level : 4
+progress : 2000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "飞人"
+
+[ACHIEVE_SHANGC_LGDJ_GZNL]
+name : "怪在哪里？"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_WWW]
+name : "嗡嗡嗡"
+level : 4
+progress : 2000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "小蜜蜂"
+
+[ACHIEVE_SHANGC_LGDJ_YBWH]
+name : "有备无患"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_MSHHS]
+name : "貌似会很爽"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_GJXMWY]
+name : "挂机，性命无忧"
+level : 2
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_GJNYBJ]
+name : "挂机，能源不竭"
+level : 2
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_BPS]
+name : "不怕死"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_PS]
+name : "怕死"
+level : 4
+progress : 120
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "菩萨保佑"
+
+[ACHIEVE_SHANGC_LGDJ_TZYY]
+name : "逃之夭夭"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_SSLJZYQY]
+name : "三十六计只会其一"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "逃命专家"
+
+[ACHIEVE_SHANGC_LGDJ_XYSW]
+name : "心有所悟"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_NKDCGWDS]
+name : "你肯定吃过我的书…"
+level : 4
+progress : 200
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "著书立说"
+
+[ACHIEVE_SHANGC_LGDJ_XBS]
+name : "想变身"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_NZQM]
+name : "能赚钱吗？"
+level : 4
+progress : 200
+
+[ACHIEVE_SHANGC_LGDJ_WXYGC]
+name : "我想有个宠"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_ZYSTJ]
+name : "只要三天技"
+level : 4
+progress : 100
+
+[ACHIEVE_SHANGC_GNDJ_WLJYX]
+name : "为了进一线？"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_ZGGHS]
+name : "这个更划算"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_PLTMF]
+name : "跑路太麻烦"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_CBZR]
+name : "从不走路"
+level : 4
+progress : 4000
+
+[ACHIEVE_SHANGC_GNDJ_JCDL]
+name : "加错点了"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_WSYZG]
+name : "为啥用这个"
+level : 4
+progress : 200
+
+[ACHIEVE_SHANGC_GNDJ_XXYJCL]
+name : "相性也加错了"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_XLHJC]
+name : "洗了好几次"
+level : 4
+progress : 200
+
+[ACHIEVE_SHANGC_GNDJ_ZMGDJHSW]
+name : "这么高等级还手误"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_YBBD]
+name : "摇摆不定"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "亦仙亦魔"
+
+[ACHIEVE_SHANGC_GNDJ_HYSZJ]
+name : "慧眼识真金"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_WKY]
+name : "我开眼！"
+level : 4
+progress : 1000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "火眼金睛"
+
+[ACHIEVE_SHANGC_GNDJ_SSE]
+name : "省事儿"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_TYLGQ]
+name : "讨厌练功区"
+level : 4
+progress : 1000
+
+[ACHIEVE_SHANGC_GNDJ_BXPHQ]
+name : "不想跑回去"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_SDSSD]
+name : "商店随身带"
+level : 4
+progress : 1000
+
+[ACHIEVE_SHANGC_GNDJ_YPZYFL]
+name : "有朋自远方来"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_YX]
+name : "有喜"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_DL]
+name : "捣乱"
+level : 4
+progress : 100
+
+[ACHIEVE_SHANGC_GNDJ_ZYJYH]
+name : "这也叫烟花？"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_ZQ]
+name : "糟钱"
+level : 4
+progress : 100
+
+[ACHIEVE_SHANGC_GNDJ_DXGW]
+name : "大喜过望"
+level : 3
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_SDYSW]
+name : "省电又省网"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_ZBZXSGWT]
+name : "在不在线，这是个问题"
+level : 3
+progress : 50
+
+[ACHIEVE_SHANGC_GNDJ_WXGSJ]
+name : "我想挂时间"
+level : 4
+progress : 100
+
+[ACHIEVE_SHANGC_GNDJ_XHDWX]
+name : "鲜花代我心"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_YRALW]
+name : "有人暗恋我"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_FXAX]
+name : "芳心暗许"
+level : 4
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "花王"
+
+[ACHIEVE_SHANGC_GNDJ_WRM]
+name : "万人迷"
+level : 4
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "花花"
+
+[ACHIEVE_SHANGC_GNDJ_SGBWQ]
+name : "水果表我情"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_WACSG]
+name : "我爱吃水果"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_GWXQ]
+name : "果味心情"
+level : 4
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "果果"
+
+[ACHIEVE_SHANGC_GNDJ_HLTG]
+name : "囫囵吞果"
+level : 4
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "果王"
+
+[ACHIEVE_SHANGC_GNDJ_ZGNCGYL]
+name : "寻宝之路"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_DYQK]
+name : "大有乾坤"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_OTC]
+name : "求医问药"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_QDS]
+name : "缺点啥"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_CMDYS]
+name : "出门带钥匙"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_JTSB]
+name : "家徒四壁"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_YDLR]
+name : "一队懒人"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_FSFS]
+name : "分身乏术"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_XYBG]
+name : "心有不甘"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_GNDJ_AQDY]
+name : "安全第一"
+level : 3
+progress : 1
+
+[ACHIEVE_SHANGC_ZBDJ_SLHSJ]
+name : "是灵还是晶"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_SZ_SZDR]
+name : "时装达人"
+level : 4
+progress : 1
+
+[ACHIEVE_SHANGC_SZ_SZMT]
+name : "问道时装模特"
+level : 4
+progress : 3
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "时装模特"
+
+[ACHIEVE_CZSJL_WZYLL]
+name : "我中元灵了！"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "充值送元灵"
+csa_rumor : 1
+
+[ACHIEVE_CZSJL_BYSS]
+name : "我中变异了！"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "充值送变异"
+csa_rumor : 1
+
+[ACHIEVE_CZSJL_SS]
+name : "我中神兽了！"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "充值送神兽"
+csa_rumor : 1
+
+[ACHIEVE_CZSJL_CWMJ]
+name : "宠物秘笈！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "充值送好礼"
+
+[ACHIEVE_CZSJL_XXY]
+name : "相性药！"
+level : 3
+progress : 1
+
+[ACHIEVE_CZSJL_BSK]
+name : "抽到变身卡"
+level : 2
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_QC_LLS]
+name : "练练手"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QC_WSGXB]
+name : "我是个小兵"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QC_BZBS]
+name : "百战百胜！"
+level : 4
+progress : 30
+sub_progress : 10
+refresh_period : "per_day"
+
+[ACHIEVE_JIAOHU_QC_SJBZ]
+name : "身经百战？！"
+level : 4
+progress : 30
+sub_progress : 10
+refresh_period : "per_day"
+
+[ACHIEVE_EQUIP_FZY]
+name : "封之印"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "封印师"
+
+[ACHIEVE_EQUIP_WMSX]
+name : "哇，满属性"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "哇，满属性"
+
+[ACHIEVE_BASIC_WF_GJ]
+name : "挂机"
+level : 4
+progress : 2000
+sub_progress : 3600
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "活跃玩家"
+
+[ACHIEVE_BASIC_WF_JD]
+name : "金丹"
+level : 3
+progress : 15
+
+[ACHIEVE_BASIC_WF_MY]
+name : "妙药"
+level : 3
+progress : 30
+
+[ACHIEVE_BASIC_WF_JDMY]
+name : "金丹妙药"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_WF_CFZYJL]
+name : "财富在于积累"
+level : 4
+progress : 1000000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "百万富翁"
+
+[ACHIEVE_FB_ZZDXJ]
+name : "真正的星君"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "雕像"
+
+[ACHIEVE_JIAOHU_QZPK_ZDEJ]
+name : "罪大恶极"
+level : 3
+progress : 10
+
+[ACHIEVE_JIAOHU_QZPK_JEBS]
+name : "极恶不赦"
+level : 4
+progress : 30
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "极恶不赦"
+
+[ACHIEVE_JIAOHU_TXDH_TZW]
+name : "天之武"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_TXDH_DZJ]
+name : "地之杰"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_TXDH_WWSQ]
+name : "文武双全"
+level : 3
+progress : 1
+
+[ACHEIVE_SHANGC_SZ_CWYLX]
+name : "宠物也来秀"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_WB_GSM]
+name : "赶时髦"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_WB_WBK]
+name : "微博控"
+level : 2
+progress : 30
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_WB_WBDR]
+name : "微博达人"
+level : 4
+progress : 360
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "微博达人"
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_WB_CSFX]
+name : "初次分享"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_WB_WZWB]
+name : "玩转微博"
+level : 2
+progress : 100
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_WB_WTBXL]
+name : "我停不下来！"
+level : 4
+progress : 500
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_JKC_CCJH]
+name : "初次激活"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_DYZK]
+name : "第一张卡"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_GWNDK]
+name : "给我你的卡"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_PTKKS]
+name : "普通卡卡神"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_SSKKS]
+name : "神兽卡卡神"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_BYKKS]
+name : "变异卡卡神"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_BSKKS]
+name : "BOSS卡卡神"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_GCKKS]
+name : "鬼宠卡卡神"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JKC_KPSJK]
+name : "卡片收集狂"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "卡片收集狂"
+
+[ACHIEVE_EQUIP_ZBGZ9]
+name : "九五至尊！！！"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "九五至尊！！！"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_ZBGZ10]
+name : "十全十美！！！"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "十全十美！！！"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_WYLGM]
+name : "我也来共鸣"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_GMHHY]
+name : "共鸣很好用"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_GMSXBYQH]
+name : "共鸣属性不用强化"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "完美主义者"
+
+[ACHIEVE_BASIC_YLF_HDXJN]
+name : "好多新技能"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_YLF_ZXJNWDXL]
+name : "这些技能我都学了"
+level : 3
+progress : 26
+
+[ACHIEVE_BASIC_YLF_WMYLF]
+name : "完美引灵幡"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "完美引灵幡"
+
+[ACHIEVE_BASIC_YLF_HXHY]
+name : "活学活用"
+level : 4
+progress : 10000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "活学活用"
+
+[ACHIEVE_BASIC_YLF_QMYLF]
+name : "全满引灵幡"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "灵幡大神"
+
+[ACHIEVE_BASIC_BG_CWYBG]
+name : "宠物也闭关"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_BG_QSLCW]
+name : "轻松练宠物"
+level : 2
+progress : 10
+
+[ACHIEVE_BASIC_BG_LCWBYC]
+name : "练宠物不用愁"
+level : 3
+progress : 30
+
+[ACHIEVE_BASIC_BG_CWXLCX]
+name : "宠物修炼成仙"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "闭关修炼达人"
+
+[ACHIEVE_TSHD_XSLGXY]
+name : "小试龙宫献艺"
+level : 1
+progress : 1
+
+[ACHIEVE_TSHD_LGXYDR]
+name : "龙宫献艺达人"
+level : 3
+progress : 12
+
+[ACHIEVE_TSHD_LGYR]
+name : "龙宫艺人"
+level : 4
+progress : 1
+
+[ACHIEVE_TSHD_LGZY]
+name : "龙宫状元"
+level : 5
+progress : 12
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "龙宫状元"
+
+[ACHIEVE_SHANGC_GNDJ_XBYNH]
+name : "性别也能换"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "变性"
+
+[ACHIEVE_CWYL_YYR]
+name : "有缘人"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_MLCJ]
+name : "明了禅机"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_FZWLL]
+name : "佛祖，我来了"
+level : 4
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "禅心"
+
+[ACHIEVE_CWYL_LHJP]
+name : "炼化精魄"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_XGBQ]
+name : "效果拔群"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_CJJH]
+name : "超级进化"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_JJJH]
+name : "究极进化"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_ZZBSM]
+name : "至尊不是梦"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "至尊不是梦"
+
+[ACHIEVE_BASIC_JC_ZSSMYQ]
+name : "这是什么运气！"
+level : 4
+progress : 30
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "职业赌徒"
+
+[ACHIEVE_BASIC_JC_DX]
+name : "赌侠"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "赌侠"
+
+[ACHIEVE_BASIC_JC_DW]
+name : "赌王"
+level : 4
+progress : 20
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "赌王"
+
+[ACHIEVE_BASIC_JC_DS]
+name : "赌圣"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "赌圣"
+
+[ACHIEVE_FB_ZSSMMSX]
+name : "这是什么满属性"
+level : 3
+progress : 1
+
+[ACHIEVE_FB_FBBSBLD]
+name : "副本不是白来的"
+level : 4
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "副本不是白来的"
+
+[ACHIEVE_SHANGC_GNDJ_XDJP]
+name : "寻得精魄"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "寻得精魄"
+
+[ACHIEVE_SHANGC_GNDJ_LZZYQK]
+name : "囊中自有乾坤"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "囊中自有乾坤"
+
+[ACHIEVE_BASIC_QT_WJP]
+name : "哇，精魄"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "哇，精魄"
+
+[ACHIEVE_BASIC_QT_WMNZM]
+name : "我没那种命"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "精魄在哪里"
+
+[ACHIEVE_BASIC_TZH_GDS]
+name : "够胆色"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_WF_FDYYR]
+name : "佛渡有缘人"
+level : 1
+progress : 1
+
+[ACHIEVE_TSHD_TWLK]
+name : "星星点灯"
+level : 1
+progress : 1
+
+[ACHIEVE_TSHD_TWFX]
+name : "天外飞仙"
+level : 1
+progress : 1
+
+[ACHIEVE_TSHD_YQLKYSY]
+name : "一起来看陨石雨"
+level : 4
+progress : 100
+
+[ACHIEVE_TSHD_TMXK]
+name : "探秘星空"
+level : 4
+progress : 9
+
+[ACHIEVE_TSHD_YZHH]
+name : "宇宙洪荒"
+level : 5
+progress : 9
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天外来客"
+csa_rumor : 1
+
+[ACHIEVE_TSHD_MRFS]
+name : "梦入封神"
+level : 1
+progress : 1
+
+[ACHIEVE_TSHD_QSYY]
+name : "前世姻缘"
+level : 3
+progress : 4
+
+[ACHIEVE_TSHD_YLKZ]
+name : "妖孽！看招"
+level : 1
+progress : 1
+
+[ACHIEVE_TSHD_XM]
+name : "降魔"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "降魔人"
+
+[ACHIEVE_JIAOHU_JH_WQWY]
+name : "无情无义"
+level : 4
+progress : 99
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "陈世美"
+
+[ACHIEVE_BASIC_QT_SMQT]
+name : "师门弃徒"
+level : 4
+progress : 30
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "师门弃徒"
+
+[ACHIEVE_PARTY_BPWF_MFLB]
+name : "免费喇叭"
+level : 1
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_LBHBW]
+name : "喇叭喊不完"
+level : 4
+progress : 100
+
+[ACHIEVE_PARTY_BPWF_YQBC]
+name : "运气不错"
+level : 3
+progress : 1
+
+[ACHIEVE_PARTY_BPWF_SBJWNW]
+name : "刷帮就为女娲"
+level : 4
+progress : 30
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "补天神将"
+
+[ACHIEVE_FB_MZKR]
+name : "梦中窥人"
+level : 4
+progress : 30
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "梦中窥人"
+
+[ACHIEVE_SHANGC_GNDJ_JZBF]
+name : "价值不菲"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "命中注定"
+csa_rumor : 1
+
+[ACHIEVE_SHANGC_GNDJ_JNMJ]
+name : "锦囊妙计"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "锦囊妙计"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_XLMZSS]
+name : "血炼魔猪首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "血炼魔猪首杀"
+
+[ACHIEVE_BASIC_TZH_TF]
+name : "屠夫"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_TZH_PD]
+name : "庖丁"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "庖丁"
+
+[ACHIEVE_BASIC_TZH_QX_BING]
+name : "七星·兵"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "过河卒"
+
+[ACHIEVE_BASIC_TZH_QX_PAO]
+name : "七星·炮"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "当头炮"
+
+[ACHIEVE_BASIC_TZH_QX_MA]
+name : "七星·傌"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "屏风馬"
+csa_rumor : 1
+
+[ACHIEVE_BASIC_TZH_QX_CHE]
+name : "七星·俥"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "巡河車"
+csa_rumor : 1
+
+[ACHIEVE_BASIC_TZH_QX_XIANG]
+name : "七星·相"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "无双相"
+csa_rumor : 1
+
+[ACHIEVE_BASIC_TZH_QX_SHI]
+name : "七星·仕"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "智勇仕"
+csa_rumor : 1
+
+[ACHIEVE_BASIC_TZH_QX_SHUAI]
+name : "七星·帥"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "將军"
+csa_rumor : 1
+
+[ACHIEVE_FB_MHBX]
+name : "梦回八仙"
+level : 2
+progress : 1
+
+[ACHIEVE_BASIC_QT_XDYWZJ]
+name : "修道永无止境"
+level : 3
+progress : 1000
+
+[ACHIEVE_BASIC_QT_TSDR]
+name : "天师道人"
+level : 4
+progress : 50000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天师道人"
+
+[ACHIEVE_JIAOHU_SY_LSD]
+name : "连锁店"
+level : 2
+progress : 3
+
+[ACHIEVE_EQUIP_ZSWL]
+name : "转世为灵"
+level : 3
+progress : 1
+
+[ACHIEVE_FB_CTJZ]
+name : "初探剑阵"
+level : 1
+progress : 1
+
+[ACHIEVE_FB_QGZMWJ]
+name : "千古之谜无解？"
+level : 4
+progress : 3000
+
+[ACHIEVE_FB_CTTG]
+name : "初探天罡"
+level : 1
+progress : 1
+
+[ACHIEVE_FB_BPCZBBX]
+name : "不破此阵不罢休"
+level : 4
+progress : 3000
+
+[ACHIEVE_FB_GSBGRC]
+name : "高手不过如此"
+level : 1
+progress : 1
+
+[ACHIEVE_FB_DBTT]
+name : "独霸天庭"
+level : 4
+progress : 3000
+
+[ACHIEVE_BASIC_QT_HXBSM]
+name : "好像挺神秘 "
+level : 1
+progress : 1000
+
+[ACHIEVE_BASIC_QT_YDDBSM]
+name : "一点都不神秘"
+level : 4
+progress : 30000
+
+[ACHIEVE_CZSJL_SXY]
+name : "属性药！"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_QNZY]
+name : "七年之痒"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "七年之痒"
+
+[ACHIEVE_CWYL_YDFX]
+name : "一道升仙"
+level : 4
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_HHCYM]
+name : "豪华才有面"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_TZH_ZJCRL]
+name : "真君承让了"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_MX_HF]
+name : "洪福"
+level : 5
+progress : 300
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "福星高照"
+
+[ACHIEVE_BASIC_MX_HC]
+name : "鸿财"
+level : 5
+progress : 300
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "财运滚滚"
+
+[ACHIEVE_BASIC_MX_ZS]
+name : "诛神"
+level : 5
+progress : 300
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "诛神"
+
+[ACHIEVE_JIAOHU_QB_CSQBZ]
+name : "初试奇宝斋"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QB_SYCQB]
+name : "事业初起步"
+level : 1
+progress : 10
+
+[ACHIEVE_JIAOHU_QB_QTBX]
+name : "全天不休"
+level : 2
+progress : 100
+
+[ACHIEVE_JIAOHU_QB_RYJY]
+name : "日以继夜"
+level : 3
+progress : 1000
+
+[ACHIEVE_JIAOHU_QB_YJHK]
+name : "养家糊口"
+level : 4
+progress : 10000
+
+[ACHIEVE_JIAOHU_QB_CJDMJ]
+name : "超级大卖家"
+level : 5
+progress : 50000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "超级大卖家"
+
+[ACHIEVE_JIAOHU_QB_CTQBZ]
+name : "初探奇宝斋"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QB_QBDJX]
+name : "奇宝多惊喜"
+level : 1
+progress : 10
+
+[ACHIEVE_JIAOHU_QB_DSDJ]
+name : "大手大脚"
+level : 2
+progress : 100
+
+[ACHIEVE_JIAOHU_QB_HJRT]
+name : "挥金如土"
+level : 3
+progress : 1000
+
+[ACHIEVE_JIAOHU_QB_MZEG]
+name : "满载而归"
+level : 4
+progress : 10000
+
+[ACHIEVE_JIAOHU_QB_TBDR]
+name : "淘宝达人"
+level : 5
+progress : 50000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "淘宝达人"
+
+[ACHIEVE_JIAOHU_QB_SYHZ]
+name : "商业合作"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QB_BNZPY]
+name : "不能再便宜了"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QB_YSYNM]
+name : "角色也能当货卖"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QB_ZSBBM]
+name : "这是宝不能卖"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QB_YSYSLJJ]
+name : "一闪一闪亮晶晶"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QB_QBZZX]
+name : "奇宝斋之星"
+level : 2
+progress : 28
+refresh_period : "per_day"
+
+[ACHIEVE_JIAOHU_QB_QJZX]
+name : "奇迹之星"
+level : 4
+progress : 280
+refresh_period : "per_day"
+
+[ACHIEVE_CWYL_CJYH]
+name : "初驾御魂"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_FYDF]
+name : "飞跃巅峰"
+level : 2
+progress : 10
+
+[ACHIEVE_CWYL_FYSWBQL]
+name : "飞跃十万八千里"
+level : 3
+progress : 25
+
+[ACHIEVE_CWYL_XHBMDJDL]
+name : "小伙伴们都惊呆了"
+level : 3
+progress : 4
+
+[ACHIEVE_CWYL_ZZ]
+name : "助阵"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QZPK_QBHS]
+name : "取保候审"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QZPK_LHR]
+name : "老好人"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "老好人"
+
+[ACHIEVE_JIAOHU_QZPK_JY]
+name : "劫狱"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_QZPK_JYZ]
+name : "监狱长"
+level : 3
+progress : 100
+
+[ACHIEVE_JIAOHU_HY_CSRS]
+name : "出生入死"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "出生入死"
+
+[ACHIEVE_JIAOHU_HY_SJSD]
+name : "随叫随到"
+level : 3
+progress : 100
+
+[ACHIEVE_JIAOHU_HY_GXJJ]
+name : "割席绝交"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_ZAYS]
+name : "钟爱一生"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "钟爱一生"
+
+[ACHIEVE_JIAOHU_JH_JSZH]
+name : "绝世尊华"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "绝世尊华"
+csa_rumor : 1
+
+[ACHIEVE_CHILD_RC_HZHJ]
+name : "后知后觉"
+level : 1
+progress : 1
+
+[ACHIEVE_CHILD_RC_QNBZ]
+name : "勤能补拙"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_SSSJY]
+name : "首饰设计员"
+level : 4
+progress : 100
+
+[ACHIEVE_EQUIP_SSSJS]
+name : "首饰设计师"
+level : 5
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "首饰设计师"
+
+[ACHIEVE_EQUIP_SWSJ]
+name : "饰物升级"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_SWYKYQ]
+name : "饰物也可以强"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_XXZJ]
+name : "相性增加"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_SWSJSR]
+name : "饰物升级商人"
+level : 4
+progress : 100
+
+[ACHIEVE_EQUIP_SWSXZH]
+name : "饰物属性置换"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_YHSXM]
+name : "有好属性吗"
+level : 4
+progress : 10
+
+[ACHIEVE_EQUIP_SYXX]
+name : "所有相性"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "哇，所有相性"
+
+[ACHIEVE_CWYL_HTJN]
+name : "后天技能"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_TJCWZZZ]
+name : "天技宠物制造者"
+level : 4
+progress : 30
+
+[ACHIEVE_BASIC_TZH_TGDS]
+name : "天罡地煞"
+level : 4
+progress : 10000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天罡地煞"
+
+[ACHIEVE_BASIC_TZH_SSZJ]
+name : "四圣真君"
+level : 5
+progress : 10000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "四圣真君"
+
+[ACHIEVE_BASIC_ZZ_ZZZB]
+name : "中洲争霸"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_ZZ_DYZCC]
+name : "第一座城池"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_ZZ_JZG]
+name : "建筑工"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_ZZ_GCD]
+name : "工程队"
+level : 4
+progress : 30
+refresh_period : "per_day"
+
+[ACHIEVE_BASIC_ZZ_CQGC]
+name : "长期工程"
+level : 5
+progress : 100
+refresh_period : "per_day"
+
+[ACHIEVE_BASIC_ZZ_WXJGCD]
+name : "五星级工程队"
+level : 5
+progress : 30
+sub_progress : 3
+refresh_period : "per_day"
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "明星工程队"
+
+[ACHIEVE_BASIC_JS_WNXD]
+name : "万年小道"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "万年小道"
+
+[ACHIEVE_BASIC_JS_LWLD]
+name : "两万老道"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "两万老道"
+
+[ACHIEVE_BASIC_JS_SWCX]
+name : "三万成仙"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "三万成仙"
+
+[ACHIEVE_BASIC_JS_SWFX]
+name : "四万飞仙"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "四万飞仙"
+
+[ACHIEVE_BASIC_JS_WWXD]
+name : "五万仙道"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "五万仙道"
+
+[ACHIEVE_BASIC_QT_WYQHH]
+name : "我运气很好"
+level : 4
+progress : 30
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_QT_BXYPQDR]
+name : "被幸运抛弃的人"
+level : 4
+progress : 100
+refresh_period : "per_day"
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "衰神"
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_QT_SMDJ]
+name : "神秘道具"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_SWJSJY]
+name : "声望就是经验"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_QT_WBXYQ]
+name : "我不想要钱"
+level : 3
+progress : 5
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_QT_HYJGZ]
+name : "鸿运眷顾者"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_QT_SBSB]
+name : "十倍，十倍"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_QT_DDD]
+name : "道道道"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "道道道"
+
+[ACHIEVE_BASIC_QT_SM]
+name : "算命"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_QT_MLYSZXY]
+name : "命里有时终须有"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "命里有时终须有"
+
+[ACHIEVE_PARTY_TZBP_BZYL]
+name : "帮战元老"
+level : 5
+progress : 180
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "帮战元老"
+
+[ACHIEVE_PARTY_TZBP_BPYL]
+name : "帮派元老"
+level : 5
+progress : 1200000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "帮派元老"
+
+[ACHIEVE_JIAOHU_ST_JDYF]
+name : "教导有方"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "教导有方"
+csa_rumor : 1
+
+[ACHIEVE_JIAOHU_JB_JJ]
+name : "绝交"
+level : 3
+progress : 1
+
+[ACHIEVE_SHANGC_ZC_TJJP]
+name : "天降精魄"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天降精魄"
+
+[ACHIEVE_SHANGC_LGDJ_NKDCGWDK]
+name : "你肯定吃过我的卡"
+level : 5
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "百变大师"
+
+[ACHIEVE_SHANGC_LGDJ_LH]
+name : "炼魂"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_LGDJ_WYLMYLF]
+name : "我要练满引灵幡"
+level : 4
+progress : 100
+
+[ACHEIVE_SHANGC_CWDJ_GY]
+name : "归元"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_CWDJ_NSZHHM]
+name : "你是在幻化吗？"
+level : 3
+progress : 100
+
+[ACHIEVE_SHANGC_CWDJ_CZD]
+name : "成长丹"
+level : 1
+progress : 1
+
+[ACHIEVE_SHANGC_CWDJ_MCZ]
+name : "满成长"
+level : 4
+progress : 1
+
+[ACHIEVE_SHANGC_MP_XX]
+name : "秀秀"
+level : 2
+progress : 1
+
+[ACHIEVE_SHANGC_MP_SSDR]
+name : "时尚达人"
+level : 4
+progress : 1
+
+[ACHIEVE_EQUIP_SCFY]
+name : "首次封印"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_GFS]
+name : "高富帅"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_TBW]
+name : "淘宝王"
+level : 5
+progress : 1000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "淘宝王"
+
+[ACHIEVE_PARTY_TZBP_ZLDY]
+name : "主力队员"
+level : 5
+progress : 500
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "绝对主力"
+
+[ACHIEVE_CWYL_YHBS]
+name : "羽化变身"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_JH_ZZ]
+name : "寨主"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_SZZW]
+name : "山寨之王"
+level : 4
+progress : 1
+
+[ACHIEVE_CSWM_GZDY_JPTTW]
+name : "极品挑剔王"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "极品挑剔王"
+
+[ACHIEVE_EQUIP_TTDXZ]
+name : "挑剔的小主"
+level : 4
+progress : 100
+
+[ACHIEVE_EQUIP_TTW]
+name : "挑剔王"
+level : 5
+progress : 1000
+
+[ACHIEVE_BASIC_QT_LJNH]
+name : "老君你好"
+level : 1
+progress : 5
+
+[ACHIEVE_BASIC_QT_LJTTJ]
+name : "老君天天见"
+level : 4
+progress : 100
+
+[ACHIEVE_JIAOHU_YRL_WYBWDJF]
+name : "哇！用不完的积分！"
+level : 4
+progress : 100
+
+[ACHIEVE_JIAOHU_YRL_HGYLR]
+name : "合格引路人"
+level : 3
+progress : 100000
+
+[ACHIEVE_JIAOHU_YRL_YXYLR]
+name : "优秀引路人"
+level : 5
+progress : 500000
+
+[ACHIEVE_JIAOHU_YRL_ZYKYHHY]
+name : "这也可以换会员？"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_HY_QY]
+name : "契友"
+level : 5
+progress : 1
+
+[ACHIEVE_CSWM_GZDY_TTSS]
+name : "吞天首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "吞天首杀"
+
+[ACHIEVE_CJHD_YQGCJ]
+name : "与问道一起过春节"
+level : 5
+progress : 15
+sub_progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "问道年"
+refresh_period : "per_day"
+
+[ACHIEVE_CJHD_MNWLSS]
+name : "马年我来守岁！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "守岁"
+
+[ACHIEVE_CJHD_FDMNFQD]
+name : "福到，马年福气到！"
+level : 3
+progress : 1
+
+[ACHIEVE_CJHD_YQCZF]
+name : "一千次祝福"
+level : 4
+progress : 1000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "福如东海"
+
+[ACHIEVE_CJHD_SWGZF]
+name : "十万个祝福"
+level : 5
+progress : 100000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "齐天洪福"
+
+[ACHIEVE_CJHD_TZCT]
+name : "挑战赤兔！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "马中赤兔"
+
+[ACHIEVE_CJHD_TZDL]
+name : "挑战的卢！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "马中的卢"
+
+[ACHIEVE_CJHD_TZJY]
+name : "挑战绝影！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "马中绝影"
+
+[ACHIEVE_JIAOHU_JH_TH]
+name : "土豪"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "土豪"
+csa_rumor : 1
+
+[ACHIEVE_TSSJ_CTSJ]
+name : "初探世界"
+level : 1
+progress : 1
+
+[ACHIEVE_TSSJ_RSZZ]
+name : "认识中洲"
+level : 2
+progress : 1
+
+[ACHIEVE_TSSJ_ZZQH]
+name : "中洲起航"
+level : 2
+progress : 1
+
+[ACHIEVE_TSSJ_TZDS]
+name : "探知斗士"
+level : 3
+progress : 1
+
+[ACHIEVE_TSSJ_WWJX]
+name : "无畏艰辛"
+level : 4
+progress : 1
+
+[ACHIEVE_TSSJ_ZZSZ]
+name : "中洲使者"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "中洲使者"
+
+[ACHIEVE_BY_ZY]
+name : "抓鱼"
+level : 1
+progress : 1
+
+[ACHIEVE_BY_WZZB]
+name : "瓮中捉鳖"
+level : 1
+progress : 1
+
+[ACHIEVE_BY_GB]
+name : "龟宝"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "龟宝"
+
+[ACHIEVE_BY_SYDWWLL]
+name : "鲨鱼到我碗里来"
+level : 3
+progress : 1
+
+[ACHIEVE_BY_SYLR]
+name : "鲨鱼猎人"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "鲨鱼猎人"
+
+[ACHIEVE_BY_JSLL]
+name : "金...金鲨来了"
+level : 3
+progress : 1
+
+[ACHIEVE_BY_ZWZJS]
+name : "只为抓金鲨"
+level : 4
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "金鲨痴迷者"
+
+[ACHIEVE_BY_JTDD]
+name : "“鲸”天动地"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "鲸天动地"
+
+[ACHIEVE_TSHD_LSZX]
+name : "来生再续"
+level : 3
+progress : 4
+
+[ACHIEVE_CSWM_GZDY_SDSS]
+name : "噬地首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "噬地首杀"
+
+[ACHIEVE_LIUXCJ_ZH_ZETT]
+name : "罪恶滔天"
+level : 6
+progress : 999
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "嗜血狂魔"
+longteng_msg : "佛来斩佛\t魔来斩魔\t嗜血狂魔"
+
+[ACHIEVE_LIUXCJ_ZH_TSHY]
+name : "天神护佑！"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "生死簿里找不到我"
+to_be_deleted : 1
+
+[ACHIEVE_LIUXCJ_ZH_HNGDM]
+name : "还能更倒霉一点么？"
+level : 6
+progress : 200
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "倒霉鬼"
+longteng_msg : "队友缺心眼\t宝宝像蜗牛\t倒霉鬼"
+
+[ACHIEVE_LIUXCJ_ZH_CGFDBM]
+name : "这货是病猫"
+level : 6
+progress : 20
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "养了只吃干饭的病猫"
+longteng_msg : "朽木不可雕\t粪土不上墙\t这货是病猫"
+
+[ACHIEVE_LIUXCJ_ZH_GBZZ]
+name : "丐帮之主"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "丐帮之主"
+longteng_msg : "手持打狗棒\t拳打降龙掌\t丐帮之主"
+
+[ACHIEVE_LIUXCJ_ZH_TYCSWJ]
+name : "肥水不流外人田"
+level : 6
+progress : 1000000000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "天墉城是我家"
+longteng_msg : "段铁心是我舅\t屠娇娇叫干娘\t天墉城是我家"
+
+[ACHIEVE_LIUXCJ_ZH_LHM]
+name : "癞蛤蟆"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "我是癞蛤蟆，不吃天鹅肉"
+longteng_msg : "我是癞蛤蟆\t不吃天鹅肉\t癞蛤蟆"
+
+[ACHIEVE_CSWM_XSYX_WWSQ]
+name : "文韬武略"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "文韬武略"
+
+[ACHIEVE_BASIC_GY_WYHCJ]
+name : "我也会采集"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_WYHDK]
+name : "我也会打孔"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_WYHXQ]
+name : "我也会镶嵌"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_GY_CJCJSF]
+name : "初级采集师傅"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_CJDKSF]
+name : "初级打孔师傅"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_CJXQSF]
+name : "初级镶嵌师傅"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_GY_DKHRY]
+name : "打孔很容易"
+level : 2
+progress : 10
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_XQHRY]
+name : "镶嵌很容易"
+level : 2
+progress : 10
+
+[ACHIEVE_BASIC_GY_MYDKDTF]
+name : "没有打孔的天赋"
+level : 1
+progress : 10
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_MYXQDTF]
+name : "没有镶嵌的天赋"
+level : 1
+progress : 10
+
+[ACHIEVE_BASIC_GY_CJZYH]
+name : "采集专业户"
+level : 2
+progress : 1000
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_DKZYH]
+name : "打孔专业户"
+level : 2
+progress : 100
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_XQZYH]
+name : "镶嵌专业户"
+level : 2
+progress : 100
+
+[ACHIEVE_BASIC_GY_CJSWDAH]
+name : "采集是我的爱好"
+level : 3
+progress : 10000
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_DKYJQ]
+name : "打孔有技巧"
+level : 3
+progress : 1000
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_XQKYQ]
+name : "镶嵌靠运气"
+level : 3
+progress : 1000
+
+[ACHIEVE_BASIC_GY_YRYYDCJS]
+name : "游刃有余的采集师"
+level : 3
+progress : 100
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_YRYYDDKS]
+name : "游刃有余的打孔师"
+level : 3
+progress : 100
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_YRYYDXQS]
+name : "游刃有余的镶嵌师"
+level : 3
+progress : 100
+
+[ACHIEVE_BASIC_GY_DSCJDFZL]
+name : "登上采集巅峰之路"
+level : 5
+progress : 200
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "采集王"
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_DSDKDFZL]
+name : "登上打孔巅峰之路"
+level : 5
+progress : 200
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "孔匠"
+to_be_deleted : 1
+
+[ACHIEVE_BASIC_GY_DSXQDFZL]
+name : "登上镶嵌巅峰之路"
+level : 5
+progress : 200
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "精嵌师"
+
+[ACHIEVE_BASIC_GY_JLCP]
+name : "我的精力十足"
+level : 1
+progress : 2000
+
+[ACHIEVE_BASIC_GY_ZDJLNBDW]
+name : "这点精力难不倒我"
+level : 3
+progress : 50000
+
+[ACHIEVE_BASIC_GY_ZBZZDGY]
+name : "这辈子只懂工艺"
+level : 5
+progress : 100000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "精力充沛"
+
+[ACHIEVE_EQUIP_QCBKCGKS]
+name : "千穿百孔才刚开始"
+level : 2
+progress : 5
+
+[ACHIEVE_EQUIP_ZZDZ]
+name : "施华洛世奇也不过如此"
+level : 2
+progress : 5
+
+[ACHIEVE_EQUIP_ZBXQ1]
+name : "我就是爱炫"
+level : 1
+progress : 5
+
+[ACHIEVE_EQUIP_ZBXQ4]
+name : "低调的奢华"
+level : 2
+progress : 5
+
+[ACHIEVE_EQUIP_ZBXQ5]
+name : "镶嵌已经小有成就"
+level : 3
+progress : 5
+
+[ACHIEVE_EQUIP_ZBXQ6]
+name : "千万别看我属性"
+level : 3
+progress : 5
+
+[ACHIEVE_EQUIP_ZBXQ7]
+name : "我要冲8级钻石！"
+level : 4
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "出门带7钻"
+
+[ACHIEVE_EQUIP_ZBXQ8]
+name : "限量装备，唯我独尊"
+level : 4
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "八星八箭"
+
+[ACHIEVE_EQUIP_ZBXQ9]
+name : "钻石钻石我爱你"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "九九大钻石"
+csa_rumor : 1
+
+[ACHIEVE_EQUIP_ZBXQ10]
+name : "360度无死角大钻石"
+level : 5
+progress : 5
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "说好的十钻大满贯！"
+csa_rumor : 1
+
+[ACHIEVE_TSHD_XSDCDH]
+name : "小试斗宠大会"
+level : 1
+progress : 1
+
+[ACHIEVE_TSHD_DCDHDR]
+name : "斗宠大会达人"
+level : 3
+progress : 12
+
+[ACHIEVE_TSHD_DCYR]
+name : "斗宠艺人"
+level : 4
+progress : 1
+
+[ACHIEVE_TSHD_DCZY]
+name : "斗宠状元"
+level : 5
+progress : 12
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "全服第一驯宠师"
+
+[ACHIEVE_JIAOHU_XYX_TFXS]
+name : "塔防新手"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_TFXWJ]
+name : "塔防小玩家"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_TFAHZ]
+name : "塔防爱好者"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_ZMTF]
+name : "执迷塔防"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "塔防高手"
+
+[ACHIEVE_JIAOHU_XYX_GHJTFGS]
+name : "骨灰级塔防高手"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "塔防终结者"
+
+[ACHIEVE_JIAOHU_XYX_DYXS]
+name : "钓鱼新手"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_DYXWJ]
+name : "钓鱼小玩家"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_DYAHZ]
+name : "钓鱼爱好者"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_ZMDY]
+name : "执迷钓鱼"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "钓鱼高手"
+
+[ACHIEVE_JIAOHU_XYX_GHJDYGS]
+name : "骨灰级钓鱼高手"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "鱼儿终结者"
+
+[ACHIEVE_JIAOHU_XYX_KPXS]
+name : "跑酷新手"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_KPXWJ]
+name : "跑酷小玩家"
+level : 2
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_KPAHZ]
+name : "跑酷爱好者"
+level : 3
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_ZMKP]
+name : "执迷跑酷"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "跑酷高手"
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_GHJKPGS]
+name : "骨灰级跑酷高手"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "跑酷终结者"
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_XYXS]
+name : "小鱼新手"
+level : 1
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_XYCZJ]
+name : "小鱼成长记"
+level : 2
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_JACDY]
+name : "就爱吃大鱼"
+level : 3
+progress : 1
+
+[ACHIEVE_JIAOHU_XYX_WBMHLH]
+name : "我比猫还厉害"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "我就是吃货"
+
+[ACHIEVE_JIAOHU_XYX_KJSMCSM]
+name : "看见什么吃什么"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "海底霸王餐"
+
+[ACHIEVE_JIAOHU_XYX_ZHDZJ]
+name : "只会点左键"
+level : 1
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_LDKJJ]
+name : "略懂快捷键"
+level : 2
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_KDJPJSB]
+name : "狂点键盘加鼠标"
+level : 3
+progress : 1
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_YXHZDDJQ]
+name : "要想活着得懂技巧"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "荒野存活者"
+to_be_deleted : 1
+
+[ACHIEVE_JIAOHU_XYX_BSYBDYJSK]
+name : "不是一般的眼疾手快"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "我是贝爷，我爱荒野"
+to_be_deleted : 1
+
+[ACHIEVE_CWYL_ZQGS]
+name : "坐骑过剩"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_WLJP]
+name : "为了精魄"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_BXCB]
+name : "不惜成本"
+level : 3
+progress : 10
+
+[ACHIEVE_CWYL_JJDK]
+name : "几近癫狂"
+level : 5
+progress : 100
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "御灵杀手"
+
+[ACHIEVE_CSWM_GZDY_SZSJZQ]
+name : "首只十阶坐骑"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "十阶坐骑现世"
+csa_rumor : 1
+
+[ACHIEVE_CWYL_SJZQ]
+name : "十阶御仙"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "十阶御仙"
+csa_rumor : 1
+
+[ACHIEVE_CWYL_SJSJSJ]
+name : "十阶！十阶！十阶！"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "十阶召唤师"
+csa_rumor : 1
+
+[ACHIEVE_CWYL_FCDC]
+name : "风驰电掣"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "风驰电掣"
+
+[ACHIEVE_CJHD_HXZGJ]
+name : "欢喜中国结"
+level : 3
+progress : 1
+
+[ACHIEVE_CJHD_HLZGJ]
+name : "欢乐中国结"
+level : 4
+progress : 1000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "小小中国结"
+
+[ACHIEVE_CJHD_CJZGJ]
+name : "超吉中国结"
+level : 5
+progress : 100000
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "吉祥中国结"
+
+[ACHIEVE_CJHD_TZFYY]
+name : "挑战粉羊羊！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "粉气羊羊"
+
+[ACHIEVE_CJHD_TZZYY]
+name : "挑战紫羊羊！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "紫气羊羊"
+
+[ACHIEVE_CJHD_TZJYY]
+name : "挑战金羊羊！"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "金气羊羊"
+
+[ACHIEVE_CWYL_CWXFXQL]
+name : "宠物心法学起来"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_CWXFDDSCGL]
+name : "宠物心法达到三层功力"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_XFLYCX]
+name : "心法略有成效"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_WDXBB]
+name : "我的心宝贝"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "萌宠修心"
+
+[ACHIEVE_CWYL_WDCWDFZJ]
+name : "我的宠物登峰造极"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "有钱就是任性"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_JSTTKPH]
+name : "绝杀吞天靠配合"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "绝灭吞天团"
+
+[ACHIEVE_CSWM_GZDY_MSTTBZSSL]
+name : "秒杀吞天不只是实力"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "秒杀吞天团"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_WWYSZMTT]
+name : "万无一失之灭吞天"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "吞天十连斩"
+
+[ACHIEVE_CSWM_GZDY_TTZNH]
+name : "吞天真腻害"
+level : 3
+progress : 5
+
+[ACHIEVE_CSWM_GZDY_WJBXWDBGTT]
+name : "我就不信我打不过吞天"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "吞天送死团"
+
+[ACHIEVE_CSWM_GZDY_JSSDKPH]
+name : "绝杀噬地靠配合"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "绝灭噬地团"
+
+[ACHIEVE_CSWM_GZDY_MSSDBZSSL]
+name : "秒杀噬地不只是实力"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "秒杀噬地团"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_WWYSZMSD]
+name : "万无一失之灭噬地"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "噬地十连斩"
+
+[ACHIEVE_CSWM_GZDY_SDZNH]
+name : "噬地真腻害"
+level : 3
+progress : 5
+
+[ACHIEVE_CSWM_GZDY_WJBXWDBGSD]
+name : "我就不信我打不过噬地"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "噬地送死团"
+
+[ACHIEVE_CWYL_SJSYWGQC]
+name : "世间少有物攻奇宠"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_ZZTXDYWGC]
+name : "争做天下第一物攻宠"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "强力宠护卫"
+
+[ACHIEVE_CWYL_SJSYFGQC]
+name : "世间少有法攻奇宠"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_ZZTXDYFGC]
+name : "争做天下第一法攻宠"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "强法宠护卫"
+
+[ACHIEVE_CWYL_FYBDGJ]
+name : "飞一般的感觉"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_TXDYWKBP]
+name : "天下第一唯快不破"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "强速宠护卫"
+
+[ACHIEVE_CWYL_WKBSDFZ]
+name : "我可不是豆腐渣！"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_YBSDWCW]
+name : "有本事打我宠物"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "强盾宠护卫"
+
+[ACHIEVE_BASIC_JS_LWXD]
+name : "六万仙道"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "六万仙道"
+
+[ACHIEVE_BASIC_JS_QWXD]
+name : "七万仙道"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "七万仙道"
+
+[ACHIEVE_BASIC_TZH_SHBB]
+name : "伤害爆表"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_TZH_YGDWG]
+name : "一个顶五个"
+level : 4
+progress : 1
+
+[ACHIEVE_BASIC_TZH_QXXL]
+name : "齐心协力"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_TZH_DWBLWY]
+name : "大王别来无恙？"
+level : 4
+progress : 10
+
+[ACHIEVE_LIUXCJ_ZH_BKQS]
+name : "百科全书"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "百科全书"
+longteng_msg : "知天下万事\t解千古难题\t百科全书"
+
+[ACHIEVE_LIUXCJ_ZH_SNCBC]
+name : "神农尝百草"
+level : 6
+progress : 120
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "神农尝百草"
+longteng_msg : "尝遍百种药\t自成不老仙\t神农尝百草"
+
+[ACHIEVE_LIUXCJ_ZH_BRJDLGZQ]
+name : "别人家的老公最强"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "别人家的老公最强"
+longteng_msg : "才比子建\t貌若潘安\t别人家的老公最强"
+
+[ACHIEVE_LIUXCJ_ZH_BRJDLPZM]
+name : "别人家的老婆最美"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "别人家的老婆最美"
+longteng_msg : "一顾倾人城\t再顾倾人国\t别人家的老婆最美"
+
+[ACHIEVE_CSWM_GZDY_KLWSS]
+name : "傀儡王首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "傀儡王首杀"
+
+[ACHIEVE_CSWM_GZDY_JSKLWKPH]
+name : "绝杀傀儡王靠配合"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "绝灭傀儡王团"
+
+[ACHIEVE_CSWM_GZDY_MSKLWBZSSL]
+name : "秒杀傀儡王不只是实力"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "秒杀傀儡王团"
+csa_rumor : 1
+
+[ACHIEVE_CSWM_GZDY_WWYSZMKLW]
+name : "万无一失之灭傀儡王"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "傀儡王十连斩"
+
+[ACHIEVE_CSWM_GZDY_KLWZNH]
+name : "傀儡王真腻害"
+level : 3
+progress : 5
+
+[ACHIEVE_CSWM_GZDY_WJBXWDBGKLW]
+name : "我就不信我打不过傀儡王"
+level : 4
+progress : 10
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "傀儡王送死团"
+
+[ACHIEVE_CZSJL_WZXYL]
+name : "我中仙元了！"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "充值送仙元"
+csa_rumor : 1
+
+[ACHIEVE_CWYL_JSTS]
+name : "金色天书"
+level : 1
+progress : 1
+
+[ACHIEVE_CWYL_TSJJ]
+name : "天书绝技"
+level : 2
+progress : 1
+
+[ACHIEVE_CWYL_QMTS]
+name : "全满天书"
+level : 3
+progress : 1
+
+[ACHIEVE_CWYL_WMTS]
+name : "完美天书"
+level : 4
+progress : 1
+
+[ACHIEVE_CWYL_XBLC]
+name : "“学霸”灵宠"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "“学霸”灵宠"
+
+[ACHIEVE_CWYL_WMLC]
+name : "“完美”灵宠"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "“完美”灵宠"
+
+[ACHIEVE_CSWM_BSYM_YMSJ]
+name : "誉满三界"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "誉满三界"
+
+[ACHIEVE_CSWM_BSYM_JSWM]
+name : "举世闻名"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "举世闻名"
+
+[ACHIEVE_CSWM_BSYM_JYHX]
+name : "家喻户晓"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "家喻户晓"
+
+[ACHIEVE_PARTY_TZBP_QKSZ]
+name : "乾坤使者"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_WD_ND]
+name : "凝丹"
+level : 1
+progress : 1
+
+[ACHIEVE_BASIC_WD_LQ]
+name : "炼气"
+level : 2
+progress : 1
+
+[ACHIEVE_BASIC_WD_SD]
+name : "塑道"
+level : 2
+progress : 1
+
+[ACHIEVE_BASIC_WD_JH]
+name : "聚魂"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_WD_HY]
+name : "混元"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_WD_YD]
+name : "元丹"
+level : 3
+progress : 1
+
+[ACHIEVE_BASIC_WD_XS]
+name : "虚神"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "虚神"
+
+[ACHIEVE_BASIC_WD_GZ]
+name : "归宗"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "归宗"
+
+[ACHIEVE_BASIC_WD_RS]
+name : "入神"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "入神"
+
+[ACHIEVE_LIUXCJ_ZH_JB]
+name : "劫变"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "劫变"
+longteng_msg : "修仙之劫\t得道之变\t悟道劫变"
+
+[ACHIEVE_LIUXCJ_ZH_XD]
+name : "仙道"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "仙道"
+longteng_msg : "悟得仙道\t方知天机\t悟道仙道"
+
+[ACHIEVE_LIUXCJ_ZH_XZ]
+name : "仙尊"
+level : 6
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "仙尊"
+longteng_msg : "仙道至尊\t敢与天齐\t悟道仙尊"
+
+[ACHIEVE_EQUIP_ANWDBB]
+name : "爱你我的宝贝"
+level : 1
+progress : 1
+
+[ACHIEVE_EQUIP_BBMMD]
+name : "宝贝么么哒"
+level : 2
+progress : 1
+
+[ACHIEVE_EQUIP_NSWDXS]
+name : "你是我的小三"
+level : 3
+progress : 1
+
+[ACHIEVE_EQUIP_QMBB]
+name : "亲密宝宝"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "亲密宝宝"
+
+[ACHIEVE_EQUIP_WZYN]
+name : "我中有你"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "我中有你"
+
+[ACHIEVE_CSWM_GZDY_BXSZ]
+name : "八仙使者"
+level : 5
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "醉八仙"
+
+[ACHIEVE_CSWM_GZDY_HXYHSS]
+name : "黑熊妖皇首杀"
+level : 4
+progress : 1
+bonus_info : ({ "appellation_bonus" })
+appellation_bonus : "黑熊妖皇首杀"

@@ -1,0 +1,802 @@
+#NPC属性导入表
+#名称,            name                 file_id                                       头像,   肖像respect_name         rude_name        self_respect_name        self_rude_name
+key_name,            name,               file_id,                                      icon,      portrait,  respect_name, rude_name, self_respect_name, self_rude_name
+多闻道人,            多闻道人,           "lanxianzhen/duowen-daoren",                  6010,      6010,      道长,         妖道,      贫道,              老道我
+王老板,              王老板,             "lanxianzhen/yaodian-laoban",                 6011,      6011,      大老板,       奸商,      不才,              大爷我
+杜卜思,              杜卜思,             "tianyongcheng/dubusi",                       6011,      6011,      大老板,       奸商,      不才,              大爷我
+药店老板,            药店老板,           "donghai-yucun/yaodian-laoban",               6011,      6011,      大老板,       奸商,      不才,              大爷我
+张老板,              张老板,             "lanxianzhen/wuqidian-laoban",                6012,      6012,      大老板,       奸商,      不才,              大爷我
+段铁心,              段铁心,             "tianyongcheng/duantiexin",                   6012,      6012,      大老板,       奸商,      不才,              大爷我
+卜老板,              卜老板,             "lanxianzhen/budian-laoban",                  6013,      6013,      大老板,       奸商,      不才,              大爷我
+贾仁和,              贾仁和,             "tianyongcheng/jiarenhe",                     6013,      6013,      大老板,       奸商,      不才,              大爷我
+钱庄老板,            钱庄老板,           "donghai-yucun/qianzhuang-laoban",            6014,      6014,      大老板,       奸商,      不才,              大爷我
+钱老板,              钱老板,             "lanxianzhen/qianzhuang-laoban",              6014,      6014,      大老板,       奸商,      不才,              大爷我
+钱大富,              钱大富,             "tianyongcheng/qiandafu",                     6014,      6014,      大老板,       奸商,      不才,              大爷我
+贾老板,              贾老板,             "lanxianzhen/zahuodian-laoban",               6015,      6015,      大老板,       奸商,      不才,              大爷我
+杂货店老板1,         杂货店老板,         "tianyongcheng/zahuodian-laoban",             6015,      6015,      大老板,       奸商,      不才,              大爷我
+杂货店老板2,         杂货店老板,         "donghai-yucun/zahuodian-laoban",             6015,      6015,      大老板,       奸商,      不才,              大爷我
+赵老板,              赵老板,             "lanxianzhen/kezhan-laoban",                  6016,      6016,      大老板,       奸商,      不才,              大爷我
+客栈老板,            客栈老板,           "donghai-yucun/kezhan-laoban",                6016,      6016,      大老板,       奸商,      不才,              大爷我
+冯喜来,              冯喜来,             "tianyongcheng/fengxilai",                    6016,      6016,      大老板,       奸商,      不才,              大爷我
+小二哥,              小二哥,             "lanxianzhen/xiaoerge",                       6017,      6017,      店家,         跑堂的,    小人,              大爷我
+店小二,              店小二,             "tianyongcheng/dianxiaoer",                   6017,      6017,      店家,         跑堂的,    小人,              大爷我
+黄仨儿,              黄仨儿,             "lanxianzhen/huangsaner",                     6018,      6018,      小朋友,       小胖猪,    本少爷,            爷爷我
+莲花姑娘,            莲花姑娘,           "lanxianzhen/lianhua-guniang",                6019,      6019,      姑娘,         老妈子,    小女子,            本姑奶奶
+云霄童子,            云霄童子,           "wulongshan/yunxiaotongzi",                   6020,      6020,      老前辈,       老滑头,    混家,              老子我
+碧玉童子,            碧玉童子,           "zhongnanshan/biyutongzi",                    6021,      6021,      老前辈,       老滑头,    混家,              老子我
+水灵童子,            水灵童子,           "fenghuangshan/shuilingtongzi",               6022,      6022,      老前辈,       老滑头,    混家,              老子我
+赤霞童子,            赤霞童子,           "qianyuanshan/chixiatongzi",                  6023,      6023,      老前辈,       老滑头,    混家,              老子我
+彩云童子,            彩云童子,           "kuloushan/caiyuntongzi",                     6024,      6024,      老前辈,       老滑头,    混家,              老子我
+接引道童(金),        接引道童,           "wulongshan/jieyin-daotong",                  6025,      6025,      道兄,         看门的,    晚生,              本大爷
+接引道童(木),        接引道童,           "zhongnanshan/jieyin-daotong",                6026,      6026,      道兄,         看门的,    晚生,              本大爷
+接引道童(水),        接引道童,           "fenghuangshan/jieyin-daotong",               6027,      6027,      道兄,         看门的,    晚生,              本大爷
+接引道童(火),        接引道童,           "qianyuanshan/jieyin-daotong",                6028,      6028,      道兄,         看门的,    晚生,              本大爷
+接引道童(土),        接引道童,           "kuloushan/jieyin-daotong",                   6029,      6029,      道兄,         看门的,    晚生,              本大爷
+酒楼老板,            酒楼老板,           "tianyongcheng/jiulou-laoban",                6030,      6030,      大老板,       奸商,      不才,              大爷我
+夏总兵,              夏总兵,             "tianyongcheng/xiazongbing",                  6031,      6031,      官家,         恶吏,      本官,              老子我
+念心道人,            念心道人,           "tianyongcheng/nianxin-daoren",               6032,      6032,      道长,         妖道,      贫道,              老道我
+杨镖头,              杨镖头,             "tianyongcheng/yangbiaotou",                  6033,      6033,      英雄,         跑路的,    在下,              大爷我
+董老头,              董老头,             "tianyongcheng/donglaotou",                   6035,      6035,      老爷子,       臭老头,    小老儿,            你爷爷我
+大通吃,              大通吃,             "tianyongcheng/datongchi",                    6036,      6036,      老大,         大骗子,    在下,              大爷我
+小通吃,              小通吃,             "tianyongcheng/xiaotongchi",                  6037,      6037,      老大,         大骗子,    在下,              大爷我
+神秘商人,            神秘商人,           "tianyongcheng/shenmishangren",               6038,      6038,      大老板,       奸商,      不才,              大爷我
+管神工,              管神工,             "tianyongcheng/shengong",                     6039,      6039,      高人,         跳大神的,  鄙人,              老子我
+厉巧手,              厉巧手,             "tianyongcheng/liqiaoshou",                   6040,      6040,      高人,         跳大神的,  鄙人,              老子我
+精精儿,              精精儿,             "tianyongcheng/jingjinger",                   6240,      6240,      小仙子,       小孩儿,    小女子,            姑奶奶我
+灵兽异人1,           灵兽异人,           "donghai-yucun/lingshouyiren",                6041,      6041,      高人,         跳大神的,  鄙人,              老子我
+灵兽异人2,           灵兽异人,           "tianyongcheng/lingshouyiren",                6041,      6041,      高人,         跳大神的,  鄙人,              老子我
+灵兽异人3,           灵兽异人,           "wumingxiaozhen/lingshouyiren",               6041,      6041,      高人,         跳大神的,  鄙人,              老子我
+通灵道人,            通灵道人,           "tianyongcheng/tongling-daoren",              6042,      6042,      道长,         妖道,      贫道,              老道我
+门派使者,            门派使者,           "tianyongcheng/menpaishizhe",                 6043,      6043,      尊使,         小奴才,    在下,              老子我
+帮派使者,            帮派使者,           "tianyongcheng/bangpai-shizhe",               6043,      6043,      尊使,         贱狗屎,    本使,              使爷我
+船夫1,               船夫,               "donghai-yucun/chuanfu",                      6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫2,               船夫,               "dongkunlun/chuanfu",                         6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫3,               船夫,               "jukuzhou/chuanfu",                           6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫4,               船夫,               "liuzhou/chuanfu",                            6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫5,               船夫,               "wumingxiaozhen/chuanfu",                     6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫6,               船夫,               "xuanzhou/chuanfu",                           6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫7,               船夫,               "yanzhou/chuanfu",                            6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫8,               船夫,               "tianyongcheng/chuanfu",                      6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫9,               船夫,               "shuiyunjian/chuanfu",                        6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫10,              船夫,               "fangzhangdao/chuanfu",                       6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+船夫11,              船夫,               "taijishengjing/chuanfu",                     6044,      6044,      老人家,       老匹夫,    小人,              大爷我
+车夫1,               车夫,               "donghai-yucun/chefu",                        6045,      6045,      老人家,       老匹夫,    小人,              大爷我
+车夫2,               车夫,               "xuanyuanmiao/chefu",                         6045,      6045,      老人家,       老匹夫,    小人,              大爷我
+车夫3,               车夫,               "wumingxiaozhen/chefu",                       6045,      6045,      老人家,       老匹夫,    小人,              大爷我
+车夫4,               车夫,               "tianyongcheng/chefu",                        6045,      6045,      老人家,       老匹夫,    小人,              大爷我
+试道大会申请人,      试道大会申请人,     "tianyongcheng/shidaodahui-shenqingren",      6046,      6046,      道兄,         老东西,    在下,              大爷我
+武斗者,              武斗者,             "tianyongcheng/wudouzhe",                     6231,      6231,      道兄,         老东西,    在下,              大爷我
+传送人,              传送人,             "misc/chuansongren",                          6012,      6012,      道兄,         老东西,    在下,              大爷我
+蓬莱使者,            蓬莱使者,           "penglaidao/penglai-shizhe",                  6047,      6047,      尊使,         小奴才,    在下,              老子我
+龙宫使者1,           龙宫使者,           "longgong/longgong-shizhe",                   6163,      6163,      尊使,         小奴才,    在下,              老子我
+龙宫使者2,           龙宫使者,           "penglaidao/longgong-shizhe",                 6163,      6163,      尊使,         小奴才,    在下,              老子我
+龙王,                龙王,               "longgong/longwang",                          6079,      6079,      大神,         臭虫,      小王,              老子我
+侍女,                侍女,               "longgong/shinv",                             6173,      6173,      姑娘,         小妞,      小女,              姑奶奶我
+乞丐,                乞丐,               "tianyongcheng/qigai",                        6048,      6048,      高人,         臭要饭的,  鄙人,              老子我
+千面怪,              千面怪,             "tianyongcheng/qianmianguai",                 6049,      6049,      高人,         怪东西,    老夫,              大爷我
+天墉城守卫,          天墉城守卫,         "tianyongcheng/shouwei",                      6050,      6050,      兄台,         小子,      在下,              老子我
+士兵,                士兵,               "tianyongcheng/shibing",                      6051,      6051,      兄台,         小子,      在下,              老子我
+守城士兵1,           守城士兵,           "tianyongcheng/shoucheng-shibing1",           6051,      6051,      兄台,         小子,      在下,              老子我
+守城士兵2,           守城士兵,           "tianyongcheng/shoucheng-shibing2",           6051,      6051,      兄台,         小子,      在下,              老子我
+守城士兵3,           守城士兵,           "tianyongcheng/shoucheng-shibing3",           6051,      6051,      兄台,         小子,      在下,              老子我
+守城士兵4,           守城士兵,           "tianyongcheng/shoucheng-shibing4",           6051,      6051,      兄台,         小子,      在下,              老子我
+文殊天尊,            文殊天尊,           "wulongshan/wenshuguangfa-tianzun",           6052,      6052,      仙家,         老不死的,  贫道,              老道我
+云中子,              云中子,             "zhongnanshan/yunzhongzi",                    6053,      6053,      仙家,         老不死的,  贫道,              老道我
+龙女,                龙女,               "longgong/longnv",                            6054,      6054,      娘娘,         老太婆,    老身,              姑奶奶我
+龙吉公主,            龙吉公主,           "fenghuangshan/longji-gongzhu",               6054,      6054,      娘娘,         老太婆,    老身,              姑奶奶我
+太乙真人,            太乙真人,           "qianyuanshan/taiyi-zhenren",                 6055,      6055,      仙家,         老不死的,  贫道,              老道我
+石矶娘娘,            石矶娘娘,           "kuloushan/shiji-niangniang",                 6056,      6056,      娘娘,         老太婆,    老身,              姑奶奶我
+蒙面,                蒙面,               "tianyongcheng/mengmian",                     6057,      6057,      壮士,         屠夫,      在下,              老子我
+百晓通,              百晓通,             "tianyongcheng/baixiao-tong",                 6057,      6057,      先生,         骗子,      在下,              本神通
+天机老人,            天机老人,           "tianyongcheng/tianjilaoren",                 6058,      6058,      道长,         妖道,      贫道,              老道我
+清风道人,            清风道人,           "tianyongcheng/qingfengdaoren",               6058,      6058,      道长,         妖道,      贫道,              老道我
+乐善施,              乐善施,             "lanxianzhen/leshanshi",                      6059,      6059,      贵人,         暴发户,    鄙人,              老爷我
+辛仁皑,              辛仁皑,             "tianyongcheng/xin-renai",                    6059,      6059,      前辈,         下三滥,    在下,              你爷爷我
+牢头1,               牢头,               "tianyongcheng/laotou1",                      6051,      6051,      兄台,         小子,      在下,              老子我
+牢头2,               牢头,               "tianyongcheng/laotou2",                      6051,      6051,      兄台,         小子,      在下,              老子我
+牢头3,               牢头,               "tianyongcheng/laotou3",                      6051,      6051,      兄台,         小子,      在下,              老子我
+王小胖,              王小胖,             "lanxianzhen/wangxiaopang",                   6018,      6018,      小朋友,       小胖猪,    本少爷,            爷爷我
+悟天道人,            悟天道人,           "tianyongcheng/wutian-daoren",                6010,      6010,      道长,         妖道,      贫道,              老道我
+神兽异人1,           神兽异人,           "lanxianzhenwai/shenshouyiren",               6041,      6041,      道长,         妖道,      贫道,              老道我
+神兽异人2,           神兽异人,           "tianyongcheng/shenshouyiren",                6041,      6041,      道长,         妖道,      贫道,              老道我
+无名药铺老板,        无名药铺老板,       "wumingxiaozhen/yaopu-laoban",                6011,      6011,      大老板,       奸商,      不才,              大爷我
+无名杂货店老板,      无名杂货店老板,     "wumingxiaozhen/zahuodian-laoban",            6015,      6015,      大老板,       奸商,      不才,              大爷我
+无名客栈老板,        无名客栈老板,       "wumingxiaozhen/kezhan-laoban",               6016,      6016,      大老板,       奸商,      不才,              大爷我
+无名客栈小二,        无名客栈小二,       "wumingxiaozhen/xiaoer",                      6017,      6017,      小二哥,       小子,      在下,              老子我
+无名武器店老板,      无名武器店老板,     "wumingxiaozhen/wuqidian-laoban",             6012,      6012,      大老板,       奸商,      不才,              大爷我
+无名布庄老板,        无名布庄老板,       "wumingxiaozhen/buzhuang-laoban",             6013,      6013,      大老板,       奸商,      不才,              大爷我
+无名钱庄老板,        无名钱庄老板,       "wumingxiaozhen/qianzhuang-laoban",           6014,      6014,      大老板,       奸商,      不才,              大爷我
+张真人,              张真人,             "zhongnanshan/zhangzhenren",                  6032,      6032,      道长,         妖道,      贫道,              老道我
+南极仙翁,            南极仙翁,           "tianyongcheng/nanji-xianweng",               6047,      6047,      道长,         妖道,      贫道,              老道我
+宋辛哲,              宋辛哲,             "donghai-yucun/songxinzhe",                   6032,      6032,      道长,         妖道,      贫道,              老道我
+陆压真人,            陆压真人,           "xuanyuanmiao/luya-zhenren",                  6086,      6086,      道长,         妖道,      贫道,              老道我
+清净散人,            清净散人,           "lanxianzhen/qingjing-sanren",                6058,      6058,      道长,         妖道,      贫道,              老道我
+#清净散人2,          清净散人,           "tianyongcheng/qingjing-sanren",              6058,         6058,     道长,          妖道,      贫道,              老道我
+贾师爷,              贾师爷,             "tianyongcheng/jiashiye",                     6011,      6011,      师爷,         狗奴才,    在下,              老子我
+帮派总管,            帮派总管,           "bangpaiditu/bangpai-zongguan",               6036,      6036,      管家,         狗奴才,    在下,              老子我
+帮派军师,            帮派军师,           "bangpaiditu/bangpai-junshi",                 6043,      6043,      大人,         狗奴才,    不才,              老子我
+帮派传送人,          帮派传送人,         "bangpaiditu/bangpai-chuansongren",           6045,      6045,      兄台,         狗奴才,    在下,              老子我
+帮派侍女,            帮派侍女,           "bangpaiditu/bangpai-shinv",                  6135,      6135,      姑娘,         小妞,      小女,              姑奶奶我
+帮派书童,            帮派书童,           "bangpaiditu/bangpai-shutong",                6240,      6240,      小朋友,       小胖猪,    晚辈,              爷爷我
+帮派总教头,          帮派总教头,         "bangpaiditu/bangpai-zongjiaotou",            6033,      6033,      大人,         狗奴才,    不才,              老子我
+名人堂管事,          名人堂管事,         "misc/mingrentang-guanshi",                   6016,      6016,      管家,         狗奴才,    不才,              老子我
+账房先生,            账房先生,           "bangpaiditu/zhangfang-xiansheng",            6014,      6014,      先生,         狗奴才,    在下,              老子我
+无名剑客,            无名剑客,           "tianyongcheng/wuming-jianke",                6231,      6231,      大侠,         酒鬼,      在下,              老子我
+无想僧,              无想僧,             "xuanyuanmiao/wuxiangseng",                   6089,      6089,      圣僧,         臭和尚,    洒家,              老子我
+无念僧,              无念僧,             "xuanyuanmiao/wunianseng",                    6090,      6090,      圣僧,         臭和尚,    洒家,              老子我
+售房吏,              售房吏,             "tianyongcheng/shoufangli",                   6059,      6059,      大人,         狗奴才,    不才,              老子我
+红娘,                红娘,               "tianyongcheng/hongniang",                    6087,      6087,      姑娘,         小妞,      小女,              姑奶奶我
+管家,                管家,               "misc/guanjia",                               6088,      6088,      管家,         狗奴才,    在下,              老子我
+民房总管,            民房总管,           "tianyongcheng/minfang-zongguan",             6088,      6088,      管家,         狗奴才,    在下,              老子我
+月老,                月老,               "misc/yuelao",                                6060,      6060,      仙家,         老不死的,  老朽,              老子我
+点卡寄售商人,        点卡寄售商人,       "misc/dianka-shangren",                       6015,      6015,      先生,         奸商,      在下,              大爷我
+大胡子,              大胡子,             "tianyongcheng/dahuzi",                       6012,      6012,      兄台,         白痴,      俺,                老子我
+游方术士,            游方术士,           "tianyongcheng/youfang-shushi",               6010,      6010,      道长,         妖道,      贫道,              老道我
+五行竞猜使,          五行竞猜使,         "tianyongcheng/wuxing-jingcaishi",            6059,      6059,      道兄,         妖道,      贫道,              老道我
+张司徒,              张司徒,             "tianyongcheng/zhangsitu",                    6016,      6016,      道兄,         妖道,      贫道,              老道我
+屠娇娇,              屠娇娇,             "tianyongcheng/tujiaojiao",                   6175,      6175,      姑娘,         小妞,      小女,              姑奶奶我
+茅山道士,            茅山道士,           "tianyongcheng/maoshan-daoshi",               6042,      6042,      道长,         妖道,      贫道,              老道我
+柳如尘,              柳如尘,             "donghai-yucun/liuruchen",                    6042,      6042,      道长,         妖道,      贫道,              老道我
+雷神,                雷神,               "misc/leishen",                               6232,      6232,      上仙,         妖道,      小神,              大爷我
+花神,                花神,               "misc/huashen",                               6233,      6233,      上仙,         妖道,      小神,              大爷我
+龙神,                龙神,               "misc/longshen",                              6234,      6234,      上仙,         妖道,      小神,              大爷我
+炎神,                炎神,               "misc/yanshen",                               6235,      6235,      上仙,         妖道,      小神,              大爷我
+山神,                山神,               "misc/shanshen",                              6236,      6236,      上仙,         妖道,      小神,              大爷我
+天心道人,            天心道人,           "misc/tianxin-daoren",                        6046,      6046,      道长,         妖道,      贫道,              大爷我
+#邪灵鬼王,           邪灵鬼王,           "misc/xieling-guiwang",                       6227,         6227,     鬼王,          死鬼,      本座,              老子我
+#凶灵鬼王,           凶灵鬼王,           "misc/xiongling-guiwang",                     6227,         6227,     鬼王,          死鬼,      本座,              老子我
+#狂灵鬼王,           狂灵鬼王,           "misc/kuangling-guiwang",                     6227,         6227,     鬼王,          死鬼,      本座,              老子我
+#魅灵鬼王,           魅灵鬼王,           "misc/meiling-guiwang",                       6227,         6227,     鬼王,          死鬼,      本座,              老子我
+#魍灵鬼王,           魍灵鬼王,           "misc/wangling-guiwang",                      6227,         6227,     鬼王,          死鬼,      本座,              老子我
+修罗王,              修罗王,             "youmingjian/xiuluowang",                     6228,      6228,      鬼王,         死鬼,      本座,              老子我
+逍遥仙,              逍遥仙,             "tianyongcheng/xiaoyaoxian",                  6032,      6032,      鬼王,         死鬼,      本座,              老子我
+医仙子,              医仙子,             "misc/yixianzi",                              6173,      6173,      前辈,         骚货,      小女,              老娘我
+苏苏,                苏苏,               "misc/susu",                                  6205,      6205,      姑娘,         骚货,      小女,              老娘我
+白素,                白素,               "misc/baisu",                                 6019,      6019,      姑娘,         骚货,      小女,              老娘我
+小花仙,              小花仙,             "misc/xiaohuaxian",                           6022,      6022,      姑娘,         骚货,      小女,              老娘我
+羽翼仙,              羽翼仙,             "misc/yuyixian",                              6211,      6211,      大仙,         臭鸟,      本座,              大爷我
+翻天鼠,              翻天鼠,             "misc/fantianshu",                            6143,      6143,      大仙,         死老鼠,    本座,              大爷我
+袁洪,                袁洪,               "misc/yuanhong",                              6223,      6223,      大仙,         妖道,      本座,              大爷我
+金大升,              金大升,             "misc/jindasheng",                            6214,      6214,      大仙,         妖道,      本座,              大爷我
+问道活动大使,        问道活动大使,       "misc/huodong-dashi",                         6236,      6236,      大仙,         妖道,      本座,              大爷我
+地狱牛头,            地狱牛头,           "misc/diyu-niutou",                           6147,      6147,      大仙,         妖道,      本座,              大爷我
+玄露仙子,            玄露仙子,           "misc/xuanlu-xianzi",                         6173,      6173,      仙子,         臭女人,    小女,              老娘我
+百花神女,            百花神女,           "misc/baihua-shennv",                         6233,      6233,      仙子,         臭女人,    小女,              老娘我
+驭剑仙,              驭剑仙,             "tianyongcheng/yujianxian",                   6042,      6042,      大仙,         妖道,      本座,              大爷我
+GM管理员,            GM值班登记员,       "misc/GM-manager",                            6049,      6049,      老板,         周扒皮,    兄弟我,            老子我
+试道传送人,          试道传送人,         "misc/shidao-chuansongren",                   6012,      6012,      小哥,         小子,      在下,              大爷我
+神算子,              神算子,             "tianyongcheng/shensuanzi",                   6091,      6091,      老丈,         老不死的,  老朽,              大爷我
+节日大使,            节日大使,           "tianyongcheng/jieri-dashi",                  6030,      6030,      道兄,         妖道,      在下,              老道我
+善财童子,            善财童子,           "wumingxiaozhen/shancai-tongzi",              6240,      6240,      小哥,         小屁孩,    小生,              老子我
+玄武NPC,             玄武,               "misc/xuanwu",                                6191,      6191,      上仙,         臭王八,    本座,              大爷我
+白虎NPC,             白虎,               "misc/baihu",                                 6189,      6189,      上仙,         臭虫,      本座,              大爷我
+青龙NPC,             青龙,               "misc/qinglong",                              6190,      6190,      上仙,         小虫,      本座,              大爷我
+朱雀NPC,             朱雀,               "misc/zhuque",                                6192,      6192,      上仙,         死鸟,      本座,              大爷我
+夜行人,              夜行人,             "misc/yexingren",                             6213,      6213,      侠女,         臭女人,    小女,              老娘我
+神龙真人,            神龙真人,           "misc/shenlong-zhenren",                      6042,      6042,      道兄,         妖道,      本座,              老道我
+恶灵鬼王,            恶灵鬼王,           "misc/eling-guiwang",                         6227,      6227,      鬼王,         死鬼,      本座,              老子我
+憾地魔,              憾地魔,             "misc/handimo",                               6226,      6226,      大仙,         妖怪,      本座,              老子我
+西方教主,            西方教主,           "liuzhou/xifang-jiaozhu",                     6063,      6063,      法尊,         老东西,    本座,              老道我
+太上老君,            太上老君,           "yanzhou/taishang-laojun",                    6065,      6065,      法尊,         老东西,    本座,              老道我
+元始天尊,            元始天尊,           "xikunlun/yuanshi-tianzun",                   6061,      6061,      法尊,         老东西,    本座,              老道我
+准提道人,            准提道人,           "jukuzhou/zhunti-daoren",                     6066,      6066,      法尊,         老东西,    本座,              老道我
+多宝道人,            多宝道人,           "penglaidao/duobao-daoren",                   6068,      6068,      法尊,         老东西,    本座,              老道我
+通天教主,            通天教主,           "xuanzhou/tongtian-jiaozhu",                  6064,      6064,      法尊,         老东西,    本座,              老道我
+金系掌门,            金系掌门,           "master/master-metal",                        6001,      6001,      道长,         妖道,      本座,              老子我
+木系掌门,            木系掌门,           "master/master-wood",                         6002,      6002,      道长,         妖道,      本座,              老子我
+水系掌门,            水系掌门,           "master/master-water",                        6003,      6003,      道长,         妖道,      本座,              老子我
+火系掌门,            火系掌门,           "master/master-fire",                         6004,      6004,      道长,         妖道,      本座,              老子我
+土系掌门,            土系掌门,           "master/master-earth",                        6005,      6005,      道长,         妖道,      本座,              老子我
+点卡寄售商,          点卡寄售商,         "tianyongcheng/gongzhengren",                 6015,      6015,      老板,         贱人,      在下,              大爷我
+商会会长,            商会会长,           "tianyongcheng/shanghui-huizhang",            6016,      6016,      大人,         奸商,      在下,              大爷我
+集市传送人1,         集市传送人,         "tianyongcheng/jishi-chuansongren",           6030,      6030,      兄台,         白痴,      在下,              老子我
+集市传送人2,         集市传送人,         "tianshangjishi/jishi-chuansongren",          6030,      6030,      兄台,         白痴,      在下,              老子我
+传送童子,            传送童子,           "misc/chuansong-tongzi",                      6069,      6069,      小哥,         小屁孩,    在下,              老子我
+拍卖师,              拍卖师,             "tianyongcheng/paimaishi",                    6037,      6037,      前辈,         老头,      老可,              大爷我
+帮派管理员,          帮派管理员,         "tianyongcheng/bangpai-guanliyuan",           6088,      6088,      管家,         奴才,      在下,              老子我
+行者,                行者,               "tianyongcheng/xingzhe",                      6004,      6004,      前辈,         狗东西,    在下,              大爷我
+林老汉,              林老汉,             "tianyongcheng/linlaohan",                    6035,      6035,      老丈,         老不死的,  老朽,              大爷我
+拍卖师,              拍卖师,             "tianyongcheng/paimaishi",                    6015,      6015,      前辈,         老头,      老可,              大爷我
+#储物箱管理员,            储物箱管理员,           "misc/guanliyuan",                            6030,         6030,     管家,          奴才,      在下,              老子我
+仓库管理员,          仓库管理员,         "bangpaiditu/cangku-guanliyuan",              6014,      6014,      管家,         奴才,      在下,              老子我
+玄武神将,            玄武神将,           "misc/xuanwushenjiang",                       6223,      6223,      上仙,         垃圾,      本仙,              大爷我
+一叶知秋,            一叶知秋,           "lanxianzhen/yiyezhiqiu",                     6047,      6047,      仙家,         妖道,      老朽,              老道我
+帮派守护图腾,        帮派守护图腾,       "misc/bangpai-shouhututeng",                  6253,      6253
+帮派守护石像,        帮派守护石像,       "misc/bangpai-shouhushixiang",                6254,      6254
+城门,                城门,               "misc/chengmen",                              6256,      6256
+攻城战管理员,        攻城战管理员,       "tianyongcheng/gongchengzhan-guanliyuan",     6031,      6031
+#士兵,           #士兵
+#千年桃树精,           #千年桃树精           "dongkunlun/qiannian-taoshujing",             6106,         6106
+云游大仙1,           云游大仙,           "misc/yunyou-daxian1",                        6043,      6043
+云游大仙2,           云游大仙,           "misc/yunyou-daxian2",                        6046,      6046
+云游大仙3,           云游大仙,           "misc/yunyou-daxian3",                        6037,      6037
+竞技申请人,          竞技申请人,         "tianyongcheng/jingji-sqr",                   6231,      6231
+赤灵尊神,            赤灵尊神,           "tianyongcheng/chilingzunshen",               6223,      6223
+杨校尉,              杨校尉,             "misc/yangxiaowei",                           6050,      6050
+蒙面人,              蒙面人,             "misc/mengmianren",                           6057,      6057
+守护天神,            守护天神,           "tianyongcheng/shouhutianshen",               6031,      6031
+晶晶儿,              晶晶儿,             "tianyongcheng/jingjinger2",                  6240,      6240
+推荐人管理员,        推荐人管理员,       "wumingxiaozhen/recommend",                   6030,      6030
+财帛星君,            财帛星君,           "fuqixiaoqu/caiboxingjun",                    6236,      6236
+秀才,                秀才,               "fuqixiaoqu/xiucai",                          6004,      6004
+玄天令活动大使,      玄天令活动大使,     "tianyongcheng/xuantianling-dashi",           6236,      6236
+天墉城考官,          天墉城考官,         "tianyongcheng/kaoguan",                      6011,      6011
+土地公公,            土地公公,           "misc/tudigonggong",                          6047,      6047
+门派比武大会传送人1, 门派比武大会传送人, "misc/menpaibiwudahui-chuansongren",          6012,      6012,      小哥,         小子,      在下,              大爷我
+门派比武大会传送人2, 门派比武大会传送人, "tianyongcheng/menpaibiwudahui-chuansongren", 6012,      6012,      小哥,         小子,      在下,              大爷我
+门派比武大会申请人,  门派比武大会申请人, "tianyongcheng/menpaibiwu-shenqingren",       6046,      6046,      道兄,         老东西,    在下,              大爷我
+幸运大使,            幸运大使,           "lanxianzhen/xingyundashi",                   6030,      6030
+守护图腾,            守护图腾,           "misc/shouhu-tuteng",                         6253,      6253
+守护石像,            守护石像,           "misc/shouhu-shixiang",                       6254,      6254
+重返问道大使,        重返问道大使,       "tianyongcheng/chongfanwendao-dashi",         6136,      6136
+祭坛传送使,          祭坛传送使,         "misc/jitan-chuansongshi",                    6012,      6012
+镇邪神将,            镇邪神将,           "misc/zhenxieshenjiang",                      6223,      6223
+玉泉真人,            玉泉真人,           "wumingxiaozhen/yuquanzhenren",               6032,      6032
+玉真子,              玉真子,             "donghai-yucun/yuzhenzi",                     6053,      6053
+元宝商人,            元宝商人,           "tianyongcheng/yuanbao-shangren",             6038,      6038
+战神,                战神,               "misc/zhanshen",                              6156,      6156
+战场接引人,          战场接引人,         "tianyongcheng/zhanchang-jieyinren",          6236,      6236
+战场传送人,          战场传送人,         "loulancheng/zhanchang-chuansongren",         6156,      6156
+#奥运知识考官,           奥运知识考官,           "tianyongcheng/aoyunzhishi-kaoguan",          6011,         6011
+火炬大使,            火炬大使,           "lanxianzhen/huojudashi",                     6153,      6153
+天玄老人,            天玄老人,           "donghai-yucun/tianxuan-laoren",              6058,      6058,      道长,         妖道,      贫道,              老道我
+引路者,              引路者,             "misc/yinluzhe",                              6047,      6047
+清微真人,            清微真人,           "wumingxiaozhen/qingwei-zhenren",             6032,      6032
+无心道人,            无心道人,           "misc/wuxin-daoren",                          6058,      6058
+证道殿NPC,           证道殿,             "misc/zhengdaodian",                          0,         0
+英雄会NPC,           英雄会,             "misc/hero",                                  0,         0
+帮派名人堂关卡NPC,   名人堂,             "misc/bangpai-mingrentang",                   0,         0
+帮派名人堂雕像,      帮派名人堂雕像,     "misc/mingrentang-diaoxiang",                 0,         0
+#威尔,           威尔,           "misc/weier",                                 0,            0
+问卷调查专员,        问卷调查专员,       "tianyongcheng/wenjuan-diaochayuan",          6020,      6020
+嫦娥仙子,            嫦娥仙子,           "misc/change-xianzi",                         6054,      6054
+渺渺道人,            渺渺道人,           "lanxianzhen/miaomiao-daoren",                6032,      6032
+米兰仙子,            米兰仙子,           "penglaidao/milanxianzi",                     6002,      6002
+普华天尊,            普华天尊,           "tianyongcheng/puhua-tianzun",                6251,      6251
+灵妖王,              灵妖王,             "misc/lingyaowang",                           6258,      6258
+南华真人,            南华真人,           "wumingxiaozhen/nanhua-zhenren",              6063,      6063
+萧升,                萧升,               "misc/xiaosheng",                             6235,      6235
+曹宝,                曹宝,               "misc/caobao",                                6232,      6232
+九世道人,            九世道人,           "misc/jiushidaoren",                          6244,      6244
+劫匪胡汉山,          劫匪胡汉山,         "misc/jiefeihuhanshan",                       6230,      6230
+申伏虎,              申伏虎,             "misc/shenfuhu",                              6244,      6244
+无底洞,              无底洞,             "misc/wudidong",                              6274,      -1
+华阳真人,            华阳真人,           "lanxianzhen/huayang-zhenren",                6032,      6032,      道长,         妖道,      贫道,              老道我
+铁拐李1,             铁拐李,             "misc/tieguaili",                             20004,     20004,     仙人,         老妖,      小仙,              本仙
+汉钟离1,             汉钟离,             "misc/hanzhongli",                            20005,     20005,     仙人,         老妖,      小仙,              本仙
+吕洞宾1,             吕洞宾,             "misc/lvdongbin",                             20006,     20006,     仙人,         老妖,      小仙,              本仙
+蓝采和1,             蓝采和,             "misc/lancaihe",                              20007,     20007,     仙人,         老妖,      小仙,              本仙
+韩湘子1,             韩湘子,             "misc/hanxiangzi",                            20008,     20008,     仙人,         老妖,      小仙,              本仙
+张果老1,             张果老,             "misc/zhangguolao",                           20009,     20009,     仙人,         老妖,      小仙,              本仙
+何仙姑1,             何仙姑,             "misc/hexiangu",                              20010,     20010,     仙人,         老妖,      小仙,              本仙
+曹国舅1,             曹国舅,             "penglaidao/caoguojiu",                       20011,     20011,     仙人,         老妖,      小仙,              本仙
+飞升仙官,            飞升仙官,           "misc/feishengxianguan",                      6235,      6235
+陆离,                陆离,               "xueyubingyuan/luli",                         6245,      6245
+小猿猴,              小猿猴,             "dongkunlun/xiaoyuanhou",                     6108,      6108
+枭魉魔尊,            枭魉魔尊,           "misc/xiaoliang-mozun",                       6273,      6273
+吴了尘,              吴了尘,             "misc/wuliaochen",                            6244,      6244
+叶如风,              叶如风,             "misc/yerufeng",                              20006,     20006
+#申伏虎,           申伏虎,           "misc/shenfuhu",                              6244,         6244
+玉鉴上人,            玉鉴上人,           "wumingxiaozhen/yujian-shangren",             6075,      6075,      道长,         妖道,      贫道,              老道我
+赤霞真人,            赤霞真人,           "misc/chixiazhenren",                         6086,      6086
+鬼道子,              鬼道子,             "tianyongcheng/guidaozi",                     6055,      6055
+蒙面人1,             蒙面人,             "wolongpo/mengmianren",                       6213,      6213
+小无量,              6086,               6086
+爆仔军粮官,          爆仔军粮官,         "lanxianzhen/baozai-junliangguan",            6050,      6050
+庆典大使,            庆典大使,           "tianyongcheng/qingdian-dashi",               6011,      6011
+幻境散人,            幻境散人,           "tianyongcheng/huanjingsanren",               20009,     20009
+幻境散人1,           幻境散人,           "donghai-yucun/huanjingsanren",               20009,     20009
+虚灵散人,            虚灵散人,           "misc/xulingsanren",                          20009,     20009
+白邦芒,              白邦芒,             "tianyongcheng/baibangmang",                  6010,      6010
+鲁工匠,              鲁工匠,             "wumingxiaozhen/lugongjiang",                 6012,      6012
+青木道人,            青木道人,           "tianyongcheng/qingmu-daoren",                6243,      6243
+玄清道人,            玄清道人,           "donghai-yucun/xuanqingdaoren",               6032,      6032
+家具NPC,             家具NPC,            "misc/furniture",                             0,         0
+隐士,                隐士,               "donghai-yucun/yinshi",                       6010,      6010
+仙界神捕,            仙界神捕,           "wumingxiaozhen/xianjie-shenbu",              20006,     20006
+庆典大使1,           庆典大使,           "donghai-yucun/qingdian-dashi",               6011,      6011
+妙手空空,            妙手空空,           "misc/miaoshou-kongkong",                     6249,      6249
+灵虚真人,            灵虚真人,           "misc/lingxu-zhenren",                        6032,      6032
+幻仙塔塔主,          幻仙塔塔主,         "misc/huanxianta-tazhu",                      6033,      6033
+幻仙塔看守者,        幻仙塔看守者,       "misc/huanxianta-kanshouzhe",                 6051,      6051
+宁彩神,              宁彩神,             "misc/ning-caishen",                          6038,      6038
+安全大使,            安全大使,           "lanxianzhen/anquan-dashi",                   6011,      6011
+妙手道人,            妙手道人,           "tianyongcheng/miaoshou-daoren",              6058,      6058
+战场物资员,          战场物资员,         "loulancheng/zhanchang-wuziyuan",             6014,      6014
+北斗星使,            北斗星使,           "tianyongcheng/beidouxingshi",                6047,      6047
+北斗神将,            北斗神将,           "tongtianta/beidoushenjiang",                 6223,      6223
+天枢星君,            天枢星君,           "tongtianta/tianshuxingjun",                  6223,      6223
+天璇星君,            天璇星君,           "tongtianta/tianxuanxingjun",                 6223,      6223
+天玑星君,            天玑星君,           "tongtianta/tianjixingjun",                   6223,      6223
+天权星君,            天权星君,           "tongtianta/tianquanxingjun",                 6223,      6223
+玉衡星君,            玉衡星君,           "tongtianta/yuhengxingjun",                   6223,      6223
+开阳星君,            开阳星君,           "tongtianta/kaiyangxingjun",                  6223,      6223
+摇光星君,            摇光星君,           "tongtianta/yaoguangxingjun",                 6223,      6223
+空空道人,            空空道人,           "tianyongcheng/kongkong-daoren",              6086,      6086
+太白金星,            太白金星,           "misc/taibai-jinxing",                        6055,      6055
+穿山甲,              穿山甲,             "misc/chuanshanjia",                          6260,      6260
+牡丹仙子,            牡丹仙子,           "misc/mudan-xianzi",                          6136,      6136
+守值天兵,            守值天兵,           "misc/shouzhi-tianbing",                      6223,      6223
+西王母,              西王母,             "misc/xiwangmu",                              6071,      6071
+奖券活动大使,        奖券活动大使,       "misc/jiangquan-huodongdashi",                6016,      6016
+无极散人,            无极散人,           "tianyongcheng/wuji-sanren",                  6061,      6061
+送子娘娘,            送子娘娘,           "donghai-yucun/songzi-liangliang",            6074,      6074
+#私塾先生,           私塾先生,           "lanxianzhen/sishu-xiansheng",                6011,         6011
+#娃娃,           娃娃,           "misc/child",                                 7011,         7011
+问道引路人,          问道引路人,         "tianyongcheng/recommend",                    6030,      6030
+缤纷大使,            缤纷大使,           "tianyongcheng/bingfen-dashi",                20007,     20007
+生肖使者,            生肖使者,           "tianyongcheng/shengxiao-shizhe",             20010,     20010
+状元王中王,          状元王中王,         "tianyongcheng/zhuangyuanwangzhongwang",      6011,      6011
+积分大使,            积分大使,           "misc/jifen-dashi",                           6038,      6038
+仙界叛逆雕像,        仙界叛逆雕像,       "misc/xianjiepanni-diaoxiang",                6253,      6253
+诛魔真人,            诛魔真人,           "tianyongcheng/zhumo-zhenren",                6063,      6063
+降魔使者,            降魔使者,           "misc/xiangmo-shizhe",                        6042,      6042
+钱多多,              钱多多,             "tianyongcheng/qianduoduo",                   6010,      6010
+仙官,                仙官,               "misc/xianguan",                              6032,      6032
+战争雕像,            战争雕像,           "misc/zhanzheng-diaoxiang",                   6253,      6253
+降妖真人,            降妖真人,           "tianyongcheng/xiangyao-zhenren",             6063,      6063
+降妖使者,            降妖使者,           "misc/xiangyao-shizhe",                       6042,      6042
+天下第一帮使者,      天下第一帮使者,     "tianyongcheng/tianxia-diyibang-shizhe",      20011,     20011
+跨服帮战接引人,      跨服帮战接引人,     "loulancheng/kuafubangzhan-jieyinren",        6156,      6156
+买卖大师,            买卖大师,           "loulancheng/maimai-dashi",                   6014,      6014
+雪人1,               雪人,               "misc/xueren1",                               20015,     20015
+雪人2,               雪人,               "misc/xueren2",                               20015,     20015
+雪人3,               雪人,               "misc/xueren3",                               20015,     20015
+#谢听风,           谢听风,           "tianyongcheng/xietingfeng",                  6249,         6249
+#历练物资官,           历练物资官,           "tianyongcheng/lilian-wuziguan",              6047,         6047
+白发老人,            白发老人,           "misc/baifa-laoren",                          20009,     20009
+达闻散人,            达闻散人,           "tianyongcheng/dawen-sanren",                 6058,      6058
+白眉真人,            白眉真人,           "tianyongcheng/baimeizhenren",                20009,     20009
+金光阵主,            金光阵主,           "xikunlun/jinguan-zhenzhu",                   6247,      6247
+风吼阵主,            风吼阵主,           "xikunlun/fenghou-zhenzhu",                   6245,      6245
+落魄阵主,            落魄阵主,           "jukuzhou/luopo-zhenzhu",                     6250,      6250
+化血阵主,            化血阵主,           "jukuzhou/huaxue-zhenzhu",                    6248,      6248
+红水阵主,            红水阵主,           "liuzhou/hongshui-zhenzhu",                   6251,      6251
+寒冰阵主,            寒冰阵主,           "liuzhou/hanbing-zhenzhu",                    6246,      6246
+烈焰阵主,            烈焰阵主,           "yanzhou/lieyan-zhenzhu",                     6249,      6249
+地烈阵主,            地烈阵主,           "yanzhou/dilie-zhenzhu",                      6244,      6244
+天阙阵主,            天阙阵主,           "xuanzhou/tianque-zhenzhu",                   6243,      6243
+红砂阵主,            红砂阵主,           "xuanzhou/hongsha-zhenzhu",                   6252,      6252
+兑兑乐,              兑兑乐,             "tianyongcheng/duiduile",                     6240,      6240
+厉北七,              厉北七,             "tianyongcheng/libeiqi",                      6058,      6058
+自动摆摊,            自动摆摊,           "misc/stall_npc",                             6290,      6290
+尘空道人,            尘空道人,           "mowuzhen/chenkong-daoren",                   6032,      6032
+文曲星,              文曲星,             "tianyongcheng/wenquxing",                    6004,      6004
+#草药NPC,           草药NPC,           "misc/herb",                                  0,            0
+李总兵,              李总兵,             "tianyongcheng/lizongbing",                   6031,      6031
+神风上人,            神风上人,           "taoliulin/shenfeng-shangren",                31040,     31040
+龟力上人,            龟力上人,           "taoliulin/guili-shangren",                   31039,     31039
+蝶仙NPC,             蝶仙,               "lanxianzhen/diexian",                        6275,      6275
+黄学究,              黄学究,             "lanxianzhen/huangxuejiu",                    6011,      6011
+神宠,                神宠,               "lanxianzhen/shenchong",                      6291,      6291
+蛙大,                蛙大,               "lanxianzhenwai/wada",                        6101,      6101
+蛙二,                蛙二,               "lanxianzhenwai/waer",                        6101,      6101
+蛙细仔,              蛙细仔,             "lanxianzhenwai/waxizai",                     6101,      6101
+蛙囡,                蛙囡,               "lanxianzhenwai/wanan",                       6101,      6101
+门派指引人,          门派指引人,         "lanxianzhen/menpai-zhiyinren",               6043,      6043
+学子,                学子,               "lanxianzhen/xuezi",                          6046,      6046
+邋遢道人,            邋遢道人,           "wolongpo/lata-daoren",                       6231,      6231
+云霄长老,            云霄长老,           "wulongshan/yunxiao-zhanglao",                20033,     20033
+玉柱长老,            玉柱长老,           "zhongnanshan/yuzhu-zhanglao",                20034,     20034
+斗阙长老,            斗阙长老,           "fenghuangshan/douque-zhanglao",              20035,     20035
+金光长老,            金光长老,           "qianyuanshan/jinguang-zhanglao",             20036,     20036
+白骨长老,            白骨长老,           "kuloushan/baigu-zhanglao",                   20037,     20037
+图腾柱,              图腾柱,             "misc/tuteng-zhu",                            6253,      6253
+采摘道具NPC,         采摘道具NPC,        "misc/gather_item",                           0,         0
+桃树精npc,           桃树精,             "misc/taoshujing",                            6106,      6106
+粉衣仙子npc,         粉衣仙子,           "misc/fenyixianzi",                           6139,      6139
+秦萧,                秦萧,               "misc/qinxiao",                               6255,      6255
+飞毛腿宝宝,          飞毛腿宝宝,         "penglaidao/feimaotui_baobao",                31039,     31039
+如意老人,            如意老人,           "donghai-yucun/ruyi-laoren",                  6058,      6058
+宝藏猎手,            宝藏猎手,           "misc/baozang-lieshou",                       6277,      6277
+财富猎手,            财富猎手,           "misc/caifu-lieshou",                         6277,      6277
+跨服帮战传送人,      跨服帮战传送人,     "loulancheng/kufubangzhan-chuansongren",      20011,     20011
+慧慧儿,              慧慧儿,             "tianyongcheng/huihuier",                     6240,      6240
+玄冥洞主,            玄冥洞主,           "hell/xuanming-dongzhu",                      270006075, 270006075
+玄冥商人,            玄冥商人,           "misc/maze_dealer",                           270006038, 270006038
+望乡台守卫,          望乡台守卫,         "hell/wangxiangtai-shouwei",                  20054,     20054
+望乡石,              望乡石,             "hell/wangxiangshi",                          20062,     20062
+地藏王,              地藏王,             "hell/dizangwang",                            20050,     20050
+圣境仙子,            圣境仙子,           "party_shengjing/shengjing_xianzi",           20035,     20035
+圣境使者,            圣境使者,           "tianyongcheng/shengjing_shizhe",             6032,      6032
+乾坤使者,            乾坤使者,           "tianyongcheng/qiankun_shizhe",               6086,      6086
+乐豆豆,              乐豆豆,             "misc/ledoudou",                              20007,     20007
+白无常,              白无常,             "hell/baiwuchang",                            20058,     20058
+黑无常,              黑无常,             "hell/heiwuchang",                            20059,     20059
+狱獒,                狱獒,               "hell/yuao",                                  31054,     31054
+魅 灵,               魅灵,               "hell/meiling",                               31053,     31053
+炼狱魔,              炼狱魔,             "hell/lianyumo",                              31052,     31052
+阴阳师,              阴阳师,             "hell/yinyangshi",                            31055,     31055
+天道守护使,          天道守护使,         "misc/tiandao-shouhushi",                     20009,     20009
+人间道守护使,        人间道守护使,       "misc/renjiandao-shouhushi",                  20009,     20009
+修罗道守护使,        修罗道守护使,       "misc/xiuluodao-shouhushi",                   20009,     20009
+畜生道守护使,        畜生道守护使,       "misc/chusheng-shouhushi",                    20009,     20009
+饿鬼道守护使,        饿鬼道守护使,       "misc/eguidao-shouhushi",                     20009,     20009
+地狱道守护使,        地狱道守护使,       "misc/diyudao-shouhushi",                     20009,     20009
+地府商人,            地府商人,           "hell/hell-dealer",                           20055,     20055
+转轮王,              转轮王,             "hell/zhuanlunwang",                          370006061, 370006061
+阎罗殿船夫,          阎罗殿船夫,         "misc/difu-chuanfu",                          20064,     20064
+秦广殿船夫,          秦广殿船夫,         "misc/qinguangdian-chuanfu",                  20064,     20064
+楚江殿船夫,          楚江殿船夫,         "misc/chujiangdian-chuanfu",                  20064,     20064
+卞城殿船夫,          卞城殿船夫,         "misc/bianchengdian-chuanfu",                 20064,     20064
+绝阴守卫,            绝阴守卫,           "hell/jueyin-shouwei",                        20053,     20053
+泰煞守卫,            泰煞守卫,           "hell/taisha-shouwei",                        20053,     20053
+犯武守卫,            犯武守卫,           "hell/fanwu-shouwei",                         20053,     20053
+罪气守卫,            罪气守卫,           "hell/zuiqi-shouwei",                         20053,     20053
+宗灵守卫,            宗灵守卫,           "hell/zongling-shouwei",                      20053,     20053
+宛屡守卫,            宛屡守卫,           "hell/wanlv-shouwei",                         20053,     20053
+马面,                马面,               "hell/mamian",                                20057,     20057
+孟婆,                孟婆,               "hell/mengpo",                                20052,     20052
+牛头,                牛头,               "hell/niutou",                                20056,     20056
+阎罗王,              阎罗王,             "hell/yanluowang",                            20051,     20051
+鸿运使者,            鸿运使者,           "tianyongcheng/hongyun_shizhe",               6038,      6038
+问道选秀大使,        问道选秀大使,       "tianyongcheng/xuanxiudashi",                 6247,      6247
+团购商人,            团购商人,           "tianyongcheng/tuangou_shangren",             6038,      6038
+仁心术士,            仁心术士,           "misc/renxin-shushi",                         270031032, 270031032
+灵兽异人4,           灵兽异人,           "misc/lingshouyiren",                         470031030, 470031030
+小莲,                小莲,               "hell/xiaolian",                              270006019, 270006019
+武举人,              武举人,             "hell/wujuren",                               580006033, 580006033
+恶鬼守护,            恶鬼守护,           "hell/egui-shouhu",                           370006248, 370006248
+百变精,              百变精,             "hell/baibianjing",                           270006049, 270006049
+鸿狸,                鸿狸,               "hell/hongli",                                6213,      6213
+琵琶女,              琵琶女,             "hell/pipanv",                                270006019, 270006019
+魉彤,                魉彤,               "hell/liangtong",                             270006288, 270006288
+神秘人,              神秘人,             "hell/shenmiren",                             370006057, 370006057
+园丁,                园丁,               "misc/yuanding",                              6030,      6030
+植物NPC,             植物NPC,            "misc/plant",                                 52240,     52240
+无影仙,              无影仙,             "tianyongcheng/wuying_xian",                  6075,      6075
+雷震子,              雷震子,             "hell/leizhenzi",                             6057,      6057
+富商幽魂,            富商幽魂,           "misc/dealer_ghost",                          20055,     20055
+武道尊者,            武道尊者,           "misc/wudao-zunzhe",                          6033,      6033
+状元王,              状元王,             "misc/zhuangyuanwang",                        20033,     20033
+试道接引人,          试道接引人,         "shidao_loulancheng/shidao-jieyinren",        6236,      6236
+跨服试道接引人,      跨服试道接引人,     "tianyongcheng/kuafushidao-jieyinren",        6236,      6236
+天下道尊,            天下道尊,           "misc/tianxia-daowang",                       6223,      6223
+活动大使,            活动大使,           "tianyongcheng/huodong-dashi",                6236,      6236
+韩湘子2,             韩湘子,             "misc/hanxiangzi2",                           20008,     20008
+灵木道人,            灵木道人,           "misc/lingmudaoren",                          6066,      6066
+转灵台,              转灵台,             "misc/zhuanlintai",                           20062,     20062
+东海龙王,            东海龙王,           "misc/donghai-longwang",                      6079,      6079
+太虚圣境传送人,      太虚圣境传送人,     "misc/taixushengjing-chuansongren.c",         6030,      6030
+角宿,                角宿,               "misc/dongfang-jiaoxiu",                      6223,      6223
+亢宿,                亢宿,               "misc/dongfang-kangxiu",                      6223,      6223
+氐宿,                氐宿,               "misc/dongfang-dixiu",                        6223,      6223
+房宿,                房宿,               "misc/dongfang-fangxiu",                      6223,      6223
+心宿,                心宿,               "misc/dongfang-xinxiu",                       6223,      6223
+尾宿,                尾宿,               "misc/dongfang-weixiu",                       6223,      6223
+箕宿,                箕宿,               "misc/dongfang-jixiu",                        6223,      6223
+斗宿,                斗宿,               "misc/beifang-douxiu",                        6223,      6223
+牛宿,                牛宿,               "misc/beifang-niuxiu",                        6223,      6223
+女宿,                女宿,               "misc/beifang-nvxiu",                         6223,      6223
+虚宿,                虚宿,               "misc/beifang-xuxiu",                         6223,      6223
+危宿,                危宿,               "misc/beifang-weixiu",                        6223,      6223
+室宿,                室宿,               "misc/beifang-shixiu",                        6223,      6223
+壁宿,                壁宿,               "misc/beifang-bixiu",                         6223,      6223
+奎宿,                奎宿,               "misc/xifang-kuixiu",                         6223,      6223
+娄宿,                娄宿,               "misc/xifang-louxiu",                         6223,      6223
+胃宿,                胃宿,               "misc/xifang-weixiu",                         6223,      6223
+昴宿,                昴宿,               "misc/xifang-angxiu",                         6223,      6223
+毕宿,                毕宿,               "misc/xifang-bixiu",                          6223,      6223
+觜宿,                觜宿,               "misc/xifang-zuixiu",                         6223,      6223
+参宿,                参宿,               "misc/xifang-canxiu",                         6223,      6223
+井宿,                井宿,               "misc/nanfang-jinxiu",                        6223,      6223
+鬼宿,                鬼宿,               "misc/nanfang-guixiu",                        6223,      6223
+柳宿,                柳宿,               "misc/nanfang-liuxiu",                        6223,      6223
+星宿,                星宿,               "misc/nanfang-xingxiu",                       6223,      6223
+张宿,                张宿,               "misc/nanfang-zhangxiu",                      6223,      6223
+翌宿,                翌宿,               "misc/nanfang-yixiu",                         6223,      6223
+轸宿,                轸宿,               "misc/nanfang-zhenxiu",                       6223,      6223
+王母娘娘,            王母娘娘,           "baxianmengjing/wangmuniangniang",            6071,      6071
+上古穿山甲,          上古穿山甲,         "baxianmengjing/shanggu-chuanshanjia",        6249,      6249
+穿山魔甲,            穿山魔甲,           "baxianmengjing/chuanshanjiamo",              6260,      6260
+家仆,                家仆,               "baxianmengjing/jiapu",                       6202,      6202
+传送童子1,           传送童子,           "baxianmengjing/chuansong-tongzi",            6027,      6027
+百花园园丁,          百花园园丁,         "misc/baihuayuan-yuanding",                   6088,      6088
+金灵剑,              金灵剑,             "misc/jinlingjian",                           30006,     30006
+木灵剑,              木灵剑,             "misc/mulingjian",                            30009,     30009
+水灵剑,              水灵剑,             "misc/shuilingjian",                          30007,     30007
+火灵剑,              火灵剑,             "misc/huolingjian",                           30008,     30008
+土灵剑,              土灵剑,             "misc/tulingjian",                            30010,     30010
+邪冥妖王,            邪冥妖王,           "misc/xieming-yaowang",                       6227,      6227
+邪冥谷主,            邪冥谷主,           "misc/xieming-guzhu",                         20055,     20055
+张果老2,             张果老,             "baxianmengjing/zhangguolao",                 20009,     20009
+黄沙长老,            黄沙长老,           "misc/huangsha-zhanglao",                     6086,      6086
+问道缘大使,          问道缘大使,         "tianyongcheng/wendaoyuan-dashi",             6138,      6138
+帮派副总管,          帮派副总管,         "misc/bangpai-fuzongguan",                    6036,      6036
+仙天灵塔,            仙天灵塔,           "misc/xiantian-lignta",                       20039,     20039
+阵眼护卫1,           阵眼护卫,           "misc/zhenyan-huwei1",                        6097,      6097
+阵眼护卫2,           阵眼护卫,           "misc/zhenyan-huwei2",                        6098,      6098
+阵眼护卫3,           阵眼护卫,           "misc/zhenyan-huwei3",                        6099,      6099
+王中王,              王中王,             "tianyongcheng/wangzhongwang",                6038,      6038
+名人争霸赛接引人,    名人争霸赛接引人,   "tianyongcheng/mingren-jieyinren",            6236,      6236
+争霸赛接引人,        争霸赛接引人,       "misc/zhengba-jieyinren",                     6236,      6236
+无敌霸王,            无敌霸王,           "misc/wudi-bawang",                           6223,      6223
+三星竞技赛接引人,    三星竞技赛接引人,   "tianyongcheng/samsung-jieyinren",            6236,      6236
+楼兰城接引人,        楼兰城接引人,       "misc/loulan-jieyinren",                      6236,      6236
+三星竞技特派员,      三星竞技特派员,     "misc/samsung-tepaiyuan",                     6223,      6223
+陈镖头,              陈镖头,             "donghai-yucun/chenbiaotou",                  6033,      6033
+擂台管理人,          擂台管理人,         "tianyongcheng/leitai-guanliren",             6043,      6043
+乾坤老祖,            乾坤老祖,           "tianyongcheng/qiankun-laozu",                6086,      6086
+失踪的家将,          失踪的家将,         "xuanyuanmiao/shizongde-jiajiang",            6223,      6223
+李家三公子,          李家三公子,         "beihai-shatan/lijia-sangongzi",              7008,      7008
+战场管理人,          战场管理人,         "misc/zhanchang-guanliren",                   6046,      6046
+一号裁判,            一号裁判,           "misc/caipan1",                               6043,      6043
+二号裁判,            二号裁判,           "misc/caipan2",                               6043,      6043
+三号裁判,            三号裁判,           "misc/caipan3",                               6043,      6043
+四号裁判,            四号裁判,           "misc/caipan4",                               6043,      6043
+百兽使者,            百兽使者,           "misc/baishou-shizhe",                        6249,      6249
+霹雳仙,              霹雳仙,             "misc/pilixian",                              20033,     20033
+叶猾仙,              叶猾仙,             "misc/yehuaxian",                             20034,     20034
+湖镜仙,              湖镜仙,             "misc/hujingxian",                            20035,     20035
+煽赤仙,              煽赤仙,             "misc/shanchixian",                           20036,     20036
+地藤仙,              地藤仙,             "misc/ditengxian",                            20037,     20037
+九天灵鹿,            九天灵鹿,           "reshahuangmo/jiutian-linglu",                30001,     30001
+九天灵狐,            九天灵狐,           "xueyubingyuan/jiutian-linghu",               30515,     30515
+通魔道人,            通魔道人,           "duanhunku/tongmo-daoren",                    20004,     20004
+龟丞相,              龟丞相,             "misc/guichengxiang",                         6191,      6191
+天目上人,            天目上人,           "misc/tianmushangren",                        20006,     20006
+仙缘道人,            仙缘道人,           "misc/xianyuan-daoren",                       20009,     20009
+宝地使者,            宝地使者,           "misc/baodi-shizhe",                          6027,      6027
+GM问道手机助手,      GM问道手机助手,     "misc/shouji-zhushou",                        6019,      6019
+传送仙官,            传送仙官,           "nantianmen/chuansong-xianguan",              20076,     20076
+太玄真君,            太玄真君,           "nantianmen/taixuan-zhenjun",                 20065,     20065
+太清真君,            太清真君,           "nantianmen/taiqing-zhenjun",                 20065,     20065
+糊涂道人,            糊涂道人,           "tianyongcheng/hutu-daoren",                  20004,     20004
+灵兽异人5,           灵兽异人,           "misc/ntm-lingshouyiren",                     6041,      6041
+茅山接引人,          茅山接引人,         "misc/maoshan-jieyinren",                     6043,      6043
+诸葛糊涂,            诸葛糊涂,           "misc/zhuge-hutu",                            6052,      6052
+茅山教账房,          茅山教账房,         "misc/maoshanjiao-zhangfang",                 6015,      6015
+曹国舅2,             曹国舅,             "baxianmengjing/caoguojiu",                   20011,     20011,     仙人,         老妖,      小仙,              本仙
+蛟龙,                蛟龙,               "baxianmengjing/jiaolong",                    6162,      6162
+东胜尊神,            东胜尊神,           "baxianmengjing/dongsheng-zunzhe",            6223,      6223
+蛟龙族长,            蛟龙族长,           "baxianmengjing/jiaolong-zuzhang",            6190,      6190
+商容,                商容,               "fengshenshijie/shangrong",                   6010,      6010
+地神,                地神,               "simenzhen/dishen",                           6047,      6047
+玄武守卫,            玄武守卫,           "simenzhen/xuanwu-shouwei",                   6191,      6191
+朱雀守卫,            朱雀守卫,           "simenzhen/zhuque-shouwei",                   6192,      6192
+白虎守卫,            白虎守卫,           "simenzhen/baihu-shouwei",                    6189,      6189
+青龙守卫,            青龙守卫,           "simenzhen/qinglong-shouwei",                 6190,      6190
+女娲娘娘,            女娲娘娘,           "simenzhen/nvwa-niangniang",                  31032,     31032
+白发老翁,            白发老翁,           "baxianmengjing/baifa-laoweng",               20009,     20009
+吐蕃士兵,            士兵,               "baxianmengjing/tufan-shibing",               6223,      6223
+钟离权,              钟离权,             "baxianmengjing/zhongliquan",                 6249,      6249
+胡僧,                胡僧,               "baxianmengjing/huseng",                      6089,      6089
+东华上仙,            东华上仙,           "baxianmengjing/donghua-shangxian",           6066,      6066
+太上老君2,           太上老君,           "baxianmengjing/taishang-laojun",             6065,      6065
+李副将,              李副将,             "baxianmengjing/lifujiang",                   871403,    7003
+玉匣,                玉匣,               "baxianmengjing/yuxia",                       20038,     20038
+李猎户,              李猎户,             "misc/liliehu",                               6230,      6230
+李四,                李四,               "misc/lisi",                                  6004,      6004
+李凝阳,              李凝阳,             "misc/liningyang",                            6244,      6244
+已死的老乞丐,        已死的老乞丐,       "misc/yisi_laoqigai",                         20004,     20004
+灵宝真君,            灵宝真君,           "misc/lingbao_zhenjun",                       6065,      6065
+飞廉幼兽,            飞廉幼兽,           "misc/feilianyoushou",                        31067,     31067
+启老爷,              启老爷,             "fengshenshijie/qilaoye",                     6010,      6010
+苏护,                苏护,               "fengshenshijie/suhu",                        6031,      6031
+守卫,                守卫,               "fengshenshijie/shouwei",                     6051,      6051
+守卫1,               守卫,               "fengshenshijie/shouwei1",                    6051,      6051
+好色的猪妖,          好色的猪妖,         "fengshenshijie/zhuyao",                      6208,      6208
+蓝采和2,             蓝采和,             "misc/lancaihe2",                             20007,     20007
+阎罗殿传送人,        阎罗殿传送人,       "misc/yanluodian-chuansongren",               6228,      6228
+梦境牛头,            梦境牛头,           "misc/mengjing_niutou",                       20056,     20056
+梦境马面,            梦境马面,           "misc/mengjing_mamian",                       20057,     20057
+阎王爷,              阎王爷,             "misc/yanwangye",                             20051,     20051
+书童,                书童,               "misc/shutong",                               7009,      7009
+金童,                金童,               "misc/jintong",                               6020,      6020
+玉女,                玉女,               "misc/yunv",                                  6135,      6135
+商军前锋1,           商军前锋,           "fengshenshijie/shangjun-qianfeng1",          6051,      6051
+商军前锋2,           商军前锋,           "fengshenshijie/shangjun-qianfeng2",          6051,      6051
+梅武,                梅武,               "fengshenshijie/meiwu",                       6247,      6247
+金葵,                金葵,               "fengshenshijie/jinkui",                      6244,      6244
+崇应彪,              崇应彪,             "fengshenshijie/chongyingbiao",               6251,      6251
+崇黑虎,              崇黑虎,             "fengshenshijie/chongheihu",                  21016,     21016
+郑伦,                郑伦,               "fengshenshijie/zhenglun",                    6251,      6251
+散宜生,              散宜生,             "fengshenshijie/sanyisheng",                  21014,     21014
+散宜生1,             散宜生,             "fengshenshijie/sanyisheng1",                 21014,     21014
+苏护1,               苏护,               "fengshenshijie/suhu1",                       6031,      6031
+苏全忠,              苏全忠,             "fengshenshijie/suquanzhong",                 21023,     21023
+崇侯虎,              崇侯虎,             "fengshenshijie/chonghouhu",                  6064,      6064
+猜猜乐,              猜猜乐,             "misc/caicaile",                              6178,      6178
+灵巧仙,              灵巧仙,             "yunxiaogong/lingqiaoxian",                   20072,     20072
+武器神匠,            武器神匠,           "yunxiaogong/wuqi_shenjiang",                 20070,     20070
+算盘仙,              算盘仙,             "yunxiaogong/suanpanxian",                    20073,     20073
+通灵药王,            通灵药王,           "yunxiaogong/tongling_yaowang",               20075,     20075
+百宝真人,            百宝真人,           "yunxiaogong/baibao_zhenren",                 20065,     20065
+复元仙,              复元仙,             "yunxiaogong/fuyuanxian",                     20071,     20071
+天宫神将,            天宫神将,           "yunxiaogong/tiangong_shenjiang",             20078,     20078
+天宫护卫,            天宫护卫,           "yunxiaogong/tiangong_shouwei",               20079,     20079
+百宝仙,              百宝仙,             "yunxiaogong/zahuodian_laobanniang",          20072,     20072
+铁拐李3,             铁拐李,             "donghai/tieguaili",                          20004,     20004,     仙人,         老妖,      小仙,              本仙
+汉钟离3,             汉钟离,             "donghai/hanzhongli",                         20005,     20005,     仙人,         老妖,      小仙,              本仙
+吕洞宾3,             吕洞宾,             "donghai/lvdongbin",                          20006,     20006,     仙人,         老妖,      小仙,              本仙
+蓝采和3,             蓝采和,             "donghai/lancaihe",                           20007,     20007,     仙人,         老妖,      小仙,              本仙
+韩湘子3,             韩湘子,             "donghai/hanxiangzi",                         20008,     20008,     仙人,         老妖,      小仙,              本仙
+张果老3,             张果老,             "donghai/zhangguolao",                        20009,     20009,     仙人,         老妖,      小仙,              本仙
+何仙姑3,             何仙姑,             "donghai/hexiangu",                           20010,     20010,     仙人,         老妖,      小仙,              本仙
+曹国舅3,             曹国舅,             "donghai/caoguojiu",                          20011,     20011,     仙人,         老妖,      小仙,              本仙
+敖广,                敖广,               "donghai/aoguang",                            6079,      6079,      大神,         臭虫,      小王,              老子我
+蓬莱使者1,           蓬莱使者,           "donghai/penglai-shizhe",                     6047,      6047,      尊使,         小奴才,    在下,              老子我
+受控制的葫芦,        受控制的葫芦,       "donghai/hulu",                               30013,     30013
+东海龙将1,           东海龙将,           "donghai/longjiang",                          6131,      6131
+东海龙将2,           东海龙将,           "donghai/longjiang1",                         6163,      6163
+东海龙将3,           东海龙将,           "donghai/longjiang2",                         6164,      6164
+花龙太子,            花龙太子,           "donghai/longtaizi",                          6195,      6195
+东海牢头,            东海牢头,           "donghai/laotou",                             6162,      6162
+传送使者,            传送使者,           "misc/chuansong-shizhe",                      6043,      6043
+中洲争霸战接引人1,   中洲争霸战接引人,   "misc/zhongzhou-jieyinren1",                  6236,      6236
+中洲争霸战接引人2,   中洲争霸战接引人,   "misc/zhongzhou-jieyinren2",                  6236,      6236
+中洲争霸战接引人3,   中洲争霸战接引人,   "misc/zhongzhou-jieyinren3",                  6236,      6236
+中洲争霸战物资员,    中洲争霸战物资员,   "misc/zhongzhou-wuziyuan",                    6014,      6014
+七星战神,            七星战神,           "yunxiaogong/qixjh_tiaozhanshizhe",           6236,      6236
+卒,                  卒,                 "yunxiaogong/zu",                             31123,     31123
+象,                  象,                 "yunxiaogong/xiang",                          31120,     31120
+車,                  車,                 "yunxiaogong/che1",                           31118,     31118
+將,                  將,                 "yunxiaogong/jiang",                          31117,     31117
+兵,                  兵,                 "yunxiaogong/bing",                           31116,     31116
+俥,                  俥,                 "yunxiaogong/che2",                           31112,     31112
+炮,                  炮,                 "yunxiaogong/pao",                            31115,     31115
+帥,                  帥,                 "yunxiaogong/shuai",                          21023,     21023
+战场管理人1,         战场管理人,         "misc/zhanchang-guanliren1",                  6046,      6046
+神秘老者,            神秘老者,           "misc/shenmi-laozhe",                         6058,      6058
+彭满天,              彭满天,             "misc/haojiyou",                              6004,      6004
+血丹魂,              血丹魂,             "hell/xuedanhun",                             6304,      6304
+捕鱼使者,            捕鱼使者,           "misc/buyu-shizhe",                           6043,      6043
+血丹魂,              血丹魂,             "hell/xuedanhun",                             6304,      6304
+黄飞虎1,             黄飞虎,             "fengshenshijie/huangfeihu1",                 20078,     20078
+苏护2,               苏护,               "fengshenshijie/suhu2",                       6031,      6031
+苏全忠2,             苏全忠,             "fengshenshijie/suquanzhong2",                21023,     21023
+纣王,                纣王,               "fengshenshijie/zhouwang",                    20076,     20076
+比干,                比干,               "fengshenshijie/bigan",                       6011,      6011
+商容1,               商容,               "fengshenshijie/shangrong1",                  6010,      6010
+费仲,                费仲,               "fengshenshijie/feizhong",                    6038,      6038
+尤浑,                尤浑,               "fengshenshijie/youhun",                      6014,      6014
+云中子1,             云中子,             "fengshenshijie/yunzhongzi1",                 6053,      6053
+金霞童子,            金霞童子,           "fengshenshijie/jinxiatongzi",                20007,     20007
+朝歌守卫,            朝歌守卫,           "fengshenshijie/zhaogeshouwei",               31123,     31123
+桃木剑,              桃木剑,             "fengshenshijie/taomujian",                   30009,     30009
+朝歌禁军,            朝歌禁军,           "fengshenshijie/zhaogejinjun",                31123,     31123
+朝歌禁军1,           朝歌禁军,           "fengshenshijie/zhaogejinjun1",               31116,     31116
+朝歌禁卫,            朝歌禁卫,           "fengshenshijie/zhaogejinwei",                31123,     31123
+朝歌禁卫1,           朝歌禁卫,           "fengshenshijie/zhaogejinwei1",               31116,     31116
+殷破败,              殷破败,             "fengshenshijie/yinpobai",                    6005,      6005
+雷开,                雷开,               "fengshenshijie/leikai",                      20037,     20037
+方弼,                方弼,               "fengshenshijie/fangbi",                      6156,      6156
+方相1,               方相,               "fengshenshijie/fangxiang",                   6235,      6235
+苏全忠1,             苏全忠,             "fengshenshijie/suquanzhong1",                21023,     21023
+苏妲己,              苏妲己,             "fengshenshijie/sudaji",                      22018,     22018
+黄飞虎,              黄飞虎,             "fengshenshijie/huangfeihu",                  20078,     20078
+地牢牢头,            地牢牢头,           "fengshenshijie/dilao_laotou",                6248,      6248
+李靖,                李靖,               "fengshenshijie/lijing",                      21014,     21014
+哪吒,                哪吒,               "fengshenshijie/nezha",                       7008,      7008
+哪吒1,               哪吒,               "fengshenshijie/nezha1",                      7008,      7008
+金吒,                金吒,               "fengshenshijie/jinzha",                      861405,    861405
+木吒,                木吒,               "fengshenshijie/muzha",                       870802,    870802
+陈塘关士兵,          陈塘关士兵,         "fengshenshijie/chentangguansb",              6050,      6050
+龙宫禁卫,            龙宫禁卫,           "fengshenshijie/longgong_jinwei",             6212,      6212
+东海龙王1,           东海龙王,           "fengshenshijie/donghai_longwang1",           6079,      6079
+殷洪,                殷洪,               "fengshenshijie/yinhong",                     7003,      7003
+殷郊,                殷郊,               "fengshenshijie/yinjiao",                     7002,      7002
+刽子手,              刽子手,             "fengshenshijie/kuaizishou",                  6230,      6230
+刽子手1,             刽子手,             "fengshenshijie/kuaizishou1",                 6230,      6230
+天墉城装扮大使,      天墉城装扮大使,     "tianyongcheng/zhuangban-dashi",              20073,     20073
+梦境散仙,            梦境散仙,           "misc/mengjing_sanxian",                      20009,     20009
+北怪,                北怪,               "misc/beiguai",                               6203,      6203
+西狂,                西狂,               "misc/xikuang",                               6204,      6204
+南蛮,                南蛮,               "misc/nanman",                                6205,      6205
+东邪,                东邪,               "misc/dongxie",                               6206,      6206
+吞天,                吞天,               "difu/tuntian",                               6694,      6694
+封神使者,            封神使者,           "misc/fengshen-shizhe",                       6236,      6236
+噬地,                噬地,               "nantianmen/shidi",                           6697,      6697
+金蟹将军,            金蟹将军,           "misc/jinxie-jiangjun",                       6164,      6164
+西岐守卫,            西岐守卫,           "fengshenshijie/xiqishouwei",                 6050,      6050
+姬昌,                姬昌,               "fengshenshijie/jichang",                     6070,      6070
+伯邑考,              伯邑考,             "fengshenshijie/boyikao",                     20036,     20036
+南宫适,              南宫适,             "fengshenshijie/nangongshi",                  861405,    861405
+太颠,                太颠,               "fengshenshijie/taidian",                     6011,      6011
+闳夭,                闳夭,               "fengshenshijie/hongyao",                     6059,      6059
+云中子2,             云中子,             "fengshenshijie/yunzhongzi2",                 20009,     20009
+姜子牙,              姜子牙,             "fengshenshijie/jiangziya",                   20009,     20009
+骷髅山道童,          骷髅山道童,         "fengshenshijie/kuloushan-daotong",           6029,      6029
+莲花仙子,            莲花仙子,           "fengshenshijie/lianhua-xianzi",              22018,     22018
+石矶娘娘1,           石矶娘娘,           "fengshenshijie/shiji-niangniang1",           6138,      6138
+太乙真人1,           太乙真人,           "fengshenshijie/taiyi-zhenren1",              6055,      6055
+大力神猪1,           大力神猪,           "tianyongcheng/dali_shenzhu",                 31147,     31147
+全民PK赛接引人,      全民PK赛接引人,     "tianyongcheng/quanmin-pk-jieyinren",         6236,      6236
+全民楼兰城接引人,    全民楼兰城接引人,   "misc/quanmin-pk-jieyinren",                  6236,      6236
+柳如烟,              柳如烟,             "donghai-yucun/liuruyan",                     6042,      6042
+黄飞虎2,             黄飞虎,             "fengshenshijie/huangfeihu2",                 20078,     20078
+比干1,               比干,               "fengshenshijie/bigan1",                      6011,      6011
+武侯精兵,            武侯精兵,           "fengshenshijie/wuhoujingbing",               31123,     31123
+姬昌1,               姬昌,               "fengshenshijie/jichang1",                    6070,      6070
+九重天仙官1,         九重天仙官,         "tianyongcheng/xianguan",                     20070,     20070
+九重天仙官2,         九重天仙官,         "jiuchongtian-tianmen/xianguan",              20070,     20070
+九重天物资仙官,      九重天物资仙官,     "jiuchongtian-tianmen/wuzi-xianguan",         20073,     20073
+边关守将,            边关守将,           "jiuchongtian-tianmen/bianguan-shoujiang",    20070,     20070
+昆仑镜仙,            昆仑镜仙,           "yunxiaogong/kunlun_jingxian",                6246,      6246
+镜仙童子,            镜仙童子,           "misc/jingxian_tongzi",                       6069,      6069
+火神祝融,            火神祝融,           "misc/huoshen_zhurong",                       31031,     31031
+女娲氏,              女娲氏,             "misc/nvwashi",                               20010,     20010
+共工氏,              共工氏,             "misc/gonggongshi",                           6243,      6243
+天墉城车夫,          天墉城车夫,         "misc/tianyongcheng-chefu",                   6045,      6045
+天墉城车夫1,         天墉城车夫,         "misc/tianyongcheng-chefu1",                  6045,      6045
+守城士兵5,           守城士兵,           "misc/shoucheng-shibing",                     31116,     31116
+弩车守卫,            弩车守卫,           "misc/nuche-shouwei",                         22023,     22023
+杨总兵,              杨总兵,             "misc/yangzongbing",                          6031,      6031
+金灵尊圣,            金灵尊圣,           "tianyongcheng/jinling-zunsheng",             20075,     20075
+弩车,                弩车,               "misc/nuche",                                 51093,     51093
+投石车,              投石车,             "misc/toushiche",                             51092,     51092
+太阳神,              太阳神,             "misc/taiyangshen",                           6243,      6243
+燧人氏,              燧人氏,             "misc/suirenshi",                             6250,      6250
+玉清噬魔神,          玉清噬魔神,         "yuqingshandian/yuqing-shimoshen",            6691,      6691
+玉清噬魔阳圣,        玉清噬魔阳圣,       "yuqingshandian/yuqing-shimoyangsheng",       6323,      6323
+玉清噬魔阴圣,        玉清噬魔阴圣,       "yuqingshandian/yuqing-shimoyinsheng",        6324,      6324
+金龙大王,            金龙大王,           "misc/jinlong-dawang",                        6331,      6331
+玉雕大王,            玉雕大王,           "misc/yudiao-dawang",                         6332,      6332
+寒冰大王,            寒冰大王,           "misc/hanbing-dawang",                        6333,      6333
+烈焰大王,            烈焰大王,           "misc/lieyan-dawang",                         6334,      6334
+土瓷大王,            土瓷大王,           "misc/tuci-dawang",                           6335,      6335
+云游商人,            云游商人,           "misc/yunyou_shangren",                       20070,     20070
+傀儡王,              傀儡王,             "taijishengjing/kuileiwang",                  6699,      6699
+训练营长,            训练营长,           "misc/xunlianyingzhang",                      6031,      6031
+力气训练师,          力气训练师,         "misc/liqixunlianshi",                        6245,      6245
+智慧训练师,          智慧训练师,         "misc/zhihuixunlianshi",                      6243,      6243
+灵敏训练师,          灵敏训练师,         "misc/lingminxunlianshi",                     6249,      6249
+体魄训练师,          体魄训练师,         "misc/tipoxunlianshi",                        6252,      6252
+乱斗场使者,          乱斗场使者,         "misc/luandouchangshizhe",                    6236,      6236
+训练场使者,          训练场使者,         "misc/xunlianchangshizhe",                    6236,      6236
+力气训练师1,         力气训练师,         "misc/liqixunlianshi1",                       6245,      6245
+智慧训练师1,         智慧训练师,         "misc/zhihuixunlianshi1",                     6243,      6243
+灵敏训练师1,         灵敏训练师,         "misc/lingminxunlianshi1",                    6249,      6249
+体魄训练师1,         体魄训练师,         "misc/tipoxunlianshi1",                       6252,      6252
+神君使者,            神君使者,           "jiuchongtian-tianmen/shenjun-shizhe",        20075,     20075
+青龙孟章神君,        青龙孟章神君,       "jiuchongtian-tiangong/qinglong-mengzhang",   6190,      6190
+白虎监兵神君,        白虎监兵神君,       "jiuchongtian-tiangong/baihu-linbing",        6189,      6189
+朱雀陵光神君,        朱雀陵光神君,       "jiuchongtian-tiangong/zhuque-lingguang",     6192,      6192
+玄武执名神君,        玄武执名神君,       "jiuchongtian-tiangong/xuanwu-zhiming",       6191,      6191
+许愿树,              许愿树,             "tianyongcheng/xuyuan-shu",                   20140,     -1
+阿伊莎小姐,          阿伊莎小姐,         "xiyugucheng/ayisha_xiaojie",                 20129,     20129
+阿萨铁匠,            阿萨铁匠,           "xiyugucheng/asa_tiejiang",                   20135,     20135
+小伶俐,              小伶俐,             "xiyugucheng/xiaolingli",                     20136,     20136
+兽骨商人,            兽骨商人,           "xiyugucheng/shougu_shangren",                20127,     20127
+哈哈老伯,            哈哈老伯,           "xiyugucheng/haha_laobo",                     20132,     20132
+西域商人,            西域商人,           "xiyugucheng/xiyu_shangren",                  20128,     20128
+大祭司,              大祭司,             "xiyugucheng/dajisi",                         20139,     20139
+鸠摩将军,            鸠摩将军,           "xiyugucheng/jiumo_jiangjun",                 20137,     20137
+西域士兵1,           西域士兵,           "xiyugucheng/xiyu_shibing1",                  20133,     20133
+西域士兵2,           西域士兵,           "xiyugucheng/xiyu_shibing2",                  20133,     20133
+西域士兵3,           西域士兵,           "xiyugucheng/xiyu_shibing3",                  20134,     20134
+西域士兵4,           西域士兵,           "xiyugucheng/xiyu_shibing4",                  20134,     20134
+囚犯1,               囚犯,               "xiyugucheng/qiufan1",                        20146,     20146
+囚犯2,               囚犯,               "xiyugucheng/qiufan2",                        20138,     20138
+大王子,              大王子,             "xiyugucheng/dawangzi",                       20141,     20141
+小王子,              小王子,             "xiyugucheng/xiaowangzi",                     20142,     20142
+侍从1,               侍从,               "xiyugucheng/shicong1",                       20143,     20143
+侍从2,               侍从,               "xiyugucheng/shicong2",                       20143,     20143
+侍从3,               侍从,               "xiyugucheng/shicong3",                       20144,     20144
+侍从4,               侍从,               "xiyugucheng/shicong4",                       20144,     20144
+神驼1,               神驼,               "xiyugucheng/shentuo",                        20130,     20130
+羊大叔,              羊大叔,             "xiyugucheng/yangdashu",                      20164,     20164
+休息的骆驼1,         休息的骆驼,         "xiyugucheng/xiuxiluotuo1",                   20130,     20130
+休息的骆驼2,         休息的骆驼,         "xiyugucheng/xiuxiluotuo2",                   20131,     20131
+休息的骆驼3,         休息的骆驼,         "xiyugucheng/xiuxiluotuo3",                   20131,     20131
+神驼2,               神驼,               "reshahuangmo/shentuo",                       20131,     20131
+灵兽异人6,           灵兽异人,           "xiyugucheng/lingshouyiren",                  6041,      6041
+狐灵鬼,              狐灵鬼,             "misc/hulinggui",                             6286,      6286
+暗灵鬼,              暗灵鬼,             "misc/anlinggui",                             6304,      6304
+炎灵鬼,              炎灵鬼,             "misc/yanlinggui",                            6303,      6303
+魅灵鬼,              魅灵鬼,             "misc/meilinggui",                            31053,     31053
+战灵鬼,              战灵鬼,             "misc/zhanlinggui",                           20056,     20056
+阵营争霸传送人,      阵营争霸传送人,     "misc/zhenyzb-chuansongren",                  6046,      6046
+洞府传送使1,         洞府传送使,         "dongfu/dongfu_chuansongshi1",                6049,      6049
+宠物大使,            宠物大使,           "tianyongcheng/chongwu-dashi",                20076,     20076
+训练营登记员,        训练营登记员,       "misc/xunlianying_dengjiyuan",                6016,      6016
+经验水晶,            经验水晶,           "dongfu/jingyan_shuijing",                    51097,     0
+道行水晶,            道行水晶,           "dongfu/daohang_shuijing",                    51098,     0
+声望水晶,            声望水晶,           "dongfu/shengwang_shuijing",                  51099,     0
+道法水晶,            道法水晶,           "dongfu/daofa_shuijing",                      51100,     0
+武学水晶,            武学水晶,           "dongfu/wuxue_shuijing",                      51101,     0
+修为水晶,            修为水晶,           "dongfu/xiuwei_shuijing",                     51102,     0
+心法水晶,            心法水晶,           "dongfu/xinfa_shuijing",                      51103,     0
+亲密水晶,            亲密水晶,           "dongfu/qinmi_shuijing",                      51104,     0
+洞府传送使2,         洞府传送使,         "dongfu/dongfu_chuansongshi2",                6049,      6049
+

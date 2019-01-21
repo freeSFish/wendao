@@ -1,0 +1,348 @@
+#FORM2
+#base_attrib 为1表示生成的属性随机，2表示气血，3表示法力
+#4表示忽视连击，5表示忽视必杀，6表示连击率，7表示必杀率
+#super_obstruct表示强力障碍宠物，obstruct_level为支持的
+#装备最低等级，其他效果目前不支持
+
+[青蛙]
+base_attrib : 1
+
+[松鼠]
+base_attrib : 1
+
+[兔子]
+base_attrib : 1
+
+[蛇]
+base_attrib : 1
+
+[猴子]
+base_attrib : 1
+
+[山猫]
+base_attrib : 1
+
+[狐狸]
+base_attrib : 1
+
+[野狗]
+base_attrib : 1
+
+[桃精]
+base_attrib : 1
+
+[柳鬼]
+base_attrib : 1
+
+[白猿]
+base_attrib : 1
+
+[海龟]
+base_attrib : 1
+
+[鹰<北海沙滩>]
+base_attrib : 1
+
+[鹰]
+base_attrib : 1
+
+[蝙蝠]
+base_attrib : 1
+
+[蟒]
+base_attrib : 1
+
+[僵尸]
+base_attrib : 1
+
+[鬼火萤]
+base_attrib : 1
+
+[狼]
+base_attrib : 1
+
+[老虎]
+base_attrib : 1
+
+[狼<十里坡>]
+base_attrib : 1
+
+[老虎<十里坡>]
+base_attrib : 1
+
+[花妖]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 60
+
+[鱼人]
+base_attrib : 1
+
+[地裂兽]
+base_attrib : 1
+
+[金头陀]
+base_attrib : 1
+chase : 1
+chase_level : 60
+
+[乌龙]
+base_attrib : 1
+
+[炎龙]
+base_attrib : 1
+
+[冰龙]
+base_attrib : 1
+
+[青龙]
+base_attrib : 1
+
+[黄龙]
+base_attrib : 1
+
+[火鸦]
+base_attrib : 1
+
+[巨蜥]
+base_attrib : 1
+
+[石魔]
+base_attrib : 1
+
+[屈魂]
+base_attrib : 1
+
+[怨鬼]
+base_attrib : 1
+
+[粉衣仙子]
+base_attrib : 1
+chase : 1
+chase_level :70
+
+[电精]
+base_attrib : 1
+
+[青衣仙子]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 70
+
+[雨兽]
+base_attrib : 1
+
+[黄衣仙子]
+base_attrib : 1
+
+[风怪]
+base_attrib : 1
+
+[红衣仙子]
+base_attrib : 1
+
+[虹妖]
+base_attrib : 1
+
+[紫衣仙子]
+base_attrib : 1
+
+[雪女]
+base_attrib : 1
+chase : 1
+chase_level :80
+
+[蓝衣仙子]
+base_attrib : 1
+
+[云兽]
+base_attrib : 1
+
+[白衣仙子]
+base_attrib : 1
+
+[雷怪]
+base_attrib : 1
+
+[石牛妖]
+base_attrib : 1
+
+[骷髅战将]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 80
+
+[火光鼠]
+base_attrib : 1
+
+[紫燕]
+base_attrib : 1
+
+[蓝毛巨兽]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 90
+
+[螳螂怪]
+base_attrib : 1
+
+[三头巨犬]
+base_attrib : 1
+chase : 1
+chase_level : 90
+
+[嗜血巨人]
+base_attrib : 1
+
+[炼魔]
+base_attrib : 1
+
+[寒冰怪]
+base_attrib : 1
+
+[虾兵]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 100
+
+[蟹将]
+base_attrib : 1
+chase : 1
+chase_level : 100
+
+[冰晶龙鳞兽]
+base_attrib : 1
+
+[金翅鸢]
+base_attrib : 1
+
+[雪狐]
+super_obstruct : 1
+obstruct_level : 110
+seal_skill : "yinyang-huyou"
+
+[剑魂]
+base_attrib : 1
+chase : 1
+chase_level : 110
+seal_skill : "daofa-ziran"
+
+[狰兽]
+base_attrib : 1
+seal_skill : "xuede-daijia"
+
+[蝶仙]
+base_attrib : 1
+seal_skill : "shuangguan-qixia"
+
+[蚌姬]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 110
+
+[水魔神]
+base_attrib : 1
+chase : 1
+chase_level : 110
+
+[金甲蝎]
+base_attrib : 1
+
+[斗魔蜥]
+base_attrib : 1
+
+[化蛇兽]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 120
+
+[狐灵]
+base_attrib : 1
+chase : 1
+chase_level : 120
+
+[镇水怪]
+base_attrib : 1
+
+[秋棠仙子]
+base_attrib : 1
+
+[壳妖]
+base_attrib : 1
+super_obstruct : 1
+obstruct_level : 130
+
+[符灵]
+base_attrib : 1
+chase : 1
+chase_level : 130
+
+[棋灵]
+base_attrib : 1
+
+[侍书者]
+base_attrib : 1
+
+#[炼狱血魔]
+#base_attrib : 1
+#seal_skill : "daofa-ziran"
+#
+#[炼狱狂魔]
+#base_attrib : 1
+#seal_skill : "xuede-daijia"
+#
+#[炼狱灵魔]
+#base_attrib : 1
+#seal_skill : "shuangguan-qixia"
+#
+#[炼狱风魔]
+#base_attrib : 1
+#seal_skill : "yinyang-huyou"
+#
+#[血獒]
+#base_attrib : 1
+#seal_skill : "daofa-ziran"
+#
+#[力獒]
+#base_attrib : 1
+#seal_skill : "xuede-daijia"
+#
+#[灵獒]
+#base_attrib : 1
+#seal_skill : "shuangguan-qixia"
+#
+#[风獒]
+#base_attrib : 1
+#seal_skill : "yinyang-huyou"
+#
+#[血魅]
+#base_attrib : 1
+#seal_skill : "daofa-ziran"
+#
+#[魅魂]
+#base_attrib : 1
+#seal_skill : "xuede-daijia"
+#
+#[魅灵]
+#base_attrib : 1
+#seal_skill : "shuangguan-qixia"
+#
+#[鬼魅]
+#base_attrib : 1
+#seal_skill : "yinyang-huyou"
+#
+#[阴阳血师]
+#base_attrib : 1
+#seal_skill : "daofa-ziran"
+#
+#[阴阳狂师]
+#base_attrib : 1
+#seal_skill : "xuede-daijia"
+#
+#[阴阳魔师]
+#base_attrib : 1
+#seal_skill : "shuangguan-qixia"
+#
+#[阴阳气师]
+#base_attrib : 1
+#seal_skill : "yinyang-huyou"

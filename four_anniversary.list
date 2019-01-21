@@ -1,0 +1,235 @@
+#FORM2
+
+#问道四周年活动
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2010-04-22-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(0)" })
+time_list$ : ({ "2010-04-23-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(0)" })
+time_list$ : ({ "2010-04-24-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(0)" })
+time_list$ : ({ "2010-04-25-18:00:00", "EVERY_HOUR(2)", "EVERY_DAY(0)" })
+
+[broadcast_setting]
+broadcast_list:   ({ "pre_start_task_1", "pre_start_task_2","start_task", "during_task", "end_task", "fresh_monster" })
+
+[pre_start_task_1]
+broadcast_start : "start_time(-3600)"
+interval        : 600
+broadcast_end   : "start_time(-600)"
+message         : "#R《问道》#n已经#R四周岁#n了！为了感谢大家四年来对#R《问道》#n的支持和厚爱，#R2010年4月22日至25日#n的#R18：00至20：00#n期间将开放#R问道四周年活动#n，届时请找#R天墉城（62，108）#n的#Y庆典大使#n询问！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[pre_start_task_2]
+broadcast_start : "start_time(-540)"
+interval        : 180
+broadcast_end   : "start_time(-60)"
+message         : "#R《问道》#n已经#R四周岁#n了！为了感谢大家四年来对#R《问道》#n的支持和厚爱，#R2010年4月22日至25日#n的#R18：00至20：00#n期间将开放#R问道四周年活动#n，届时请找#R天墉城（62，108）#n的#Y庆典大使#n询问！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "[#Y庆典大使#n]快来#R天墉城（62，108）#n找#Y庆典大使#n打探寻宝线索吧，只有勤劳的人才能找到庆典宝藏！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+600)"
+interval        : 600
+broadcast_end   : "end_time"
+message         : "《问道》四周年活动正在火热进行中。今天，你来拜访过#R天墉城（62，108）#n的#Y庆典大使#n了吗？"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+60)"
+message         : "[#Y庆典大使#n]经过大家的努力，匪徒们终于被赶走了。趁着中洲大陆片刻的宁静，让我们尽情的庆祝吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[fresh_monster]
+broadcast_start : "start_time(+300)"
+interval        : 600
+broadcast_end   : "end_time"
+message         : "[#Y庆典大使#n]据说匪徒的首领也出现在#R桃柳林#n、#R轩辕庙#n和#R北海沙滩#n了，请大家注意！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+#怪物属性配置
+
+[匪徒大王]
+icon              : 6201
+portrait          : 6201
+name              : "匪徒大王"
+polar             : -1
+life_effect       : 3500
+mag_effect        : 150
+tao_effect        : 300
+speed_effect      : 0
+skills            : ({ "C4" })
+attach_skills     : ({ 100, "B3", "B5" })
+comrade           : ({"匪徒军师", 3, "匪徒喽啰", 6})
+combat_trigger    : "combat_trigger_dawang"
+monster_tactics   : "monster_dawang_tactics"
+monster_menu      : ({ "menu_content_dawang", "menu_action" })
+
+[匪徒喽啰]
+icon              : 6230
+portrait          : 6230
+name              : "匪徒喽啰"
+polar             : -1
+life_effect       : 1500
+phy_effect        : 100
+tao_effect        : 30
+speed_effect      : 50
+monster_menu      : ({ "menu_content_louluo", "menu_action" })
+
+[匪徒军师]
+icon              : 6231
+portrait          : 6231
+name              : "匪徒军师"
+polar             : -1
+life_effect       : 2500
+mag_effect        : 100
+tao_effect        : 50
+speed_effect      : 10
+skills            : ({ "D3", "B2", "B4" })
+monster_tactics   : "monster_junshi_tactics"
+monster_menu      : ({ "menu_content_junshi", "menu_action" })
+
+[匪徒精英]
+icon              : 6202
+portrait          : 6202
+name              : "匪徒精英"
+polar             : -1
+life_effect       : 1500
+phy_effect        : 150
+tao_effect        : 0
+speed_effect      : 50
+skills            : ({ "lipo-qianjun" })
+monster_tactics   : "monster_jingying_tactics"
+monster_menu      : ({ "menu_content_jingying", "menu_action" })
+
+[匪徒头目]
+icon              : 6202
+portrait          : 6202
+name              : "匪徒头目"
+polar             : -1
+life_effect       : 1000
+mag_effect        : 30
+tao_effect        : 30
+speed_effect      : 30
+skills            : ({ "B2", "B4" })
+monster_tactics   : "monster_toumu_tactics"
+monster_menu      : ({ "menu_content_toumu", "menu_action" })
+
+[偷懒的喽啰]
+icon              : 6230
+portrait          : 6230
+name              : "偷懒的喽啰"
+polar             : -1
+life              : 100
+phy_effect        : -99
+comrade           : ({ "偷懒的喽啰", 4, "喽啰头目", 1 })
+combat_trigger    : "combat_trigger_toulan_louluo"
+monster_menu      : ({ "menu_content_louluo", "menu_action" })
+
+[喽啰头目]
+icon              : 6202
+portrait          : 6202
+name              : "喽啰头目"
+polar             : -1
+life_effect       : 1000
+phy_effect        : 100
+tao_effect        : -100
+speed_effect      : -99
+monster_menu      : ({ "menu_content_ll_toumu", "menu_action" })
+
+[打盹的喽啰]
+icon              : 6230
+portrait          : 6230
+name              : "打盹的喽啰"
+polar             : -1
+life_effect       : 100
+phy_effect        : -99
+mag_absorb        : -100
+comrade           : ({ "打盹的喽啰", 9 })
+combat_trigger    : "combat_trigger_dadun_louluo"
+monster_menu      : ({ "menu_content_dadun_ll", "menu_action" })
+
+[闲逛的喽啰]
+icon              : 6230
+portrait          : 6230
+name              : "闲逛的喽啰"
+polar             : -1
+life_effect       : 100
+no_capture        : 1
+level             : 1
+comrade           : ({ "闲逛的喽啰", 1, "金刚星", 1, "木魂星", 1, "水柔星", 1, "火烈星", 1, "土暴星", 1 })
+combat_trigger    : "combat_trigger_xianguang_louluo"
+monster_tactics   : "monster_xianguang_ll_tactics"
+monster_menu      : ({ "menu_content_xiangguang_ll", "menu_action" })
+
+[金刚星]
+icon              : 31041
+portrait          : 31041
+name              : "金刚星"
+key_name          : "金刚星"
+level             : 1
+polar             : -1
+life              : 1
+must_capture      : 1
+boss_monster      : 0
+monster_tactics   : "monster_star_tactics"
+monster_menu      : ({ "menu_content_star", "menu_action" })
+
+[木魂星]
+icon              : 31042
+portrait          : 31042
+name              : "木魂星"
+key_name          : "木魂星"
+level             : 1
+polar             : -1
+life              : 1
+must_capture      : 1
+boss_monster      : 0
+monster_tactics   : "monster_star_tactics"
+monster_menu      : ({ "menu_content_star", "menu_action" })
+
+[水柔星]
+icon              : 31043
+portrait          : 31043
+name              : "水柔星"
+key_name          : "水柔星"
+level             : 1
+polar             : -1
+life              : 1
+must_capture      : 1
+boss_monster      : 0
+monster_tactics   : "monster_star_tactics"
+monster_menu      : ({ "menu_content_star", "menu_action" })
+
+[火烈星]
+icon              : 31044
+portrait          : 31044
+name              : "火烈星"
+key_name          : "火烈星"
+level             : 1
+polar             : -1
+life              : 1
+must_capture      : 1
+boss_monster      : 0
+monster_tactics   : "monster_star_tactics"
+monster_menu      : ({ "menu_content_star", "menu_action" })
+
+[土暴星]
+icon              : 31045
+portrait          : 31045
+name              : "土暴星"
+key_name          : "土暴星"
+level             : 1
+polar             : -1
+life              : 1
+must_capture      : 1
+boss_monster      : 0
+monster_tactics   : "monster_star_tactics"
+monster_menu      : ({ "menu_content_star", "menu_action" })

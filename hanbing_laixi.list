@@ -1,0 +1,294 @@
+#FORM2
+[活动时间]
+time_list$ : ({ "2011-01-11-17:30:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-11-20:00:00" })
+time_list$ : ({ "2011-01-12-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-12-17:00:00" })
+time_list$ : ({ "2011-01-13-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-13-17:00:00" })
+time_list$ : ({ "2011-01-18-17:30:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-18-20:00:00" })
+time_list$ : ({ "2011-01-19-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-19-17:00:00" })
+time_list$ : ({ "2011-01-20-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-20-17:00:00" })
+time_list$ : ({ "2011-01-25-17:30:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-25-20:00:00" })
+time_list$ : ({ "2011-01-26-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-26-17:00:00" })
+time_list$ : ({ "2011-01-27-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-27-17:00:00" })
+time_list$ : ({ "2011-02-01-17:30:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2011-01-25-20:00:00" })
+
+[broadcast_setting]
+broadcast_list  : ({ "before_task", "after_stage1", "after_stage2" })
+
+[before_task]
+broadcast_start : "start_time(-10800)"
+interval        : 1200
+broadcast_end   : "start_time"
+message         : 寒冰来袭活动将于今天#RSTART_FORMAT_HOUR_MIN#n至#REND_FORMAT_HOUR_MIN#n开启，期间雪人王带领护法及大批寒冰怪入侵#Z官道北#Z，请侠义之士迅速赶到#Z官道北#Z击杀妖魔！
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[after_stage1]
+broadcast_start : "start_time(+3600)"
+interval        : 3
+broadcast_end   : "start_time(+3607)"
+message         : "寒冰怪的进攻已经被有效地抵挡，而雪人王护法又开始了新一轮的进攻，请侠义之士迅速赶到#Z官道北#Z击杀妖魔！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[after_stage2]
+broadcast_start : "start_time(+5400)"
+interval        : 3
+broadcast_end   : "start_time(+5407)"
+message         : "雪人王护法的进攻也没有攻破我们防线，此时雪人王开始行动了，请侠义之士迅速赶到#Z官道北#Z击杀妖魔！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[time_info]
+# 各阶段持续时间
+duration_stage1 :  3600
+duration_stage2 :  1800
+duration_stage3 :  1800
+
+# 洪妖
+[洪妖]
+name            : "洪妖"
+icon            : 6212
+portrait        : 6212
+polar           : 3
+life_effect     : 300
+phy_absorb      : 0
+mag_absorb      : 0
+phy_effect      : 30
+mag_effect      : 30
+speed_effect    : 0
+tao_effect      : 0
+phy_rate        : 40
+mag_rate        : 60
+skills          : ({ "B3", "B4", "B5" })
+monster_tactics : "template_monster"
+
+[水怪]
+name             : "水怪"
+icon             : 6125
+portrait         : 6125
+polar            : 3
+life_effect      : 50
+phy_absorb       : 0
+mag_absorb       : 0
+phy_effect       : 20
+mag_effect       : 0
+speed_effect     : 0
+tao_effect       : 0
+phy_rate         : 100
+monster_tactics  : "use_physical_tactics"
+
+# 直接挖出战斗
+[灵睛鼠]
+name             : "灵睛鼠"
+icon             : 6166
+portrait         : 6166
+monster_tactics  : "use_physical_tactics"
+
+[花纹蛇]
+name             : "花纹蛇"
+icon             : 6122
+portrait         : 6122
+skills           : ({ "B1", "B2" })
+monster_tactics  : "use_magic_tactics"
+
+[矿石]
+name             : "矿石"
+icon             : 6220
+portrait         : 6220
+life_effect      : 100
+tao_effect       : 1000
+resist_forgotten : 1000
+resist_confusion : 1000
+monster_tactics  : "use_null_tactics"
+
+[木桩]
+name             : "木桩"
+icon             : 6219
+portrait         : 6219
+life_effect      : 100
+tao_effect       : 1000
+resist_forgotten : 1000
+resist_confusion : 1000
+monster_tactics  : "use_null_tactics"
+
+# 未使用戊土精华的寒冰怪
+[寒冰怪1]
+name             : "寒冰怪"
+life_effect      : 5000
+phy_effect       : 150
+mag_effect       : 100
+speed_effect     : 0
+tao_effect       : 100
+phy_rate         : 40
+mag_rate         : 60
+skills           : ({ "B3", "B4", "B5" })
+monster_tactics  : "template_monster"
+
+# 已经使用戊土精华的寒冰怪
+[寒冰怪2]
+name             : "虚弱的寒冰怪"
+phy_effect       : 120
+mag_effect       : 80
+speed_effect     : 0
+tao_effect       : 200
+phy_rate         : 40
+mag_rate         : 60
+skills           : ({ "B3", "B4", "B5" })
+monster_tactics  : "template_monster"
+
+[护法1]
+name             : "雪人王护法"
+icon             : 6281
+portrait         : 6281
+# life_effect    : 5000  1200 + (N*150)* maximum(int((LV-70)/30), 0)
+phy_effect       : 150
+mag_effect       : 300
+phy_absorb       : -100
+mag_absorb       : -100
+speed_effect     : 0
+tao_effect       : 200
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+# 连击
+double_hit_rate  : 30
+double_hit       : 5
+skills         : ({ "B5" })
+# level 和life要在程序中设定
+monster_tactics  : "tactics_hufa1"
+
+[护法2]
+name             : "雪人王护法"
+icon             : 6289
+portrait         : 6289
+# life_effect    : 5000  1000+max(int((LV-70)/30),0)*(N*125),N为队伍人数
+phy_effect       : 150
+mag_effect       : 300
+phy_absorb       : 10
+mag_absorb       : 30
+speed_effect     : 0
+tao_effect       : 200
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+# 连击
+double_hit_rate  : 30
+double_hit       : 5
+skills           : ({ "B3", "B4", "B5" })
+phy_rate         : 50
+sub_mag_rate     : ({30, 40, 30})
+monster_tactics  : "tactics_hufa2"
+
+[护法3]
+name             : "雪人王护法"
+icon             : 6162
+phy_effect       : 100
+mag_effect       : 120
+phy_absorb       : 0
+mag_absorb       : -100
+speed_effect     : 80
+tao_effect       : 100
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+# 连击
+double_hit_rate  : 30
+double_hit       : 5
+skills           : ({ "B3", "B4", "B5" })
+phy_rate         : 30
+# 反震
+damage_sel_rate  : 100
+damage_sel       : 100
+monster_tactics  : "tactics_hufa3"
+
+[雪人王]
+name             : "雪人王"
+polar            : 3
+icon             : 31026
+life_effect      : 5000
+phy_effect       : 300
+mag_effect       : 350
+phy_absorb       : -10
+mag_absorb       : -10
+speed_effect     : 200
+tao_effect       : 500
+resist_forgotten : 300
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_confusion : 300
+# 命中率
+accurate         : 200
+# 必杀率
+stunt_rate       : 50
+phy_rate         : 30
+sub_mag_rate     : ({ 60, 20, 20 })
+skills           : ({ "B1", "B2","B3", "B4", "C5", "D4" })
+artifact         : ({ "fantianyin", 12 })
+# artifact       : ({ "fantianyin" })
+artifact_level   : 12
+monster_tactics: "tactics_boss"
+
+[青龙守卫]
+name: "青龙守卫"
+icon: 6190
+life_effect      : 5000
+phy_effect       : 250
+mag_effect       : 0
+double_hit_rate  : 100
+double_hit       : 5
+speed_effect     : 50
+tao_effect       : 150
+monster_tactics  : "tactics_qinglong"
+
+[白虎守卫]
+name             : "白虎守卫"
+icon             : 6189
+life_effect      : 5000
+phy_effect       : 200
+mag_effect       : 0
+# 反击
+counter_attack_rate : 100
+counter_attack   : 12
+speed_effect     : 50
+tao_effect       : 150
+monster_tactics  : "tactics_baihu"
+
+[朱雀守卫]
+name             : "朱雀守卫"
+icon             : 6192
+phy_effect       : 200
+mag_effect       : 0
+speed_effect     : -10
+tao_effect       : 150
+damage_sel_rate  : 100
+damage_sel       : 100
+monster_tactics  : "tactics_zhuque"
+
+[玄武守卫]
+name             : "玄武守卫"
+icon             : 6191
+phy_effect       : 250
+mag_effect       : 200
+# speed_effect   : -10 随机
+tao_effect: 150
+damage_sel_rate  : 100
+damage_sel       : 100
+skills           : ({ "B3", "B4" })
+phy_rate         : 40
+sub_mag_rate     : ({ 50, 50 })
+monster_tactics  : "tactics_xuanwu"
+
+[北斗守卫]
+name             : "北斗守卫"
+icon             : 6271
+phy_effect       : 150
+mag_effect       : 200
+speed_effect     : 30
+tao_effect       : 150
+phy_rate         : 20
+sub_mag_rate     :({ 50, 50 })
+monster_tactics  : "tactics_beidou"

@@ -1,0 +1,3070 @@
+#FORM2
+################################################################################
+#
+# material$ : ({ 材料名, 材料等级, 材料颜色, 材料处理方式 })
+#
+################################################################################
+
+# 新增type表示物品类型，主要用于客户端分组显示
+# 1为丹药类，2为特殊物品，3为地府道具类，4为药品类，5为粉材
+# 新增字段confirm_dlg，表示客户端是否需要弹出确认提示框
+
+#该配方已经废除
+#[五行合缘露]
+#file      : "wuxing-heyuanlu"
+#source    : SOURCE
+#confirm_dlg : 0
+#material$ : ({ "内丹",       5, "*", TO_BE_DESTRUCT })
+#material$ : ({ "内丹",       5, "*", TO_BE_DESTRUCT })
+#material$ : ({ "白猿眼睛",   0, "", TO_BE_DESTRUCT })
+#material$ : ({ "蝙蝠翅膀",   0, "", TO_BE_DESTRUCT })
+#material$ : ({ "桃枝",       0, "", TO_BE_DESTRUCT })
+#material$ : ({ "柳根",       0, "", TO_BE_DESTRUCT })
+
+[返元露]
+file      : "fanyuanlu"
+source    : SOURCE
+type      : 4
+material$ : ({ "内丹",       10,  "*", TO_BE_DESTRUCT })
+material$ : ({ "炎龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "冰龙筋",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "鱼尾",       0,  "", TO_BE_DESTRUCT })
+
+[七宝回魂丹]
+file      : "qibao-huihundan"
+source    : SOURCE
+type      : 4
+material$ : ({ "内丹",       11,  "*", TO_BE_DESTRUCT })
+material$ : ({ "炎龙筋",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "乌龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "鱼眼睛",     0,  "", TO_BE_DESTRUCT })
+
+[宝花玉露丸]
+file      : "baohua-yuluwan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "青花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "粉花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "火鸦嘴",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "青龙筋",     0,  "", TO_BE_DESTRUCT })
+
+[三清丸]
+file      : "sanqingwan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       6,  "*", TO_BE_DESTRUCT })
+
+[祥云丹]
+file      : "xiangyundan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       18, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       12, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       10, "*", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "蓝花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "紫花瓣",     0,  "", TO_BE_DESTRUCT })
+
+[梦清散]
+file      : "mengqingsan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       17, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       16, "*", TO_BE_DESTRUCT })
+material$ : ({ "虎掌",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "蓝花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "火鸦羽毛",   0,  "", TO_BE_DESTRUCT })
+
+[仙风散]
+file      : "xianfengsan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       4,  "*", TO_BE_DESTRUCT })
+material$ : ({ "黄精",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "茯苓",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "龟壳",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "狼头",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "虎掌",       0,  "", TO_BE_DESTRUCT })
+
+[如意散]
+file      : "ruyisan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       12, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       12, "*", TO_BE_DESTRUCT })
+material$ : ({ "屈魂眼",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "怨鬼舌",     0,  "", TO_BE_DESTRUCT })
+
+[紫晶石]
+file      : "zijingshi"
+source    : SOURCE
+type      : 2
+material$ : ({ "内丹",       14, "*", TO_BE_DESTRUCT })
+material$ : ({ "龟壳",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "石魔掌",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "乌龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "紫灵石",     0,  "", TO_BE_DESTRUCT })
+
+[六合仙露]
+file      : "liuhexianlu"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       5,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       4,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       3,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       2,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       1,  "*", TO_BE_DESTRUCT })
+material$ : ({ "柳根",       0,  "", TO_BE_DESTRUCT })
+
+[清风散]
+file      : "qingfengsan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       8,  "*", TO_BE_DESTRUCT })
+material$ : ({ "鹰爪",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "乌龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "花妖瓣",     0,  "", TO_BE_DESTRUCT })
+
+[偷天换日散]
+file      : "toutian-huanrisan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "炎龙筋",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "虎耳",       0,  "", TO_BE_DESTRUCT })
+
+[九转仙灵露]
+file      : "jiuzhuan-xianlinglu"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       12, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       3,  "*", TO_BE_DESTRUCT })
+material$ : ({ "鱼眼睛",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "蝙蝠牙齿",   0,  "", TO_BE_DESTRUCT })
+material$ : ({ "鹰眼",       0,  "", TO_BE_DESTRUCT })
+
+[龙鳞如意丹]
+file      : "longlin-ruyidan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",     11, "*", TO_BE_DESTRUCT })
+material$ : ({ "乌龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "炎龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "冰龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "青龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "黄龙鳞",     0,  "", TO_BE_DESTRUCT })
+
+[潜金散]
+file      : "qianjinsan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       18, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "黄花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "黄龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "黄龙筋",     0,  "", TO_BE_DESTRUCT })
+
+[神木丸]
+file      : "shenmuwan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       18, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "青花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "青龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "青龙筋",     0,  "", TO_BE_DESTRUCT })
+
+[柔水丹]
+file      : "roushuidan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       18, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "蓝花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "冰龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "冰龙筋",     0,  "", TO_BE_DESTRUCT })
+
+[烈火散]
+file      : "liehuosan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       18, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "红花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "炎龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "炎龙筋",     0,  "", TO_BE_DESTRUCT })
+
+[三土丸]
+file      : "santuwan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       18, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "紫花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "白花瓣",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "乌龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "乌龙筋",     0,  "", TO_BE_DESTRUCT })
+
+[仙缘散]
+file      : "xianyuansan"
+source    : SOURCE
+type      : 4
+material$ : ({ "内丹",       12,  "*", TO_BE_DESTRUCT })
+material$ : ({ "花妖刺",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "地裂兽皮",   0,  "", TO_BE_DESTRUCT })
+material$ : ({ "金头陀指骨", 0,  "", TO_BE_DESTRUCT })
+material$ : ({ "火鸦羽毛",   0,  "", TO_BE_DESTRUCT })
+material$ : ({ "屈魂眼",     0,  "", TO_BE_DESTRUCT })
+
+[归元露]
+file      : "guiyuanlu"
+source    : SOURCE
+type      : 2
+need_log  : 1
+material$ : ({ "内丹",       14, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       14, "*", TO_BE_DESTRUCT })
+material$ : ({ "白猿头骨",   0,  "", TO_BE_DESTRUCT })
+material$ : ({ "桃枝",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "猴毛",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "黄龙鳞",     0,  "", TO_BE_DESTRUCT })
+
+[黄金龙鳞]
+file      : "huangjin-longlin"
+source    : SOURCE
+material$ : ({ "内丹",       17, "*", TO_BE_DESTRUCT })
+material$ : ({ "青龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "黄龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "乌龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "炎龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "冰龙鳞",     0,  "", TO_BE_DESTRUCT })
+
+[脱胎换骨丹]
+file      : "tuotai-huangudan"
+source    : SOURCE
+material$ : ({ "内丹",       18, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       17, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "祥云丹",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "黄金龙鳞",   0,  "", TO_BE_DESTRUCT })
+material$ : ({ "混元露",     0,  "", TO_BE_DESTRUCT })
+
+[混元露]
+file      : "hunyuanlu"
+source    : SOURCE
+type      : 4
+material$ : ({ "内丹",       13, "*", TO_BE_DESTRUCT })
+material$ : ({ "青龙鳞",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "狗尾巴",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "乌龙筋",     0,  "", TO_BE_DESTRUCT })
+
+[神兽丹]
+file      : "shenshoudan"
+source    : SOURCE
+type      : 1
+need_log  : 1
+material$ : ({ "内丹",       4,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       5,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       5,  "*", TO_BE_DESTRUCT })
+material$ : ({ "猴耳",       0,  "", TO_BE_DESTRUCT })
+material$ : ({ "狗尾巴",     0,  "", TO_BE_DESTRUCT })
+material$ : ({ "柳根",       0,  "", TO_BE_DESTRUCT })
+
+[内丹2]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       1,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       1,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       1,  "*", TO_BE_DESTRUCT })
+
+[内丹3]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       2,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       2,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       2,  "*", TO_BE_DESTRUCT })
+
+[内丹4]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       3,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       3,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       3,  "*", TO_BE_DESTRUCT })
+
+[内丹5]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       4,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       4,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       4,  "*", TO_BE_DESTRUCT })
+
+[内丹6]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       5,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       5,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       5,  "*", TO_BE_DESTRUCT })
+
+[内丹7]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       6,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       6,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       6,  "*", TO_BE_DESTRUCT })
+
+[内丹8]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       7,  "*", TO_BE_DESTRUCT })
+
+[内丹9]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       8,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       8,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       8,  "*", TO_BE_DESTRUCT })
+
+[内丹10]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       9,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       9,  "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       9,  "*", TO_BE_DESTRUCT })
+
+[内丹11]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       10, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       10, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       10, "*", TO_BE_DESTRUCT })
+
+[内丹12]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       11, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       11, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       11, "*", TO_BE_DESTRUCT })
+
+[内丹13]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       12, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       12, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       12, "*", TO_BE_DESTRUCT })
+
+[内丹14]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       13, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       13, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       13, "*", TO_BE_DESTRUCT })
+
+[内丹15]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       14, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       14, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       14, "*", TO_BE_DESTRUCT })
+
+[内丹16]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       15, "*", TO_BE_DESTRUCT })
+
+[内丹17]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       16, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       16, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       16, "*", TO_BE_DESTRUCT })
+
+[内丹18]
+file      : "neidan"
+source    : SOURCE
+material$ : ({ "内丹",       17, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       17, "*", TO_BE_DESTRUCT })
+material$ : ({ "内丹",       17, "*", TO_BE_DESTRUCT })
+
+[八珍汤]
+file      : "bazhentang"
+source    : NO_SOURCE
+combined  : 10
+type      : 4
+material$ : ({ "内丹",       6, "*", TO_BE_DESTRUCT })
+material$ : ({ "八珍汤",     0, "*", TO_BE_DESTRUCT })
+material$ : ({ "八珍汤",     0, "*", TO_BE_DESTRUCT })
+material$ : ({ "火鸦羽毛",   0, "*", TO_BE_DESTRUCT })
+material$ : ({ "狗尾巴",     0, "*", TO_BE_DESTRUCT })
+
+[回神丹]
+file      : "huishendan"
+source    : NO_SOURCE
+combined  : 10
+type      : 1
+material$ : ({ "内丹",       5, "*", TO_BE_DESTRUCT })
+material$ : ({ "回神丹",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "回神丹",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "僵尸头骨",   0, "", TO_BE_DESTRUCT })
+material$ : ({ "猴毛",       0, "", TO_BE_DESTRUCT })
+
+[补气丹]
+file      : "buqidan"
+source    : NO_SOURCE
+combined  : 10
+type      : 1
+material$ : ({ "内丹",       4, "*", TO_BE_DESTRUCT })
+material$ : ({ "补气丹",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "补气丹",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "鹰眼",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "猴耳",       0, "", TO_BE_DESTRUCT })
+
+[蜂王蜜]
+file      : "fengwangmi"
+source    : NO_SOURCE
+combined  : 10
+type      : 4
+material$ : ({ "内丹",       6, "*", TO_BE_DESTRUCT })
+material$ : ({ "蜂王蜜",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "蜂王蜜",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "黄龙鳞",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "狗尾巴",     0, "", TO_BE_DESTRUCT })
+
+[金创药]
+file      : "jinchuangyao"
+source    : NO_SOURCE
+combined  : 10
+type      : 4
+material$ : ({ "内丹",       5, "*", TO_BE_DESTRUCT })
+material$ : ({ "金创药",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "金创药",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "僵尸牙齿",   0, "", TO_BE_DESTRUCT })
+material$ : ({ "猴毛",       0, "", TO_BE_DESTRUCT })
+
+[七叶莲]
+file      : "qiyelian"
+source    : NO_SOURCE
+combined  : 10
+type      : 4
+material$ : ({ "内丹",       4, "*", TO_BE_DESTRUCT })
+material$ : ({ "七叶莲",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "七叶莲",     0, "", TO_BE_DESTRUCT })
+material$ : ({ "柳根",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "猴耳",       0, "", TO_BE_DESTRUCT })
+
+[精铁6蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+
+[精铁7蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+
+[精铁8蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+
+[精铁9蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+
+[精铁10蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+
+[精铁11蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+
+[精铁12蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+
+[精铁13蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+
+[精铁14蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+
+[精铁15蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+
+[精铁16蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       16, "白色", TO_BE_DESTRUCT })
+
+[精铁6金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+
+[精铁7金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+
+[精铁8金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+
+[精铁9金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+
+[精铁10金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+
+[精铁11金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+
+[精铁12金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+
+[精铁13金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+
+[精铁14金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+
+[精铁15金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+
+[精铁16金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "精铁",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       16, "蓝色", TO_BE_DESTRUCT })
+
+[水铜6蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+
+[水铜7蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+
+[水铜8蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+
+[水铜9蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+
+[水铜10蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+
+[水铜11蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+
+[水铜12蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+
+[水铜13蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+
+[水铜14蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+
+[水铜15蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+
+[水铜16蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       16, "白色", TO_BE_DESTRUCT })
+
+[水铜6金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+
+[水铜7金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+
+[水铜8金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+
+[水铜9金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+
+[水铜10金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+
+[水铜11金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+
+[水铜12金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+
+[水铜13金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+
+[水铜14金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+
+[水铜15金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+
+[水铜16金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "水铜",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       16, "蓝色", TO_BE_DESTRUCT })
+
+[麟木6蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+
+[麟木7蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+
+[麟木8蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+
+[麟木9蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+
+[麟木10蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+
+[麟木11蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+
+[麟木12蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+
+[麟木13蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+
+[麟木14蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+
+[麟木15蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+
+[麟木16蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       16, "白色", TO_BE_DESTRUCT })
+
+[麟木6金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+
+[麟木7金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+
+[麟木8金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+
+[麟木9金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+
+[麟木10金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+
+[麟木11金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+
+[麟木12金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+
+[麟木13金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+
+[麟木14金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+
+[麟木15金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+
+[麟木16金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "麟木",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       16, "蓝色", TO_BE_DESTRUCT })
+
+[玄石6蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+
+[玄石7蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+
+[玄石8蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+
+[玄石9蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+
+[玄石10蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+
+[玄石11蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+
+[玄石12蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+
+[玄石13蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+
+[玄石14蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+
+[玄石15蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+
+[玄石16蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       16, "白色", TO_BE_DESTRUCT })
+
+[玄石6金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+
+[玄石7金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+
+[玄石8金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+
+[玄石9金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+
+[玄石10金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+
+[玄石11金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+
+[玄石12金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+
+[玄石13金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+
+[玄石14金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+
+[玄石15金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+
+[玄石16金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "玄石",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       16, "蓝色", TO_BE_DESTRUCT })
+
+[炎石6蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+
+[炎石7蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+
+[炎石8蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+
+[炎石9蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+
+[炎石10蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+
+[炎石11蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+
+[炎石12蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+
+[炎石13蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+
+[炎石14蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+
+[炎石15蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+
+[炎石16蓝]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       16, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       16, "白色", TO_BE_DESTRUCT })
+
+[炎石6金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+
+[炎石7金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+
+[炎石8金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+
+[炎石9金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+
+[炎石10金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+
+[炎石11金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+
+[炎石12金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+
+[炎石13金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+
+[炎石14金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+
+[炎石15金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+
+[炎石16金]
+file      : "cube_material"
+type      : 5
+material$ : ({ "炎石",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       16, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       16, "蓝色", TO_BE_DESTRUCT })
+
+[PF001]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "白色", TO_BE_DESTRUCT })
+produce   : "精铁7白"
+
+[PF002]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "白色", TO_BE_DESTRUCT })
+produce   : "精铁8白"
+
+[PF003]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "白色", TO_BE_DESTRUCT })
+produce   : "精铁9白"
+
+[PF004]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "白色", TO_BE_DESTRUCT })
+produce   : "精铁10白"
+
+[PF005]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "白色", TO_BE_DESTRUCT })
+produce   : "精铁11白"
+
+[PF0050]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "白色", TO_BE_DESTRUCT })
+produce   : "精铁12白"
+
+[PF0060]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "白色", TO_BE_DESTRUCT })
+produce   : "精铁13白"
+
+[PF0070]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "白色", TO_BE_DESTRUCT })
+produce   : "精铁14白"
+
+[PF0080]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "白色", TO_BE_DESTRUCT })
+produce   : "精铁15白"
+
+[PF0090]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "白色", TO_BE_DESTRUCT })
+produce   : "精铁16白"
+
+[PF006]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁7蓝"
+
+[PF007]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁8蓝"
+
+[PF008]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁9蓝"
+
+[PF009]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁10蓝"
+
+[PF010]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁11蓝"
+
+[PF0100]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁12蓝"
+
+[PF0101]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁13蓝"
+
+[PF0102]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁14蓝"
+
+[PF0103]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁15蓝"
+
+[PF0104]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "蓝色", TO_BE_DESTRUCT })
+produce   : "精铁16蓝"
+
+[PF011]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       6, "金色", TO_BE_DESTRUCT })
+produce   : "精铁7金"
+
+[PF012]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       7, "金色", TO_BE_DESTRUCT })
+produce   : "精铁8金"
+
+[PF013]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       8, "金色", TO_BE_DESTRUCT })
+produce   : "精铁9金"
+
+[PF014]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       9, "金色", TO_BE_DESTRUCT })
+produce   : "精铁10金"
+
+[PF015]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       10, "金色", TO_BE_DESTRUCT })
+produce   : "精铁11金"
+
+[PF0150]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       11, "金色", TO_BE_DESTRUCT })
+produce   : "精铁12金"
+
+[PF0151]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       12, "金色", TO_BE_DESTRUCT })
+produce   : "精铁13金"
+
+[PF0152]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       13, "金色", TO_BE_DESTRUCT })
+produce   : "精铁14金"
+
+[PF0153]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       14, "金色", TO_BE_DESTRUCT })
+produce   : "精铁15金"
+
+[PF0154]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "精铁",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "精铁",       15, "金色", TO_BE_DESTRUCT })
+produce   : "精铁16金"
+
+[PF016]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "白色", TO_BE_DESTRUCT })
+produce   : "水铜7白"
+
+[PF017]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "白色", TO_BE_DESTRUCT })
+produce   : "水铜8白"
+
+[PF018]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "白色", TO_BE_DESTRUCT })
+produce   : "水铜9白"
+
+[PF019]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "白色", TO_BE_DESTRUCT })
+produce   : "水铜10白"
+
+[PF020]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "白色", TO_BE_DESTRUCT })
+produce   : "水铜11白"
+
+[PF0200]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "白色", TO_BE_DESTRUCT })
+produce   : "水铜12白"
+
+[PF0201]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "白色", TO_BE_DESTRUCT })
+produce   : "水铜13白"
+
+[PF0202]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "白色", TO_BE_DESTRUCT })
+produce   : "水铜14白"
+
+[PF0203]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "白色", TO_BE_DESTRUCT })
+produce   : "水铜15白"
+
+[PF0204]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "白色", TO_BE_DESTRUCT })
+produce   : "水铜16白"
+
+[PF021]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜7蓝"
+
+[PF022]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜8蓝"
+
+[PF023]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜9蓝"
+
+[PF024]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜10蓝"
+
+[PF025]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜11蓝"
+
+[PF0250]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜12蓝"
+
+[PF0251]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜13蓝"
+
+[PF0252]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜14蓝"
+
+[PF0253]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜15蓝"
+
+[PF0254]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "蓝色", TO_BE_DESTRUCT })
+produce   : "水铜16蓝"
+
+[PF026]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       6, "金色", TO_BE_DESTRUCT })
+produce   : "水铜7金"
+
+[PF027]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       7, "金色", TO_BE_DESTRUCT })
+produce   : "水铜8金"
+
+[PF028]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       8, "金色", TO_BE_DESTRUCT })
+produce   : "水铜9金"
+
+[PF029]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       9, "金色", TO_BE_DESTRUCT })
+produce   : "水铜10金"
+
+[PF030]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       10, "金色", TO_BE_DESTRUCT })
+produce   : "水铜11金"
+
+[PF0300]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       11, "金色", TO_BE_DESTRUCT })
+produce   : "水铜12金"
+
+[PF0301]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       12, "金色", TO_BE_DESTRUCT })
+produce   : "水铜13金"
+
+[PF0302]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       13, "金色", TO_BE_DESTRUCT })
+produce   : "水铜14金"
+
+[PF0303]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       14, "金色", TO_BE_DESTRUCT })
+produce   : "水铜15金"
+
+[PF0304]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "水铜",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "水铜",       15, "金色", TO_BE_DESTRUCT })
+produce   : "水铜16金"
+
+[PF031]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "白色", TO_BE_DESTRUCT })
+produce   : "麟木7白"
+
+[PF032]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "白色", TO_BE_DESTRUCT })
+produce   : "麟木8白"
+
+[PF033]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "白色", TO_BE_DESTRUCT })
+produce   : "麟木9白"
+
+[PF034]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "白色", TO_BE_DESTRUCT })
+produce   : "麟木10白"
+
+[PF035]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "白色", TO_BE_DESTRUCT })
+produce   : "麟木11白"
+
+[PF0350]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "白色", TO_BE_DESTRUCT })
+produce   : "麟木12白"
+
+[PF0351]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "白色", TO_BE_DESTRUCT })
+produce   : "麟木13白"
+
+[PF0352]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "白色", TO_BE_DESTRUCT })
+produce   : "麟木14白"
+
+[PF0353]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "白色", TO_BE_DESTRUCT })
+produce   : "麟木15白"
+
+[PF0354]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "白色", TO_BE_DESTRUCT })
+produce   : "麟木16白"
+
+[PF036]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木7蓝"
+
+[PF037]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木8蓝"
+
+[PF038]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木9蓝"
+
+[PF039]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木10蓝"
+
+[PF040]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木11蓝"
+
+[PF0400]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木12蓝"
+
+[PF0401]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木13蓝"
+
+[PF0402]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木14蓝"
+
+[PF0403]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木15蓝"
+
+[PF0404]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "蓝色", TO_BE_DESTRUCT })
+produce   : "麟木16蓝"
+
+[PF041]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       6, "金色", TO_BE_DESTRUCT })
+produce   : "麟木7金"
+
+[PF042]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       7, "金色", TO_BE_DESTRUCT })
+produce   : "麟木8金"
+
+[PF043]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       8, "金色", TO_BE_DESTRUCT })
+produce   : "麟木9金"
+
+[PF044]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       9, "金色", TO_BE_DESTRUCT })
+produce   : "麟木10金"
+
+[PF045]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       10, "金色", TO_BE_DESTRUCT })
+produce   : "麟木11金"
+
+[PF0450]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       11, "金色", TO_BE_DESTRUCT })
+produce   : "麟木12金"
+
+[PF0451]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       12, "金色", TO_BE_DESTRUCT })
+produce   : "麟木13金"
+
+[PF0452]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       13, "金色", TO_BE_DESTRUCT })
+produce   : "麟木14金"
+
+[PF0453]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       14, "金色", TO_BE_DESTRUCT })
+produce   : "麟木15金"
+
+[PF0454]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "麟木",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "麟木",       15, "金色", TO_BE_DESTRUCT })
+produce   : "麟木16金"
+
+[PF046]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "白色", TO_BE_DESTRUCT })
+produce   : "玄石7白"
+
+[PF047]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "白色", TO_BE_DESTRUCT })
+produce   : "玄石8白"
+
+[PF048]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "白色", TO_BE_DESTRUCT })
+produce   : "玄石9白"
+
+[PF049]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "白色", TO_BE_DESTRUCT })
+produce   : "玄石10白"
+
+[PF050]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "白色", TO_BE_DESTRUCT })
+produce   : "玄石11白"
+
+[PF0500]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "白色", TO_BE_DESTRUCT })
+produce   : "玄石12白"
+
+[PF0501]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "白色", TO_BE_DESTRUCT })
+produce   : "玄石13白"
+
+[PF0502]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "白色", TO_BE_DESTRUCT })
+produce   : "玄石14白"
+
+[PF0503]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "白色", TO_BE_DESTRUCT })
+produce   : "玄石15白"
+
+[PF0504]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "白色", TO_BE_DESTRUCT })
+produce   : "玄石16白"
+
+[PF051]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石7蓝"
+
+[PF052]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石8蓝"
+
+[PF053]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石9蓝"
+
+[PF054]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石10蓝"
+
+[PF055]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石11蓝"
+
+[PF0550]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石12蓝"
+
+[PF0551]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石13蓝"
+
+[PF0552]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石14蓝"
+
+[PF0553]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石15蓝"
+
+[PF0554]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "蓝色", TO_BE_DESTRUCT })
+produce   : "玄石16蓝"
+
+[PF056]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       6, "金色", TO_BE_DESTRUCT })
+produce   : "玄石7金"
+
+[PF057]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       7, "金色", TO_BE_DESTRUCT })
+produce   : "玄石8金"
+
+[PF058]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       8, "金色", TO_BE_DESTRUCT })
+produce   : "玄石9金"
+
+[PF059]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       9, "金色", TO_BE_DESTRUCT })
+produce   : "玄石10金"
+
+[PF060]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       10, "金色", TO_BE_DESTRUCT })
+produce   : "玄石11金"
+
+[PF0600]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       11, "金色", TO_BE_DESTRUCT })
+produce   : "玄石12金"
+
+[PF0601]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       12, "金色", TO_BE_DESTRUCT })
+produce   : "玄石13金"
+
+[PF0602]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       13, "金色", TO_BE_DESTRUCT })
+produce   : "玄石14金"
+
+[PF0603]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       14, "金色", TO_BE_DESTRUCT })
+produce   : "玄石15金"
+
+[PF0604]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "玄石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "玄石",       15, "金色", TO_BE_DESTRUCT })
+produce   : "玄石16金"
+
+[PF061]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "白色", TO_BE_DESTRUCT })
+produce   : "炎石7白"
+
+[PF062]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "白色", TO_BE_DESTRUCT })
+produce   : "炎石8白"
+
+[PF063]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "白色", TO_BE_DESTRUCT })
+produce   : "炎石9白"
+
+[PF064]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "白色", TO_BE_DESTRUCT })
+produce   : "炎石10白"
+
+[PF065]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "白色", TO_BE_DESTRUCT })
+produce   : "炎石11白"
+
+[PF0650]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "白色", TO_BE_DESTRUCT })
+produce   : "炎石12白"
+
+[PF0651]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "白色", TO_BE_DESTRUCT })
+produce   : "炎石13白"
+
+[PF0652]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "白色", TO_BE_DESTRUCT })
+produce   : "炎石14白"
+
+[PF0653]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "白色", TO_BE_DESTRUCT })
+produce   : "炎石15白"
+
+[PF0654]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "白色", TO_BE_DESTRUCT })
+produce   : "炎石16白"
+
+[PF066]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石7蓝"
+
+[PF067]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石8蓝"
+
+[PF068]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石9蓝"
+
+[PF069]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石10蓝"
+
+[PF070]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石11蓝"
+
+[PF0700]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石12蓝"
+
+[PF0701]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石13蓝"
+
+[PF0702]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石14蓝"
+
+[PF0703]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石15蓝"
+
+[PF0704]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "蓝色", TO_BE_DESTRUCT })
+produce   : "炎石16蓝"
+
+[PF071]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       6, "金色", TO_BE_DESTRUCT })
+produce   : "炎石7金"
+
+[PF072]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       7, "金色", TO_BE_DESTRUCT })
+produce   : "炎石8金"
+
+[PF073]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       8, "金色", TO_BE_DESTRUCT })
+produce   : "炎石9金"
+
+[PF074]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       9, "金色", TO_BE_DESTRUCT })
+produce   : "炎石10金"
+
+[PF075]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       10, "金色", TO_BE_DESTRUCT })
+produce   : "炎石11金"
+
+[PF0750]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       11, "金色", TO_BE_DESTRUCT })
+produce   : "炎石12金"
+
+[PF0751]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       12, "金色", TO_BE_DESTRUCT })
+produce   : "炎石13金"
+
+[PF0752]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       13, "金色", TO_BE_DESTRUCT })
+produce   : "炎石14金"
+
+[PF0753]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       14, "金色", TO_BE_DESTRUCT })
+produce   : "炎石15金"
+
+[PF07541]
+file      : "cube_material2"
+type      : 5
+material$ : ({ "炎石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "金色", TO_BE_DESTRUCT })
+material$ : ({ "炎石",       15, "金色", TO_BE_DESTRUCT })
+produce   : "炎石16金"
+
+[超级女娲石]
+file      : "chaojinvwashi"
+type      : 2
+confirm_dlg : 1
+material$ : ({ "女娲石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "女娲石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "女娲石",       0, "", TO_BE_DESTRUCT })
+need_log  : 1
+[绿水晶]
+file      : "cube_material4"
+material$ : ({ "绿水晶",       0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "绿水晶",       0, "金色", TO_BE_DESTRUCT })
+produce   : "精炼绿水晶0金色"
+
+[超级绿水晶]
+file      : "cube_material4"
+material$ : ({ "超级绿水晶",       0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "超级绿水晶",       0, "金色", TO_BE_DESTRUCT })
+produce   : "精炼超级绿水晶0金色"
+
+[PF0754]
+file      : "cube_material4"
+type      : 2
+confirm_dlg : 1
+material$ : ({ "粉水晶",       0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "粉水晶",       0, "金色", TO_BE_DESTRUCT })
+produce   : "精炼粉水晶0金色"
+
+[PF0756]
+file      : "special_book"
+type      : 2
+confirm_dlg : 1
+material$ : ({ "天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "秘笈合成卡",     0, "金色", TO_BE_DESTRUCT })
+produce   : "天技秘笈"
+
+[PF0757]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "天然玉",       0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0758]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "水晶石",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0759]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "琥珀",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0760]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "金丝线",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0761]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "玄铁",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0762]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "翡翠石",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0763]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "绿松石",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0764]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "金银砂",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[PF0765]
+file      : "huanhundan"
+type      : 3
+material$ : ({ "赤铜",        0,  "",           TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 3 })
+produce   : "还魂丹"
+
+[高级还魂丹]
+file      : "gaoji_huanhundan"
+type      : 3
+confirm_dlg : 1
+material$ : ({ "混沌玉",       0,  "金色", TO_BE_DESTRUCT, 1 })
+material$ : ({ "彼岸花",       0,  "金色", TO_BE_DESTRUCT, 3 })
+material$ : ({ "鬼灵珠",       0,  "金色", TO_BE_DESTRUCT, 5 })
+
+[魔王之角]
+file      : "mowang_zhijiao"
+type      : 3
+material$ : ({ "深渊残魂",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "深渊残魂",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "深渊残魂",     0,  "金色", TO_BE_DESTRUCT })
+
+[夜叉魔刀]
+file      : "yecha_modao"
+type      : 3
+material$ : ({ "魔王之角",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "魔王之角",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "魔王之角",     0,  "金色", TO_BE_DESTRUCT })
+
+[修罗骨链]
+file      : "xiuluo_gulian"
+type      : 3
+material$ : ({ "夜叉魔刀",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "夜叉魔刀",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "夜叉魔刀",     0,  "金色", TO_BE_DESTRUCT })
+
+[孔雀魔翎]
+file      : "kongque_moling"
+type      : 3
+material$ : ({ "修罗骨链",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "修罗骨链",     0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "修罗骨链",     0,  "金色", TO_BE_DESTRUCT })
+
+[PF0767]
+file      : "special_book"
+type      : 2
+material$ : ({ "鬼宠天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "鬼宠天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "鬼宠天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "鬼宠天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "鬼宠天技秘笈残片",     0, "金色", TO_BE_DESTRUCT })
+material$ : ({ "秘笈合成卡",     0, "金色", TO_BE_DESTRUCT })
+produce   : "鬼宠天技秘笈"
+
+[烤火鸡]
+file      : "kao_huoji"
+type      : 2
+material$ : ({ "生火鸡",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "木柴",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "调料",       -1, "", TO_BE_DESTRUCT })
+
+[香料烤火鸡]
+file      : "xiangliao_kaohuoji"
+type      : 2
+material$ : ({ "生火鸡",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "木柴",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "调料",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "香料",       -1, "", TO_BE_DESTRUCT })
+
+[南瓜馅饼]
+file      : "nangua_xianbing"
+type      : 2
+material$ : ({ "生南瓜",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "面粉",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "调料",       -1, "", TO_BE_DESTRUCT })
+
+[香料南瓜馅饼]
+file      : "xiangliao_nanguaxianbing"
+type      : 2
+material$ : ({ "生南瓜",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "面粉",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "调料",       -1, "", TO_BE_DESTRUCT })
+material$ : ({ "香料",       -1, "", TO_BE_DESTRUCT })
+
+[芙蓉石]
+file      : "gem_alchemy"
+type      : 2
+confirm_dlg : 1
+material$ : ({ "蓝松石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "蓝松石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "蓝松石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "蓝松石",       0, "", TO_BE_DESTRUCT })
+produce   : "芙蓉石"
+
+[红宝石]
+file      : "gem_alchemy"
+type      : 2
+confirm_dlg : 1
+material$ : ({ "芙蓉石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "芙蓉石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "芙蓉石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "芙蓉石",       0, "", TO_BE_DESTRUCT })
+produce   : "红宝石"
+
+[蓝宝石]
+file      : "gem_alchemy"
+type      : 2
+confirm_dlg : 1
+material$ : ({ "红宝石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "红宝石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "红宝石",       0, "", TO_BE_DESTRUCT })
+material$ : ({ "红宝石",       0, "", TO_BE_DESTRUCT })
+produce   : "蓝宝石"
+
+[桂花月饼]
+file      : "guihua_cake"
+type      : 2
+material$ : ({ 普通桂花,         0,  "", TO_BE_DESTRUCT })
+material$ : ({ 普通面粉,         0,  "", TO_BE_DESTRUCT })
+
+[酒香桂花月饼]
+file      : "guihua_cake"
+type      : 2
+material$ : ({ 精致桂花,         0,  "", TO_BE_DESTRUCT })
+material$ : ({ 精致面粉,         0,  "", TO_BE_DESTRUCT })
+material$ : ({ 老酒,          0,  "金色", TO_BE_DESTRUCT })
+
+[高级鬼宠诱饵]
+file      : "gaoji_guichong_youe"
+type      : 3
+material$ : ({ "鬼宠诱饵",         0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ "元魂丹",         0,  "金色", TO_BE_DESTRUCT })
+
+[年糕]
+file      : "niangao"
+type      : 2
+material$ : ({ 普通糯米,         0,  "", TO_BE_DESTRUCT })
+material$ : ({ 普通白糖,         0,  "", TO_BE_DESTRUCT })
+
+[酒心年糕]
+file      : "niangao"
+type      : 2
+material$ : ({ 精制糯米,         0,  "", TO_BE_DESTRUCT })
+material$ : ({ 精制白糖,         0,  "", TO_BE_DESTRUCT })
+material$ : ({ 老酒,          0,  "金色", TO_BE_DESTRUCT })
+
+[超级鸿钧神石]
+file      : "task_recipe"
+task_id   : 675
+type      : 2
+material$ : ({  鸿钧神石, 0,  "", TO_BE_DESTRUCT })
+material$ : ({  百变盒,   0,  "金色", TO_BE_DESTRUCT })
+
+[百宝锦囊]
+file      : "task_recipe"
+task_id   : 710
+type      : 2
+material$ : ({ 百宝丝线, 0,  "", TO_BE_DESTRUCT })
+material$ : ({ 锦囊,  0,  "金色", TO_BE_DESTRUCT })
+
+[紫微星·召唤符]
+file      : "task_recipe"
+task_id   : 758
+type      : 2
+material$ : ({ 紫微星·金符, 0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ 紫微星·木符, 0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ 紫微星·水符, 0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ 紫微星·火符, 0,  "金色", TO_BE_DESTRUCT })
+material$ : ({ 紫微星·土符, 0,  "金色", TO_BE_DESTRUCT })
+
+[仙元灵兽丹]
+file      : "task_recipe"
+task_id   : 780
+type      : 2
+material$ : ({ "仙元草", 0,  "",           TO_BE_DESTRUCT })
+material$ : ({ "超级神兽丹",   0,  "金色", TO_BE_DESTRUCT })
+
+[福到]
+file      : "task_recipe"
+task_id   : 775
+type      : 2
+material$ : ({  福, 0,  "", TO_BE_DESTRUCT })
+material$ : ({  锦囊,   0,  "金色", TO_BE_DESTRUCT })
+
+[驱邪护符]
+file      : "task_recipe"
+task_id   : 810
+type      : 2
+material$ : ({  护符, 0,  "", TO_BE_DESTRUCT })
+material$ : ({  老酒,   0,  "金色", TO_BE_DESTRUCT })
+
+[酒香月饼]
+file      : "task_recipe"
+task_id   : 888
+type      : 2
+material$ : ({  中秋月饼, 0,  "", TO_BE_DESTRUCT })
+material$ : ({  老酒,   0,  "金色", TO_BE_DESTRUCT })
+
+[水果蛋糕]
+file      : "task_recipe"
+task_id   : 876
+type      : 2
+material$ : ({  国庆蛋糕, 0,  "", TO_BE_DESTRUCT })
+material$ : ({  水果卡, 0,  "金色", TO_BE_DESTRUCT })
+
+[秘制烤火鸡]
+file      : "task_recipe"
+task_id   : 928
+type      : 2
+material$ : ({ 熏烤火鸡, 0,  "", TO_BE_DESTRUCT })
+material$ : ({  老酒, 0, "金色", TO_BE_DESTRUCT })

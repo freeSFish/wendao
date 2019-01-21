@@ -1,0 +1,31 @@
+#FORM2
+
+[setting]
+duration      : 3600
+score_list    : ({ 2493, 100000 })
+position_list : ({ 388, 133, 1 })
+
+[¹ÖÎï]
+»Ã¾³Ä§   : 1
+
+[»Ã¾³Ä§]
+icon             : 6226
+portrait         : 6226
+polar            : 1
+life_effect      : 800
+speed_effect     : 30
+tao_effect       : 0
+phy_effect       : 100
+mag_effect       : 150
+phy_absorb       : -30
+mag_absorb       : -30
+resist_poison    : 60
+resist_frozen    : 60
+resist_sleep     : 60
+resist_forgotten : 60
+resist_confusion : 60
+penetrate        : 60
+phy_rate         : 30
+stunt_rate       : 30
+tractics         : "huanjingmo_tactics"
+xulinghuanjing  : 1

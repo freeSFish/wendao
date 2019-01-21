@@ -1,0 +1,82 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2010-01-27-00:00:00", "EVERY_HOUR(96)", "EVERY_DAY(0)" })
+
+[抵御年兽特殊刷怪时间]
+time_list$ : ({ "2010-01-27-14:00:00", "EVERY_HOUR(2)", "EVERY_DAY(1)", "2010-01-30-23:59:59" })
+
+[before_start_task]
+time     : 300
+channel  : CHANNEL_SYSTEM
+duration : 60
+content  : ""
+
+[broadcast_half]
+message$  : "又是一年一度的#R春节#n，#R祭拜祖先#n、#R访亲问友#n是中华民族的优良传统，大家也快来#R天墉城#n 找#Y祭祖仙子#n祭拜祖先，找#Y祝福仙子#n传递祝福吧！还有#Y年兽先锋#n每隔#R30分钟#n前来骚扰，消灭探子保卫城镇居民过一个安详和谐的春节吧！"
+interval  : 3600
+
+[refresh_xianfeng]
+channel  : CHANNEL_SYSTEM
+content  : "正值#R春节#n之际，大量#Y年兽先锋#n到了#R%s#n，伺机攻击城镇，看来不久就会有#R年兽大军#n入侵了！"
+
+[before_refresh_jiangling]
+time     : 300
+channel  : CHANNEL_SYSTEM
+duration : 60
+content  : "经过#Y年兽先锋#n多番打探，年兽大军即将进攻#R揽仙镇#n、#R天墉城#n、#R东海渔村#n和#R无名小镇#n，请诸位有识之士做好准备，消灭入侵的年兽大军！"
+
+[end_task]
+channel  : CHANNEL_SYSTEM
+content  : ""
+
+[年兽先锋]
+name                : "年兽先锋"
+icon                : 6162
+portrait            : 6162
+polar               : -1
+speed_effect        : 30
+tao_effect          : 0
+resist_poison       : 45
+resist_frozen       : 45
+resist_sleep        : 45
+resist_forgotten    : 45
+resist_confusion    : 45
+stunt_rate          : 50
+comrade             : ({ "年兽先锋", 4 })
+attach_skills       : ({ 60, "B2", "B4", 100, "B3", "B5" })
+tactics             : "year_beast_tactics"
+monster_menu        : ({ "menu_content_xianfeng", "menu_action" })
+
+[年兽将领]
+name                : "年兽将领"
+icon                : 6193
+portrait            : 6193
+polar               : -1
+speed_effect        : 30
+tao_effect          : 0
+resist_poison       : 45
+resist_frozen       : 45
+resist_sleep        : 45
+resist_forgotten    : 45
+resist_confusion    : 45
+stunt_rate          : 50
+comrade             : ({ "年兽将领", 9 })
+attach_skills       : ({ 60, "B2", "B4", 100, "B3", "B5" })
+tactics             : "year_beast_tactics"
+monster_menu        : ({ "menu_content_jiangling", "menu_action" })
+
+[捣乱的冤魂]
+name                : "捣乱的冤魂"
+icon                : 6140
+life_effect         : 1000
+phy_effect          : 50
+mag_effect          : 80
+tao_effect          : -50
+speed_effect        : -50
+skills              : ({ "B2", "B4" })
+
+
+[jibai_zuxian]
+room_name : ({ "五龙山", "终南山", "凤凰山", "乾元山", "骷髅山" })
+npc_info  : ({ "柳如尘-东海渔村", "陆压真人-轩辕庙", "神龙真人-卧龙坡", "多宝道人-蓬莱岛", "逍遥仙-天墉城" })

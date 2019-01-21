@@ -1,0 +1,28 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-01-14-00:00:00", "EVERY_DAY(5)", 0, "2013-01-18-23:59:59" })
+
+[broadcast_setting]
+broadcast_list : ({ "start_task", "during_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "#R【迎新年】好礼相送#n活动开始了，每日参与#R【迎新年】灶神赐福#n活动、#R【迎新年】驱逐年兽#n活动和#R【迎新年】万家灯火#n活动都可以获得积分，积攒一定数量的积分就可以在#P活动大使#P处进行抽奖！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+60)"
+interval        : 3600
+broadcast_end   : "end_time(-60)"
+message         : "#R【迎新年】好礼相送#n活动正在火热进行中，参与#R【迎新年】灶神赐福活动、#R【迎新年】驱逐年兽#n活动和#R【迎新年】万家灯火#n活动都可以获得积分，积攒一定数量的积分就可以在#P活动大使#P处进行抽奖！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+1)"
+message         : "#R【迎新年】好礼相送#n活动结束啦，感谢大家的热情参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

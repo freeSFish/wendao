@@ -1,0 +1,29 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-01-14-00:00:00", "EVERY_HOUR(24)", "EVERY_DAY(1)", "2013-01-18-24:00:00" })
+
+[broadcast_setting]
+broadcast_list : ({ "end_task" })
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 30
+broadcast_end   : "end_time(+10)"
+message         : "在中洲大陆各仙家侠士的共同努力下，入侵的年兽大军已经被驱逐了，大家又可以安安心心过欢乐的春节了！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[bonus_list]
+包子 : 13500
+拨浪鼓 : 13500
+血池 : 8500
+超级仙风散 : 8500
+超级八卦阴阳令 : 8500
+果仁糖葫芦 : 10000
+纸鸢 : 10000
+特级八卦阴阳令  : 4500
+喇叭  : 4500
+超级黑水晶  : 4500
+特效仙风散  : 4500
+灵池    : 4500
+道具套餐卡    : 500

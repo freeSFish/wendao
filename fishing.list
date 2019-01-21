@@ -1,0 +1,23 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-08-28-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2013-08-24-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2015-08-24-20:00:00", "EVERY_HOUR(2)", "EVERY_WEEK(1)" })
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_game", "during_task" })
+
+[pre_start_game]
+broadcast_start : "start_time(-10800)"
+interval        : 600
+broadcast_end   : "start_time(-600)"
+message         : "#RSTART_TIME#n至#REND_TIME#n将开放#R问道捕鱼活动#n，欢迎大家到#Z天墉城#Z找#P活动大使#P参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+600)"
+interval        : 600
+broadcast_end   : "end_time(-600)"
+message         : "#R问道捕鱼活动#n正在紧张激烈的进行中，欢迎大家到#Z天墉城#Z找#P活动大使#P参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

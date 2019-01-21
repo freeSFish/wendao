@@ -1,0 +1,22 @@
+#FORM2
+
+[setting]
+start_time       : "2013-12-09-07:00:00"
+end_time         : "2013-12-11-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "end_task", "during_task" })
+
+[end_task]
+broadcast_start : "end_time(-1)"
+interval        : 0
+broadcast_end   : "end_time(0)"
+message         : "千里姻缘一线牵，只羡鸳鸯不羡仙。众道友觅得佳缘了吗？#R【情人节】缘来是你#n活动已结束，若有未尽之意，明年此时，与君相期！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+2400)"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "醉卧流年滚滚红尘如梦，弱水三千今夕寻取有缘之人。行动起来，参加#R【情人节】缘来是你#n活动，邂逅那个独一无二的TA。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

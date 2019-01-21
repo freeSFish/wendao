@@ -1,0 +1,41 @@
+#Ãû³Æ,   file_id                       no_float,      log_action, Ê¹ÓÃĞÔ±ğ
+key_name,   file_id,                        no_float,    log_action, gender
+# ÄĞĞÔ
+·½½í,       "helmet/fangjin",               "equipment", "zhuangb",  1
+Æ¤Ã±,       "helmet/pimao",                 "equipment", "zhuangb",  1
+ÇàÍ­¿ø,     "helmet/qingtongkui",           "equipment", "zhuangb",  1
+³åÌì¿ø,     "helmet/chongtiankui",          "equipment", "zhuangb",  1
+»¢Í·¿ø,     "helmet/hutoukui",              "equipment", "zhuangb",  1
+ÉñÁú¿ø,     "helmet/shenlongkui",           "equipment", "zhuangb",  1
+°×Óñ¹Ú,     "helmet/baiyuguan",             "equipment", "zhuangb",  1
+Ç¬À¤¹Ú,     "helmet/qiankunguan",           "equipment", "zhuangb",  1
+Áú¹Ú,       "helmet/longguan",              "equipment", "zhuangb",  1
+ó´Áú¹Ú,     "helmet/panlongguan",           "equipment", "zhuangb",  1
+ĞÇÒ«¹Ú,     "helmet/xingyaoguan",           "equipment", "zhuangb",  1
+ÆßĞÇ±¦¹Ú,   "helmet/qixingbaoguan",         "equipment", "zhuangb",  1
+Ë«ÒíÁéèÉ¹Ú, "helmet/shuangyi-lingxiaoguan", "equipment", "zhuangb",  1
+½ğÒíÁú¹Ú,   "helmet/jinyilongguan",         "equipment", "zhuangb",  1
+Ì«ÇåĞş¹Ú,   "helmet/taiqing-xuanguan",      "equipment", "zhuangb",  1
+
+# Å®ĞÔ
+ô¢×Ó,       "helmet/zanzi",                 "equipment", "zhuangb",  2
+·É·ïîÎ,     "helmet/feifengchai",           "equipment", "zhuangb",  2
+±ÌÓñîÎ,     "helmet/biyuchai",              "equipment", "zhuangb",  2
+ºûµûîÎ,     "helmet/hudiechai",             "equipment", "zhuangb",  2
+½ğîÎ,       "helmet/jinchai",               "equipment", "zhuangb",  2
+ÕäÖéîÎ,     "helmet/zhenzhuchai",           "equipment", "zhuangb",  2
+·ïÎ²îÎ,     "helmet/fengweichai",           "equipment", "zhuangb",  2
+ÓãÎ²¹Ú,     "helmet/yuweiguan",             "equipment", "zhuangb",  2
+·ï¹Ú,       "helmet/fengguan",              "equipment", "zhuangb",  2
+½ğÏ¼¹Ú,     "helmet/jinxiaguan",            "equipment", "zhuangb",  2
+Áè²¨Ï¼¹Ú,   "helmet/lingboxiaguan",         "equipment", "zhuangb",  2
+ÌìÁé±¦¹Ú,   "helmet/tianlingbaoguan",       "equipment", "zhuangb",  2
+³àğ½ôáÓğ¹Ú, "helmet/chiluan-lingyuguan",    "equipment", "zhuangb",  2
+İ¼÷ë±¦¹Ú,   "helmet/qinglinbaoguan",        "equipment", "zhuangb",  2
+ÓñÇåÏÉ¹Ú,   "helmet/yuqing-xianguan",       "equipment", "zhuangb",  2
+
+#¹²ÓÃ
+¾ÅÏöÁÒÑæ¹Ú, "helmet/jiuxiao-lieyanguan",    "equipment", "zhuangb",  0
+°×ÓñĞÇ¹Ú,   "helmet/baiyu-xingguan",        "equipment", "zhuangb",  1
+¾Å²ÊÁáÖé¹Ú, "helmet/jiucai-lingzhuguan",    "equipment", "zhuangb",  2
+

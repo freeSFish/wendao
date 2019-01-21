@@ -1,0 +1,41 @@
+#FORM2
+
+[config]
+bonus_shenshous : ({ "疆良", "东山神灵", "玄武", "朱雀", "九尾狐", "蓐收", "句芒", "玄冥", "祝融", "后土" })
+bonus_mounts : ({ "五彩神牛", "北极熊" })
+
+[time_info]
+start_time : "2012-04-01-00:00:00"
+end_time   : "2012-04-01-23:59:00"
+clean_time : "2012-04-01-23:59:00"
+
+[broadcast_setting]
+broadcast_list : ({ "before_task", "during_task", "before_end_task", "end_task" })
+
+[before_task]
+broadcast_start : "start_time(-172800)"
+interval        : 3600
+broadcast_end   : "start_time(-1)"
+message         : "#R【愚人节大冒险活动】#n将于#RSTART_TIME#n开启，到时大家在#Z天墉城(250，196)#Z处接受冒险挑战，赢取愚人神秘咒语等惊喜奖励，更有限时神秘大礼等你来抽取。尽情享受愚人节的乐趣，请大家届时参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time"
+interval        : 3600
+broadcast_end   : "end_time(-1)"
+message         : "#R【愚人节大冒险活动】#n已经在#Z天墉城(250，196)#Z处开启，大家快去赢取愚人神秘咒语等惊喜奖励，更有限时神秘大礼等你来抽取，尽情享受愚人节的乐趣吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[before_end_task]
+broadcast_start : "end_time(-300)"
+interval        : 60
+broadcast_end   : "end_time(-1)"
+message         : "#R【愚人节大冒险活动】#n即将结束，请大家抓紧时间享受愚人的乐趣吧!"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time"
+message         : "本次#R【愚人节大冒险活动】#n圆满结束，感谢大家的参与！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

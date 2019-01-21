@@ -1,0 +1,73 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2013-07-13-00:00:00", "EVERY_WEEK(1)", 0 })
+time_list$ : ({ "2013-08-10-00:00:00", "EVERY_WEEK(1)", 0 })
+
+[main_npc]
+polar            : -1
+life_effect      : "1100 + Lv / 70 * 100 + Lv / 100 * 200 + Lv / 130 * 300 + Lv / 150 * 350"
+phy_effect       : "70 + Lv / 70 * 20 + Lv / 100 * 30 + Lv / 130 * 40 + Lv / 150 * 50"
+mag_effect       : "70 + Lv / 70 * 20 + Lv / 100 * 30 + Lv / 130 * 40 + Lv / 150 * 50"
+resist_forgotten : 75
+resist_poison    : 75
+resist_frozen    : 75
+resist_sleep     : 75
+resist_confusion : 75
+tao_effect       : 250
+speed_effect     : 150
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib    : ({ "speed_effect", 100 })
+skills           : ({ "lipo-qianjun", "B3", "B4" })
+skills_100       : ({ "lipo-qianjun", "B4", "B5" })
+sf_receive_damage : "sf_receive_damage"
+
+[仙兽]
+polar            : -1
+icon             : ({ 6276, 6285, 6130, 6162, 6170, 6152, 6144, 6146, 6172 })
+life_effect      : "900 + Lv / 70 * 100 + Lv / 100 * 200 + Lv / 130 * 300 + Lv / 150 * 350"
+phy_effect       : "30 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 150 * 35"
+mag_effect       : "30 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 150 * 35"
+resist_forgotten : 50
+resist_poison    : 50
+resist_frozen    : 50
+resist_sleep     : 50
+resist_confusion : 50
+tao_effect       : 150
+speed_effect     : 150
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib    : ({ "speed_effect", 100 })
+skills           : ({ "C3", "B3", "B4" })
+skills_100       : ({ "C5", "B4", "B5" })
+
+[main_monster]
+polar            : -1
+life_effect      : "1100 + Lv / 70 * 100 + Lv / 100 * 200 + Lv / 130 * 300 + Lv / 150 * 350"
+phy_effect       : "70 + Lv / 70 * 20 + Lv / 100 * 30 + Lv / 130 * 40 + Lv / 150 * 50"
+mag_effect       : "70 + Lv / 70 * 20 + Lv / 100 * 30 + Lv / 130 * 40 + Lv / 150 * 50"
+phy_absorb       : 10
+tao_effect       : 150
+speed_effect     : 0
+penetrate_rate   : 20
+penetrate        : 0
+accurate         : 100
+stunt            : 20
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib    : ({ "speed_effect", 50, "penetrate", 50 })
+skills           : ({ "lipo-qianjun", "B2", "B3", "B4", "C1", "D3" })
+skills_100       : ({ "lipo-qianjun", "B2", "B5", "B4", "C1", "D5" })
+
+[小妖]
+polar            : -1
+icon             : ({ 6221, 6222, 6226 })
+life_effect      : "900 + Lv / 70 * 100 + Lv / 100 * 200 + Lv / 130 * 300 + Lv / 150 * 350"
+phy_effect       : "30 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 150 * 35"
+mag_effect       : "30 + Lv / 70 * 10 + Lv / 100 * 20 + Lv / 130 * 30 + Lv / 150 * 35"
+tao_effect       : 50
+speed_effect     : 0
+penetrate_rate   : 20
+double_hit       : 4
+double_hit_rate  : 30
+modify_attrib    : ({ "life_effect", "phy_effect", "mag_effect" })
+random_attrib    : ({ "speed_effect", 50 })
+skills           : ({ "B2", "B4" })

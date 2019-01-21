@@ -1,0 +1,916 @@
+#FORM2
+
+[model1]
+polar               : -1
+religion            : -1
+life_effect         : 6500
+phy_effect          : 550
+mag_effect          : 450
+speed_effect        : 0
+tao_effect          : 500
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+penetrate_rate      : 100
+penetrate           : 50
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B4", "B5", "lipo-qianjun", "C5" })
+skill_rate          : ({ 30, 30, 40, 0 })
+obstacle_rate       : 0
+assist              : ({ "assist_model1", 9 })
+call_assist         : ({ "assist_model1" })
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+tactics             : ({ "call_assist", "mag_attack" })
+tactics_rate        : ({ 50, 50 })
+tactics2            : ({ "mag_attack" })
+tactics2_rate       : ({ 100 })
+combat_trigger      : "combat_trigger_model1"
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+
+[assist_model1]
+name                : »¤ÌåÖ®Áé
+level               : "BOSS_LEVEL"
+icon                : 6140
+polar               : -1
+religion            : -1
+life_effect         : 2000
+phy_effect          : 300
+mag_effect          : 300
+phy_absorb          : "-30 + random(10)"
+mag_absorb          : "-30 + random(10)"
+speed_effect        : "150 + random(300)"
+penetrate_rate      : 80
+penetrate           : 30
+tao_effect          : "100 + random(200)"
+resist_forgotten    : "random(50)"
+resist_poison       : "random(50)"
+resist_frozen       : "random(50)"
+resist_sleep        : "random(50)"
+resist_confusion    : "random(50)"
+resist_repress      : "random(50)"
+resist_melt         : "random(50)"
+resist_cage         : "random(50)"
+resist_lock         : "random(50)"
+resist_lost         : "random(50)"
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 50, 50 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+
+
+[model2]
+polar               : 1
+religion            : -1
+life_effect         : 6500
+phy_effect          : 250
+mag_effect          : 450
+resist_metal        : 100
+penetrate_rate      : 100
+penetrate           : 50
+stunt_rate          : 30
+speed_effect        : 250
+tao_effect          : 500
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "C5" })
+skill_rate          : ({ 0, 0, 0, 30, 70, 0 })
+artifact            : ({ "fantianyin", 18 })
+obstacle_rate       : 0
+assist              : ({ "assist_model21", 1, "assist_model22", 1, "assist_model23", 1, "assist_model24", 1 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+
+[assist_model21]
+name                : ÍÁÖ®ÑýÁé
+level               : "BOSS_LEVEL"
+polar               : 5
+religion            : -1
+icon                : 6164
+life_effect         : 6000
+phy_effect          : 500
+mag_effect          : 250
+resist_earth        : 100
+penetrate_rate      : 100
+penetrate           : 50
+stunt_rate          : 50
+speed_effect        : -50
+tao_effect          : 400
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 50
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 50
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 0, 0, 100 })
+artifact            : ({ "hunyuan-jindou", 12 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 20, 80 })
+special_victim      : ({ "life_min_pet", "random"})
+special_victim_rate : ({ 80, 20 })
+
+
+[assist_model22]
+name                : Ë®Ö®ÑýÁé
+level               : "BOSS_LEVEL"
+polar               : 3
+religion            : -1
+icon                : 6281
+life_effect         : 5500
+phy_effect          : 250
+mag_effect          : 400
+resist_water        : 100
+penetrate_rate      : 80
+penetrate           : 30
+stunt_rate          : 30
+speed_effect        : 250
+tao_effect          : 350
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 50
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 50
+skills              : ({ "B1", "B2", "B3", "B4", "B5" })
+skill_rate          : ({ 0, 0, 0, 60, 40 })
+artifact            : ({ "fantianyin", 12 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+
+[assist_model23]
+name                : Ä¾Ö®ÑýÁé
+level               : "BOSS_LEVEL"
+polar               : 2
+religion            : -1
+icon                : 6271
+life_effect         : 7000
+phy_effect          : 350
+mag_effect          : 300
+resist_wood         : 100
+penetrate_rate      : 80
+penetrate           : 30
+stunt_rate          : 30
+speed_effect        : -50
+tao_effect          : 300
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 50
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 50
+skills              : ({ "B3", "B4", "B5" })
+skill_rate          : ({ 0, 60, 40 })
+artifact            : ({ "dinghaizhu", 18 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+
+[assist_model24]
+name                : »ðÖ®ÑýÁé
+level               : "BOSS_LEVEL"
+polar               : 4
+religion            : -1
+icon                : 6284
+life_effect         : 4500
+phy_effect          : 350
+mag_effect          : 350
+resist_fire         : 100
+penetrate_rate      : 80
+penetrate           : 30
+stunt_rate          : 30
+speed_effect        : 550
+tao_effect          : 350
+resist_forgotten    : 50
+resist_poison       : 50
+resist_frozen       : 50
+resist_sleep        : 50
+resist_confusion    : 50
+resist_repress      : 50
+resist_melt         : 50
+resist_cage         : 50
+resist_lock         : 50
+resist_lost         : 50
+skills              : ({ "B4", "B5", "D5" })
+skill_rate          : ({ 30, 70, 0 })
+artifact            : ({ "yinyangjing", 18 })
+tactics             : ({ "use_buff" })
+tactics_rate        : ({ 100 })
+tactics2            : ({ "mag_attack" })
+tactics2_rate       : ({ 100 })
+
+[model3]
+polar               : -1
+religion            : -1
+life_effect         : 8500
+phy_effect          : 500
+mag_effect          : 450
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+tao_effect          : 500
+speed_effect        : 200
+penetrate_rate      : 100
+penetrate           : 50
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B5", "lipo-qianjun", "C5" })
+skill_rate          : ({ 60, 40, 0 })
+obstacle_rate       : 0
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+call_assist         : ({ "assist_model3", 3 })
+combat_trigger      : "combat_trigger_model3"
+
+[assist_model3]
+name                : "BOSS_NAME"
+level               : "BOSS_LEVEL"
+icon                : "BOSS_ICON"
+polar               : -1
+religion            : -1
+life_effect         : 5500
+phy_effect          : 500
+mag_effect          : 400
+resist_forgotten    : 100
+resist_poison       : 100
+resist_frozen       : 100
+resist_sleep        : 100
+resist_confusion    : 100
+resist_repress      : 100
+resist_melt         : 100
+resist_cage         : 100
+resist_lock         : 100
+resist_lost         : 100
+tao_effect          : 400
+speed_effect        : 350
+penetrate_rate      : 100
+penetrate           : 50
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B5" })
+skill_rate          : ({ 100 })
+god_book_skills     : ({ "kuangbao", "xiuluoshu" })
+god_book_level      : ({ 288, 288 })
+obstacle_rate       : 0
+sf_die              : "sf_die_assist_model3"
+revive_rate         : 25
+tactics             : ({ "use_revive" })
+tactics_rate        : ({ 100 })
+tactics2            : ({ "phy_attack", "mag_attack" })
+tactics2_rate       : ({ 40, 60 })
+special_func        : "do_special_for_am3"
+special_victim      : ({ "attack_one_victim" })
+special_victim_rate : ({ 100 })
+fenshen             : 1
+
+[model4]
+polar               : -1
+religion            : -1
+life_effect         : 7500
+phy_effect          : 450
+mag_effect          : 350
+phy_absorb          : 10
+mag_absorb          : 10
+speed_effect        : 150
+tao_effect          : 500
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+penetrate_rate      : 100
+penetrate           : 50
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5" })
+skill_rate          : ({ 0, 0, 0, 0, 60, 40, 0 })
+artifact            : ({ "fantianyin", 18 })
+obstacle_rate       : 0
+special_tactics     : ({ "C_mag_attack" })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+assist              : ({ "assist_model4", 9 })
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+
+[assist_model4]
+name                : Ô¹Áé
+level               : "BOSS_LEVEL"
+icon                : ({ 6140, 6141 })
+polar               : -1
+religion            : -1
+life_effect         : 1500
+phy_effect          : 300
+mag_effect          : 200
+phy_absorb          : -20
+mag_absorb          : -20
+speed_effect        : 300
+tao_effect          : "100 + random(100)"
+resist_forgotten    : "random(50)"
+resist_poison       : "random(50)"
+resist_frozen       : "random(50)"
+resist_sleep        : "random(50)"
+resist_confusion    : "random(50)"
+resist_repress      : "random(50)"
+resist_melt         : "random(50)"
+resist_cage         : "random(50)"
+resist_lock         : "random(50)"
+resist_lost         : "random(50)"
+penetrate_rate      : 80
+penetrate           : 30
+skills              : ({ "B3", "B4" })
+skill_rate          : ({ 50, 50 })
+special_skills      : ({ "ÉñÁúÕÖ", "ÈçÒâÈ¦" })
+special_skill_level : 180
+special_skill_rate  : ({ 50, 50 })
+tactics             : ({ "use_special_skill" })
+tactics_rate        : ({ 100 })
+tactics2            : ({ "phy_attack", "mag_attack" })
+tactics2_rate       : ({ 40, 60 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+
+[model5]
+polar               : 2
+religion            : -1
+life_effect         : 6500
+phy_effect          : 300
+mag_effect          : 350
+phy_absorb          : -10
+mag_absorb          : -10
+speed_effect        : 200
+tao_effect          : 500
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B1", "B2", "B3", "B4", "D5", "lipo-qianjun" })
+skill_rate          : ({ 0, 0, 56, 0, 14, 30 })
+artifact            : ({ "fantianyin", 12 })
+obstacle_rate       : 0
+tactics             : ({ "use_revive_model5", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+tactics2            : ({ "mag_attack" })
+tactics2_rate       : ({ 100 })
+revive_rate         : 20
+assist              : ({ "assist_model5", 9 })
+
+[assist_model5]
+name                : °Ù»¨ÏÉ×Ó
+level               : "BOSS_LEVEL"
+icon                : ({ 6133, 6134, 6135, 6136, 6137, 6138, 6139 })
+polar               : -1
+religion            : -1
+life_effect         : 1500
+phy_effect          : 250
+mag_effect          : 200
+speed_effect        : "random(200)"
+tao_effect          : "random(100)"
+resist_forgotten    : "random(50)"
+resist_poison       : "random(50)"
+resist_frozen       : "random(50)"
+resist_sleep        : "random(50)"
+resist_confusion    : "random(50)"
+resist_repress      : "random(50)"
+resist_melt         : "random(50)"
+resist_cage         : "random(50)"
+resist_lock         : "random(50)"
+resist_lost         : "random(50)"
+skills              : ({ "B3", "B4" })
+skill_rate          : ({ 50, 50 })
+tactics             : ({ "use_revive_assist_model5", "phy_attack", "mag_attack" })
+tactics_rate        : ({ 75, 10, 15 })
+tactics2            : ({ "phy_attack", "mag_attack" })
+tactics2_rate       : ({ 40, 60 })
+sf_die              : "sf_die_assist_model5"
+revive_rate         : 30
+
+[model6]
+polar               : -1
+religion            : -1
+life_effect         : 6500
+phy_effect          : 350
+mag_effect          : 300
+phy_absorb          : 10
+mag_absorb          : 10
+speed_effect        : 200
+tao_effect          : 500
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+accurate            : 200
+stunt_rate          : 50
+skills              : ({ "B3", "B4", "lipo-qianjun" })
+skill_rate          : ({ 60, 0, 40 })
+obstacle_rate       : 0
+tactics             : ({ "release_obstacle", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+tactics2            : ({ "mag_attack" })
+tactics2_rate       : ({ 100 })
+assist              : ({ "assist_model6", 9 })
+
+[assist_model6]
+name                : Ô¹Áé
+level               : "BOSS_LEVEL"
+icon                : ({ 6140, 6141 })
+polar               : -1
+religion            : -1
+life_effect         : 1500
+phy_effect          : 250
+mag_effect          : 200
+speed_effect        : "random(200)"
+tao_effect          : "random(100)"
+resist_forgotten    : "random(50)"
+resist_poison       : "random(50)"
+resist_frozen       : "random(50)"
+resist_sleep        : "random(50)"
+resist_confusion    : "random(50)"
+resist_repress      : "random(50)"
+resist_melt         : "random(50)"
+resist_cage         : "random(50)"
+resist_lock         : "random(50)"
+resist_lost         : "random(50)"
+skills              : ({ "B3", "B4" })
+skill_rate          : ({ 50, 50 })
+tactics             : ({ "phy_attack", "mag_attack" })
+tactics_rate        : ({ 40, 60 })
+
+[model7]
+polar               : -1
+religion            : -1
+life_effect         : 14900
+phy_effect          : 550
+mag_effect          : 450
+phy_absorb          : -90
+speed_effect        : 300
+tao_effect          : 500
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+accurate            : 200
+stunt_rate          : 50
+penetrate_rate      : 100
+penetrate           : 75
+revive_rate         : 20
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5" })
+skill_rate          : ({ 0, 0, 0, 30, 30, 40, 0 })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+obstacle_rate       : 0
+artifact            : ({ "fantianyin", 12 })
+special_tactics     : ({ "C_mag_attack" })
+tactics             : ({ "user_revive_model7" })
+tactics_rate        : ({ 100 })
+tactics2            : ({ "user_tactics_model7" })
+tactics2_rate       : ({ 100 })
+assist              : ({ "assist_model7", 9 })
+combat_trigger      : "combat_trigger_model7"
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+sf_die              : "sf_die_assist_model7"
+
+[assist_model7]
+name                : ({ "µØÁÑÊÞ", "À¶Ã«¾ÞÊÞ", "±ù¾§ÁúÁÛÊÞ", "ÓêÊÞ", "ÔÆÊÞ", "ÕøÊÞ", "»¯ÉßÊÞ" })
+level               : "BOSS_LEVEL"
+icon                : ({ 6131, 6149, 6162, 6170, 6174, 6276, 6285 })
+polar               : -1
+religion            : -1
+life_effect         : 2000
+phy_effect          : "200 + random(100)"
+mag_effect          : 250
+phy_absorb          : "-30 + random(10)"
+mag_absorb          : "-30 + random(10)"
+speed_effect        : "random(200)"
+tao_effect          : "100 + random(200)"
+penetrate_rate      : 100
+penetrate           : 50
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 30
+double_hit          : 3
+resist_forgotten    : "20 + random(120)"
+resist_poison       : "20 + random(120)"
+resist_frozen       : "20 + random(120)"
+resist_sleep        : "20 + random(120)"
+resist_confusion    : "20 + random(120)"
+resist_repress      : "20 + random(120)"
+resist_melt         : "20 + random(120)"
+resist_cage         : "20 + random(120)"
+resist_lock         : "20 + random(120)"
+resist_lost         : "20 + random(120)"
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 0, 0, 100 })
+tactics             : ({ "user_tactics_model9" })
+tactics_rate        : ({ 100 })
+tactics2             : ({ "mag_attack", "phy_attack" })
+tactics2_rate        : ({ 60, 40 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+
+[assist_model8]
+name                : ({ "ºüÁé", "°ö¼§", "µûÏÉ", "Ñ©Å®", "»¨Ñý", "ºìÒÂÏÉ×Ó", "À¶ÒÂÏÉ×Ó" })
+level               : "BOSS_LEVEL"
+icon                : ({ 6286, 6282, 6275, 6173, 6128, 6136, 6138 })
+polar               : -1
+religion            : -1
+life_effect         : 2000
+phy_effect          : 250
+mag_effect          : "200 + random(100)"
+phy_absorb          : "-30 + random(10)"
+mag_absorb          : "-30 + random(10)"
+speed_effect        : "200 + random(100)"
+tao_effect          : "100 + random(200)"
+resist_forgotten    : "20 + random(120)"
+resist_poison       : "20 + random(120)"
+resist_frozen       : "20 + random(120)"
+resist_sleep        : "20 + random(120)"
+resist_confusion    : "20 + random(120)"
+resist_repress      : "20 + random(120)"
+resist_melt         : "20 + random(120)"
+resist_cage         : "20 + random(120)"
+resist_lock         : "20 + random(120)"
+resist_lost         : "20 + random(120)"
+penetrate_rate      : 80
+penetrate           : 30
+skills              : ({ "B4", "B5" })
+skill_rate          : ({ 50, 50 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+
+[assist_model9]
+name                : "Å£Ä§Íõ"
+level               : "BOSS_LEVEL"
+icon                : 6259
+polar               : -1
+religion            : -1
+life_effect         : 6500
+phy_effect          : 550
+mag_effect          : 450
+phy_absorb          : "-30 + random(10)"
+mag_absorb          : "-30 + random(10)"
+speed_effect        : "400 + random(100)"
+tao_effect          : 500
+penetrate_rate      : 100
+penetrate           : 75
+accurate            : 100
+stunt_rate          : 80
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+revive_rate         : 10
+obstacle_rate       : 0
+artifact            : ({ "hunyuan-jindou", 12 })
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 0, 0, 100 })
+special_tactics     : ({ "user_revive_model7" })
+tactics             : ({ "user_tactics_model8" })
+tactics_rate        : ({ 100 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+sf_die              : "sf_die_assist_model7"
+
+[model10]
+polar               : -1
+religion            : -1
+life_effect         : 14900
+phy_effect          : 550
+mag_effect          : 450
+speed_effect        : 350
+tao_effect          : 600
+resist_forgotten    : 300
+resist_poison       : 300
+resist_frozen       : 300
+resist_sleep        : 300
+resist_confusion    : 300
+resist_repress      : 300
+resist_melt         : 300
+resist_cage         : 300
+resist_lock         : 300
+resist_lost         : 300
+accurate            : 200
+stunt_rate          : 50
+penetrate_rate      : "50 + random(50)"
+penetrate           : "50 + random(50)"
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5" })
+skill_rate          : ({ 0, 0, 0, 30, 30, 40, 0 })
+c_skills            : ({ "C5" })
+c_skill_rate        : ({ 100 })
+obstacle_rate       : 0
+artifact            : ({ "fantianyin", 24 })
+special_tactics     : ({ "C_mag_attack" })
+tactics             : ({ "user_tactics_model10" })
+tactics_rate        : ({ 100 })
+assist              : ({ "assist_model10", 9 })
+combat_trigger      : "combat_trigger_model10"
+special_victim      : ({ "life_min", "speed_max", "random"})
+special_victim_rate : ({ 40, 40, 20 })
+
+[assist_model10]
+name                : ({ "¶ñ¹í", "¶ñ¹í", "°ÙÄê¹íÍõ", "Ç§Äê¹íÍõ" })
+level               : "BOSS_LEVEL"
+icon                : ({ 260006141, 530006129, 580006152, 540006113 })
+polar               : -1
+religion            : -1
+life_effect         : 3000
+phy_effect          : "200 + random(100)"
+mag_effect          : "250 + random(100)"
+speed_effect        : "100 + random(100)"
+tao_effect          : "200 + random(200)"
+penetrate_rate      : "random(100)"
+penetrate           : "random(100)"
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 30
+double_hit          : 3
+resist_forgotten    : "20 + random(120)"
+resist_poison       : "20 + random(120)"
+resist_frozen       : "20 + random(120)"
+resist_sleep        : "20 + random(120)"
+resist_confusion    : "20 + random(120)"
+resist_repress      : "20 + random(120)"
+resist_melt         : "20 + random(120)"
+resist_cage         : "20 + random(120)"
+resist_lock         : "20 + random(120)"
+resist_lost         : "20 + random(120)"
+skills              : ({ "B4", "B5", "lipo-qianjun" })
+skill_rate          : ({ 20, 20, 60 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+
+[assist_model11]
+name                : ({ "ºÚÎÞ³£" })
+level               : "BOSS_LEVEL"
+icon                : ({ 20059 })
+polar               : -1
+religion            : -1
+life_effect         : 8000
+phy_effect          : "250 + random(100)"
+mag_effect          : "200 + random(100)"
+phy_absorb          : -100
+speed_effect        : "200 + random(100)"
+tao_effect          : "500 + random(200)"
+penetrate_rate      : "random(100)"
+penetrate           : "random(100)"
+resist_forgotten    : "20 + random(120)"
+resist_poison       : "20 + random(120)"
+resist_frozen       : "20 + random(120)"
+resist_sleep        : "20 + random(120)"
+resist_confusion    : "20 + random(120)"
+resist_repress      : "20 + random(120)"
+resist_melt         : "20 + random(120)"
+resist_cage         : "20 + random(120)"
+resist_lock         : "20 + random(120)"
+resist_lost         : "20 + random(120)"
+skills              : ({ "B4", "B5", "jinshang-tianhua" })
+skill_rate          : ({ 50, 50, 0 })
+tactics             : ({ "user_tactics_model11" })
+tactics_rate        : ({ 100 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+sf_die              : "sf_die_assist_model13"
+
+[assist_model12]
+name                : ({ "°×ÎÞ³£" })
+level               : "BOSS_LEVEL"
+icon                : ({ 20058 })
+polar               : -1
+religion            : -1
+life_effect         : 8000
+phy_effect          : "250 + random(100)"
+mag_effect          : "200 + random(100)"
+mag_absorb          : -100
+speed_effect        : "200 + random(100)"
+tao_effect          : "500 + random(200)"
+penetrate_rate      : "random(100)"
+penetrate           : "random(100)"
+resist_forgotten    : "20 + random(120)"
+resist_poison       : "20 + random(120)"
+resist_frozen       : "20 + random(120)"
+resist_sleep        : "20 + random(120)"
+resist_confusion    : "20 + random(120)"
+resist_repress      : "20 + random(120)"
+resist_melt         : "20 + random(120)"
+resist_cage         : "20 + random(120)"
+resist_lock         : "20 + random(120)"
+resist_lost         : "20 + random(120)"
+skills              : ({ "lipo-qianjun", "tiandi-hunyuan" })
+skill_rate          : ({ 100, 0 })
+tactics             : ({ "user_tactics_model12" })
+tactics_rate        : ({ 100 })
+special_victim      : ({ "life_min", "random"})
+special_victim_rate : ({ 30, 70 })
+sf_die              : "sf_die_assist_model13"
+
+[assist_model13]
+name                : ({ "ÑÖÄ¦ÂÞÍõ·ÖÉí" })
+level               : "BOSS_LEVEL"
+icon                : ({ 20051 })
+polar               : -1
+religion            : -1
+life_effect         : 4000
+phy_effect          : "200 + random(100)"
+mag_effect          : "250 + random(100)"
+phy_absorb          : -40
+mag_absorb          : 20
+speed_effect        : 550
+tao_effect          : "200 + random(200)"
+penetrate_rate      : "random(100)"
+penetrate           : "random(100)"
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 30
+double_hit          : 3
+counter_attack_rate : 30
+counter_attack      : 2
+damage_sel_rate     : "40 + random(40)"
+damage_sel          : "50 + random(50)"
+resist_forgotten    : "20 + random(120)"
+resist_poison       : "20 + random(120)"
+resist_frozen       : "20 + random(120)"
+resist_sleep        : "20 + random(120)"
+resist_confusion    : "20 + random(120)"
+resist_repress      : "20 + random(120)"
+resist_melt         : "20 + random(120)"
+resist_cage         : "20 + random(120)"
+resist_lock         : "20 + random(120)"
+resist_lost         : "20 + random(120)"
+obstacle_rate       : 0
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5", "D5" })
+skill_rate          : ({ 0, 0, 0, 20, 20, 30, 20, 10 })
+tactics             : ({ "user_tactics_model13" })
+tactics_rate        : ({ 100 })
+artifact            : ({ "fantianyin", 24, "hunyuan-jindou", 24, "dinghaizhu", 24 })
+sf_die              : "sf_die_assist_model13"
+special_victim      : ({ "attack_one_victim" })
+special_victim_rate : ({ 100 })
+
+[model14]
+name                : "½ð½Ç´óÏÉ·ÖÉí"
+level               : 160
+icon                : 6337
+polar               : -1
+religion            : -1
+life_effect         : 18000
+phy_effect          : 700
+mag_effect          : 700
+tao_effect          : 1000
+all_resist_except   : 300
+penetrate_rate      : "50 + random(50)"
+penetrate           : "50 + random(50)"
+phy_absorb          : -30
+mag_absorb          : -10
+accurate            : 200
+stunt_rate          : 80
+obstacle_rate       : 0
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5", "liwan-kuanglan" })
+skill_rate          : ({ 0, 0, 0, 15, 35, 50, 0, 0 })
+special_func_ex     : "do_special_for_m14"
+special_victim      : ({ "life_min", "speed_max", "random" })
+special_victim_rate : ({ 40, 40, 20 })
+combat_trigger      : "combat_trigger_model14"
+tactics             : ({ "user_tactics_model14" })
+tactics_rate        : ({ 100 })
+
+[assist_model14]
+name                : "½ð½Ç´óÏÉÔªÉñ"
+level               : 160
+icon                : ({ 6323, 6324 })
+polar               : -1
+religion            : -1
+life_effect         : 4000
+phy_effect          : 600
+mag_effect          : 600
+tao_effect          : 1000
+all_resist_except   : 300
+penetrate_rate      : "50 + random(50)"
+penetrate           : "50 + random(50)"
+phy_absorb          : -100
+mag_absorb          : -100
+accurate            : 100
+stunt_rate          : 50
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5" })
+skill_rate          : ({ 0, 0, 0, 25, 25, 50, 0 })
+special_tactics     : ({ "use_tactics_assist_model14" })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+artifact            : ({ "fantianyin", 16, "hunyuan-jindou", 16, "dinghaizhu", 12 })
+special_func        : "do_special_for_am14"
+
+[assist_model15]
+name                : "½ð½Ç´óÏÉ"
+level               : 160
+icon                : 6337
+polar               : -1
+religion            : -1
+life_effect         : 20000
+speed_effect        : 550
+phy_effect          : "200 + random(100)"
+mag_effect          : "250 + random(100)"
+phy_absorb          : 40
+mag_absorb          : 20
+penetrate_rate      : "0 + random(100)"
+penetrate           : "0 + random(100)"
+damage_sel_rate     : "40 + random(40)"
+damage_sel          : "50 + random(50)"
+counter_attack_rate : 30
+counter_attack      : 2
+accurate            : 200
+stunt_rate          : 50
+double_hit_rate     : 30
+double_hit          : 3
+tao_effect          : "800 + random(200)"
+all_resist_except   : "20 + random(120)"
+skills              : ({ "B1", "B2", "B3", "B4", "B5", "lipo-qianjun", "C5", "D5" })
+skill_rate          : ({ 10, 10, 10, 10, 10, 50, 0, 0 })
+artifact            : ({ "fantianyin", 24, "hunyuan-jindou", 24, "dinghaizhu", 24 })
+tactics             : ({ "mag_attack" })
+tactics_rate        : ({ 100 })
+special_victim      : ({ "life_min", "random" })
+special_victim_rate : ({ 70, 30 })
+special_func        : "do_special_for_am15"
